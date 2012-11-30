@@ -1,3 +1,12 @@
+---
+title: IRC (EFnet) by telnet
+author: Ron Ritzman
+status: historical
+---
+
+*Editor's Note: This document is outdated, and is retained only for historical interest.*
+
+
 #  IRC (EFnet) by telnet
 
 Frequently asked questions
