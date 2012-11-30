@@ -1,0 +1,3 @@
+Usage: WINDOW POP 
+  Pops the top window off the window stack making it the current 
+  window.  If it is hidden, then makes it visible first.

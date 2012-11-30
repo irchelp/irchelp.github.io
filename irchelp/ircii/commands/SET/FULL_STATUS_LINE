@@ -1,0 +1,5 @@
+Usage: SET FULL_STATUS_LINE [ON|OFF|TOGGLE]
+  When ON, IRCII will always draw it's status line to fill the 
+  entire width of the screen.  When OFF, the status line will
+  only be as long as it needs to be to accommodate the displayed
+  information.

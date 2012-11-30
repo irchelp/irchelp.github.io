@@ -1,0 +1,7 @@
+Usage: DCC SEND <nick> <filename>
+  DCC SEND initiates a file transfer by direct client connection.
+  The recipient must accept your offer of a file transfer with
+  DCC GET.
+
+See Also:
+  DCC GET

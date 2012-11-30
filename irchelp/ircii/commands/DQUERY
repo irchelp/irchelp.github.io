@@ -1,0 +1,8 @@
+Usage: DQUERY [<nickname>]
+  DQUERY is an alias for QUERY =<nickname>, thus allowing you
+  to QUERY a DCC CHAT connection.
+
+See Also:	
+  DCC CHAT
+  MSG
+  QUERY

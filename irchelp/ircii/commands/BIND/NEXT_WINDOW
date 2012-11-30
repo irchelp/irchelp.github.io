@@ -1,0 +1,5 @@
+Usage: BIND <key> NEXT_WINDOW
+  Switches the "current window" to be the next window in the
+  window list.  This is the window "below" the current window on
+  the screen.  At the bottom of the screen, this will jump to the
+  top most window on the screen.

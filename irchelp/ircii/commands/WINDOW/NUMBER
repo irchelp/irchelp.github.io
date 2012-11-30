@@ -1,0 +1,4 @@
+Usage: WINDOW NUMBER <n>  
+  Changes the REFNUM associated with the current window to <n>,
+  possibly causing a swap with the current window, and the current
+  window <n>.

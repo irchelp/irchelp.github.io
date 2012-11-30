@@ -1,0 +1,6 @@
+Usage: SET STATUS_HOLD_LINES <text of message for status line>
+  The value of STATUS_HOLD_MODE is replaced in the STATUS_FORMAT
+  variable for any occurence of %B if the display is current on 
+  hold.  This shows the number of lines currently being held in
+  the buffer. If the display is not being help, it is replaced 
+  with nothing.

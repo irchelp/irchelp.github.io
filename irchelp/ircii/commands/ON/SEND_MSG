@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]SEND_MSG [-|^]<parameters> [action]
+  This is activated whenever you send a MSG to someone else.
+  The parameters for the action are as follows:
+    $0    nickname of person to whom you sent the MSG
+    $1-   The message itself

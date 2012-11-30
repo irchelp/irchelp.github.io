@@ -1,0 +1,6 @@
+Usage: HISTORY [<number>]
+  Displays the command history to the screen.  You can specify
+  the number of history entries you wish to view as well.
+
+See Also:
+  SET HISTORY

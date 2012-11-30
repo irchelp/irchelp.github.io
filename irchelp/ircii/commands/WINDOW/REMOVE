@@ -1,0 +1,7 @@
+Usage: WINDOW REMOVE <n>  
+  Removes <n> to window namelist, where <n> is either a nick or channel 
+  name.  All communication with <n> will go to that window.  Also, <n>
+  may be a comma separated list (no spaces).
+
+See Also:
+  WINDOW ADD

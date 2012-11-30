@@ -1,0 +1,6 @@
+Usage: SET NO_CTCP_FLOOD [ON|OFF|TOGGLE]
+  When ON, your client will only send out one CTCP reply every 2 seconds,
+  and ignore any other CTCP requests it gets in the meantime.
+  When OFF, it will process CTCP replies properly, ie
+    ^AFINGER blah^A^AVERSION^A
+  will work.

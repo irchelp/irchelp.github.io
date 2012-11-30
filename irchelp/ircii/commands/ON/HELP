@@ -1,0 +1,4 @@
+Usage: ON [#|+|-|^|&|@]HELP [-|^]<parameters> [action]
+  ON HELP is activated for each line of the HELP command 
+  that is displayed.  There is probably no other use 
+  for this except by IRCIIHelp.  So ignore it.

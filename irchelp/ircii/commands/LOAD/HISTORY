@@ -1,0 +1,8 @@
+Usage: LOAD history
+  Let's you use a few special escape sequences in a line.
+    !$           expands to the last word in the previous line
+    !0 !1 ... !9 expand to the first ten words in the last line entered
+    !*           expands to all but the first word in the last line entered
+
+  Use meta3-h to toggle function on and off..  ^K is bound to meta3
+  in this script, thus  ^K-h will turn it on and off.

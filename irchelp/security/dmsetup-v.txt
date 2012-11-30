@@ -1,0 +1,36 @@
+
+
+Removal instructions for dmsetup.viagra
+
+This is a new trojan that has rapidly started to plague EFnet , Galaxynet
+probably other networks.
+
+At present manual removal is the only option.
+
+Detecting DMSetup.viagra
+The presence of the profiles.ini in the mirc directory confirms infection.
+At present this trojan doesn't add to autoexec.bat or registry, it does
+alias several commands likely to be used by people trying to remove the
+trojan, and it does permit a cracker access to all files on your c:\
+
+
+To remove in under Windows 95/98 do the following.
+
+1) close *** ALL *** copies of mIRC (VERY important)
+
+2) Go to Start -> Find -> Files or Folders 
+Search the C:\ for the file profiles.ini
+Delete ALL copies you find.
+
+3) Repeat step one except do it for each of the following files
+mirc.ini
+viagra.exe
+com.exe
+videosex.exe
+
+
+
+Dracus 10 Apr 1999
+adapted from email from MrSimpson 9 Apr 1999
+
+

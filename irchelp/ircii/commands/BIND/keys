@@ -1,0 +1,17 @@
+Allowable key sequences for use with the BIND function:
+  c          where c is any key (case sensitive)
+  ^c         where c is one of A thru Z or one of
+             the following quoted set '?[]\^@'
+	     (^? == delete key)
+  METAn-c    where n is 1, 2, 3 or 4 and c is the same as the 
+             first form above
+  METAn-^c   where n is 1, 2, 3 or 4 and c is the same as the
+             second form above
+  mc         where m has been previously bound to META1_CHARACTER,
+             META2_CHARACTER, META3_CHARACTER, or META4_CHARACTER 
+	     and c is the same as the first form above.  m may be 
+	     either of the first two forms above (m or ^m).
+  m^c        where m has been previously bound to META1_CHARACTER
+             META2_CHARACTER, META3_CHARACTER, or META4_CHARACTER
+             and c is the same as the second form above.  m may be
+             either of the first two forms above (m or ^m).

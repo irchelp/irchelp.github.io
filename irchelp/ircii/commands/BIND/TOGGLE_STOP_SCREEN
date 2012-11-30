@@ -1,0 +1,4 @@
+Usage: BIND <key> TOGGLE_STOP_SCREEN
+  Stops and starts the screen display if it is scrolling madly
+  out of your control.  The display is also restarted after the
+  SEND_LINE function is executed.

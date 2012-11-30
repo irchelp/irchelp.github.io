@@ -1,0 +1,28 @@
+The IRCII status line shows some important pieces of information.
+It shows your current nickname (with an asterisk next to it if
+you have OPER privs), your current channel and QUERY user (if you
+are QUERYing anyone), current Insert or Overwrite mode (I or O),
+and your AWAY status.
+
+The status line may be customized using certain IRCII variables.
+Please see the following for more information on this:
+HELP SET
+HELP SET STATUS_AWAY
+HELP SET STATUS_CHANNEL
+HELP SET STATUS_CHANOP
+HELP SET STATUS_CLOCK
+HELP SET STATUS_FORMAT
+HELP SET STATUS_HOLD
+HELP SET STATUS_HOLD_LINES
+HELP SET STATUS_MODE
+HELP SET STATUS_NOTIFY
+HELP SET STATUS_OPER
+HELP SET STATUS_OVERWRITE
+HELP SET STATUS_QUERY
+HELP SET STATUS_SERVER
+HELP SET STATUS_UMODE
+HELP SET STATUS_USER
+HELP SET STATUS_USER1
+HELP SET STATUS_USER2
+HELP SET STATUS_USER3 
+HELP SET STATUS_WINDOW 

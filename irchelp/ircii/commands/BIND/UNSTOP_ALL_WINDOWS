@@ -1,0 +1,2 @@
+Usage: BIND <key> UNSTOP_ALL_WINDOWS
+  When activated, all currently stopped windows will be restarted.

@@ -1,0 +1,16 @@
+To obtain WSIRC help, use
+/msg ai- <topic>
+where <topic> is two words from the list below.
+Like: /msg ai- wsirc dcc or /msg ai- wsirc registration
+.
+WSIRC Compare.......WSIRC DCC
+WSIRC Expire........WSIRC Finger
+WSIRC Manual........WSIRC Modes
+WSIRC MultiSessions.WSIRC Registration
+WSIRC Scripts.......WSIRC Scrolling
+WSIRC Sources.......WSIRC Status
+WSIRC Versions......WSIRC Chameleon
+WSIRC PCTCP.........WSIRC Trumpet
+.
+This WSIRC help facility was created and is
+maintained by JimBenson@ImageFast.Com, (FreeSoft).

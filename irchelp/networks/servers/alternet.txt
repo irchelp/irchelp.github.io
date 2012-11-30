@@ -1,0 +1,22 @@
+List of AlterNet servers
+
+All servers listen on port 4110.
+
+[Last update: 31 Dec 97 01:15 GMT+0200]
+
+
+BELGIUM
+
+alternet.luc.ac.be
+
+SWEDEN
+
+alternet.one.se
+
+UNITED STATES
+
+[CA] alternet.sonn.com
+[MA] irc.3sheep.com
+[PA] alternet.sru.edu
+[TX] alternet.tamu.edu
+[TX] irc.drunk-admins.com

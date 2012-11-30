@@ -1,0 +1,8 @@
+Usage: LOAD silent
+  A series of ON commands, which will make all of the *** join, leave,
+  signoff nickname and mode change messages disappear. Meant to be used
+  in high-traffic channels such as #report.
+
+  If you have %U somewhere in your STATUS_FORMAT variable, the messages
+  will appear in the status line instead, which is much less annoying,
+  than to have them in the ircII windows.

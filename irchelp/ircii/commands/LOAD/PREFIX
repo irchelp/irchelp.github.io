@@ -1,0 +1,4 @@
+Usage: LOAD prefix
+  For those who use multiple channels without opening windows
+  for each of them. The channel name talk is coming from or going
+  to is displayed as prefix to each line.

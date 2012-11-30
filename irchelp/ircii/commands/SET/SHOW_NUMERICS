@@ -1,0 +1,3 @@
+Usage: SET SHOW_NUMERICS [ON|OFF|TOGGLE]
+  If ON, then any numeric protocol messages from the server will
+  have their corresponding number shown on the line.

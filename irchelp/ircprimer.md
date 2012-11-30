@@ -1,0 +1,2225 @@
+_ [ Note: At 93 K in size, this "short" help file is anything but short, and
+may take over a minute to load if you have a slow modem. Don't access anything
+in the table of contents until the whole thing is loaded. --Jolo ] _
+
+* * *
+
+# A Short IRC Primer
+
+Written by:
+
+~~~~~~~~~~
+
+Nicolas Pioch, (Nap on IRC)
+
+< Nicolas.Pioch@grasp.insa-lyon.fr >
+
+Text conversion by:
+
+~~~~~~~~~~~~~~~~~~~
+
+Owe Rasmussen, (Sorg on IRC)
+
+< d1rasmus@dtek.chalmers.se >
+
+HTML conversion & update by:
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Michelle A. Hoyle, (Eingang on IRC)
+
+< hoyle@ifi.unizh.ch >
+
+Joseph Lo, (Jolo on IRC)
+
+[email form](http://bishop.mc.duke.edu/~jyl/mail.cgi)
+
+Edition 1.2, January 1, 1997
+
+* * *
+
+# Abstract
+
+Have you ever wanted to talk with other computer users in other parts of the
+world? Well guess what? You can! The program is called IRC, (Internet Relay
+Chat), and it is networked over much of North America, Asia Europe, and
+Oceania. This program is a substitute for 'talk', and many other multiple talk
+programs you might have read about. When you are talking on IRC, everything
+you type will instantly be transmitted around the world to other users that
+might be watching their terminals at the time. They can then type something
+and respond to your messages, and vice versa. I should warn you that the
+program can be very addictive once you begin to make friends and contacts on
+IRC, especially when you learn how to talk in 14 languages.
+
+Topics of discussion on IRC are varied, just like the topics of Usenet
+newsgroups are varied. Technical and political discussions are popular,
+especially when world events are in progress. IRC is also a way to expand your
+horizons, as people from many countries and cultures are on 24 hours a day.
+Most conversations are in English, but there are always channels in German,
+Japanese, French, Finnish, and occasionally other languages.
+
+IRC gained international fame during the late Persian Gulf War, when updates
+from around the world came across the wire, and most people on IRC gathered on
+a single channel to hear these reports.
+
+* * *
+
+# Table of Contents
+
+  1. Getting started
+    1. Clients and Servers
+    2. How to Behave on IRC
+    3. Privacy on IRC 
+    4. First Steps
+    5. Screen and Keyboard activity
+
+  2. Let's go!
+    1. General Commands
+    2. Private Conversations and Communication
+    3. Channels and Public Conversations
+    4. Channel and User Modes
+    5. Client to Client Protocol
+    6. Network Related Commands
+    7. Quick Reference Panel
+    8. Further into ircII Wizardry
+    9. Sample .ircrc
+    10. Writing Automatons
+
+  3. [Frequently Asked Questions](FAQ)
+    1. How do I set up an IRC client?
+    2. Which server do I connect to?
+    3. What are good channels to try while using IRC?
+    4. How do I get nifty effects with ircII?
+    5. What if someone tells me to type something cryptic?
+    6. I get strange characters on my screen. What are they?
+    7. What about NickServ?
+    8. I'm being flooded and harassed by a jerk. Help!
+    9. How do I get rid of a ghosted IRC session?
+    10. About KILL usage.
+    11. Where can I find more?
+
+  4. Administrativia 
+    1. Revision history 
+    2. Release sites for the IRCprimer 
+    3. Copyright (C) 1993 Nicolas PIOCH
+    4. Credits
+
+# List of Tables
+
+* Table 1:Editing keys 
+* Table 2:Editing commands 
+* Table 3:Simple screen activity 
+* Table 4:General commands 
+* Table 5:Private conversation commands 
+* Table 6:Channel commands 
+* Table 7:Mode commands 
+* Table 8:Channel modes 
+* Table 9:User modes 
+* Table 10:Client to client commands 
+* Table 11:Network related commands 
+* Table 12:Setting environment tables 
+* Table 13:Environment variables 
+* Table 14:Advanced commands 
+* Table 15:FTP sites with IRC clients 
+* Table 16:Open telnet IRC clients 
+* Table 17:Open IRC servers 
+* Table 18:Highlighting ircII output 
+* Table 19:Nordic countries character translations 
+* Table 20:IRC related mailing lists 
+* Table 21:IRCprimer release sites  [ table of contents | navigation bar ]
+
+* * *
+
+# 1. Getting Started
+
+### 1.1 Clients and Servers
+
+IRC (original code was written by Jarkko Oikarinen) is a multi-user, multi-
+channel chatting network. It allows people all over the internet to talk to
+one another in real-time. It is a functional replacement and improvement to
+'talk'; 'talk' is an old, primitive, atrocious, minimalist sort of
+keyboard/screen conversation tool, using a grotesque, machine- dependent
+protocol (blah!). IRC does everything 'talk' does, but with better protocol,
+allowing more than 2 users to talk at once, with access across the aggregate
+Internet, and providing a whole raft of other useful features.
+
+There are two ways to enter IRC from a Unix system. If you are using the emacs
+(editor from Richard Stallman and the Free Software Foundation) lisp client,
+you just have to type "M-x irc", (if this doesn't work you may need to load
+the client into your emacs session). If you are using the C client, (easier
+for beginners), then you usually type "irc". Non-Unix boxes have special
+clients, each of which has to be configured using a special procedure. Check
+the manual or help screen for more information.
+
+If you wish to be known by a nickname which is not your login name, type "irc
+nickname" instead. Each IRC user, ("client"), chooses a nickname. All
+communication with another user is either by nickname or by the channel that
+they or you are on (more information about channels later on).
+
+The most important thing to remember about IRC is that you have to be willing
+to explore and learn to use it. Take your time, try not to get flustered,
+enjoy yourself, and you will soon be making new friends all over the world!
+
+IRC is based on a client-server model. Clients are programs that connect to a
+server, a server is a program that transports data, (messages), from a user
+client to another. There are clients running on many different systems, (Unix,
+emacs, VMS, MSDOS, VM...), that allow you to connect to an IRC server. The
+client which will be spoken of here is the most widespread: ircII, (originally
+designed by Michael Sandrof). Other clients are similar, and often accept
+ircII commands.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 1.2 How to behave on IRC
+
+The most widely understood and spoken language on IRC is English. However, as
+IRC is used in many different countries, English is by no means the only
+language. If you want to speak some other language than English, (for example
+with your friends), go to a separate channel and set the topic to indicate
+that. On the other hand, you should check the topic before you move to a
+channel to see if there are any restrictions about language. On a non-
+restricted channel, please speak a language everybody can understand. If you
+want to do otherwise, change channels and set the topic accordingly.
+
+It's not necessary to greet everybody on a channel personally. Usually one
+"Hello!" or equivalent is enough. And don't expect everybody to greet you
+back. On a channel with 20 people that would mean one screenful of hellos.
+It's sensible not to greet, in order not to be rude to the rest of the
+channel. If you must say hello to somebody you know, do it with a private
+message. The same applies to goodbyes.
+
+Also note that using your client facilities, (ircII "ON" command, for
+instance), to automatically say hello or goodbye to people is extremely poor
+etiquette. Nobody wants to receive auto-greets. They are not only obviously
+automatic, but even if you think you are polite, you are actually sounding
+insincere and also interfering with the personal environment of the recipient.
+If somebody wants to be auto-greeted on joining a channel, he will auto-greet
+himself.
+
+Remember, people on IRC form their opinions about you only by your actions,
+writings and comments, so think before you type. If you use offensive words,
+you'll be frowned upon. Do not "dump" to a channel or user, (send large
+amounts of unwanted information). This is likely to get you kicked off the
+channel or killed off from IRC. Dumping causes network "burps", connections
+going down because servers cannot handle the large amount of traffic anymore.
+Other prohibited actions include:
+
+  * Harassing another user. Harassment is defined as behavior towards another user with the purpose of annoying them.
+
+  * Annoying a channel with constant beeping.
+
+  * Any behavior reducing the functionality of IRC.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 1.3 Privacy on IRC
+
+You should always keep in mind that messages you send to someone over IRC are
+passed along all the servers between you and and the person you are writing
+to. When you're sending a letter to someone, any postman on the way could open
+it and read its contents.
+
+Well, it's the same on the network. Any IRC-Admin could compile their server
+in "debug" mode and log whatever messages are transmitted through his node,
+(it has already been done), so a good rule of thumb is not to trust the
+servers.
+
+**
+
+> IRC IS NOT A SECURE WAY OF COMMUNICATION!
+
+**
+
+How to establish direct communications between clients will be explained
+later, (see DCC CHAT in section 2.5). This should be used when you wouldn't
+want anybody else on IRC to intercept your private messages.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 1.4 First Steps
+
+Note: ircII, the client most people are using, has most of this information
+online. If you are stuck, type "/HELP" and hit . To escape from HELP mode,
+keep pressing  until your edit line, (the line at the bottom of the screen),
+is empty. Most of the information in this file can be found typing these
+commands: "/HELP INTRO" or "/HELP NEWUSER".
+
+**
+
+> All ircII commands begin with a "/irchelp/" character.
+
+**
+
+The slash is the default command character. Commands are not case sensitive,
+and can be abbreviated to their first letters: "/SI" and "/sign " stand for
+/SIGNOFF and will both end your IRC session, (more in section 2.1).
+
+Anything that does not begin with "/irchelp/" is assumed to be a message to
+someone and will be sent to your current channel, or to a person you are
+QUERYing, (the QUERY command will be detailed later on, maybe in section 2.2).
+
+If you are not sure about the spelling of an ircII command, type the prefix of
+that command, and press the ESCape key twice; ircII will give you a listing of
+commands and aliases that start with that prefix. Don't forget the "/irchelp/"
+in front of the command though.
+
+    
+    
+            /W <ESC><ESC>
+            *** Commands:
+            ***     WAIT            WALL            WALLOPS         WHICH
+            ***     WHILE           WHO             WHOIS           WHOWAS
+            ***     WINDOW
+            *** Aliases:
+            ***     W
+    
+
+This is an example. Your screen may show more aliases, and less commands than
+shown here, or less aliases and more commands - in other words "your mileage
+may vary."
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 1.5 Screen and Keyboard activity
+
+IRC is a full-screen utility. It takes over the screen, with the bulk of
+activity happening in the top (N-2) lines, a status line, (vaguely emacs-
+like), on the next to last line, and your input being entered on the last
+line. When typing commands at ircII, you have a minimalist line-editing
+facility in an emacs style.
+
+    
+    
+            Table 1:  Editing keys
+            ----------------------
+               Key      Effects
+               ~~~      ~~~~~~~
+                ^P      recalls previous command line
+                ^N      recalls next command line
+                ^F      moves forward one character
+                ^B      moves backward one character
+                ^A      moves the cursor to the beginning of the line
+                ^E      moves the cursor to the end of the line
+                ^D      deletes the character under the cursor
+                ^K      kills from the cursor to the end
+                ^Y      reinserts the last stretch of killed text
+                ^U      clears the whole line
+                ^L      redraws the screen
+    
+    
+    
+            Table 2:  Editing commands
+            --------------------------
+               Keyword   Action
+               ~~~~~~~   ~~~~~~
+               !         recalls previous commands for re-editing
+               HISTORY   displays the command history
+               LASTLOG   lists the most recent messages
+               CLEAR     puts some white space on your screen
+    
+
+The ! command is used to recall previous commands in your command history for
+re-execution. The ! command is unique in that when it is used, it leaves the
+matching history entry in the input line for re-editing. You can specify a
+history entry either by its number in the history list, or by a match with a
+given wildcard expression. For instance, "/!10" will put entry 10 in the
+history list into the input line. "/!/MSG" will search the history for a line
+beginning with a /MSG, (a "*" is implied at the end).
+
+**/!** [<history number>|<history match>]  
+
+> Recalls previous commands for re-editing.
+
+**/HISTORY** [<number>]  
+
+> Displays the command history on the screen. You can specify the number of
+history entries you wish to view as well.
+
+Almost everything happens in the upper bulk of the screen. This includes both
+messages from other users, as well as the output of the control commands.
+Normal messages from other users appear with the originating nickname in
+<angle brackets>. Private messages arrive with the originating nickname in
+*asterisks*. Messages you send to everyone appear with a preceding "> "
+whereas messages you send privately to another user appear with "->
+*nickname*". Other output (invitations from other users to join channels, and
+so forth), appears interspersed with other activity on the screen.
+
+    
+    
+                        Table 3:  Simple screen activity
+                        --------------------------------
+    
+      What is displayed    What you typed      Sender     Recipients
+      ~~~~~~~~~~~~~~~~~    ~~~~~~~~~~~~~~      ~~~~~~     ~~~~~~~~~~
+      > Morning people     Morning, people     You        Channel
+      <some1else> hello                        some1else  Channel
+      -> *some1else* hi!   /msg some1else hi!  You        some1else (only)
+      *some1else* wassup?                      some1else  You (only)
+    
+    
+
+Last ircII outputs can be recalled with:
+
+**/LASTLOG** [<number of entries>|<text> [<from entry>]]  
+
+> Displays the contents of the lastlog. This is a list of the most recent
+messages that have appeared on the screen, useful if you inadvertantly miss
+messages. If no arguments are given, the entire lastlog is displayed. If the
+first argument is a number, it determines how many log entries to show.
+Otherwise it is searched for in every lastlog entry. The second argument
+determines how many lines back to start display from.
+
+    
+    
+            /LASTLOG
+            > Public message I send to all in the channel
+            <some1else> Public message from some1else
+            *some1else* Private message sent to me by some1else
+            -> *some1else* Private message I send to some1else
+    
+
+Finally, if your screen gets garbage from a 'talk', 'write', 'wall' or any
+other form of primitive communication (smirk), hit ^L to redraw it, or CLEAR
+it.
+
+**/CLEAR**  
+
+> Clears the screen.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+# 2. Let's Go!
+
+### 2.1 General Commands
+
+    
+    
+                   Table 4:  General commands
+                           --------------------------
+        Keyword   Action
+        ~~~~~~~   ~~~~~~
+        NICK      changes your nickname
+        QUIT      exits your IRC session, (same as BYE, SIGNOFF and EXIT)
+        HELP      prints help on the given command
+        WHOIS     displays information about someone
+        WHOWAS    displays information about someone who just left
+        AWAY      leaves a message saying you're not paying attention
+    
+
+**/NICK** [<nickname>]  
+
+> Changes your nickname to whatever you like.
+
+Everyone who wants to talk to you sees this name - also, at the moment,
+nicknames are limited to 9 characters max. Your nickname will be the same as
+your login name by default. You can also set an environment variable, IRCNICK,
+the value of which will be used instead. Nickname clashes are not allowed;
+this is enforced by the servers. If your intended nickname clashes with
+someone else's as you enter IRC, you will not be able to enter until you
+change it to something else.
+
+    
+    
+            /NICK Nappy
+            *** Nap is now known as Nappy
+    
+
+**/QUIT** [<reason>]  
+
+> Exits your IRC session. You can also use BYE, SIGNOFF and EXIT. If a reason
+is supplied, it is displayed to other people on your channels.
+
+    
+    
+            /QUIT Lunch Time!
+    
+
+**/HELP** [<command>]  
+
+> Shows help on the given command. Note: This is not installed for all
+clients, which can be kind of annoying.
+
+    
+    
+            /HELP HELP
+            Usage: HELP [command]
+               Shows help on the given command. The help documentation is set
+               up in a  hierarchical fashion.  That  means that  certain help
+               topics have sub-topics under them.
+            [boring stuff deleted]
+    
+
+**/WHOIS** [<nickname>]  
+
+> Shows information about someone.
+
+    
+    
+            /WHOIS Nap
+            *** Nap is pioch@poly.polytechnique.fr (Klein bottle for sale...
+               inquire within.)
+            *** on channels: @#Twilight_Zone @#EU-Opers
+            *** on via server poly.polytechnique.fr (Ecole Polytechnique,
+              Paris, FRANCE ! )
+            *** Nap has a connection to the twilight zone (is an IRC operator)
+            *** Nap has been idle 0 seconds
+    
+            /WHOIS Nappy
+            *** Nappy: No such nickname
+    
+
+Sometimes WHOIS won't help you much, because the person you want to know more
+about just left IRC or changed nick. However, you can use WHOWAS to get this
+information for a while:
+
+**/WHOWAS** [<server>] [<nickname>]  
+
+> Shows information about who used the given nickname last, even if no one is
+currently using it.
+
+    
+    
+            /WHOWAS Nappy
+            *** Nappy was pioch@poly.polytechnique.fr (Artistic ventures
+              highlighted. Rob a museum.) on channel *private*
+            *** on irc via server poly.polytechnique.fr (Signoff: Mon Jun 22
+              20:15:23)
+    
+
+Very often, an unsuccessful call to WHOIS will lead you to try WHOWAS. That's
+why ircII allows you to "/SET AUTO_WHOWAS ON"; that way, a "*** <nickname>: No
+such nickname" message will auto-magically generate a "/WHOWAS <nickname>".
+Try typing "/HELP SET AUTO_WHOWAS" for more information on this topic.
+
+**/AWAY** [<away message>]  
+
+> Leave a message explaining that you are not currently paying attention to
+IRC. Whenever someone sends you a MSG or does a WHOIS on you, they
+automatically see whatever message you set. Using AWAY with no parameters
+marks you as no longer being away.
+
+    
+    
+            /AWAY Gone to get a cup of coffee.
+            *** You have been marked as being away
+    
+            /AWAY
+            *** You are no longer marked as being away
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.2 Communication and Private Conversation
+
+    
+    
+                     Table 5: Private conversation commands
+                     --------------------------------------
+          Keyword  Action
+          ~~~~~~~  ~~~~~~
+          MSG      sends a private message
+          QUERY    starts a private conversation
+          NOTICE   sends a private message
+          NOTIFY   warns you of people logging in or out IRC
+          IGNORE   removes output from specific people off your screen
+    
+
+You can use the MSG command, (usually "M" is an alias for it), to send someone
+a message that only that person can read.
+
+**/MSG** <nickname>|<channel> <text>  
+
+> Send a private message to specified nickname.
+
+    
+    
+            /MSG Nap This message is for Nap only.
+            -> *Nap* This message is for Nap only.
+    
+            On my screen will appear:
+    
+            *YourNick* This message is for Nap only.
+    
+
+If you want to send a private message to more than one person, you can specify
+a list of nicknames separated by commas, (no spaces).
+
+    
+    
+            /MSG Nap,Sorg This message for both Nap and Sorg.
+            -> *Nap* This message for both Nap and Sorg.
+            -> *Sorg* This message for both Nap and Sorg.
+    
+
+Two special case nicknames are defined. If the nickname is "," (a comma), the
+message is sent to the last person who sent you a MSG. If the nickname is "."
+(a period), the message is sent to the last person to whom you sent a message.
+
+You can have a private conversation by only using /MSG. However, typing "/MSG
+<nick> <text>" or "/MSG . <text>" gets cumbersome. That's where the /QUERY
+command comes in handy.
+
+**/QUERY** [<nickname>|<channel>]  
+
+> Starts a private conversation with <nickname>.
+
+All text you type that would normally be sent to your channel now goes to the
+supplied nickname in the form of MSGs. To cancel a private conversation, use
+QUERY with no arguments.
+
+    
+    
+            /QUERY Nap
+            *** Starting conversation with Nap
+    
+            Blahblahblah
+            -> *Nap* Blahblahblah
+    
+            /QUERY
+            *** Ending conversation with Nap
+    
+
+There is also another command to send messages, called NOTICE. Unlike MSGs,
+NOTICEs are surrounded by '-' when printed, and no automated responses, (such
+as generated by IGNORE or an automaton), will be sent in reply. Services,
+(robots), on IRC often use this form of interaction.
+
+**/NOTICE** <nickname>|<channel> <text>  
+
+> Sends a private message to the specified <nickname>.
+
+    
+    
+            /NOTICE Nap Better use /MSG instead of /NOTICE.
+            -> -Nap- Better use /MSG instead of /NOTICE.
+    
+            On my screen will appear:
+    
+            -YourNick- Better use /MSG instead of /NOTICE.
+    
+
+As you begin to make new friends over IRC, you'll want to mark certain
+nicknames such that you will be warned when they signon or off.
+
+**/NOTIFY** [[-]<nickname>]  
+
+> Adds or removes  to the list of people you'll be warned when they enter or
+quit IRC (in ircII versions prior to 2.2, too many people in the NOTIFY list
+cause excessive slowness).
+
+    
+    
+            /NOTIFY Nap Nappy
+            *** Signon by Nap detected
+    
+            /NOTIFY
+            *** Currently present: Nap
+            *** Currently absent: Nappy
+    
+
+Eventually, you may wish some day not to see messages from a specific user on
+your screen. This may happen when someone is dumping large amounts of garbage,
+or if someone is harassing you. The proper response to such a behavior is to
+IGNORE that person. IGNORE is a very powerful command, and can be used in many
+ways. However the basic usage of this tool is the following.
+
+**/IGNORE** [<nickname>|<user@host> [[-]<message type>]]  
+
+> Suppresses output from the given people from your screen. IGNORE can be set
+by nickname or by specifying a userid@hostname format. Wildcards may be used
+in all formats. Output that can be ignored includes MSGs, NOTICEs, PUBLIC
+messages, INVITEs, ALL or NONE. Preceding a type with a "-" indicates removal
+of ignoring of that type of message.
+
+    
+    
+            /IGNORE *@cheshire.oxy.edu ALL
+            *** Ignoring ALL messages from *@CHESHIRE.OXY.EDU
+    
+            /IGNORE
+            *** Ignorance list:
+            ***     *@CHESHIRE.OXY.EDU      ALL
+    
+            /IGNORE *@cheshire.oxy.edu NONE
+            *** *@cheshire.oxy.edu removed from ignorance list
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.3 Channels and Public Conversations
+
+On IRC, there are a lot of places where you can "hang out"; those places are
+called 'channels', (most of the information in this section can also be
+obtained by issuing "/HELP CHANNEL"). You can compare conversations on a
+channel to a conversation among a group of people: you see/hear everything
+that is said, and you can reply to anything that's said. What you type is
+received by everyone who's willing to listen - and everyone who is late will
+not hear what was said before, unless repeated by one of the ones who were
+there. (Who said "real life" ?)
+
+All channels on IRC have names: a "#" sign followed by some kind of text-
+string, like "#C++" or "#Asians" or "#EU-Opers". Usually, the name of the
+channel will indicate the type of conversation that's going on in there. Don't
+count on it, though.
+
+    
+    
+                           Table 6:  Channel commands
+                           --------------------------
+           Keyword   Action
+           ~~~~~~~   ~~~~~~
+           LIST      lists channels, number of users, topic
+           NAMES     shows the nicknames of the users on each channel
+           JOIN      sets your current channel, (same as CHANNEL)
+           WHO       gives a listing of users
+           INVITE    sends an invitation to another user
+           LEAVE     leaves a channel, (same as PART)
+           KICK      gets rid of someone on a channel
+           TOPIC     changes the topic of the channel
+           ME        sends anything about you to a channel or QUERY
+           DESCRIBE  sends anything about you to a person or channel
+    
+
+Every channel has certain characteristics, called channel modes. These will
+also be explained below. Remember the NAMES and LIST commands; they will show
+you the names of the existing channels.
+
+**/LIST** [[<flags>] <channel mask>]  
+
+> Lists all current "channels", number of users, and topic. The displayed list
+may be quite long, so you can limit it using flags. "/LIST -MIN n" for
+instance removes channels with less than 'n' users of the output.
+
+    
+    
+            /LIST -MIN 5
+            *** #aussies   5
+            *** #amiga     5        Daily Amiga Silence...join&enjoy;
+            *** #hottub    21       Imagine sky, high above...
+            *** #tuebingen 11       Happy Borthday CHUCK!!!
+            *** #Christian 6        Jesus!
+            *** #Twilight_ 15       The Oper Bar & Grill
+            *** #initgame  5        More players needed!!!!!!!!!!!!
+            *** #Taiwan    8        Welcome good friends.
+            *** #espanol   6        EMERGENCIA SE Necesitan Mujeres!
+            *** #sherwood  7
+            *** #francais  6        on apprend le japonais (japanese welcome)
+    
+
+**/NAMES** [[<flags>] <channel mask>]  
+
+> Shows the nicknames of all users on each "channel", (these may be very long.
+Remember to filter them with "-MIN n" or "-MAX n").
+
+    
+    
+            /NAMES -MIN 5
+            Pub: #twilight> Mycroft @sojge scorpio @Troy @Avalon @Nap phone
+               Merlinus Lumberjak @tzoper
+            Pub: #espanol   Cacique Bonjovi leopardo Carina Miguel Cisco r2
+            Pub: #amiga     @gio @Radix @xterm @mama @AmiBot
+            Pub: #aussies   @Bleve @GrayElf @Insomniac @Morkeleb @titus
+            Pub: #hottub    baby @Aldur KnightOrc @Toasty Gwydion @Belkira
+               @Aiken Edge @Spockobot @Nada @ZBot @Aurik @anna @RedBaron
+               @Katzen @esashi IceWolf @Eniigma @Digger @TheHeck
+    
+
+To join in the conversation on a certain channel you may use the JOIN command.
+
+**/JOIN** [<channel>]  
+
+> Sets your current channel to the supplied channel.
+
+    
+    
+            /JOIN #Twilight_Zone
+            *** Nap has joined channel #Twilight_Zone
+            *** Topic: The Gernsback Continuum
+            *** Users on #Twilight_Zone: Nap msa tober phone @julia @SirLance
+              igh @Daemon @Avalon @Waftam @Trillian @tzoper
+    
+
+The CHANNEL command has the same effects. Note that if no parameters are
+given, your current channel is displayed.
+
+Upon entering a channel, you are given useful details about it: list of users
+talking in that channel, topic... Joining a channel does not cause you to
+leave your previous channel unless NOVICE is set to ON. See "/HELP SET
+NOVICE".
+
+Once in a channel, you may wish to get a detailed list of the people IRCing
+inside. That's where the WHO command comes in handy:
+
+**/WHO**[<channel>|<wildcard expression>]  
+
+> Gives a listing of users. "/WHO *" for the list of users in your current
+channel.
+
+    
+    
+            /WHO #Twilight_Zone
+            Channel    Nickname     S    User@Host (Name)
+            #Twilight_ Nap          H*   pioch@poly.polytechnique.fr
+              (Quidquid latine dictum sit, altum viditur)
+            #Twilight_ msa          H    msa@tel1.tel.vtt.fi (Markku Savela)
+            #Twilight_ tober        H    ircuser@kragar.eff.org (tober)
+            #Twilight_ phone        H    mrgreen@munagin.ee.mu.OZ.AU (Third
+              row seats to the Cure? WHO ME? nah.. *grin*)
+            #Twilight_ julia        G*@  julie@turing.acs.Virginia.EDU
+              ( Future graduate of ACME Looniversity)
+            #Twilight_ SirLance     G*@  lancelot@tdsb-s.mais.hydro.qc.ca
+              (Sir Lancelot)
+            #Twilight_ igh          G    igh@micom1.servers.unsw.EDU.AU (igh)
+            #Twilight_ Daemon       G*@  frechett@spot.Colorado.EDU
+              (-=Runaway Daemon=-)
+            #Twilight_ Avalon       H*@  avalon@coombs.anu.edu.au (Avalon...)
+            #Twilight_ Waftam       G*@  danielce@munagin.ee.mu.OZ.AU (Daniel
+              Carosone)
+            #Twilight_ Trillian     G*@  hrose@rocza.eff.org ( I turn to
+              stone when you are gone )
+            #Twilight_ tzoper       H*@  tzoper@azure.acsu.buffalo.edu (/msg
+              tzoper help)
+    
+
+The first field is the current channel, then nickname, status, real name (in
+internet user@host form), and a small witty comment you can set yourself with
+the environment variable IRCNAME, (this will be detailed in section 2.8).
+Status indicates if a user is "H"ere or "G"one, (see AWAY), if IRCop ("*"),
+and/or a channel operator ("@").
+
+It is also possible, when you are already on a channel, to ask someone to join
+your channel. The command is called INVITE.
+
+**/INVITE** <nickname> [<channel>]  
+
+> Invites another user to a channel. If no channel is specified, your current
+channel is used.
+
+    
+    
+            /INVITE Nap
+            *** Inviting Nap to channel #Twilight_Zone
+    
+
+If you receive an INVITE message, you can type "/JOIN -INVITE" to join the
+channel to which you were last invited, or simply "/JOIN <channel>".
+
+To leave a channel, just issue a LEAVE command, (PART has the same effects):
+
+**/LEAVE** <channel>  
+
+> Leave a channel.
+
+    
+    
+            /LEAVE #Twilight_Zone
+            *** Nap has left #Twilight_Zone
+    
+
+Well, you guessed it, if there is a way to invite someone on a channel,
+there's also the possibility to KICK someone out of it, for example if this
+person is behaving like a jerk, annoying people or flooding the channel with
+unwanted information:
+
+**/KICK** [<channel>] <nickname>  
+
+> Kicks named user off a given channel. Only 'channel operators' are
+privileged to use this command.
+
+    
+    
+            /KICK #Twilight_Zone Target
+            *** Target has been kicked off channel #Twilight_Zone by Nap
+    
+
+Channels have topics, that indicate the current topic of conversation. You can
+change this topic on a channel with the TOPIC command.
+
+**/TOPIC** [[<channel>] <topic for channel>]  
+
+> Changes the topic for the channel.
+
+    
+    
+            /TOPIC The silent channel.
+            *** Nap has changed the topic on channel #EU-Opers to The silent
+              channel.
+    
+
+At times, you may want to send a description of what you are doing or how you
+are feeling or just anything concerning you to the current channel or query.
+It is absolutely good style not to forget the period at the end of the
+sentence!
+
+**/ME** <action description>  
+
+> Tells the current channel or query about what you are doing. You can also
+use your own nickname as command, i.e. you can type the line with a leading
+slash.
+
+    
+    
+            /ME opens up the fridge.
+            * Nap opens up the fridge.
+    
+            /Nap reaches out for the orange juice.
+            * Nap reaches out for the orange juice.
+    
+
+The same goal can be achieved towards a specific nickname using:
+
+**/DESCRIBE** <nickname>|<channel> <action description>  
+
+> Sends anything concerning you to the <nickname> or <channel> you pass as
+first argument.
+
+(Note: The look of the result depends on each client version, and might not be
+exactly the same as in the examples shown here.)
+
+These commands make use of CTCP, a client-to-client protocol crafted to
+perform specific actions, but not understood by all clients, (more about CTCP
+in section 2.5). If you get an error message, your description may not have
+arrived properly.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.4 Channel and User Modes
+
+Channels can have additional constraints, which can be set by the MODE
+command, (most of the information in this section can also be obtained by
+issuing "/HELP MODE"). To understand this, recall that the first person to
+JOIN a channel effectively creates it and is initially "in charge" of the
+channel, ("Channel Operator" or "chanop"). S/he can subsequently add those
+constraints, make other people chanops at leisure.
+
+    
+    
+                             Table 7:  Mode commands
+                             -----------------------
+                      Keyword  Action
+                      ~~~~~~~  ~~~~~~
+                      MODE     changes channel or user mode
+    
+
+Public is the default mode for a channel. When someone is on a public channel,
+he can be seen by all other users, (if his own user mode permits this). Anyone
+can notice users on a public channel and join such a conversation.
+
+Private means that, although anyone can see members of such a channel, you
+can't tell what channel they are on unless you are already on that channel
+with them. They just appear as "Prv: *" in LIST or NAMES. Since the number of
+potential channels is in the billions, this is quite some security - all you
+give away is the acknowledgement that you're IRCing.
+
+If you are on a secret channel, someone who is not on the same channel can't
+even see that you are there. Your name does not show up in a LIST of active
+users. The only indication of your presence is that, when entering IRC, all
+new users are told that there are "NNNNN users on XXX servers". If someone
+checks on all users and finds less than NNNNN of them, he knows that other
+people are hiding on secret channels. But a secret channel user still cannot
+be found except by brute-force checking through all channels, a hopeless
+proposition in the face of the huge number of possible channel names. Security
+through obscurity finally means something.
+
+**/MODE** <channel>|<nickname> [[+|-]<modechars> [<parameters>]]  
+
+> Allows channel operators to change channel mode, or any user to change their
+personal mode, (don't use this co mmand too often, it floods the net with
+worthless information).
+
+    
+    
+            /MODE #Twilight_Zone +m
+            *** Mode change "+m" on channel #Twilight_Zone by Nap
+    
+            /MODE Nap -i
+            *** Mode change "-i" for user Nap by poly.polytechnique.fr
+    
+            And this is how to give 'chanop' status to someone on the channel
+    
+            /MODE #Twilight_Zone +o sojge
+            *** Mode change "+o sojge" on channel #Twilight_Zone by Nap
+    
+
+A + or - sign determines whether the mode should be added or deleted. Try
+typing "/HELP MODE" to get further information. Channels can be moderated
+(only chanops can talk), secret, private, with a limited number of users,
+anonymous, invite-only, topic-limited, with a list of banned users.
+
+The MODE command also allows you to modify your personal parameters, your
+"user mode". You can check your usermode with the command "/MODE <YourNick>"
+or sometimes "/UMODE". Note that user mode +i may be the default on some
+servers, in order to protect privacy of users. This should not be seen as a
+problem, since any user can change his/her personal mode whatever defaults a
+server may set.
+
+    
+    
+                             Table 8:  Channel modes
+                             -----------------------
+            ModeChar        Effects on channels
+            ~~~~~~~~        ~~~~~~~~~~~~~~~~~~~
+            b <person>      ban somebody, <person> in "nick!user@host" form
+            i               channel is invite-only
+            l <number>      channel is limited, <number> users allowed max
+            m               channel is moderated, (only chanops can talk)
+            n               external /MSGs to channel are not allowed
+            o <nick>        makes  a channel operator
+            p               channel is private
+            s               channel is secret
+            t               topic limited, only chanops may change it
+    
+    
+    
+                              Table 9:  User modes
+                              --------------------
+            ModeChar        Effects on nicknames
+            ~~~~~~~~        ~~~~~~~~~~~~~~~~~~~~
+            i               makes yourself invisible to anybody that does
+                            not know the exact spelling of your nickname
+            o               IRC-operator status, can only be set
+                            by IRC-ops with OPER
+            s               receive server notices
+            w               receive wallops (abused and deprecated)
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.5 Client to Client Protocol
+
+**/CTCP** [<argument>]  
+
+> Allows you to perform certain client specific actions on the network.
+
+    
+    
+            /CTCP Nap VERSION
+            *** CTCP VERSION reply from Nap: ircII 2.2 *IX
+               :ircII 2.2, SL0 The one you thought you'd never see.
+    
+            This can be used to get information about how long a person has
+            been idle:
+    
+            /CTCP Nap FINGER
+            *** CTCP FINGER reply from Nap: PIOCH Nicolas - Nap on IRC, X90,
+              (pioch@poly.polytechnique.fr) Idle 0 seconds
+    
+    
+    
+                      Table 10:  Client to Client Commands
+                      ------------------------------------
+             Keyword    Action
+             ~~~~~~~    ~~~~~~
+             CTCP       performs certain client specific actions
+             DCC        handles direct connections to remote clients
+             DCC SEND   initiates a file transfer
+             DCC GET    accepts a file transfer
+             DCC CLOSE  ends a DCC connection or offer
+             DCC LIST   shows current DCC connections
+             DCC CHAT   initiates a secure chat between two clients
+    
+
+There are many other CTCP commands, and new ones are introduced all the time.
+There is a mechanism for you to find out what you can use: CTCP CLIENTINFO. To
+find out about your own client services, execute a CLIENTINFO on yourself.
+
+    
+    
+            /CTCP Nap CLIENTINFO
+            *** CTCP CLIENTINFO reply from Nap: SED VERSION CLIENTINFO
+               USERINFO ERRMSG FINGER TIME ACTION DCC UTC PING :Use
+               CLIENTINFO  to get more specific information
+    
+
+If you are interested in this powerful CTCP mechanism, have a look in the
+various ircII help files. "/HELP CTCP" might tell you more. However the
+client-to-client protocol has a very powerful feature: Allowing two people to
+exchange files.
+
+To send small text files, electronic mail is probably the best solution,
+(don't rely on the user@host given by the WHOIS command to send mail. However,
+ircII provides you a way to establish Direct Client Connections ("DCC") to
+perform functions like sending and receiving files.
+
+If NickA wants to send a file to NickB, then NickA should type: "/DCC SEND
+NickB filename". On NickB's screen will appear: "*** DCC SEND (filename)
+request received from NickA". If he, (NickB), wants to get the file, he just
+needs to type: "/DCC GET NickA filename"
+
+    
+    
+    A few seconds later
+            *** DCC GET connection with NickA established
+            *** DCC GET filename connection to NickA completed
+    will   inform  both  users  that  data  transfer  has  been  successfully
+    completed.
+    
+
+Here's a quick overview of the subject:
+
+**/DCC** <function> [<arguments>] 
+
+> Handles direct connections to remote clients. The behaviour of DCC is
+determined by the specified .
+
+**/DCC SEND** <nickname> <filename>  
+
+> Initiates a file transfer by direct client connection.
+
+**/DCC GET** <nickname> <filename>  
+
+> Accepts a file transfer by direct client connection. The sender must first
+have offered the file with DCC SEND.
+
+**/DCC CLOSE** <type> <nickname> [<arguments>]  
+
+> Ends an unwanted DCC connection or offer. The , <nickname> and <arguments>
+must be the same as those shown by "/DCC LIST". If the arguments are not
+supplied, the oldest connection of the specified type is closed.
+
+**/DCC LIST**  
+
+> Shows current /DCC connections with their types, status and nicknames
+involved.
+
+More details can be found in ircII online help: try "/HELP DCC" for more
+information.
+
+If someone asks you to send him a file, don't do it unless you exactly know
+what you are doing. For instance, NEVER send the password file of your system
+to anybody. This could grant crackers illegal access to your machines, and put
+you and your system administrator in a lot of trouble.
+
+DCC also allows two clients to establish a direct client connection for chat.
+This is a secure form of communication, since messages are not sent through
+the IRC network.
+
+**/DCC CHAT**  
+
+> Initiates a direct client connection chat to the given nick, who must repond
+with DCC CHAT. Once established, messages are sent over with "/MSG =Nickname
+...".
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.6 Network Related Commands
+
+If you encounter any problem, contact your local IRC-Administrator or an IRC-
+Operator. An IRC-Admin is a person who has access to all files concerning
+'ircd' (the server program). An IRC-Operator or "IRC-op" is a person who has
+privileges given to him by an IRC-Admin and tries to maintain a fast reliable
+IRC network. Information on how you can find out who s/he is, can be found
+below.
+
+Each time you are prompted for a server name, remember you can supply the
+nickname of someone being connected on that server instead. This may be useful
+at times.
+
+    
+    
+                       Table 11:  Network related commands
+                       -----------------------------------
+         Keyword  Action
+         ~~~~~~~  ~~~~~~
+         ADMIN    displays information about a server
+         LINKS    shows the servers on the IRC network
+         SERVER   switches your primary server
+         MOTD     displays the server message-of-the-day
+         USERS    prints users logged on the server machine
+         DATE     shows server current date and time
+         TIME     shows server current date and time
+         LUSERS   gives a brief listing of users, servers and operators
+         TRACE    shows the server connections of the given server
+         STATS    shows some irc server usage statistics
+         INFO     shows useless information about IRC
+         VERSION  shows client and server version number
+    
+
+**/ADMIN** [<server>]  
+
+> Displays the administrative details about the given server. If no server is
+supplied, the server you are connected to is used.
+
+    
+    
+            /ADMIN
+            ### Administrative info about poly.polytechnique.fr
+            ### Ecole Polytechnique, Palaiseau, FRANCE
+            ### IRC-Administrator Nicolas Pioch (Nap@IRC)
+            ### <pioch@poly.polytechnique.fr>
+    
+
+**/LINKS** [[<server>] <wildcard expression>]  
+
+> Shows a list of servers currently connected to the IRC network. If <wildcard
+expression> is given, /LINKS asks the given <server> for a list of servers
+matching the given expression, (this list can get very long!).
+
+    
+    
+            /LINKS *po*
+            *** nova.unix.portal.com  7 Cupertino California, USA
+            *** poe.acc.Virginia.EDU  6 University of Virginia 2.7.1f
+            *** polaris.utu.fi        9 University of Turku, Finland
+            *** polaris.ctr.columbia.edu 6 Columbia University, New York City
+            *** csd.postech.ac.kr     4 POSTECH Computer Science Dept.
+            *** cdc853.cdc.polimi.it  2 Polytechnic of Milan, Italy
+            *** poly.polytechnique.fr 0 Ecole Polytechnique, Paris, FRANCE
+    
+
+**/SERVER** [<server>|<server number> [<port number>]]  
+
+> Switches your primary server to the supplied <server> at the specified <port
+number>. If no port number is given, the default port number is used (normally
+6667).
+
+    
+    
+            /SERVER poly.polytechnique.fr 6667
+            *** Connecting to port 6667 of server poly.polytechnique.fr
+            *** Welcome to the Internet Relay Network, Nap
+            *** Your host is poly.polytechnique.fr, running version 2.7.2g.ID
+            *** This server was created Sat Jan 16 1993 at 12:16:10 MET
+    
+
+Occasionally, you can switch servers faster than the IRC network can send out
+the information that you have left your previous server. So don't be surprised
+if you are told your nickname is already in use... Just wait a moment and set
+it with /NICK again.
+
+**/MOTD** [<server>]  
+
+> Gives the Message-Of-The-Day for the named server. If no server is given,
+your server is used.
+
+    
+    
+            /MOTD
+            MOTD - poly.polytechnique.fr message of the day -
+            MOTD -   _____________________________________
+            MOTD -  /\                                    \
+            MOTD -  \_|      Bienvenue sur le serveur      |
+            MOTD -    |         Internet Relay Chat        |
+            MOTD -    |  de l'Ecole Polytechnique, FRANCE  |
+            MOTD -    |   _________________________________|__
+            MOTD -     \_/___________________________________/
+            MOTD - 
+            MOTD -        |    |    |      En cas de probleme,
+            MOTD -       )_)  )_)  )_)           tapez / admin
+            MOTD -      )___))___))___)\
+            MOTD -     )____)____)_____)\\       Nicolas PIOCH
+            MOTD -   _____|____|____|____\\\__     Nap sur IRC
+            MOTD - --\  Welcome to IRC !  /---------
+            MOTD -   ^^^^^^^^^^^^^^^^^^^^^ ^^^ ^^^
+            * End of /MOTD command
+    
+
+**/USERS** [<server>]  
+
+> Shows the users logged into the machine where the server is running, (it's
+up to the server administrator to implement this feature or not. It may not
+work on some machines).
+
+    
+    
+            /USERS
+            *** UserID  Terminal    Host
+            *** pioch   ttyp9       rotule.polytechn
+            *** pioch   ttypc       rotule.polytechn
+            *** pioch   ttyq0       rotule.polytechn
+            *** pioch   ttyq1       rotule.polytechn
+    
+
+**/DATE** [<server>]  
+**/TIME** [<server>]  
+
+> Shows the current time of day and date. If a server is specified, the time
+of day and date are reported from that server. DATE and TIME are identical.
+
+    
+    
+            /DATE
+            *** poly.polytechnique.fr Saturday June 20 1992 -- 02: 35 +01:00
+    
+
+**/LUSERS**  
+
+> Gives a brief listing of the number of servers, operators and users matching
+the given <wildcard expression>, as seen from the specified <server>.
+
+    
+    
+            /LUSERS
+            *** There are 1008 users and 291 invisible on 135 servers
+            *** 72 users have connection to the twilight zone
+            *** There are 458 channels
+            *** I have 16 clients and 4 servers
+            *** 22 maximum connections, 19 clients
+    
+
+**/TRACE** [<server>]  
+
+> Shows the server connections of the given <server>.
+
+    
+    
+            /TRACE
+            *** Serv Class[9] ==> 134S 1331C eff.org[192.88.144.3]
+            *** Serv Class[8] ==> 1S 6C Julia.Enst.FR
+            *** Serv Class[8] ==> 1S 6C Eurecom8.Cica.FR[192.70.34.208]
+            *** Serv Class[1] ==> 2S 0C athina.cc.uch.gr[147.52.80.102]
+            *** Serv Class[8] ==> 1S 5C dafne.mines.u-nancy.fr[192.70.66.2]
+            *** Serv Class[8] ==> 1S 0C cnam.cnam.fr
+            *** Class 0 Entries linked: 16
+            *** Class 9 Entries linked: 1
+            *** Class 8 Entries linked: 4
+            *** Class 1 Entries linked: 1
+    
+
+**/STATS** c|i|k|l|m|u|y [<server>]  
+
+> Shows some irc server usage statistics.
+
+    
+    
+            /STATS u
+            *** Server Up 12 days, 12:28:44
+    
+
+**/INFO** [<server>]  
+
+> Shows information about the IRC creators, debuggers, slaves and a lot of
+other people who no longer have much to do with IRC.
+
+**/VERSION**  
+
+> Shows the ircII version number and the version number of the server.
+
+    
+    
+            /VERSION
+            *** Client: ircII 2.2
+            *** Server poly.polytechnique.fr: ircd 2.7.2g.Nap+6(privacy).
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.7 Quick Reference Panel
+
+    
+    
+           Keyword      Action
+           -------      ------
+           !            recalls previous commands for re-editing
+           ADMIN        displays information about a server
+           AWAY         leaves a message saying you're not paying attention
+           CLEAR        puts some white space on your screen
+           CTCP         performs certain client specific actions
+    
+           DATE         shows server current date and time
+           DCC          handles direct connections to remote clients
+           DESCRIBE     sends anything about you to a person or channel
+           HELP         prints help on the given command
+           HISTORY      displays the command history
+    
+           IGNORE       removes output from specific people off your screen
+           INFO         shows useless information about IRC
+           INVITE       sends an invitation to another user
+           JOIN         sets your current channel
+           KICK         gets rid of someone on a channel
+    
+           LASTLOG      lists the most recent messages
+           LEAVE        leaves a channel
+           LINKS        shows servers on the IRC network
+           LIST         lists channels, number of users, topic
+           LUSERS       gives a brief listing of users, servers and operators
+    
+           ME           sends anything about you to a channel or QUERY
+           MODE         changes channel mode
+           MOTD         displays the server message-of-the-day
+           MSG          sends a private message
+           NAMES        shows the nicknames of users on each channel
+    
+           NICK         changes your nickname
+           NOTICE       sends a private message
+           NOTIFY       warns you of people logging in or out IRC
+           QUERY        starts a private conversation
+           QUIT         exits your IRC session
+    
+           SERVER       switches your primary server
+           STATS        shows some irc server usage statistics
+           TIME         shows server current date and time
+           TOPIC        changes the topic of the channel
+    
+           TRACE        shows the server connections of the given machine
+           USERS        prints users logged on the server machine
+           VERSION      shows client and server version number
+           WHO          gives a listing of users
+           WHOIS        displays information about someone
+    
+           WHOWAS       displays information about someone who just left
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.8 Further into ircII Wizardry
+
+Note: This part should be reserved for experienced IRC'ers.
+
+Because ircII is not a simple client program, but an Operating System, its
+programming language is just as simple as you could expect (it's horrendous),
+but if you want to get into it, here's a little note for you.
+
+There are a few Unix environment variables you can set in your shell
+configuration file, but you need to find out your shell name before that.
+"echo $SHELL" should give you a hint.
+
+    
+    
+                    Table 12:  Setting environment variables
+                    ----------------------------------------
+       Shell type      Shell name      Command
+       ~~~~~~~~~~      ~~~~~~~~~~      ~~~~~~~
+       Bourne shells   sh              $ VARNAME="value" ; export VARNAME
+                       ksh             $ export VARNAME="value"
+                       bash            $ export VARNAME="value"
+       C-shells        csh             % setenv VARNAME "value"
+                       tcsh            > setenv VARNAME "value"
+    
+    
+    
+    
+                        Table 13:  Environment variables
+                        --------------------------------
+          Name            Effects
+          ~~~~            ~~~~~~~
+          HOME            where your home directory is
+          IRCNAME         any lunacy you want instead of your real name
+                          (text that appears between parentheses in a WHOIS)
+          IRCNICK         your default IRC nickname
+          IRCPATH         a directory path to LOAD scripts
+          IRCRC           a file to use instead of your $HOME/.ircrc
+          IRCSERVER       a default server list for ircII
+          TERM            your terminal type
+    
+
+The command character, (usually "/irchelp/"), is only necessary when you type
+commands interactively. When you program things it is no longer needed
+although it used to be.
+
+    
+    
+                           Table 14: Advanced commands
+                           ---------------------------
+        Keyword         Action
+        ~~~~~~~         ~~~~~~
+        #               same as COMMENT except for the lenght
+        @               performs variable expressions
+        ALIAS           creates command aliases
+        ASSIGN          creates user variables (expandable with $)
+        BIND            binds a keystroke sequence to a function
+    
+        CD              changes ircII working directory
+        COMMENT         does nothing, but very useful. Strange, uh?
+        ECHO            displays all of its arguments
+        EXEC            allows you to start subprocesses
+        FLUSH           flushes all pending output from the server
+    
+        IF              standard boolean expression checker
+        LOAD            loads an ircII command script file
+        ON              sets up actions to occur when certain events happen
+        REDIRECT        forwards the output from a command
+        SAVE            saves all ircII settings into a file
+    
+        SAY             same as sending text to a channel
+        SEND            same as sending text to a channel
+        SET             sets a variable to a given value
+        SLEEP           suspends ircII for a few seconds
+        TYPE            simulates keystrokes
+    
+        WAIT            waits for all server output to finish
+        WHILE           another control command to make loops
+        WINDOW          lets you manipulate multiple "windows" in ircII
+        XECHO           like ECHO, but takes flag arguments
+    
+
+If you want to type to the channel from within an ALIAS or on BINDing, you
+have to use SAY or SEND.
+
+The ";" has a special meaning in ALIASes, BINDings and ONs: it's treated as
+command separator, that means you can execute multiple commands in a row
+separated by semicolons. The semicolons are not considered separators when you
+use them interactively, (to be able to type ";-)"), and within an ircII script
+file. You can escape the meaning of ";" in an ALIAS with "\;".
+
+When you use ircII on a (semi)regular basis, you will discover that every time
+you start the program you will issue the same initialization sequence. If that
+is the case, I have good news for you: you don't have to do that anymore!
+ircII will, at startup, load a file called ".ircrc", (full path:
+$HOME/.ircrc). It will treat each line in that file as if you typed it
+manually.
+
+For example, if the content of your .ircrc file is:
+
+    
+    
+            JOIN #Twilight_Zone
+    
+
+then each time you will start IRC, you will join this channel.
+
+Advanced commands may come in handy if you need them. Feel free to browse in
+ircII online help to find out more about them. A few of them are probably
+worth learning.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.9 Sample .ircrc
+
+As a sample, here's part of my .ircrc file. Since ircII2.2, this file can be
+found in the "script" directory, and loaded with "/load ircprimer"
+
+    
+    
+    # Sample .ircrc script, from the IRCprimer v1.1
+    # -------------------------------------------------------------------
+    #    IRCII sample configuration file  (~/.ircrc)  (Nicolas Pioch)
+    # -------------------------------------------------------------------
+    # The aim of this file is to shorten all useful commands to 1 letter.
+    
+    set NOVICE off
+    set INPUT_ALIASES off
+    set AUTO_WHOWAS on
+    set SHOW_CHANNEL_NAMES on
+    set SHOW_AWAY_ONCE on
+    
+    # Speeds up ircII display 2 times
+    set SCROLL_LINES 2
+    
+    # Put Hack notices down under
+    on ^SERVER_NOTICE "\*\*\* Notice -- Hack: *" set status_user Hack: $4-
+    
+    # Modified killpath script from YeggMan
+    ALIAS kpath ECHO ### Last received KILL for $nkp.path
+    @ nkp.path = []
+    ALIAS nkp.msg ECHO ### $Z -- KILL by $1 for $0 $2-
+    ALIAS nkp.idx @ FUNCTION_RETURN = RINDEX(! $0) + 1
+    ALIAS nkp.srv @ FUNCTION_RETURN = INDEX(. $MID($nkp.idx($0) 512 $0))
+    ON ^SERVER_NOTICE "\*\*\* Notice -- Received KILL*" {
+    #	if (index(. $mid(${rindex(! $11) +1} 512 $11))
+            IF ( nkp.srv($11) > -1 )
+                { nkp.msg $7 $9 }
+                { nkp.msg $7 $9 $12- }
+            @ nkp.path = [$7-]
+    }
+    
+    # Function to strip the less significant part of an internet hostname
+    # $userdomain(username@host.subdomain.dom)  returns username@subdomain.dom
+    # This eliminates the hostname which may change frequently
+    alias userdomain {
+      @ function_return = LEFT($INDEX(@ $0) $0)##[@]##MID(${1+INDEX(. $0)} 99 $0)
+    }
+    
+    # Who is that ?
+    on ^msg * echo *$0!$userdomain($userhost())* $1-
+    
+    # /w [<nickname>]                        get info on someone
+    # /q [<nickname>]                        query someone
+    # /m  <nickname> <text>                  send a message
+    # /n  <nickname> <text>                  send a notice
+    # /r <text>                              reply to last message I got
+    # /a <text>                              followup on my last message
+    
+    alias w whois
+    alias q query
+    alias m msg
+    alias n notice
+    alias r msg $,
+    alias a msg $.
+    
+    # /j <channel>                           join a channel
+    # /l <channel>                           list people in a channel
+    # /ll                                    list in the current channel
+    # /i <nickname> [<channel>]              invite someone
+    # /hop                                   leave the current channel
+    
+    alias j join
+    alias l who
+    alias ll who *
+    alias i invite
+    alias hop part $C
+    
+    # /o <nickname> [<nickname> <nickname>]  give channel op status
+    # /d <nickname> [<nickname> <nickname>]  remove channel op status
+    # /k <nickname>                          kick someone
+    # /mo [+|-]<modechars>                   change current channel mode
+    
+    alias o mode $C +ooo
+    alias d mode $C -ooo
+    alias k kick $C
+    alias mo mode $C
+    
+    # the "wrong person" alias! /oops <nickname> to resend message to
+    alias oops {
+            @ _whoops = [$B]
+            msg $. Whooops ! Please ignore, that wasn't meant for you.
+            msg $0 $_whoops
+    }
+    
+    alias unset set -$*
+    alias unalias alias -$*
+    alias NickServ msg NickServ@Service.de
+    alias NoteServ msg NoteServ@Service.de
+    
+    # -------------------------------------------------------------------
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 2.10 Writing automatons
+
+An automaton, (also called robot or service), is a program that is connected
+to the IRC network to provide services. Many people try to set that up with a
+few ircII commands like:
+
+    
+    
+            on ^msg "% help" notice $0 This is LameBot 1.0
+    
+
+However, you should know that setting up an automaton using ircII ON
+facilities is quick and dirty, and should be reserved for robots that rely on
+ircII specific features such as DCC (file servers for instance). Writing a
+program in C, perl or any decent programming language should take longer in
+the beginning, but your efforts will be rewarded. You can download skeletons
+of such programs on some ftp sites that keep IRC related stuff (check in the
+Frequently Asked Questions part).
+
+Although most robots-writers believe they have created a "smart thing", 99% of
+the robots online happen to be a nuisance to the IRC community, because a few
+simple rules were not respected by their owners. The main idea is that robots
+should neither be seen nor heard:
+
+  1. automatons should be clearly identified as such, having "bot","serv" or "srv" in their nickname.
+
+  2. they should use NOTICES to communicate with the rest of the world, and not reply to NOTICES they get.
+
+  3. they should be able to always be killed (craziness is a frequent disease among robots).
+
+  4. they should be able to be killed remotely by their owner via IRC.
+
+  5. they should not give access to their owner's real files, (bandits have already been able to crack people's accounts through their robots).
+
+  6. they should not send messages to channels (unless the channel is dedicated to that robot).
+
+  7. they should not flood channels with MODE changes. Basically, if you have such a command as:  
+
+    
+    
+            on -JOIN "Lamer #BotTub" mode #BotTub +o Lamer
+    
+
+then you are wrong. Because this is what you will get:
+
+    
+    
+    *** Lamer (clueless@where.the.hell) has joined channel #bottub
+    *** Mode change "+o Lamer" on channel #bottub by LameBot
+    *** Mode change "+o Lamer" on channel #bottub by StupidSrv
+    *** Mode change "+ooo Lamer Lamer Lamer" on channel #bottub by FloodServ
+    *** Mode change "+o Lamer" on channel #bottub by Dumbbot
+    
+
+And this will get boring very soon, so don't be surprised if such robots get
+banned from most channels. A good kludge is to wait until someone asks
+explicitly the robot to be opped on a channel. This could be:
+
+    
+         
+          on -MSG "Lamer op me on #BotTub" mode #BotTub +o Lamer
+    
+
+If you don't respect rules 2 and 6 above, this may happen too:
+
+    
+    
+    *** TalkBot (clueless@where.the.hell) has joined channel #bottub
+    <LameBot> Hi TalkBot!
+    <TalkBot> Hello LameBot! How are you?
+    *** Mode change "+o TalkBot" on channel #bottub by LameBot
+    <LameBot> Fine thanx.
+    <TalkBot> Thank you for the op, LameBot.
+    <LameBot> No problem, TalkBot.
+    *** Signoff: Talkbot (ircserver.irc.edu where.the.hell)
+    *** TalkBot (clueless@where.the.hell) has joined channel #bottub
+    *** Mode change "+o TalkBot" on channel #bottub by where.the.hell
+    *** Mode change "+o LameBot" on channel #bottub by TalkBot
+    *** Mode change "+o TalkBot" on channel #bottub by LameBot
+    <TalkBot> Thank you for the op, LameBot.
+    <LameBot> No problem, TalkBot.
+    ...
+    
+
+See? Remember the golden rule:
+
+**
+
+> A smart bot won't act unless explicitly asked by someone to.
+
+** [ table of contents | navigation bar ]
+
+* * *
+
+# 3. FREQUENTLY ASKED QUESTIONS
+
+### 3.1 How do I set up an IRC client?
+
+Here is a list of FTP sites from which you can download a client for your
+specific operating system.
+
+    
+    
+                      Table 15:  FTP sites with IRC clients
+                      -------------------------------------
+                                   UNIX ircII
+                                   ~~~~~~~~~~
+    	      [calypso.cs.uregina.ca](ftp://calypso.cs.uregina.ca/Public/outgoing/ircii2.6.tar.gz)          - /public/outgoing
+                  ftp.acsu.buffalo.edu           - /pub/irc
+                  slopoke.mlb.semi.harris.com    - /pub/irc
+                  plod.cmbe.unsw.oz.au           - /pub
+                  coombs.anu.edu.au              - /pub/irc
+                  nic.funet.fi                   - /pub/unix/irc/ircII
+                  ftp.informatik.tu-muenchen.de  - /pub/net/irc
+    
+    
+                                   EMACS elisp
+                                   ~~~~~~~~~~~
+                  slopoke.mlb.semi.harris.com     - /pub/irc/emacs
+                  nic.funet.fi                    - /pub/unix/irc/Emacs
+                  lehtori.cc.tut.fi               - /pub/irchat
+                  ftp.informatik.tu-muenchen.de   - /pub/net/irc
+    
+    
+                                       VMS
+                                       ~~~
+                  coombs.anu.edu.au               - /pub/irc/vms
+                  nic.funet.fi                    - /pub/unix/irc/vms
+                  ftp.informatik.tu-muenchen.de   - /pub/net/irc
+    
+    
+                                   REXX for VM
+                                   ~~~~~~~~~~~
+                  ftp.informatik.uni-oldenburg.de - /pub/irc/rxirc
+                  ftp.informatik.tu-muenchen.de   - /pub/net/irc/VM
+                  coombs.anu.edu.au               - /pub/irc/rxirc
+                  nic.funet.fi                    - /pub/unix/irc/rxirc
+    
+    
+                                      MSDOS
+                                      ~~~~~
+                  nic.funet.fi                    - /pub/unix/irc/msdos
+    
+    
+                                    Macintosh
+                                    ~~~~~~~~~
+                  [calypso.cs.uregina.ca](ftp://calypso.cs.uregina.ca/Public/outgoing/homer.sea)
+                  nic.funet.fi                    - /pub/unix/irc/mac
+                  sumex.stanford.edu              - /info-mac/comm
+                  ftp.ira.uka.de                  - /pub/systems/mac
+    
+
+For Unix machines, you either compile the source yourself, or have someone
+else on your machine compile the source for you. The current "official" ircII
+release is version 2.2.1. That means that it is said to be quite bugfree
+(Hehe, you never know...) In addition to this "official" distribution, you may
+find preversions of the client to come floating around, for people who like to
+track down bugs and taste things to come. However, you should be aware of that
+those clients are being worked on, and may not have all features working
+properly.
+
+Here are the commands to type to setup an ircII client:
+
+    
+    
+            ~ > ftp
+            ftp> verbose off
+            Verbose mode off.
+            ftp> open cs.bu.edu
+            Name (cs.bu.edu:yourname) : ftp
+            Password: yourname@yourhost
+            ftp> cd irc/clients
+            ftp> bin
+            ftp> get ircII2.2.1.2.tar.Z "|zcat|tar xf -"
+            ftp> get ircII2.2.1help.tar.Z "|zcat|tar xf -"
+            ftp> quit
+            ~ >
+    
+
+You now have to go into ircII2.2.1 and read the files explaining how to
+achieve a successful installation. Have a look at README and INSTALL, edit
+config.h to define DEFAULT_SERVER, edit Makefile to define INSTALL_EXECUTABLE,
+IRCII_LIBRARY and the C compiler you will be using, then type make install and
+wait.
+
+If you can't set up a client on any local machine, you can still use any
+telnet client:
+
+    
+    
+                         Table 16:  Open telnet clients
+                         ------------------------------
+          Area      Command                                 login name
+          ~~~~      ~~~~~~~                                 ~~~~~~~~~~
+          America   telnet bradenville.andrew.cmu.edu
+                    telnet chatsubo.nersc.gov               bbs
+    
+          Asia      telnet cc.nsysu.edu.tw                  irc
+    
+          Europe    telnet ircclient.itc.univie.ac.at 6668
+                    telnet irc.ibmpcug.co.uk 9999
+    
+
+Please only use telnet when you have no other way of reaching IRC, as this
+resource is quite limited.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.2 Which server do I connect to?
+
+It's usually best to try and connect to one geographically close, even though
+that may not be the best. You can always ask when you get on IRC. Here's a
+list of servers available for connection:
+
+    
+    
+                           Table 17:  Open IRC servers
+                           ---------------------------
+                  America   Canada        ug.cs.dal.ca
+                  ~~~~~~~   USA           csa.bu.edu
+                                          ucsu.coloradu.edu
+                                          irc.caltech.edu
+    
+                  Europe    Finland       nic.funet.fi
+                  ~~~~~~    France        poly.polytechnique.fr
+                            Germany       noc.belwue.de
+                            Sweden        irc.nada.kth.se
+    
+                  Oceania   Australia     munagin.ee.mu.oz.au
+                  ~~~~~~~
+    
+
+This is by no means, a comprehensive list, but merely a start. Connect to the
+closest of these servers and join the channel #Twilight_Zone or, if you are in
+Europe, #EU-Opers. When you are there, immediately ask what you want. Don't
+say "I have a question" because then everyone will ignore you until you say it
+a few times, and then they'll jump down your throat and rip your lungs out. No
+one knows if he can answer your question until you ask it.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.3 What are good channels to try while using IRC?
+
+#Hottub and [#riskybus](http://www.cs.uregina.ca/~hoyle/Games/) are almost
+always teeming with people. #Hottub is meant to simulate a hot tub, and
+#riskybus is a non-stop quiz show similar to Jeopardy. Just join the fun and
+find out! (German users may try channels named after German university
+towns...)
+
+Many IRC Operators are in #Twilight_Zone, while European Operators congregate
+in #EU-Opers. So if you join an Operator channel and don't hear much talking,
+don't worry; it's not because you joined. Operators don't talk much on such
+channels anyways!
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.4 How do I get nifty effects with ircII?
+
+You can highlight messages you send using control chars: parts of text
+surrounded by control-b (^B) will appear in video reverse to most ircII users
+for instance. However the appearance of such effects relies on the terminal
+abilities of the user you're writing to.
+
+In some cases keys are already bound to something. For instance, ^B is
+normally bound to BACKWARD_CHARACTER, so you will need to define a "quote-
+character" key: just enter "/BIND ^W QUOTE_CHARACTER" then "/BIND ^W^B
+SELF_INSERT" and it may work.
+
+    
+    
+                      Table 18:  Highlighting ircII output
+                      ------------------------------------
+                               Key  Effect
+                               ~~~  ~~~~~~
+                               ^V   Video reverse
+                               ^_   Underline
+                               ^B   Bold
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.5 What if someone tells me to type something cryptic?
+
+NEVERtype anything anyone tells you to without knowing what it is. There is a
+problem with typing a certain command with the ircII client that gives anyone
+immediate control of your client, (and thus can alter your account environment
+also). Look in the ircII on-line help each time you can.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.6 I get strange characters on my screen, what are they?
+
+IRC has quite a few people from Scandinavian countries, }{|][\ are letters in
+their alphabet (IRC is supposed to support the ISO Latin-1 8-bit character
+set, but your client must be able to display them.) This has been explained on
+IRC about a thousand and one times, so read the following, do not ask it on
+IRC:
+
+    
+    
+               Table 19:  Nordic countries character translations
+               --------------------------------------------------
+        Character  Description
+        ~~~~~~~~~  ~~~~~~~~~~~
+        [, {       'a' with two dots over it
+        ], }       'a' with a small circle above it
+        \, |       'o' with two dots over it, or a dash ("/irchelp/") through it
+                   ("[", "]", and "\" = upper case)
+    
+
+In addition to that, Japanese IRC'ers use a special ANSI escape control
+sequences to transmit their Kanji alphabet. This may also look funny if you
+get some of it. Here's a sample: [$B$?$K$7[$B;$m$K# (nice, uh?)
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.7 What about NickServ?
+
+To quote from NickServ's help text, NickServ's purpose is to help avoiding
+nickname confusions on IRC. There's no such thing as "nickname ownership",
+however NickServ sends a warning to anyone else who signs on with your
+nickname. If you don't use IRC for 10 weeks, your nickname registration
+expires for reuse.
+
+Only a NickServ operator can change your NickServ password. To find out which
+NickServ operators are on-line, send:
+
+    
+    
+            /MSG NickServ@Service.de OPERWHO
+    
+
+Nicknames with a "*" next to them are online at the time.
+
+Note: As of this writing, NickServ is down and it is uncertain when or if it
+will return.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.8 I'm being flooded or harassed by a jerk. HELP!
+
+If somebody is behaving like a jerk on IRC, like dumping to a channel Mb's of
+garbage, then he should be KICKed and eventually banned from the channel, (see
+"/HELP MODE" for details).
+
+If it's a matter of personal harassment, then you should set a proper IGNOREon
+that person, (preferably on his userid@hostname). Remember you can use
+wildcard expressions for IGNORE.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.9 How do I get rid of a ghosted IRC session?
+
+Sometimes you may have a "ghosted" IRC session, a process still running on
+your machine you would like to get rid of, but can't control anymore to issue
+a QUIT command. Going back to a unix shell, try listing your processes: ("ps
+-ux" or "ps -f" depending on your system)
+
+    
+    
+        poly ~ > ps -ux
+        USER       PID  %CPU %MEM   SZ  RSS TT STAT TIME COMMAND
+        pioch    10410   1.4  0.2  839  402 pf S    0:00 /usr/local/bin/emacs
+        pioch    25441   0.6  0.9 2888 1908 ?  S    0:32 xterm -ls
+        pioch    25444   0.4  0.2  550  341 pf S    0:17 -tcsh (tcsh)
+        pioch    10404   0.1  0.3  897  624 pf S    0:00 irisVx 5 4 10403
+        pioch    25634   0.0  0.3 1022  678 p6 S    0:22 irc
+        pioch    25451   0.0  0.2  953  326 ?  S    0:07 xmailbox
+        pioch    25452   0.0  0.1  386  147 ?  S    0:00 xdaliclock
+        pioch    25459   0.0  0.3 1109  617 ?  S    0:02 xman
+        pioch    10403   0.0  0.1  574  124 pf I    0:00 mapleV
+        pioch    10423   0.0  0.2  614  459 pf R    0:00 /bin/ps -ux
+    
+
+Locate the line about your lost IRC session, (irc should appear in the COMMAND
+field of the line), and its PID, (process number, second field of the line
+here). In this example the PID is 25634, as shown here:
+
+    
+    
+        USER       PID  %CPU %MEM   SZ  RSS TT STAT TIME COMMAND
+        pioch    25634   0.0  0.3 1022  678 p6 S    0:22 irc
+    
+
+All you then need to type is "kill -KILL" or "kill -9" immediatly followed by
+the PID found above: "kill -kill 25634" here.
+
+You can get more details about the commands involved here in the standard unix
+manual, ("man 1 ps" or "man 1 kill").
+
+If your machine crashed, and your nick is still in use on the IRC network,
+you'll have to wait 4 to 5 minutes for your server to recognize the fact.
+Getting an Operator to kill the ghost is almost never necessary, just sign on
+as another nickname and wait for the "Ping timeout" or "Bad link" message,
+then you can change your nick back.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.10 About KILL usage
+
+KILL is a command restricted to IRC-Operators to deal with protocol errors
+heavily reducing the IRC network functionality. It's to be used with extreme
+caution, if at all.
+
+**
+
+> KILL should never interfere with channel-operator status.
+
+**
+
+If you op someone on a channel, you take the consequences. If someone joins
+#Whatever, you op them, then they kick everyone and lock the channel with some
+"Mode change +ib *!*@*", then suffer it: it's your fault, don't go whining to
+an IRC-op to fix it. If a channel is locked, you should start a new one.
+
+Effective methods to deal with obnoxious people are IGNORE, KICK and various
+MODEs on channels, such as +i and/or +b.
+
+If you have been unjustifiably killed by an IRC-Operator abusing his power to
+gain illegal channel-operator status for instance, yell! Mail a log to his
+server IRC-Administrator, (see ADMIN), join #Twilight_Zone or #EU-Opers for
+European-related problems, and explain what happened.
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 3.11 Where can I find more?
+
+Should your question not be listed above, you may want to check the
+"Frequently Unasked Questions", (FUQ) list, which will be shipping real soon
+now, featuring replies to:
+
+    
+    
+            <lamer1>> Are there any good FTP sites? (1)
+            <lamer2> How do I join a channel?
+            <lamer3> How do I become an IRCop?
+    
+
+If you have access to Usenet News, (usually through a program called rn, trn,
+xrn or nn), you may want to join alt.irc debates, flamings and whinings.
+
+You can also join various IRC related mailing lists. "Operlist" discusses
+current (and past) server code, routing and protocol. Mail operlist-
+request@eff.org to join. Another mailing list, ircd-three@eff.org exists to
+discuss protocol revisions for the 3.0 release of ircd, currently in planning.
+Mail ircd-three-request@eff.org to be added to that. There is also low-traffic
+mailing-lists for ircII vmsirc and irchat clients.
+
+    
+    
+                      Table 20:  IRC related mailing lists
+                      ------------------------------------
+       E-mail for subscriptions       What's being talked about
+       ~~~~~~~~~~~~~~~~~~~~~~~~       ~~~~~~~~~~~~~~~~~~~~~~~~~
+       operlist-request@eff.org       Server code, routing and protocol.
+       ircd-three-request@eff.org     ircd 3.0 protocol
+       listserv@grasp1.univ.lyon1.fr  European IRC-Operators mailing list
+       dl2p+@andrew.cmu.edu           ircII mailing list
+       vmsirc-request@vax1.elon.edu   VMS IRC mailing list
+       irchat-request@cc.tut.fi       irchat mailing list
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+# 4. ADMINISTRATIVIA
+
+### 4.1 Revision history
+
+This is version 1.1 of this paper. Version 1.0 of the IRCprimer was released
+in postscript form in June 1992 because I was sick of people asking for an IRC
+or ircII manual (and it was a good way to learn LaTeX!). During summer 1992
+Owe Rasmussen did a very nice text conversion of the paper. Due to the support
+and many remarks I got, a new version is finally completed (special thanks to
+Olaf Titz !), along with Owe's plain ascii conversion.
+
+The primer is available in 3 formats:
+
+  * IRCprimer.ps.Z: Postscript version 
+  * IRCprimer.txt: Plain text version 
+  * IRCprimer.tex.Z: Source code. 
+
+* * *
+
+### 4.2 Release sites for the IRCprimer
+
+The latest version of the primer can be found on the following ftp sites,
+thanks to their admins:
+
+    
+    
+                        Table 21: IRCprimer release sites
+                        ---------------------------------
+                         ftp site           location
+                         ~~~~~~~~           ~~~~~~~~
+                         nic.funet.fi       /pub/unix/irc/docs
+                         cs.bu.edu          /irc/support
+                         coombs.anu.edu.au  /pub/irc/docs
+    
+
+Here's how to get the latest primer postscript version for example:
+
+    
+    
+            ~ > ftp
+            ftp> verbose off
+            Verbose mode off.
+            ftp> open cs.bu.edu
+            Name (cs.bu.edu:yourname): ftp
+            Password: yourname@yourhost
+            ftp> cd irc/support
+            ftp> bin
+            ftp> get IRCprimer.ps.Z
+            ftp> quit
+            ~ > uncompress IRCprimer.ps.Z
+            ~ >
+    
+
+* * *
+
+### 4.3 Copyright (C) 1993 Nicolas PIOCH
+
+This manual is free; you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the license, or (at your option) any later
+version.
+
+This manual is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this manual; if not, write to the:
+
+    
+    
+                         Free Software Foundation, Inc.,
+                                  675 Mass Ave,
+                            Cambridge, MA 02139, USA.
+    
+
+[ table of contents | navigation bar ]
+
+* * *
+
+### 4.4 Credits
+
+The Interesting information contained in this paper is due to the work of
+various people interested in IRC improvement; I'm only responsible for
+omissions and mistakes :-)
+
+It's impossible to give here a full list, however special thanx are due to (in
+analphabetical order):
+
+    
+    
+     +---------------------------------------------------------------------+
+     |   Real life (uh ?)       IRC          E-mail                        |
+     |   ~~~~~~~~~~~~~~~~       ~~~          ~~~~~~                        |
+     |   Christopher Davis      ckd          ckd@eff.org                   |
+     |   Christophe Wolfhugel   Zolf         wolf@grasp.insa-lyon.fr       |
+     |   Darren Reed            Avalon       avalon@coombs.anu.edu.au      |
+     |   Greg Lindahl,          Wumpus       gl8f@virginia.edu             |
+     |   Helen Rose             Trillian     hrose@eff.org                 |
+     |   Ian Frechette          Daemon       frechett@spot.colorado.edu    |
+     |   Jarkko Oikarinen       WiZ          jto@tolsun.oulu.fi            |
+     |   Jeff Trim                           jtrim@orion.cair.du.edu       |
+     |   Jonathon E. Tidswell   Ernie        jont@cs.su.oz.au              |
+     |   Karl Kleinpaste        poptart      KarlKleinpaste@cs.cmu.edu     |
+     |   Matthew Alderson       thecure      thecure@mullian.ee.mu.oz.au   |
+     |   Matthew Green          phone        phone@coombs.anu.edu.au       |
+     |   Mauri Haikola          Mauri        mjh@stekt.oulu.fi             |
+     |   Michael Sandrof        BigCheese    ms5n+@andrew.cmu.edu          |
+     |   Olaf Titz              praetorius   stitz@ira.uka.de              |
+     |   Ove Ruben R. Olsen     Gnarfer      rubenro@viggo.blh.no          |
+     |   Ronald van Loon        rvl          rvloon@cv.ruu.nl              |
+     |   Troy Rollo             Troy         troy@cbme.unsw.edu.au         |
+     +---------------------------------------------------------------------+
+    
+
+Feel free to bug me with your comments, I hope I'll have enough time to reply.
+
+* * *
+
+A Short IRC Primer, converted from plain text to HTML by [Michelle A.
+Hoyle](http://calypso.cs.uregina.ca/Misc/aboutme.html), see the [ original
+version](http://calypso.cs.uregina.ca/Games/Information/primer.html) at her
+site or email her at [hoyle@ifi.unizh.ch](mailto:hoyle@ifi.unizh.ch).
+
+* * *
+
+![navbar](/irchelp/Pix/ihnavbar.gif)
+
+Last updated: Jan 2, 1997.
+
+##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
+others.
+

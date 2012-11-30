@@ -1,0 +1,6 @@
+Usage: SET STATUS_SERVER <Status line text for display of server>
+  The value of STATUS_SERVER is replaced in the STATUS_FORMAT
+  variable for any occurence of %S.
+  This variable may contain any text, plus it may contain
+  a single occurence of %S , which is replaced by the server
+  you are currently on.

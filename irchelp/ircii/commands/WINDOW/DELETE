@@ -1,0 +1,8 @@
+Usage: WINDOW DELETE
+  Destroys a screen or xterm ircII window, depending on the environment.
+  You can't WINDOW DELETE the main screen (the one ircII
+  was started in).
+
+See Also:
+  WINDOW CREATE
+  WINDOW KILL

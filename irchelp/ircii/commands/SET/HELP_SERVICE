@@ -1,0 +1,13 @@
+Usage: SET HELP_SERVICE <Name of ircII HELP service>
+  When the HELP command is issued it first searches the
+  current HELP_PATH for help files.  If they are not found it
+  sends a message to the service specificed in HELP_SERVICE
+  An example setting is.
+    SET HELP_SERVICE help_US
+  which would make the client query the United States ircII help 
+  service.  Keep in mind that having local help files is always
+  faster and generally guarantees better service.
+  
+See Also:
+  SET HELP_SERVICE
+  HELP

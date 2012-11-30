@@ -1,0 +1,5 @@
+Usage: SET WARN_OF_IGNORES [ON|OFF|TOGGLE]
+  Turns OFF or ON warning messages that occur when you try to
+  send a message to a nickname that you are ignoring.  When ON,
+  you get a warning each time you attempt this.  When OFF, you
+  get no warning.

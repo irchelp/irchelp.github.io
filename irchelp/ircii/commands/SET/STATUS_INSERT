@@ -1,0 +1,4 @@
+Usage: SET STATUS_INSERT <Status line text when in insert mode>
+  The content of STATUS_INSERT are replaced in the STATUS_FORMAT
+  variable for any occurence of %I while INSERT_MODE is ON.  If
+  INSERT_MODE is OFF, nothing is displayed for %I.

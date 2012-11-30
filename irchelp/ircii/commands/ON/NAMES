@@ -1,0 +1,9 @@
+Usage: ON [#|+|-|^|&|@]NAMES [-|^]<parameters> [action]
+  When NAMES is activated any outputline will be modified
+  by [action].
+  For example:
+    ON NAMES * /echo $0 $1-
+
+  The parameters are as follows:
+    $0    name of the channel
+    $1    all users on this channel

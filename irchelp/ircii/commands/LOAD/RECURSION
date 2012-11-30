@@ -1,0 +1,14 @@
+Usage: LOAD recursion
+  These are just a bunch of useful examples of recursive aliases.
+  Stuff like.. 
+    conbunch <server list>		Connect to several servers.
+    squitbunch <server list>		Squit several servers.
+    versbunch <server|user list>	check version for several servers
+  and my favorite
+    opalot <+/-> <nickname list>	Op or deop several people.
+  
+  There are more.. Take a look at the file and the format of how things
+  are done.  And be sure to remember the MAX_RECURSIONS limit.
+
+See Also:
+  SET MAX_RECURSIONS

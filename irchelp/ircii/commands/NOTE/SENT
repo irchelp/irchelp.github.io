@@ -1,0 +1,10 @@
+-Usage: NOTE SENT [NAME|COUNT]
+*Usage: NOTE SENT [NAME|COUNT|USERS] <f.nick!f.name@host> <date> [RM]
+  Displays host and time for messages which are queued without specifying
+  any password. If no option is specified SENT displays host/time for
+  messages sent from your nick and username.
+  NAME displays host/time for messages sent from your username
+  COUNT displays number of messages sent from your username
+*  USERS Displays the number of messages in [], and names for all users
+*  who have queued any message which matches with spec. nick/name/host.
+*  RM means that the server removes the messages from the specified user.

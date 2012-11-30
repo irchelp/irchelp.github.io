@@ -1,0 +1,94 @@
+
+This document applies to NetBus 1.70.  Last updated 12/2/98
+
+First we need to find the name of NetBus on your system.
+By default this is Patch.exe, but can be renamed easily to almost
+anything, and it need not end in .exe
+
+WARNING:  Before making ANY changes to your systems registry, you
+should backup your registry (using the Export command in the registry
+menu), and Do Not edit or delete anything Other than what is
+recommended here.
+
+To do this you will need to use a program called RegEdit.  You can go to
+the Run command in your Start menu, and type regedit there to start the
+program. If you are familiar with regedit, the key to edit is as follows
+
+By using RegEdit, locate the key :
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+
+After clicking on  Run  the right hand panel will change.
+There will be a list of items, in two columns.
+In the first column, there will be a key which loads the program.
+Most likely there will be many other keys as well, the first of which
+is  (Default)     Do NOT delete any other keys except for the ones below.
+
+The default key name is PATCH, which would look like
+
+PATCH,       "C:\windows\patch.exe /nomsg"
+
+Its possible that NetBus will have a different name than  patch.exe
+However the lines for NetBus WILL ALWAYS end with   /nomsg   and this is
+how you can be sure you have the right ones.
+Make a note of any and all items ending with /nomsg, and then delete
+these from the registry by right clicking on the key (right hand side)
+and choosing delete.
+
+Once you remove this from the registry, you can reboot.
+This will remove the program from memory.
+
+After you reboot, you can use Windows Explorer and find the files
+you noted in the registry.  Do not run any of these files!  Delete them
+and right after empty your recycle bin.
+Additionaly some find it easier to reboot into DOS, and from there
+delete the files, and reboot again back into windows.
+
+You should now be uninfected, however you may want to use our webpages, or
+join #netsplit of EFNet to check again.
+
+--OR--
+
+If the server is installed on the default port (12345) and there is no pass
+and you happen to know the port it is installed on, you can follow the
+instructions below to remove the server as well.
+If the server is Not on port 12345 and you dont know the port it Is on,
+you will have to follow the registry edit instructions above.
+
+Telnet to your own system (localhost) port 12345
+Run telnet and in the connect menu, choose remote host.
+For host type  localhost   and for port type  12345
+
+It should answer with   NetBus 1.70   or  NetBus 1.70 x
+
+The x at the end means there is a password set.  With version 1.70,
+the password backdoor has been removed, so this method wont work.
+
+If you get an error saying you cannot connect, then netbus is not
+on that port and this method again wont work.
+
+If theres no x and you connect, type the following line :
+
+RemoveServer;1
+
+You most likely wont beable to see your own typing, so you may
+want to copy/paste.
+
+
+This will remove the program from memory and fix the registry,
+however it wont remove NetBus from your HD.
+Unfortunatly using this method you cant find the path to the file(s),
+to delete, however if method #1 fails you this may be the only option.
+
+
+==+==  References and more information  ==+==
+
+The home page of the creators of this document can be found at
+  http://split.netset.com/hackfix/
+
+Or you can always visit the channel #Netsplit on the EFNet irc network,
+the place where it all began.
+
+
+Working together to make irc a better and safer place for everyone.....
+

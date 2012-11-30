@@ -1,0 +1,10 @@
+Usage: LOAD local
+  Local definitions, done by your ircII administrator, are stored in here.
+  Local is executed at ircII startup automatically.
+
+Additionnal commands available:
+  The most important aliases in here, are these two aliases:
+    COUNTRYWHO	Who-list of the people of your country.
+    LOCALWHO	Who-list of the people at your site.
+
+  With 'commander' you have these commands on ESC-d and ESC-h respectively.

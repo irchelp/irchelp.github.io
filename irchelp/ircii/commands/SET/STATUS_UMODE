@@ -1,0 +1,6 @@
+Usage: SET STATUS_UMODE <text displayed for user mode>
+  The value of STATUS_UMODE is replaced in the STATUS_FORMAT
+  variable for an occurence of %# if the window's current
+  nickname has any of the mode settings active.  The STATUS_UMODE
+  variable may contain one occurence of %# which will be
+  replaced with the current user mode.

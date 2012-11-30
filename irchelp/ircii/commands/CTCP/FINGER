@@ -1,0 +1,3 @@
+Usage: CTCP <nick> FINGER
+  FINGER will attempt to show the real name and idle time for the
+  specified nickname.

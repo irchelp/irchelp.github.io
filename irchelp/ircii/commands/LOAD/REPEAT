@@ -1,0 +1,17 @@
+Usage: LOAD repeat
+  This is a sample of using the WHILE command in an alias.  Once
+  loaded, here is it's usage:
+
+Additionnal commands available:
+  REPEAT <count> <cmd>
+  This will perform <cmd> for the number of times specified by
+  <count>. For example:
+    REPEAT 5 /msg bigcheese Hello!
+  This will send the message "Hello!" to bigcheese 5 times.  
+  The above example can get annoying, so try to not to use
+  this to really bother people.
+
+Note: repeat is an excellent example of how to use the WHILE
+  construct.   Included in this script is the RECREPEAT command
+  which works just like REPEAT but does so using recursion.
+  Both are good simple examples.

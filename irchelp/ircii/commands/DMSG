@@ -1,0 +1,8 @@
+Usage: DMSG <nickname> <text>
+  DMSG is an alias for MSG =<nickname>, and as such sends a message
+  across a DCC CHAT connection.  If you don't install the 'script'
+  directory then this command will not work.
+
+See Also:
+  MSG
+  DCC CHAT

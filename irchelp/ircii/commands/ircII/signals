@@ -1,0 +1,14 @@
+ircII behavior can be changed from the unix command prompt using signals:
+use 'ps -xc' or 'ps -f' to list your active processes, then locate
+the number in the PID column of the line about irc. You can then use:
+  unix> kill -USR1 <pid>    to close all DCC connections
+                                and terminate all EXEC'ed processes
+  unix> kill -KILL <pid>    to close the irc process
+
+You can get more information about the above commands in the unix manual:
+  man 1 kill
+  man 1 ps
+  
+See also:
+  EXEC
+  DCC CLOSE

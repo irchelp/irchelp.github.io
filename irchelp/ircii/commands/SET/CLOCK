@@ -1,0 +1,5 @@
+Usage: SET CLOCK [ON|OFF|TOGGLE]
+  Turns ON or OFF the status line clock.  The clock can be set to
+  show 24 hour time as well as 12 hour time (See HELP SET
+  CLOCK_24HOUR).  You can also set an alarm to warn you of the
+  time (See HELP SET CLOCK_ALARM).

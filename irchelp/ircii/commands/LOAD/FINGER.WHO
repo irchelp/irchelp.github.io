@@ -1,0 +1,7 @@
+Usage: LOAD finger.who
+  This is just a rewrite of the FINGER script, but this one is supposedly
+  more efficient.  
+
+Additionnal commands available:
+  FINGER <nickname>
+    should find and finger that person's account.

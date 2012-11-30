@@ -1,0 +1,24 @@
+TrIrcNet servers
+
+[Last update: 30 Dec 97 16:00 GMT+0200]
+
+
+TURKEY
+
+poseidon.raksnet.com
+irc.egenet.com.tr
+irc.raksnet.com.tr
+irc2.raksnet.com.tr
+irc3.raksnet.com.tr
+irc.emu.edu.tr
+irc.gazi.edu.tr
+irc.bi.net.tr
+irc.doruk.net.tr
+irc.efes.net.tr
+irc.marketweb.net.tr
+irc.prizma.net.tr
+flipper.bitav.org.tr
+
+UNITED STATES
+
+irc.raks.net

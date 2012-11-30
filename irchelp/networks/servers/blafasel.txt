@@ -1,0 +1,31 @@
+BlafaselNet server list
+
+[Last update: 03 Jan 98  16:00 GMT+2]
+
+
+DEUTSCHLAND
+
+alster.blafasel.de
+bos.blafasel.de
+freshnet.blafasel.de
+irc.blafasel.de
+lam.blafasel.de
+lrz.blafasel.de
+muc.blafasel.de
+muffin.blafasel.de
+ray.blafasel.de
+roses.blafasel.de
+space.blafasel.de
+wusel.blafasel.de
+irc.stadtleben.de
+irc.rz.uni-sb.de
+irc.callisto.planlos.org
+irc.icafe.planlos.org
+irc.leipzig.planlos.org
+irc.muenchen.planlos.org
+irc.rosenheim.planlos.org
+irc.unix.planlos.org
+
+SCHWEIZ
+
+basel.blafasel.de

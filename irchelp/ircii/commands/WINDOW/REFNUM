@@ -1,0 +1,2 @@
+Usage: WINDOW REFNUM <r> 
+  Change the current window to the window with refnum <r>.

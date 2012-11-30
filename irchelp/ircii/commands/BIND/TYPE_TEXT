@@ -1,0 +1,3 @@
+Usage: BIND <key> TYPE_TEXT <string>
+  Causes the given string to be typed into the input buffer using
+  the current setting of the INSERT_MODE variable.

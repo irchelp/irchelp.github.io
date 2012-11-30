@@ -1,0 +1,7 @@
+Usage: SLEEP <number of seconds>
+  This suspends IRCII for the number of seconds given.  NOTHING happens
+  during this time.  This is really only useful for automatons.
+  Maybe not even then. Try the TIMER command instead.
+
+See Also:
+  TIMER

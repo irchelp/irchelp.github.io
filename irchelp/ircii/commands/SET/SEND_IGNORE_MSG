@@ -1,0 +1,4 @@
+Usage: SET SEND_IGNORE_MSG [ON|OFF|TOGGLE]
+  When OFF, prevents the sending of "You are being ignored"
+  messages when you IGNORE someone.  When ON, these messages are
+  sent when then IGNORE is initiated for PRIVATE or ALL messages.

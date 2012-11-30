@@ -1,0 +1,9 @@
+Usage: SET INSERT_MODE [ON|OFF|TOGGLE]
+  Turns ON or OFF insert mode.  While on, characters typed are
+  inserted into already existing text.  When off, new characters
+  overwrite existing ones.  Whichever key is bound to the function
+  TOGGLE_INSERT_MODE will toggle this setting on and off. The TAB 
+  key (or ^I) is the default binding.
+
+See Also:
+  BIND TOGGLE_INSERT_MODE

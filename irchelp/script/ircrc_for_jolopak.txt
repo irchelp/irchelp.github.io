@@ -1,0 +1,82 @@
+#*#*#*##*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+#*                                          *#
+#*   sample .ircrc setup file for JoloPak   *#
+#*                                          *#
+#*#*#*##*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+
+## last updated: 10/22/00 with JoloPak 1.4
+## This file doesn't change with each JoloPak because it is just an example
+## of an .ircrc setup file which lets you install or upgrade to the latest
+## jolopak.scr with no changes, instead putting all custom changes here.
+## Many lines are commented out, delete the leading #'s to activate a line.
+
+## INSTALLATION (3 easy steps):
+##   1. Save the file as .ircrc in your shell account home directory.
+##      Also put the main JoloPak file jolopak.scr in the same place.
+##		(If you have older versions of either file, back them up first!)
+##   2. Personalize "myversion", "myhome" and "myuserinfo" below.
+##   3. If you installed ircII yourself, verify the LOAD_PATH and HELP_PATH.
+##   Now Launch ircII as usual (usually type "irc") -- that's it!
+
+## Put your home directory or where you saved jolopak.scr if different
+## after 'myhome' below. To find your home directory, at the UNIX prompt
+## type "echo $HOME", or "cd" followed by "pwd".
+
+assign myhome /home/jyl
+
+## Change "ircII..." below to whatever version you are running. To find
+## your version, launch IRC by "irc -q", then /CTCP your_nick VERSION, copy
+## everything after "CTCP VERSION reply from your_nick:". When in doubt,
+## don't tamper with this, and don't get cute or you risk getting /kill'd.
+
+assign myversion ircII 2.8.2 SunOS 5.8
+
+## The next long line is returned to anybody doing /ctcp your_nick userinfo
+## This is your chance to be creative - don't mess with other CTCP responses!
+## This is my actual userinfo, just to show you an example. :)
+
+assign myuserinfo Jack Smith, I enjoy Broadway musicals and violent movies, please see my web site at http://blah
+
+## Now that you've customized your ircII properly, load the JoloPak script
+## Don't change this line or move it elsewhere!!!
+
+eval LOAD $myhome/jolopak.scr
+
+## That's pretty much it, anything after this is purely optional!
+## From here on you can add any further customizations. All of these
+## examples are commented out. To activate them, delete the leading "#"
+## symbol from each line beginning with just 1 "#".
+
+## If you have problems with /load, uncomment and change the following
+## to suit your needs.  Here's what to do if the default ircII directories
+## change from /usr/local/ to the "myhome" directory that you set earlier.
+
+#eval SET LOAD_PATH .:$myhome:$myhome/script:$myhome/lib/irc/script
+#eval SET HELP_PATH $myhome/lib/irc/help
+
+## If you do change LOAD_PATH above, uncomment the following 2 lines
+## so that you reload these standard scripts using your correct LOAD_PATH
+
+#LOAD tabkey
+#LOAD killpath
+
+## We're all done now. You can add customizations at the end of this file,
+## or make a new file like "Private" and use it by uncommentng the next line:
+
+#eval LOAD $myhome/Private
+
+## All the following lines are examples of how to customize JoloPak, you
+## may toggle their action by commenting or uncommenting the lines.
+
+## if uncommented, turn off auto recording of /msg's when you are away
+
+#^assign record_when_away NO
+
+## if uncommented, turn off the auto /away if you idle for 15 min
+
+#ON ^IDLE -15
+
+## if uncommented, enable delayed auto_rejoin after you get kicked. Note
+## some channels consider auto rejoin to be annoying and you may get banned!
+
+autorejoin on

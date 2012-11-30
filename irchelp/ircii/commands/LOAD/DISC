@@ -1,0 +1,6 @@
+Usage: LOAD disc
+  A simple demonstration of how to customize the STOP_IRC binding
+  so as to set your away message automatically. Use the WHICH
+  command to find the script, and then look at what it does. This
+  one should be copied into your .ircrc or a separate file in your
+  own account.

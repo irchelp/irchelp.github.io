@@ -1,0 +1,47 @@
+Usage: ENCRYPT [<nickname>|<channel> [<key>]]
+  ENCRYPT allows you to hold an encrypted conversations with 
+  a person or a whole channel.  Once a nickname/channel and
+  key is specified, all messages you send to that 
+  nickname/channel will automatically be encrypted using the
+  given key.  Likewise, any messages from that nickname/channel
+  will automatically be decrypted. ircII is smart enough to know
+  if the incoming message isn't encrypted and will not attempt to 
+  decrypt it.  If you received an encrypted message from someone
+  for whom you haven't specified a key, it will be displayed as
+  [ENCRYPTED MESSAGE].
+
+  The <key> can be any text which is to be used an they key 
+  for encryption/decryption of the conversation.  It is up to
+  you and the people you wish to talk to about how to agree upon 
+  a key and how to communicate it to one another.
+
+  For example, if user CheeseDog wishes to talk encryptedly with
+  user DogCheese, they must first agree on an encryption key
+  (case sensitive), say foo.  Then user CheeseDog must issue a
+    ENCRYPT DogCheese foo
+  and user DogCheese must issue a 
+    ENCRYPT CheeseDog foo
+  Thereafter, all messages sent between CheeseDog and DogCheese
+  will be encrypted and decrypted automatically.  
+
+  If ENCRYPT is given with a nickname but no key, then encrypted
+  conversation is ended with that user.  If ENCRYPT is given with
+  no arguments, the list of encrypted user and keys are
+  displayed.
+
+  IrcII uses a built in encryption method that isn't terribly secure.
+  You can use another if you so choose, see SEE ENCRYPT_PROGRAM
+  for information about this.
+ 
+  If you are sending encrypted messages to a user or channel, you
+  can toggle it off and on in a message line by inserting the
+  control-E character in the input line.  This is usually done
+  by hitting control-Q then control-E.  An inverse video E will
+  appear in the input line.  
+
+Note:
+  Control-q is bound (see BIND) to quote_character by default.
+  It is frequently necessary to change this to some other char.
+
+See Also:
+  SET ENCRYPT_PROGRAM

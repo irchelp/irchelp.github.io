@@ -1,0 +1,4 @@
+Usage: LOAD ircIIhelp
+  This simply emulates an ircIIhelp robot.  It will send help on a 
+  subject to anyone who asks for it. Actual ircIIhelp robots however
+  are not done this way, a faster C language version exists.

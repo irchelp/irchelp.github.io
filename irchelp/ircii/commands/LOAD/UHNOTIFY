@@ -1,0 +1,4 @@
+Usage: LOAD uhnotify
+  This script adds userhost lookups for every nick on
+  the notify list.  It works much better with ircII
+  clients 2.3.13 or older.

@@ -1,0 +1,2 @@
+Usage: WINDOW PUSH
+  Push the current window onto the window stack.

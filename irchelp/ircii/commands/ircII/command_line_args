@@ -1,0 +1,48 @@
+The command line arguments to IRCII ar as follows:
+
+irc [<nick> [<server list>]] [<switches>]
+
+You may specify a nickname, which will supersede the IRCNICK
+environment variable.  The server list will be added to the
+server list found in the IRCSERVER variable.  However, the 
+servers specified on the command line will appear first in the
+server list and be the first to which connections are attempted.
+See ircII server_lists for the format of a server list.
+See also ircII environment_vars for automatic settings.
+
+The <switches>:
+   -c <channel> joins <channel> at startup.  If not specified, you
+                start at channel 0.
+   -p <port>    default server connection port (usually 6667).
+                This default port number can be overriden by
+                specifying a port number in the server list (see below) 
+                or using the SERVER command (see SERVER).
+   -f           your terminal uses flow controls (^S/^Q), so IRCII shouldn't
+                You may want to rebind ^Q and ^S so you can still
+                use those functions.  ^Q is usually bound to
+                QUOTE_CHARACTER, and ^S is usually bound to
+                TOGGLE_STOP_SCREEN.  See BIND about this.
+   -F           your terminal doesn't use flow control (default).
+                Opposite of -f, forces IRCII to take over ^Q/^S.
+   -s           Start IRCII without using the server process (ircserv)
+                even if it can find it.  This is useful for use with
+                irciid and automatons which don't need the
+                separate process (since they never ^Z).
+   -S           Opposite of -s.  Force ircII to use the (ircserv )
+   -d           runs IRCII in "dumb" terminal mode.  IRCII then 
+                uses no fancy screen stuff or fancy input editing.
+                All output goes to stdout, and all input is read from
+                stdin.  Input editing is only done by your tty (if any).
+                No IRCII keybinding have any effect in dumb mode.
+   -l <file>    loads <file> in place of your .ircrc
+   -a           adds default servers and command line servers to server 
+                list.  Normally, if you specify servers on the command
+                line, the IRCSERVER and default server are not added to the
+                server list.  This forces all servers known to be added.
+                The order in which servers appear in you server list 
+                are as follows:
+                   1. command line servers (from left to right)
+                   2. IRCSERVER servers (from left to right)
+                   3. Default IRCII servers
+   -v		Prints the version and internal version (release date).
+   -q           Start IRCII quickly -- don't load the IRCRC.

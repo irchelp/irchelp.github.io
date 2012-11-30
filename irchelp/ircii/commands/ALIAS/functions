@@ -1,0 +1,84 @@
+IRCII Functions
+  IRCII functions are substituted with the format $FUNCTION(arguments).
+  A function is an ALIAS which assigns a value to FUNCTION_RETURN.
+  For example:
+    ALIAS DOUBLE assign FUNCTION_RETURN ${[$0]+[$0]}
+  which is the same as:
+    ALIAS DOUBLE @ function_return = [$0] * 2
+  used with:
+    ALIAS SHOWDOUBLE echo $DOUBLE($0)
+  will cause
+    SHOWDOUBLE 7
+  to display "14".
+
+  The following built-in functions already exist and cannot be overriden:
+
+  LEFT(COUNT STRING)    Returns the COUNT leftmost bytes from the STRING.
+  RIGHT(COUNT STRING)   Returns the COUNT rightmost bytes from the STRING.
+  MID(INDEX COUNT STRING) Returns COUNT bytes starting at position INDEX
+                        in STRING.
+  INDEX(CHARLIST STRING) Returns the index to the first character in STRING
+                        which appears in CHARLIST.
+  RINDEX(CHARLIST STRING) Returns the index to the last character in STRING
+			which appears in CHARLIST.
+  TIME()                Returns the current system time as a long integer
+  STIME(TIMEVAL)        Returns the date and time in English that corresponds
+                        to the long integer TIMEVAL.
+  TDIFF(TIME_INTERVAL)	Takes a TIME_INTERVAL in seconds and returns it in 
+			the format.. dd days hh hours mm minutes ss seconds
+			Any fields with 00 are omitted.
+  RAND(LIMIT)           Returns a random number x such that 0<=x<LIMIT
+  SRAND(SEED)           Seeds the random number generator and returns nothing.
+                        The seed may be a long integer, although only the low
+                        integer is used.
+  USERHOST()            Returns the user@host value under which the current
+                        message was sent if you are on a 2.7 server or better.
+  MATCH(PATTERN WORDS)  Returns an index into the list of WORDS of the first
+                        match for the given PATTERN. Returns 1 if it matches
+                        the first word, 0 if it matches none.
+  RMATCH(WORD PATTERNS) Returns an index into the list of PATTERNS of the
+                        pattern which best matches the given WORD. Returns
+                        1 for the first pattern, 0 for none.
+  WORD(INDEX WORDS)	Returns the single word in the list of WORDS pointed
+			to by INDEX.
+  STRIP(CHARLIST STRING) Returns the STRING with all occurrences of characters
+                        listed in CHARLIST removed.
+  CONNECT(HOST PORT)	Returns the file descriptor for the connection.
+			A NULL fd means host could not be resolved.
+			Negative fd means some error occurred in the attempt.
+			Communication through the connection is done with 
+			DCC RAW and ON DCC_RAW.
+                        (See DCC RAW and ON DCC_RAW)
+  LISTEN(PORT)		Creates a listening socket on the specified port.
+			If the port # is not specified then it returns the 
+			number of the port it chose arbitrarily.  It cannot
+			open a port# < 1025
+  ISCHANNEL(word)       Returns 1 if word is a valid channel name.
+  ISCHANOP(nick channel) Returns 1 if nick is a chanop on the given channel.
+  WINNUM()              Returns the current window number.  This is always 
+			the window which is indicated by STATUS_WINDOW.
+  WINNAM()              Returns the current window name.
+                        This is always the window which is indicated by 
+			STATUS_WINDOW.  If the window has no name, it returns
+                        nothing.
+  ENCODE(input text)	Convert input text to an encoded string suitable for
+			use as an ircII variable or alias name.  Any special
+			including spaces can be encoded into the string.
+  DECODE(encoded text)	Decode a single STRING of text produced by ENCODE()
+			into it's original characters.  Note that these are
+			case sensitive.
+  TOUPPER(string)       Convert string to upper case.
+  TOLOWER(string)       Convert string to lower case.
+  CURPOS()		Returns the postition from the start of the input line
+			to where the cursor is now.
+  MYCHANNELS(refnum)    Returns a string with a list of channels on that
+                        windows server. (defaults to current window)
+  MYSERVERS()		Returns a string of the names of the servers
+			you are connected to.
+  ONCHANNEL(nick channel) Returns 1 if nick is on channel
+  PID()			Returns the current process ID.
+  PPID()		Returns the current parent process iD.
+  CHANUSERS(channel)	Returns a list of users on channel.
+
+Note:
+  The argument separator for functions is the space character, not the comma.

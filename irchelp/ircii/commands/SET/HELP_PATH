@@ -1,0 +1,10 @@
+Usage: SET HELP_PATH <Path to help files>
+  This path points to the location of the directory containing
+  the help files. e.g.
+    SET HELP_PATH /usr/local/lib/irc/help
+  If no help directory is found then the client will query
+  the service pointed to by HELP_SERVICE for help.
+
+See Also:
+  SET HELP_SERVICE
+  HELP

@@ -1,0 +1,3 @@
+Usage: WINDOW NAME <name>
+  Sets a <name> for the window, which may now be used in place of
+  the refnum assigned by ircII.

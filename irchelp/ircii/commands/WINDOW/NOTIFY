@@ -1,0 +1,5 @@
+Usage: WINDOW NOTIFY
+  Toggles notification for the current window when it is 
+  invisible. If set to ON, the first text written to the window 
+  after it is hidden will cause a line to be displayed in the 
+  current window at that time.

@@ -1,0 +1,12 @@
+Usage: SET BEEP_ON_MSG [ALL|NONE|[-]<level> [-] <level> ...]
+  This variable lets you specify certain types of messages
+  which will cause an audible beep when you receive one.
+  The possible message levels are:
+    PUBLIC          Channel conversation only
+    MSG             MSGs only
+    NOTICE          NOTICEs only
+    WALL            WALLs only
+    WALLOP          WALLOPs only
+    NOTE            NOTE only
+    CRAP            Is not used.
+  See SET LASTLOG_LEVEL for more on these levels

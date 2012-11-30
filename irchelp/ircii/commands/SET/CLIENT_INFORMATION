@@ -1,0 +1,6 @@
+Usage: SET CLIENT_INFORMATION <Text of message>
+  This message will be displayed any time someone does a
+  CTCP VERSION on your nickname.
+
+See Also:
+  CTCP VERSION

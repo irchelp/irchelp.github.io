@@ -1,0 +1,48 @@
+Usage: LOAD action
+  Several Multi-User-Dungeon-like aliases are defined here.
+  They make use of the ME command, and are transmitted to
+  the current channel or the current query via CTCP ACTION.
+  Some incomplete client variants might not support this type
+  of communication messages.
+
+  These commands can be used with or without an adverb of your
+  choice:
+	APPLAUD		BOUNCE		CHUCKLE		CLAP
+	GIGGLE		GRIN		GROAN		MOAN
+	NOD		PURR		SCRATCH		SHRUG
+	SIGH		SMILE		WAVE		WINK
+	YAWN
+
+  These act differently depending on presence of arguments:
+	LAUGH [<how>]	SING [<lyrics>]
+
+  The following can only be used without arguments.
+	BOW		BURP		COUGH		CRY
+	GASP		SCREAM		SHIVER		SNAP
+	SNEEZE		SNORE		WHISTLE		WIGGLE
+
+  These instead, require a nickname as argument
+  (or 'you' if you are in a /query):
+	COMFORT		CUDDLE		HUG		KISS
+	LOVE		PAT		POKE		SLAP
+	SPIT		THANK
+
+  These can be used with or without a nickname:
+	DANCE		SHAKE
+
+  Some of these commands use a possessive pronoun, the pronoun
+  is generated at loading time depending on the setting of a
+  variable 'GENDER'. If you care, you should include a line
+
+	assign gender f
+
+  (or 'm' for male) in your .ircrc before 'load action'.
+  However sentences will make sense even if GENDER is undefined.
+
+  New commands have been added which act like 'private-msg actions':
+	PING <person> [<beeps to wake person up>]
+  and	PONG <person>
+
+See also:
+  ME
+  DESCRIBE

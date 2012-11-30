@@ -1,0 +1,180 @@
+if (0){
+     Script: nocolor, http://www.best.com/~linux/ircII/nocolor
+     Author: lzh@linux.vip.best.com, lzh@Undernet#ircII
+Description: ircII script to remove mIRC color codes
+              as specified in http://www.best.com/~linux/ircII/mIRCcolorSpec
+    Version: $Id: nocolor,v 2.4 1997/02/04 12:05:20 lzh Exp $
+Adtl Kywrds: colour stripper filter out cstrip
+
+  1. save to nocolor
+  2. /load nocolor
+  3. no more color codes
+
+This version is a lot faster than the 1.x versions because it operates
+on as many characters as it can at a time.
+
+Installation
+
+  Save this to a file named nocolor if you don't already have it
+there. The name is important as it is used in the /nocolor command. If
+you change the name you will need to change it in the nocolor alias.
+
+ at the unix command prompt do:
+
+ cd              # without any arguments should return you to your home dir
+ mkdir .irc      # makes the .irc dir  (ircII's default user script dir)
+ mv nocolor .irc # moves nocolor to .irc
+
+ echo ~          # shows what ~ means as used below.
+
+shows (for me):
+
+ /home/lzh
+
+ irc             # start ircII (use other command if appropriate)
+
+In ircII:
+
+ /set load       # note(ircII allows you to abbreviate many things)
+
+ircII displays (for me):
+
+ *** Current value of LOAD_PATH is ~/.irc:/usr/lib/irc/script
+
+If ~/.irc isn't in LOAD_PATH and you want to add it:
+
+ /eval set load_path ~/.irc:$load_path
+
+If that was needed you most likely would also want to add it to your
+~/.ircrc, as noted below.
+
+ /which nocolor
+
+ircII displays (for me):
+
+ *** /home/lzh/.irc/nocolor
+
+ /load nocolor
+
+ircII displays:
+
+ *** Viewing Color Codes turned off
+ *** You can use /nocolor to toggle viewing Color Codes
+
+voila! no more mIRC colors. :)
+
+ /nocolor
+
+ircII displays:
+
+ *** Viewing C1,4ColorC Codes turned on
+ *** Viewing Color Codes turned on
+
+With color viewing on you'll see both the line containing the codes
+followed by the line with them removed.
+
+ /nocolor
+
+ircII displays:
+
+ *** Viewing Color Codes turned off
+
+If you would like nocolor loaded whenever you run ircII you can add:
+
+ load nocolor
+
+to the .ircrc file in your home directory. If one doesn't exist of
+course you can create it with a text editor.
+
+---------------------------------------------------------------------
+
+In the following ^C or ^<letter> means a single control character. If
+you would like to produce a ^C, /bind ^c self_insert should work. Note
+in the /bind command an actual ^ is typed.
+
+  mIRC users apparently type ^K to insert the ^C and then enter the
+foreground and background numbers or just ^C to turn off a color
+change. To ircII users this appears as an inverse C followed by 1 or 2
+digits and possibly a comma and 1 or 2 more digits. Beautifully
+intermixed with the other characters to look like an awful mess.
+
+Example (you usually won't see something this bad):
+
+  C11,11PCC11,11rC11,11eCC11,11tCC11,11tCC11,11yC C11,11HCC11,11CuCC11,11hC?
+        P       r      e       t       t       y        H        u       h ?
+
+Note the 1's are just there to show where a color value would go.
+
+www servers negotiate with the client to determine what the client
+supports, why not irc servers? In that scheme color codes would only
+be seen if requested, leaving the existing clients unchanged.
+
+  If you need or want to put a real Control C in [^C],
+
+   in emacs you type ^Q then ^C, or
+   in vi you type ^V followed by ^C, while in insert mode.
+}
+@nc.c = [^C]
+if (@nc.c == 2){
+ input "" assign nc.c $$0
+ parsekey quote_character
+ type ^c
+ parsekey send_line
+}
+
+if (@nc.c == 1){
+ @nc.d = [//if (index(0123456789 $mid($nc.i 1 $*))>-1)]
+ @nc.p = [@nc.i=nc.i+1]
+ @nc.a = [@nc.o=nc.o##mid($nc.i $nc.n $*)]
+
+ alias nc.rmv {
+  #$nc.i = index
+  #$nc.n = number of chars between index and next ^C
+  @nc.i=0
+
+  #while ^C is between index and end
+  //while ((nc.n=index($nc.c $mid($nc.i 999 $*)))>-1){
+   #$nc.a = append normal chars to output var
+   $nc.a
+
+   #set index to ^C
+   @nc.i=nc.i+nc.n
+
+   #set index past ^C or ^C's if several are next to each-other
+   //if ((nc.n=index(^$nc.c $mid($nc.i 999 $*)))>-1){
+    @nc.i=nc.i+nc.n
+
+    #$nc.d = if char is digit
+    #$nc.p = increment pointer (index)
+    $nc.d{
+     $nc.p;$nc.d{$nc.p}
+     #if char is comma
+     //if (mid($nc.i 1 $*)==[,]){$nc.p;$nc.d{$nc.p;$nc.d{$nc.p}}}
+    }
+   }{
+    #else only ^C's remain so don't check any more
+    @nc.i=999
+   }
+  }
+  $nc.a
+  @function_return=nc.o
+  @nc.o=[]
+ }
+
+ alias nocolor {if (nc.w){@nc.w=0}{@nc.w=1};load nocolor}
+
+ if (nc.w){
+  on ^window "% *$nc.c*" {//echo $1-;//echo $nc.rmv($1-)}
+  eval echo *** Viewing $(nc.c)1,4Color$nc.c Codes turned on
+ }{
+  on ^window "% *$nc.c*" {//echo $nc.rmv($1-)}
+  eval echo *** Viewing $(nc.c)1,4Color$nc.c Codes turned off
+ }
+ if (nc.w==[]){
+  echo *** You can use /nocolor to toggle viewing Color Codes
+ }
+
+}{
+ echo *** nocolor needs a real ^C (Control C).
+}
+

@@ -1,0 +1,6 @@
+Usage: MLOAD <menu file>
+  MLOAD simply loads a menu file. See menus for more details.
+
+See Also:
+  SET MENU
+  MLOAD

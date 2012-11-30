@@ -1,0 +1,3 @@
+Usage: RESTART
+  Causes your server to restart itself, or more correctly, to start up
+  the binary with the path you have defined in the ircd's config.h.

@@ -1,0 +1,122 @@
+The dmsetup.exe Trojan horse attack
+
+adapted by prysm from other sources 5/26/98
+updated by Jolo 7/1/98
+
+WHAT IS DMSETUP.EXE?
+
+To put it plainly dmsetup.exe is a file (if you are silly enough to
+run it) that copies itself in several places on your hard disk,
+makes its own mirc.ini and associated script and adds to a system
+file to ensure it cannot be purged easily.
+
+All the script does (so far) is send itself to people when they join
+and make the person who has it /quit from IRC on a certain keyword.
+
+This file affects at least mIRC 5.11 and 5.31 (the latest version),
+so unlike the original script.ini attack, upgrading is not the
+solution.
+
+As a rule we should NEVER accept or run any programs that we don't
+know. Treat dmsetup.exe just like a nasty VIRUS.
+
+To fix this problem, there are 2 main scenarios, depending on
+whether you have mIRC in the C drive or not. We highly recommend you
+work through the following steps, because it's much better to make
+sure you've eradicated the problem, plus you're more likely to be
+reading the latest, most up to date fixes here.
+
+If all else fails, or if all of this is meaningless tech-speak and
+you can't find a friend to walk you through the steps, you may
+choose to try downloading a command file which you may find at:
+	http://www.mirc.bay-city.net/dmremove.html
+which you then run, and hope it does all of this for you. You really
+should use that only as a last resort!
+
+---------------------------------------------------------------------------
+
+IF YOU HAVE MIRC INSTALLED ON YOUR C: DRIVE...
+
+
+In other words if you have c:\mirc\
+
+1st time dmsetup.exe is run
+
+1.	It copies itself to c:\
+                        c:\mirc
+                        c:\windows
+                        c:\program files
+    but it DOES NOT copy itself to anywhere else.
+
+2.	It then creates c:\configg.sys (reason explained later).
+
+3.	Then it adds dmsetup line to autoexec.bat (this can be seen with
+	a text editor).
+
+4.	It copies mirc.ini to backup0412.ini
+
+5.	Creates mirc.ini and mircrem.ini
+
+6.	Displays error type 0 (so that you think the download is broken).
+
+2nd 3rd 4th ... time it is run
+
+It does all the above steps exactly the same except 2 & 3 due to the
+existance of configg.sys (unsure whether its contents are relevent) 
+
+Recommended course of action
+
+1.	Unload mircrem.ini
+
+2.	Open c:\autoexec.bat with notepad and remove the dmsetup line -
+	save and exit
+
+3.	Delete the following
+        c:\dmsetup.exe
+        c:\configg.sys
+        c:\mirc\dmsetup.exe
+        c:\mirc\mircrem.ini
+        c:\mirc\backup0412.ini
+        c:\windows\dmsetup.exe
+        c:\progra~1\dmsetup.exe
+
+I have not included mirc.ini because once mircrem.ini is gone mirc resets
+the one line in this that was of any harm - I'll leave the choice up to
+you. 
+
+----------------------------------------------------------------------------------------
+
+IF YOU HAVE DO NOT HAVE MIRC INSTALLED ON YOUR C: DRIVE...
+
+The attack performs steps 1 to 3 above, then returns error type 1.
+
+There is a differnce in step 1 however - because the c:\mirc
+directory doesn't exist it copies itself into mirc (no extension) on
+the root drive.
+
+Because it didn't alter mirc.ini, the people won't even know they have
+it nor will anyone else either, unless they check out of curiosity or
+until they put mIRC on the c: drive.
+
+Recommended course of action
+
+1.	Open c:\autoexec.bat with notepad and remove the dmsetup line -
+	save and exit
+
+2.	Delete the following
+        c:\dmsetup.exe
+        c:\configg.sys
+        c:\mirc
+        c:\windows\dmsetup.exe
+        c:\progra~1\dmsetup.exe
+        
+----------------------------------------------------------------------------------------
+
+You should have eradicated the dmsetup attack now. Please take some
+time to read the other help files at:
+
+	http://www.irchelp.org/irchelp/security/
+
+to make sure you are not infected with other similar trojan horse
+attacks, and to make sure you don't get infected again in the
+future.

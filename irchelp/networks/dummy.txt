@@ -1,0 +1,21 @@
+LARGE NETWORKS
+
+large nets are defined as having >10k users, these nets make up x% of IRC
+in terms of users, prob best place to find lots of people to chat or files
+to trade, also tends to be most chaotic and where abuse runs rampant etc etc
+
+List of nets (in alpha order, not by size!)
+
+EFnet
+
+Locations: US, Europe, near east
+Services: None except pseudo-chanserv[link]
+Help chans: #irchelp (general IRC), #help (general), #dmsetup (virus/trojan),
+    #chanfix (pseudo-chanserv)
+Home Page: [efnet.org]
+Stats: [http://irc.netsplit.de/networks/EFnet/]
+Server list: [ours or efnet.org]
+
+descriptive paragraph describing what's unique, any history/background/rules
+that might be interesting or pertain to a luser's decision to check out this
+net. includes restrictive policies (e.g. no pr0n/warez).

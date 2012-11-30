@@ -1,0 +1,6 @@
+Usage: SET STATUS_CHANNEL <Status line text for display of channel>
+  The contents of STATUS_CHANNEL are replaced in the
+  STATUS_FORMAT variable for any occurence of %C.
+  This variable may contain any text, plus it may contain
+  a single occurence of %C, which is replaced by the name or
+  the number of the channel you are currently on.

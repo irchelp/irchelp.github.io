@@ -1,0 +1,36 @@
+  networks:   current top 30... 	more 
+
+ network                     users  channels
+
+*DALnet                      73670     29796
+*EFnet                       66244     26094
+*IRCnet                      64310     37384  
+*Undernet                    60769     30534
+*WebChat                     20849      9463
+*QuakeNet                    16468     32977
+*BRASnet                     15337      5111
+ EnterTheGame                10315      8403
+*GalaxyNet                    9855     10927
+ GamesNET                     7831      8197
+ IrCQ-Net                     5958      1664
+*BrasIRC-1                    5270      2051
+ HanIRC.org                   5262      3711
+*NewNet                       4201      1144
+*AustNet                      3963      2724
+*OpenProjectsNet              3703      1406
+*IRC-Hispano                  3065      5399
+ Planetarion                  2947      4703
+ ArabChat                     2830       677
+*ChatNet                      2663      1925
+ nitro.net                    2462       457
+*oz.org                       2369      1104
+*PTnet                        2133      2832
+ mIRCx.com                    1971       429
+*StarChat                     1959       748
+*UniBG                        1926      1730
+ Observers                    1781        80
+ ChatUniverse                 1661       123
+ Bondage                      1379       520
+*SorceryNet                   1303       779
+
+* indicates nets where Apatrix already has blurbs

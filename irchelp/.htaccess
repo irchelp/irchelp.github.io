@@ -1,0 +1,5 @@
+Redirect /irchelp/index.html http://www.irchelp.org/
+Redirect /irchelp/rfc1459.html http://www.irchelp.org/irchelp/rfc/
+Redirect /irchelp/telnet.html http://www.irchelp.org/irchelp/misc/telnet.html
+Redirect /irchelp/connectprob.html http://www.irchelp.org/irchelp/networks/connectprob.html
+Redirect /irchelp/botfaq.html http://www.irchelp.org/irchelp/misc/botfaq.html

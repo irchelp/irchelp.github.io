@@ -1,0 +1,46 @@
+RusNet server list
+
+[Last update: 09 Dec 2001 ]
+
+The official RusNet Web-server is:
+    http://www.rusnet.org.ru/
+
+Russia:
+
+irc.rinet.ru
+irc.spbu.ru
+irc.mv.ru
+irc.uven.ru
+irc.krasnet.ru
+irc.baikal.net
+irc.primorye.ru
+irc.rb.ru
+irc.tyumen.ru
+irc.chelyabinsk.ru
+irc.tomsk.net
+irc.sovtest.ru
+irc.maktor.ru
+
+Ukraine:
+
+irc.kar.net
+irc.lucky.net
+irc.tsua.net
+irc.odessa.net
+irc.rus.net
+irc.paco.net
+irc.odtel.net
+irc.tavrida.net
+irc.itl.net.ua
+irc.aip.net.ua
+irc.anarxi.st
+irc.alkar.net
+irc.nikolaev.ua
+
+Latvia:
+
+irc.runcis.lv
+
+USA:
+
+irc.crocodile.org

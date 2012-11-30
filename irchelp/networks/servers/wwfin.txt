@@ -1,0 +1,19 @@
+List of WWFIN servers
+
+[Last update: 30 Dec 97 15:45 GMT+0200]
+
+
+CANADA
+
+[BC] irc.freenet.victoria.bc.ca
+
+GERMANY
+
+fen.wwfin.net
+
+UNITED STATES
+
+[CA] lafn.org
+[FL] irc.afn.org
+[IL] prairienet.wwfin.net
+[MI] macatawa.wwfin.net

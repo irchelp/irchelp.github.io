@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]INVITE [-|^]<parameters> [action]
+  This is activated whenever you receive an INVITE.  The
+  parameters for the action are as follows:
+    $0    nickname of person who invited you
+    $1    the channel to which you are being invited

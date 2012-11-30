@@ -1,0 +1,8 @@
+Usage: CD [<path>]
+  If a <path> is specified, this changes ircIIs working directory. 
+  This is the default directory for EXEC's and other things
+  (such as logs) that don't have absolute paths specified.
+  CD with no arguments shows you the current directory.
+
+See Also:
+  WHICH

@@ -1,0 +1,4 @@
+Usage: LOAD columns
+  A little script by BigCheese to demonstrate the usage of ECHO $[].
+  It displays all in and outgoing channel talk formatted to the 11th
+  column.

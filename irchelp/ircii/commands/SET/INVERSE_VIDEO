@@ -1,0 +1,4 @@
+Usage: SET INVERSE_VIDEO [ON|OFF|TOGGLE]
+  When OFF, inverse video sent to your display by using the ^V
+  character will not show up in inverse.  This can effect the
+  status line but not the input line.

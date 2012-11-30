@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]TOPIC [-|^]"<nickname> channel" [action]
+  This is activated whenever someone changes the topic    
+    $0    nickname of person who changed the topic
+    $1    The channel on which the topic was changed
+    $2-   The new topic

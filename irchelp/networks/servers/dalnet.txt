@@ -1,0 +1,53 @@
+List of DALnet servers
+
+DALnet's web site continues to host a rather outdated list which also
+lacks many existing servers. This is an unofficial replacement. All
+servers listen on port 7000, most listen on 6667 too.
+
+[Last update: 21 Nov 98  21:30 GMT]
+
+Random server: irc.dal.net
+Random European server: irc.eu.dal.net
+
+AUSTRALIA
+
+ozbytes.sa.au.dal.net
+
+CANADA
+
+farside.ab.ca.dal.net
+raptor.ab.ca.dal.net
+
+NORWAY
+
+powertech.no.eu.dal.net
+viking.no.eu.dal.net
+
+SWEDEN
+
+algo.se.eu.dal.net
+ced.se.eu.dal.net
+
+UNITED STATES
+
+colors.ca.us.dal.net (trial link)
+mindijari.ca.us.dal.net
+sonic.ca.us.dal.net
+sodre.fl.us.dal.net
+hebron.in.us.dal.net
+qis.md.us.dal.net
+webbernet.mi.us.dal.net
+stlouis.mo.us.dal.net
+viper.mo.us.dal.net
+webserve.nc.us.dal.net (trial link)
+liberty.nj.us.dal.net
+webzone.ok.us.dal.net
+
+
+If none of these addresses work (that is, when something is seriously
+broken), these should work at all times. As a last resort, IP addresses
+are provided.
+
+Detroit, MI, USA	dalnet.webbernet.net		208.205.94.3
+St. Louis, MO, USA	radius2.stlnet.com		209.96.2.132
+Goteborg, Sweden	dalnet.ced.chalmers.se		129.16.13.133

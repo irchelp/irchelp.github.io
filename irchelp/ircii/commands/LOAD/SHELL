@@ -1,0 +1,8 @@
+Usage: LOAD shell
+  This allows you to start a unix shell from inside IRC.  It 
+  requires that the ircflush program be available and so may
+  not work for everyone. The alias to start a shell will be
+  simply /shell.  This starts a shell in a new window. If the
+  ircflush program is not installed you will most likely see
+  now output until you close the shell.  (Which is of course
+  too late.)

@@ -1,0 +1,6 @@
+Usage: DEOP
+  Removes your IRC operator status.
+
+See Also:
+  OPER
+  MODE

@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]TALK [-|^]<user> [action]
+  This is activated whenever you receive a TALK message from someone.
+  The parameters for the action are as follows:
+    $0    user name of person who sent the TALK message
+    $1-   The message

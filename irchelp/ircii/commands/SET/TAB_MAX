@@ -1,0 +1,6 @@
+Usage: SET TAB_MAX [<number of tabs>]
+  This allows you to limit the maximum number of tabs you will hear
+  for any given messages.  For example, if you set TAB_MAX to 3,
+  and someone sends a message with more than 10 tabs in it, you
+  will only see the first three tabs.  Setting TAB_MAX to 0 means
+  you will see all tabs in a message.

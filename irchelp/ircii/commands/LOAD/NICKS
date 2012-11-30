@@ -1,0 +1,7 @@
+Usage: LOAD nicks
+  This is bigcheese's script for making quick aliases for when you 
+  want to send messages to someone. Example:  
+    ASSIGN BC Bigcheese
+    MSG bc <message>
+  This will send your message to bigcheese while you only have to type
+  the short name.

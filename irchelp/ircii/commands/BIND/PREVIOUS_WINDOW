@@ -1,0 +1,5 @@
+Usage: BIND <key> PREVIOUS_WINDOW
+  Switches the "current window" to be the previous window in the
+  window list.  This is the window "above" the current window on
+  the screen.  At the top of the screen, this will jump to the
+  bottom most window on the screen.

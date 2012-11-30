@@ -1,0 +1,12 @@
+Usage: LOAD wallopstat
+  Allows you to selectively ignore or not ignore certain types of 
+  wallops.  When loaded wallops are displayed normally.
+
+Additionnal commands available:
+    loud-	Make user wallops appear normally.
+    loud+	Make oper wallops appear normally.
+    loudS	Make server wallops appear normally.
+
+    silent-	Put user wallops in status line. 
+    silent+ 	Put oper wallops in status line.
+    silentS 	Put server wallops in status line.

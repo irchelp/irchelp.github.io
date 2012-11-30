@@ -1,0 +1,4 @@
+Usage: SET SHOW_END_OF_MSGS [ON|OFF|TOGGLE]
+  When ON, tells IRC II to display the "End of list" messages for
+  the NAMES, LIST, LINKS, and other commands.
+  When OFF, no "End of list" messages are displayed.

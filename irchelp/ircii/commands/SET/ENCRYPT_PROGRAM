@@ -1,0 +1,4 @@
+Usage: SET ENCRYPT_PROGRAM <encryption program path>
+  Sets the program used to encrypt and decrypt messages.  The
+  program selected must take an encryption key as the first
+  command line argument to work with IRCII.

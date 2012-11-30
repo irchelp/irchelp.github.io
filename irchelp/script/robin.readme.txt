@@ -1,0 +1,113 @@
+Robin - Channel Protection Script for ircII
+
+version 1.0, Dec 30, 1997
+
+Initial Warnings:
+	This script assumes that you untarred it from the parent directory of
+	 your account and allowed it to create the subdirectories ~/scripts
+	 and ~/scripts/ops. If you have made any changes to the default 
+	 location of this package then you will need to make the necessary
+	 changes in the various modules that need it. Primarily,
+	 robin.load.mod
+	 
+        Don't be confused by all the files, robin.load.mod is the only
+         file that you will need to load.
+         Feel free, however, to peek inside the 
+         various modules (I placed code comments in most of them).
+        If you encounter recursion errors then you will need to 
+         re-compile your client. This is not a bug within the script, 
+         I wasted alot of time trying to track this down only to 
+         discover that it was the client that was at fault.
+        If you are one of the few that started beta-testing early
+         then you will be pleased to know that ban and hban have now
+         been re-enabled. The code, however, is uglier than i would like
+         but it will suffice until i have more time to clean it up.
+        Due to a lack of imagination at the time, the script is 
+         tentatively titled Robin and /robin will get you to the 
+         main help alias. I am open to suggestions on a final name
+         for both the script and the main help alias. :)
+        Lame references to myself in each module will probably be
+         taken out before beta-testing ends.
+
+This script is being developed for the sole purpose of providing
+ new users some sort of working channel and flood protection without having
+ to resort to all the hacked and bloated scripts, that are widely 
+ distributed, which they think that they must have in order to irc.
+ It is not my intention to write a full package script like purepak or
+ penix. I am trying to keep the script as bare as possible while providing
+ both functionality and a few standard amenities without having to delve
+ into bot-like features (at least not very many).
+I have also attempted to make each routine as simple and clear as possible
+ and placed code comments where available in an attempt to educate the 
+ user into understanding ircII scripting so that he or she may see the 
+ wisdom in writing his or her own script. Later versions will contain 
+ even more comments than this current version contains.
+
+1: What this script has:
+        a: Maintains a list of approved users and monitors server mode 
+            changes in order to verify valid ops and de-op split-riders.
+        b: ircII 2.8.2 has deficient ctcp flood protection so i have 
+            incorporated GArfr's fix for this and made minor changes to
+            enable the user to suppress the local echoes. Thanks to Garfr
+            for allowing me to use his ctcpfix script. :)
+        c: The ban and kick module automatically checks for either a domain
+            or ip address and bans appropriately. You have the option of
+            performing normal bans or host bans. This module also allows
+            you to automatically remove any bans that could affect a certain 
+            user by doing /unban nick. The help files will give you more 
+            detail on this.
+
+2: What the script is not:
+        a: This script is not supposed to be some white hat version of an
+             eggdrop. With this in mind, I have been very paranoid about 
+             the features that I will and will not put in it. This does not
+             mean that I am not open to suggestions for improvements or 
+             additions. In fact, it is quite the opposite. So far I have 
+             written this script alone and with little input (but alot of
+             guidance and influence) from others and as a result what has
+             been written into and what has been taken out of the script
+             has been subject to my opinion only. I welcome any input
+             any of you have (whether beta-tester or just a curious person
+             wanting to see what I have done).
+        b: I am currently planning on leaving "ops on msg" out of the
+            actual distribution because it is quite bot-like and really
+            does encourage idling (I know, I am a hypocrite... but what if
+            all thirty thousand users were idling as I do? :) ). If 
+            enough of my peers (you) feel that it should remain in the
+            script then I will reconsider it (secretly i would like to
+            but I just feel that it is not appropriate in terms of the
+            premise behind why this scripted came into being in the first
+            place.)
+        c: I will never write fserves, splatter kicks and the like for 
+            this package.
+        d: I am certain that I have left something out. 
+
+3: Near future plans:
+        a: I am pondering the idea of writing a shell script that will
+            automatically unpack the archive and insert itself into the
+            users' .ircrc file. ( I know that this is lame, but how often
+            have you listened to "... how do i load scripts?")
+        b: Cleaning the code for the bans.and.kicks.mod
+        c: I am also considering writing an automatic logger for flood
+            attacks.
+        d: oh yeah, and a big credits file to everyone who has helped
+            and influenced me on this. If it were not for #irchelp my 
+            interest in irc probably would have died a long time ago.
+
+This script is being distributed amongst volunteers from #irchelp on both
+ the efnet and the ircnet networks. This should give a varied enough testing
+ ground (ircd2.8x+, ircd2.9x+, ircII2.8.2, ircII2.9(roof and alpha's), and 
+ hopefully a few other ircII versions and derivatives.) for ensuring 
+ compatibility and reliability.
+Thank you very much for helping me test this script, I trust that you will
+ make every effort to break it for me and email any responses, opinions,
+ suggestions and or errors to me at the following address.
+ dhansen@spaceghost.salug.org
+
+c'ya...
+      turtle
+       < >
+
+This is a natural product. The slight variations in spellign and grammar
+enhance its' individual character and beauty and in no way are to be
+considered flaws or defects.

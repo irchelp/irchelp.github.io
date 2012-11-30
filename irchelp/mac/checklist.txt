@@ -1,0 +1,196 @@
+This is a draft checklist for reviewing an IRC client. This isn't
+meant to be a complete list of what a client must/should have,
+but rather an abbreviated checklist of things I personally look
+for when evaluating a new client/version.
+by Jolo
+
+version 0.3.4s
+updated 2/3/99 -dracus
+updated 1/25/03 -dracus
+
+Please send suggestions/comments to Jolo at http://www.irchelp.org/~jyl/mail.cgi
+
+Key: 
+* Required
+++ recomended
++ Desired
+no symbol - don't care
+- Undesirable
+-- Unacceptable
+
+
+BASICS
+	general stability
+	stability while getting /list (indication of stability during a
+	flood) 
+	++load time (on a typical system as of the time it was released)
+		under 30 seconds.
+        memory size (preferably under 1MB, should at least be under 5MB)
+        +shortcuts to get connected to major help channel
+        ++does not allow PRIVMSG autoreply to PRIVMSG
+        ++does not allow any autoreply to NOTICE
+        *use standard terminology (channel/server/query etc)
+        ++connections to multiple networks
+	*Uses common / commands
+	++Allows access to ALL features from / commands
+	++if software is shareware or demo it must not abort on timer 
+	*if software does abort on timer it must be long enough to evaluate
+	properly (1 hour min)
+
+
+FILE / NETWORKS / SERVERS
+        /server irc.mindspring.com 6666
+        built-in server list with EF/Under/IRC/DALnet
+        (++ for gui clients, + for command line)
+	++identd (for platforms which do not normally provide identd)
+		should be able to enable/disable
+        ++server list (if present) can be edited
+	* /list (or GUI features equvilant to /list) works
+	++/list permits wildcards
+        +/list *help* -min 5 (ircII style filtering)
+        ++ /links *.edu
+        +/stats p
+        */motd
+        */dcc chat, send, get
+	* /quote , /raw or similar
+	++005 numeric should be utilized to determine supported user/channel 						modes, and which modes take arguements
+	* Must handle new numerics/server messages gracefully, preferably
+		by displaying them to the user.
+	* Must handle additional parameters on numeric replies gracefully
+	++ Should handle misformed server messages/numerics gracefully, 						preferably by displaying them to the user
+	* Must handle PING cookies during connect. (ircu anti-spoofing)
+	++ Should handle alternative channel types (&+!)
+	+ Should deal with channel forwarding gracefully (Freenode)
+	+ Should deal with anonymous channel operators gracefully (Hybrid 7
+		+a channelmode)
+	+ Should deal with anonymous channels gracefully (IRCNet +a channelmode)
+	+ Should deal with masked servers gracefully (serverhide, IRCnet 		
+		servermasks)
+
+SECURITY
+	* working /ignore
+	++ /ignore supports user supplied hostmasks and message types
+	* Must handle malicious ANSI sequences in a way that does not compromise
+		security
+	++ Should not leak IP information in CTCP replies.
+	* Must handle all characters which may be present in messages from
+		server
+	* Must deal with unsupported or malformed CTCP requests gracefully
+	* Must be designed to avoid buffer overflows from remote clients.
+	++ Should select DCC ports randomly
+	++ Should warn on potentially malicious DCC requests (DCC to loopback
+	chargen port anyone?)
+        *replies to CTCP version & ping
+        server op protection
+        +flood protection (msg, notice, ctcp)
+		if not provided a workable scripting language MUST be
+		provided
+        +logging
+	*Auto DCC get doesn't ship turned on
+	+Auto DCC get not present
+	+Recieved DCC's are sent to a diffrent directory than
+		configuration/scripts are kept
+	+Recieved DCCs either rejected for executable file types, or renamed
+	so as to be non-executable (on platforms where file extension matters)
+	+Recieved DCCs with dot prefix rejected or renamed. (*nix)
+	*Join channel on invite ships disabled or isn't available
+	*Channel protection features, if present, MUST be configurable, and
+		MUST be individually toggleable.
+	++Automatic kicking of channel operators SHOULD be disabled by default.
+	++GUI or locally operated console client should remain responsive during floods
+
+
+CONFIGURABILITY
+        +preferences
+        +saving preferences (window positions, connection info)
+	+Option to send certian output to current window instead of or in
+	addition to console
+	++setting to get /msg's in current window
+
+
+
+EDIT
+        +copy/paste
+        drag & drop
+        +select all
+        *equivalents of ^A (beg of line), ^U (clear line), ^P (previous)
+        font/size displayed
+        ++style: bold/underline/inverse
+
+COMMANDS
+        */msg (just one line)
+        ++/query (extended chat in new window)
+        */notice nick boo
+	++/notice @#channel test  (hybrid6 style channel op notice)
+        */who #test123, *.rr.com
+        */names #channel
+        */whois nick (pick an IRCop)
+        */topic #test123 text
+        */mode #test123 +stinkl nyer 69
+        */mode #test123 +b ?lamer*!*name@*.*.*.com
+        */kick #test123 nick reason
+        */mode nick +is
+        */nick foo
+	+/ping nick, channel
+	*/ctcp nick VERSION
+	*/ctcp nick PING
+	++ Client should supply a time parameter automatically for /ctcp nick 		PING
+	*All commands required by RFC1459 MUST be accessible by /commands
+
+WINDOWS / G.U.I.
+        ++console window for server messages
+        +user list window (nick, H/G, n@u!h, hops)
+        +/dcc status window
+        +channel list
+        +scrollable/multiline input
+        +buttons/toggles for channel modes, topic
+        +buttons for users (msg, whois, kick, op)
+        +colors for message types (public vs. msg)
+	*names of menus and buttons make sense
+
+
+HELP
+        *Client MUST provide online help.
+        +Online help is be accessible through /help <keyword>.
+        +Online help is accessible via the common means of accessing
+          help in that interface.
+        +Online help SHOULD be searchable.
+	+Client "suggests" help topics or provides help when commands are
+		entered improperly
+	+Online help should fully describe each /command
+        
+SCRIPTING
+        +availability of built-in variables and features
+        +portability/ease
+	+ircII or mIRC compatable syntax
+	*All features present are FULLY documented
+
+
+Channel Maintainance
+	*/kick, /topic and /mode are functional
+	++/ban #channel nick
+	++/bankick #channel nick reason
+		preferably offering several forms for bans
+	+timed bans
+        +friends list
+        +shit list
+        
+OTHER
+	*Client should ignore or warn user about forged CTCP replies
+	--Links looker
+
+
+NON-RFC FEATURES
+        mIRC style colors
+	ANSI style colors
+	++color/bold/inverse/underline/flashing stripping
+        fserve
+        +DCC resume
+	+Reverse DCC (sender connects to reciever)
+        sound
+        others: -faces, video, white board, -HTML, etc.
+
+        
+BUILT-IN/BUNDLED SCRIPTS
+
+	-- "war" features (text flooding,terminal bombs,nukers)

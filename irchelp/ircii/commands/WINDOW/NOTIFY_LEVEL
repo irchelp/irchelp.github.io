@@ -1,0 +1,12 @@
+Usage: WINDOW NOTIFY_LEVEL <l>  
+  Where <l> is the same as for LEVEL, this controls what types of 
+  messages trigger STATUS_NOTIFY.
+
+See also:
+  SET LASTLOG_LEVEL for a complete description of the LEVEL parameters.
+  SET NOTIFY_LEVEL
+  SET STATUS_NOTIFY
+  WINDOW
+  WINDOW HIDE
+  WINDOW SWAP
+  WINDOW SHOW

@@ -1,0 +1,122 @@
+aol sux
+big providers like yours tend to have many abusive users, many servers & channels are forced to ban everybody from there. Although it seems unfair, it's unfortunately necessary and there's no way around the bans. 
+
+aol sux 2
+you can either put up with it, or switch to a smaller local provider for better service at the same cost without the bad reputation
+
+banned! help?
+type /names #channelname to find ops (nicks like @foo).  Then /msg foo please let me in. If /names gives no response or shows no ops, or if they ignore you, you're out of luck, just go elsewhere.
+
+bot help? no!
+Sorry, bot help is beyond the scope of this channel. Instead, try #egghelp or use /list and look for "egg" or "bot" channels. NOTE: many EFnet servers do NOT allow bots at all, so first use /motd to check each server's policies.
+
+bot = ?
+a (ro)bot is an automated IRC program, sometimes used to maintain channels or give info. Bots are not allowed on many servers. Type /motd to read your server's rules on bots and other issues.
+
+ctcp
+CTCP (client to client protocol) gives info about someone's client --> /ctcp $N PING  tells you how long it takes for your /msg to reach me. Try replacing PING with TIME, VERSION or USERINFO too.
+
+dcc
+DCC stands for Direct Client Communication, lets you transfer files or chat without lag or splits.
+
+dcc ignore
+For your own protection against viruses and trojan horse attacks, mirc by default ignores all but a few 'safe' file types. You can change those protection settings at your own risk, see http://irchelp.org/warez for more info
+
+file exchange
+IRC is primarily for chat. Some people exchange files, but it is illegal, somewhat difficult, and you risk getting viruses or 'hacked'. You should first chat and learn how IRC works. For more info, see http://irchelp.org/warez
+
+invisible
+invisible mode gives you some privacy, others won't find your nick by /names or /who from outside a channel or with wildcards, unless they are on the same channel as you already or know your nick exactly.
+
+IRCNAME
+First I need to know your shell. Type this now (note capitalization!) and wait for more instructions: /exec -o echo $$SHELL
+
+For sh/ksh/bash:  /quit from IRC and type this at shell prompt --> export IRCNAME="whatever" <-- (note caps and quotes!) To make the change permanent, use a UNIX text editor to put that into your .profile file.
+
+For (t)csh:  /quit from IRC and type this at shell prompt -->  setenv IRCNAME "whatever" <-- (note caps and quotes) To make the change permanent, use a UNIX text editor to put that into your .cshrc file.
+
+For vax/vms: /quit from IRC and type this at shell prompt --> define IRCNAME "John Dork" <-- (note caps and quotes). To make the change permanent, use a text editor to put that into your login.com file.
+
+irc op?
+IRC operators are everywhere including here, but they don't usually interfere in user/channel affairs like takeovers or restoring ops. Why did you want an IRC op?
+
+ircii /list
+To list channels page by page, type /set hold_mode on. Then /list -min 5 (for channels with at least 5 people) and /flush when you've seen enough. Finally /set hold_mode off.
+
+list disconnect
+your current server is too impatient to send you the huge channel list, try other servers or see the searchable channel list at http://www.irchelp.org/chanlist
+
+logging abuse
+see http://www.irchelp.org/irchelp/misc/irclog.html for how to report abuse to the appropriate IRC operators.
+
+mirc
+if /help or the FAQ doesn't answer your question, try #mirchelp or #mirc
+
+mirc dcc send
+do this: (1) In File|Options|Connect|LocalInfo, delete all text in Local Host and IP Address (2) Check always get LOCAL HOST, lookup method SERVER (3) Disconnect from the server and reconnect
+
+mode +tn
++tn turns on 2 common channel modes, <t> means only ops can change the topic and <n> means no messages from outside the channel.
+
+modes for channels
+Channel modes: <t> only ops set topic, <n> no msg's from outside channel, <p/s> private/secret, <k> key/passworded, <i> invite-only, <m> moderated, only ops speak, <v> voice given in moderated channel, <l> limits # people.
+
+msg me not
+pls ask on the channel so others can help if I'm busy/clueless.
+
+new2irc
+type  /ircintro  (by itself on a new line in any window) to see mirc's built-in intro, or see a short intro to IRC at http://www.irchelp.org/irchelp/new2irc.html
+
+ops?
+An existing op can give you ops, or you can become an op by starting your own new channel: /join #channel-name-that-doesn't-exist. Starting a channel is trivial, but running one properly is a very advanced subject.
+
+ping
+Pings are small signals used to measure lag, the delay time it takes before others see what you type, try: /ping $N or /ping $C
+
+ping pong
+The server PINGs you periodically to see if you're still alive, mIRC automatically confirms with a PONG so you don't get disconnected. These messages are normal, but you can hide them: alt-o | irc | options.
+
+register
+Sorry, you can't register nicks or channels on this network (EFnet), it's all 1st come 1st served. If those services are really important to you, try other nets like DALnet.
+
+server ops
+you're describing server ops. Those people had ops before their server split, so when their server rejoined, they were given ops back.
+
+split = ?
+Sometimes IRC servers have technical difficulties and temporarily disconnect or "split" from each other. People on one side of the split see those on the other side signing off all at once, but they will return when the servers rejoin.
+
+takeover
+start a new channel (mode +stin), ban the takeover people, & /invite the regulars over. Or wait a while, they may get bored & leave. Also go invisible (/mode yournick +i) and change nicks temporarily so they can't follow you.
+
+voice
++v channel mode (resulting in + before your nick) lets you talk on moderated channels where otherwise only ops can talk. On un-moderated channels, it does nothing at all and may just indicate a non-op regular.
+
+where am i
+Welcome to the #IRChelp channel on EFnet, the largest Internet Relay Chat (IRC) network. Do you have an IRC question?
+
+who *email*
+with a hostname (abc.foo.com) or IP (123.4.56.78), try /who *.foo.com or /who 123.4.56.* NOTE: almost never works unless they are on your channels already, since 75% of people are invisible and won't be shown.
+
+XP firewall
+To disable the Internet Connection Firewall (ICF) built into Win XP, bring up Properties for your connection (dialup, cable, DSL, etc), click "Advanced" tab, uncheck the box to disable it, and reboot. This should fix your DCC send and identd problems.
+
+In addition, these are useful URLs for major irchelp.org directories. Note that most are really aliases, e.g. <http://www.irchelp.org/mirc> is really <http://www.irchelp.org/irchelp/mirc/>:
+http://www.irchelp.org/
+http://www.irchelp.org/mirc
+http://www.irchelp.org/ircd
+http://www.irchelp.org/mac
+http://www.irchelp.org/networks
+http://www.irchelp.org/nuke
+http://www.irchelp.org/script
+http://www.irchelp.org/security
+http://www.irchelp.org/trojan
+http://www.irchelp.org/chanlist
+http://www.irchelp.org/news
+
+These are aliases to longer URLs:
+http://www.irchelp.org/warez	file trading
+http://www.irchelp.org/download	same as above, just another alias
+http://www.irchelp.org/firewall	firewall issues incl identd & dcc probs
+http://www.irchelp.org/chanfix	faq to chanfix
+http://www.irchelp.org/connect	efnet connection troubleshooting
+http://www.irchelp.org/rules	channel rules

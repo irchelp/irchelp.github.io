@@ -1,0 +1,69 @@
+This is a list of IRCnet servers. Use the hostname in the first column
+if it is complete (like irc.whatever.com). If it begins with an asterisk
+instead, use the hostname or IP you find in the [braces like this] in the
+last column.
+
+updated Wed Jul 12 16:46
+
+server hostname      linked thru        hops  [full name or IP] description
+
+irc.stealth.net      irc.stealth.net      0 Stealth Communications, New York City
+ircd.stealth.net     irc.stealth.net      1 Stealth - New York, USA
+*.jp                 ircd.stealth.net     2 [irc.tokyo.wide.ad.jp] WIDE Project Tokyo NOC, Jap
+*.si                 *.at                 5 [irc.arnes.si] ARNES IRC Server
+*.de                 ircd.stealth.net     2 [irc.freenet.de] [irc.freenet.de] freenet.de AG, D
+*.pl                 *.de                 3 [hub.irc.pl] Kraków, Poland
+*.teliafi.net        *.fi                 6 [irc.teliafi.net] Telia Finland
+*.se                 *.de                 3 [irc.cd.chalmers.se] Chalmers Tekniska Lekskola, G
+*.fi                 *.se                 4 [irc.cs.hut.fi] Helsinki Univ of Tech, CS Lab IRC 
+*.is                 *.fi                 6 [irc.isnet.is] ISnet, Iceland
+*.sci.kun.nl         *.fi                 6 [ircd.sci.kun.nl] University of Nijmegen, The Neth
+*.il                 *.fi                 6 [irc.tau.ac.il] Tel-Aviv University, Israel
+*.nl.uu.net          *.sci.kun.nl         7 [ircd.nl.uu.net] UUNET NL Amsterdam Routing server
+*.irc6.net           *.fi                 6 [192.168.250.42] Project IRC6, Europe
+irc.snt.utwente.nl   *.nl.uu.net          8 SNT at University of Twente, The Netherlands
+ircnet.demon.co.uk   *.nl.uu.net          8 Demon Internet Ltd, London, UK.
+irc.netcom.net.uk    ircnet.demon.co.uk   9 GTS Netcom, UK
+irc.datacomm.ch      *.nl.uu.net          8 DataComm (Schweiz) AG - Switzerland
+ircd.tin.it          *.nl.uu.net          8 - Telecom Italia Net - Italy
+irc2.tin.it          ircd.tin.it          9 [212.216.172.98] - Telecom Italia Net - Italy
+irc.tin.it           ircd.tin.it          9 [212.216.172.95] - Telecom Italia Net - Italy
+irc.sienanet.it      ircd.tin.it          9 [151.4.144.10] - SienaNet ISP Provider - Italy
+*.xs4all.nl          *.nl.uu.net          8 [irc.xs4all.nl] XS4ALL, Networking for the Masses
+*.grolier.net        *.nl.uu.net          8 [hub.grolier.net] H
+*.Eurecom.FR         *.grolier.net        9 [193.55.113.134] Eurecom's IRC server
+irc.emn.fr           *.grolier.net        9 [193.54.76.37] Ecole des Mines de Nantes, France
+*.webbernet.net      ircd.stealth.net     2 [ircd.webbernet.net] Web Net Worldwide
+irc.twiny.org        *.grolier.net        9 [195.101.196.14] -Twiny- Paris La Defense, France
+grolier.fr.ircnet.net *.grolier.net        9 [192.168.250.2] IRCNet - Grolier/Club-Internet
+*.SiOL.net           *.nl.uu.net          8 [193.189.160.124] Take no prisoners!
+ircnet.hinet.hr      *.SiOL.net           9 Oh my god they killed Kenny! You bastards!
+irc.easynet.co.uk    ircnet.demon.co.uk   9 [banana.irc.easynet.net] Easynet,London,UK
+*.skybel.net         *.grolier.net        9 [hub.skybel.net] Skynet Belgium IRC Routing Server
+irc.grmbl.be         *.skybel.net         10 [toady.grmbl.be] IRC grmbl Brussels
+irc.skynet.be        *.skybel.net         10 [chick.skybel.net] Skynet - Krameria Belgium
+*.lv                 *.nl.uu.net          8 [ircd.delfi.lv] A/S DELFI routing server, Riga, La
+*.ee                 *.lv                 9 [irc.estpak.ee] Estpak Data, Tallinn, Estonia
+*.belnet.be          *.sci.kun.nl         7 [ircd.belnet.be] BELNET routing server, Brussels
+irc.gate.ru          ircd.stealth.net     2 [m9control.am.ru] Russian Public IRCNet Server
+*.wanadoo.be         *.belnet.be          8 [ircnet.wanadoo.be] Wanadoo Belgium
+irc.msu.ru           irc.gate.ru          3 Moscow State University, Russia
+eris.bt.net          *.nl.uu.net          8 British Telecom IRC Routing Server
+chat.bt.net          eris.bt.net          9 [194.72.6.103] British Telecom Public IRC Server
+irc.u-net.com        eris.bt.net          9 [195.102.240.244] U-Net Internet IRC Server, UK
+sunsite.auc.dk       *.sci.kun.nl         7 SunSITE Denmark, Aalborg University
+*.gr                 *.sci.kun.nl         7 [irc.ee.auth.gr] Aristotle uni. of Thessaloniki, 
+*.ircd.it            ircd.tin.it          9 [hub.ircd.it] ircd, Italy
+*.at                 *.de                 3 [hb.irc.at] IRC HB AUSTRIA/Europe
+*.my                 ircd.stealth.net     2 [irc.inter.net.my] Feed Your Addiction...
+irc.ru               *.sci.kun.nl         7 [zecke.demos.su] Russian IRC server, Demos-Interne
+*.hu                 *.de                 3 [hub.irc.hu] Technical University of Budapest
+*.cz                 *.de                 4 [irc.felk.cvut.cz] Czech Republic, Prague, CVUT-FE
+*.sk                 *.cz                 5 [nextra.irc.sk] NEXTRA Slovakia
+*.no                 *.se                 5 [irc.pvv.unit.no] IRCNO primary IRC Server, Trondh
+irc.cifnet.com       ircd.stealth.net     2 CIFNet, Inc.
+*.tw                 ircd.stealth.net     2 [irc.seed.net.tw] Seednet IRC Service, Taiwan
+*.au                 *.webbernet.net      3 [flute.telstra.net.au] TI IRC Server
+chat.btinternet.com  eris.bt.net          9 BT Internet Chat
+*.enserb.fr          *.grolier.net        9 [147.210.19.57] Universite Bordeaux I
+IRC log ended Wed Jul 12 16:46

@@ -1,0 +1,5 @@
+*Usage: NOTE DENY [&<passwd>] [+|-<flags>] [+|-<maxtime>]
+*		<nick!user@host> <msg>
+*  DENY is an alias for USER +RZ (default max 1 day)
+*  This command makes it impossible for any matching recipient to
+*  queue any Note requests until timeout.

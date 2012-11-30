@@ -1,0 +1,4 @@
+Usage: VERSION [<server>]
+  Shows the IRCII version number and the version number of the
+  server specified.  If no server name is specifed, the version
+  of your current server is shown.

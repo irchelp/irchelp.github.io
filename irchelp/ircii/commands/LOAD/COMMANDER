@@ -1,0 +1,30 @@
+Usage: LOAD commander
+  This file contains a big set of key bindings, one command for
+  almost every key you have on your keyboard, prefixed by ESC.
+  Here's the definition of the keys after pressing ESC:
+    A	Prompts you for an away message, ENTER will un-away you.
+    C	Shows you the /NAMES entry of your current channel.
+    D	Shows the Who-list of people of your country. ( = /countrywho )
+    E	Prompts you for the launch of an external command with /EXEC.
+    F	Follows an invitation to a channel.
+    G	"Greet" - Enter a query with the last person whose signon has been
+		detected by /notify.
+    H	"Here" - Shows Who-list of users from your site. ( = /localwho )
+    I	Invite the user who last sent you a message to the current channel.
+    J	Shows the WHOIS of the person who last joined your channel.
+    L	List of channels with at least 3 persons on unless with topic.
+    M	"More" - Enter a query with the person you last sent a msg to.
+    N	Names list of public channels having at least 2 persons on.
+    O	Who-list of operators online.
+    P	Make your channel private.
+    Q	Quit querying.
+    R	"Reply" - Enter a query with the person who last sent you a msg.
+    S	Prompts you for a new server, ENTER gives a list of stored ones.
+    T	Prompts you for a topic for the current channel.
+    U	Tells you how many users and servers are on IRC. ( = /lusers )
+    W	Gives you the Who-list of the people on your channel.
+    X	"eXamine" - WHOIS of the person who last sent you a message.
+    Y	Toggles the SCROLL mode.
+    Z	Toggles the HOLD_MODE.
+    ,	Flushes the server output.
+   TAB	Clears the window.

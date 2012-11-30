@@ -1,0 +1,9 @@
+Usage: LOAD flood
+  Simply activates flood control if someone dumps to you, with the
+  exception of nickserv, noteserv, etc..  They may dump on you.
+
+See Also: 
+  SET FLOOD_AFTER
+  SET FLOOD_RATE
+  SET FLOOD_USERS
+  SET FLOOD_WARNING

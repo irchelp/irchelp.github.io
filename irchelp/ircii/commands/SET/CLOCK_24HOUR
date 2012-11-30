@@ -1,0 +1,4 @@
+Usage: SET CLOCK_24HOUR [ON|OFF|TOGGLE]
+  When ON, the status line clock will be displayed in 24 hour
+  format.  When OFF, the status line clock will be displayed in
+  12 hour format with either AM or PM after it.

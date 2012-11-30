@@ -1,0 +1,3 @@
+Usage: SET HELP_WINDOW [ON|OFF|TOGGLE]
+  This will cause the HELP function to create a new window for
+  displaying help.  If OFF, the current window will be used.

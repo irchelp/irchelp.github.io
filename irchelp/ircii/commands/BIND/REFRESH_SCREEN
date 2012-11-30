@@ -1,0 +1,3 @@
+Usage: BIND <key> REFRESH_SCREEN
+  This redraws the screen, in case some other nasty program has
+  munged it up.

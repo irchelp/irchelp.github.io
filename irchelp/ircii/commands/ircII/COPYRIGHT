@@ -1,0 +1,18 @@
+IRCII is Copyright (c) 1991 by Michael Sandrof. Versions 2.11 to
+2.2pre7 Copyright (c) 1991 by Troy Rollo. Versions 2.2pre8 and
+beyond (currently 2.5) copyright (c) 1992, 1993, 1994 Matthew Green.
+
+You have the right to copy, compile, and maintain this
+software.  You also have the right to make modifications to this
+code for local use only.  You have the right to distribute
+modified versions of the code as long as you CLEARLY indicate
+that any problems with the modified code be reported to you.
+
+One module of the source code, scandir.c is copyright (c) 1983
+by the Regents of the University of California.  All rights are
+reserved by the University of California.
+
+This software is provided ``as is'' and without any express or
+implied warranties, including, without limitation, the implied
+warranties of merchantability and fitness for a particular
+purpose.

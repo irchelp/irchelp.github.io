@@ -1,0 +1,6 @@
+Usage: CTCP <nick> VERSION
+  VERSION will show you the version of the client that a particular
+  person is using.
+
+Note:
+  SL0 means Script Level 0

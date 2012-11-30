@@ -1,0 +1,1467 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META  name="description"  content="The IRC Command Cosmos. A guide covering advanced commands and tips for IRC. (Especially Undernet)">
+<META  name="keywords" content="irc, undernet, guide, faq, poweruser, powerusers, pirch, mirc, hack, hacking, hacker, undocumented, guru, technical">
+<TITLE>The IRC Command Cosmos, an advanced guide to IRC commands</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFE8" TEXT="#7A0818">
+
+<MAP NAME="nav_map">
+<AREA SHAPE=RECT HREF="/" COORDS="1,1,70,38">
+<AREA SHAPE=RECT HREF="/irchelp/search_engine.cgi" COORDS="72,1,141,38">
+<AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38">
+<AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38">
+</MAP>
+
+<H2 ALIGN=CENTER>The IRC Command Cosmos</H2>
+<H3 ALIGN=CENTER>An advanced guide to IRC commands</H3>
+
+<P>
+<B>Ed. note:</B> This guide is intended for advanced users, others should first check out our many introductory <A HREF="/irchelp/faq.html">help files</A>. As the author pointed out, this guide is primarily for <A HREF="http://servers.undernet.org/">Undernet</A>, but much of this information also applies to other networks as well.
+
+<P>
+
+<FONT SIZE=2>T<A NAME="_Ref439920739"></A>he IRC Command Cosmos, an advanced guide to IRC commands. <BR>
+Edition 2.0<BR>
+Up to date on ircu2.10.10 (July 2000)<BR>
+&nbsp;<BR>
+</FONT><B>1&#9;Introduction&#9;</b><A HREF="#_Toc489443231"><U><FONT COLOR="#0000ff">*</font></U></A> <BR>
+1.1&#9;Why this guide?&#9;<A HREF="#_Toc489443232"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+1.2&#9;What does The IRC Command Cosmos contain?&#9;<A HREF="#_Toc489443233"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+1.3&#9;Is my net using ircu?&#9;<A HREF="#_Toc489443234"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+1.4&#9;Contacting Author and getting latest version&#9;<A HREF="#_Toc489443235"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+1.5&#9;Credits&#9;<A HREF="#_Toc489443236"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+1.6&#9;Updates&#9;<A HREF="#_Toc489443237"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B>2&#9;People&#9;</b><A HREF="#_Toc489443238"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.1&#9;nick&#9;<A HREF="#_Toc489443239"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.2&#9;msg&#9;<A HREF="#_Toc489443240"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.3&#9;Notice&#9;<A HREF="#_Toc489443241"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.4&#9;WHOIS&#9;<A HREF="#_Toc489443242"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.5&#9;Usermodes&#9;<A HREF="#_Toc489443243"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>2.5.1&#9;All the modes for a nick&#9;</font><A HREF="#_Toc489443244"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>2.5.2&#9;Finding peoples modes&#9;</font><A HREF="#_Toc489443245"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>2.5.3&#9;Server notice masks&#9;</font><A HREF="#_Toc489443246"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.6&#9;Getting seconds idle&#9;<A HREF="#_Toc489443247"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.7&#9;Searching for people&#9;<A HREF="#_Toc489443248"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>2.7.1&#9;Searching by address&#9;</font><A HREF="#_Toc489443249"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>2.7.2&#9;Searching by nick&#9;</font><A HREF="#_Toc489443250"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>2.7.3&#9;Searching it all&#9;</font><A HREF="#_Toc489443251"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>2.7.4&#9;Note on invisibility&#9;</font><A HREF="#_Toc489443252"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.8&#9;Getting an IRCop quick&#9;<A HREF="#_Toc489443253"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.9&#9;userhost / userip&#9;<A HREF="#_Toc489443254"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.10&#9;Whowas&#9;<A HREF="#_Toc489443255"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.11&#9;away&#9;<A HREF="#_Toc489443256"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.12&#9;silence&#9;<A HREF="#_Toc489443257"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.13&#9;ISON&#9;<A HREF="#_Toc489443258"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+2.14&#9;WHO with advanced parameters&#9;<A HREF="#_Toc489443259"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B>3&#9;Channels&#9;</b><A HREF="#_Toc489443260"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.1&#9;join&#9;<A HREF="#_Toc489443261"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.2&#9;quit and /part with comments&#9;<A HREF="#_Toc489443262"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.3&#9;Invite, overcomes everything&#9;<A HREF="#_Toc489443263"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.4&#9;Channelmodes&#9;<A HREF="#_Toc489443264"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>3.4.1&#9;All the modes for a channel&#9;</font><A HREF="#_Toc489443265"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>3.4.2&#9;Retrieving channelmodes&#9;</font><A HREF="#_Toc489443266"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>3.4.3&#9;Difference between +p and +s&#9;</font><A HREF="#_Toc489443267"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.5&#9;"Shutting their mouth." Powerfull chanops-feature&#9;<A HREF="#_Toc489443268"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.6&#9;kick&#9;<A HREF="#_Toc489443269"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.7&#9;names. Listing the inhabitants&#9;<A HREF="#_Toc489443270"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.8&#9;Local channels&#9;<A HREF="#_Toc489443271"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.9&#9;The modeless channel. Equality by simplicity&#9;<A HREF="#_Toc489443272"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.10&#9;Cnotice/Cprivmsg. A "too many targets" exception&#9;<A HREF="#_Toc489443273"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+3.11&#9;Wallchops&#9;<A HREF="#_Toc489443274"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B>4&#9;The net&#9;</b><A HREF="#_Toc489443275"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+4.1&#9;Network structure and overview&#9;<A HREF="#_Toc489443276"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.1.1&#9;lusers&#9;</font><A HREF="#_Toc489443277"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.1.2&#9;map&#9;</font><A HREF="#_Toc489443278"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.1.3&#9;links&#9;</font><A HREF="#_Toc489443279"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.1.4&#9;Extended list command&#9;</font><A HREF="#_Toc489443280"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.1.5&#9;trace&#9;</font><A HREF="#_Toc489443281"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+4.2&#9;Specific server&#9;<A HREF="#_Toc489443282"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.2.1&#9;motd&#9;</font><A HREF="#_Toc489443283"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.2.2&#9;time&#9;</font><A HREF="#_Toc489443284"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.2.3&#9;admin&#9;</font><A HREF="#_Toc489443285"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.2.4&#9;help&#9;</font><A HREF="#_Toc489443286"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.2.5&#9;info&#9;</font><A HREF="#_Toc489443287"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.2.6&#9;version&#9;</font><A HREF="#_Toc489443288"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>4.2.7&#9;Decoding serveroptions in "version"&#9;</font><A HREF="#_Toc489443289"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B>5&#9;STATS. Query for retrieving various data and statistics&#9;</b><A HREF="#_Toc489443290"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+5.1&#9;Who's allowed in and how.&#9;<A HREF="#_Toc489443291"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.1.1&#9;k K-line&#9;</font><A HREF="#_Toc489443292"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.1.2&#9;g G-line&#9;</font><A HREF="#_Toc489443293"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.1.3&#9;i I-line&#9;</font><A HREF="#_Toc489443294"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.1.4&#9;o O-line&#9;</font><A HREF="#_Toc489443295"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.1.5&#9;y Y-line&#9;</font><A HREF="#_Toc489443296"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+5.2&#9;Server-server connections&#9;<A HREF="#_Toc489443297"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.2.1&#9;c&#9;</font><A HREF="#_Toc489443298"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.2.2&#9;U (uppercase)&#9;</font><A HREF="#_Toc489443299"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+5.3&#9;Statistics-related commands&#9;<A HREF="#_Toc489443300"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.1&#9;m (lowercase)&#9;</font><A HREF="#_Toc489443301"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.2&#9;l&#9;</font><A HREF="#_Toc489443302"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.3&#9;p&#9;</font><A HREF="#_Toc489443303"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.4&#9;t (lowercase)&#9;</font><A HREF="#_Toc489443304"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.5&#9;z&#9;</font><A HREF="#_Toc489443305"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.6&#9;w&#9;</font><A HREF="#_Toc489443306"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.7&#9;M (uppercase)&#9;</font><A HREF="#_Toc489443307"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.8&#9;r and x&#9;</font><A HREF="#_Toc489443308"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>5.3.9&#9;u (lowercase)&#9;</font><A HREF="#_Toc489443309"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B>6&#9;Discussions&#9;</b><A HREF="#_Toc489443310"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.1&#9;A look under the hood&#9;<A HREF="#_Toc489443311"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.2&#9;Siamese message&#9;<A HREF="#_Toc489443312"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.3&#9;Privacy and anonymity on IRC&#9;<A HREF="#_Toc489443313"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.4&#9;What's a ping?&#9;<A HREF="#_Toc489443314"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.5&#9;What’s lag and bandwidth?&#9;<A HREF="#_Toc489443315"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.6&#9;Desyncs after a netburst&#9;<A HREF="#_Toc489443316"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.7&#9;Obscure commands&#9;<A HREF="#_Toc489443317"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.8&#9;What’s Uworld and Cservice?&#9;<A HREF="#_Toc489443318"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+6.9&#9;Summary of Undernet anti-flood measures.&#9;<A HREF="#_Toc489443319"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B>7&#9;The logon procedure&#9;</b><A HREF="#_Toc489443320"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B>8&#9;Other resources&#9;</b><A HREF="#_Toc489443321"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+8.1&#9;Undernet Channels&#9;<A HREF="#_Toc489443322"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+8.2&#9;Web resources&#9;<A HREF="#_Toc489443323"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>&nbsp;<BR>
+</FONT><FONT FACE="Arial"><H1><A NAME="_Toc407826750"><A NAME="_Toc407901266"><A NAME="_Toc416540268"><A NAME="_Toc416617928"><A NAME="_Ref439869914"><A NAME="_Toc489443231">1&#9;Introduction</A></A></A></A></A></A> </H1>
+<B><I><A NAME="_Toc489443232">1.1&#9;Why this guide?</A><BR>
+</i></B></FONT><FONT SIZE=2>With this guide, I try to supplement the average IRC-guides around. Most of them tend to teach only the basics or they’r hopelessly outdated and mix IRC-commands with the IRCII 1) client commands. New features (last 10 years!) are downrigh hard to find documentation for, scattered as they are in releasenotes, newsletters or beeing plainly undocumented. <BR>
+</FONT><FONT SIZE=2>If you are new to IRC, I suggest you go for the other guides first, (</font><A HREF="http://www.irchelp.org/"><U><FONT SIZE=2 COLOR="#0000ff">http://www.irchelp.org/</font></U></A><FONT SIZE=2> or </FONT><A HREF="http://www.undernet.org/"><U><FONT SIZE=2 COLOR="#0000ff">http://www.undernet.org/</font></U></A><FONT SIZE=2>) but if you’re fairly familiar with IRC and want to fetch some interesting and often usefull commands, (</FONT><A HREF="#_Ref439871180"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> and </FONT><A HREF="#_Ref439868930"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> beeing highlights) you’ve come to the right guide! :-)</font><BR><FONT SIZE=2>
+1) IRCII: The first client for IRC networks. mIRC is the most common client today.<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826752"><A NAME="_Toc407901268"><A NAME="_Toc416540270"><A NAME="_Toc416617930"><A NAME="_Toc489443233">1.2&#9;What does The IRC Command Cosmos contain?</A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>An explanation for every command on the IRC network <B>Undernet </B>or other nets using the latest ircu software 1), except operator-only and X/W commands. 2)<BR>
+What IRC can do depends on what software the irc-network is running. Over the years, this software has been split up into several different programs, maintained separately by the major irc-networks. Beeing an Undernet user by chance, finding their software-development interesting and knowing other nets use their software, I aim to completely document their version. I can’t keep up with development on the other nets lik EFnet and IRCnet, but even if you use theese nets, you may find this guide helpfull, the nets still got a lot of commands in common. 3) <BR>
+This guide should make sense for any client, even if my examples might be a bit skewed towards mIRC. If they don’t work, try replacing /raw with /quote. <BR>
+This edition of the guide should be complete and up to date, as of version 2.10.10 of ircu. (July 2000)<BR>
+&nbsp;<BR>
+</FONT><FONT SIZE=2>1) ircu: The server-software developed by Undernet and also used by some other smaller networks. See </font><U><FONT SIZE=2 COLOR="#0000ff">coder-com.undernet.org</font></U><FONT SIZE=2> for the most recent version</font><BR>
+<FONT SIZE=2>Carlo Wood, (Run) former Undernet ircu-developer recently started his own branch of ircu, (</font><U><FONT FACE="Courier New" SIZE=2 COLOR="#0000ff">ircu.sourceforge.net</font></U><FONT SIZE=2> ) claiming this to be the "real" ircu. This guide however, choose not to deal with this variant.</font><BR>
+<FONT SIZE=2> 2) X and W: a channel service on Undernet.<BR>
+3) While the nets have drifted apart, people are using the same clients on all 
+nets and the specifications for a client havn’t changed over the years, so they 
+need to display a minimum of uniformity for your dear mIRC to work at all. The 
+client protocol is more or less defined in RFC1459, a document that defined the 
+"original" IRC.<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Ref457239237"><A NAME="_Toc489443234">1.3&#9;Is 
+my net using ircu?</A></A><BR>
+</font></i></B><FONT SIZE=2>Many of the smaller IRC networks are using various 
+versions of ircu. To test if your net is one such, log into IRC and type /version. 
+if the reply starts with u2...e.t.c, it’s using a version of ircu, e.g 2.10.10. 
+If it dosn’t, you could also type /info and see if it mentions Undernet or ircu. 
+Some nets run software based on a ircu version, but with their own tweaks and 
+additions. /info should tell.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826753"><A NAME="_Toc407901269"><A NAME="_Toc416540271"><A NAME="_Toc416617931"><A NAME="_Toc489443235">1.4&#9;Contacting 
+Author and getting latest version</A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>The latest edition is always available at </font><A HREF="http://www.student.uib.no/st01369/ccosmos/"><U><FONT SIZE=2 COLOR="#0000ff">http://www.student.uib.no/st01369/ccosmos/</font></u></A><FONT SIZE=2> 
+A mirror is available at </FONT><A HREF="http://www.irchelp.org/irchelp/misc/ccosmos.html"><U><FONT SIZE=2 COLOR="#0000ff">http://www.irchelp.org/irchelp/misc/ccosmos.html</font></u></A><FONT SIZE=2>.</font><FONT SIZE=2> 
+</font><BR>
+<FONT SIZE=2>If you wish to be notified of new editions, please send a mail to 
+</font><A HREF="mailto:ccosmos-subscribe@listbot.com"><U><FONT SIZE=2 COLOR="#0000ff">ccosmos-subscribe@listbot.com</font></u></A><FONT SIZE=2>.</font><FONT SIZE=2> 
+(No I won’t use your e-mail address for anything else and I won’t give it out 
+to anyone :-)</font><BR>
+<FONT SIZE=2>I can be contacted on </font><A HREF="mailto:Roar.Nyboe@student.NNN.no"><U><FONT SIZE=2 COLOR="#0000ff">Roar.Nybo@student.NNN.no</font></u></A><FONT SIZE=2> 
+</font><FONT SIZE=2>(<B>NNN</B> = <B>UIB</B>. Anti spam-bot measure :-) Feel free 
+to e-mail me with your corrections, suggestions or comments. </font><BR>
+<FONT SIZE=2>
+As for quoting and noncommercial distribution: Go ahead, as long as the guides name and preferrably a link to its original location is kept; and the text isn't altered.<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826754"><A NAME="_Toc407901270"><A NAME="_Toc416540272"><A NAME="_Toc416617932"><A NAME="_Toc489443236">1.5&#9;Credits</A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2><A NAME="_Toc416617933"><A NAME="_Toc416540273"><A NAME="_Toc407901271"><A NAME="_Toc407826755"></A></A></A></A>I started working on this guide in the early summer of 97, and owe the helpfull people in #wasteland and #help on Undernet a thanks for their help and patience.<BR>
+And withouth the comprehensive webpage of the coder-committee, it would be hard to keep myself updated on ircu.<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443237"></A>1.6&#9;Updates<A NAME="Oppdateringer"></A><BR>
+</font></i></B><FONT SIZE=2>Since last edition:<BR>
+There’s been a lot of smaller changes in ircu. Many lines in stats have changed since last edition. Steps are taken to hide servers from flooders and my earlier explanation of the difference between the +p and +s channelmodes turned out wrong. I have a closer look at lag and floodprotection in ircu, and how to trace it down, and I’ve found that Undernet can now ban channelnames! (See BADCHAN in the versions reply) I know include ALL commands, even the basic ones, cause it’ll always turn up something new :-)<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B>
+<h1><FONT FACE="Arial"> <A NAME="_Toc489443238">2&#9;People</A> </FONT></h1>
+<I><FONT FACE="Arial"><A NAME="_Ref489375763"><A NAME="_Toc489443239"><A NAME="_Ref456715113"><A NAME="_Ref440094502"><A NAME="_Toc416617958"><A NAME="_Toc416540299"><A NAME="_Toc407901296"><A NAME="_Toc407826780"></A></A></A></A></A></A>2.1&#9;nick</A></A><BR>
+</font></i></B><FONT SIZE=2>Sets your nick. Syntax: /nick yournewnick<BR>
+I’ll add that the maximum nicklength on Undernet is 9 characters and with ircu your nick can contain the letter A to Z, 0 to 9 and <BR>
+[ ] { } \ | ^ ` - _ or ‘0’ to ‘9’, ‘A’ to ‘} plus ‘-‘ if you’r into the order of the characterset. The first character cannot be a ‘-‘ or a number. <BR>
+there’s a "nickchange too fast" floodstopper in ircu. (If not, a person could flood the channel with his nickchanges and at the same time beeing hard to kick) You can not change your nick more than once in 30 secs, or twice if it’s been unchanged for 60 secs already.<BR>
+</FONT><FONT SIZE=2>Also see </font><A HREF="#_Ref489212253"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B><I><FONT FACE="Arial"><A NAME="_Ref489375893"><A NAME="_Toc489443240">2.2&#9;msg</A></A><BR>
+</font></i></B><FONT SIZE=2>Syntax: /msg nick what-to-say-in-private<BR>
+</FONT><FONT SIZE=2>This sends one line of text to a person, just as when you talk with someone in a private window. But /msg is actually a mIRC command, Check out </font><A HREF="#_Ref488686708"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> for some fiddling.</font><BR><FONT SIZE=2>
+In addition, Ircu has a "secure" message sending method that were intended for sending your password to x/w, but has been cleaned up lately and can be used with normals users too. Hardly any practical purpose though<BR>
+Syntax:<BR>
+/msg nick[%host]@server<BR>
+where host is the address of the nick, and server is the irc-server it resides on. ( %host is optional) As usually used: "/msg w@channels.undernet.org command-containing-password", assures that noone can fetch your password by using channel service. On Undernet, it couldn’t happen anyway, because theese nicks are blocked for normal users, but many people make mirc send their password to the bots automatically when they log onto IRC, and could then reavel their password if they logged onto other nets containing false w/x.<BR>
+If you want your script to send someone some secret information, this might sound like an easy way to authenticate him, but there’s two problems: Someone could fake the host-address, or incidentally have the same one, and people change irc-server all the time, but the "@server" part isn’t optional, and can’t even have wildcards. This leaves you with a lot of extra scripting to fetch his server, and no real security. <BR>
+Other approaches involves making your own password-system or verifying him through x/w if he logs onto them. Still then, the traffic on irc goes unencrypted around the world, so don’t reveal your credit-card-number here, ok? :-)<BR>
+Example: <BR>
+The nick Timo has the address "*.surfers.org" and is using the irc-server "Oslo-R.NO.EU.Undernet.org"<BR>
+"/msg Timo%*.surfers.org@Oslo-R.NO.EU.Undernet.org Hi there! You won’t see this if you don’t match my criteria" <BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826773"><A NAME="_Toc407901289"><A NAME="_Toc416540292"><A NAME="_Toc416617951"><A NAME="_Ref439950624"><A NAME="_Toc489443241">2.3&#9;Notice</A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>Syntax: /notice receiver text<BR>
+A wellknown command, acting much like /msg. The reason for having NOTICE according to RCF1459, is to define a way to send messages that should <U>never</U> generate an automatic reply. Neither from clients nor servers. The object is to avoid loops of responses between scripts/bots, for example this quite repeating conversation:<BR>
+</FONT><PRE>Bot1: Please send afile.txt 
+Bot2: Sorry, I'm turned off.
+Bot1: I don't understand the command "Sorry, I'm turned off". 
+Bot2: Sorry I'm turned off.</PRE>
+<FONT SIZE=2>The bots should have sent the errormessages in NOTICE, to avoid the problem. (In addition, notice-messages are treated different than messages when displayed in mIRC.)<BR>
+You can send a notice to a person, or to a channel you'r on where everyone sees it. And if the channel dosn't have +n set, you can send messages to it without beeing there. A ping Query/Reply is a good example of an automated PRIVMSG/NOTICE pair.<BR>
+</FONT><FONT SIZE=2>You can type /ping #channel to ping everyone on the channel you'r on. See </font><A HREF="#_Ref439924487"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> for a quick explanation.</font><BR>
+<FONT SIZE=2>You can send a notice to the ops only, like this: /notice @#channel Hi there ops! :-) (also see </font><A HREF="#_Ref489205106"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443242">2.4&#9;WHOIS</A><BR>
+</font></i></B><FONT SIZE=2>Basic information about a nick<BR>
+Syntax: /whois nick1,nick2,..<BR>
+You probably know this command, so I’ll indulge in its finesses later on. A little feature I’ll just mention right now it is that the channels in the whois reply are sorted with the channel you joined first as the rightmost.<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443243">2.5&#9;Usermodes</A> <BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc407826781"><A NAME="_Toc407901297"><A NAME="_Toc416540300"><A NAME="_Toc416617959"><A NAME="_Ref439921870"><A NAME="_Ref439950909"><A NAME="_Ref439950925"><A NAME="_Ref456715012"><A NAME="_Ref457281761"><A NAME="_Toc489443244">2.5.1&#9;All the modes for a nick</A></A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Here's all the modes available for a nick. <BR>
+Syntax: /mode &lt;nickname&gt; {[+|-]mode(s)}<BR>
+</FONT><FONT SIZE=2>i: Makes you invisible. (See "Note on invisibility" (</font><A HREF="#_Ref439928743"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR>
+<FONT SIZE=2>s: Receives server notices. You receive various information sent between servers. Mostly kills and G-lines, but also nickname collisions, invalid usernames, splits e.t.c Also see </font><A HREF="#_Ref439928808"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> for masks for this command. (Undernet only)</font><BR><FONT SIZE=2>
+w: Receives wallops. The IRCops broadcast messages with this, you might even catch an IRCop-conversation! (Almost like tuning in on the police-radio, eh? :-P ) As for the moment, "uworld.undernet.org", that is the X/W service, uses the Wallops too. ircu2.10.10 has the option of disabling this for regular users, but that’s not done on Undernet.<BR>
+g: [New in ircu2.10.04] Let you receive HACK wallops. "HACK" occurs after a desynch in the net, where the servers change channelops and stuff to mend the net.<BR>
+d: Deaf in channels. Ircu only You won't hear a thing that's said in the channels. Private messages get trough though. Primary reason is making the job easier for service bots that dosn't want to process channel messages. Makes logging of changes in chan easier too, and would work as a rather brute channel-flood stopper.<BR>
+In addition, there's the operator flag, (+o) that indicates an operator, and +k that's used by W and X. No one can kick or deop +k clients from a channel, and they can also message any channel from outside, regardless of any restriction. Lastly, a whois on a +k won’t show the channels he’s on.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826783"><A NAME="_Toc407901299"><A NAME="_Toc416540302"><A NAME="_Toc416617961"><A NAME="_Ref439921478"><A NAME="_Ref439922978"><A NAME="_Ref439923002"><A NAME="_Ref489300801"><A NAME="_Toc489443245">2.5.2&#9;Finding peoples modes</A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>You can spot a +d in the who and whois reply.<BR>
+Example:<BR>
+"/Who mowgli" returns: "mowgli Hd* mow@ppp-21.treetop.jungle.br :3 Baloo-Bot TM"<BR>
+</FONT><FONT SIZE=2>Hd means the user is <U>H</U>ere (as opposed to <U>G</U>one, i.o.w away) and that mode d (deaf) is on. The * tells us he's an IRCop. :3 means the hopcount is 3. refer to /trace. (</font><A HREF="#_Ref439929681"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+In the /whois reply, a +d is spotted by a - after a channelname. <BR>
+Example: "mowgli on -@#Junglechat" (+d mode and op on the channel.)<BR>
++o is spotted in whois by "nickname is an IRC operator"<BR>
++i is spotted by doing "/whois *nickname" and seeing if the right person pops up. If he/she dosn't, the nick is invisible.<BR>
++w and +s can't be seen by normal users. (+w due to a recent Undernet patch)<BR>
+Note:<BR>
+</FONT><FONT SIZE=2>For address and away, also see "/userhost" (</font><A HREF="#_Ref439929603"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826782"><A NAME="_Toc407901298"><A NAME="_Toc416540301"><A NAME="_Toc416617960"><A NAME="_Ref439928808"><A NAME="_Ref439950998"><A NAME="_Ref439951025"><A NAME="_Toc489443246">2.5.3&#9;Server notice masks</A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>From version 2.10 of the ircu serversoftware, a masking option of users s-mode has been implemented, so you can decide which types of notifications you’r interested in. <BR>
+This section is based on documentation supplied by Ghostwolf. <BR>
+Syntax:<BR>
+mode &lt;nick&gt; +s [+/-][mask]<BR>
+</FONT><PRE>Mask&#9;&#9;&#9;&#9;&#9;&#9;Description
+1&#9;&#9;SNO_OLDSNO&#9;&#9;unsorted old messages
+2&#9;&#9;SNO_SERVKILL&#9;&#9;server kills (nick collisions)
+4&#9;&#9;SNO_OPERKILL &#9;&#9;oper kills
+8&#9;&#9;SNO_HACK2&#9;&#9;&#9;desyncs
+16&#9;&#9;SNO_HACK3&#9;&#9;&#9;temporary desyncs
+32&#9;&#9;SNO_UNAUTH&#9;&#9;unauthorized connections 
+64&#9;&#9;SNO_TCPCOMMON&#9;common TCP or socket errors
+128&#9;&#9;SNO_TOOMANY&#9;&#9;too many connections
+256&#9;&#9;SNO_HACK4&#9;&#9;&#9;Uworld actions on channels
+512&#9;&#9;SNO_GLINE&#9;&#9;&#9;glines
+1024&#9;&#9;SNO_NETWORK&#9;&#9;net join/break, etc 
+2048&#9;&#9;SNO_IPMISMATCH&#9;IP mismatches
+4096&#9;&#9;SNO_THROTTLE&#9;&#9;host throttle add/remove notices
+Operators only:
+8192&#9;&#9;SNO_OLDREALOP&#9;&#9;old oper-only messages
+16384&#9;SNO_CONNEXIT&#9;&#9;client connect/exit</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+If you want more than one of the masks, you simply add the numbers. To later add or remove a mask from your s-mode, use + and -.<BR>
+Examples:<BR>
+</FONT><FONT SIZE=2>To be notified upon net join/breaks, you would type "/mode yournick +s 1024". <BR>
+Later you’r eager to be notified when your server fills up, so you type "/mode yournick +s +128".<BR>
+Now you are notified both about "too many connections" and "net join/break"<BR>
+Another day, you’r feeling bored, and want to watch new g-lines (</font><A HREF="#_Ref457229300"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) in addition to the two masks already mentioned.<BR>
+You type "/mode yournick +s 1664". (Since 1024 + 128 + 512 = 1664)<BR>
+But this is too much, so you drop the g-lines with "/mode yournick +s -512" ( "/mode yournick -s +512" works too)</font><BR><FONT SIZE=2>
+/mode yournick +s 8191 let you have it all<BR>
+&nbsp;Standard if no mask supplied: SNO_OPERKILL, SNO_GLINE and SNO_NETWORK, so "/mode yournick +s" will give you kills done by operators, G-lines and netsplits/joins<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826763"><A NAME="_Toc407901279"><A NAME="_Toc416540281"><A NAME="_Toc416617941"><A NAME="_Ref439871180"><A NAME="_Ref439922306"><A NAME="_Ref439932711"><A NAME="_Ref439946474"><A NAME="_Ref439946486"><A NAME="_Ref439949435"><A NAME="_Ref439949445"><A NAME="_Ref487296254"><A NAME="_Ref489375538"><A NAME="_Toc489443247">2.6&#9;Getting seconds idle</A></A></A></A></A></A></A></A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>The idle time is how long the nick has been silent towards its IRC-server. In other words being quiet. Only the server that the nick is connected to "knows" this. Knowing the idle-time is usefull if you wonder if the person has left the keyboard without putting on an away-message, or might just be ignoring you. It could also be used successfully as a "silent ping" as it can give you the lag from you to the nicks server. (Lag consists mostly of that). Just take the time from you send the command to you receive the reply, and divide with 2. That's how many seconds it take for a message from you to reach the persons server. (another approach outlined in </font><A HREF="#_Ref489299246"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+Syntax:<BR>
+"/whois nick nick" or "/whois fullservername nick" where fullservername is the nicks server. The first syntax is available from ircu2.10.00, the second should work everywhere. What technically happens, is your everyday whois-request beeing transmitted to a remote server.<BR>
+Examples:<BR>
+Xerxes is on stlouis, we're some other place: "/whois stlouis.mo.us.undernet.org Xerxes"<BR>
+We get a whois with Xerxes' idle-time:<BR>
+</FONT><PRE>Xerxes is johnbg@ppp52.netomania.com * John Bertram Garfunkel
+Xerxes on #Creedence #Japanese.baseballcards @#old_boats
+Xerxes using StLouis.MO.US.UnderNet.org StLouis' Gateway to the UnderNet
+Xerxes has been idle 50min 12secs, signed on Thu Aug 1 15:35:23
+End of /WHOIS list.</PRE>
+<FONT SIZE=2>Note: <BR>
+1. If you and the nick is on the same server, a common /whois will be enough.<BR>
+2. The chatting in a DCC-chat dosn't go through the IRC-network, and so is not detected by idle-time. An alternative "ping" could be to use the CTCP finger (/ctcp nick finger) as atleast mIRC supplies an idletime for the whole program in the reply; but this isn't "silent". <BR>
+</FONT><FONT SIZE=2>3. It's standard to only nullify idle-time when nick uses PRIVMSG. That is, sending a message to a nick or a channel. /notice does not qualify. See </font><A HREF="#_Ref439922662"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> about server options to determine if the server uses the standard setting.</font><BR><FONT SIZE=2>
+4. away-messages arn’t broadcasted when a netsplit is mended. You may to do a remote whois on the person.<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826757"></a><A NAME="_Toc407901273"></a><A NAME="_Toc416540275"></a><A NAME="_Toc416617935"></a><A NAME="_Toc489443248"></a><BR>
+2.7&#9;Searching for people <BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc407826758"><A NAME="_Toc407901274"><A NAME="_Toc416540276"><A NAME="_Toc416617936"><A NAME="_Toc489443249">2.7.1&#9;Searching by address</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Example:<BR>
+/who *.fiddledep.gov<BR>
+This lists all visible nicks using the Fiddle Departments’ internet-connection. The command is usefull for finding people from your own host and geographical area and finding people who tend to change their nicks often.<BR>
+Example: <BR>
+Your ISP gives people from your area DNS-addresses ending with "smalltown.wasanet.se" for example modem30.ppp.smalltown.wasanet.se Typing "/who *.smalltown.wasanet.se" then might reveal people from your area.<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826759"><A NAME="_Toc407901275"><A NAME="_Toc416540277"><A NAME="_Toc416617937"><A NAME="_Toc489443250">2.7.2&#9;Searching by nick</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>You can use wildcards like * and ? in a whois-query also. Here are some examples:<BR>
+"/whois *sam*" will give you nicks like Samantha, Sam47, Sam or Tarsam.<BR>
+"/whois ??". This neat command displays everyone with a nick of 2 letters, like Ma and V2.<BR>
+Undernet will not give you more than 251 nicks back from one query, to stop you from flooding yourself.<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826760"><A NAME="_Toc407901276"><A NAME="_Toc416540278"><A NAME="_Toc416617938"><A NAME="_Toc489443251">2.7.3&#9;Searching it all</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>The first line in a whois-reply might look like this:<BR>
+Xerxes is johnbg@ppp52.netomania.com * John Bertram Garfunkel<BR>
+using wildcards, we're able to search for anything in that line. <U>Even the Namefield.</u><BR>
+"/who *garfunkel*", "/who *netomania*", "/who *xerx*", "/who john*" and "/who *funk*" will all reveal his name if he is visible.<BR>
+</FONT><FONT SIZE=2>"/who fullservername" lists people using that irc-server. (wildcards allowed) so if he's on sandiego.ca.us.undernet.org, "/who *diego*" would reveal him and others as well. (Use /lusers with servername, as described in </font><A HREF="#_Ref439921405"><U><FONT COLOR="#0000ff">*</font></U></A><I><FONT SIZE=2 COLOR="#808080"> </font></I><FONT SIZE=2>if you'r just going to count people on a server.)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+Note: <BR>
+This shows that beeing visible and writing "I'm from Essex" in the namefield might not be such a good idea if some jerk is mass-messaging everyone that matches "/who *sex*" Again, be aware that the namefield IS searchable.<BR>
+</FONT><FONT SIZE=2>See section </font><A HREF="#_Ref439921478"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> (Finding peoples modes) for explanation of details in the "/who nickname" output. Also note that "/who" searches each of the "information fields" (nick, login, real name, host name and server name) <U>separately</U> so you can't filter, you must do an individual search for each field.</font><BR><FONT SIZE=2>
+That means if you’r looking for jane in sweden, you’ll have to look at the outputs of "/who *jane*" or "/who *se*" as "/who *jane* *se*" would ignore "*se*" and "/who *jane*se*" would search one and one field and match on the namefield "I’m Janet, now go stare at someone elses whois!" but would NOT match username janet with address *.se<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826761"><A NAME="_Toc407901277"><A NAME="_Toc416540279"><A NAME="_Toc416617939"><A NAME="_Ref439928743"><A NAME="_Ref439950969"><A NAME="_Ref472441541"><A NAME="_Ref489034439"><A NAME="_Toc489443252">2.7.4&#9;Note on invisibility</A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Invisible people won't show up when searched for with /who, /who #chan and not on /whois with wildcards, unless you can see them already, by beeing on the same channel.<BR>
+The goal is that no one should find you if they don't know your exact nickname. I believe that in the future the searchmethods described here might become practically obsolete, as some servers already have the policy of putting people automatically on +i, (which do save the clients a lot of trouble). You can hide by changing nick, people can't mass-message everyone on your ISP and your not visible from outside a channel. Today roughly half the nicks on Undernet and most on Efnet is set invisible.<BR>
+</FONT><FONT SIZE=2>Note: Also, if a nick is on a secret channel (</font><A HREF="#_Ref472444591"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) they won’t show up on with a wildcard /whois, even if they arn’t set invisible</font><BR>
+<B><I><FONT FACE="Arial"><A NAME="_Toc407826762"><A NAME="_Toc407901278"><A NAME="_Toc416540280"><A NAME="_Toc416617940"><A NAME="_Ref456715032"><A NAME="_Toc489443253">2.8&#9;Getting an IRCop quick</A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>This is the command they teach you in the helpchannels: "/who 0 o." (/who zero o) What you get is a list of ops, that you can msg directly, instead of running around in channels, looking for them. Don’t forget to check their idle-time before you msg (</font><A HREF="#_Ref439922306"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR>
+<FONT SIZE=2>If that dosn’t work, /motd (</font><A HREF="#_Ref472457535"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) might mention an op or two for this server, they might show up in /stats O (</FONT><A HREF="#_Ref489370764"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) and if even that dosn’t work, you may want to resort to a "loophole" in /trace (</FONT><A HREF="#_Ref489296992"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>). (Only when you’r desperate :-) If you’r on undernet, some ops hang around in #zt.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826775"><A NAME="_Toc407901291"><A NAME="_Toc416540294"><A NAME="_Toc416617953"><A NAME="_Ref439920705"><A NAME="_Ref439924333"><A NAME="_Ref439929581"><A NAME="_Ref439929603"><A NAME="_Ref439947168"><A NAME="_Toc489443254">2.9&#9;userhost / userip</A></A></A></A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>Returns a nicks hostaddress or IP and if it's away or not.<BR>
+Syntax: /userhost nick nick [....] (max 5 nicks)<BR>
+Example:<BR>
+sending: /userhost RAmona Sssala<BR>
+reply: "RAmona=-mummy@crypt.pyramid.eg Sssala=+snake@cage.zoo.com"<BR>
+-/+ = away / not away<BR>
+sending: /userip RAmona<BR>
+reply: "RAmona=-mummy@994.193.192.24<BR>
+The reason for userip:<BR>
+</FONT><FONT SIZE=2>Userip were implemented in ircu2.10.01 because more and more users have "virtual hostname", something that allows the person to use any sort of hostname without relation. E.g modem5.snowbiz.com one day and modem5.snowwomen.org another day, from the same ISP, which makes it harder to ban theese people. A ban by IP-adress would have been very effective in this case, and that is exactly what have been implemented. The ban-code has been changed so that you can ban an IP-adress even if the server has resolved his/her address as a hostname. The IP-ban has also taken effect for SILENCE (</font><A HREF="#_Ref439924810"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) and K-lines (</FONT><A HREF="#_Ref439924827"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+Example: <BR>
+123.321.254 is the IP of the DNS-name "m5.camping.com". Before 2.10.1, you could ban the users' IP, but if it was resolved by irc- server to the DNS-name, the person would slip through. Not so anymore.<BR>
+But ofcourse you need to ban the ISP. Using a dialup-account, he gets slightly different IPs every time he logs on.<BR>
+So what’s the IP of the ISP? /dns in mIRC tells me that m1.camping.com has IP 123.321.250 and it seems to end at m200. I set the bans to 123.321.* ,123.322.* and 123.323.* knowing I’ve banned the ISP, hoping I havn’t banned others. Banning an ISP to stop a person is a brute approach anyway if it’s a large ISP, and most people that are banned give up withouth putting much effort in getting around the ban, so I havn’t bothered finding more elegant ways to do this, but I think you can use regular IP-masks in this ban. (If you have more accurate ways to ban an ISP, feel free to mail me :-)<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826768"><A NAME="_Toc407901284"><A NAME="_Toc416540287"><A NAME="_Toc416617946"><A NAME="_Toc489443255">2.10&#9;Whowas</A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>Syntax: /whowas nick [count]<BR>
+If someone just left IRC or changed their nick, and you didn’t get their address, the server keeps a buffer with the nicks that disappeared the last seconds.  Count is how many nicks it should return. Every matching nick if not supplied. No wildcards are allowed.<BR>
+</FONT><FONT SIZE=2>For how many nicks the server keep in whowas, see /stats z (</font><A HREF="#_Ref457134199"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR>
+<B><I><FONT FACE="Arial"><A NAME="_Ref452375100"><A NAME="_Toc489443256">2.11&#9;away</A></A><BR>
+</font></i></B><FONT SIZE=2>Syntax: /away message<BR>
+Sets an away-message that will be displayed in your /whois reply and shown to people who try to contact you. <BR>
+Also see </font><A HREF="#_Ref452375685"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> and </FONT><A HREF="#_Ref489300801"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<B><I><FONT FACE="Arial"><A NAME="_Toc407826772"><A NAME="_Toc407901288"><A NAME="_Toc416540291"><A NAME="_Toc416617950"><A NAME="_Ref439924810"><A NAME="_Ref452374264"><A NAME="_Ref457292355"><A NAME="_Ref472444382"><A NAME="_Toc489443257">2.12&#9;silence</A></A></A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>mIRC has a very customizeable command called /ignore that will filter out everything coming from certain nicks or addresses. What it dosn't do though is stopping the noise from coming through your connection. So you could be flooded off even with ignore on. Therefore, Undernet has implemented the /silence command. When it is used, the network won't even send you the unwanted data.<BR>
+Syntax:<BR>
+/silence [+/-]nick!name@host.host.dom<BR>
+No error-reply is given when you message someone that has silenced you.<BR>
+Example:<BR>
+"/silence +uglyguy!~jacktr@modem54.styx.net" silencing nickname uglyguy with matching address.<BR>
+"/silence +*!*@modem54.styx.net" Anyone from his address. (In case of clones)<BR>
+"/silence +*!*styx.net" Anyone using his ISP. (For repeated attacks.)<BR>
+when +/- are omitted, + is asumed. A setting is removed by "/silence -setting". E.g: "/silence -*!*styx.net". <BR>
+typing just /silence will display your silence settings.<BR>
+There’s not beeing sent errormessages to people that’s been silenced, but if you suspect you’ve been silenced, type /silence nick and you may find yourself listed as silenced. <BR>
+When Alice is silenced by Bob, but Alice tries to message Bob nontheless, the message reaches Bobs server, which then replies to Alices’ server that Bob has silenced Alice, and that there’s no need to relay further messages from her. Every server from Bobs to Alices including now knows about the silence, and those on those servers who type /silence Bob will see his silencing of Alice. This openness means that people on the same server as Bob can easily see ALL his silence-settings! <BR>
+</FONT><FONT SIZE=2>On Undernet, you have a maximum of 15 lines of silence-settings. (doublecheck with your logon (chapter </font><A HREF="#_Ref489213448"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>))</font><BR><FONT SIZE=2>
+Overlapping silences are removed. <BR>
+Example: "/silence *.dadaism.net" will remove silencing of "*modem4.dadaism.net" since it’s included in the new silence.<BR>
+Silence settings must be set every time you log on. this can be done automatically with your client.<BR>
+</FONT><FONT SIZE=2>For more information about flooding and how to defend against it, see the undernet website or the helpbot in #class on undernet. See </font><A HREF="#_Ref439924333"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> (userhost / userip) for how to silence people with "virtual hostnames"</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826774"><A NAME="_Toc407901290"><A NAME="_Toc416540293"><A NAME="_Toc416617952"><A NAME="_Toc489443258">2.13&#9;ISON</A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>ISON is the command used for the notify list in mIRC.<BR>
+Syntax: "/ISON nick1 nick2 nick2 e.t.c" <BR>
+The server replies with "ISON: nicksthatexist"<BR>
+Example:<BR>
+you send: "/ISON Susanne MadMex Martha29 Zygot" and Susanne and Zygot is online.<BR>
+</FONT><FONT SIZE=2>reply: </font><FONT FACE="Courier New" SIZE=2>"ISON: Susanne Zygot"</font><BR>
+<FONT SIZE=2>Note:<BR>
+One string of nicks should be no longer than 512 bytes.<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826765"><A NAME="_Toc407901281"><A NAME="_Toc416540284"><A NAME="_Toc416617943"><A NAME="_Ref439920651"><A NAME="_Ref472441899"><A NAME="_Toc489443259">2.14&#9;WHO with advanced parameters</A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>/who gives part of the same info as /whois.<BR>
+ircu2.10.02 gave the WHO command a new look and in ircu2.10.05, even more adjustments were made.<BR>
+As an example, the extended WHO will let you count people away in your channel and how many servers away they are, with a single command to the server. Searching and filtering are also more customizable than before, but still keeping backward compatibility. <BR>
+Syntax:<BR>
+WHO &lt;mask1&gt; [&lt;options&gt; [:&lt;mask2&gt;]] <BR>
+Which gives: <BR>
+WHO &lt;mask&gt; &lt;options&gt; or WHO &lt;some garbage&gt; &lt;options&gt; :&lt;mask&gt;<BR>
+(The second syntax will allow a space, and is therefore good for matching the infotext)<BR>
+Case is not significant anywhere.<BR>
+&nbsp;<BR>
+<B>The mask:<BR>
+</B>It defines the search criteria. I'll get back to what you'r searching <I>in</I>.<BR>
+There are two ways to define it:<BR></FONT><DIR><FONT SIZE=2>
+
+</font><FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>A comma separated list of elements. <BR>
+The elements will be assumed a nick or a channel name.</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>With a single mask, possibly using * and ?. <BR>
+This could be used to search any field </font><BR></DIR><FONT SIZE=2>
+
+Note:<BR>
+If you'r not familiar with masking, * means "any string, even of zero lenght" and ? means "one character". the mask "ge*" would match both "get" and "geronimo!" while "l?ve" matches "love" and "live", but not "legislative".<BR>
+"i??*" matches "inventory" and "inn", but not "is". <BR>
+In the case of IRC atleast, "0" works as a *.<BR>
+If you wish to match IP-numbers in the single mask, there's 3 ways to do it.<BR>
+(This part is quoted from the WHO documentation in the ircu2.10.05 release notes, <BR>
+</FONT><FONT SIZE=2>which you can find at </font><A HREF="http://www.coder-com.undernet.org/"><I><U><FONT SIZE=2 COLOR="#0000ff">www.coder-com.undernet.org</font></u></I></A><FONT SIZE=2>)</font><BR><DIR><FONT SIZE=2>
+
+</font><FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>Make a usual mask using * and ?</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>An IP-mask on the form a.b.c.d/e.f.g.h as used in most firewalls and system configurations, where what is before the / are the bits we expect in the IP number and what is after the / is the "filter mask" telling which bits would be considered and which should be ignored.</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>An IP-mask on the form a.b.c.d/bitcount, where bitcount is an integer between 0 and 31 inclusive. The matching will be for the IPs whose first "bitcount" bits are equal to those in a.b.c.d</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+&nbsp;<BR></font></DIR><FONT SIZE=2>
+
+<B>Options:<BR>
+</B>Syntax:<BR>
+[&lt;flags&gt;][%[&lt;fields&gt;[,&lt;querytype&gt;]]]<BR>
+<B>Flags:<BR>
+</B>The flags define which parts of the available data you’d like to search in.<BR>
+Each flag is one letter. First, the various userinformation:<BR>
+</FONT><PRE>n&#9;Searching nicknames to match.
+u&#9;UserID. (As in nick!user@host)
+h&#9;Hostname. (Still as in nick!user@host)
+i&#9;Numeric IP.
+s&#9;Servername. (The canonic name of the IRC server a person is using)
+(Use /links (<A HREF="#_Ref456714966"><U><FONT COLOR="#0000ff">*</font></U></A>) if you'r unsure about canonical names)
+r&#9;Info text. (Formerly known as "realname" )
+If you don't specify any of theese flags, the default "nuhs" is used. (Everything except the numeric IP and realname)
+In addition, you can search for usermodes, (overview in <A HREF="#_Ref456715012"><U><FONT COLOR="#0000ff">*</font></U></A>) but as I'm writing this, there's only support for one of them:
+o&#9;Operator (Yup! the same as in <A HREF="#_Ref456715032"><U><FONT COLOR="#0000ff">*</font></U></A>)</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+<B>Fields:<BR>
+</B>When the WHO-command has found a bunch of persons, then this tells it which fields<BR>
+of the userinformation should be returned to you.<BR>
+</FONT><PRE>c&#9;Include the last channel the person joined, or first common, if the person is +i.
+&#9;(If no common channel exist among you, a +i user won't be shown.)
+d&#9;How many servers away the nick are. (hopcount, also see <A HREF="#_Ref456715052"><U><FONT COLOR="#0000ff">*</font></U></A>)
+h&#9;hostname
+i&#9;Numeric IP
+n&#9;nick
+r&#9;Info text
+s&#9;servername
+u&#9;userID (with eventual ~)
+f&#9;Include all the flags you passed on earlier
+t&#9;Include querytype in the reply (see below)</PRE>
+<FONT SIZE=2>The fields are always returned in the same order.<BR>
+<B>Querytype:<BR>
+</B>Usefull for scripts. The querytype, an integer, is passed on with the WHO. If you specify t in Fields, the lines in the reply will start with this number (query or request type field of the output). Works like a note to itself. "Oh! This is my who-query, do so and so with it."<BR>
+&nbsp;<BR>
+Note to scripters:<BR>
+If no %fields are specified, the who reply are in numeric 352.<BR>
+If %fields are specified, numeric 354 are used instead, because 352 confused clients.<BR>
+&nbsp;<BR>
+A WHO-query could end up matching everyone and flood you off with the reply or exhaust the server. To avoid this, the maximum number of lines in the reply is 2048/(n+4) where n is the number of Fields you've specified. A default query gives max 186 lines.<BR>
+<B>Examples:<BR>
+</B>We send this command: "/who 0 o%fn" to get a list of operators. The reply is this:<BR>
+</FONT><PRE>Napoleon H*
+McMini H*
+Sodapunk H*@
+Tordivelen G*@
+Aquagirl H*
+Q-Beck G*
+* End of /WHO list.</PRE>
+<FONT SIZE=2>Each line presents one nick and the corresponding flags. Tordivelen is both gone and an operator in the last channel he joined. Also see </font><A HREF="#_Ref456715113"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>.</font><BR><FONT SIZE=2>
+"/who #Luggage_Claim %dct,9" could return this: <BR>
+</FONT><PRE>9 #Luggage_Claim 3
+9 #Luggage_Claim 3
+9 #Luggage_Claim 1
+9 #Luggage_Claim 3
+9 #Luggage_Claim 3
+9 #Luggage_Claim 5
+9 #Luggage_Claim 3</PRE>
+<FONT SIZE=2>"9" is the query type field, The rightmost numbers are the hopcount for each nick. Most of the folks seem to be 3 hops away.<BR>
+&nbsp;<BR>
+Note: <BR>
+If you'r using a mIRC copy older than 5.3, you'll have to send channel-whos as "/raw who #e.t.c..."<BR>
+On EFnet and possibly other nets but not Undernet "/who *" lists everyone on the last channel you joined and still is on (the first channel in your whois-reply) If you’r on no channels or on Undernet, "/who *" will flood you.<BR>
+&nbsp;<BR>
+If you’r say, swedish and joins a channel, you may want to type "/who #channel *.se" to list every swede in the channel.<BR>
+On non-ircu nets, this works just fine. However, with the new ircu, it’s a bit more complicated. The ircu WHO can’t filter people in a channel like this, but mIRC itself actually reads the /who, sends it along and uses the *.se to filter the next /who reply it receives. ircu will sometimes ignore the mask (as with *.net and *.s*) and sometimes return no matches (as with *.se)<BR>
+Here’s a workaround in mIRC:<BR>
+Make the alias "/doublewho {who $$1 | who #babblechan $$2 }" in mIRC. Typing "/doublewho #channel *.se" will first send along a /who #channel to return everyone in channel, but before the reply reaches you, you send along /who #babblechan *.se.<BR>
+The last /who returns nothing, but serves to "teach" mIRC the *.se mask which it will start using when the reply from /who #channel comes back!<BR>
+IrcII seems to do much of the same, how about other clients? Send me a mail if you know more. <BR>
+&nbsp;<BR>
+</FONT><B><FONT FACE="Arial" SIZE=4><A NAME="_Toc489443260">3&#9;Channels</A><BR>
+</FONT><I><FONT FACE="Arial"><A NAME="_Toc489443261">3.1&#9;join</A><BR>
+</font></i></B><FONT SIZE=2>Syntax: /join channeltojoin, anotherchannel, andathirdchannel, e.t.c<BR>
+</FONT><FONT SIZE=2>Separated with a comma, you can join several channels at once, saving you some typing (But if you want to save typing, perhaps IRC isn’t the right place :-) On undernet, you’r limited to beeing on 10 channels at the same time. (Also see chapter </font><A HREF="#_Ref489301337"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR>
+<B><I><FONT FACE="Arial"><A NAME="_Toc489443262">3.2&#9;quit and /part with comments</A><BR>
+</font></i></B><FONT SIZE=2>You can put a comment along when you quit irc, with the command /quit, and as of ircu2.10.02 you can send <BR>
+a comment along when you /part a channel too. Perfect for getting the last word :-P<BR>
+Syntax: <BR>
+/quit comment <BR>
+/part #channel comment or /part #channel1,#channel2,...<BR>
+</FONT><FONT SIZE=2>When a message to the channel wouldn’t have been allowed to be sent, as in cases of ban or moderated channel, theese message won’t be sent either. See </font><A HREF="#_Ref472444591"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> and </FONT><A HREF="#_Ref472444599"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> for more about this. A client-independet way to leave all channels at once is "/join 0". This is a remnant from early irc development. </font><BR><FONT SIZE=2>
+Quitting with a linebreak "//quit char$(13)" drops the paranthesis. Perhaps it can confuse a script or two, but does nothing more as far as I can see.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826837"><A NAME="_Toc407901353"><A NAME="_Toc416540358"><A NAME="_Toc416618020"><A NAME="_Ref439920777"><A NAME="_Ref439950522"><A NAME="_Ref452375215"><A NAME="_Ref452378426"><A NAME="_Toc489443263">3.3&#9;Invite, overcomes everything</A></A></A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>syntax: /invite nick #channel<BR>
+</FONT><FONT SIZE=2>Invites a person to your channel. It is nessecary to invite the person if the channel is set "invite only" (</font><A HREF="#_Ref472444591"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>). You need to be an op in the chan to do it.</font><BR><FONT SIZE=2>
+Applying to ircu2.10 and above:  When you invite a person into a channel, you’r overruling the channel limit and any ban. Give him a voice (+v) and he can speak through the ban too.<BR>
+Applying to ircu2.10.10 and above: Typing /invite with no parameters lists the channels you are currently invited to<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial">3.4&#9; <A NAME="_Ref472444591"><A NAME="_Toc489443264">Channelmodes</A></A><BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc489443265">3.4.1&#9;All the modes for a channel</A><BR>
+</FONT><FONT SIZE=2>First, a quick summary of the channelmodes:<BR>
+syntax: /mode &lt;mode&gt; [parameter]<BR>
+</FONT><PRE>b &lt;mask&gt;[&lt;reason&gt;]&#9;Ban someone and display the reason.
+v nick&#9;&#9;&#9;Voice someone (Speaks through ban and moderations, and get a nice + by their nick)
+i&#9;&#9;&#9;&#9;Channel is invite-only
+l &lt;limit&gt;&#9;&#9;&#9;Channel is limited to &lt;limit&gt; participants at the same time
+m&#9;&#9;&#9;&#9;Channel is moderated. Only ops and voiced people can talk
+n&#9;&#9;&#9;&#9;No messages/notices is allowed to be sent to the channel from outside.
+o &lt;nick&gt;&#9;&#9;&#9;Op someone
+p&#9;&#9;&#9;&#9;Channel is private
+s&#9;&#9;&#9;&#9;Channel is secret
+t&#9;&#9;&#9;&#9;Noone but the ops can change the channeltopic
+k &lt;key&gt;&#9;&#9;&#9;Set a password-key (any text) necessary to get into the channel.</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+You are probably more than familiar with theese already, so I’ll just summarize my comments on them:<BR>
+</FONT><PRE>b:&#9;&#9;See <A HREF="#_Ref472443081"><U><FONT COLOR="#0000ff">*</font></U></A>
+p and s:&#9;See <A HREF="#_Ref439951848"><U><FONT COLOR="#0000ff">*</font></U></A>
+m:&#9;&#9;As with b, +m censors your optional /part and /quit comments in the channel. (See <A HREF="#_Ref472443412"><U><FONT COLOR="#0000ff">*</font></U></A>) (ircu specific) You can only display one /quit comment, so beeing in a +m channel without a voice, "censors" your  quitmessage from every other channel your on too.
+v and o:&#9;You can have voice and op at the same time, but mIRC will only display the op @, not the +.</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc489443266">3.4.2&#9;Retrieving channelmodes</A><BR>
+</FONT><FONT SIZE=2>Theese commands retrieve the same info as you get when you doubleclick in the channelwindow.<BR>
+/mode #channel Retrieves the modes (Also when it was created when using ircu)<BR>
+/mode #channel b the bans (Prohibited when you’r outside the channel)<BR>
+/topic #channel the topic (Prohibited when you’r outside a +s channel)<BR>
+Note:<BR>
+What information is available, varies from net to net. The channel-limit is shown for ircu2.10.01 and above and topic-retreaval outside channel is also a fairly recent addition. (Now it complies with what you have access to in the channel-listing) The key is ofcourse not available from outside!<BR>
+Tip: If you want to know if a channel exists, please do a /mode #chan, instead of annoying join/part visits. :-)<BR>
+</FONT><FONT SIZE=2>Also see </font><A HREF="#_Ref452375685"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Ref439951848"><A NAME="_Toc489443267">3.4.3&#9;Difference between +p and +s</A></A><BR>
+</FONT><FONT SIZE=2>A channel can have +p (private) or +s (secret) mode set. Here is the difference:<BR>
+</FONT><FONT SIZE=2>"Secret" means Top Secret. Its existance is secret (not present in any listing), and you beeing in it is secret. (It dosn’t show up in a whois on you and you can’t take a /names #chan on it) As an extra secrery, a wildcard whois won’t return you. (see </font><A HREF="#_Ref489034439"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+"Private" means privacy for you. The channel shows up in the channellisting, but people can’t tell you’r in it, unless they’r in the channel themselves.<BR>
+&nbsp;<BR>
+Note: Prior to ircu2.10.10, +s channels <I>could</I> show up in /list sometimes. The bug has been fixed from this version.<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826829"><A NAME="_Toc407901345"><A NAME="_Toc416540350"><A NAME="_Toc416618012"><A NAME="_Ref439868930"><A NAME="_Ref472443081"><A NAME="_Ref472443412"><A NAME="_Ref472444599"><A NAME="_Ref489212253"><A NAME="_Ref489376178"><A NAME="_Toc489443268">3.5&#9;"Shutting their mouth." Powerfull chanops-feature</A></A></A></A></A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>(Partly ircu specific.)<BR>
+This feature is IMHO an important one, but not widely known. The feature is as follows:<BR>
+If you ban a person in your channel, but dosn't kick him, two things take place:<BR>
+1: the nick looses his/her freedom of speech in your channel. The nick can't speak in the channelwindow, and neither do a channel-notice nor a channel-ping. Even the optional /part and /quit comments are censored.<BR>
+(Equivalent to setting +m and voice everyone but the banned one)<BR>
+2: He/she is unable to change nick as long as beeing in your channel. This hinder nickchange-flooding. <BR>
+This is usefull for a number of things, and could improve protection-routines of scripts and ops. You can have "auto-ban on flood" turned on in your script, without beeing afraid of kicking a friend that's playing some ascii-art to the chan. Another idea is to implement it as a "last warning" before getting kicked, or a nice way of stopping peoples annoying /timer messages when they'r away from the keyboard, but still letting them stay. If you have some annoying person in your channel, you have the ability to shut his/her mouth, letting people get on with their chatting, or talking back if they feel like it, and the person, his right of babbel taken away and now ignored by everyone, leaves the channel himself. :-) In some way, it's better than to give them the attention of a kick. <BR>
+</FONT><FONT SIZE=2>NB: Any banning is overridden by a +v (see </font><A HREF="#_Ref452378426"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443269">3.6&#9;kick</A><BR>
+</font></i></B><FONT SIZE=2>Removes a person from your channel. (need to be op in chan to do it) You can put a reason along if you like <BR>
+Syntax: /kick #channel person [reason]<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826785"><A NAME="_Toc407901301"><A NAME="_Toc416540304"><A NAME="_Toc416617963"><A NAME="_Ref439922792"><A NAME="_Ref439922807"><A NAME="_Toc489443270">3.7&#9;names</A></A></A></A></A></A>. Listing the inhabitants</A><BR>
+</font></i></B><FONT SIZE=2>Displays a list of nicks in a given channel.<BR>
+Syntax: /names #channel1,#channel2,.....<BR>
+Examples:<BR>
+"/names #soap.opera,#talkshow". <BR>
+</FONT><FONT SIZE=2>Displays everyone in #soap.opera and #talkshow, and all <U>visible</U> nicks (</font><A HREF="#_Ref472441541"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) if you'r not in the channels. In ircu, it is processed as two /names queries, and will show a person twice if in both channels.</font><BR>
+<FONT SIZE=2>"/who #soap.opera,#talkshow" (</font><A HREF="#_Ref472441899"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) lists the person only once.</font><BR><FONT SIZE=2>
+The list of names will be sorted according to when they joined the channel, with the newest member at the beginning. <BR>
+Notes:<BR>
+</FONT><FONT SIZE=2>Wildcards dosn’t work. Sending the query to a remote server, (/names #chan server) is prohibited on Undernet, but is mentioned in RFC1459, so others might allow it. (Practical use with "local channels" (</font><A HREF="#_Ref472441475"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) )</font><BR><FONT SIZE=2>
+Typing just "/names" does a query on every non-secret channel on the net and is pretty useless and floody. :-)<BR>
+(Hey! they forgot this one when restricting number of lines in ircu query-replies, like they did with /who)<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Ref472441475"><A NAME="_Toc489443271">3.8&#9;Local channels</A></A><BR>
+</font></i></B><FONT SIZE=2>A channel with the "&amp;" prefix instead of "#" (e.g &amp;chat) is a channel that is local to your server. People from other IRC-servers can't join, can’t find it in the channel-listing and can't spot you'r in it, unless they retrieve a remote whois. (</font><A HREF="#_Ref439946486"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) </font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc416617980"><A NAME="_Ref489218804"><A NAME="_Toc489443272">3.9&#9;The modeless channel. Equality by simplicity</A></A></A> <BR>
+</font></i></B><FONT SIZE=2>As of ircu2.10.02 you can start a "modeless channel" This is a channel with the prefic "+" instead of #. (e.g +chat) <BR>
+Such a channel can’t have any channel operators and its mode is always set to +nt. From this, "no topic", "no /invite" and "no bans" logically follows.<BR>
+</FONT><FONT SIZE=2>The purpose for this invention is "to create an enviroment where all users are equal and not tempted to fight about ops". Flooding should be dealt with by either leaving the channel or using /ignore or /silence. (</font><A HREF="#_Ref472444382"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) Making it topic-free and non-invite is to avoid flooding by topic-changing or mass-invite, or any gibbering over what todays topic should be :-)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826800"><A NAME="_Toc407901316"><A NAME="_Toc416540319"><A NAME="_Toc416617978"><A NAME="_Ref439920724"><A NAME="_Ref489203836"><A NAME="_Ref489218820"><A NAME="_Toc489443273">3.10&#9;Cnotice/Cprivmsg. A "too many targets" exception</A></A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>New in ircu2.10.02, +v ability added in 2.10.05<BR>
+Syntax:<BR>
+/CNOTICE &lt;nick&gt; &lt;channel&gt; &lt;message text&gt;<BR>
+/CPRIVMSG &lt;nick&gt; &lt;channel&gt; &lt;message text&gt;<BR>
+What and Why:<BR>
+Undernet implemented an anti-flood measure in ircu2.10, so you can’t message more than so and so many people in a short interval. (20 per 2 minutes on Undernet but 10 immediately when you logon) This caused problems for those that NEED to do this, say bots in gaming channels, and so theese ad-hoc commands were implemented. If you’r a channel operator or has voice (+v) you can mass-message people in your channel without getting "too many targets".<BR>
+</FONT><FONT SIZE=2>Also see /wallchops (</font><A HREF="#_Ref439946390"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) and the logon procedure (</FONT><A HREF="#_Ref489295251"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826779"><A NAME="_Toc407901295"><A NAME="_Toc416540298"><A NAME="_Toc416617957"><A NAME="_Ref439946390"><A NAME="_Ref489205106"><A NAME="_Toc489443274">3.11&#9;Wallchops</A></A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>From version 2.10 of ircu, this early attempt at an ad-hoc solution to a special case of the problem mentioned in </font><A HREF="#_Ref489203836"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> were added. </font><BR><FONT SIZE=2>
+This sends a mass message to every OP in the channel, much like a channelnotice, but only the ops can see it. It is supposed to replace any "message the ops" script you might have. (not that I’ve seen anyone having it :) In this special case, it’s better than cnotice, because you don’t need to be an op or even have voice!<BR>
+Syntax: <BR>
+/wallchops #chan or /notice @#chan (Sending a NOTICE in both cases.) <BR>
+Wallchops demands that you are an op in the channel while /notice @#chan acts EXACTLY like a usual channel-notice. Don’t ask me why they’r inconsistent or why they bothered with two commands in the first place, but I hope they leave the /notice like this. It makes sense.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><FONT FACE="Arial" SIZE=4><A NAME="_Toc489443275">4&#9;The net</A><BR>
+</FONT><I><FONT FACE="Arial"><A NAME="_Toc489443276">4.1&#9;Network structure and overview</A><BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc407826776"><A NAME="_Toc407901292"><A NAME="_Toc416540295"><A NAME="_Toc416617954"><A NAME="_Ref439921405"><A NAME="_Ref455569018"><A NAME="_Toc489443277">4.1.1&#9;lusers</A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>LUSERS lists basic global and local info.<BR>
+Example: <BR>
+</FONT><PRE>There are 9450 users and 8163 invisible on 44 servers
+37 operator(s) online
+2 unknown connection(s)
+10025 channels formed
+I have 692 clients and 2 servers</PRE>
+<FONT SIZE=2>Note:<BR>
+The first line should be read as: "A total of 17613 users, 8163 of those is invisible" The number of operators includes local ops that won't show up in /who 0 o and invisible ops. You can filter this command for specific irc-servers:<BR>
+Examples:<BR>
+"/lusers sandiego.ca.us.undernet.org" (when beeing on sandiego) could return:<BR>
+</FONT><PRE>There are 301 users and 391 invisible on 2 servers
+[...] I have 692 clients and 2 servers</PRE>
+<FONT SIZE=2>"/lusers *.no.eu.Undernet.org" when beeing on sandiego could return:<BR>
+</FONT><PRE>There are 355 users and 237 invisible on 1 servers
+[...] I have 0 clients and 0 servers</PRE>
+<FONT SIZE=2>Meaning 355+237 users on *.no.eu.undernet.org servers currently online. Ofcourse none of them is on sandiego, hence the "I have 0".<BR>
+"/lusers *.eu.undernet.org" (or just *.eu.*) shows the total number of european users.<BR>
+Note: <BR>
+For a list of the number of users on every server on undernet, send a msg to X or W with the command "map".<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Ref452377474"></a><A NAME="_Toc489443278"></a><BR>
+4.1.2&#9;map <BR>
+</FONT><FONT SIZE=2>An ircu-only command that gives a nice view of how the servers is connected to each other. <BR>
+Syntax: /map<BR>
+Example:<BR>
+Part of the net as seen from Oslo-R:<BR>
+</FONT><PRE>P:Oslo-R.NO.EU.Undernet.org (0s) [2050 clients]
+|-Y:Oslo1.NO.EU.Undernet.org (5s) [875 clients]
+`-F:Gothenburg.Se.Eu.Undernet.org (0s) [4 clients]
+|-Q:Amsterdam-R.NL.EU.Undernet.org (57962s) [1 clients]
+|-7:Graz.AT.EU.Undernet.org (1s) [2535 clients]
+|-D:Caen.FR.EU.Undernet.org (3s) [921 clients]
+`-O:Flanders.BE.EU.Undernet.org (0s) [1710 clients]
+`-AN:Brussels.Be.Eu.Undernet.org (4s) [40 clients] 
+
+Same part of the net as seen from Caen: 
+D:Caen.Fr.Eu.UnderNet.org (0s) [924 clients]
+`-F:Gothenburg.Se.Eu.Undernet.org (0s) [4 clients]
+|-Q:Amsterdam-R.NL.EU.Undernet.org (57959s) [1 clients]
+|-7:Graz.AT.EU.Undernet.org (12s) [2764 clients]
+|-O:Flanders.BE.EU.Undernet.org (0s) [1704 clients]
+| `-AN:Brussels.Be.Eu.Undernet.org (1s) [39 clients]
+`-P:Oslo-R.NO.EU.Undernet.org (0s) [2051 clients]
+`-Y:Oslo1.NO.EU.Undernet.org (0s) [873 clients] </PRE>
+<FONT SIZE=2>Oslo1 is connected to Oslo-R, lulea is connected to Oslo-R and Amsterdam. e.t.c<BR>
+Notice the tree structure. There is only one path between two given servers and no loops.<BR>
+Notes:<BR>
+It is possible for a server to be configured so that it won’t show up on /map. If you send a message to X or W with the text "map", you'll get a map with the number of users on each server! The letters before the servername correspond to numeric nicks in the server-server protocol, and dosn’t tell us anything.&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826789"><A NAME="_Toc407901305"><A NAME="_Toc416540308"><A NAME="_Toc416617967"><A NAME="_Ref439930869"><A NAME="_Ref452376808"><A NAME="_Ref456714966"><A NAME="_Toc489443279">4.1.3&#9;links</A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>LINKS displays the same information as map, but in another format, and with extra sauce.. uhm extra data! LINKS is a common IRC-command. The server mask option can sort out hosts like *.eu.undernet.org (all european hosts)<BR>
+Syntax:<BR>
+/LINKS [[&lt;remote server&gt;] &lt;server mask&gt;]<BR>
+Example:<BR>
+"/LINKS *.nl.eu.undernet.org" displays every server in Netherland.<BR>
+An output in mIRC might look like this:<BR>
+</FONT><PRE>SanDiego.CA.US.Undernet.org (0) P10 CONNECTnet UUnet/MCI server
+Dallas-R.Tx.US.Undernet.org (1) P10 Dallas Undernet Hub
+Dallas.Tx.US.Undernet.org (2) P10 [127.0.0.1] Dallas Metroplex IRC Client Server
+Los-Angeles-R.CA.US.Undernet.Org (2) P10 [198.245.27.2] Internet Chat Systems IRC Server
+los-angeles.ca.us.undernet.org (3) P10 [198.245.24.80] Decade Communications IRC Server
+Uworld.undernet.org (3) P9 [198.245.24.240] Cordinator
+auckland.nz.undernet.org (3) P10 [202.14.100.6] Internet Company of New Zealand
+protocol.undernet.org (3) P10 [198.245.24.190] [protocol.undernet.org] Software 
+Chicago-R.IL.US.Undernet.org (2) P10 [206.54.224.160] Nap Net Chicago IRC Hub
+ann-arbor.mi.us.undernet.org (3) P10 [irc.cic.net] "Use the source, luke"</PRE>
+<FONT SIZE=2>The number in parenthesis is the hopcount, P10 is the current server-server protocol and Sandiego was the server that replied to LINKS. The tree-structure is depicted by preceding space " ", probably making links output easier to handle for a script than maps’ output.<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826799"><A NAME="_Toc407901315"><A NAME="_Toc416540318"><A NAME="_Toc416617977"><A NAME="_Ref439933182"><A NAME="_Toc489443280">4.1.4&#9;Extended list command</A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Undernet has implemented an extended list-command that let you filter in ways the built-in lister in mIRC and other clients won’t let you. (they only know how to filter on max and min users)<BR>
+Help for this command is brought up with "/raw list help" (or /quote)<BR>
+This is what you get:<BR>
+</FONT><PRE>Usage: /QUOTE LIST parameters
+Where parameters is a space or comma seperated list of one or more of:
+&lt;max_users ; Show all channels with less than max_users.
+&gt;min_users ; Show all channels with more than min_users.
+C&lt;max_minutes ; Channels that exist less than max_minutes.
+C&gt;min_minutes ; Channels that exist more than min_minutes.
+T&lt;max_minutes ; Channels with a topic last set less than max_minutes ago.
+T&gt;min_minutes ; Channels with a topic last set more than min_minutes ago.
+Example: LIST &lt;3,&gt;1,C&lt;10,T&gt;0 ; 2 users, younger than 10 min., topic set.</PRE>
+<FONT SIZE=2>Example:<BR>
+"/raw list &gt;20,C&gt;120" will bring up channels that have existed more than 2 hours and has more than 20 users. When it's finished, you can, in mIRC, rightclick in "channels", apply match and hide parameters, and press "apply". <BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826790"><A NAME="_Toc407901306"><A NAME="_Toc416540309"><A NAME="_Toc416617968"><A NAME="_Ref439929664"><A NAME="_Ref439929681"><A NAME="_Ref439947937"><A NAME="_Ref456715052"><A NAME="_Ref489296992"><A NAME="_Ref489299246"><A NAME="_Ref489375494"><A NAME="_Toc489443281">4.1.5&#9;trace</A></A></A></A></A></A></A></A></A></A></A></A> <BR>
+</FONT><B><FONT SIZE=2>With parameter:<BR>
+</font></B><FONT SIZE=2>"/TRACE nick" is used to look at the path between you and another nick.<BR>
+Example:<BR>
+Beeing on the Oslo-server, typing "/trace Eagle":<BR>
+</FONT><PRE>Link u2.10.00.bans3 Eagle lulea-r.se.eu.undernet.org
+Link u2.10.00.bans3 Eagle Amsterdam.NL.EU.undernet.org
+Link u2.10.00 Eagle Regensburg.DE.EU.undernet.org
+Link u2.10.00 Eagle Baltimore-R.MD.US.Undernet.Org
+Link u2.10.00 Eagle Chicago-R.IL.US.Undernet.org
+Link u2.10.00 Eagle ann-arbor.mi.us.undernet.org
+User 5 Eagle[quail-2.slip.uinb.edu] 18</PRE>
+<FONT SIZE=2>What it shows is that a message from me to Eagle has to go through 6 server-server connections, before getting to his server. (giving hopcount=6) The last line tells he's in class 5 on his server, and beeing idle 18 seconds. (u2.10.00 is the servers’ ircu-version)<BR>
+</FONT><FONT SIZE=2>Compare with the "/who Eagle" reply: </font><FONT FACE="Courier New" SIZE=2><DFN>"Eagle H E.gel@quail-3.slip.uinb.edu :6 Cristopher Watson"</dfn></FONT><FONT SIZE=2> <BR>
+:6 means he have a hopcount of 6, relative to you.</font><BR>
+<FONT SIZE=2>Note that each line is sent from its respective server and this is a great way to hunt down WHERE the lag in a connection between you and your friend is. Say if the Regensburg line is shown, and it takes a long time before the Baltimore line is printed. That means the connection between Regensburg and Baltimore is lagged. Then you consult /map (</font><A HREF="#_Ref452377474"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) to find a server away from the regensburg-baltimore link. </font><BR>
+<FONT SIZE=2>If this dosn’t turn up the lag, it could be between him and his server, in case the difference between a "/whois nick nick" (</font><A HREF="#_Ref487296254"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) and a ping would give you his lag.</font><BR><FONT SIZE=2>
+<B>Without parameter:<BR>
+</B>Typing /trace with no parameter will give you something on the form:<BR>
+Serv &lt;class&gt; &lt;nS&gt; &lt;nC&gt; &lt;name&gt; &lt;ConnBy&gt; &lt;last&gt; &lt;age&gt;<BR>
+Possibly displayed on more than one line. <BR>
+Where:<BR>
+</FONT><PRE>class: &#9;Class the server is in
+nS:&#9;&#9;Number of servers reached via this link
+nC:&#9;&#9;Number of clients reached via this link
+name:&#9;Name of the server linked
+ConnBy: &#9;Who established this link
+last: &#9;&#9;Seconds since we got something from this link
+age:&#9;&#9; Seconds this link has been alive</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+Example:<BR>
+Beeing on sandiego, the start of the /trace reply look like this:<BR>
+Serv 10 41S 20227C Dallas-R.Tx.US.Undernet.org[208.145.192.1] *!*@SanDiego.CA.US.Undernet.org 1 250589<BR>
+</FONT><FONT SIZE=2>The connection is in connection class 10 (See Y-lines </font><A HREF="#_Ref464744457"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) 41 servers are reachable via this link, resulting in 20227 reachable clients.</font><BR><FONT SIZE=2>
+The link is to Dallas and was established by Sandiego itself. It’s 1 second since we heard from the server, and the link has been active for 250589 seconds.  The rest of the output will be likewise lines for other server-server connections (if any) possibly followed by  lines identifying operators, (Example: Oper 1001 TNTgal[some.address.here] 6, Operator TNTgal in class 1001 idle 6 secs) and buggy as it may be, people in the action of logging in on the server.<BR>
+The latter part of the /trace output may seem awkward, but it helps to know that an operator typing /trace would list all people on his server, we’re just watching the censored edition.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443282">4.2&#9;Specific server</A><BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc407826771"><A NAME="_Toc407901287"><A NAME="_Toc416540290"><A NAME="_Toc416617949"><A NAME="_Ref457239950"><A NAME="_Ref472457535"><A NAME="_Toc489443283">4.2.1&#9;motd</A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Bring up your servers' "Message Of The Day". (The text you get each time you log in) As of ircu2.10.05, the server <I>could</I> be configured not to send the MOTD by startup, but who wouldn’t want to?<BR>
+"/motd fullservername" brings you the MOTD of a remote server. On Undernet, there is supposed to be a small MOTD  on every server, that is sent when it receives a <U>remote</U> MOTD-query. This is done to preserve bandwidth. (As if people do remote MOTDs all the time?! &lt;:-)  <BR>
+It’s easy to show different MOTD to different people, according to their address. For instance one in the native language.<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826792"><A NAME="_Toc407901308"><A NAME="_Toc416540311"><A NAME="_Toc416617970"><A NAME="_Toc489443284">4.2.2&#9;time</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Shows the time, according to the servers' clock, and hours away from GMT<BR>
+Syntax: /time [servername if remote]<BR>
+Example: Thursday July 27 2000 -- 17:57 -06:00 <BR>
+</FONT><FONT SIZE=2>This server is located 6 hours behind GMT. If you use debug, you’ll find that the server also sends a line with a number in the unixtime format. as mentioned in stats-g (</font><A HREF="#_Ref489383828"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) This isn’t displayed in mIRC. If your machines’ timezone setting is correct, your script could use this line to calibrate your systemclock to an accuracy of a few seconds.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826797"><A NAME="_Toc407901313"><A NAME="_Toc416540316"><A NAME="_Toc416617975"><A NAME="_Ref454727207"><A NAME="_Toc489443285">4.2.3&#9;admin</A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Returns administrative info.<BR>
+Syntax:<BR>
+/admin &lt;servername&gt; or just /admin for your own irc-server.<BR>
+Example:<BR>
+</FONT><PRE>Administrative info about Nottingham.UK.eu.Undernet.org
+Robin Hood's IRC server
+Undernet IRC Server
+littlejohn@merrymen.org.uk</PRE>
+<FONT SIZE=2>Note:<BR>
+/admin could be used with wildcards, but returns only one server, so it’s only usefull for shortening the command. E.g "/admin sandi*" for sandiego.ca.us.undernet.org<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826795"><A NAME="_Toc407901311"><A NAME="_Toc416540314"><A NAME="_Toc416617973"><A NAME="_Toc489443286">4.2.4&#9;help</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Syntax: "/raw help"<BR>
+This sends "HELP" to the server, giving a list of commands it will understand.<BR>
+</FONT><FONT SIZE=2>See </font><A HREF="#_Ref439933182"><U><FONT COLOR="#0000ff">*</font></U></A><I><FONT SIZE=2 COLOR="#808080"> </font></I><FONT SIZE=2>for "/raw list help"</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826796"><A NAME="_Toc407901312"><A NAME="_Toc416540315"><A NAME="_Toc416617974"><A NAME="_Toc489443287">4.2.5&#9;info</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Version and copyright info, along with credits to those who have contributed to the coding of the IRC-software.<BR>
+Note: "/INFO remoteserver&quot; is disallowed on Undernet. It's the same on all servers anyway.<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826793"><A NAME="_Toc407901309"><A NAME="_Toc416540312"><A NAME="_Toc416617971"><A NAME="_Toc489443288">4.2.6&#9;version</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Returns the version of the serversoftware running. Use "/version servername" for remote queries.  It can include wildcards, but only for shortening the name. E.g "/version london*" <BR>
+Example: <BR>
+u2.10.10.09. SanDiego.CA.US.Undernet.org B9eEFfIKlMOopStUW<BR>
+</FONT><FONT SIZE=2>This one is running ircu version 2.10.10 The letters at the end is its server-options. (</font><A HREF="#_Ref454722216"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826794"><A NAME="_Toc407901310"><A NAME="_Toc416540313"><A NAME="_Toc416617972"><A NAME="_Ref439920795"><A NAME="_Ref439922662"><A NAME="_Ref439931443"><A NAME="_Ref439947974"><A NAME="_Ref439949050"><A NAME="_Ref439949067"><A NAME="_Ref454722216"><A NAME="_Ref454724066"><A NAME="_Ref457282133"><A NAME="_Toc489443289">4.2.7&#9;Decoding serveroptions in "version"</A></A></A></A></A></A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Serveroptions are those letters at the end of a version-reply. They indicate various settings. Few of them affects us, but it’s nice to know what they mean, isn’t it? :-)<BR>
+<B>Terms used<BR>
+</B></FONT><FONT SIZE=2>An IRC-operator can be set to two levels, with the flag FLAG_OPER or FLAG_LOCOP set. You can spot an OPER by the uppercase O in the "/stats o" (</font><A HREF="#_Ref439931641"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) reply, and a LOCOP by the lowercase. A LOCOP is not seen by the rest of the net as an operator, and so can't act on clients connected to other servers, e.g killing. (Note that a local client is both users and server-localserver connections.)</font><BR><FONT SIZE=2>
+I will use the terms OPER and LOCOP so as not to confuse with "local operator" which could mean any operator stationed on your irc-server. The file config.h defines if a certain command is restricted to OPERs or to LOCOPS as well. The term "remote operator" in this guide, means an OPER on a server other than yours.<BR>
+Note:<BR>
+What letters could be included, was found in the serveroptions-code in "S_debug.c", a file in the sourcecode. Explanations for the settings were found in "configure.help" Still this section involves a bit educated guessing :-)<BR>
+<B>Serveroptions <BR>
+</B></FONT><PRE>B or b followed by number: The size of the bufferpool.
+c : Server uses chroot()
+C : CMDLINE_CONFIG is defined
+D : DEBUGMODE is defined
+e : LOCOPS can use /REHASH
+E : Opers can use /REHASH
+f: Operators can set modes on local channels
+F: Operators bypass the no. of channels limit
+H : HUB is defined
+i : Show operators invisible users local to the server
+I : Show OPERS all invisible users.
+k : Opers can use /KILL on local clients.
+K : Opers can use /KILL on any client
+l: Operators can walk through modes on local channels
+m : M4_PREPROC is defined 
+M : IDLE_FROM_MSG is defined
+O : server has defined USEONE
+p : Oper passwords are crypted
+P : Link paswords are crypted
+Q : /stats M works
+q : Server does memory allocation/dealloation checks
+R : RELIABLE_CLOCK is defined
+s : LOCOPS can use /RESTART
+S : Opers can use /RESTART
+t : OPER_REMOTE is defined
+U : Server uses poll()
+v : VIRTUAL_HOST is defined
+W: BADCHAN is enabled
+x: local BADCHAN is enabled
+X: Unixport defined
+Y : Server uses syslog()</PRE>
+<B><FONT SIZE=2>The meaning of the letters<BR>
+</font></B><FONT SIZE=2>When followed by [OUTDATED], it means undernet has thrown the setting overboard. It is kept here for reference for users of other networks.<BR>
+Bufferpool <B>b/B</B> <BR>
+If BUFFERPOOL is less than a million bytes, you get <B>b</B>. If it’s more, <B>B</B> is used.<BR>
+After that, it divides the number so that only the two first digits are shown.<BR>
+&nbsp;<BR>
+For nets with older ircu, here’s how it was done prior to ircu2.10.7.<BR>
+---------[OUTDATED]-------------------------<BR>
+MAXSENDQLENGTH <B>M</B>[0-9&gt;][0-9]<BR>
+</FONT><FONT SIZE=2>Specifying 0.1Mb up to 9.9Mb of MAXSENDQLENGTH, shown as "&gt;" when larger than 9.9Mb Default value of the "max senq. lenght" in Y: lines (</font><A HREF="#_Ref439931974"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) and used for deciding RAM-allocation.</font><BR><FONT SIZE=2>
+INT_BUFFERPOOL <B>B</B>[0-9&gt;]<BR>
+The digit represents BUFFERPOOL/MAXSENDQLENGTH and represented by "&gt;" when larger than 9. <BR>
+BUFFERPOOL = Max RAM-size of all the sendqueues, all in all. <BR>
+MAXSENDQLENGHT defines the max-size of each sendqueue, and INT_BUFFERPOOL a number to multiply, giving BUFFERPOOL which is how much ram is reserved for ALL the queues.<BR>
+In our example, the version-reply says "M10B8". Which gives MAXSENDQLENGTH a value of 1.0Mb and INT_BUFFERPOOL 8. INT_BUFFERPOOL * MAXSENDQLENGHT = BUFFERPOOL <BR>
+8 * 1.0Mb = 8Mb<BR>
+It is only a multiplier for the RAM allocation, it dosn’t tell us that there’s exactly 8 queues, but it tells the max of one single queue.<BR>
+</FONT><FONT SIZE=2>See "/stats l" (</font><A HREF="#_Ref439932400"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) for a queue</font><BR><FONT SIZE=2>
+For the sourcecode sniffers: INT_BUFFERPOOL is gone, BUFFERPOOL is independent and MAXSENDQLENGTH is renamed to DEFAULTMAXSENDQLENGTH in present ircu.<BR>
+----------------------------------<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+Chrootdir <B>c</b><BR>
+Server using Chroot(). Added security if running under root. All files accessed must be in directory defined as DPATH.<BR>
+Standard: Not set.<BR>
+&nbsp;<BR>
+cmdline_config <B>C</b><BR>
+allow config-file to be specified on command line. (when running the server)<BR>
+Standard: Undefined<BR>
+&nbsp;<BR>
+Do_id <B>d</B> [OUTDATED] <BR>
+Maybe a "server using identd" setting. Not used in ircu anymore, but lingers on in the /version code.<BR>
+&nbsp;<BR>
+Debugmode <B>D</b><BR>
+when having problems, the software is recompiled with this one defined. You’r unlikely to get on a server in debugmode.<BR>
+Standard: Not set.<BR>
+&nbsp;<BR>
+Oper_rehash <B>E (y)</b><BR>
+Locop_rehash <B>e (y)</b><BR>
+If locop_rehash are set, locops are allowed to execute the REHASH command. If only Oper_rehash are set, only Opers are allowed to do it. (This command can never be done remotely). E and e could be set both at the same time)<BR>
+&nbsp;<BR>
+OPER_MODE_LCHAN <B>f</B> (y)<BR>
+</FONT><FONT SIZE=2>Allow operators to set modes on local channels (</font><A HREF="#_Ref472441475"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+OPER_NO_CHAN_LIMIT <B>F (y)</b><BR>
+Allow operators to bypass the maximum no. of channels allowed for a client.<BR>
+&nbsp;<BR>
+HUB <B>H</b><BR>
+Set if server is a hub in the network tree<BR>
+<BR>
+Show local invisible <B>i (y)</b><BR>
+Show all invisible <B>I (y)</b><BR>
+If "i" then operators can see invisible users local to the server. If "I" then OPERs can see invisible users on all servers.<BR>
+&nbsp;<BR>
+OPER_KILL <B>K (y)</b><BR>
+Allow operators to KILL (disconnect) users.<BR>
+LOCAL_KILL_ONLY <B>k</b><BR>
+"k" restricts OPERS to KILL users logged in on their own server.<BR>
+Example: <BR>
+With "k" set on sandiego.undernet.org, an OPER on that server is disallowed to kill a nick logged in on chicago.undernet.org. He can only kill users that's using sandiego. On the other hand, the chicago server might have "K" set, allowing their OPERS to kill users anywhere on the net, including sandiego.<BR>
+Some networks (not Undernet) demand "k" to be set for new servers. If you find the unlikely configuration of no K-letter, it means this servers' operators can't KILL anyone, not even on their own server. <BR>
+Since a LOCOP isn't recognized as operator by the other servers, he/she could never do a remote KILL anyway.<BR>
+&nbsp;<BR>
+OPER_WALK_THROUGH_LMODES <B>l</B> (n)<BR>
+let operators walk through modes on local channels<BR>
+</FONT><FONT SIZE=2>Note: in previous versions, l meant "server checks for clones", with a number following, indicating how many connections from the same IP were allowed. see chapter </font><A HREF="#_Ref489303435"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2> and the I-lines (</FONT><A HREF="#_Ref489303487"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+Least_idle <B>L</B> [OUTDATED] (but not removed from /version code)<BR>
+Looks for the least idle person logged in on the server. Used for SUMMON, that can contact people on the same machine as the server. Syntax is "/SUMMON &lt;user&gt; [&lt;server&gt;]" but i assume it’s operator-only and long gone from any net.<BR>
+&nbsp;<BR>
+m4_preproc <B>m </B>[OUTDATED]<BR>
+The server reads its configuration file via another program, instead of reading it directly. <BR>
+Standard: Not set.<BR>
+&nbsp;<BR>
+Idle_from_msg <B>M</b><BR>
+Idle-time is nullified only from privmsg. (/msg and channelchatting) If not set, all but the serverping (PING? PONG!) will reset your idle-time. /notice isn't a privmsg.<BR>
+Standard: Set.<BR>
+</FONT><FONT SIZE=2>Also see "Getting seconds idle" (</font><A HREF="#_Ref439932711"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+NO_OPER_DEOP_LCHAN <B>o (n)</b><BR>
+Prevent operators from beeing kicked or deoped on local channels.<BR>
+&nbsp;<BR>
+USEONE <B>O</b><BR>
+</FONT><FONT SIZE=2>The syntax in the I-lines (</font><A HREF="#_Ref454722994"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) were changed in ircu2.10.05, removing the use of the token "ONE".</font><BR><FONT SIZE=2>
+With USEONE defined, the server admin can keep using "ONE" in the configuration, though it’s not recommended.<BR>
+&nbsp;<BR>
+Npath <B>N</B> [OUTDATED]<BR>
+NPATH is a variable containing the path to a backup file for NOTE, a utility that’s not around anymore.<BR>
+&nbsp;<BR>
+Crypt_oper_password <B>p</b><BR>
+Oper passwords are encrypted<BR>
+Standard: set<BR>
+crypt_link_password <B>P</b><BR>
+Link passwords are encrypted (C-lines)<BR>
+Standard: not set<BR>
+Passwords are encrypted with makpasswd in UNIX (as used in the unix "passwd." file) They are stored in the O and C lines, but won't be visible when you e.g do a "/stats O" <BR>
+&nbsp;<BR>
+DEBUGMALLOC <B>q</B> <BR>
+Server does Memory allocation/deallocation checks. This is a kind of "memory book-keeping".<BR>
+MEMLEAKSTATS <B>Q</B> <BR>
+</FONT><FONT SIZE=2>when both DEBUGMALLOC and MEMLEAKSTATS is set, we’ll get "<B>Q</B>" and "/STATS M" (</font><A HREF="#_Ref489303750"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) will be working.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+RELIABLE_CLOCK <B>R</b><BR>
+The admin sees the machine's clock as reliable and ircu is asuming that's true.<BR>
+&nbsp;<BR>
+Oper_restart <B>S (s)</b><BR>
+Locop_Restart <B>s</b><BR>
+Allow OPERS and/or LOCOPS to restart the server. E.g setting S restricts the command to OPERS. RESTART could never be done remotely. S/s is the same as R/r in older ircu-code. (before 2.10.01)<BR>
+&nbsp;<BR>
+Oper_remote <B>t (y)</b><BR>
+When set, it allows operators to connect to the server and gain operator status without beeing on "the same network" as the machine running the server, which means an operator could log on from a dialup-account on the internet, like any user.<BR>
+&nbsp;<BR>
+IRCII_Kludge <B>u</B> [OUTDATED]<BR>
+Controls whether or not \n is used to terminate lines.<BR>
+&nbsp;<BR>
+Poll() <B>U</B> <BR>
+Server uses Poll(). It depends on the system the server is running on if it's chosen or not.<BR>
+&nbsp;<BR>
+VIRTUAL_HOST <B>v</b><BR>
+Turns on some gear that's used when there are two or more servers on the same machine.<BR>
+Standard: not set<BR>
+&nbsp;<BR>
+Valloc <B>V</B> [OUTDATED]<BR>
+Use the valloc() function, which caused problems on some systems.<BR>
+Standard: Not set.<BR>
+&nbsp;<BR>
+BADCHAN <B>W</B> (y)<BR>
+Without much ado, Undernet has added the capability of banning a channelname in ircu2.10.10. Technically this is done by stopping people from joining it.<BR>
+&nbsp;<BR>
+LOCAL_BADCHAN <B>x</B> (n)<BR>
+If this is set, any OPER can ban a channel. if it isn’t set, only uworld can carry out the ban. (<B>x</B> is not allowed on undernet)<BR>
+&nbsp;<BR>
+Unixport <B>X </B>[OUTDATED]<BR>
+a variable used to setup a Unix domain socket to connect clients/servers to. Like port 6667 I suppose.<BR>
+standard: Set.<BR>
+&nbsp;<BR>
+Use_syslog <B>Y</b><BR>
+Server using syslog(). The server sends "vital" messages about the server through syslog. Things like system errors and events critical to the server beeing logged.<BR>
+Standard: Not set.<BR>
+&nbsp;<BR>
+v28PlusOnly <B>8</B> [OUTDATED]<BR>
+Means the net has only 2.8 or higher server versions.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><FONT FACE="Arial" SIZE=4><A NAME="_Toc407826801"><A NAME="_Toc407901317"><A NAME="_Toc416540320"><A NAME="_Toc416617982"><A NAME="_Ref452212142"><A NAME="_Toc489443290">5 STATS. Query for retrieving various data and statistics</A></A></A></A></A></A> <BR>
+</font></B><FONT SIZE=2>A command that gives you access to large amounts of information is STATS. How is the load on the ports divided? who is banned and why? how many is away? and many other things.<BR>
+Syntax:<BR>
+/STATS [&lt;query&gt; [&lt;server&gt;]]<BR>
+Stats on remote servers are partly disabled, "due to bandwidth saving". You would be using more bandwidth when chatting than when doing theese stats though. It’s more likely to be for fear of flood-attacks on servers (theese stats ought to burn more cpu than chatting) or just disabling it for "a sense of achievement" in bandwidth saving.<BR>
+I refer to "lines". Theese are literally lines in a configuration file on the server. The data are all kept in the same format for programming reasons, so some fields will be blank for some lines.  c, h, i, k, l, m, o, u and y queries are common for all networks, the others are ircu implementations. Case sensitive only when stated. <BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826802"><A NAME="_Toc407901318"><A NAME="_Toc416540321"><A NAME="_Toc416617983"><A NAME="_Toc416540322"><A NAME="_Toc416617984"><A NAME="_Toc489443291"></A></A>5.1&#9;Who's allowed in and how.</A></A></A></A></A> <BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc407826803"><A NAME="_Toc407901319"><A NAME="_Toc416540323"><A NAME="_Toc416617985"><A NAME="_Ref439924827"><A NAME="_Ref489370639"><A NAME="_Toc489443292">5.1.1&#9;k K-line</A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Returns a list of banned usernames and hostnames. (Kill-lines) Usefull for determining why someone can't get in.<BR>
+&nbsp;<BR>
+K:&lt;host/IP mask&gt;:&lt;optional reason&gt;:&lt;username mask&gt;<BR>
+the optional reason can be entered plainly using quotes or, when preceded by a !, bet the path to a textfile that contain the reason.<BR>
+(New in ircu2.10.05. Earlier versions only allow reference to a filename, without!)<BR>
+&nbsp;<BR>
+Examples:<BR>
+</FONT><PRE>K * user 0 -1
+K *.ppp.some.mr "Go away!" ~tagger 0 -1</PRE>
+<FONT SIZE=2>anyone matching "user@*" is banned. (guaranteed fake ID) anyone matching ~tagger@ppp.some.mr is also banned.<BR>
+</FONT><PRE>K *.compuserve.com !klines/us * 0 -1</PRE>
+<FONT SIZE=2>Anyone from compuserve is k-lined, server looking up a file and replying with its contents, say "Please use a us-server".<BR>
+</FONT><PRE>K * "K-lined because of clones" ~victor</PRE>
+<FONT SIZE=2>anyone matching ~victor@* is k-lined.<BR>
+</FONT><FONT SIZE=2>If you happen to find a lowercase "k"-line, it works as other K-lines, except it contains an IP-address that will K-line the user even if his IP happen to resolve to a DNS address. This is part of the protection against "virtual host" misuse, as described in "userhost/userip" (</font><A HREF="#_Ref439947168"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+Stats k has remote capabilities:<BR>
+Syntax: /stats k fullservername mask<BR>
+You have to pass along a mask, and you cannot force all lines "the wildcard way". From ircu2.10.01 you can replace fullservername with a nick. (meaning the nicks server)<BR>
+Notes:  the ~ is added by the server when it wasn't able to verify your address. (Which it does by IDENTD)  Ircu also performs checks on your username outside the k-lines. Mixed case can trigger itthe 0 and -1 at the end are just unused fields.  In addition to all this, there’s some fuzzy features. A server might add G-lines to its K-line list automatically and allowing opers from other servers to set its k-lines. It shouldn’t make much difference though.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826804"><A NAME="_Toc407901320"><A NAME="_Toc416540324"><A NAME="_Toc416617986"><A NAME="_Ref439874353"><A NAME="_Ref439920742"><A NAME="_Ref439950641"><A NAME="_Ref439950654"><A NAME="_Ref457229300"><A NAME="_Ref489383828"><A NAME="_Toc489443293">5.1.2&#9;g G-line</A></A></A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>shows G-lines.<BR>
+They work as K-lines except that they ban for the whole undernet (Global-lines) and they expire automatically after a given period of time. <BR>
+Example:<BR>
+</FONT><PRE>G **@fish.baccalao.com 970523933 [Super] large trout slapping [3]
+G *timmy@grasshoppers.org 970574400 Banned due to clones.</PRE>
+<FONT SIZE=2>The format is simple: Address, number, reason. The number is based on a startingpoint. the "epoch". It's a LONG number that tells the number of secs since 01:00 1. jan 1970 GMT time. if you try /debug in mIRC you will find it used in whois-replies. (signed on.. e.t.c) and also in pinging. For the whois, your program automatically converts the number to your timezone and translates it into readable format. <BR>
+When the date/time specified by number is reached, the G-Line is lifted. A G-line usually lasts for a few hours or a week, but could technically be set to last forever. (Well, over 30 years atleast. :-)<BR>
+How do one translate the LONG number to a normal date/time format? I have gotten this handy alias for mIRC from Rainman:<BR>
+First make this an alias: /unixtime /echo $active $$1 = $asctime($$1) and then you can type say, /unixtime 970574400 and get the output: "970574400 = Tue Oct 03 14:00:00 2000" (Or just type //echo $asctime(970574400) if you can’t make aliases)<BR>
+Also note that the number used will not be the same as the number used for date/time in e.g Excel, because Microsoft chose another startingpoint. (No Microsoft in 1970 :-)<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826805"><A NAME="_Toc407901321"><A NAME="_Toc416540325"><A NAME="_Toc416617987"><A NAME="_Ref440013130"><A NAME="_Ref454722994"><A NAME="_Ref464744429"><A NAME="_Ref489303487"><A NAME="_Toc489443294">5.1.3&#9;i I-line</A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>A list of the hosts that is allowed to connect to the server as a client.<BR>
+&nbsp;<BR>
+I:&lt;IP mask or garbage text to force resolving (e.g NOMASK) &gt;:&lt;digit&gt;:&lt;hostmask&gt;::&lt;class&gt;<BR>
+Example:<BR>
+</FONT><PRE>I *@*.se * *@*.se 0 20
+I *@*.fi * *@*.fi 0 20
+I *@*shoeshop.com 5 *@*shoeshop.com 0 20
+I *@* * Unresolved 0 1
+I *@* * *@* 0 1</PRE>
+<FONT SIZE=2>On the last two lines, you can see that the server will in general allow anyone. Even if the server can't get your DNS address (Unresolved) But In the K-line list, your host or domain might be k-lined because you should use a closer server. (European clients will experience this a lot on us-servers and vice versa.) <BR>
+Take notice of the 2. field from left &lt;digit&gt;. In versions earlier than ircu2.10.05, "ONE" here meant that only one connection were allowed in from the same IP-address, when sorted under this I-line. Now they can put a * to mean unspecified, or a digit, 1 to 9, to limit the number of clients connecting. In the example above, shoeshop.com are allowed to have 5 connections from the same IP-address, where the connections are counted <U>globally</U>. (Its total number connections to the IRC-network) The old "ONE" only looked for clients connected to this very server.<BR>
+Example:<BR>
+Your favourite server has got the following line and you are under the *.de domain: "I *@*.de 2 *@*.de 0 20"<BR>
+If you already had two connections to Undernet, possibly on other servers, this exact server would not let you in. Another server with a different setup, might still let you in.<BR>
+Note:<BR>
+</FONT><FONT SIZE=2>To ease it for lazy server-admins, ;-) one can compile ircu to still accept "ONE" in the I-lines. If so is done, a "O" shows up in the /version reply. (</font><A HREF="#_Ref454724066"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) The 2. last field is empty, hence the 0. For explanation of the last field, refer to the y-query (</FONT><A HREF="#_Ref439947721"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+Q: What if I match more than one I-line?<BR>
+A: If the administrator has put the lines in the right order, you should be matched to the I-line with the most specific mask. ("*.yourprovider.com" is more specific than "*.com")<BR>
+&nbsp;<BR>
+Q: Don't I and K lines "collide" sometimes?<BR>
+A: As a thumbrule, the leftmost, or most specific identification can override the other.  This depends on the admin setting up the lines correctly<BR>
+&nbsp;<BR>
+Example:<BR>
+A European server might K-line the whole *.edu domain, but put *.someuniversity.edu in I-line. Someuniversity will then get in, so the "someuniversity." inclusion is overriding the .edu exclusion.<BR>
+A *!*someperson@someuniversity.edu K-line will in turn override the universities' general I-line. Also the common "*!~user!*@*" K-line will override the common *!*@* I-line, that allows anyone in general in. If a server has the same mask in both an I and a K line, the K override the I.<BR>
+</FONT><FONT SIZE=2>&nbsp;I-lines can be done remotely. Same syntax as for k-lines (</font><A HREF="#_Ref489370639"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826806"><A NAME="_Toc407901322"><A NAME="_Toc416540326"><A NAME="_Toc416617988"><A NAME="_Ref439931641"><A NAME="_Ref439948105"><A NAME="_Ref439948118"><A NAME="_Ref489370764"><A NAME="_Toc489443295">5.1.4&#9;o O-line</A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>This one returns a list of hosts from which normal clients may become operators.<BR>
+Example: <BR>
+</FONT><PRE>o *@*.sol.no * discotom 0 10
+o *@*.sn.no * discotom 0 10
+O *@*.online.no * Mcsyrup 0 10
+O *@*.sol.no * Mcsyrup 0 10</PRE>
+<FONT SIZE=2>Big O in the list means a global op, small o means a local op. Local ops can't act outside the server, and on Undernet they can't use Uworld. Ops can also see invisible people, but the "local ops" can only see those invisible on their own server. Your local "local ops" (locops for short) is shown in the "/who 0 o" command, along with the global operators.<BR>
+The ops listed in the example are put in connectionclass 10.<BR>
+</FONT><FONT SIZE=2>see "Decoding serveroptions in version" (</font><A HREF="#_Ref439947974"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) for more about the Op-status</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826807"><A NAME="_Toc407901323"><A NAME="_Toc416540327"><A NAME="_Toc416617989"><A NAME="_Ref439931269"><A NAME="_Ref439931974"><A NAME="_Ref439947721"><A NAME="_Ref464744457"><A NAME="_Ref489122526"><A NAME="_Toc489443296">5.1.5&#9;y Y-line</A></A></A></A></A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>y shows Y (Class) lines from server's configuration file<BR>
+Theese classes are used to decide how many are allowed to connect from different places on the internet. A european server for example, might allow, say a maximum of 100 us-users, and would therefore put all *.com *.edu *.net and *.org users in a class with a maximum of 100. Another use, is putting the operators in a dedicated class, so that they'r sure to get in, even if the server should be full.<BR>
+&nbsp;<BR>
+The syntax is:<BR>
+Y:&lt;class&gt;:&lt;ping freq&gt;:&lt;connect freq&gt;:&lt;maximum links&gt;:&lt;sendq size&gt;<BR>
+Example <BR>
+</FONT><PRE>Y 0 120 600 10 2000000
+Y 70 200 120 10 4700000
+Y 20 180 0 300 400000
+Y 10 180 0 100 400000
+Y 5 180 0 50 400000
+Y 4 180 0 400 400000
+Y 3 180 0 200 200000
+Y 2 180 0 200 400000
+Y 1 180 0 400 400000</PRE>
+<FONT SIZE=2>In this example, class 1 can take up to 400 users, with a max sendque of 400000. the ping-frequency is allowed to be as high as 180. ping-frequency is how long you can be silent before a ping is sent. If all classes were filled up, this server would have 2370 clients. I choose to call the possible clients in a class "seats". We might guess that class 70 and 0, both with few seats, special ping-frequency and high sendq size, is dedicated to server-server connections.<BR>
+</FONT><FONT SIZE=2>In O-lines (</font><A HREF="#_Ref439948118"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)we read that for this server, class 10 is where the operators are placed.</font><BR><FONT SIZE=2>
+Where the classes are saved:<BR>
+Who goes in which class is defined in the I:lines. here's an example from a norwegian Undernet-server:<BR>
+</FONT><PRE>I *@*.org * *@*.org 0 3
+I *@*.net * *@*.net 0 3
+I *@*.edu * *@*.edu 0 3
+I *@*.com * *@*.com 0 3
+I *@*.se * *@*.se 0 20
+I *@*.fi * *@*.fi 0 20
+I *@*.dk * *@*.dk 0 20</PRE>
+<FONT SIZE=2>[...]<BR>
+All americans are grouped in class 3, while people from the neighbouring countries goes in class 20. According to the y:lines above, the neighbour-countries has 300 "seats" dedicated to them, and us-citizens 200. <BR>
+Further down we see:<BR>
+</FONT><PRE>I NOMATCH * *@*.telepost.no 0 4
+I NOMATCH * *@*.online.no 0 4
+I NOMATCH * *@*.telenor.no 0 4
+I NOMATCH * *@*.sol.no 0 2</PRE>
+<FONT SIZE=2>This means 600 "seats" are reserved for theese hosts. (see y-lines) (NOMATCH forces the address to be resolved. The server dosn't want to be fooled) <U>Coincidentally</U>, theese are hosts belonging to the ISP running the server! ;-)<BR>
+To Determine your class: use /trace yournickname.<BR>
+Example: "User 70 Napoleon[modem15.lePPP.eifelnet.fr] 30" means Nickname Napoleon, belonging to class 70, beeing idle 30 secs.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826808"><A NAME="_Toc407901324"><A NAME="_Toc416540328"><A NAME="_Toc416617990"><A NAME="_Toc489443297">5.2&#9;Server-server connections</A></A></A></A></A> <BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc407826809"><A NAME="_Toc407901325"><A NAME="_Toc416540329"><A NAME="_Toc416617991"><A NAME="_Toc489443298">5.2.1&#9;c</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Returns a list of servers which the server may connect to or allow connections from.<BR>
+Example prior to ircu2.10.10:<BR>
+</FONT><PRE>N *@130.240.16.107 * Lulea-R.SE.Eu.Undernet.org 0 80
+C *@130.240.16.107 * Lulea-R.SE.Eu.Undernet.org 4400 80</PRE>
+<FONT SIZE=2>Example, current ircu:<BR>
+</FONT><PRE>C * * London.UK.Eu.Undernet.org 0 80
+C * * Amsterdam-R.NL.EU.Undernet.org 0 80
+C * * Oslo1.NO.EU.Undernet.org 0 70
+C * * Gothenburg.Se.Eu.Undernet.org 4400 80</PRE>
+<FONT SIZE=2>Earlier servers had two lines "C" to connect TO, and "N" to accept connection FROM.<BR>
+</FONT><FONT SIZE=2>Theese are merged into one today. The IP of the server is also masked, along with the password ofcourse, for security reasons. The two last numbers are unixport and class to connect to. You’ll find the same port in /stats y (</font><A HREF="#_Ref489122526"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) if the port is ommitted (0 as here) the server will not try to connect to that server. That means that the server in this example can accept connections from london, amsterdam, oslo1 and gothenburg,  but will only try to connect to Gothenburg itself. This is part of defining the tree-structure.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826812"><A NAME="_Toc407901328"><A NAME="_Toc416540332"><A NAME="_Toc416617994"><A NAME="_Toc489443299">5.2.2&#9;U (uppercase)</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>showing U:lines. Listing of servers allowed to act as "services". Uworld is running x and w on Undernet<BR>
+Example:<BR>
+</FONT><PRE>U:Uworld.EU.undernet.org:EuWorld,E,protocol,StatServ,NoteServ,Undernet:* U:Uworld2.undernet.org:UWorld2,W,ChanSvr,ChanSaver,ChanServ,COM1,COM2,COM3,COM4:* U:Uworld.undernet.org:Uworld,X,NickSvr,NickSaver,NickServ,LPT1,LPT2,AUX:*</PRE>
+<FONT SIZE=2>As of ircu2.10.05 U-lines accept "nick jupes". In effect, noone but uworld can use the above nicks. <BR>
+This includes W and X, but most of the nicks are "juped" to stop various nasty exploitations by users taking the nicks.<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826813"><A NAME="_Toc407901329"><A NAME="_Toc416540333"><A NAME="_Toc416617995"><A NAME="_Toc489443300">5.3&#9;Statistics-related commands</A></A></A></A></A> <BR>
+</font></i></B><FONT FACE="Arial"><A NAME="_Toc407826814"><A NAME="_Toc407901330"><A NAME="_Toc416540334"><A NAME="_Toc416617996"><A NAME="_Ref439932849"><A NAME="_Toc489443301">5.3.1&#9;m</A></A></A></A></A> (lowercase)</A><BR>
+</FONT><FONT SIZE=2>Gives you a list of commands supported by the server, number of times they've been used, and the bytes consumed by the command.<BR>
+For commands that havn’t been used, type /raw help<BR>
+Example: <BR>
+</FONT><PRE>PRIVMSG 4752355 184344091
+NICK 848063 49075863
+QUIT 580331 17961034</PRE>
+<FONT SIZE=2>[…]<BR>
+&nbsp;<BR>
+Example:<BR>
+Sending a PRIVMSG between servers. Toma2 speaking in #SoupConspiracy. Everything before PRIVMSG is prefix<BR>
+</FONT><PRE>:Toma2!MisterL@ppp54.conspir.gov PRIVMSG #SoupConspiracy :The Soup has arrived</PRE>
+<FONT SIZE=2>For more information about Privmsg, read the IRC RFC, (currently RFC1459) or try out the /debug command in mIRC. <BR>
+Note for the statistic-freaks: <BR>
+It’s hard to guess the average message-lenght as PRIVMSG consists of much more than the actual msg, but combined with the number of users and the t, p and l-query, we <I>might</I> find out how much people talk and if a servers' users tend to talk to each other mostly, or is chatting around "out there", because a long prefix is added while sending outside the server.<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826815"><A NAME="_Toc407901331"><A NAME="_Toc416540335"><A NAME="_Toc416617997"><A NAME="_Toc416540336"><A NAME="_Toc416617998"><A NAME="_Ref439932400"><A NAME="_Toc489443302"></A></A>5.3.2&#9;l</A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Shows a table with server-server connections and some people in the act of logging in. <BR>
+Sample: <BR>
+</FONT><PRE>Connection SendQ SendM SendKBytes RcveM RcveKBytes Open since
+baltimore-r.md.us.undernet.org 121 166840 6592 1043968 49922 000004536
+0 1 0 2 0 000000002
+0 2 0 3 0 000000025
+NickJagger 0 1 0 2 0 000000009</PRE>
+<FONT SIZE=2>The 2nd line is a server-server connection, the 3 last are people logging in. (USER and PONG havn’t been carried out yet)<BR>
+ircu previous to 2.10.08 would also show statistics for the ports on your server: <BR>
+[...]<BR>
+</FONT><PRE>SanDiego.CA.US.Undernet.org[*.6666] 0 7809826 743927 998848 45499 001529427
+SanDiego.CA.US.Undernet.org[*.6667] 0 287381731 24655221 30384980 1297028 001529427</PRE>
+<FONT SIZE=2>[...]<BR>
+</FONT><FONT SIZE=2>The 2. line would be the sum for all ports. You can get much of the same info from /stats p (</font><A HREF="#_Ref488610812"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) On even older ircu, port 6667 wasn’t shown, but you could easily find its values when you subtracted the other ports from the sum.</font><BR><FONT SIZE=2>
+Explanation:<BR>
+Send M/Q: Sent/Qued messages<BR>
+Send/Rcve M: Sent/Received messages<BR>
+Send/Rcve KBytes: Kilobytes sent/received<BR>
+Open since: Number of seconds it has been open. (The other numbers are counted from that time)<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826816"><A NAME="_Toc407901332"><A NAME="_Toc416540337"><A NAME="_Toc416617999"><A NAME="_Ref488610812"><A NAME="_Toc489443303">5.3.3&#9;p</A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Show you the ports this server accepts connections on, and how many is on each. A must when choosing ports :-)<BR>
+Sample:<BR>
+[...]<BR>
+</FONT><PRE>P 6670 8 C active
+P 6669 41 C active
+P 6668 148 C active
+P 6667 354 C active
+P 6666 25 C active
+P 6665 30 C active
+P 6664 23 C active
+P 6663 30 C active
+P 6662 23 C active
+P 6661 9 C active
+P 6660 227 C active
+P 31337 0 C active 
+P 7777 144 C active
+P 7000 113 C active
+P 4000 0 S active
+P 1025 0 C active
+P 10321 0 C active</PRE>
+<FONT SIZE=2>C = open for users.<BR>
+S = open for server-server connections only.<BR>
+This servers MOTD said ports 6660 to 6670 were open for users. In addition, mIRC lists port 6668, 7000 and 7777 as valid ports for this server. 6667 is the standard IRC port. Sure lagging against the server isn’t a big problem usually, but it’s something appealing about the luxury of having a port all by yourself. :-)<BR>
+From ircu2.10.10 there’s an option for hiding a port from this listing, so don’t be suprised if the admin keeps the good ports to himself. Ports can also be reserved to ops by setting password on them. (Port 31337 in this example rings a bell?)<BR>
+stats p can be done remotely:<BR>
+/stats p servername [mask] will return the 3 first matching ports, or 3 first if no mask.<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826817"><A NAME="_Toc407901333"><A NAME="_Toc416540338"><A NAME="_Toc416618000"><A NAME="_Toc489443304">5.3.4&#9;t (lowercase)</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Various statistics about the server.<BR>
+Example:<BR>
+</FONT><PRE>accepts 1622557 refused 1590021
+unknown commands 17031 prefixes 84
+wrong direction 54 empty 660
+Client Server
+connected 28292 4
+bytes sent 2425789.450K 423214.786K
+bytes recv 189255.273K 506019.371K</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826818"><A NAME="_Toc407901334"><A NAME="_Toc416540339"><A NAME="_Toc416618001"><A NAME="_Ref457134199"><A NAME="_Toc489443305">5.3.5&#9;z</A></A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>shows memory usage and count data structures. What it means to us: More statistics! :-D And many of theese are global statistics too. Here you can count how many is set away, number of bans, number of users in whowas-buffer e.t.c. The format is "number(bytes used)"<BR>
+Example:<BR>
+</FONT><PRE>Client Local 284(260144) Remote 14619(2865324)
+Users 14858(1664320) Invites 7(140)
+User channels 31169(623380) Aways 1042(46145)
+Attached confs 285(5700)
+Conflines 598(40307)
+Classes 9(252)
+Channels 9661(2451957) Bans 9990(428434)
+Channel membrs 31169(623380) invite 7(140)
+Whowas users 810(90720) away 11(489)
+Whowas array 1000(80000)
+Hash: client 26669(106676) chan 16001(64004)
+Dbuf blocks 426(867336)
+RES table 4096
+Structs 81920 IP storage 24624 Name storage 55151
+Total: ww 171209 ch 3503911 cl 5465153 co 40307 db 867336
+End of /STATS report</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+Output from /lusers at the same time:<BR>
+</FONT><PRE>There are 7932 users and 6926 invisible on 42 servers
+30 operator(s) online
+9661 channels formed
+I have 274 clients and 1 servers</PRE>
+<FONT SIZE=2>Explanation for the statistics:<BR>
+If you summarize local and remote clients, you get 42 more than the number of users. This is due to the server-server connections beeing counted as clients, but not as users. Conflines and attached confs are configuration lines. the nine classes-lines are the ones retrived with the y-query.<BR>
+away-messages:<BR>
+</FONT><FONT SIZE=2>The example above says 1042 people is marked as away, but note that this is slightly misleading, as away-messages isn't exchanged during a rejoin after a netsplit. (Not up to and counting ver 2.10.10 atleast). So sometimes, to find a persons away-message, you need to direct the whois-query to his server, </font><A HREF="#_Ref439949445"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>. </font><BR><FONT SIZE=2>
+User channels and Channel members: This is about datastructures, or relations between channel and user.<BR>
+An example:<BR>
+You have two users, Nat and Tim. Nat is on channel #a and #b, Tim beeing only on #b. This gives us three user-channel "relations": <BR>
+"Nat on #a", "Nat on #b" and "Tim on #b". You could also say that the number is the sum of occurences of "user X on channel Y".<BR>
+Theese relations are contained in two separate lists, the "User channels" beeing a list of channels the user is on and "Channel members" constituting a list of users the chan has.  Simplified, the lists might be like this:<BR>
+</FONT><PRE>User channels list: Channel Members list:
+NAT #a (Nats' relations) #a NAT (The relations of channel a)
+NAT #b #b TIM (The relations of channel b)
+TIM #b (Tims') #b NAT
+sum: 3 sum: 3</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+The sum should usually be the same for both. The lists are used to "channel" data between the users, hence the name channels.<BR>
+NAT says something in #b, "User channels" verifies she can speak there, the server looks in the "Channel Members" list, sees that TIM is also on #b and channel what NAT said over to TIM.<BR>
+(I suppose that data like "#b is a secret channel, has this and that topic" is kept in a separate list, and not copied for every member of it, and ditto for the +i mode of a nick.)<BR>
+&nbsp;<BR>
+Fun with statistics:<BR>
+We have 14858 users, 9661 channels and 31169 occurences in each list  This tell us that each user is on average on 2.1 channels at the same time (31169/14858 = 2.1) and that each channel has on average 3.2 users. (31169/9661 = 3.2) <BR>
+(Yes, average number of people on a chan and average channels a person is on can be different numbers. Imagine an extreme case of a net with thousand channels, 2 users, and one of them has joined all channels, the other is on none. You get "on average 1 person on each channel" but "on average a person is on 500 channels at the same time")<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826819"><A NAME="_Toc407901335"><A NAME="_Toc416540340"><A NAME="_Toc416618002"><A NAME="_Toc489443306">5.3.6&#9;w</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Access statistics from main served domain.<BR>
+Example:<BR>
+</FONT><PRE>-Oslo-R.NO.EU.Undernet.org- Minute Hour Day Yest. YYest. Userload for:
+-Oslo-R.NO.EU.Undernet.org- 6.00 6.0 7 0 0 sol.no clients
+-Oslo-R.NO.EU.Undernet.org- 565.91 610.3 675 0 0 total clients
+-Oslo-R.NO.EU.Undernet.org- 500.36 534.8 640 0 0 total connections</PRE>
+<FONT SIZE=2>This server is run by the sol company, so they like to keep some statistics about their own users. <BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Ref489303750"><A NAME="_Toc489443307">5.3.7&#9;M (uppercase)</A></A><BR>
+</FONT><FONT SIZE=2>Various memory-leak statistics.<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826820"></a><A NAME="_Toc407901336"></a><A NAME="_Toc416540341"></a><A NAME="_Toc416618003"></a><A NAME="_Toc489443308"></a><BR>
+5.3.8&#9;r and x <BR>
+</FONT><FONT SIZE=2>Two queries available when the server is in DEBUGMODE. r shows rusage reports (resource usage) x shows usage of lists<BR>
+&nbsp;<BR>
+</FONT><FONT FACE="Arial"><A NAME="_Toc407826822"><A NAME="_Toc407901338"><A NAME="_Toc416540343"><A NAME="_Toc416618005"><A NAME="_Toc489443309">5.3.9&#9;u (lowercase)</A></A></A></A></A> <BR>
+</FONT><FONT SIZE=2>Telling you how long the server has been up (since last reboot)<BR>
+Example: <BR>
+</FONT><PRE>Server Up 1 days, 7:09:21
+Highest connection count: 1087 (1085 clients)</PRE>
+<FONT SIZE=2>&nbsp;<BR>
+</FONT><B><FONT FACE="Arial" SIZE=4><A NAME="_Toc407826825"><A NAME="_Toc407901341"><A NAME="_Toc416540346"><A NAME="_Toc416618008"><A NAME="_Toc489443310">6&#9;Discussions</A> </A></A></A></A><BR>
+</FONT><I><FONT FACE="Arial"><A NAME="_Toc407826826"><A NAME="_Toc407901342"><A NAME="_Toc416540347"><A NAME="_Toc416618009"><A NAME="_Ref452378164"><A NAME="_Toc489443311">6.1&#9;A look under the hood</A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>You might want to see what is transmitted between you and the server, to better understand what's going on. mIRC has the command /debug on|off that saves a log in debug.log. In the log you will encounter "numeric replies", those numbers at the beginning of the lines. They are for example used in the /whois replies to identify each line. The common numeric replies are listed in chapter 6<BR>
+</FONT><FONT SIZE=2>in RFC1459, but I'd advice you to instead have a look at this webpage: </font><A HREF="http://www.teleport.com/~jeepster/numeric.html"><I><U><FONT SIZE=2 COLOR="#0000ff">http://ircworks.com/jeepster.htm</font></u></I></A><FONT SIZE=2> which contains a helpfile for numeric replies, also network-specific for Undernet, Dalnet and Efnet and give you good examples on ways to use them in scripts.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826827"><A NAME="_Toc407901343"><A NAME="_Toc416540348"><A NAME="_Toc416618010"><A NAME="_Ref488686708"><A NAME="_Toc489443312">6.2&#9;Siamese message</A></A></A></A></A></A> <BR>
+</font></i></B><FONT SIZE=2>If we take advantage of the underlying machinery, we can send one message to several destinations. Here's an example:<BR>
+"/raw PRIVMSG Sabeltann,Timo,#ruminants :The grass is greener on the other side, lets move!"<BR>
+Or just: "/privmsg nickorchan,nickorchan text". (Works in mIRC) Note that since we're overriding mIRC, the text you send isn't displayed in the channelwindow. You will have to /echo that in yourself with your script. (Could work as a nice "/ignore myself" too, when needed :-)<BR>
+</FONT><FONT SIZE=2>PRIVMSG is also taking care of the /me statements. See </font><A HREF="#_Ref489375252"><U><FONT COLOR="#0000ff">*</font></U></A><BR>
+<FONT SIZE=2>Note: <BR>
+The /raw (or /quote) command is how you bypass aliases and your clients interpretation of commands. Sometimes, you can pass the command directly, like in /map, a command mIRC has no "idea" about what means, while in multiple sending above, we used /PRIVMSG , as /msg is a command in mIRC that it translates according to its own rules, before passing it on as PRIVMSG to the server.<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443313"></a><BR>
+6.3&#9;Privacy and anonymity on IRC<BR>
+</font></i></B><FONT SIZE=2>As a thumbrule you shouldn’t trust irc (or internet for that matter) when it comes to your privacy and anonymity.<BR>
+Some networks can send invisible listeners into any channel, some even record everything you say and do. Never trust a network that dosn’t give out their sourcecode. I wouldn’t trust a network that put restrictions on what you can talk about either.<BR>
+Apart from this, it’s easy to eavesdrop on internet conversations, and irc in particular. You can use DCC chats to bypass the irc-network, but if privacy is really of great importance to you, consider finding another medium than IRC, preferrably one with heavy encryption. <BR>
+As for anonymity, I’d say you are anonymous if people can’t track down your true identity. Your identity could be revealed by your IP address. This is the address of your computer when it’s on Internet, and can be translated into a DNS address which is the same, just with letters. (Say modem50.ppp.village.net) Some nets mask your ID for other users, but on most nets you can see peoples address in the /whois reply. Even if your irc-net masks it, they themselves have access to it, and could possibly hand it out.<BR>
+When someone has gotten your address, they ask your internet provider "who used that address at that time?" and if they comply, your true identity is revealed. If IDENTD is used, your userid at your provider may be shown in a /whois, and a simple finger at your provider may reveal your identity. A DCC event will also reveal your IP-address<BR>
+This is how you’r revealed to ordinary people. It’s a different matt if you’r chased by lawyers, secret service or ECHELON itself. <BR>
+</FONT>
+<FONT SIZE=2 COLOR="#0000ff"><U>http://www.user-com.undernet.org/newsletter/archives/2000/newsletter03-00.html</u></font><FONT SIZE=2> features an article on "bouncers", relay-servers that you can route your IRC chat through, making it appear on IRC like you originate from that server and not your machine. Much like anonymous mail forwarding. On the other hand, bouncers are a golden chance at listening in on IRC conversations. How far can you trust the bouncers; or how far can you throw manhattan?</font><BR><FONT SIZE=2>
+<B>What can the operators see according to current ircu?<BR>
+</B>Operators can not see messages between users, they can not monitor the talking in a channel without joining it and they can not join a channel without beeing seen. 1) <BR>
+</FONT><FONT SIZE=2>Apart from that, you should assume that the operators can join any channel regardless of restrictions, find you regardless of +i mode (</font><A HREF="#_Ref457281761"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>), see the secret channels you are on and who is in there with you. 2)</font><BR>
+<FONT SIZE=2>If you have a special operator in mind, the version-reply (</font><A HREF="#_Ref457282133"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) should give you sufficient information about his powers.</font><BR><FONT SIZE=2>
+But, that’s when we’re all playing by the rules. Perhaps the admin has tweaked ircu? perhaps he is packetsniffing his own machine? Tapping IRC chats are easy, and it isn’t harder with ircu than any other serversoftware.<BR><DIR>
+
+1)&#9; I once were on a net where it was said they had a bot that could join a channel "invisibly", and monitor for indecent words, but I never got it verified. (Anyone out there who’s got more info?)<BR>
+2)&#9; The ability to see inside +s/+p channels were added in ircu, but I guess other nets could have opted for this too.<BR>
+&nbsp;<BR></DIR>
+
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc407826831"><A NAME="_Toc407901347"><A NAME="_Toc416540352"><A NAME="_Toc416618014"><A NAME="_Ref439924487"><A NAME="_Ref489375252"><A NAME="_Toc489443314">6.4&#9;What's a ping?</A></A> </A></A></A></A></A><BR>
+</font></i></B><FONT SIZE=2>A ping comes under what we call CTCP (Client To Client Protocol) commands. <BR>
+Essentially, sending a PING to a nick is an everyday PRIVMSG (msg or channelchat) and the reply sent back is a NOTICE. <BR>
+</FONT><FONT SIZE=2>The time is determined with a LONG-number, (see G-lines(</font><A HREF="#_Ref439950654"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)), so are the IP (see mirc helpfile for translating into ordinary IP-address) and the PRIVMSG/NOTICE line also contain some special characters. The /me command is also a CTCP command. (Called ACTION) The DCC (Direct Client Connection) is initiated via CTCP but has its own life after that.</font><BR><FONT SIZE=2>
+For more information, have a look at www.doco-com.undernet.org, they have both the DCC and CTCP RFC, with good explanations. (Believe me, how CTCP work isn't hard to grasp at all :-) Type "/ctcp nick clientinfo" to see what commands the nick will respond to.<BR>
+Note:<BR>
+Typing "/raw ping garbage" does a serverping. That's the ping that makes those "PING? PONG!" lines in the status-window. It’s not related to the CTCP ping. (There were some fuzz with a client pinging a remote server, I think they fixed it in new ircu, but for older ones...)<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443315">6.5&#9;What’s lag and bandwidth?</A><BR>
+</font></i></B><FONT SIZE=2>Bandwidth is about how much data they (the servers) manage to squeeze in on their lines. If there's much data passing through, its going slow. The result is lag, that it takes a long time before you see what people typed.  The easiest way you can reduce your lag when you'r chatting with someone, is to initiate a DCC chat. The text is then passed directly between you, not through the irc-network. (Also, you won’t be affected by a netsplit) For channels, you may want to use close servers. (</font><A HREF="#_Ref452377474"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) The source of the lag can be traced down using /trace (</FONT><A HREF="#_Ref489375494"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) and a remote whois (</FONT><A HREF="#_Ref489375538"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Ref452375685"><A NAME="_Toc489443316">6.6&#9;Desyncs after a netburst</A></A><BR>
+</font></i></B><FONT SIZE=2>A netburst is the "reconnection" of the network after it has had a split.<BR>
+</FONT><FONT SIZE=2>During the netburst, most information in the network, like who’s on which channel, is synchronized. A timestamp is used to decide between conflicting information. If for instance, two people have the same nick, the one who got it first keep it, the other one is kicked off the net. However, as of P10 (</font><A HREF="#_Ref452376808"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) the away, silence, topic and invite information is <I>not</I> synchronized, to save bandwidth. </font><BR>
+<FONT SIZE=2>Silence (</font><A HREF="#_Ref452374264"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) has its own synch-system, you always receive the away (</FONT><A HREF="#_Ref452375100"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) if you message the person, and common sense tell people to do the invite (</FONT><A HREF="#_Ref452375215"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>) over again. This leaves you to worry only about topic. If the channel happen to use x/w on Undernet, they’ll take care of that too.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443317"><A NAME="_Toc416617976"><A NAME="_Toc416540317"><A NAME="_Toc407901314"><A NAME="_Toc407826798"></A></A></A></A>6.7&#9;Obscure commands</A><BR>
+</font></i></B><FONT SIZE=2>I believe that most commands in this guide can be usefull or interesting to someone out there. The commands below however, is absolutely uninteresting, even to me :-P<BR>
+But, I want this guide to contain every command reachable by the user, so here goes:<BR>
+<B>/raw dns:</b>&#9;Displaying Something about DNS-caching data. (Hurray! it’s gone in ircu2.10.10 :-D)<BR>
+<B>/hash:</B>&#9;I don’t even know! Grrr.. (Drat. The bugger is still around in 2.10.10 :-[ )<BR>
+But ofcourse, you can pretend for your friends it’s something much more interesting. Use your imagination. (Post your ideas to me, I’ll add the best to the guide in the next edition! :-)<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443318">6.8&#9;What’s Uworld and Cservice?</A><BR>
+</font></i></B><FONT SIZE=2>uworld is a service running on undernet. Acting as a server, it can set modes for a channel, and by that helping opers fix channels more easily. It also helps administering g-lines. It has no services for regular users, but if you ping or msg it too hard, you might set off its G-line floodprotection. Cservice is another service running. It’s the one responsible for the X/W channelbots you’ve probably encountered if you frequent Undernet.<BR>
+&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc489443319">6.9&#9;Summary of Undernet anti-flood measures.</A><BR>
+</font></i></B><FONT SIZE=2>A network will want to minimize the number of ways people can harass others on it. A common loophole were to take advantage of net-splits to gain op in channels and cause "nick-collisions", to kick people off the net. This loophole has been eliminated on Undernet with the use of "timestamps", but the other most common way to inflict a DOS (Denial Of Service) or just annoyance, socalled "flooding" prevails. Flooding is to send a lot of unwanted data to something, so that their connection is lost, they channelwindow is filled with garbage or they’r otherwise harassed.<BR>
+&nbsp;<BR>
+I’ve mentioned the floodstoppers throughout the guide, Here’s a summary of how other people and the server is stopped from flooding you:<BR></FONT><DIR><FONT SIZE=2>
+
+</font><FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>Stops flooding in channel by nickchanges </font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>/Who and /names limit how many lines they send back to you</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>A ban of a user already in channel stops his mouth</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>You can talk to only a given number of people at the same time. (userhost/userip and wallchops works around it)</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>ircu command "silence" is better than "ignore" as a floodstopper</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>Clones are limited, and many connections from the same address in a short timespan might G-line you. ("reconnecting too fast, throttled") Connecting 3 times in a row to the undernet within 20 seconds will get your IP throttled for 20 seconds.</font><BR>
+<FONT FACE="Symbol" SIZE=2>·&#9;</font><FONT SIZE=2>Somehow, getting the channellisting always floods me off EFNet, while it works just fine on Undernet.</font><BR></DIR><FONT SIZE=2>
+
+Apart from this, the net takes action against you flooding IT, by restricting remote calls to servers (remote stats, remote motd e.t.c) Undernet channelservice (x/w) also has floodstoppers built in.<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+</FONT><B><FONT FACE="Arial" SIZE=4><A NAME="_Toc407826838"><A NAME="_Toc407901354"><A NAME="_Toc416540359"><A NAME="_Toc416618021"><A NAME="_Ref489213448"><A NAME="_Ref489295251"><A NAME="_Ref489301337"><A NAME="_Ref489303435"><A NAME="_Toc489443320">7&#9;The logon procedure</A></A></A></A></A></A></A></A></A> <BR>
+</font></B><FONT SIZE=2>Connecting and beeing on IRC is nothing but a telnet session. The telnet address being the servername, and the portnumber for example 6667. Here's what to do if you want to try an unpolished tour on IRC:<BR>
+You connect to the address, with the right portnumber, using a telnet client. ("telnet.exe" in windows works fine) Follow theese steps: <BR>
+</FONT><FONT SIZE=2>First you type: </font><FONT FACE="Courier New" SIZE=2>NICK yournickname</font><BR>
+<FONT SIZE=2>Then you'll get a line saying: </font><FONT FACE="Courier New" SIZE=2>PING :somenumber</FONT><FONT SIZE=2> (If you don't get a PING, procede with USER)</font><BR><FONT SIZE=2>
+answear with: PONG samesomenumber, (This checks the lag)<BR>
+</FONT><FONT SIZE=2>following with the user command: </font><FONT FACE="Courier New" SIZE=2>USER name "hostaddress" "someservername" :Yourname</FONT><FONT SIZE=2> (Keep the "s.)</font><BR><FONT SIZE=2>
+After that, various information scrolls up. Ircu has put some extra stuff in here:<BR>
+Reports how the IDENTD check on you are going:<BR>
+</FONT><PRE>-irc.clockworkorange.co.uk- *** Checking Ident
+-irc.clockworkorange.co.uk- *** Found your hostname
+-irc.clockworkorange.co.uk- *** Got ident response</PRE>
+<FONT SIZE=2>If you’r connecting to undernet and using a firewall on your machine, the firewall may alarm you at this moment that someone in pinging your ports. This is undernet checking for malconfigured Wingate and Proxy servers (see http://help.undernet.org/proxyscan/)<BR>
+Then we get the welcome message that nobody sees because the motd scrolls up:<BR>
+</FONT><PRE>Welcome to the Internet Relay Network Alex
+Your host is irc.clockworkorange.co.uk, running version u2.10.10.09
+This server was created Fri Jun 23 2000 at 13:28:57 MET DST
+irc.clockworkorange.co.uk u2.10.10.09 dioswkg biklmnopstv </PRE>
+<FONT SIZE=2>After this warm welcome, some pearls for clients:<BR>
+</FONT><PRE>SILENCE=15 WHOX WALLCHOPS USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=30 NICKLEN=9 TOPICLEN=160 KICKLEN=160 MAP are supported by this server</PRE>
+<FONT SIZE=2>Theese ISUPPORT messages are an attempt at telling the client (mIRC, Pirch e.t.c) more about the server they connect to, so that they can switch on or off features depending on the net they’r on, instead of beeing bound to the archaic IRC-protocol</font><FONT SIZE=1>.</FONT><BR>
+<FONT SIZE=2>This would give the developers more freedom to develop IRC, but currently no client supports it. (Are you with us K. Mardam B? ;-)</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+Then follows the output of /lusers followed by the server bragging about its record connection count before we move on to the MOTD and after its words of wisdom we’re almost done:<BR>
+</FONT><PRE>-&#9;irc.clockworkorange.co.uk- on 1 ca 1(2) ft 10(10) tr</PRE>
+<FONT SIZE=2>where:<BR>
+on = Number of globally connected clients (including yourself) from that IP-number<BR>
+ca = (local) Connect Attempts, after 2 sequential connects you get throttled.<BR>
+ft = Free Targets<BR>
+tr = Targets Restored (Your targets are kept for 2 minutes or until someone else from your IP logs on)<BR>
+</FONT><FONT SIZE=2>The example tells you that there’s one connected client from your IP number on the net, this is your first connect-attempt in a while, you have 10 free targets and no targets restored. (also see </font><A HREF="#_Ref489218820"><U><FONT COLOR="#0000ff">*</font></U></A><FONT SIZE=2>)</font><BR>
+<PRE>Local host: dialup-1984.ppp.bb.gov (192.117.116.115)</PRE>
+<FONT SIZE=2>Informing you what the server believe to be your IP and matching DNS address<BR>
+&nbsp;<BR>
+Example:<BR>
+</FONT><PRE>NICK LouiseL
+PING :209491250
+PONG 209491250 (You type this.)
+USER llane "ppp-21.metropolisnet.com" "irc.server.org" :Louise Lane</PRE>
+<FONT SIZE=2>What you specify in "someservername" dosn't seem to be crucuial, probably just a leftover from archaic IRC. <BR>
+When you want to get out, type QUIT. (A nice way to learn the commands needed to chat, is using /debug [on/off] in mIRC.)<BR>
+Note: <BR>
+You get no text displayed the moment you connect and the server does not echo the commands, so you will have to turn on local echo in your telnetclient. If mIRC, and not your ISP handles IDENTD requests, it might be necessary to have mIRC running at the same time. (IDENTD is used to verify your username) For more information about identd, see the IDENTD RFC. (RFC1413) or check the undernet homepage.<BR>
+&nbsp;<BR>
+&nbsp;<BR></FONT><DIR><FONT SIZE=2>
+
+</font><B><FONT FACE="Arial" SIZE=4><A NAME="_Toc407826839"><A NAME="_Toc407901355"><A NAME="_Toc416540360"><A NAME="_Toc416618022"><A NAME="_Toc489443321">8&#9;Other resources</A> </A></A></A></A><BR>
+</font></B><FONT SIZE=2>&nbsp;<BR>
+</FONT><B><I><FONT FACE="Arial"><A NAME="_Toc416540363"><A NAME="_Toc416618025"><A NAME="_Toc489443322">8.1&#9;Undernet Channels</A></A></A> <BR></font></i></b></DIR>
+
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 CELLPADDING=4 WIDTH=832>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#class</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>Holding classes to teach about IRC. (how to defend against flood, basics of IRC, e.t.c) Several teachers are available for questions during the class. When there's no class, there's a bot there with various helpfull textfiles.</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#opschool</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>School for operators using X/W.</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#cservice</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>Helping you with X/W and other cservice-related subjects.</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#ICMP</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>Teaching you how to avoid flood and other Denial Of Service attacks. E.g getting nuked.</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#ZT</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>"Zero Tolerance." Helpchan for those suffering from channel-takeovers.</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#backorifice<BR>
+#dmsetup</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>Good channels for help with irc viruses</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#help<BR>
+#irc_info<BR>
+#irchelp<BR>
+#irc-help #helpdesk<BR>
+#userhelp</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>plain helpchannels.<BR>
+#help is good at redirecting you if you’r lost in the help-jungle.</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#mirc<BR>
+#pirch</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>mIRC and pirch issues.</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#mircscripts<BR>
+#mirc-scripts</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>Help with making your own scripts in mIRC</FONT></TD>
+</TR>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<FONT SIZE=2>#aide</FONT></TD>
+<TD WIDTH="81%" VALIGN="TOP">
+<FONT SIZE=2>plain helpchannel, in french</FONT></TD>
+</TR>
+</TABLE>
+</CENTER><BR>
+
+<P ALIGN="CENTER"><FONT SIZE=2 COLOR="#ff0000">&nbsp;<BR>
+</font><B><I><FONT FACE="Arial"><A NAME="_Toc416540364"><A NAME="_Toc416618026"><A NAME="_Ref452375408"><A NAME="_Toc489443323">8.2&#9;Web </A></A></A>resources</A><BR>
+</font></i></B>
+<FONT SIZE=2 COLOR="#0000ff">"<A HREF="http://www.undernet.org">www.undernet.org</A></font><FONT SIZE=2>" is the startingpoint for getting to the Undernet resources, among them "</FONT><FONT SIZE=2 COLOR="#0000ff"> <A HREF="http://www.user-com.undernet.org/">http://www.user-com.undernet.org/</A></font><FONT SIZE=2>" Its "documents project" has all kinds of documentation. The CTCP and DCC RFC, the old IRC RFC (RFC1459) an IRC FAQ (old) and guides for the operator and X/W commands, which I havn't covered. Also Beginner-help, newsletters, e.t.c Definitely worth a visit.</font><BR>
+<FONT SIZE=2>"</font><FONT SIZE=2 COLOR="#0000ff"><A HREF="ftp://ftp.undernet.org/pub/irc">ftp.undernet.org/pub/irc</A></font><FONT SIZE=2>" has, among other things, irc-clients for all kinds of platforms. Get your atari client now!  If you want to dig deep in ircu, visit </FONT><FONT SIZE=2 COLOR="#0000ff"><A HREF="http://www.coder-com.undernet.org">www.coder-com.undernet.org</A></font><FONT SIZE=2>, the home of the ircu serversoftware.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT SIZE=2>"</font><FONT SIZE=2 COLOR="#0000ff"><A HREF="http://www.irchelp.org'">www.irchelp.org</A></font><FONT SIZE=2>" Another source for FAQs, help, e.t.c Its advantage is presenting the IRC as a whole, As it cover the 4 main nets in the texts, (Dalnet, Undernet, Efnet and Ircnet) you get a better sight of IRC as a whole, than when just beeing on undernets pages.</font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT><FONT SIZE=2>Note: <BR>
+When browsing the websites above, you'll run into outdated information now and then. undernet.org is probably the most updated, but check both sites. If some of the guides are confusing, it might be because they were written  for IRCII users. (The origianl unix client). "</font><FONT SIZE=2 COLOR="#0000ff"><A HREF="http://www.efnet.org">www.efnet.org</A></font><FONT SIZE=2>", "</FONT><FONT SIZE=2 COLOR="#0000ff"><A HREF="http://www.dal.net">www.dal.net</A></font><FONT SIZE=2>" and "</FONT><FONT SIZE=2 COLOR="#0000ff"><A HREF="http://www.irc.net">www.irc.net</A></font><FONT SIZE=2>" are the respective sites for the three other major nets. </font><BR><FONT SIZE=2>
+&nbsp;<BR>
+</FONT>
+<FONT SIZE=2 COLOR="#0000ff">&nbsp;<A HREF="http://serverwatch.internet.com/ircservers.html">http://serverwatch.internet.com/ircservers.html</A></font><FONT SIZE=2> Reviews of irc serversoftware. There’s even two you can run yourself in windows!  (wircsrv and ircplus) Imagine making your own little net. :-)</font><BR>
+<FONT SIZE=2 COLOR="#0000ff"><A HREF="http://ircworks.com/jeepster.htm">http://ircworks.com/jeepster.htm</A></font><FONT SIZE=2> is a great resource for those interested in taking advantage of numbers in the numeric replies. They'r listed and explained, and there's instructions about how to make the numbers do lots of usefull things in your scripts. </font><BR>
+<FONT SIZE=2>"</font><FONT SIZE=2 COLOR="#0000ff"><A HREF="http://www.user-com.undernet.org/documents/quitmsg.html">http://www.user-com.undernet.org/documents/quitmsg.html</A></font><FONT SIZE=2>" A short and good FAQ about the meaning of all kinds of quitmessages.</font><BR>
+<FONT SIZE=2 COLOR="#0000ff"><A HREF="http://www.iagora.com/%7Eespel/ircd/index.html">http://www.iagora.com/~espel/ircd/index.html</A></font><FONT SIZE=2> the protocol changes since 1995, for EFnet-type IRC servers</font><BR>
+
+<HR>
+<CENTER>
+<!-- navigation bar -->
+<IMG SRC="/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
+	ALT="-navigational bar-">
+<BR><SMALL>
+[ <A HREF="/">go back</A>
+| <a href="/irchelp/search_engine.cgi">search</A>
+| <A HREF="/irchelp/help.html">help</A>
+| <A HREF="/irchelp/mail.cgi">send email</A> ]
+</SMALL>
+<P>
+</CENTER>
+
+<CENTER><SMALL>
+<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
+</SMALL></CENTER>
+
+</BODY>
+</HTML>

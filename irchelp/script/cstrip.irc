@@ -1,0 +1,51 @@
+# cstrip.irc
+# 13 December 1996
+# Chad Fawcett (aka Entropi) 
+# <entropi@virginia.edu>
+# ---------------------------
+# Function $cstrip() to strip mIRC 4.7+ Color codes from text.
+# Just insert it into your existing scripts..
+# ie: on ^public * ECHO <$0> $cstrip($2-)
+# ---------------------------
+# tested on: ircII 2.2.9, ircII 2.8.2-EPIC3.001
+
+ALIAS CSTRIP {
+  ^assign c.s $0-
+  while ([$index( $c.s)] != [-1]) {
+	 ^assign c.w $index( $c.s)
+	 ^assign c.w2 ${[$c.w]+1}
+	 if ([$index(0123456789 $mid($c.w2 1 $c.s))] == [-1])
+		{^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 1} $c.s) }
+		{^assign c.w2 ${[$c.w] + 2}
+		 if ([$index(0123456789 $mid($c.w2 1 $c.s))] == [-1])
+			{if ([,] != [$mid($c.w2 1 $c.s)])
+				{^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 2} $c.s) }
+				{^assign c.w2 ${[$c.w] +3}
+				 if ([$index(01234567789 $mid($c.w2 1 $c.s))] == [-1])
+					{^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 2} $c.s) }
+					{^assign c.w2 ${[$c.w] +4}
+					 if ([$index(0123456789 $mid($c.w2 1 $c.s))] == [-1])
+					 {^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 4} $c.s) }
+					 {^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 5} $c.s) }
+					}
+				}
+			}
+			{^assign c.w2 ${[$c.w] + 3}
+			 if ([,] != [$mid($c.w2 1 $c.s)])
+				{^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 3} $c.s) }
+				{^assign c.w2 ${[$c.w] +4}
+				 if ([$index(01234567789 $mid($c.w2 1 $c.s))] == [-1])
+					{^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 3} $c.s) }
+					{^assign c.w2 ${[$c.w] +5}
+					 if ([$index(0123456789 $mid($c.w2 1 $c.s))] == [-1])
+					 {^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 5} $c.s) }
+					 {^assign c.s $left($c.w $c.s)$right(${[$@c.s] - [$c.w] + 6} $c.s) }
+					}
+				}
+			}
+		}
+
+  }
+  ^assign FUNCTION_RETURN $c.s
+}
+

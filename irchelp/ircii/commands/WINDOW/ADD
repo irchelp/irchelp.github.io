@@ -1,0 +1,8 @@
+Usage: WINDOW ADD [^]<n>  
+  Adds <n> to window namelist, where <n> is either a nick or channel 
+  name.  All communication with <n> will go to that window.  Also, <n>
+  may be a comma separated list (no spaces).  If <n> is prefixed with
+  a ^, the nick is removed
+
+See Also:
+  WINDOW REMOVE

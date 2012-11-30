@@ -1,0 +1,10 @@
+AUTOMATICALLY UPDATED EFNET SERVER LIST
+
+This list comes from a recent /links command. To use any of these servers,
+just type something like this in any input area where you normally chat:
+	/server irc.whatever.com
+
+If you seem to have a lot of trouble connecting to many of these servers,
+you should see our help file for connection problems at:
+	http://www.irchelp.org/irchelp/networks/connectprob.html
+

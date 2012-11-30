@@ -1,0 +1,4 @@
+Usage: BIND <key> TOGGLE_INSERT_MODE
+  Toggles the INSERT_MODE variable.  This function is equivalent
+  to doing:  
+    SET INSERT_MODE TOGGLE

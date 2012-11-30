@@ -1,0 +1,7 @@
+Usage: WINDOW UNBIND <c>  
+  This command removes the binding to channel <c>.  If the channel
+  is not given, then the channel bound to the current window is
+  unbound.
+
+See Also:
+  WINDOW BIND, WINDOW CHANNEL

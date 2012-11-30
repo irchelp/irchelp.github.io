@@ -1,0 +1,3 @@
+Usage: BIND <key> REFRESH_SCREEN
+  Amazingly, this refreshes the input line, in case some other nasty
+  program has munged it up.

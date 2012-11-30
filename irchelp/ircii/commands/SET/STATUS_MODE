@@ -1,0 +1,6 @@
+Usage: SET STATUS_MODE <text displayed for channel mode>
+  The value of STATUS_MODE is replaced in the STATUS_FORMAT
+  variable for an occurence of %+ if the window's current
+  channel has any of the mode settings active.  The STATUS_MODE
+  variable may contain one occurence of %+ which will be
+  replaced with the current channel mode (if applicable).

@@ -1,0 +1,3 @@
+Usage: SET USER_WALLOPS [ON|OFF|TOGGLE]
+  This variable filters incoming user wallops out,
+  if you set it to OFF.

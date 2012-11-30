@@ -1,0 +1,3 @@
+Usage: NOTE COUNT [&<passwd>] [+|-flags] [#<ID>] <nick!username@host>
+  Displays the number of messages sent from your nick and username. See
+  HELP LS for more info. See HELP FLAG for more info about flag setting.

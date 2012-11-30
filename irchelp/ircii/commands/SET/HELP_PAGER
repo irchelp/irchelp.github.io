@@ -1,0 +1,11 @@
+Usage: SET HELP_PAGER [ON|OFF|TOGGLE]
+  When set to OFF, the HELP function will not use it's built
+  in paging mechanism but will use the normal window paging
+  (hold mode).  If ON, then help uses it's own pager.
+  Note: Note that if you have to use the help from a help service
+  such as Help_US or help_AU then the setting of the HELP_PAGER 
+  variable is irrelevant.  Use HOLD_MODE on instead to slow down 
+  the output.
+
+See Also:
+  SET HOLD_MODE

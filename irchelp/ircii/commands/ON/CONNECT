@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]CONNECT [-|^]<server> <port> [action]
+  This is activated whenever you receive a connect to a server.
+  The parameters for the action are as follows:
+    $0    The name of the server you connected to.
+    $1    The port number you connected to.

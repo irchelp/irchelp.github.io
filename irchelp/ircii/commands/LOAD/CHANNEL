@@ -1,0 +1,4 @@
+Usage: LOAD channel
+  Makes the /channel command act differently from /join.
+    CHANNEL <new channel>
+  will now leave the current channel before joining a new one.

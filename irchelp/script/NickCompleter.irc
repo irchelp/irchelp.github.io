@@ -1,0 +1,156 @@
+### Nick Completer by DC-itsme (carabalo@hilbert.geom.umn.edu)
+### version 0.70 ALPHA (preliminary test version)
+
+### This script claims ^n and ^t .
+## modified by Jolo to ^k and ^t
+
+### This is a fairly simple script to run.  Start typing the nick of someone
+### on the channel to which you are currently speaking.  Then press Ctrl-n.
+### This script fills in a nick for you.  If choices are given (i.e., if
+### several nicks match the search string -- whatever you typed after the
+### last space preceding your pressing Ctrl-n), press Ctrl-t to switch among
+### these.  Typing a 2 or 3 letter search string will make using Ctrl-t
+### unnecessary in most cases.
+
+### KNOWN BUG:  This script will not work properly if the search string
+### ends in a \.  This has already been fixed in version 0.80, which is not
+### yet ready for release however.  This bug is easily avoided.  e.g., if 
+### \\bot_jerk is on the channel, you can type \\b and then press Ctrl-n .  
+### Simply do not press Ctrl-n right after typing a \.
+
+### To cycle through all of the nicks on the channel, simply press Ctrl-n
+### at the beginning of the input line, or after a space -- pressing Ctrl-t
+### then moves you from nick to nick.
+
+### FEATURES/LIMITATIONS
+### Even though this version is unfinished, it is by far the best Nick
+### Completion script I have written.
+
+### 1) Like my earlier versions (such as NiComplete.irc, and earlier versions
+###    of this very script), many odd characters (like {,},|,-, _, ^, and \) 
+###    can be handled (\ can be anywhere in the nick, but it should NOT be at 
+###    the end of the search string -- see KNOWN BUG above).
+
+### 2) This script can be activated from anywhere on the input line.
+
+### 3) If multiple nicks match the search string, all such nicks are shown,
+###    and you can switch among them by pressing Ctrl-t, as noted above.
+###    WARNING:  Do not press Ctrl-t until this script displays the list of
+###              possibilities.
+
+### 4) This script should be reasonably portable, but it has only been tested
+###    on my ircii 2.8.2 client.  It should be compatible with other scripts,
+###    for the most part, the most obvious possible conflict being the binding
+###    of ^n and ^t by this script.
+
+### NOTES ON CODING
+### 1) Handling of odd characters was accomplished by using $^\^^variable
+###    when appropriate, and by judicious use of  command [$variable] in place
+###    of  eval command $variable .  eval can really mess things up in a 
+###    script like this.
+###
+### 2) Because delete_previous_word does not function properly in ircii (e.g.,
+###    it counts a-b-c-d as four words), I needed some other way to get the
+###    search string.  Cutting the whole line saves it to $U .  At that point,
+###    I wanted to make use of the $~ variable, which stores the last word in
+###    the current buffer.  In order to put $U in the right place, I made it
+###    a parameter of the get_search routine.
+
+### DISCLAIMER:  This program is being tested on a clean installation of
+### ircii 2.8.2, not running other scripts.  I do not know how it will work
+### on other clients.  There may be bugs, as this is a test version (see
+### KNOWN BUG above).
+
+### Please direct all comments to the author.
+### Copyright (c) by David G. Caraballo, July 1996
+
+//^bind ^k parse_command complete_the_nick
+//^bind ^t parse_command change_nicks
+
+//alias becho echo $0-
+
+becho Nick Completer 0.70 ALPHA
+#becho Nick Completer 0.70 ALPHA TEST (by DC-itsme!carabalo@hilbert.geom.umn.edu)
+#becho USAGE:  Start typing the nick, and then press Ctrl-n.
+#becho         If several choices appear, press Ctrl-t to switch among them.
+#becho For more details, read the discussion in the script.
+
+
+### deletes $0 chars from the end of the input line
+//alias delchars {
+      @ delchars_ctr = 0
+      //while ([$delchars_ctr]<[$0]) {
+         //parsekey backspace;@ delchars_ctr = delchars_ctr + 1 }
+      //^assign -delchars_ctr
+}
+
+
+//alias get_search {
+      //^assign nic.search.temp [$~]
+      @ nic.search.len = [$@nic.search.temp] - 2
+      @ nic.search = [$mid(1 $nic.search.len [$~])]
+      //^assign -nic.search.temp
+}
+
+
+//alias complete_the_nick {
+   //parsekey erase_line;//parsekey yank_from_cutbuffer
+
+   @ nic.toggle=0
+   //^assign -thenick;//^assign -nic.list
+   //^assign -nic.search;//^assign -nic.search.len
+
+### Get search string.
+   if ([$right(1 $U)]== [ ]) {
+      @ nic.search = [$right(0 [])]
+      }{
+      get_search $U
+   }
+
+### Now print the first match and THEN create a list of all nicks in $C
+### starting with nic.search .
+    ^assign -nic.chanusers
+    @ nic.chanusers = [$chanusers($C)]
+
+### The next line won't work right without the ^\^^ in front of nic.chanusers.
+   @ nic.search2 = [${nic.search##[*]}]
+   @ listnum = [$match($^\^^nic.search2 $^\^^nic.chanusers)]
+   @ thenick = [$word(${listnum - 1} $nic.chanusers)]
+   @ nic.ctr1 = [$listnum] 
+   //^assign -listnum;//^assign -nic.search2
+   delchars $nic.search.len
+   //type $^\^^thenick
+   @ nic.toggle = 1;@nic.ctr2 = 0
+   @ nic.list = [$thenick]
+   //while ([$nic.ctr1] <= [$#nic.chanusers]) {
+      if (  match($^\^^nic.search* $word($nic.ctr1 $^\^^nic.chanusers)) > 0 ) {
+         @ nic.list = [$nic.list $word($nic.ctr1 $nic.chanusers)]
+      }{}
+      @ nic.ctr1 = nic.ctr1 + 1
+   }
+   if ([$#nic.list] > 1) {
+      becho Press Ctrl-t to switch among the nicks in []'s:  [$nic.list]
+      }{
+      if ([$#nic.list] < 1) {
+         eval becho *** Nick Completer did not find a nick beginning with '$^\^^nic.search' on channel ${ C }.
+         }{}
+   }
+}
+
+
+//alias change_nicks {
+   if (nic.toggle) {
+      if (nic.ctr2 < [$#nic.list] - 1) {
+         @ nic.ctr2 = nic.ctr2 + 1
+      }{ @ nic.ctr2 = 0}
+      delchars $@thenick
+      @ thenick = [$word($nic.ctr2 $nic.list)]
+      //type $^\^^{ thenick }
+      //^assign -nic.chanusers
+   }{}
+}
+
+### CREDITS
+### Written by DC-itsme!carabalo@hilbert.geom.umn.edu
+### Thanks to kylania!kylania@radiks.net and MHz!girard@obelix.seas.upenn.edu
+### for testing!

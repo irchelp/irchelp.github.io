@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]WINDOW_KILL [-|^]<parameters> [action]
+  Whenever a window is killed (checked out by parameter * or number
+  for the window (see HELP WINDOW)), action is done.
+  The parameters are:
+    $0    Refnum or name of the window

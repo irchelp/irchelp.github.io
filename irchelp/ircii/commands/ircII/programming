@@ -1,0 +1,90 @@
+This is about programming in ircII, because ircII is not a client program,
+it's an operating system.. :)  And the language is just as simple as SMAIL
+(that is: it is horrendous) but if you want to get into it, here's a little
+note for you:
+
+The command character (usually '/') is only necessary when you type commands
+interactively, when you program things it is no more needed, it used to be
+though. If you want to type to the channel from within an alias, on or
+binding, you have to use SAY or SEND.  There is a case where you 
+do need to use '/' and that is when you want to make absolutely sure you
+send the REAL command instead of an alias.  
+Here is a useful example:
+alias mode {
+	if (([$[1]0] == [#]) || ([$0] == [*]) || ([$0] == N))
+		{ //mode $* }
+		{ //mode $C $* }
+}
+
+If the first arg is not a channel name or your nickname then the mode is 
+assumed to be to your current channel.. e.g. mode +i mode +ps etc..
+'//' is used to send a real MODE instead of the alias. This sort of thing
+is common.
+
+The ';' has a special meaning in aliases, bindings and ons: It is treated
+as command separator, that means you can execute multiple commands in
+a row separated by semicolons. The semicolons are not considered separators
+when you use them interactively (to be able to type  ;-)) and within an
+ircII script file.
+
+You can escape the meaning of ; in an alias with \;.  Try the following.
+alias testhook {
+	on hook * echo A hook has occured: $*;echo What are you going to do?
+}
+Then type /testhook followed by /hook blah blah blah
+and notice that the message "What are you going to do?" appeared when you
+typed the alias instead of when you activated the HOOK.  To avoid this
+problem, use the property mentioned above.
+alias testhook {
+	on hook * echo A hook has occured: $*\;echo What are you going to do?
+}
+Note that the \ take the special meaning away from the ; until the ON
+had been stored.  At which point it is parsed normally.
+See: USERHOST for some other notes about using \.
+
+There are now several new forms for aliases and such.  The most common form 
+is to enclose multiple commands from an ALIAS, IF, FOREACH, or WHILE statement
+inside { }.  This also allows one command to be imbedded within another.
+(See IF, for an example of an imbedded IF statement).
+
+For a full working example of imbedded FOREACH loops, see the FOREACH
+help.  For a prime example of this in action, take a look at the 'netsplit'
+script.
+
+Many things have changed and continue to change.  Usually, the best way to 
+get some idea of how things work with any given release is to go take a 
+look at the files in the 'script' directory.  You can see where this is
+by looking at the contents of the LOAD_PATH variable or using the WHICH
+command. (ie. WHICH netsplit)   will show you where the netsplit script
+is located on your machine.  Use the help alot.  What you want to know is 
+in there and many people get tired of answering the same easy questions.
+
+A couple notes about creating scripts.  It's best if you use a 
+consistent and useful naming scheme for the variables used within your
+scripts.  For example, if you have a script called 'blue' that
+has a bunch of internal variables and aliases then you might make
+those variables and aliases have names like.
+blue.tmp
+blue.cnt 
+or  bl.cnt  etc..  This does two things.  
+1.  It lessens the chance that your variable names will collide with 
+    someone elses
+2.  you can type  'assign blue.'   and see every variable associate
+    with that script and it's current value.  or 
+    'alias blue.' and see all the aliases.
+
+When using ON's, if you have some ON that simple observes an action
+taking place and acts upon it, but does not try to suppress or change
+the output, then please use serial numbered ONs so that your ONs
+don't collide with those in other scripts.  See: HELP ON serial_numbers
+
+Have fun.
+
+See Also:
+  USERHOST
+  WHILE
+  ALIAS
+  IF
+  ON
+  ON serial_numbers
+  expressions

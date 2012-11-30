@@ -1,0 +1,4 @@
+Usage: SET STATUS_AWAY <Status line text when in away>
+  The contents of STATUS_AWAY are replaced in the STATUS_FORMAT
+  variable for any occurrence of %A while you are away.  If you
+  are not away, %A is replaced by nothing.

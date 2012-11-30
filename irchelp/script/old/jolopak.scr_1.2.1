@@ -1,0 +1,1763 @@
+##             +=======================================================+
+##             |                  JoloPak ircII script                 |
+##             |             Joseph Lo (Joseph.Lo@Duke.edu)            |
+##             |  http://www.irchelp.org/irchelp/script/jolopak.html   |
+##             |      ftp://ftp.irchelp.org/pub/irchelp/script/        |
+##             +=======================================================+
+##  Don't change the next few lines, it just makes it more confusing if
+##  I try to help you debug problems and can't even tell what version you have.
+assign jp_version 1.2.1
+assign jp_date (9/28/98)
+
+alias version {
+	//version $0-
+	echo *** Running JoloPak $jp_version $jp_date
+}
+
+## INTRODUCTION:
+##   JoloPak is a convenience script based on Barron's SuperPak,
+##   a long (4500 lines!) non-war script pack. I trimmed away 3/4 of the
+##   lard and added many new features courtesy of fellow #IRChelp ops.
+##   JoloPak comes with a lot of built-in help (type /jhelp) but otherwise
+##   we regret that we can't provide script help on #IRChelp.
+
+## INSTALLATION:
+## Don't change anything in this jolopak.scr file! Instead customize
+## a ".ircrc" setup file which ircII runs first by default. Then you can
+## upgrade to newer JoloPaks in the future without having to redo all your
+## customizations. You can get a sample ".ircrc" file from:
+##    http://www.irchelp.org/irchelp/script/ircrc_for_jolopak.txt    or
+##    ftp://ftp.irchelp.org/pub/irchelp/script/ircrc_for_jolopak.txt
+
+## These 3 should be assigned using .ircrc as explained above, these are
+## dummy defaults just in case you're the type who doesn't RTFM. :)
+if (![$myhome] ) { assign myhome . }
+if (![$myuserinfo]) { assign myuserinfo I didn't bother to RTFM }
+if (![$myversion]) { assign myversion ircII generic }
+
+#*#*#*##*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+#*             A L I A S E S              *#
+#*#*#*##*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+
+ALIAS F //CTCP $0 FINGER
+ALIAS H+ SET HOLD_MODE ON
+ALIAS H- SET HOLD_MODE OFF
+ALIAS I+ SET INPUT_ALIASES ON
+ALIAS I- SET INPUT_ALIASES OFF
+ALIAS IDLE {//WHOIS $0 $0}
+ALIAS J //JOIN $0
+ALIAS M //msg $0-
+ALIAS N if ([$0]) {//names $0-} {//names $C}
+ALIAS P //CTCP $0 PING $time()
+ALIAS PART if ([$0]) {//part $0-} {//part $C}
+ALIAS RELOAD LOAD .ircrc
+ALIAS T if (index(#*& $[1]0) > -1) { ${K}${K}topic $*} { ${K}${K}topic $C $*}
+ALIAS TD if ([$0] != []) {echo *** Deleting timer $0.;//timer -del $0} {//timer}
+ALIAS V //CTCP $0 VERSION
+ALIAS W //WHOIS $0
+ALIAS WHO if ([$0]) {//who $0-} {//topic $C;//who $C}
+ALIAS WHOWAS //WHOWAS $0 3
+
+##-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+## These settings affect how ircII behaves, be sure before changing anything.
+##-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+##    Most of these are the same as ircII's default settings, but I list them
+##    so you can learn more about them, such as: /help set always_split_biggest
+
+SET ALWAYS_SPLIT_BIGGEST ON
+SET AUTO_WHOWAS ON
+SET BEEP ON
+SET BEEP_MAX 2
+SET BEEP_ON_MSG MSG
+SET BEEP_WHEN_AWAY 1
+SET BOLD_VIDEO ON
+SET CHANNEL_NAME_WIDTH 0
+SET CLOCK OFF
+SET CLOCK_24HOUR ON
+SET CLOCK_ALARM OFF
+SET CMDCHARS /
+SET COMMAND_MODE OFF
+SET CONTINUED_LINE    
+SET DCC_BLOCK_SIZE 2048
+SET DEBUG 0
+SET DISPLAY OFF
+SET DISPLAY_ANSI OFF
+SET EIGHT_BIT_CHARACTERS ON
+SET EXEC_PROTECTION ON
+SET FLOOD_AFTER 5
+SET FLOOD_RATE 3
+SET FLOOD_USERS 3
+SET FLOOD_WARNING ON
+SET FULL_STATUS_LINE ON
+SET HELP_PAGER ON
+SET HELP_PROMPT ON
+SET HELP_WINDOW OFF
+SET HIDE_PRIVATE_CHANNELS OFF
+SET HIGHLIGHT_CHAR BOLD
+eval SET HISTORY_FILE $myhome/history
+SET HISTORY 150
+SET HOLD_MODE OFF
+SET HOLD_MODE_MAX 0
+SET INDENT ON
+SET INPUT_ALIASES OFF
+SET INPUT_PROMPT $T> 
+SET INPUT_PROTECTION OFF
+SET INSERT_MODE ON
+SET INVERSE_VIDEO ON
+SET LASTLOG 1000
+SET LASTLOG_LEVEL DCC,ALL
+eval SET LOGFILE $myhome/irclog
+SET LOG OFF
+SET MAIL 0
+SET MAX_RECURSIONS 10
+SET MODE_STRIPPER ON
+SET NOTIFY_HANDLERS NOISY
+SET NOTIFY_LEVEL ALL
+SET NOTIFY_ON_TERMINATION OFF
+SET NOVICE OFF
+SET NO_CTCP_FLOOD ON
+SET NUM_OF_WHOWAS 1
+SET PAD_CHAR -
+SET PAUSE_AFTER_MOTD ON
+SET SCROLL ON
+SET SCROLL_LINES 1
+SET SEND_IGNORE_MSG OFF
+SET SHELL_LIMIT 0
+SET SHOW_AWAY_ONCE ON
+SET SHOW_CHANNEL_NAMES ON
+SET SHOW_END_OF_MSGS OFF
+SET SHOW_NUMERICS OFF
+SET SHOW_STATUS_ALL OFF
+SET SHOW_WHO_HOPCOUNT ON
+SET STATUS_AWAY  (Away)
+SET STATUS_CHANNEL  %C
+SET STATUS_CHANOP @
+SET STATUS_CLOCK  %T
+SET STATUS_DQUERY DCC Querying %D
+SET STATUS_FORMAT %T [%R] %*%@%N%#%S%H%B%Q%A%C%+%I%O%M%F %U %W %C 
+SET STATUS_HOLD  Held:
+SET STATUS_HOLD_LINES  %B
+SET STATUS_INSERT
+SET STATUS_MAIL  [Mail: %M]
+SET STATUS_MODE  (+%+)
+SET STATUS_NOTIFY  (W: %F)
+SET STATUS_NO_REPEAT OFF
+SET STATUS_OPER *
+SET STATUS_OVERWRITE  (Overwrite)
+SET STATUS_QUERY  (Query: %Q)
+SET STATUS_SERVER  (%S)
+SET STATUS_UMODE  (+%#)
+SET STATUS_USER *
+SET STATUS_USER1
+SET STATUS_USER2
+SET STATUS_USER3
+SET STATUS_USER4
+SET STATUS_USER5
+SET STATUS_USER6
+SET STATUS_USER7
+SET STATUS_USER8
+SET STATUS_USER9
+SET STATUS_WINDOW  ^^^^^^^^^
+SET SUPPRESS_SERVER_MOTD ON
+SET TAB_MAX 1
+SET UNDERLINE_VIDEO ON
+SET USER_WALLOPS ON
+SET USE_OLD_MSG OFF
+SET VERBOSE_CTCP ON
+SET WARN_OF_IGNORES ON
+SET XTERM_OPTIONS
+
+## The following loads useful standard ircII scripts.  If you don't have them,
+## it should simply say "file not found" and move on - no harm done.
+
+LOAD tabkey
+LOAD killpath
+
+## Following line is necessary otherwise will cut off flooding messages
+## without warning to you (see /help set flood_warning)
+ON ^FLOOD *
+## Allow help messages from EFnet helper bot ai- to bypass flood control.
+#on flood ^ai-
+
+## The following line makes you "invisible" to avoid floods or spams,
+## but friends won't find you either unless they know your exact nick.
+## This is for subsequent reconnects, see line near end of file for 1st conn.
+ON ^CONNECT * MODE $N +i
+
+## These lines customize the appearance of public and private text you see.
+
+ON ^MSG * ECHO *$0* $1-
+ON ^NOTICE * ECHO -$0\- $1-
+ON ^PUBLIC * ECHO <$0> $2-
+on ^public_other * echo [$1] <$0> $2-
+ON ^NOTIFY_SIGNOFF * ECHO --- Signoff: $0
+ON ^NOTIFY_SIGNON * ECHO +++ Signon: $0 $1
+on ^send_msg * echo -> *$0* $1-
+on ^send_notice * echo -> -$0\- $1-
+on ^ctcp_reply "* ERRMSG *ACTION*" :
+on -notify_signon * //whois $0
+
+on ^002 * comment
+
+on ^send_action * if ([$[1]0]!=[#])
+	{echo === Describe [-> $0] : $N $1-}
+	{echo === Action: $N $1-}
+on ^action * if ([$[1]1]!=[#])
+ {echo *** Describe: $0 $2-}
+ {if ([$C]!=[$1]) {echo === Action [$1] : $0 $2-}
+		{echo === Action: $0 $2-}}
+## Display your nick when you talk on a channel
+on ^send_public * {
+	if ( [$0] == C ) { echo <$N> $1- } { echo -> <$0> $1- }
+}
+
+## List users (/lusers) info patch:
+
+alias lusers {
+
+	^on ^251 * {
+	^assign -nusers
+		^assign -nusersi
+		^assign -nservers
+		^assign nusers $3
+		^assign nusersi $6
+		^assign nservers $9
+		@nuserst = nusers + nusersi
+		echo *** There are $nuserst total users \($nusers + $nusersi invisible\) on $nservers servers
+		}
+
+	^on ^252 * echo *** $$1 IRC operators online
+	^on ^254 * echo *** There are $$1 channels
+
+	^on ^255 * {
+		^assign -musers
+		^assign musers $3
+		^assign -nusersp
+		^assign -nusersp2
+		@nusersp = musers * 100
+		@nusersp2 = nusersp / nuserst
+		echo *** This server has $musers users \(~ $nusersp2\% of total) and $6 servers connected to it
+		}
+
+	# hybrid 5.1 ircd now uses /lusers foo server.name.here
+	if ([$0]) {
+		//lusers foo $0
+		} {
+		//lusers
+		}
+	wait
+	^on ^251 -*
+	^on ^252 -*
+	^on ^254 -*
+	^on ^255 -*
+}
+
+# Ban info patch
+on ^367 * if ([$4] != []) {echo *** $2 \($3: $stime($4))} {echo *** $1-}
+
+# Topic info patch
+on ^333 * echo *** Topic for $1 set by $2 on $stime($3)
+
+# Channel name and time stamp patch
+on ^329 * echo *** $1 - created $stime($2)
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#*#*         FOLLOWING STUFF IS FROM BARRON'S SUPERPAK SCRIPT.          #*#*
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+#####################
+#AUTO REJOIN ON KICK
+#####################
+# Features built in 8 sec delay to make it more like a manual rejoin.
+# Now ON by default, if it gets you in trouble, change on to off below.
+^assign auto_rejoin on
+
+alias autorejoin {
+if ([$0]) 
+	{
+	^assign auto_rejoin $0
+	if ([$auto_rejoin] == [on]) {
+	^assign auto_rejoin ON
+	echo #*#* Auto-Rejoin has been set to  ON 
+	} {
+		^assign auto_rejoin OFF
+		echo #*#* Auto-Rejoin has been set to  OFF 
+	} 
+}{
+echo #*#* Usage: /autorejoin on | off   to set your auto rejoin state
+echo #*#*        Makes you rejoin a channel automatically if you are kicked off
+echo ->>  Current Auto Rejoin Status:  $auto_rejoin 
+ }
+}
+
+on -raw_irc "% KICK *" if ( ([$3] == [$N]) && ([$auto_rejoin] == [ON] ) ) { 
+msg $N xtj $2 
+echo Rejoining $2 in 8 secs, abort by typing: /td 911
+ }{}
+on ^msg "% xtj *" if ( [$0] == [$N] ) { timer -refnum 911 8 join $2 }{}
+
+################################
+# Finger script III by Daemon.
+################################
+# finger nickname         will finger the user@host of the nickname
+# finger -h nickname      will finger the @host of the nickname
+# finger user@host.name   will finger the given user@host
+# finger @host.name       will finger the given @host.name
+
+alias finger {
+	^exec -kill %finger
+	if (([$0] == [-h]) && ([$1] != []))
+	{
+		userhost $1 -cmd if ([$3] != [<UNKNOWN>])
+				{ echo *** Launching Host finger on:  $0 -> @$4 
+				eval exec -name finger exec finger @$$4 }
+				{ echo *** FINGER: no such nickname $1 }
+	}
+	{
+	if (index(@ $0) > -1)
+	{
+		exec -name finger exec finger $0
+	}
+	{
+	if ([$0])
+	{
+		userhost $0 -cmd if ([$3] != [<UNKNOWN>])
+				{ echo *** Launching finger on: $0 $strip(#!> $3)@$4 
+				eval exec -name finger exec finger $strip(#~> $3)@$$4 }
+				{ echo *** FINGER: no such nickname $0 }
+	}
+	{
+		echo *** Usage: finger [[-h] <nickname>][[user]@full.hostname]
+		echo *** e.g. finger bob, finger -h bob, finger robert@eff.org, or finger @eff.org
+	}}}
+}
+
+############################################
+#         SHOWS USERS ON A CHANNEL         #
+# usage: /look    or   /count   to display #
+# or : /look #channel   or /count #channel #
+# who is or how many on channel            #
+# by TG!cedras@rahul.net                   #
+# This sucker is faster then older code :) #
+############################################
+
+alias repeat {
+	@ rep.cnt = [$0]
+	while ( rep.cnt > 0 )
+	{
+		$1-
+		@rep.cnt = rep.cnt - 1
+	}
+	^assign -rep.cnt
+}
+
+
+alias look {
+	@whoonc = [yes]
+	@on_channel = C
+	if ([$0]) 
+		{
+		@on_channel = [$0]
+		} 
+	whoon
+	}
+
+alias count {
+	@on_channel = C
+	if ([$0]) 
+	{@on_channel = [$0]} 
+	whoon
+	}
+
+alias whoon {
+	^assign -total
+	^assign -wholist
+	^assign -whonum
+	@opernum = 0
+	@ircopnum = 0
+	@nochop = 0	
+	^on ^who "*Channel*" /comment
+	^on ^who "*End of* /comment
+	^on ^who "*" whocount $$1 $$2
+	^who $on_channel
+	^wait
+	@total = [$#whonum]
+	@nochop = total - opernum
+	if ( whoonc == [yes] ) {show_look $wholist}
+	echo #*#* ON Channel ${on_channel}
+	echo #*#* [TOTAL : $total users] [$opernum Chops] [$nochop NotChops] [$ircopnum IrcOPs]
+	^on ^who -
+	^assign whoonc no
+	}
+alias whocount {
+	if ([$1]==[G@]||[$1]==[H@]||[$1]==[G*@]||[$1]==[H*@]) {@opernum=opernum+1}
+	if ([$1]==[G*]||[$1]==[H*]||[$1]==[G*@]||[$1]==[H*@]) {@ircopnum=ircopnum+1}
+	^assign -dash_fill
+	@diff = 0
+	^assign -nicklength
+	@chanstat = [$1]
+	if ([$@chanstat]==[1]) {@nickad = [$chanstat\-\-]}
+	if ([$@chanstat]==[2]) {@nickad = [$chanstat\-]}
+	if ([$@chanstat]==[3]) {@nickad = [$chanstat]}
+	@nick = [$0\-$nickad]
+	@nicklength = [$@nick]
+	@diff = 13 - nicklength
+	repeat $diff @dash_fill = dash_fill ## [-]
+	^assign enclosed [$dash_fill$nick]
+	@wholist = [$wholist $enclosed]
+	@whonum = [$whonum $1]
+	}
+
+alias show_look {
+	@wholist_size = [$#wholist]
+	@wholist_counter = 0
+	while (wholist_counter < wholist_size) {
+		@ind_wholist =0
+		^assign -wholist_display
+		while (ind_wholist < 4) {
+			^assign wholist_display $wholist_display $word($wholist_counter $wholist)
+			@ind_wholist = ind_wholist + 1
+			@wholist_counter = wholist_counter + 1
+		}
+		echo ---> $wholist_display
+	}
+}
+
+############# END OF /LOOK  /COUNT  FUNCTIONS
+
+###########################
+#  IGNORING FUNCTION      #
+#  BY TG!cedras@rahul.net #             
+#  /ig /uig /sig /zig     #
+###########################
+
+alias shoo {
+	if ([$0]) {
+		userhost $0 -cmd ^assign hostig *@$$4
+	}
+	{
+		userhost $, -cmd ^assign hostig *@$$4
+	}
+	wait
+	## I turned off "crap" so you can see the person join/part
+	//ignore $hostig all -crap
+	timer 300 //ignore $hostig none
+	^assign -hostig
+}
+
+## IGNORING (/ig <nick> or <whatever>)
+
+alias ig {
+	if ([$0]) {
+		^assign -ignick
+		^assign ignick $0
+		@igflag=0
+		userhost $ignick -cmd do_ig $$3 $$4
+		wait
+		if ([$igflag] == [0]) {
+			^assign ignore_list $ignore_list $0
+			echo #### Ignoring $ignick, to unignore: /uig $ignick
+			//^ignore $ignick all -crap
+			@igflag = 0
+		}
+		}{
+		echo *** USAGE: To ignore someones hostname completely: /ig <nick> or <address>
+		}
+	}
+
+alias do_ig {
+	if ([$0]!=[<UNKNOWN>]) {add_iglist $0 $1}
+	}
+
+alias add_iglist {
+	@igflag = 1
+
+	^assign -usr
+	^assign -machine
+	^assign usr $strip(~# $0)
+	^alias enleve @ FUNCTION_RETURN = [$MID($INDEX("." [$1]) 99 $1)]
+	^assign machine *.$enleve($1)
+	@igfinal = [\*$usr@$machine]
+	^assign ignore_list $ignore_list $igfinal
+	echo ### Ignoring $ignick \($igfinal\)
+	echo ### to un-ignore: /uig $igfinal
+	//^ignore $igfinal all -crap
+	}
+
+## UNIGNORING (/uig <nick> or <whatever>)
+
+alias uig {
+	if ([$0]) {
+		^assign -ignick
+		^assign -igfinal
+		^assign ignick $0
+		@igflag=0
+		userhost $ignick -cmd do_nig $$3 $$4
+		wait
+		if ([$igflag] == [0]) {
+			@ignore_list = [$remove_word($0 $ignore_list)]
+			echo ###  $ignick is no longer being ignored.
+			//ignore $ignick none
+			@igflag = 0
+		}
+		}{
+		echo *** USAGE: To remove someone from ignorance list /uig <nick> or <address>
+	}
+ }
+
+alias do_nig {
+	if ([$0]!=[<UNKNOWN>]) {remove_iglist $0 $1}
+}
+
+alias remove_iglist {
+	@igflag = 1
+	^assign -usr
+	^assign -machine
+	^assign usr $strip(~# $0)
+	^alias enleve @ FUNCTION_RETURN = [$MID($INDEX("." [$1]) 99 $1)]
+	^assign machine *.$enleve($1)
+	@igfinal = [\*$usr@$machine]
+	@ignore_list = [$remove_word($igfinal $ignore_list)]
+	echo ###  $ignick \($igfinal\) is no longer being ignored!
+	//ignore $igfinal none
+	}
+
+## SHOW IGNORE LIST (/sig)
+
+alias sig echo ### List of people being ignored:;echo ->>   $ignore_list
+
+## ZAP IGNORE LIST (/zig)
+
+alias zig {
+	@ind=0
+	while ( word($ind $ignore_list-) ) {
+		//ignore $word($ind $ignore_list) none
+		@ind=ind+1
+	}
+	^assign -ignore_list
+	echo ### Ignorance list has been cleared!
+	}
+
+################# SPECIAL FUNCTIONS by Jeremy Nelson   hop!jnelson@iastate.edu
+alias leftw {
+	@ function_return = [$(1-$0)]
+}
+alias restw {
+	@ function_return = [$(${[$0]+1}-)]
+}
+alias notw {
+	if ([$0])
+		{@ _pad = [ ]}
+		{@ _pad = []}
+	@ _words = [$1-]
+	@ function_return = [$leftw($0 $1-)] ## [$_pad] ## [$restw(${[$0]+1} $1-)]
+}
+
+alias remove_word {
+	@ _pattern = rmatch($0 $1-) - 1
+	if (_pattern != -1)
+		{@ function_return = notw($_pattern $1-)}
+		{@ function_return = [$1-]}
+}
+
+################# END OF IGNORE FUNCTION
+
+######################################
+# SMART /CHAT INTERFACE              #
+# BY TG!cedras@rahul.net             #
+######################################
+# to initiate a chat connection      #
+# -> type: /chat <nickname>          #
+# to close current connection and    #
+# initiate another                   #
+# -> type: /chat <new nickname>      #
+# to connect to a chat request       #
+# -> type: /chat                     #
+# to close current connection and    #
+# respond to a request               #
+# -> type: /chat                     #
+# to close a chat connection         #
+# -> type: /chat                     #
+#                                    #
+# /autoquery on | off   to set auto  #
+#                       query mode   #
+######################################
+## This is not really necessary, I personally prefer to do it manually by
+## /dcc chat nickname then /msg =nickname blah blah (note =) (or hit tab).
+
+########### SMART /CHAT INTERFACE
+
+on ^ctcp "% % DCC CHAT % *" {
+@chat_request = [$0]
+}
+
+alias chat {
+if (![$chat_current] && ![$chat_request] && ![$0] ) {
+echo #*#* No chat requests issued to you or nickname Specified
+}{
+	if (chat_current)
+	{
+		//dcc close chat $chat_current
+		^assign -chat_current
+		if ([$auto_query] == [on]) {//query}
+		}
+	if ([$0])
+	{
+	//dcc chat $0
+	@chat_current = [$0]
+	if ([$auto_query] == [on]) {//query =$chat_current}
+	^assign -chat_request
+		} {
+		if (chat_request)
+		{
+		//dcc chat $chat_request
+		@chat_current = chat_request
+		if ([$auto_query] == [on]) {//query =$chat_current}
+		^assign -chat_request
+		}
+		}
+		}
+}
+
+############### AUTO_QUERY SWITCH
+
+# AUTOQUERY IS ON BY DEFAULT, CHANGE THE NEXT LINE IF YOU DONT
+# WANT IT THAT WAY
+^assign auto_query ON
+####################
+
+
+alias autoquery {
+if ([$0]) {
+	^assign auto_query $0
+	if ([$auto_query] == [on]) {
+	^assign auto_query ON
+	echo #*#* Auto-Query has been set to  ON 
+	} {
+		^assign auto_query OFF
+		echo #*#* Auto-Query has been set to  OFF 
+	} 
+}{
+echo #*#* Usage: /autoquery on | off   to set your auto-query mode
+echo #*#*        Puts you automatically in query mode on a dcc chat if set to ON
+echo ->>  Current Auto Query Status:  $auto_query 
+ }
+}
+
+################## END OF /CHAT  FUNCTION
+
+#########################################
+#         IRC Answering Machine         #
+#        by  TG!cedras@rahul.net        #       
+#########################################
+# This Script records all incoming      #
+# Messages and Notices to you whether   #
+# You are present or away               #
+# *hysterical laughs*   Yes ! :-)       #
+# We have indeed gone mad :)            #
+#########################################
+# How to Use:                           #
+# /record     tells your machine status #
+# /record ON  to set machine ON         #
+# /record OFF to set machine OFF        #
+# /play       to play back your msgs    #
+# /erase      to erase messages         #
+# /playmsg    to play back message file #
+# /savemsg    to save messages to file  #
+#####################################################################
+## Known bug: message numbers are sorted alphabetically, so if you have 11
+## messages they'll be played: 1, 10, 11, 2, 3,..., 8, and 9.  -Jolo
+
+############### RECORD SWITCH
+
+## Recorder will record any messages while you are away by default,
+## change the next line if you dont want it that way .. 
+^assign record_when_away YES
+
+^assign record_status OFF
+
+############ /RECORD
+
+alias record {
+if ([$0]) {
+	^assign record_status $0
+	if ([$record_status] == [on]) {
+	^assign record_status ON
+	start_answering_machine
+	echo #*#* Answering Machine has been set to  ON 
+	} {
+		^assign record_status OFF
+		stop_answering_machine
+		echo #*#* Answering Machine has been set to  OFF 
+	} 
+}{
+echo #*#* Usage: /record on | off   Sets your answering machine to ON or OFF
+echo #*#* Other: /play              Plays  back your messages
+echo #*#*      : /erase   [#'s]     Erases messages         [none specified = all]
+echo #*#*      : /savemsg [#'s]     Saves  messages to disk [none specified = all]
+echo #*#*      : /playmsg           Plays  messages previously saved to disk
+echo ->>  Current Answering Machine Status:  $record_status 
+ }
+}
+
+@record_msg = 0
+
+alias start_answering_machine {
+
+#^on #^notice -294 * {
+#^assign message_nick $0
+#^assign message_addr $strip(#~ $userhost())
+#@message_in = [$1-]
+#@message_time = mid(4 15 $STIME($TIME()) )
+#recordmessages
+#}
+
+^on #^msg -294 * {
+^assign message_nick $0
+^assign message_addr $strip(#~ $userhost())
+@message_in = [$1-]
+@message_time = mid(4 15 $STIME($TIME()) )
+recordmessages
+}
+
+}
+
+alias stop_answering_machine {
+^on #^notice -294 -*
+^on #^msg -294 -*
+}
+
+alias recordmessages {
+@record_msg = record_msg + 1
+^assign recordmsga.$record_msg $message_nick
+^assign recordmsgb.$record_msg $message_addr
+^assign recordmsgc.$record_msg $message_in
+^assign recordmsgd.$record_msg $message_time
+}
+
+############ /PLAY
+
+alias play {
+^set hold_mode on
+echo Hold mode is on!  Number of messages: $record_msg 
+echo Message    Nick        Address                               Date/Time
+echo -------    ----        -------                               ---------
+foreach recordmsga rm {
+echo $[3]{rm}        $[9]recordmsga[$rm]   $[35]recordmsgb[$rm]   $recordmsgd[$rm]
+echo ->  $recordmsgc[$rm]
+echo ------------------------------------------------------------------------------
+		}
+#^set hold_mode off
+}
+
+############ /ERASE
+
+alias erase {
+set hold_mode off
+if ([$0]) {
+	@ind=0
+	while ( word($ind $0-) ) {
+		if ([$(recordmsga.$word($ind $0-))]) {
+		echo #*#* Erasing message # : $word($ind $0-)
+		^assign -recordmsga.${word($ind $0-)}
+		^assign -recordmsgb.${word($ind $0-)}
+		^assign -recordmsgc.${word($ind $0-)}
+		^assign -recordmsgd.${word($ind $0-)}
+		} {
+		if ([$0] == [\*]) {erase_all_messages} {
+			echo #*#* That message does not exist ! \($word($ind $0-)\)
+			}
+		}
+		@ind=ind+1
+		}
+echo #*#* DONE !
+	}{erase_all_messages}
+
+}
+
+alias erase_all_messages {
+	echo #*#* Erasing ALL your Messages.....
+	foreach recordmsga rm {
+		^assign -recordmsga[$rm]
+		^assign -recordmsgb[$rm]
+		^assign -recordmsgc[$rm]
+		^assign -recordmsgd[$rm]
+		}
+	@record_msg = 0
+	echo #*#* DONE !
+}
+
+############ /AWAY
+
+on ^idle 15 away_check
+alias away_check {
+	^assign -away_status
+	userhost $N -cmd ^assign away_status $$2
+	wait
+	if ([$away_status] == [\-]) {
+		if ([$record_when_away] == [YES]) {
+		//away 15-minute auto-away
+		^assign record_status ON
+		start_answering_machine
+		}
+		{//away 15-minute auto-away}
+		}
+}
+
+alias away {
+if ([$0]) {
+ if ([$record_when_away] == [YES]) {
+ ^assign away_msg $0- : msgs are being saved
+ //away $away_msg
+ ^assign record_status ON
+ start_answering_machine
+ }{//away $0-}
+} {//away;stop_answering_machine;^assign record_status OFF}
+}
+
+########################### END OF ANSWERING MACHINE !
+
+##################################
+# /PAUSE to put pause mode on    #
+# /PAUSE to return to normal     #
+# /UNPAUSE for the skepticals :p #
+# TG!cedras@rahul.net            #
+##################################
+alias pause {
+	if (!pauseset) {
+		^SET HOLD_MODE ON
+		@pauseset = [ON]
+		echo #*#* In Pause Mode... (hit Enter/Return to continue scrolling if paused)
+		} {
+		if ([$pauseset] == [ON]) {
+			^SET HOLD_MODE OFF
+			^assign -pauseset
+			echo #*#* Back to normal scroll mode ... (Pause Mode cancelled)
+			} {}
+		}
+}
+
+alias unpause {
+@pauseset = [ON]
+pause
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#*#* END OF SUPERPAK STUFF, FOLLOWING IS CUSTOM STUFF BY JOLO & FRIENDS #*#*
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+## Here are some simple channel maintenance aliases
+## Op or Deop up to 4 nicknames, some nets may only allow 3?
+ALIAS CHOP MODE $C +oooo $0 $1 $2 $3
+ALIAS DEOP MODE $C -oooo $0 $1 $2 $3
+ALIAS KB //echo Please use instead the new and more powerful /bk nick [reason]
+
+## Unban a specified nick!user@host pattern ("/mode #channel b" to view bans)
+## If you have a currently existing nick in mind, use instead /unban nick
+ALIAS UB //MODE $C -b $0
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#* Beginning of turtle's ban script
+#* Changes to robin for compatibility:
+#*     /kick taken out, just use /k (this frees up /kick for other scripts)
+#*         which was supposed to be in robin but apparently not anyway?
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+//alias kickHelp banHelp
+//alias banHelp {
+pause on
+//echo ####################################################################
+//echo  Ban and Kick Module v1.1 by turtle (dhansen@spaceghost.salug.org)
+//echo How to ban and kick a user:
+//echo 
+//echo /k nick reason               Kicks a nick from the current channel.
+//echo
+//echo /bk nick reason              Bans nick from current channel and then
+//echo                               kicks. This prevents auto-rejoin.
+//echo
+//echo /hbk nick reason             Same function as /bk except that /hbk
+//echo                               bans the nicks' entire domain. This is
+//echo                               useful in order to keep clones out and
+//echo                               those users who like to change their
+//echo                               userid's to evade bans.
+//echo
+//echo /unban nick                  Searches the current channels' ban list
+//echo                               and removes all entries that would
+//echo                               affect nick.
+//echo
+//echo /ban nick                     Bans a nick in the current channel.
+//echo
+//echo /hban nick                    Same as /ban only this bans the entire
+//echo                               domain the nick is coming from.
+//echo ####################################################################
+//echo  Disclaimer: Several features were left out of this module due to
+//echo      time constraints \(since at least two of them require a major
+//echo      rewrite of the current module\). Check the site again in a couple
+//echo      weeks for version 2.0 \(you'll definitely like it better than this
+//echo      one\).
+//echo ####################################################################
+pause off
+}
+
+alias bkick {
+  ^assign -bk.nick
+  ^assign bk.nick $0
+  if (bk.nick)
+  {
+    USERHOST $bk.nick -cmd banAssign $$0 $$3 $$4
+    wait
+     if (ipbanok)
+     {
+      ipban
+      wait
+      //kick $C $bk.nick $1-
+     }
+     {
+        realBan
+        wait
+        //kick $C $bk.nick $1-
+      }
+   }    
+   {
+    //echo *** You must specify a nick.
+   }
+  ^Assign -ipbanok
+  ^Assign -bk.nick
+  ^Assign -bk.userid
+  ^Assign -bk.host
+}
+
+alias ban {
+  ^assign -bk.nick
+  ^assign bk.nick $0
+  if (bk.nick)
+  {
+    USERHOST $bk.nick -cmd banAssign $$0 $$3 $$4
+    wait
+     if (ipbanok)
+     {
+      ipban
+     }
+     {
+        realBan
+     }
+   }    
+   {
+    #//echo *** You must specify a nick.
+    //echo Current bans on $C are:
+    //mode $C b
+   }
+  ^Assign -ipbanok
+  ^Assign -bk.nick
+  ^Assign -bk.userid
+  ^Assign -bk.host
+}
+
+alias banAssign {
+ ^Assign -bk.userid
+ ^Assign -bk.host
+ ^Assign bk.userid $1
+ ^Assign bk.host $2
+ ipcheck
+}
+
+alias ipcheck {
+    ^assign -ipbanok
+    if (rmatch($bk.host *0 *1 *2 *3 *4 *5 *6 *7 *8 *9))
+    {
+     @ ipbanok = 1
+    }
+    {
+     @ ipbanok = 0
+    }
+ }
+
+alias ipban {
+  if (bk.nick)
+  {
+      if ( bk.host != [<UNKNOWN>])
+      {
+        ^assign tempvar $bk.userid
+        @ uname = [tempvar] - 1
+        @ tamp = [$bk.host]
+        if (ischanop($bk.nick $C))
+        {
+          //mode $C -o+b $bk.nick *!*$mid(1 $uname $bk.userid)@$left(${@tamp-index(. $bk.host)} $bk.host)*
+        }
+        {
+           //mode $C +b *!*$mid(1 $uname $bk.userid)@$left(${@tamp-index(. $bk.host)} $bk.host)*
+        }
+      }
+      {
+        //echo *** Cannot find $0
+      }
+  }
+  {
+    //mode $C b
+  }
+  ^assign -tempvar
+  ^assign -tamp
+  ^assign -uname
+}
+
+alias realBan {
+  if (bk.nick)
+  {
+      if (bk.host != [<UNKNOWN>])
+      {
+        ^assign tempvar $bk.userid
+        @ uname = [tempvar] - 1
+        @ tamp = [$bk.host]
+        if (ischanop($bk.nick $C)) 
+        {
+          //mode $C -o+b $bk.nick *!*$mid(1 $uname $bk.userid)@*$right(${@tamp-index(. $bk.host)} $bk.host)
+        }
+          {
+           //mode $C +b *!*$mid(1 $uname $bk.userid)@*$right(${@tamp-index(. $bk.host)} $bk.host)
+          }
+      }
+      {
+       //echo *** Cannot find $0
+      }
+    }
+  {
+    //mode $C b
+  }
+  ^assign -tempvar
+  ^assign -tamp
+  ^assign -uname
+}
+
+
+alias k {
+ //kick $C $0 $1-
+}
+
+alias hbkick {
+  ^assign -bk.nick
+  ^assign bk.nick $0
+  if (bk.nick)
+  {
+    USERHOST $0 -cmd banAssign $$0 $$3 $$4
+    wait
+    if (ipbanok)
+     {
+      hipban
+      wait
+      //kick $C $0 $1-
+      }
+     {
+      realHban
+      wait
+      //kick $C $0 $1-
+     }
+    }
+  {
+    //echo *** You must specify a nick.
+ }
+ ^Assign -ipbanok
+ ^Assign -bk.nick
+ ^Assign -bk.userid
+ ^Assign -bk.host
+}
+
+alias hban {
+  ^assign -bk.nick
+  ^assign bk.nick $0
+  if (bk.nick)
+  {
+    USERHOST $0 -cmd banAssign $$0 $$3 $$4
+    wait
+    if (ipbanok)
+     {
+      hipban
+     }
+     {
+      realHban
+     }
+    }
+  {
+    //echo *** You must specify a nick.
+ }
+ ^Assign -ipbanok
+ ^Assign -bk.nick
+ ^Assign -bk.userid
+ ^Assign -bk.host
+}
+
+alias hipban {
+  if (bk.nick)
+  {
+    if (bk.host != [<UNKNOWN>])
+      {
+        ^assign tempvar $bk.userid
+        @ uname = [tempvar] - 1
+        @ tamp = [$bk.host]
+        if (ischanop($bk.nick $C))
+        {
+          //mode $C -o+b $bk.nick *!*@$left(${@tamp-index(. $bk.host)} $bk.host)*
+        }
+          {
+           //mode $C +b *!*@$left(${@tamp-index(. $bk.host)} $bk.host)*
+          }
+      }
+      {
+        //echo *** Cannot find $0
+      }
+    }
+  {
+    //mode $C b
+  }
+  ^assign -tempvar
+  ^assign -tamp
+  ^assign -uname
+}
+
+alias realHban {
+  if (bk.nick)
+  {
+    if (bk.host != [<UNKNOWN>])
+      {
+        ^assign tempvar $bk.userid
+        @ uname = [tempvar] - 1
+        @ tamp = [$bk.host]
+        if (ischanop($bk.nick $C))
+        {
+          //mode $C -o+b $bk.nick *!*@*$right(${@tamp-index(. $bk.host)} $bk.host)
+        }
+          {
+           //mode $C +b *!*@*$right(${@tamp-index(. $bk.host)} $bk.host)
+          }
+      }
+      {
+        //echo *** Cannot find $0
+      }
+    }
+  {
+    //mode $C b
+  }
+  ^assign -tempvar
+  ^assign -tamp
+  ^assign -uname
+}
+
+//alias unBan unBanNick
+//alias unBanNick {
+ ^assign -unBanList
+ ^on ^367 "*"
+  {
+   ^assign unBanList $2 ${unBanList}
+  }
+  //^MODE $C +b
+  wait
+  ^assign unban.nick $0
+  if (unban.nick)
+   {
+    userhost $0 -cmd unbanSearch $$0!$$3@$$4
+   }
+   {
+    //echo You must specify a nick!
+   }
+   wait
+  ^on -367 -"*"
+  ^assign -unban.nick
+}
+
+//alias unbanSearch {
+ @ banCount = 0
+ while (word($banCount $unBanList) != [])
+  {
+   if (rmatch($0 $word($banCount $unBanList)))
+    {
+     //mode $C -b $word($banCount $unBanList)
+    }
+   @ banCount = banCount +1
+  }
+ }
+
+alias unBanAction {
+ if ($3)
+  {
+   //mode $C -bbb $0 $1 $2
+   unBanAction $3-
+  }
+  {
+   if ($2)
+    {
+     //mode $C -bbb $0 $1 $2
+    }
+    {
+     if ($1)
+      {
+       //mode $C -bb $0 $1
+      }
+      {
+       if ($0)
+        {
+         //mode $C -b $0
+        }
+      }
+    }
+  }
+}
+
+## End of turtle's ban script
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+# colorstrip.irc
+# Source unknown - Jolo got this from Bekar, an #mIRC EFnet op, but Bekar
+# forgot where he got it from - some web page? In any case, it works!
+# Much more stable and bug free than cstrip.irc.
+
+@nc.c = []
+if (@nc.c == 2){
+ input "" assign nc.c $$0
+ parsekey quote_character
+ type ^c
+ parsekey send_line
+}
+
+if (@nc.c == 1){
+ @nc.d = [//if (index(0123456789 $mid($nc.i 1 $*))>-1)]
+ @nc.p = [@nc.i=nc.i+1]
+ @nc.a = [@nc.o=nc.o##mid($nc.i $nc.n $*)]
+
+ alias nc.rmv {
+  #$nc.i = index
+  #$nc.n = number of chars between index and next ^C
+  @nc.i=0
+
+  #while ^C is between index and end
+  //while ((nc.n=index($nc.c $mid($nc.i 999 $*)))>-1){
+   #$nc.a = append normal chars to output var
+   $nc.a
+
+   #set index to ^C
+   @nc.i=nc.i+nc.n
+
+   #set index past ^C or ^C's if several are next to each-other
+   //if ((nc.n=index(^$nc.c $mid($nc.i 999 $*)))>-1){
+    @nc.i=nc.i+nc.n
+
+    #$nc.d = if char is digit
+    #$nc.p = increment pointer (index)
+    $nc.d{
+     $nc.p;$nc.d{$nc.p}
+     #if char is comma
+     //if (mid($nc.i 1 $*)==[,]){$nc.p;$nc.d{$nc.p;$nc.d{$nc.p}}}
+    }
+   }{
+    #else only ^C's remain so don't check any more
+    @nc.i=999
+   }
+  }
+  $nc.a
+  @function_return=nc.o
+  @nc.o=[]
+ }
+
+#alias nocolor {if (nc.w){@nc.w=0}{@nc.w=1};load colorstrip.irc}
+ alias nocolor {if (nc.w){@nc.w=0}{@nc.w=1}}
+
+ if (nc.w){
+  on ^window "% *$nc.c*" {//echo $1-;//echo $nc.rmv($1-)}
+  eval echo *** Viewing $(nc.c)1,4Color$nc.c Codes turned on
+ }{
+  on ^window "% *$nc.c*" {//echo $nc.rmv($1-)}
+  eval echo *** Viewing $(nc.c)1,4Color$nc.c Codes turned off
+ }
+ if (nc.w==[]){
+  echo *** You can use /nocolor to toggle viewing Color Codes
+ }
+
+}{
+ echo *** nocolor needs a real ^C (Control C).
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#* wall: sends /notice to every channel op on current channel
+#* written by Garf (garf@io.org)
+#* Caution: doing this on channels with many ops (say >20) is tantamount
+#*     to a mass notice and you may flood yourself off
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+alias wall
+{
+  ^assign -tmp.wall.str
+  @ tmp.wall.cnt = 0
+  @ tmp.wall.cnt2 = 0
+  while (word($tmp.wall.cnt $chanusers($C)))
+  {
+    if (ischanop($word($tmp.wall.cnt $chanusers($C)) $C))
+      {@ tmp.wall.str = tmp.wall.str##[,$word($tmp.wall.cnt $chanusers($C))]}
+    @ tmp.wall.cnt++
+    @ tmp.wall.cnt2++
+    if (tmp.wall.cnt2 > 8)
+    {
+      ^notice $mid(1 500 $tmp.wall.str) [$C ops] $0-
+      ^assign -tmp.wall.str
+      @ tmp.wall.cnt2 = 0
+    }
+  }
+  if (tmp.wall.str)
+    {^notice $mid(1 500 $tmp.wall.str) [To $C ops] $0-}
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#*           CTCP flood protection by Richard Hecker (garf@clo.com)
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#* The author said: When I upgraded to 2.8.16, I realized that NO_CTCP_FLOOD
+#* was completely broken, so I rewrote all CTCP handling in script...
+#* Pro's:
+#* - ignores all ctcp requests except: TIME, VERSION, PING, and ECHO
+#* - does not respond to VERSIONs sent to a channel
+#* - enforces a maximum of 1 CTCP reply sent out every 2 seconds.
+#* Con's:
+#* - breaks /IGNORE whatever CTCP ...But I've never been one to use /IGNORE...
+#*     I just ignore stuff 'in my mind'
+#* Minor mods by Jolo to re-enable USERINFO, just to be friendlier and allow for some vanity
+
+alias ctcprep
+{
+	if ((lastctcprep + 5) <= time())
+		{notice $0 $1-}
+		{xecho -l crap *** CTCP reply aborted: $*}
+	@ lastctcprep = time()
+}
+
+alias nuhton {@ function_return = left($Index(! $0) $0)}
+
+:The main script:
+
+## finger is ignored
+on ^raw_irc "% privmsg % :finger*" xecho -l crap *** CTCP FINGER from $0 to $2: $strip( $4-) (ignored)
+
+## clientinfo is disabled for your protection, no reason anybody needs this
+on ^raw_irc "% privmsg % :clientinfo*" xecho -l crap *** CTCP CLIENTINFO from $0 to $2: $strip( $4-) (ignored)
+
+## userinfo is allowed, you can disable userinfo response (for privacy or
+## to prevent "/ctcp yournick userinfo" flood) by uncommenting next line and deleting the next group of lines
+#on ^raw_irc "% privmsg % :userinfo*" xecho -l crap *** CTCP USERINFO from $0 to $2: $strip( $4-) (ignored)
+
+on ^raw_irc "% privmsg % :userinfo*" {
+	if (rmatch($2 &* #*))
+	{
+		xecho -l crap *** CTCP USERINFO from $0 to $2 (ignored)
+	}
+	{
+		xecho -l crap *** CTCP USERINFO from $0 to $2: $strip( $4-)
+		ctcprep $nuhton($0) USERINFO $myuserinfo
+	}
+}
+
+on ^raw_irc "% privmsg % :version*" {
+	if (rmatch($2 &* #*))
+	{
+		xecho -l crap *** CTCP VERSION from $0 to $2: $strip( $4-) (ignored)
+	}
+	{
+		xecho -l crap *** CTCP VERSION from $0 to $2: $strip( $4-)
+		# JoloPak disables many CTCPs which makes you bot-like, but many opers
+		# know about JoloPak and understand. If you alter the vanity "JoloPak"
+		# below, you risk being mistaken for a bot and /kill'd.
+		ctcprep $nuhton($0) VERSION $myversion: JoloPak $jp_version
+	}
+}
+
+on ^raw_irc "% privmsg % :time*" {
+	xecho -l crap *** CTCP TIME from $0 to $2: $strip( $4-)
+	ctcprep $nuhton($0) TIME $stime($time())
+}
+
+on ^raw_irc "% privmsg % :ping*" {
+	xecho -l crap *** CTCP PING from $0 to $2: $strip( $4-)
+	ctcprep $nuhton($0) PING $strip( $4-)
+}
+
+on ^raw_irc "% privmsg % :echo*" {
+	xecho -l crap *** CTCP ECHO from $0 to $2: $strip( $4-)
+	ctcprep $nuhton($0) ECHO $strip( $4-)
+}
+
+on ^raw_irc "% privmsg % :gestalt*" {
+	xecho -l crap *** CTCP GESTALT from $0 to $2: $strip( $4-)
+	ctcprep $nuhton($0) GESTALT gestalt dis, buddy!
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#* Richard Hecker's hack to stay connected to an IRC server
+#* Check every 5 minutes, if disconnected, connect to next server in list.
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+on #-timer 305 "*:*0" evnt.5min
+on #-timer 306 "*:*5" evnt.5min
+
+alias evnt.5min
+{
+	if (!myservers())
+		{
+		echo *** Reconnecting automatically at $stime($time())
+		server +
+		}
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#* Ping myself every so often so it appears I am not idling.
+#* This does NOT prevent getting disconnected by ping timeouts.
+#*    (to turn on by default, just delete the # before 'idlesafe')
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+ALIAS idlesafe //ping $N;timer -refnum 555 900 idlesafe
+#idlesafe
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#* Nick Completer by DC-itsme (carabalo@hilbert.geom.umn.edu)
+#* version 0.70 ALPHA (preliminary test version)
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+#### Jolo modified control keys to ^k and ^t, also deleted many comments
+#### and bold echo statements for brevity and more consistent look.
+
+### This is a fairly simple script to run.  Start typing the nick of someone
+### on the channel to which you are currently speaking.  Then press Ctrl-k.
+### This script fills in a nick for you.  If choices are given (i.e., if
+### several nicks match the search string -- whatever you typed after the
+### last space preceding your pressing Ctrl-k), press Ctrl-t to switch among
+### these.  Typing a 2 or 3 letter search string will make using Ctrl-t
+### unnecessary in most cases.
+
+//^bind ^k parse_command complete_the_nick
+//^bind ^t parse_command change_nicks
+
+### deletes $0 chars from the end of the input line
+//alias delchars {
+	@ delchars_ctr = 0
+	//while ([$delchars_ctr]<[$0]) {
+	//parsekey backspace;@ delchars_ctr = delchars_ctr + 1 }
+	//^assign -delchars_ctr
+}
+
+//alias get_search {
+	//^assign nic.search.temp [$~]
+	@ nic.search.len = [$@nic.search.temp] - 2
+	@ nic.search = [$mid(1 $nic.search.len [$~])]
+	//^assign -nic.search.temp
+}
+
+//alias complete_the_nick {
+	//parsekey erase_line;//parsekey yank_from_cutbuffer
+
+	@ nic.toggle=0
+	//^assign -thenick;//^assign -nic.list
+	//^assign -nic.search;//^assign -nic.search.len
+
+### Get search string.
+	if ([$right(1 $U)]== [ ]) {
+	@ nic.search = [$right(0 [])]
+	}{
+	get_search $U
+	}
+
+### Now print the first match and THEN create a list of all nicks in $C
+### starting with nic.search .
+	^assign -nic.chanusers
+	@ nic.chanusers = [$chanusers($C)]
+
+### The next line won't work right without the ^\^^ in front of nic.chanusers.
+	@ nic.search2 = [${nic.search##[*]}]
+	@ listnum = [$match($^\^^nic.search2 $^\^^nic.chanusers)]
+	@ thenick = [$word(${listnum - 1} $nic.chanusers)]
+	@ nic.ctr1 = [$listnum] 
+	//^assign -listnum;//^assign -nic.search2
+	delchars $nic.search.len
+	//type $^\^^thenick
+	@ nic.toggle = 1;@nic.ctr2 = 0
+	@ nic.list = [$thenick]
+	//while ([$nic.ctr1] <= [$#nic.chanusers]) {
+		if (  match($^\^^nic.search* $word($nic.ctr1 $^\^^nic.chanusers)) > 0 ) {
+			@ nic.list = [$nic.list $word($nic.ctr1 $nic.chanusers)]
+		}{}
+		@ nic.ctr1 = nic.ctr1 + 1
+	}
+	if ([$#nic.list] > 1) {
+		echo Press Ctrl-t to switch among:  [$nic.list]
+		}{
+		if ([$#nic.list] < 1) {
+			eval echo *** no nick beginning with '$^\^^nic.search' on ${ C }.
+		}{}
+	}
+}
+
+//alias change_nicks {
+	if (nic.toggle) {
+		if (nic.ctr2 < [$#nic.list] - 1) {
+			@ nic.ctr2 = nic.ctr2 + 1
+		}{ @ nic.ctr2 = 0}
+		delchars $@thenick
+		@ thenick = [$word($nic.ctr2 $nic.list)]
+		//type $^\^^{ thenick }
+		//^assign -nic.chanusers
+	}{}
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+alias dccclear {
+	echo The following offered DCC Get and Chat connections were closed:
+	^on ^window "*" {
+		if (([$1]==[CHAT])&&([$3]==[Offered])) {
+			/eval echo $1-
+			//dcc close chat $2
+		}
+		if (([$1]==[GET])&&([$3]==[Offered])) {
+			/eval echo $1-
+			//dcc close get $2
+		}
+	}
+	//dcc list
+	//timer 3 ^on ^window - "*"
+}
+
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#* RuyDuck and mendel's script to give ircII the capabilities of mIRC's /dns:
+#* /dns argument, where argument can be nick, hostname, or IP
+
+alias dns {
+   echo *** NSLookup \($0\) Executing
+   if (match(*.* $0)) {
+      exec nslookup $0 | tail +4 | sed '$$ d'
+      }{
+      userhost $0 -cmd exec nslookup $$4 | sed '\$\$ d' | tail +4
+      }
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+ALIAS BEER {
+    SAY " _ ) __| __| _ \\ |"
+    SAY " _ \\ _|  _|    /_|"
+    SAY "___\/___|___|_|_\\_)"
+}
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+#*     J O L O P A K   H E L P       *#  
+#*#*#**##*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+
+alias jhelp {
+if ([$0]) {
+if ([$0]==[1]) {jhelp1} 
+if ([$0]==[2]) {jhelp2} 
+if ([$0]==[3]) {jhelp3} 
+if ([$0]==[4]) {jhelp4} 
+if ([$0]==[5]) {jhelp5} 
+if ([$0]==[6]) {jhelp6} 
+}{main_help}
+}
+
+alias main_help {
+//clear
+echo +-----------------------------------------------------------------+
+echo |                   JOLOPAK MAIN HELP SCREEN                      |
+echo +-----------------------------------------------------------------+
+echo | The following are available by typing the appropriate command:  |
+echo | /jhelp 1    Commands Screen 1: Basic chatting                   |
+echo | /jhelp 2    Commands Screen 2: Channel maintenance              |
+echo | /jhelp 3    Commands Screen 3: Investigating & ignoring People  |
+echo | /jhelp 4    Commands Screen 4: Answering machine & DCC chat     |
+echo | /jhelp 5    Commands Screen 5: Miscellaneous commands           |
+echo | /jhelp 6    Commands Screen 6: Keyboard shortcuts               |
+echo |                                                                 |
+echo | Required arguments are shown, optional ones are in [brackets].  |
+echo | ***  General IRC help on WWW at  http://www.irchelp.org/  ****  |
+echo +-----------------------------------------------------------------+
+}
+
+alias jhelp1 {
+//clear
+echo +-----------------------------------------------------------------+
+echo |           Commands Screen 1: Basic chatting                     |
+echo +-----------------------------------------------------------------+
+echo | /j #channel          join a channel or follow an invite         |
+echo | /n [#channel]        list names of people on irc or channel     |
+echo | /part [#channel]     part a channel or to part current one      |
+echo | /w nick              see someone's information and channels     |
+echo | /idle nick           check how long someone has been idle       |
+echo | /p nick/#channel     ping a person or channel to test lag       |
+echo | /m nick              send a private message to someone          |
+echo | /look [#channel]      show who is on channel with statistics    |
+echo | /count [#channel]     show channel statistics                   |
+echo +-----------------------------------------------------------------+
+}
+
+alias jhelp2 {
+//clear
+echo +-----------------------------------------------------------------+
+echo |           Commands Screen 2: Channel maintenance                |
+echo +-----------------------------------------------------------------+
+echo | /t [topic]            set topic or to view it if none supplied  |
+echo | /wall message         private message to current channel ops    |
+echo | /chop nick1 nick2...  grant channel ops to up to 4 people       |
+echo | /deop nick1 nick2...  remove channel ops from up to 4 people    |
+echo | /k nick [comment]     kick someone out of the channel           |
+echo | /bk nick              ban & kick someone out of a channel       |
+echo | /hbk nick             same as /bk but bans entire domain        |
+echo | /unban nick           removes all current bans affecting nick   |
+echo | /ban [nick]           ban someone, w/o nick shows channel bans  |
+echo | /hban nick            same as /ban but bans entire domain       |
+echo | /ub nick!user@host    unban n!u@h mask e.g. from /ban           |
+echo +-----------------------------------------------------------------+
+}
+
+alias jhelp3 {
+//clear
+echo +-----------------------------------------------------------------+
+echo |           Commands Screen 3: Investigating & Ignoring People    |
+echo +-----------------------------------------------------------------+
+echo | /f nick                 ctcp finger someone                     |
+echo | /finger nick/host       unix finger nick/host, /finger for help |
+echo | /v nick                 find out someone's irc client version   |
+echo |                                                                 |
+echo | /shoo                   ignore for 5 mins the last to /msg you  |
+echo | /ig nick or user@host   ignore the specified person             |
+echo | ctrl-o                  same as /ig for last person to /msg you |
+echo | /uig nick or user@host  unignore somebody                       |
+echo | /sig                    show list of people being ignored       |
+echo | /zig                    zap (delete) ignore list                |
+echo +-----------------------------------------------------------------+
+}
+
+alias jhelp4 {
+//clear
+echo +-----------------------------------------------------------------+
+echo |           Commands Screen 4: Answering Machine & DCC Chat       |
+echo +-----------------------------------------------------------------+
+echo | /record [on|off]  check machine status or turn on|off           |
+echo | /away message     mark yourself as away, turns on ans. machine  |
+echo | /away             mark yourself as back, turns off ans. machine |
+echo | /play             play back your messages                       |
+echo | /erase            erase your messages                           |
+echo |                                                                 |
+echo | /chat             to accept a chat request, or close current    |
+echo |                   request and respond to another, or just close |
+echo | /chat nickname    to send a chat request, or close current      |
+echo |                   connection and open new one to specified nick |
+echo +-----------------------------------------------------------------+
+}
+
+alias jhelp5 {
+//clear
+echo +-----------------------------------------------------------------+
+echo |           Commands Screen 5: Miscellaneous Commands             |
+echo +-----------------------------------------------------------------+
+echo | /autorejoin on|off  to set autorejoin status to ON or OFF       |
+echo | /dccclear           close all offered DCC gets and chats        |
+echo | /dns whatever       resolve the IP/host for a host, IP, or nick |
+echo | /h+ or /h-          another way to turn pause on (+) or off (-) |
+echo | /list *keyword*     search for channels containing keyword      |
+echo | /lusers [server]    get user count for current or remote server |
+echo | /pause              toggle pause mode on|off, e.g. for /list    |
+echo | /reload             reloads your .ircrc setup file script       |
+echo | /td number          delete the timer number given               |
+echo +-----------------------------------------------------------------+
+}
+
+alias jhelp6 {
+//clear
+echo +-----------------------------------------------------------------+
+echo |           Commands Screen 6: Keyboard Shortcuts                 |
+echo +-----------------------------------------------------------------+
+echo | escape-p    scroll to previous screen (up)                      |
+echo | escape-n    scroll to next screen (down)                        |
+echo | escape-e    scroll to end                                       |
+echo | contrl-n    toggle to next channel if you're on more than 1     |
+echo | contrl-w    toggle to next /window                              |
+echo | tab         switch through nicks you messaged recently          |
+echo | up arrow    go up through list of previous lines typed          |
+echo | down arrow  go down through list of previous lines typed        |
+echo | contrl-k    complete nick (type 1st few letters then ctrl-k)    |
+echo | contrl-t    cycle through list of completed nicks if >1 matches |
+echo +-----------------------------------------------------------------+
+}
+
+######################### END OF JOLOPAK HELP ##############################
+
+## These affect your control key bindings
+## I put these at the end to avoid conflicts with other stuff above
+
+#### Remap your arrow keys: up/down = scroll through previous lines you typed,
+#### left/right moves your cursor on the current line.
+BIND META1-O META2
+BIND META1-[ META2
+BIND META2-A BACKWARD_HISTORY
+BIND META2-B FORWARD_HISTORY
+BIND META2-C FORWARD_CHARACTER
+BIND META2-D BACKWARD_CHARACTER
+#### Ctrl-b before & after text to make it bold
+BIND ^B SELF_INSERT
+#### Ctrl-n to switch between channels
+BIND ^N SWITCH_CHANNELS
+#### Ctrl-p to scroll to previous screen(s) - same as Esc-p
+BIND ^P SCROLL_BACKWARDS
+#### I don't recommend /window for newbies, but if you do, Ctrl-w to toggle
+BIND ^W NEXT_WINDOW
+#### Ctrl-v before & after text to make it inverse
+BIND ^V SELF_INSERT
+#### Ctrl-z to escape to shell ("fg" in a few mins to return to IRC)
+BIND ^Z STOP_IRC
+#### Ctrl-_ (shift-hyphen) before & after text to underline
+BIND ^_ SELF_INSERT
+#### Ctrl-o ignores the last person who sent you a message
+BIND ^O parse_command ig $,
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#*   FINAL INSTRUCTIONS
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+## The following line makes you "invisible" to avoid floods or spams,
+## but friends won't find you either unless they know your exact nick.
+## This is for your 1st connect, there's another line in the ON section.
+eval //mode $N +i
+
+eval echo *  JoloPak $jp_version loaded  *
+
+#SET DISPLAY ON
+
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+#*   WHAT IS NEW IN THIS VERSION
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+# Changes from 1.2 to 1.21
+# There were 3 optional features at the end of ircrc_for_jolopak which
+# 	were commented out in 1.4.1 but made active in 1.2, these are now all
+#	commented out again to avoid confusion.
+# Fixed my own email address
+
+# Changes from 1.1.4 to 1.2
+# added /td # to delete timers easily, e.g. /td 911 (to cancel autorejoin)
+# added 329 numeric for channel TS
+# /shoo now doesn't bother to tell the other person - a true ignore shouldn't
+#       attempt to antagonize the other guy. Also made it more general so that
+#		it ignores all usernames from that host/IP.
+# incorporated colorstrip.irc to remove color codes, dumped cstrip.irc which
+#		was buggy and required hacking ON PUBLIC etc.
+# adjusted idlesafe back to 15 min instead of 1 hr frequency
+# automatically /whois nicks that /notify reports as having signed on
+# Superpak ban and kick commands replaced by turtle's bans.and.kicks.mod from
+#		robin. Bans can finally handle numeric IPs as well as hostnames!
+#		Transparent change of /k nick [reason] and /ban [nick], but now
+#		/bk nick [reason] replaces /kb (note reversal of kb to bk).
+# garfr ctcp - disabled finger response (back to Garf's original now) since
+#		it increases potential for flood and is really unnecessary
+# added /dccclear to close all offered DCC gets and chats; useful against 
+#     lamers who offering trojans or DCC flooding
+# garf's hack is breaking for #@channel, taken out
+# enhanced /lusers + /version so you can specify a remote server as argument
+# added /dns which works with nick, hostname, or IP like in mIRC. If you do
+#		"/dns nick" or "/dns hostname" it will give the numeric IP; if you do
+#		"/dns IP" then it will give the hostname.
+# updated /jhelp for all these new commands
+
+# Known Problems:
+# Still not fully compatible with turtle's robin script, even though I did
+#		steal his ban routines, giving JoloPak some much needed teeth. For
+#		now you must choose one script or the other - you cannot run both
+#		without causing unpredictable conflicts/confusion.
+# /lusers remote.server.here gives correct, default response from that server 
+#		but it's not custom-formatted like /lusers yet, oh well.

@@ -1,0 +1,233 @@
+[ This is an unauthorized backup of the actual file, taken Jun 3 2003. ]
+
+Last Updated: Wed Dec  4 16:03:39 MST 2002
+This document obsoletes all older versions.
+
+****** PLEASE NOTE ********
+THE OFFICIAL SITE FOR THESE GUIDELINES IS:
+ftp://ftp.blackened.com/pub/irc/new-server-guidelines
+IF YOU DID NOT GET THIS FROM THE ABOVE LOCATION, PLEASE CHECK TO
+MAKE SURE YOU HAVE THE MOST RECENT COPY.
+There are many sites that are storing copies of this file that are 
+not keeping their archive up to date.  The first line of this file
+is changed every time a modification is made.
+***************************
+
+Below are the agreed-upon guidelines for linking new servers to the
+United States' portion of the EFnet.  If, after reading these guidelines, 
+you feel that the US EFnet routing committee should consider linking your
+server, cut out the application at the bottom, respond to each
+of the questions and email it to the US EFnet routing secretary
+<efnet@the-project.org>.  If the site you want to link a server from
+is in Canada or Europe, please contact the admins for your region of
+the world.
+
+	What the US EFnet routing board looks for when considering linking
+	a new server:
+
+	a) The IRC Server must be permitted and supported by the 
+		administration of the machine and network that it
+		is sitting on.
+
+	b) The server administrators must be reasonably knowledgable
+		about IRC and UNIX.  They should be willing and able
+		to answer most user questions that they encounter
+		regarding IRC.  Additionally, server administrators
+		should be familiar with general internet topology.
+		At the minimum, they should know how they normally
+		reach each of the major backbones.
+
+	c) The machine that the server is running on must be dedicated
+		and adequate for the job.
+
+		It should be dedicated for security reasons.  It is
+		never a good idea to run a efnet ircd on the same
+		machine that has multiple users.  Additionally, it
+		should be dedicated for performance reasons.  The
+		machine should be reasonably modern and should have
+		128M of RAM at the very least.
+
+		In general, the only services that should be running
+		on the ircd box are core kernel services,
+		sshd, and * xntpd.  It is suggested that the machine not
+		have inetd running.
+
+		(*) xntpd is not a requirement but clock synchronization
+			is.  ntpdate run on a regular basis should
+			suffice (at leastonce a day).
+
+		The machine should be firewalled from outside logins,
+		protected against common spoofing attacks, and the kernel
+		must have sufficiently random TCP initial number 
+		generation.
+
+		The nameserver that the machine should be running
+		a current secure version.  Information on which version
+		of BIND is current and secure can be found at
+		 http://www.isc.org/products/BIND/bind-security.html.
+		The machine should be protected from ICMP "nuke"
+		attacks -- ICMP unreachables and redirects should be
+		filtered.  The network admins should be familiar with
+		various denial of service attacks and should know
+		how to minimize the effects of them. 
+
+	d) Running a server requires that the rest of the IRC network
+		put a lot of trust in you.  People who are known not to be
+		trustworthy or who a history of not acting in the best 
+		interests of the IRC networks will typically be denied
+		server links.
+
+	e) New servers will be L:lined - meaning that they cannot link
+		in other servers until such a time as it is deemed that
+		the server and its administration are ready for such
+		a load and the server's network location would provide
+		a well-placed hub server.
+
+	f) New servers may not be compiled in debug mode and must have
+		LOCAL_KILL_ONLY defined during the initial 45 day
+		probational period.
+
+	g) If the site requesting links has a policy allowing bots or
+		other IRC automatons of the sort, they will typically
+		be denied for links.  Additionally, if linked, the
+		administration of that server should adopt and enforce
+		a 'no-bot' policy.
+
+	h) These days, a large EFnet client server can utilize
+		a few hundred kbits/s, which is a large amount of bandwidth
+		for most small ISPs.  Given that we need a few large
+		client servers and fewer small 'local' servers, this
+		should definitely be taken into consideration when
+		a site is deciding whether they even want an EFnet server.
+
+		EFnet IRC Servers should be on a network that is
+		multihomed to with a minimum of two underutilized
+		DS3s to at least two networks.  Cooperation from
+		the uplink providers is an absolute necessity as
+		EFnet IRC Servers tend to attract frequent Denial
+		of Service attacks.  Some of these attacks can 
+		cripple even the most robust and diverse networks.
+		Routing on the network on which the IRC Server 
+		resides should allow the server to fully utilize
+		the multiple links and must not sit in an
+		address space which would prevent the server from 
+		failing over in the event of circuit problems.
+		
+	i) The server must have their bots/abuse policies clearly
+		stated in the motd and contact information must be
+		stated in the A:lines.  The server administration
+		should be willing to take measures to minimize
+		clonebotting by the use of connection limits
+		in the I/Y lines and/or the use of tcms
+		(monitor bots) or live operators.
+
+	j) All new servers must run an ircd approved by the EFnet
+		routing committee.  The two most popular versions
+		are maintained by Chris Behrens ("CS") and the
+		Hybrid team ("hybrid")
+
+		Official sites for the above versions are:
+
+	http://www.codestud.com/ircd/ircd-comstud/ 
+			and
+	ftp://ftp.blackened.com/pub/irc/hybrid
+
+	
+	k) Closed I:line servers must have an I:line contact.  There
+		are *very* few sites on the net that can justify
+		their own private EFnet server.  Chances are your
+		site is not one of them.  As a result, you will be
+		expected to offer service to sites that are close
+		to you netwise.  This is only necessary if you are
+		limiting your I:lines and intend to run a fairly
+		closed server.  The I:line contact will be someone
+		who has the ability to modify the ircd.conf to add
+		I:lines.
+
+	l) Last, but not least, there must be a need for a server 
+		in your network location. 
+
+	All new servers will be on a 45 day period during which
+	time the server and administration will be watched closely.
+	For the first 15 days, the server should be monitored VERY
+	closely and any bugs/configuration changes should be made
+	at this point.  Addionally, I:lines should be somewhat restricted.
+	At the end of the initial 15 day period, the admin should
+	open up the server a bit.  The server will be re-evaluated at
+	the end of the 45 day probational period.
+
+	Note that denied applicants will not have the privilege of
+	reapplying for 6 months.  As such, it is in the applicant's
+	best interest to do some homework on what applications have
+	been approved in the past and which ones haven't and, more
+	importantly, why they were approved or denied.
+
+
+	Maintainer of this file: Matthew Ramsey <mjr@blackened.com>
+
+----------  CUT
+
+1.  Contact Info
+1a.  Server Admin Name:
+1b.  Server Admin Phone:
+1c.  Server Admin Email:
+1d.  Relationship to server hardware and network (ie: employee, co-lo,
+     customer, student account, etc):
+1e.  Sysadmin Contact:
+1f.  Network Admin Contact:
+1g.  Server Name:
+
+2.  Connectivity
+Please describe your connectivity to Sprintlink, AlterNet, C&W, and any
+additional significant peering.  Please also include an IP address of
+the server or at least a machine on the same hub/switch:
+
+3.  Machine Info
+3a.  Processor:
+3b.  OS and Version:
+3c.  RAM:
+3d.  Who has access to run processes on the machine:
+3e.  Describe how ICMP unreachables and redirects are filtered:
+3f.  Please list nameservers that will be in resolv.conf,
+     and specify the version of BIND that each runs:
+3g.  What other services are running on the machine (ftp, www,
+     smtp, pop3, imap, etc):
+
+4.  IRCD Info
+4a.  IRCD type and version:
+4b.  Site IRCD obtained from:
+4c.  Person resposible for compiling and upgrading ircd:
+
+5.  Bot and Abuse Policies
+Please detail your policies on Bots and Abusive users, and how you plan
+to implement these policies:
+
+6.  Initial Opers
+Please list by name and common irc nicks the people who will have global O:
+lines on you server when it goes online:
+
+7.  The Essay Question
+How will EFnet benefit from your server being linked?
+
+8.  Traceroutes
+Please include the output of traceroutes to the following sites.  Note
+that many EFnet servers filter ICMP packets.  Run the traceroutes as
+far as you can and make a note that they stopped before reaching the
+destination.
+
+a) irc.xo.com
+
+b) irc..net
+
+c) www.chartercom.com
+
+d) irc.flamed.net
+
+e) irc.secsup.uu.net
+
+
+9) Who is your closest EFnet Hub admin ?  (server name and administrative
+	contact)
+ 
+
+------ CUT

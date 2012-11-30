@@ -1,0 +1,5 @@
+Usage: WINDOW CHANNEL <c>  
+  Directs all conversation with channel <c> to the current window. 
+  If you are not current on channel <c>, you will join it. If you 
+  are on channel <c> it will be diverted to the current window, 
+  possibly removing channel <c> from another window.

@@ -1,0 +1,9 @@
+Usage: DCC CLOSE <type> <nick> [<arguments>]
+  DCC CLOSE closes an unwanted DCC connection or offer. The type,
+  nick and arguments are the same as those shown by DCC LIST.
+  If the arguments are not specified, the oldest connection of
+  the specified type is closed.
+
+See Also:
+  DCC LIST
+  DCC RENAME

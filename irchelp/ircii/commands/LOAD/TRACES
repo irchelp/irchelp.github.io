@@ -1,0 +1,3 @@
+Usage: LOAD traces
+  Will reformat the way the output from TRACE appears totally.  
+  Cleans everything up considerably.

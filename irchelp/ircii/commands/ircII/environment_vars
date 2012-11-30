@@ -1,0 +1,14 @@
+The following environment variables are recognized by IRCII.
+
+IRCNICK   -  Specifies your default irc nickname
+IRCNAME   -  Specifies any lunacy you want instead of your real name
+IRCSERVER -  Specifies a default server list for IRCII
+IRCPATH   -  Specifies a list of directories IRCII should search when
+             the LOAD command is used to find IRCII scripts.
+	     (also see SET LOAD_PATH)
+IRCRC     -  Specifies a file to use instead of your $HOME/.ircrc.
+TERM      -  Specifies your terminal type
+HOME      -  Tells IRCII where your home directory is
+
+IrcII can find other environment variables through alias substitution.
+e.g. $HOST will show the HOST envariable, $PATH the PATH envariable.

@@ -1,0 +1,20 @@
+This is a little remote that facilitates /who *domain searches to see
+what servers allow a certain domain. It's the same as going through the
+list of nicks manually and doing a /whois on each person to see what
+servers they are using, but it generates a list of ALL the servers.
+Thanks to EFnet James.
+
+Put this in remotes (alt-r):
+
+RAW 352:* {
+  ECHO -s $5 $2 $6 $7 $3@ $+ $4 : $+ $8-
+  IF ($5 !ISIN %Servers) %Servers = %Servers $5
+  HALTDEF
+}
+
+Now do a /who search such as /who *.home.com  or /who *.aol.com, when it is
+done scrolling the results, the list of servers will be held in the variable
+%Servers. Just  //echo %Servers  to see the list of servers!
+
+Don't forget to /unset %Servers  before starting a new search, or it will
+just keep adding to the list of servers.

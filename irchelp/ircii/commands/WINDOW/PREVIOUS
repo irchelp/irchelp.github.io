@@ -1,0 +1,4 @@
+Usage: WINDOW PREVIOUS
+  Set the current window to the last numbered window
+  swapping the current window with the new window if
+  it was hidden.

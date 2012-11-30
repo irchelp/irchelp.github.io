@@ -1,0 +1,209 @@
+Note - this is purely a historical document. For up to date server lists, see:
+	http://www.irchelp.org/irchelp/networks/
+
+* * *
+
+EFNet server list: 09-15-95
+
+Servers that averaged less than 5 users or were up less than 25% of
+this period are not listed, as they are either extremely unreliable,
+brand new or probably not for general use.
+
+Keep in mind that not all servers will allow users from all sites,
+especially from distant sites.  Also note that most servers restrict
+or totally ban bots, so be sure to do `/motd <server>' and see if they
+do if you wish to place a bot there.  If in doubt, don't assume or
+guess - ask.  The email address of the admin of a server is available
+by typing `/admin <server>' in most cases.
+
+Try to choose a server that is close to you.  As a rule of thumb,
+servers that are close geographically are also close network-wise
+(which is what matters) but this rule of thumb is not always true.  If
+in doubt, email the admin of a nearby server, or ask on channel
+#irchelp.
+
+IP addresses are given for those using old IRC clients or who don't
+have working name servers.  It's best to use the server's full name as
+opposed to it's IP address, as the latter can change without warning.
+All servers should have resolvable hostnames ... but apparantly some
+do not.  The admins of these servers should update their DNS tables,
+as this makes these servers difficult to access.
+
+Almost all (all?) servers listen on port 6667.  Many listen to
+additional ports as well ... if there's a question, ask the server
+admin.
+
+This list will (if all goes well) be posted to alt.irc and
+alt.irc.questions twice a month.  I'm still working on the program I
+use to generate it, so it may change in format somewhat in the future.
+I plan on adding a field for comments about individual servers, such
+as `Netcom users only' so keep an eye out for it.  Direct questions or
+comments to me at dougmc@comco.com.
+
+   --- Server list follows ---
+
+              uni-linz.ac.at     unresolvable  Austria                       
+            itc.univie.ac.at     unresolvable  Austria                       
+           irc.wu-wien.ac.at     137.208.3.30  Austria                       
+             irc.utas.edu.au     131.217.10.4  Australia                     
+     ircserver.cltr.uq.oz.au    130.102.224.2  Australia                     
+                irc.uq.oz.au    130.102.46.10  Australia                     
+           irc.qabc.uq.oz.au    130.102.46.10  Australia                     
+           othello.ulb.ac.be    164.15.89.149  Belgium                       
+          portal.mbnet.mb.ca   130.179.16.140  Canada                        
+          sifon.cc.mcgill.ca    132.206.27.10  Canada                        
+               irc.cs.mun.ca      134.153.1.2  Canada                        
+                 elk.nstn.ca   137.186.130.10  Canada                        
+               irc.pangea.ca    204.112.101.1  Canada                        
+              irc.polymtl.ca    132.207.144.8  Canada                        
+       hadar.cc.umanitoba.ca    130.179.20.13  Canada                        
+                  irc.unb.ca      131.202.3.6  Canada                        
+                irc.yorku.ca     unresolvable  Canada                        
+                 irc.ethz.ch    129.132.104.6  Switzerland                   
+           irc02.irc.aol.com   152.163.173.26  USA, Virginia                 
+                irc.best.com   204.156.128.88  USA, California, Mountain View
+                irc.cris.com      199.3.12.20  USA, Michigan, Bay City       
+              irc.delphi.com    192.80.63.128  USA, Massachusetts            
+            irc-2.escape.com    199.171.167.6  USA, New York                 
+              irc.eskimo.com    204.122.16.98  USA, Washington               
+             irc.neosoft.com   198.64.213.130  USA, Texas                    
+              irc.netcom.com     192.100.81.2  USA, California               
+             irc2.netcom.com     unresolvable  USA, California               
+             irc3.netcom.com     unresolvable  USA, California               
+             irc4.netcom.com     unresolvable  USA, California               
+             irc5.netcom.com     unresolvable  USA, California               
+               irc.nokia.com     unresolvable  Finland                       
+              irc.portal.com    156.151.1.101  USA, California               
+            irc-2.portal.com     unresolvable  USA, California               
+            irc.primenet.com    204.245.0.246  USA, Arizona                  
+           irc.winternet.com   198.174.169.50  USA, MI, Eden Prarie          
+               noc.belwue.de      129.143.2.1  Germany                       
+                fu-berlin.de     unresolvable  Germany                       
+              rwth-aachen.de     unresolvable  Germany                       
+              tu-muenchen.de     unresolvable  Germany                       
+             uni-erlangen.de     unresolvable  Germany                       
+            uni-karlsruhe.de     unresolvable  Germany                       
+                   uni-kl.de     unresolvable  Germany                       
+            uni-paderborn.de    131.234.60.14  Germany                       
+                          ..      131.234.2.3  ..                            
+                          ..     131.234.10.3  ..                            
+              uni-rostock.de     unresolvable  Germany                       
+            uni-stuttgart.de     unresolvable  Germany                       
+   seltzer.csua.berkeley.edu     128.32.43.55  USA, California, Berkeley     
+             irc.ecn.bgu.edu    143.43.34.201  USA, Illinois                 
+               cs-pub.bu.edu    128.197.13.20  USA, Massachusetts            
+      azure.acsu.buffalo.edu      128.205.7.6  USA, New York                 
+            irc.math.byu.edu  128.187.219.120  USA, Utah                     
+        harp.aix.calpoly.edu      129.65.64.2  USA, California               
+             irc.caltech.edu  131.215.128.151  USA, California, Pasadena     
+            irc.colorado.edu  128.138.129.170  USA, Colorado                 
+      organ.ctr.columbia.edu     128.59.68.35  USA, New York                 
+   red-dwarf.cit.cornell.edu     132.236.56.9  USA, New York                 
+             irc.iastate.edu    129.186.150.1  USA, Iowa                     
+               irc.ilstu.edu       138.87.1.7  USA, IL, Normal               
+               irc-2.mit.edu       18.180.0.2  USA, Massachusetts            
+           irc.catt.ncsu.edu       152.1.43.9  USA, North Carolina           
+                irc.pitt.edu   136.142.185.34  USA, Pennsylvania             
+              irc.cs.rpi.edu    128.213.4.197  USA, New York                 
+             irc.rutgers.edu  165.230.224.131  USA, New Jersey               
+                irc.sdsc.edu   192.215.255.10  USA, California, San Diego    
+            irc.stanford.edu       36.55.0.50  USA, California               
+            anarchy.tamu.edu   128.194.12.120  USA, Texas, College Station   
+         pegasus.acs.ttu.edu     129.118.2.52  USA, Texas, Lubbock           
+             irc.ucdavis.edu     128.120.2.16  USA, California               
+          elliot.ics.uci.edu    128.195.16.10  USA, California, Irvine       
+                          ..    128.195.17.10  ..                            
+                          ..     128.195.1.18  ..                            
+                          ..     128.195.4.41  ..                            
+                          ..     128.195.5.18  ..                            
+                          ..      128.195.6.4  ..                            
+                irc.uiuc.edu     192.17.7.229  USA, Illinois                 
+   pegasus.ccs.itd.umich.edu    141.211.79.90  USA, Michigan                 
+                 irc.umn.edu   128.101.131.30  USA, Minnesota                
+            irc.csci.unt.edu     129.120.3.65  USA, Texas, Denton            
+          irc.ecn.uoknor.edu    129.15.112.34  USA, Oklahoma                 
+        mickey.cc.utexas.edu    128.83.108.20  USA, Texas, Austin            
+        minnie.cc.utexas.edu    128.83.108.21  USA, Texas, Austin            
+         tramp.cc.utexas.edu    128.83.108.27  USA, Texas, Austin            
+            irc.virginia.edu    128.143.22.24  USA, Virginia                 
+    becker1.u.washington.edu    140.142.12.67  USA, Washington               
+          joyce.eng.yale.edu    130.132.20.72  USA, Connecticut              
+                scott.uab.es     158.109.14.4  Spain                         
+               irc.clinet.fi       193.64.6.8  Finland                       
+               ircd.eunet.fi     192.26.119.4  Finland                       
+                irc.funet.fi     130.230.1.11  Finland                       
+         serifos.helsinki.fi     128.214.4.64  Finland                       
+            hutirc.cs.hut.fi   130.233.192.44  Finland                       
+               irc.cs.hut.fi    130.233.192.2  Finland                       
+          irc.freenet.hut.fi   130.233.208.41  Finland                       
+                   cs.jyu.fi     130.234.48.8  Finland                       
+             irc.kolumbus.fi     193.229.0.40  Finland                       
+              mopo.cc.lut.fi      157.24.10.3  Finland                       
+              aapo.it.lut.fi     157.24.11.60  Finland                       
+                 irc.otol.fi    193.64.225.62  Finland                       
+                 irc.oulu.fi   130.231.240.30  Finland                       
+                 irc.pspt.fi    192.98.38.220  Finland                       
+                  irc.sci.fi   193.184.207.46  Finland                       
+               kitt.tekla.fi      192.98.7.16  Finland                       
+               irc.cc.tut.fi   130.230.102.10  Finland                       
+                  irc.uta.fi       153.1.1.11  Finland                       
+                  irc.utu.fi     130.232.1.30  Finland                       
+               irc-gw.xgw.fi   193.210.10.128  Finland                       
+            eurecom8.cica.fr    192.70.34.208  France                        
+                 irc.enst.fr   137.194.160.14  France                        
+        sil.polytechnique.fr     192.48.98.14  France                        
+     irc.labri.u-bordeaux.fr    147.210.8.159  France                        
+      dafne.mines.u-nancy.fr     193.49.140.2  France                        
+        cismhp.univ-lyon1.fr  134.214.100.245  France                        
+               irc.tau.ac.il      132.66.16.5  Israel                        
+          irc.technion.ac.il       132.68.7.6  Israel                        
+                   isgate.is   130.208.165.63  Iceland                       
+                          ..      193.4.58.51  ..                            
+           irc.ccii.unipi.it    131.114.28.21  Italy                         
+  wsclark.huie.hokudai.ac.jp     133.50.16.80  Japan                         
+           irc.kyutech.ac.jp    131.206.1.101  Japan                         
+        akiu.gw.tohoku.ac.jp       130.34.8.9  Japan                         
+race-server.race.u-tokyo.ac.jp    157.82.76.2  Japan                         
+       news.cfi.waseda.ac.jp        133.9.1.4  Japan                         
+    irc.cc.yamaguchi-u.ac.jp    133.62.128.16  Japan                         
+ mentai.hakozaki.karrn.ad.jp     192.50.15.25  Japan                         
+             endo.wide.ad.jp       133.4.11.2  Japan                         
+        irc.kyoto.wide.ad.jp        133.4.8.5  Japan                         
+                          ..       133.4.19.1  ..                            
+        irc.tokyo.wide.ad.jp       133.4.3.17  Japan                         
+        wings.tokai-ic.or.jp     202.13.58.19  Japan                         
+         next00.mty.itesm.mx   131.178.15.100  Mexico                        
+                 irc.ais.net     199.0.154.13  USA, Illinois                 
+                 irc.apk.net   192.147.147.13  USA, Ohio                     
+                 irc.axs.net    205.216.70.18  USA, ?                        
+               irc.digex.net   205.197.247.96  USA, Maryland                 
+                irc.gate.net     199.227.0.11  USA, Florida                  
+                 irc.mcs.net   192.160.127.90  USA, Illinois                 
+                  irc.mo.net   199.250.196.13  USA, Missouri                 
+               irc.texas.net     204.96.20.11  USA, Texas, San Antonio       
+              irc.sci.kun.nl    131.174.124.9  Netherlands                   
+            irc.nijenrode.nl     192.87.112.5  Netherlands                   
+               irc.xs4all.nl     193.78.33.33  Netherlands                   
+                irc.hitos.no    158.39.19.112  Norway                        
+                  irc.uib.no    129.177.30.16  Norway                        
+            mimir.ifi.uio.no     129.240.86.2  Norway                        
+             irc.pvv.unit.no  129.241.210.232  Norway                        
+                     eff.org     140.174.2.70  USA, San Francisco            
+                  irc.io.org     198.133.36.8  Canada, Toronto               
+              irc.agh.edu.pl    149.156.96.12  Poland                        
+            irc.mimuw.edu.pl     148.81.12.44  Poland                        
+               irc.lublin.pl    193.59.55.167  Poland                        
+                      irc.ru      194.87.1.19  Russian Federation            
+          irc.dd.chalmers.se    129.16.117.11  Sweden                        
+             irc.nada.kth.se   130.237.226.10  Sweden                        
+            irc.ludd.luth.se    130.240.16.36  Sweden                        
+                irc.arnes.si       193.2.1.67  Slovenia                      
+        irc.csie.nctu.edu.tw   140.113.17.161  Taiwan                        
+         irc.csie.ncu.edu.tw    140.115.50.43  Taiwan                        
+              irc.ntu.edu.tw      140.112.1.7  Taiwan                        
+       ircserver.seed.net.tw     unresolvable  Taiwan                        
+         serv.eng.abdn.ac.uk   139.133.221.12  United Kingdom                
+          stork.doc.ic.ac.uk      146.169.2.7  United Kingdom                
+                          ..     146.169.43.2  ..                            
+          coanwood.ncl.ac.uk   128.240.150.49  United Kingdom                
+         dismayl.demon.co.uk     158.152.1.76  United Kingdom                

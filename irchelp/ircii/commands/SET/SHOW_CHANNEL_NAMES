@@ -1,0 +1,3 @@
+Usage: SET SHOW_CHANNEL_NAMES [ON|OFF|TOGGLE]
+  When ON, this will show the names of all the users on a channel when 
+  you join it.  When OFF, no names will be displayed.

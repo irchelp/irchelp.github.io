@@ -1,0 +1,7 @@
+Usage: BIND <key> ENTER_MENU
+  Enters the menu what was loaded by MLOAD and set into MENU.
+
+See Also: 
+  MENUS
+  SET MENU
+  MLOAD

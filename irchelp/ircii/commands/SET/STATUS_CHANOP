@@ -1,0 +1,4 @@
+Usage: SET STATUS_CHANOP <text of display for status line operator mode>
+  The value of STATUS_CHANOP is replaced in the STATUS_FORMAT
+  variable for any occurence of %@ if you have chanop status.
+  If you are not a chanop, %@ is replaced with nothing.

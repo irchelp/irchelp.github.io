@@ -1,0 +1,5 @@
+Usage: NOTE RM [&<passwd>] [+|-<flags>] [#<ID>] <nick!username@host>
+  Deletes any messages sent from your nick and username which matches
+  with nick and username@host. Use flags for matching all messages which
+  have the specified flags set on or off. See HELP FLAG for more info
+  about flag settings, and HELP LS for info about time.

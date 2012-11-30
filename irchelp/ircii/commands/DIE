@@ -1,0 +1,7 @@
+Usage: DIE
+  Causes your server to exit, die, pack it in, give up the ship,
+  kick the bucket, etc.
+  DIE is a server operator command.
+
+2.8 Servers:
+  DIE may not work anymore on 2.8 servers.

@@ -1,0 +1,4 @@
+Usage: WINDOW LIST 
+  Show a list of all windows in the following format...
+    *** Ref  Nick      Name  Channel    Query     Server     Level
+    *** 1    Daemon    <Non  #twilight_ <None>    ucsu.color NONE

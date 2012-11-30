@@ -1,0 +1,9 @@
+Usage: XTYPE [-LITERAL] <text>
+  XTYPE is like TYPE, except that it takes flag arguments.
+
+Available flags:
+  -LITERAL	Adds text to the input cursor, like /type does,
+		but bindings are ignored.
+
+See also:
+  TYPE

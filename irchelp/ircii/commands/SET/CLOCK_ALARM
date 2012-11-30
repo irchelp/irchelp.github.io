@@ -1,0 +1,5 @@
+Usage: SET CLOCK_ALARM [<time>|OFF]
+  Sets an alarm clock that will beep and send you a message when
+  the time arrives.  The time format may be either 12 hour format
+  (with AM or PM) or 24 hour format.  The CLOCK does not have to
+  be ON for the alarm to function.

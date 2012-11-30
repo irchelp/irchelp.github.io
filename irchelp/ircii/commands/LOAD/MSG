@@ -1,0 +1,19 @@
+Usage: LOAD msg
+  Contains some handy key bindings:
+  A variable LAST_WHOIS will always contain the person you last /whois'd.
+  A variable LAST_NOTIFY will contain the person that was last detected to
+  sign onto irc.
+
+  By typing META2 with ? you will be prompted 'MSG <last_whois> '
+  With META2 and ! you'll get 'MSG <last_notify> '
+
+  Additionally you also have META2-, which expands to
+    MSG <last person that sent you a msg> 
+  and META2-. to
+    MSG <last person you sent a msg to> 
+  analogue to the standard IRC shortcuts ('MSG .' and 'MSG ,').
+
+  META2 is defined by /bind, by default it is ^x.
+
+See Also:
+  LOAD commander

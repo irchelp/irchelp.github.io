@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]NICKNAME [-|^]<parameters> [action]
+  This is activated whenever someone on a channel you are on
+  changes their nickname. The parameters for this function are:
+    $0  Original nickname for that person
+    $1	New nickname for that person

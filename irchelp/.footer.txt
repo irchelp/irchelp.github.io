@@ -1,0 +1,12 @@
+<CENTER>
+<!-- navigation bar -->
+<IMG SRC="/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
+    ALT="-navigational bar-">
+<P>
+</CENTER>
+
+<H5 ALIGN=CENTER><A HREF="/irchelp/credit.html">Copyright &copy; 1996,1997</A> Joseph Lo
+and many others.<BR></H5>
+
+</BODY>
+</HTML>

@@ -1,0 +1,8 @@
+Usage: ON [#|+|-|^|&|@]WINDOW [-|^]<parameters> [action]
+  This is activated whenever text is sent to a matching window.
+  This can be used to echo information from one window to a
+  channel.  WARNING!!!  If you aren't careful you can get into some
+  infinite sending loops!  Use with care!
+  Parameters:
+	$0	Refnum or name of window
+	$1-	text of line sent to window

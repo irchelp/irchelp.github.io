@@ -1,0 +1,6 @@
+Usage: SET SCROLL [ON|OFF|TOGGLE]
+  Turns ON or OFF screen scrolling.  While OFF, when the cursor
+  reaches the bottom of the screen, it jumps to the top and
+  overwrites its way back down.  This mode is recommended for
+  *extremely* dumb terminals.  When ON, the screen will scroll
+  old information off the top.

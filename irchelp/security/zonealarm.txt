@@ -1,0 +1,47 @@
+IRC Issues with ZoneAlarm
+
+by Jonathan Peters aka Govvy @ EFnet
+
+This short guide covers common IRC problems seen with the ZoneAlarm
+personal firewall software product. The problems are common to all such
+products, we're just focusing on the specific fixes for ZoneAlarm here.
+Presumably you've already seen our Firewall FAQ at the URL below, and
+identified that your problem is indeed due to ZoneAlarm and nothing
+else:
+       http://www.irchelp.org/irchelp/security/fwfaq.html
+
+If you haven't read that guide yet, please do, otherwise you may be
+wasting time fixing stuff that isn't broken.
+
+----
+
+Problem: Identd
+
+The Identd isn't working, and you are having problems
+connecting to servers, and when you do connect you have incorrect identd
+settings and your username starts with ~ (tilde).
+
+Solution: You need to add the IP addresses of the servers you wish to
+connect to in the advanced settings on the security tab.
+
+Comment: If you can try and stick to 1 server for each network.
+
+----
+
+Problem: DCC
+
+When trying to send or receive items over DCC. The DCC
+doesn't respond at all and you just have error messages.
+
+Solution: You will need to add the IP of the person your sending to or
+receiving from into the advanced settings on the security tab. (Note
+that when you DCC send, the connection is actually incoming and vice
+versa. See the firewall FAQ above for details.)
+
+Comment: Most users use dynamic IPs so after you have finished sending,
+or your friend has disconnected from IRC, you should then remove that IP
+address from your advanced settings.
+
+The reason for that is, later on, that IP will be used again by another
+user and there is a possibility that user could be malicious and can do
+your computer harm.

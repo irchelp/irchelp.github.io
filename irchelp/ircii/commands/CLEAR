@@ -1,0 +1,4 @@
+Usage: CLEAR [-ALL] [-UNHOLD]
+  Clears the current window.
+  If the -ALL flag is used, clears all visible windows.
+  If the -UNHOLD flag is used, unholds a window.

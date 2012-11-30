@@ -1,0 +1,7 @@
+Usage: SET STATUS_QUERY <Status line text when querying>
+  This variable is replaced in the STATUS_FORMAT for occurrences of
+  %Q when you are querying someone.  This variable may contain
+  any text, plus it may contain a single occurence of %Q, which
+  is replaced by the name of the user you are querying.  For
+  example, you can set STATUS_QUERY to "Querying %Q", where %Q
+  is replaced by a the query nickname.

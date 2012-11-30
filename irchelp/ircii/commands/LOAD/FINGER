@@ -1,0 +1,7 @@
+Usage: LOAD finger
+  This script allows one to finger someone's account.  The format is:
+  finger nickname          display the finger for that nickname
+  finger -h nickname       display the finger of that nickname's host
+  finger user@some.host    display the finger of the given user@host
+  finger @some.host.name   display a finger @some.host.name
+  finger                   shows the format.

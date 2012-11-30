@@ -1,0 +1,2 @@
+Usage: BIND <key> ERASE_TO_BEG_OF_LINE
+  Erases from the cursor position to the beginning of the input line.

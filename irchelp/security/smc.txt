@@ -1,0 +1,68 @@
+Configuring SMC Router for IRC Use (identd and DCC)
+
+This is part of IRChelp.org's Firewall FAQ:
+	http://www.irchelp.org/irchelp/security/fwfaq.html
+
+Based upon http://duxcw.com/dcforum/dcboard.cgi?az=printer_format&forum=DCForumID2&om=1852&omm=4
+
+Slight edits by Jolo 6/6/02
+
+* * *
+
+#4, RE: Irc dcc send and SMC7004ABR
+Posted by ChAoTiC on May-29-02 at 10:48 AM
+In response to message #0
+
+1) First, configure the following mIRC options:
+
+file | options | connect | options
+   Default server port : 6667
+      (if necessary, change 6667 to whatever the network requires like 7000)
+   click on advanced button
+   check the 2nd checkbox "Binds socket to ip", in the text box
+      write your external ip adress
+      (Don't know it? Try //USERHOST $me or //DNS $me, then check status window.)
+
+file | options | connect | localinfo
+   delete all text in Local Host and IP Address
+   check "always get local host"
+   select the radio button for lookup method "server"
+
+file | options | dcc | options
+   DCC port: first 1024, last 1028
+      (that opens 5 ports which is enough for most people)
+
+That's all for the mIRC configuration.
+
+2) In the router:
+
+Now you actually need to open and forward ports in your router's firewall.
+This lets the router correctly send incoming traffic from the outside to your
+PC.
+
+In the Virtual Server page (setup | advanced settings | virtual server),
+open the following ports, note that the private and public ports are the same.
+
+Port 59 is the DCC server, 113 is for identd, 6667 (or whatever you set the
+default server port to in mIRC earlier) is for IRC itself. And finally the
+range of ports 1024 and up are for DCC sending, you can add more if you like,
+just make sure you match it with what you put in mIRC's DCC options.
+
+private port   type   public port
+    59          tcp      59
+   113          tcp     113
+  6667          tcp    6667
+  1024          tcp    1024
+  1025          tcp    1025
+  1026          tcp    1026
+  1027          tcp    1027
+  1028          tcp    1028
+
+For each line, put in the private IP of your PC where you want to use IRC.
+If you don't know your private IP, /run winipcfg. You may need to select
+your network adapter from the popup text box on top.
+
+3) You're done. Disconnect from the server and reconnect. If you did it right
+you can check to see if identd is working by doing "/whois nickname" on
+yourself, see if the ~ (tilde) before your username is gone. Then try to 
+DCC send some small text file to a buddy.

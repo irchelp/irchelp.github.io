@@ -1,0 +1,5 @@
+Usage: SET ALWAYS_SPLIT_BIGGEST [ON|OFF|TOGGLE]
+  If ON, all new windows displayed will split in half the largest
+  visible window to make room for themselves.  If OFF, the 
+  current window is always split unless it is too small, then the
+  largest is split.

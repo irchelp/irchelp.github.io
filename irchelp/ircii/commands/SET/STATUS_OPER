@@ -1,0 +1,4 @@
+Usage: SET STATUS_OPER <text of display for status line operator mode>
+  The value of STATUS_OPER is replaced in the STATUS_FORMAT
+  variable for any occurence of %* if you have operator status.
+  If you are not an operator, %* is replaced with nothing.

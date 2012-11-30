@@ -1,0 +1,6 @@
+Usage: ON [#|+|-|^|&|@]SEND_PUBLIC [-|^]<parameters> [action]
+  This is activated whenever you send a message to a channel you
+  are on.
+  The parameters for the action are as follows:
+    $0    Name of the channel to which the message is going
+    $1-   The message itself

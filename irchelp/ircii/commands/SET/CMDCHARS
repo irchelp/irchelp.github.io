@@ -1,0 +1,4 @@
+Usage: SET CMDCHARS <character set>
+  Sets the set of characters which may be used to specify a 
+  command to IRCII.  You can specify as many characters as you
+  wish to be command characters.

@@ -1,0 +1,377 @@
+<html><head>
+<!-- base href="http://www.ircworks.com/ics.htm" -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document"><title>mIRC and ICS</title>
+
+<link rel="stylesheet" type="text/css" href="ics_files/dalstyle.css"></head>
+
+<body alink="#ff0000" vlink="#0000ff">
+
+<p align="center"><font color="red"><b>Ed. note: This page was rescued from ircworks.com when it got discontinued. Links may or may not work, it is maintained here just for the information contained on this page itself. -Jolo</b></font>
+
+<p>&nbsp;</p>
+<p align="center"><font color="#0000ff" face="Arial" size="6">mIRC and ICS</font></p>
+<p align="center"><font face="Arial" size="2">dumped by Wayne3, phrased by
+Jeepster</font></p>
+<p align="left"><font face="Arial" size="2">
+<a name="General Introduction">
+General Introduction</a><br>
+<a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#Port%20Mapping/NAT32">
+PortMapping/NAT32</a><br>
+<a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#Concerning%20firewalls">
+Firewalls</a><br>
+<a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#IP%20Assignments">
+IP addresses</a><br>
+<a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#Equipment%20Recommendations">
+Equipment</a><br>
+<a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#mIRC%20Settings">
+mIRC Settings</a><br>
+<a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#Tutorials,%20Info,%20Reference%20URLS">
+Tutorial/Reference URLs</a>&nbsp;</font></p>
+<div align="center">
+  <center>
+  <table border="0" height="62" width="500">
+    <tbody><tr>
+      <td align="center" height="20" width="600"><font face="Arial" size="3"><b>Good
+        Info On Other Sites</b></font></td>
+    </tr>
+    <tr>
+      <td height="20" width="600"><font face="Arial" size="2">LinkSys: <a href="http://web.archive.org/web/20030810152446/http://www.practicallynetworked.com/support/linksys_router_help_pg4.htm#mIRC">http://www.practicallynetworked.com/support/linksys_router_help_pg4.htm#mIRC</a></font></td>
+    </tr>
+    <tr>
+      <td height="11" width="600"><font face="Arial" size="2">LinkSys Tutorial: <a href="http://web.archive.org/web/20030810152446/http://kareno.net/LinkSys/" target="_blank">http://kareno.net/LinkSys/</a></font></td>
+    </tr>
+    <tr>
+      <td height="11" width="600"><font face="Arial" size="2">NetGear Router: <a href="http://web.archive.org/web/20030810152446/http://jason-n3xt.org/melio/MIRCNETGEAR.htm" target="_blank">http://jason-n3xt.org/melio/MIRCNETGEAR.htm</a></font></td>
+    </tr>
+    <tr>
+      <td height="11" width="600"><font face="Arial" size="2">Win XP &amp; mIRC:
+        <a href="http://web.archive.org/web/20030810152446/http://toidyman.net/xp-dcc/" target="_blank">http://toidyman.net/xp-dcc/</a></font></td>
+    </tr>
+    <tr>
+      <td height="11" width="600"><font face="Arial" size="2">Proxies: <a href="http://web.archive.org/web/20030810152446/http://www.mirc.co.uk/help/proxies.html">http://www.mirc.co.uk/help/proxies.html</a></font></td>
+    </tr>
+    <tr>
+      <td height="10" width="600"><font face="Arial" size="2">ICS/Firewalls/Wingate:
+        <a href="http://web.archive.org/web/20030810152446/http://www.borg.com/%7Echuck/using.htm">http://www.borg.com/~chuck/using.htm</a></font></td>
+    </tr>
+    <tr>
+      <td height="10" width="600">
+        <p align="center"><font face="Arial" size="2"><b>More Info&amp; Tutorial
+        links at bottom of the page</b></font></p></td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+<p align="left">&nbsp;</p>
+<p align="left"><font face="Arial" size="2"><font color="#ff0000"><b>I</b></font>nternet
+<font color="#ff0000"><b>C</b></font>onnection <font color="#ff0000"><b>S</b></font>haring
+(ICS) is becoming very popular at both home and work.&nbsp; One of the drawbacks
+to this has been loss of <font color="#ff0000"><b>D</b></font>irect <font color="#ff0000"><b>C</b></font>lient
+to <font color="#ff0000"><b>C</b></font>lient (DCC) capability while using mIRC.&nbsp; Usually the
+individual on the home network could receive DCC chats and file sends, but they
+could not initiate them.&nbsp; This is due to the nature of the <font color="#ff0000"><b>C</b></font>lient
+<font color="#ff0000"><b>T</b></font>o <font color="#ff0000"><b>C</b></font>lient
+<font color="#ff0000"><b>P</b></font>rotocol (CTCP) that DCC derives from. (<a href="http://web.archive.org/web/20030810152446/http://www.invlogic.com/irc/ctcp.html" target="_blank">offsite
+ctcp/dcc protocol info</a>)</font></p>
+<p align="left"><font face="Arial" size="2">Not being an <font color="#ff0000"><b>L</b></font>ocal
+<font color="#ff0000"><b>A</b></font>rea <font color="#ff0000"><b>N</b></font>etwork
+(LAN) kind
+of user, I decided it was time to find someone who is knowledgeable and willing
+to spend some time sharing ideas on how to make mIRC more functional when used
+on a LAN, Home Network, or ICS environment.&nbsp; Wayne3 kindly consented to sharing his
+experience and ideas.</font></p>
+<div align="center">
+  <center>
+  <table border="0" height="261" width="662">
+    <tbody><tr>
+      <td height="261" valign="top" width="159"><font face="Arial" size="2">&nbsp;</font>
+        <p><font face="Arial" size="2">An ICS system usually consists of a
+        internet connection via an internet service provider and a gateway
+        computer that connects to the ISP via dial-up modem, cable modem, or DSL
+        modem.&nbsp; </font></p>
+        <p><font face="Arial" size="2">Then other computers are connected
+        to the gateway computer using <font color="#ff0000"><b>N</b></font>etwork
+        <font color="#ff0000"><b>I</b></font>nterface <font color="#ff0000"><b>C</b></font>ards
+        (NIC).&nbsp; This is often done via a "hub" that enables
+        one or more connections from other computers to the gateway
+        computer.&nbsp; </font></p><p><font face="Arial" size="2">Not all Home
+        Networks use a hub.&nbsp; However this info should be useful to them as
+        well.</font></p></td>
+      <td height="261" width="352">
+        <p align="center"><img src="ics_files/icshub.jfif" alt="Internet Connection Sharing Graphic" border="0" height="400" width="350"></p></td>
+      <td height="261" valign="top" width="131">&nbsp;
+        <p><font face="Arial" size="2">Here we have three computers that use a
+        single connection to the internet.&nbsp; Simple, eh?</font></p>
+        <p><font face="Arial" size="2">The problem occurs with DCC because as
+        far as the internet is concerned, all three computers are using the same
+        IP address, the IP assigned to the gateway computer by the ISP.&nbsp; </font></p>
+        <p><font face="Arial" size="2">And to complicate it, the port that the
+        client computer opens when it starts a DCC chat or file send isn't
+        reported correctly to the computer at the other end of the internet.</font></p>
+        <p><font face="Arial" size="2">Ultimately, DCC sends and chats fail!</font></p>
+      </td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+<p align="left"><font face="Arial" size="2">Windows users, including Win98, Win ME, Win2000 pro can restore their DCC capability.&nbsp; It involves <b>Port
+Mapping</b>.&nbsp; No, not <i> Port Scanning</i>!&nbsp; Port mapping allows the gateway
+computer to pass info correctly between the client computers and the
+internet.&nbsp; The simple fix is NAT32.&nbsp; It costs a few bucks, between
+$25.00 and $50.00 US, depending on which version you purchase.&nbsp; All info
+here is without guarantee or warranty of any sort, either by myself or Wayne3,
+we are simply sharing ideas and experiences that will hopefully benefit other
+IRC users.</font></p>
+<p align="left"><font face="Arial" size="2"><a name="Port Mapping/NAT32"><b>Port
+Mapping/NAT32</b></a></font></p>
+<font face="Courier New" size="2">
+</font><p><font face="Courier New" size="2">&lt;Wayne3&gt; Ok, ICS will not work with DCC chat over a lan without a Port
+Mapper.<br>
+&lt;Jeepz-&gt; okay ..<br>
+&lt;Wayne3&gt; Let me grab the URL for a good freeware port mapper. </font><a href="http://web.archive.org/web/20030810152446/http://www.analogx.com/contents/download/network/pmapper.htm" target="_blank">
+<font face="Arial" size="2">
+Freeware Port Mapper URL</font></a><font face="Courier New" size="2">
+<br>
+&lt;Wayne3&gt; If they install a port mapper, they will only be able to use
+DCC with DCC Server on the specific port they set :)<br>
+&lt;Jeepz-&gt; so they need to set a specific port in mIRC options?<br>
+&lt;Jeepz-&gt; and the same port on their server?<br>
+&lt;Wayne3&gt; Port in their DCC Server in mIRC options needs to be same as
+the one being mapped on the gateway machine.<br>
+&lt;Jeepz-&gt; any URL for doing the gateway setting .. I suppose that varies
+depending on what software they use<br>
+&lt;Wayne3&gt; Right ICS Wizard it auto, <b><i> I recommend they drop $30 and get
+NAT32 <font color="#ff0000">*</font></i></b><br>
+&lt;Wayne3&gt; NAT32 will allow DCC chat without any extra software&nbsp; </font><a href="http://web.archive.org/web/20030810152446/http://www.nat32.com/" target="_blank"><font face="Arial" size="2">NAT32
+URL<br>
+</font></a>
+<font face="Courier New" size="2">
+&lt;Wayne3&gt;<b><i> NAT32 is better by 1000% <font color="#ff0000">*</font></i></b><br>
+&lt;Jeepz-&gt; okay .. so they use nat32 to do their port mapping on the
+gateway computer .. set the client computer (workstation) mIRC to use DCC server
+and same port .. ?<br>
+&lt;Wayne3&gt; Now if they are using a router it all work fine with DCC chat,
+even across subnets and domains because the header information will contain the
+correct address for the packets.
+</font>
+</p>
+<font face="Courier New" size="1">{<font color="#ff0000">* </font>note: bold and italics added by Jeepster
+for reader's benefit}</font><br>
+<font face="Courier New" size="2">
+<p><a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#General%20Introduction">Top</a></p>
+</font>
+<p><font face="Arial" size="2"><b><a name="Concerning firewalls">Concerning
+firewalls</a>:</b> </font></p>
+
+<font face="Courier New" size="2">
+</font><p><font face="Courier New" size="2">&lt;Wayne3&gt; Okay firewall information.<br>
+&lt;Jeepz-&gt; k ..&nbsp;<br>
+&lt;Wayne3&gt; Most firewalls will block all unauthorized connections, but
+for example ZoneAlarm allows you to add applications that are allowed to do
+everything they want.<br>
+&lt;Wayne3&gt; Users will want to look into that.<br>
+&lt;Wayne3&gt; k, so always have them check that. If they can have them
+disable the firewall and try to DCC to see if that is the issue.<br>
+&lt;Wayne3&gt; np, another thing is to have the user always check with their
+ISPs about Firewall, blocked ports, etc..<br>
+&lt;Wayne3&gt; Some ISPs block port 80, 110, 23, 22, 25, etc.. to stop users
+from running servers :)<br>
+&lt;Wayne3&gt; Those are low level ports and only mail, web, ftp, and those
+types of daemons would use bind to those ports :)<br>
+&lt;Jeepz-&gt; right .. basic trouble shooting technique<br>
+&lt;Wayne3&gt; Also ask them if they are using a HUB, a high collision rate
+on the network can cause packets not reach their destination.<br>
+&lt;Jeepz-&gt; okay ..<br>
+&lt;Wayne3&gt; Causing slow DCC, or Unable to Connect Errors a few times,
+then all of the sudden work<br>
+&lt;Wayne3&gt; then fail again a couple times, then work, etc...<br>
+&lt;Jeepz-&gt; erratic performance<br>
+&lt;Jeepz-&gt; I see .. though many of these folks are on smaller home based
+nets .. not all mind you<br>
+&lt;Jeepz-&gt; but many .. that's getting much popular these days .. and a
+source of many questions<br>
+&lt;Jeepz-&gt; so that would possibly show up if they have a hub and maybe
+five or six machines .. or does it need a much larger network to become a
+problem?<br>
+&lt;Wayne3&gt; If you get someone who cannot use mIRC at all with their
+client machines make sure they can access LAN resources and browse the web
+before trying to fix their mIRC problem!!<br>
+&lt;Wayne3&gt; Sorry had to throw that in ;)<br>
+&lt;Jeepz-&gt; oh yeah .. no prob ..<br>
+&lt;Wayne3&gt; No I have experienced that problem before at friends house
+with a 3 LAN network<br>
+&lt;Jeepz-&gt; so small size isn't immune to it .. good to know</font></p>
+<p><font face="Courier New" size="2">&nbsp;</font></p>
+<p><font face="Courier New" size="2"><a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#General%20Introduction">Top</a>
+</font>
+
+</p><p>
+
+<font face="Arial" size="2">
+<b>
+<a name="Equipment Recommendations">
+Equipment Recommendations</a>:</b>
+</font>
+</p>
+<font face="Courier New" size="2">
+<br>
+&lt;Wayne3&gt; LinkSys 10BaseT 5 Port Hub (Home LAN) is very popular and is a
+shit Hub and will collide every 5 seconds if more than one machine is access
+something.<br>
+&lt;Jeepz-&gt; ah .. yeah, I see folks using LinkSys often .. must be
+inexpensive<br>
+&lt;Wayne3&gt; Yep :)<br>
+&lt;Jeepz-&gt; you have any suggestion for better performance while watching
+pennies?<br>
+&lt;Wayne3&gt; They build nice industry equipment, but their home base
+products blow<br>
+&lt;Wayne3&gt; I only recommend Cisco, Netgear, and 3Com networking hardware
+:)<br>
+&lt;Jeepz-&gt; k .. I use 3Com here .. so pay for what you get basically<br>
+&lt;Wayne3&gt; Intel Pro is one NIC I make exception for because its a good
+card :)<br>
+&lt;Wayne3&gt; But it uses a 3com based chipset ;)<br>
+&lt;Jeepz-&gt; ah ..<br>
+&lt;Wayne3&gt; Yep, what you pay is what you get .. "If its to good to
+be true it is"<br>
+&lt;Jeepz-&gt; Cisco's good stuff .. but pricey ..<br>
+&lt;Wayne3&gt; Worth every penny, best there is.<br>
+<font color="#ff00ff">
+* Jeepz- nods</font><br>
+&lt;Wayne3&gt; A Q&amp;D solution to a lot of collisions on a LAN is to get
+another NIC on the Gateway machine :)<br>
+&lt;Jeepz-&gt; two NIC on the gateway .. one to the net .. the other to the
+LAN?<br>
+&lt;Wayne3&gt; Right, one to their ISPs equipment and one to their HUB or
+home Router.<br>
+&lt;Jeepz-&gt; k ;-)
+</font>
+<p><font face="Courier New" size="2"><a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#General%20Introduction">Top</a></font></p>
+<p>
+<font face="Arial" size="2"><b><a name="IP Assignments">IP Assignments</a>:</b>
+</font>
+</p>
+<font face="Courier New" size="2">
+</font><p><font face="Courier New" size="2">&lt;Wayne3&gt; Make sure they have their IPs on there networks correct, with
+ICS Windows won't bitch if two machines have the IP of 192.168.0.1 on the same
+subnet<br>
+&lt;Wayne3&gt; I cannot count how many times I have typed the same IP into
+two clients.<br>
+&lt;Jeepz-&gt; does their ISP provide them with multiple IP's or is there a generally used
+for protocol assignment?<br>
+&lt;Wayne3&gt; I mean private IPs, like 192, 168, 172(or is it 176), 10.<br>
+&lt;Wayne3&gt; On a LAN in the same subnet, ICS won't bitch at you for that,
+and your basic features like email, web, and irc will work but DCC will not<br>
+&lt;Jeepz-&gt; I see .. so it is a specific group that would be recognized
+within the network but not viable for NET connection .. dunno if I'm phrasing
+that so it makes sense<br>
+&lt;Wayne3&gt; Yes, they are IPs reserved for LANs<br>
+&lt;Jeepz-&gt; okay .. that makes sense.<br>
+&lt;Wayne3&gt; 10 machines -&gt; hub -&gt; router (with a public IP) this
+saves companies for having to buy IPs for every single client machine.
+</font></p>
+<p><font face="Courier New" size="2"><a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#General%20Introduction">Top</a><br>
+</font></p>
+
+<p>
+<font face="Arial" size="2">
+<b><a name="mIRC Settings">mIRC Settings</a>:</b>
+</font>
+</p>
+<font face="Courier New" size="2">
+<p>&lt;Jeepz-&gt; more along the line of how the user would set mIRC itself ..&nbsp;<br>
+&lt;Wayne3&gt; Well really, if your initial network setup is done well, there is no&nbsp;<br>
+  special setup for mIRC needed.<br>
+&lt;Jeepz-&gt; hmm .. okay.  but they are going to wonder what to put in the&nbsp;<br>
+  Userhost and IP fields, or what to set for Method.  Or at least what to expect to&nbsp;<br>
+  see there if everything goes right&nbsp;<br>
+&lt;Wayne3&gt; Leave them blank and user server as the method, it should populate with
+the correct information<br>
+&lt;Jeepz-&gt; okay .. that makes sense ..&nbsp;<br>
+&lt;Wayne3&gt; If everything goes right, you can expect mIRC to function just as if you&nbsp;<br>
+  had a modem and where using dial-up connection :)</p>
+<p><a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#General%20Introduction">Top</a></p>
+</font>
+<p>
+<font face="Arial" size="2">
+<b>
+<a name="Tutorials, Info, Reference URLS">
+Tutorials, Info, Reference URLS</a>:</b></font></p>
+<font face="Courier New" size="2">
+<p>&lt;Wayne3&gt; Umm let me dig up a URL real quick for LAN newbies<br>
+&lt;Wayne3&gt; ICS Tutorial(s) and HowTos - <a href="http://web.archive.org/web/20030810152446/http://www.generation.net/%7Ehleboeuf/ics.htm" target="_blank">http://www.generation.net/~hleboeuf/ics.htm</a><br>
+&lt;Wayne3&gt; <a href="http://web.archive.org/web/20030810152446/http://www.microsoft.com/technet/network/ipvers6.asp" target="_blank"> http://www.microsoft.com/technet/network/ipvers6.asp</a> &lt;--
+this makes good reading also&nbsp;<br>
+&lt;Wayne3&gt; <a href="http://web.archive.org/web/20030810152446/http://www.landfield.com/faqs/internet/tcp-ip/resource-list/" target="_blank">http://www.landfield.com/faqs/internet/tcp-ip/resource-list/</a>
+&lt;-- list of TCP/IP books and resources (good for LAN/WAN information)<br>
+&lt;Wayne3&gt; one more .... <a href="http://web.archive.org/web/20030810152446/http://www.books.mfi.com/lan/LANTut3rdEd.html">http://www.books.mfi.com/lan/LANTut3rdEd.html</a><br>
+&lt;Wayne3&gt; last one -&gt; <a href="http://web.archive.org/web/20030810152446/http://www.wizard.com/users/baker/public_html/NetTutor.html">http://www.wizard.com/users/baker/public_html/NetTutor.html</a><br>
+&lt;Wayne3&gt; the last one I think is more along the lines your looking for<br>
+&lt;Jeepz-&gt; great .. thanks much .. appreciate you sharing your expertise!</p>
+Port Mapping URLs:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAT32:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20030810152446/http://www.nat32.com/" target="_blank">http://www.nat32.com/</a><br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port Mapper: <a href="http://web.archive.org/web/20030810152446/http://www.analogx.com/contents/download/network/pmapper.htm" target="_blank">http://www.analogx.com/contents/download/network/pmapper.htm</a>
+</font>
+
+<p>
+<font face="Arial" size="2">
+<a href="http://web.archive.org/web/20030810152446/http://www.ircworks.com/ics.htm#General%20Introduction">Top</a>
+<br>
+Other Good Sources of Info:
+</font></p>
+
+<p>
+&nbsp;</p>
+
+<p>
+&nbsp;</p>
+
+<p>
+&nbsp;</p>
+
+<p align="center">
+<a href="javascript:void(0)"><img src="ics_files/backblu.gif" onmouseover="this.src='/images/backred.gif'" onmouseout="this.src='/images/backblu.gif'" onclick="history.back(); return(false);" border="0" height="60" width="120"></a>
+</p><p align="center">&nbsp;</p>
+
+
+<!-- SOME LINK HREF'S ON THIS PAGE HAVE BEEN REWRITTEN BY THE WAYBACK MACHINE
+OF THE INTERNET ARCHIVE IN ORDER TO PRESERVE THE TEMPORAL INTEGRITY OF THE SESSION. -->
+
+
+<script language="Javascript">
+<!--
+
+// FILE ARCHIVED ON 20030810152446 AND RETRIEVED FROM THE
+// INTERNET ARCHIVE ON 20050628143721.
+// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+// SECTION 108(a)(3)).
+
+   var sWayBackCGI = "http://web.archive.org/web/20030810152446/";
+
+   function xLateUrl(aCollection, sProp) {
+      var i = 0;
+      for(i = 0; i < aCollection.length; i++)
+         if (aCollection[i][sProp].indexOf("mailto:") == -1 &&
+             aCollection[i][sProp].indexOf("javascript:") == -1)
+            aCollection[i][sProp] = sWayBackCGI + aCollection[i][sProp];
+   }
+
+   if (document.links)  xLateUrl(document.links, "href");
+   if (document.images) xLateUrl(document.images, "src");
+   if (document.embeds) xLateUrl(document.embeds, "src");
+
+   if (document.body && document.body.background)
+      document.body.background = sWayBackCGI + document.body.background;
+
+//-->
+
+</script>
+
+<p align="center"><font color="red"><b>Ed. note: This page was rescued from ircworks.com when it got discontinued. Links may or may not work, it is maintained here just for the information contained on this page itself. -Jolo</b></font>
+</body></html>

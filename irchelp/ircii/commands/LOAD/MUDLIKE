@@ -1,0 +1,26 @@
+Usage: LOAD mudlike
+  ircII interface for people who like the way one communicates on MUDs.
+  It makes ircII act almost the same way:
+
+  Removes the / before commands, everything you type is supposed to be
+  a command. To speak to a channel use 'SAY <text>', to speak to a person
+  use 'TELL <person> <text>' or use 'QUERY <person>' and 'SEND <text>'.
+
+  When you 'LOAD action' you get the 'smile', 'grin' etc. commands which
+  ALSO transmit over a query! So be careful if you are in a query or not.
+  The ' symbol itself is a quickie for the 'send' command which either
+  sends to the query or the channel, therefore behaving as in MUDs.
+
+  If you type one space before text, that is space as a command like this:
+  ' <text>', it always goes to the channel.
+  Much of the irc output is modified in a way that it looks more familiar
+  to MUDders.
+
+  'emote' is defined as 'me'.
+
+See also:
+  SET COMMAND_MODE
+  SAY
+  ME
+  LOAD ACTION
+  SEND

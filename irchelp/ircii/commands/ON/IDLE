@@ -1,0 +1,8 @@
+Usage: ON [#|+|-|^|&|@]IDLE [-|^]<parameters> [action]
+  This is activated when IRCII has been idle for a period of
+  time.  Idleness is in minutes from the last keystroke.
+  Parameters:
+        $0       minutes idletime
+
+  So, ON IDLE 5 /ECHO FINISHED will print out "FINISHED"
+  after a period of 5 minutes without any key pressed.

@@ -1,0 +1,5 @@
+Usage: SET SUPPRESS_SERVER_MOTD [ON|OFF|TOGGLE]
+  This will prevent you from seeing the motd from the server when you
+  connect to a server.  This is not to be confused with the IRCII motd
+  which your installation may or may not have.  You will still see the
+  server motd if you use the /MOTD command.

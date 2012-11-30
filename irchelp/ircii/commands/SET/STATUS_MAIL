@@ -1,0 +1,6 @@
+Usage: SET STATUS_MAIL <Status line text when you have mail>
+  The contents of STATUS_MAIL are replaced in the STATUS_FORMAT
+  variable for any occurence of %M while you get new mail.  The
+  STATUS_MAIL may contain occurences of %M which will be replaced
+  by the total number of mail messages you have.  If you have
+  no mail, %M is replaced by nothing in the STATUS_FORMAT.

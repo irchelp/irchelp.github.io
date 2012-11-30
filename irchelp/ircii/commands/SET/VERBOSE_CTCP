@@ -1,0 +1,3 @@
+Usage: SET VERBOSE_CTCP [ON|OFF|TOGGLE]
+  When this is set ON, you will see any CTCP queries
+  anyone sends to your client.

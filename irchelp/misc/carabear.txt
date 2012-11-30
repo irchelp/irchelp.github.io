@@ -1,0 +1,1110 @@
+January 18, 2001 going into January 19, 2001
+Log exceeds 1100 lines and 1 hour 22 mins!
+
+[23:57] *** CaraBear (Michele@206.146.182.11) has joined 
+#irchelp
+[23:57] <NoizyToyz> no twisting tht!
+[23:57] <NoizyToyz> that
+[23:57] <dracus> at least she didn't lay ON the keyboard.
+[23:57] <NoizyToyz> she usually does that
+[23:58] <CaraBear> Excuse me?
+[23:58] <NoizyToyz> yep
+[23:58] <Etude> you are excused
+[23:58] <Etude> what did you do?  burp?
+[23:58] <NoizyToyz> and she just knocked off the mouse
+[23:58] <dracus> my cat used to type with her paws.
+[23:58] <CaraBear> if I had a question about my computer that 
+  I purchased would this be the place to ask?
+[23:58] <NoizyToyz> dracus: mine does
+[23:58] <Etude> probably not.  What was the question?
+[23:58] <Apatrix> Unless your question relates to IRC, #help 
+  might be a more appropriate place
+[23:58] <Apatrix> But then we're bored :)
+[23:58] <Apatrix> (as is evident from the current 
+  conversation)
+[23:59] <NoizyToyz> heh
+[23:59] <CaraBear> oh, well anyone know of a good tech 
+  channel?
+[23:59] <NoizyToyz> here
+[23:59] <CaraBear> or maybe I could get help here?
+[23:59] <prysm-> what is the problem?
+[23:59] <prysm-> you can ask
+[23:59] <NoizyToyz> yeah
+[23:59] <Apatrix> We're as suitable as any
+[23:59] <prysm-> if we can't help, we can't help
+[23:59] <NoizyToyz> were almost fully equipped tho :)
+[00:00] <CaraBear> okay, well I just purchased this new Acer 
+  that I just got set up tonight and everything seems to be 
+  working just fine except for my mouse speed seems to be a 
+  little lagged
+[00:00] <CaraBear> but that's not the problem
+[00:00] * Apatrix is well-equipped
+[00:00] <CaraBear> it seems that it came with an external 
+  modem, which i'm not very familiar with and I cannot for 
+  the life of me figure out how to correctly hook it up
+[00:00] <NoizyToyz> Apatrix: being well endowed is not 
+  helping in this situation
+[00:00] <Apatrix> Ah, external modems
+[00:00] <NoizyToyz> Care: just plug it in
+[00:00] <Apatrix> joy joy joy
+[00:00] <CaraBear> I mean...I know where it hooks into the 
+  power strip, but there aren't any slots to the computer
+[00:00] <NoizyToyz> most modern computer autodetect
+[00:01] <NoizyToyz> its prolly a USB
+[00:01] <dracus> you'll need a cable to connect it to the 
+  computer.
+[00:01] <Apatrix> Last time I set up one of those was, umm, 
+  four years ago
+[00:01] <CaraBear> hmm
+[00:01] <Apatrix> Must have come with some sort of cable
+[00:01] <CaraBear> it is a brand new computer, this is my 
+  first night using it and everything seems to be fine
+[00:01] <NoizyToyz> i set up an external USB modem just a few 
+  weeks ago
+[00:01] <Etude> I would think so
+[00:02] <Apatrix> How are you presently online, if not with 
+  said modem?
+[00:02] <CaraBear> the Internet
+[00:02] <NoizyToyz> heh
+[00:02] <NoizyToyz> wha?
+[00:02] <NoizyToyz> how
+[00:02] <NoizyToyz> how are you connected to the internet
+[00:02] * Apatrix uses the Blank Look
+[00:03] * NoizyToyz patents the Blank Look
+[00:03] <CaraBear> umm, i'm using my new computer...
+[00:03] <Apatrix> sorry pal, prior art
+[00:03] <CaraBear> I clicked on the ISP thing?
+[00:03] <NoizyToyz> with what?
+[00:03] <Etude> are you currently on your new computer?  the 
+  one with the external modem that you can't hook up?
+[00:03] <NoizyToyz> a modem?
+[00:03] <NoizyToyz> cable?
+[00:03] <NoizyToyz> dsl?
+[00:03] <Tailspin> If the modem isn't connected, you couldn't 
+  dial into the internet  ?
+[00:03] <NoizyToyz> phone line?
+[00:03] * dracus smells something ...
+[00:03] <CaraBear> I have an external modem
+[00:03] <NoizyToyz> dracus: thats me
+[00:03] <shuer> time for taller boots
+[00:03] <CaraBear> but I cannot figure out how to hook it up
+[00:03] <CaraBear> but I wanted to use ICQ and such
+[00:03] <NoizyToyz> dracus: i havent bathed since yesterday
+[00:04] * Apatrix smells after dracus
+[00:04] <Tailspin> CaraBear , if your using it, Its hooked up
+[00:04] <NoizyToyz> yeah
+[00:04] <Etude> Give me a T
+[00:04] <NoizyToyz> where did i put my hard hat?
+[00:04] <NoizyToyz> T
+[00:04] <Apatrix> Gimme an R
+[00:04] <Etude> give me an r
+[00:04] <NoizyToyz> R
+[00:04] <CaraBear> well I figured out how to plug the modem 
+  into the power strip but there wasn't anyplace on the 
+  computer to hook it up to so I put that back in the box
+[00:04] <NoizyToyz> R
+[00:04] *** DriFan3 (~Skank@nic-31-c15-073.mn.mediaone.net) 
+has joined #irchelp
+[00:05] <NoizyToyz> gimme a T, o, y, z!
+[00:05] <NoizyToyz> oi
+[00:05] <Apatrix> Can I have an O?
+[00:05] <Tailspin> CaraBear Umm, what do you need the modem 
+  for, sence you obiously already have one in the computer, 
+  that your now using to connect to the internet with
+[00:05] <NoizyToyz> O!
+[00:05] <shuer> ToyzRus
+[00:05] <NoizyToyz> shuer: amen to that
+[00:05] <CaraBear> Tailspin: I need to go online so that I 
+  can use ICQ but I can't without finding out where to hook 
+  up my external modem
+[00:06] <Tailspin> CaraBear , you are online
+[00:06] <NoizyToyz> care: YOU ARE ONLINE
+[00:06] <CaraBear> how do you figure that one?
+[00:06] <CaraBear> I need to hook up my modem first
+[00:06] <NoizyToyz> what the dilly o
+[00:06] <Tailspin> Your talking to us, do you think thats 
+  magic ?
+[00:06] <NoizyToyz> your here
+[00:06] <Etude> Magic!
+[00:06] <NoizyToyz> your onlie
+[00:06] <Apatrix> These guys have amazing powers of deduction
+[00:06] <NoizyToyz> man
+[00:06] <CaraBear> ????
+[00:06] <NoizyToyz> care: YOUR ONLINE
+[00:07] <Etude> are you a good witch or a bad witch?
+[00:07] <NoizyToyz> bad
+[00:07] <dracus> L!
+[00:07] <CaraBear> no...I don't need to get on the internet, 
+  I need to go online to use ICQ and check my e-mail
+[00:07] <Tailspin> CaraBear This is IRC, an internet chat 
+  protocol, hence, to use it, you must be connected to the 
+  internet
+[00:07] <NoizyToyz> CaraBear: you wouldent be online if you 
+  didnt have it hooked up right
+[00:07] <NoizyToyz> E!
+[00:07] <DriFan3> How can cara be online if she doesnt have 
+  her modem hooked up?
+[00:07] <Apatrix> Magic
+[00:07] <NoizyToyz> DriFan3: thats what were deducing
+[00:07] <Tailspin> CaraBear u have an AOL account or 
+  something ?
+[00:07] <CaraBear> no...i'm not online...and that's the 
+  problem, I need to go there but I can't without my modem
+[00:08] <Apatrix> I think there's a new telepathic interface 
+  to IRC
+[00:08] <NoizyToyz> its not resolved
+[00:08] <CaraBear> *ugh* i'm not getting anywheres
+[00:08] <NoizyToyz> YOU ARE ONLINE
+[00:08] <Apatrix> No you're not
+[00:08] <NoizyToyz> your talking to us
+[00:08] <NoizyToyz> you ARE online
+[00:08] <Tailspin> CaraBear , and even if you were, you 
+  wouldn;t realise it
+[00:08] <Apatrix> Getting anywehre, I mean
+[00:08] <Tayra> ah, Joe's gonna be home in a minute or two, 
+  i've gotta go
+[00:08] <Apatrix> night Tayra
+[00:08] <CaraBear> I know, i'm on the INTERNET, but I need to 
+  go ONLINE
+[00:08] <NoizyToyz> you ARE ONLINE
+[00:08] <Tailspin> CaraBear There is a difference eh ?
+[00:08] <CaraBear> do you guys even know about this kinda 
+  stuff or not?
+[00:08] <Tayra> waitwaitwait
+[00:08] <Tayra> i gotta see this
+[00:08] <NoizyToyz> THATS WHAT THE INTERNET IS
+[00:08] <Etude> Oh, That ONLINE!
+[00:08] <Tayra> 'online' is when your modem is dialed into 
+  your isp
+[00:09] <Tayra> connected n stuff
+[00:09] <Tayra> 'internet' is programs you use when you're 
+  online.  sort of
+[00:09] <CaraBear> exactly, and my modem isn't hooked up so 
+  i'm not ONLINE
+[00:09] <CaraBear> sheesh
+[00:09] <NoizyToyz> right
+[00:09] <Tayra> um
+[00:09] <NoizyToyz> CaraBear: it must be
+[00:09] <Tayra> if your modem isn't working..
+[00:09] <NoizyToyz> cos its working
+[00:09] <Tayra> how are you here?
+[00:09] <DriFan3> Maybe she needs upgrade her harddrive?
+[00:09] <Etude> adn you aren't on the Internet either
+[00:09] <NoizyToyz> right
+[00:09] <Tailspin> CaraBear how exactly, do you think your 
+  talking to us then ?
+[00:09] <CaraBear> my modem isn't even hooked up
+[00:09] <NoizyToyz> heh
+[00:09] <NoizyToyz> CaraBear: then what the hey
+[00:09] <CaraBear> i'm talking to you on the internet, 
+  haven't you been listening?
+[00:09] <Apatrix> Must have NOSMOKE.EXE :)
+[00:09] *** ironfist (ironfist@ip148.montreal21.dialup.canada.
+psi.net) has joined #irchelp
+[00:09] <Etude> that's why it is magic
+[00:09] <Tayra> Cara: then whose modem are you using?
+[00:09] <NoizyToyz> HOW are you here!
+[00:10] <CaraBear> I don't have a modem in this computer, it 
+  came with the external one that I had to put back in the box
+[00:10] <Tailspin> Hi Everyone see me ! Im not here
+[00:10] <Tayra> then how did you access the internet?
+[00:10] <CaraBear> NoizyToyz: i'm on the INTERNET< that's how 
+  i'm here
+[00:10] <NoizyToyz> THEN HOW ARE YOU HERE!?!?
+[00:10] * Tayra gives Tail a cookie
+[00:10] <Etude> we heard you.  You are here and not online.  
+  Therefore it is magic
+[00:10] <CaraBear> INTERNET!!!!!
+[00:10] <Tayra> hold on, i think i'm getting this
+[00:10] <NoizyToyz> dang!
+[00:10] <NoizyToyz> your online!
+[00:10] <CaraBear> magic?!
+[00:10] <NoizyToyz> your online!
+[00:10] <Etude> yes
+[00:10] <Tailspin> CaraBear How are you connected to the 
+  internet , You need a modem to do that !
+[00:10] *** Apatrix sets mode: +m
+[00:10] <Apatrix> Thanks folks
+[00:11] *** ironfist has quit IRC
+[00:11] <Apatrix> Cara: the good people here are wondering 
+  which of two conclusions to draw:
+[00:11] *** Apatrix sets mode: +o Tailspin
+[00:12] <Apatrix> whether you're having us on big-time or 
+  truly lack some very basic knowledge
+[00:12] *** Apatrix sets mode: -m
+[00:12] <NoizyToyz> thanks apa
+[00:12] <CaraBear> BLAH
+[00:12] <CaraBear> oh
+[00:12] <shuer> thanx  :)
+[00:12] <CaraBear> there we go, somethings wrong with this 
+  channel
+[00:12] <CaraBear> I couldn't type anything?
+[00:12] <NoizyToyz> heh
+[00:12] <NoizyToyz> heh
+[00:13] <Tailspin> CaraBear How are you connected to the 
+  internet , You need a modem to do that ?
+[00:13] <Apatrix> I shut everyone up with my amazing powers :)
+[00:13] <NoizyToyz> CaraBear: yeah, it was broken
+[00:13] <CaraBear> hrrmm...I took a GIS class last year if 
+  that counts for basic knowledge?
+[00:13] <NoizyToyz> Apatrix: you can finish with this one
+[00:13] <CaraBear> it's this computer that I bought that is 
+  troubling me
+[00:13] <Apatrix> I think Tailspin is more qualified
+[00:14] <CaraBear> hmm
+[00:14] <Tailspin> then what ?
+[00:14] <CaraBear> so does anyone know how I can seriously 
+  get this modem hooked up
+[00:14] <NoizyToyz> looks like it already is
+[00:14] <CaraBear> I don't want you guys to fool around 
+  anymore pls?
+[00:14] <Apatrix> We're not fooling around
+[00:14] <DriFan3> Can I upgrade the processor in my keyboard 
+  to allow me to type faster?
+[00:14] <Apatrix> We're genuinely confused
+[00:14] <NoizyToyz> DriFan3: wtf?
+[00:14] *** dracus sets mode: +b *!*Skank@nic-*-c*-*.mn.mediao
+ne.net
+[00:14] *** DriFan3 was kicked by dracus (ahh, another troll.)
+[00:15] <NoizyToyz> haha
+[00:15] <CaraBear> excuse me?
+[00:15] <Tailspin> CaraBear Follow this chain of logic, You 
+  are connected to the internet, This is as Online as it 
+  gets, unless you belong to AOL or something like that, in 
+  order to be connected to the internet, you would need a 
+  modem, here you are, hence, you must have a modem
+[00:15] <dracus> hrm, same address as an earlier one.
+[00:15] <NoizyToyz> intersting
+[00:15] <Apatrix> Tailspin, master of Logic
+[00:16] *** dracus sets mode: +b *!~*@*.mn.mediaone.net
+[00:16] <CaraBear> well I know i'm on the Internet, i've told 
+  you that....but I need my modem hooked up so I can get 
+  online...that's why I came here
+[00:16] <Apatrix> As far as we're concerned, we don't see any 
+  distinction between "on the internet" and "online"
+[00:16] <shuer> if he is the master of logic, how come hes in 
+  a tailspin?
+[00:17] <Tailspin> shuer luck :)
+[00:17] <Apatrix> They're one and the same to us
+[00:17] <CaraBear> okay
+[00:17] <Tailspin> CaraBear you are either a troll , or are 
+  beyond anyones ability to help.
+[00:17] *** atomic_ (atomic@204-210-7-59.san.rr.com) has 
+joined #irchelp
+[00:17] *** atomic_ (atomic@204-210-7-59.san.rr.com) has left 
+#irchelp
+[00:17] <Etude> I still vote troll
+[00:17] <CaraBear> well I don't really want to argue about 
+  the Internet and being Online, I just want help on my modem 
+  being hooked up?
+[00:18] <Etude> either way, beyond help
+[00:18] <Tailspin> we are not going to spend 30 minutes 
+  talking with you about your modem, when you can't even 
+  explaine to us how your amazingly here on the internet 
+  without one
+[00:18] <CaraBear> ?
+[00:18] * Apatrix gets out the Grand Troll Award
+[00:18] <NoizyToyz> heh
+[00:19] <CaraBear> I clicked on my ISP icon
+[00:19] <Etude> Either a troll, or thick as a brick
+[00:19] <Etude> Jethro Troll!
+[00:19] <dracus> heh
+[00:19] <Tailspin> CaraBear The one with your username, 
+  password, and your ISP's phone number ?
+[00:19] * dracus puts in the CD :)
+[00:19] <CaraBear> yeah Tailspin
+[00:20] <Tailspin> CaraBear How do you think, your computer 
+  dialed that phone number, without a modem ?
+[00:20] <CaraBear> it used the phone Tailspin
+[00:20] <Tailspin> computers don't have phones, they have 
+  modems
+[00:20] <NoizyToyz> dear god
+[00:20] <CaraBear> what what?
+[00:21] <Apatrix> Draw circle on wall, bang head, repeat 
+  until bloody.
+[00:21] <Tailspin> The phone line in the back of your 
+  computer, is a modem
+[00:21] <Etude> lol
+[00:21] <Tailspin> or what it plugs into is
+[00:21] <CaraBear> the phone line in the back of my computer?
+[00:21] * Tailspin mutters
+[00:21] <CaraBear> wouldn't a phone line in the back of my 
+  computer go to my modem?
+[00:21] <Tailspin> yes
+[00:22] *** NoizyToyz is now known as NoizyRoo
+[00:22] <CaraBear> yeah, well my computer doesn't have a 
+  phone line going into it, shouldn't the phone line go into 
+  my external modem that came with the computer?
+[00:22] <Etude> really don't mind if I sit this one out
+[00:22] <Etude> my words but a whisper, your deafness a SHOUT!
+[00:23] <Etude> you would think, wouldn't you?
+[00:23] *** NoizyRoo is now known as Roo
+[00:23] <Tailspin> MURPH 
+[00:23] *** InfraRed- has quit IRC (Read error: 54 
+(Connection reset by peer))
+[00:24] <Roo> this is nuts
+[00:24] <CaraBear> hello?
+[00:24] <Etude> hi
+[00:24] <prysm-> carabear where are you?
+[00:24] <prysm-> are you in the US ?
+[00:24] <CaraBear> is anyone gonna help me or can you give me 
+  a channel that really does help with tech stuff?
+[00:24] <CaraBear> yeah
+[00:24] <CaraBear> i'm in Minnesota
+[00:24] *** Infra404 (~sony-vaio@194.126.85.45) has joined 
+#irchelp
+[00:24] <Etude> lakeview
+[00:24] <Infra404> linx problems again
+[00:25] <Roo> Infra404: like what
+[00:25] <prysm-> try #newbies
+[00:25] <prysm-> or #beginner
+[00:25] <prysm-> or #mirc
+[00:25] <prysm-> or #Mirc4dummies
+[00:25] <CaraBear> what do those have to do with external 
+  modems?
+[00:25] <Etude> or #troll
+[00:25] <CaraBear> you guys said you could help me....?
+[00:25] <Etude> or #thick_as_a_brick
+[00:25] <prysm-> I did not see your answer
+[00:25] <prysm-> are you trying to set up the modem on the 
+  computer you are on now?
+[00:25] <prysm-> or on some other computer
+[00:25] <CaraBear> yeah
+[00:26] <CaraBear> I just bought this new acer that i'm 
+  trying to use tonight for the first time
+[00:26] <Infra404> Roo half of uk peering went down
+[00:26] <prysm-> how are you connected to us now?
+[00:26] <CaraBear> the internet
+[00:26] <Etude> prysm, weren't you paying attention?
+[00:26] <Etude> the internet of course
+[00:26] <shuer> etude   brick is one of my fav CDs  :)
+[00:26] <Etude> but she needs to get ONLINE!
+[00:26] <CaraBear> exactly Etude..
+[00:26] <Infra404> get aol cd
+[00:26] <prysm-> go to your desktop
+[00:26] <CaraBear> at least someone understand me finally
+[00:26] <CaraBear> aol cd?
+[00:26] <Etude> see, I been paying attention :)
+[00:27] <CaraBear> i'm at my desktop
+[00:27] <prysm-> click on explorer
+[00:27] <Apatrix> Keep logging, I'm off for a while :)
+[00:27] <prysm-> is she talking about aol?
+[00:27] <Tailspin> I asked, no reply
+[00:27] <Etude> no.  ONLINE
+[00:27] <Infra404> i'm  guessing
+[00:27] <CaraBear> what?
+[00:27] <CaraBear> wait
+[00:27] <CaraBear> okay...i'm at my desktop, now do what?
+[00:28] <prysm-> where are you calling from?
+[00:28] <prysm-> are you calling from home?
+[00:28] <CaraBear> my house
+[00:28] <prysm-> okay
+[00:28] <CaraBear> yups
+[00:28] <prysm-> how did you get here?
+[00:28] <CaraBear> get to...?
+[00:28] * Tailspin wonders how the brand new acer computer 
+  has a resolveing dns entry
+[00:28] <prysm-> how did you connect to us??
+[00:28] <CaraBear> the internet
+[00:28] <Etude> the Internet
+[00:28] <CaraBear> I clicked on my ISP's icon
+[00:28] <prysm-> okay
+[00:28] <Etude> jeez, pay attention please
+[00:28] <CaraBear> yes, Etude knows more about this than 
+  anyone else
+-
+CaraBear is Michele@206.146.182.11 * I don't exactly know?
+CaraBear on #irchelp 
+CaraBear using irc.colorado.edu [127.0.0.1] Univ of Colorado 
+Server (2.8.*)
+CaraBear End of /WHOIS list.
+-
+[00:29] <Roo> heh
+[00:29] <prysm-> then look for explorer or netscape
+[00:29] <Infra404> buy a new computer
+[00:29] <prysm-> and click on one of them
+[00:29] <prysm-> that would be your web browser
+[00:29] <Infra404> a better computer
+[00:29] <Roo> right
+[00:29] <Roo> Infra404: Shush
+[00:29] <Infra404> :)
+[00:29] <prysm-> microsoft access or something would be the 
+  email icon
+[00:29] <CaraBear> yeah...
+[00:29] <CaraBear> and then?
+[00:29] <CaraBear> alright
+[00:29] <CaraBear> wait
+[00:30] <shuer> put your computer back in the box.. return it 
+  to the store and tell them your too dumb to use it...
+[00:30] <Tailspin> s/access/outlook
+[00:30] <Roo> shuer: hahahahahaha
+[00:30] <Roo> shuer: that was uncalled for
+[00:30] <Tayra> okie, bedtime
+[00:30] <Tayra> nighty kids
+[00:30] <Etude> no it wasn't
+[00:30] <CaraBear> when I click on umm, ?"Netscape 
+  Navigator"? a thingie pops up and asks if I want to go 
+  Online...?
+[00:30] *** Jolo changes topic to 'Ask IRC questions on 
+the channel or visit www.irchelp.org - no idling please'
+[00:30] <prysm-> okay
+[00:30] <Tayra> somebody write this all down and tell me 
+  tomorrow..
+[00:30] <CaraBear> and then I click on the 'Connect'
+[00:30] <CaraBear> option
+[00:30] <Tayra> bye :)
+[00:30] *** Tayra has quit IRC (Leaving)
+[00:31] <prysm-> then what happens?
+[00:31] <shuer> you sitting there telling me your puter has 
+  no modem..  yet your connected to the net...  you insult me 
+  by trying to make me believe that...
+[00:31] <CaraBear> and it says something like installing? I 
+  think it has to do with that external modem again?
+[00:31] <prysm-> I think you need to look at your 
+  configuration
+[00:31] <CaraBear> where's that at?
+[00:31] <prysm-> and I  think you need to call your provider 
+  in the morning
+[00:32] <shuer> the only reason to have a modem is to connect 
+  to the net...  if your connected  now, you don't need one
+[00:32] <prysm-> to get them to walk  you through it
+[00:32] <prysm-> they'd have the numbers you need to put into 
+  it
+[00:32] <CaraBear> Shuer: I don't think you're fully 
+  understanding my problem, Prysm is doing just fine for 
+  now...?
+[00:32] <shuer> <sigh>
+[00:32] <CaraBear> so I should call my ISP in the morning and 
+  ask them for numbers?
+[00:32] <Roo> shuer: no hope
+[00:33] <shuer> why do you want a modem?
+[00:33] <CaraBear> Shuer: what?
+[00:33] <shuer> why do you want a modem?
+[00:33] <CaraBear> so that I can get online and use my ICQ...
+[00:33] <Tailspin> shuer , to get ONLINE
+[00:33] <shuer> you are online
+[00:34] <Etude> I give her credit.  I don't think anyone can 
+  be that stupid.  I think she is an excellent troll
+[00:34] <Etude> I don't know about prysm.  I HOPE she is 
+  trolling the troll
+[00:34] <Etude> But I have a feeling she is serious
+[00:34] <CaraBear> Etude: I thought you understood this too? 
+[00:34] <CaraBear> where did Prysm go to?
+[00:34] <shuer> if you cannot connect to ICQ now  its prolly 
+  cuz the servers are full
+[00:34] <Etude> I feel I do
+[Etude:#irchelp PING]
+[00:35] <shuer> you cannot be here now if your not connected 
+  to the net..
+[00:35] <CaraBear> well i'm trying to connect on ICQ but it 
+  keeps on saying that I need a connection to the internet
+[00:35] <shuer> then it has a bug in it
+[00:35] <shuer> go download it again
+[00:35] <Etude> then your ICQ is broken.  I never used it 
+  myself
+[00:36] <CaraBear> and I try to go to the online/avaliable 
+  thingie and it totally isn't working
+[00:36] <CaraBear> so I need to go online
+[00:36] <Roo> you ARE online
+[00:36] <shuer> whats your number?
+[00:36] <CaraBear> but i'm still not worried about the 
+  Internet or going Online, I need to hook up this modem
+[00:36] <CaraBear> my number?
+[00:36] <CaraBear> which one?
+[00:36] <Roo> unless your TCP/IP is bad
+[00:36] <Roo> phone :)
+[00:36] <shuer> your ICQ numbedr
+[00:36] <Roo> no
+[00:36] <CaraBear> my what what?
+[00:36] <Roo> ICQ number
+[00:37] <shuer> mine is 180228  whats yours?
+[00:37] <Roo> OH GOD NO! i have the hiccups again
+[00:37] <CaraBear> 14490177?
+[00:37] *** Tailspin sets mode: +b *!*@206.146.182.*
+[00:37] <Roo> shuer: ill show you mine if you show me yours :)
+[00:38] <shuer> ok  14490177  what nick is that?
+[00:38] <CaraBear> scuse me?
+[00:38] <CaraBear> my nick?
+[00:38] * Roo slaps his forehead
+[00:38] <CaraBear> on ICQ or Mirc?
+[00:38] <shuer> it has a name with it  whats the name?  I 
+  just lokoed it up
+[00:38] *** Roo is now known as NoizyRoo
+[00:38] <shuer> ICQ
+[00:38] <shuer> looked it up
+[00:39] <CaraBear> smily
+[00:39] <CaraBear> or §MîLÿ
+[00:39] <CaraBear> whichever
+[00:39] <shuer> right  :/
+[00:39] <CaraBear> that the one you meant?
+[00:39] <shuer> ok  what version do you have?
+[00:39] <shuer> yes it is
+[00:39] <Tailspin> its online now ?
+[00:39] <CaraBear> I think it's version 99 beta?
+[00:39] <Tailspin> That settles that
+[00:39] <CaraBear> it's online now?!??!?!?!
+[00:40] <shuer> no  the name is listed under that number
+[00:40] <Etude> Will the real troll please stand up (I've 
+  been watching a lot of To Tell the Truth lately)
+-
+CaraBear is Michele@206.146.182.11 * I don't exactly know?
+CaraBear on #irchelp 
+CaraBear using irc.colorado.edu [127.0.0.1] Univ of Colorado 
+Server (2.8.*)
+CaraBear End of /WHOIS list.
+-
+[00:40] <CaraBear> so does that help you figure out this 
+  problem yet?
+[00:40] <NoizyRoo> heh
+[00:41] <shuer> yes  something is wrong with your ICQ and you 
+  need to reinstall it
+[00:41] <shuer> I've had to do that a few times
+[00:41] <CaraBear> wait...
+[00:41] <CaraBear> how would reinstalling ICQ help with 
+  hooking up my modem?
+[00:41] <CaraBear> you guys are waaaaay off track with my 
+  problem here...
+[00:41] <Etude> I knew that was coming :)
+[00:42] <CaraBear> ?
+[00:42] <shuer> no sir  you are connected to the net, no 
+  matter what ICQ is telling you...  
+[00:42] *** NoizyRoo is now known as NoizyToyz
+[00:42] <CaraBear> alright then...
+[00:43] <Etude> Cara, I appreciate your powers.  You are 
+  either the biggest troll I have ever seen, the thickest 
+  brick I have ever seen, or the best magician I have ever 
+  seen
+[00:43] <CaraBear> the net is the same as the INTERNET right?
+[00:43] *** Infra404 has quit IRC (Ping timeout: 180 seconds)
+[00:43] <shuer> yup
+[00:43] -> [CaraBear] VERSION
+[00:43] <NoizyToyz> yeah
+[CaraBear VERSION reply]: mIRC32 v5.6 K.Mardam-Bey
+[00:43] <CaraBear> okay, so i've known already that i'm 
+  connected to the 'net'
+[00:43] <CaraBear> but that's totally not my problem here
+[00:43] <Tailspin> She wants to get ONLINE
+[00:43] <CaraBear> exactly
+[00:43] <Etude> yes!
+[00:43] <Etude> Tailspin got it
+[00:43] <CaraBear> how come all of you guys are understanding 
+  this but no one helps me?
+[00:43] <Etude> see how easy it is!
+[00:43] <Dianora> she is using someone elses box.
+[00:43] <Tailspin> i think its catching
+[00:43] <Dianora> how obvious is that.
+[00:43] <Etude> no
+[00:44] <shuer> www.irchelp.org  <---  dbl click on that URL 
+  and see what happens...
+[00:44] <Etude> no, you are not paying attention :(
+[00:44] <Dianora> carabear, you are online.
+[00:44] <Dianora> carabear, or we are both dreaming.
+[00:44] <CaraBear> double click on it?
+[00:44] <Etude> argh
+[00:44] <Dianora> carabear, or I am insane and you are a 
+  figment of my imagination.
+[00:44] <CaraBear> yeah, that Netscape Navigator starts 
+  loading
+[00:44] <Etude> she is a witch
+[00:45] <Etude> I can't find out if she is a good witch or a 
+  bad witch though
+[00:45] <Tailspin> i preferd the drugs conversation
+[00:45] <CaraBear> witch?
+[00:45] <Etude> yes, a witch has magical powers
+[00:45] <shuer> tell me if the page comes up please  :)
+[00:45] <NoizyToyz> yep
+[00:45] <NoizyToyz> hrh
+[00:46] <NoizyToyz> oh no
+[00:46] <NoizyToyz> hiccups AGAIN
+[00:46] * Etude scares NoizyToyz
+[00:46] <CaraBear> Shuer: the Netscape thingie starts loading 
+  but then like I told everyone earlier, it asks if I want to 
+  work offline or go online
+[00:46] <NoizyToyz> 5th time tonight
+[00:46] <CaraBear> and I click on the 'connect' option....
+[00:46] <Dianora> Carabear, you are online.
+[00:46] <NoizyToyz> Etude: you almost made me barf
+[00:46] <Dianora> Carabear, YOU ARE ONLINE YOU TWIT
+[00:46] <NoizyToyz> heh
+[00:46] * NoizyToyz busts out laughting
+[00:47] <Dianora> can I kill her and increase the 
+  intelligence of the gene pool?
+[00:47] * Apatrix smirks and returns to MASH
+[00:47] <Tailspin> di, we tried that
+[00:47] <Etude> yes
+[00:47] <CaraBear> ??
+[00:47] <Dianora> you tried killing her?
+[00:47] <NoizyToyz> Apatrix: you like that
+[00:47] <Tailspin> no, please do
+[00:47] <Dianora> CaraBear, YOU ARE ONLINE OR WE WOULDN"T BE 
+  TALKIGN TO YOU
+[00:47] <Tailspin> no, we tried yelling
+[00:47] <NoizyToyz> Apatrix: M*A*S*H?
+[00:47] <CaraBear> Shuer?
+[00:47] <Dianora> you did?
+[00:47] <Dianora> oh
+[00:47] <Dianora> darn!
+[00:47] <Etude> I just wish she would confess
+[00:47] <Dianora> that usually works
+[00:47] <Dianora> CaraBear, you are a troll.
+[00:47] <NoizyToyz> heh
+[00:47] <Dianora> now run along
+[00:47] <Etude> yes!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00:47] <Dianora> and play in the traffic 
+[00:48] <CaraBear> ?????
+[00:48] <NoizyToyz> haha
+[00:48] <shuer> Dianora..  killing this person yould surely 
+  increase the overall average of the pool   :)
+[00:48] <Etude> Confess, troll!
+[00:48] <Dianora> You are on the internet, you are online, 
+  you either have a phone + modem or you have cablemodem, BUT 
+  YOU ARE FUCKING WELL ONLINE YOU TWIT
+[00:48] <CaraBear> confess to what?!?!
+[00:48] <NoizyToyz> heh
+[00:48] <Tailspin> fetch the comfy chair
+[00:49] * Etude dunks carabear under water
+[00:49] <shuer> gotta admit..  this is one of the best 
+  trollers I've ever seen  :)
+[00:49] <Dianora> Carabear, do you know what a phone is?
+[00:49] <CaraBear> Dianora, I do have a modem, it's an 
+  external modem
+[00:49] <CaraBear> yes, I know what a phone is?
+[00:49] <shuer> I give them a 10
+[00:49] <Dianora> Carabear, when you pick up the phone, and 
+  you call someone does it work if there is no dial tone?
+[00:49] <Dianora> Carabear, you are on the internet, you are 
+  online
+[00:49] <CaraBear> Dianora, I can pick up the phone and call 
+  anyone just like you can?
+[00:49] <CaraBear> I know i'm on the Internet
+[00:50] <CaraBear> that is NOT the problem
+[00:50] <Dianora> your web doesn't work
+[00:50] <Dianora> is that the problem?
+[00:50] <shuer> could it be the internet programs can't see 
+  the cable modem?
+[00:50] <Dianora> shuer, yes
+[00:50] <CaraBear> the problem is that I need to hook up my 
+  modem so I can go Online and use my ICQ
+[00:50] <Etude> could be she
+[00:50] <Dianora> there is a setting for taht
+[00:50] <Etude> could be she's a troll
+[00:50] <Dianora> no
+[00:50] <Dianora> it could be she thinks she has to call 
+  another provider to use icq
+[00:51] <Dianora> and she is on a cablemodem now
+[00:51] <Dianora> carabear, are you on a cablemodem now?
+[00:51] <CaraBear> no Dianora, I have a modem
+[00:51] <CaraBear> no
+[00:51] <Dianora> then you are on that modem.
+[00:51] <CaraBear> i'm trying to hook up my EXTERNAL modem
+[00:51] <Dianora> or you wouldn't be talking to us
+[00:51] <Etude> go ahead.  Come to your own conclusions.  I 
+  already have mine
+[00:51] <Dianora> carabear, do you NOT see the contradiction 
+  you are putting us through?
+[00:51] <CaraBear> how can I be on that modem when it's in 
+  the box?
+[00:51] <CaraBear> what contradiction?
+[00:52] <Dianora> carabear, you are on some modem now
+[00:52] <Etude> You can't.  Therefore it is magic.
+[00:52] <Dianora> carabear, or you woulnd't be here
+[00:52] <Tailspin> you have to be connected to the internet 
+  somehow
+[00:52] <CaraBear> I am connected to the INTERNET
+[00:52] <Dianora> carabear, are you using an internal modem?
+[00:52] <shuer> who installed this new computer?
+[00:52] <Dianora> how?
+[00:52] <Etude> I don't believe anyone believes in magic
+[00:52] <Dianora> how are you on the internet?
+[00:52] <CaraBear> I said it's an external modem
+[00:52] <Dianora> without a modem?
+[00:52] <CaraBear> I clicked on my ISP's icon
+[00:52] <CaraBear> for the third time
+[00:52] * NoizyToyz shakes his head
+[00:52] <prysm-> if you want to change your internal modem 
+  for an external
+[00:53] <CaraBear> no no no
+[00:53] <NoizyToyz> can this be over soon
+[00:53] <Dianora> carabear, then you have to be on an 
+  internal modem.
+[00:53] <prysm-> you have to take out the internal modem and 
+  put in the other card
+[00:53] <CaraBear> I don't have an internal modem
+[00:53] <NoizyToyz> GAAAH
+[00:53] <Dianora> carabear, THEN how are you on the internet 
+  without a modem?
+[00:53] <NoizyToyz> EEEENOUGH
+[00:53] <shuer> LOL!!!!!!!!!!!!!!!!!!
+[00:53] <prysm-> maybe cable?
+[00:53] <Etude> I don't think these people were paying 
+  attention earlier
+[00:53] <Dianora> carabear, YOU need a modem to be on the 
+  internet
+[00:53] <Etude> same fucking questions over and over
+[00:53] <CaraBear> Etude: Exactly!!!!
+[00:53] * NoizyToyz bangs his head repeatedly into a wall
+[00:53] <Tailspin> The only reason i havn't kicked is because 
+  i wanna see the kill
+[00:53] <shuer> I'll be saving this log....  its gonna be a 
+  classic  :)
+[00:53] * prysm- goes back to taking care of multiple trojan 
+  joins
+[00:53] <CaraBear> Dianora: as I said before, I 
+  double-clicked on my isp's icon
+[00:53] <Dianora> Carabear, you need a modem to be on the 
+  internet
+[00:53] <NoizyToyz> shuer: ay
+[00:54] <Dianora> carabear, you cannot be here without a 
+  modem working.
+[00:54] <NoizyToyz> shuer: im publishing it :)
+[00:54] <prysm-> or cable
+[00:54] <prysm-> or something
+[00:54] <CaraBear> I have a modem Dianora, it's sitting about 
+  3 feet away from me
+[00:54] <Dianora> carabear, you might have an external modem, 
+  but you are not using it now.
+[00:54] <Etude> I think carabear should be PROUD of herself
+[00:54] <prysm-> or ethernet?
+[00:54] <Dianora> is it plugged in carabear?
+[00:54] <CaraBear> I know i'm not using it, I want to hook it 
+  up!!!!!!!!!!!!!
+[00:54] <Etude> She keeps catching people with the same SHIT
+[00:54] <prysm-> Etude :)
+[00:54] <Dianora> carabear, you dont' need to hook it up. you 
+  are already on the internet.
+[00:54] <CaraBear> Etude: can you explain it to them please?
+[00:54] <prysm-> nonono
+[00:54] <Etude> yes
+[00:55] * prysm- does not want to know
+[00:55] <Tailspin> CaraBear your modem is in a box ? or came 
+  in a box ?
+[00:55] <CaraBear> I know i'm on the internet, problem is I 
+  want to go online
+[00:55] <Etude> Carabear is a troll.  Or she is thick as a 
+  brick/  Or she has magical powers
+[00:55] <Dianora> carabear, you are online.
+[00:55] <shuer> LOL!!!!!!!!  like I said...  for as long as 
+  I've been on irc..  this is the best troller I've ever seen 
+   :)
+[00:55] <CaraBear> it came in a box, I tried hooking it up, 
+  couldn't, put it back in the box and came here for help
+[00:55] <prysm-> she wants to use her web browser
+[00:55] <prysm-> and get email set up
+[00:55] <Dianora> carabear, you havea nother computer?
+[00:55] <Tailspin> CaraBear What does the box say its name is 
+  ?
+[00:55] <prysm-> and use ICQ
+[00:55] <NoizyToyz> shuer: yep
+[00:55] <prysm-> that is what she wants to do
+[00:55] <Dianora> carabear, because you don't need that modem.
+[00:55] <Dianora> for that computer.
+[00:56] <Tailspin> prysm- I think not, anything that would 
+  prevent those from working, would be blocking ident.
+[00:56] <shuer> pryz  she says every time she starts the 
+  browser..  it asks if she wants to go online  :)
+[00:56] <CaraBear> it's a brand new computer, I bought it 8 
+  hours ago, it came with an external modem
+[00:56] <prysm-> I saw that
+[00:56] <Dianora> carabear, uh is that the computer you are 
+  using now?
+[00:56] <Etude> yes
+[00:56] <CaraBear> right on shuer
+[00:56] <CaraBear> yes, i'm using my new computer right now
+[00:56] <NoizyToyz> ok
+[00:56] <NoizyToyz> ive had enough of this
+[00:56] <prysm-> I think that is the problem
+[00:57] <Dianora> carabear, then your system is misconfigured
+[00:57] <NoizyToyz> this is mindless drivvle
+[00:57] <prysm-> it needs to be configured with the help of 
+  her provider
+[00:57] <Apatrix> This log ought to be carved in stone and 
+  displayed at the channel gates.
+[00:57] <Dianora> carabear, because youa re talking to us 
+  now, and you do not need that modem
+[00:57] <prysm-> my son had this problem
+[00:57] <NoizyToyz> someone end shit now
+[00:57] <NoizyToyz> !
+[00:57] <CaraBear> WAIT
+[00:57] <Etude> Congratulations carabear.  You win!!!!!!!!!!!!
+  !!!!!!!!!!!!!!!!!!!!!!!!
+[00:57] <NoizyToyz> this
+[00:57] <CaraBear> one person at a time
+[00:57] <NoizyToyz> not shit :)
+[00:57] <NoizyToyz> big type
+[00:57] <shuer> dianora??  you said its possible for her 
+  browswer to not see the cable modem?
+[00:57] <NoizyToyz> typo
+[00:57] <Dianora> carabear, irc is the internet, mirc is the 
+  internet so your computer is misconfigured
+[00:57] <Dianora> yes shuer
+[00:57] <shuer> where is the setting?
+[00:57] <CaraBear> Dianora? what's this about mosconfigured 
+  system?
+[00:57] <Dianora> carabear, if you are here
+[00:58] * NoizyToyz cries
+[00:58] * Etude stops paying attention.  I will let others 
+  play with the troll for the time being.
+[00:58] <NoizyToyz> i cant stand it
+[00:58] <prysm-> I tried to help my son get on line with his
+[00:58] <Etude> just stop paying attention noizy
+[00:58] <NoizyToyz> im suffereing a breakon
+[00:58] <Dianora> carabear, if you are talking to us, you are 
+  using irc, you are using mirc right?
+[00:58] <prysm-> we changed about a dozen things onon his 
+  system
+[00:58] <Etude> come back in about 10 minutes.  I am going to
+[00:58] <NoizyToyz> a menatal breakdown
+[00:58] <CaraBear> yes Dianora
+[00:58] <prysm-> it never worked
+[00:58] <Tailspin> Sorry the only way for a browser and icq 
+  to not work, would be for a proxy connection, if that was 
+  the case ident wouldn't work
+[00:59] <Dianora> 182.146.206.in-addr.arpa.  40m38s IN SOA  
+  ns.starpoint.net. hostmaster.starpoint
+[00:59] <Dianora> she is not on cablemodem now
+[00:59] <CaraBear> I know i'm not!
+[00:59] <CaraBear> i'm trying to get my external modem hooked 
+  up
+[00:59] <Apatrix> Yup, checked that 40 minutes ago. :)
+[00:59] <CaraBear> *ugh*
+[00:59] <Dianora>   Administrative Contact, Technical 
+  Contact, Billing Contact:
+[00:59] <Dianora>       Holland, Craig  (CH747)  
+  craig@STARPOINT.NET
+[00:59] <Dianora> carabear, you are either a troll
+[01:00] <Dianora> carabear, stupid
+[01:00] <NoizyToyz> carabear, go away
+[01:00] <Etude> don't forget magic
+[01:00] <NoizyToyz> my head hurts now
+[01:00] <CaraBear> go away?
+[01:00] <Etude> damn.  No one believes in magic!
+[01:00] <NoizyToyz> and im sick of IRC
+[01:00] <Dianora> carabear, either you acknowledge you are on 
+  the internet i.e. ONLINE or leave
+[01:00] <NoizyToyz> Etude: i do
+[01:00] <CaraBear> alls that I wanted was to be able to use 
+  this computer
+[01:00] <NoizyToyz> if she goes away, its magic
+[01:00] <Dianora> carabear, you are using it ;)
+[01:00] <shuer> she alreasdy has dianora
+[01:00] <CaraBear> I understand that i'm on the Internet
+[01:00] <Dianora> carabear, you are online
+[01:00] <CaraBear> I want to use ICQ and check my e-mail
+[01:00] <shuer> she admits she is online
+[01:01] <Dianora> carabeare, your ICQ should work =now=
+[01:01] <prysm-> what kind of computer did you get?
+[01:01] <Dianora> try it
+[01:01] <NoizyToyz> AAAAAAAAAH! SSSSSSSSSSSssTTTTTTTTTOOOOOOOO
+  OOOOOOPPPPPPPPPP!!!!!!!!!!!!!!!!!!!!
+[01:01] <CaraBear> it's an Acer Prysm
+[01:01] <prysm-> me hopes it is not an E-machine
+[01:01] <shuer> but none of her programs (sxcetp mirc) can 
+  see it
+[01:01] <Dianora> her mirc see's it
+[01:01] <shuer> (except_
+[01:01] <Dianora> she's here ;)
+[01:01] <NoizyToyz> shuer: lets hire a hitman
+[01:01] <Etude> The only amazing thing to me is that 
+  EVERYBODY goes through the exact same process.
+[01:01] <Dianora> etude, hehehehehe
+[01:01] <Tailspin> uh huh
+[01:01] <Apatrix> Isn't it?
+[01:01] <CaraBear> my icq is still not working, I try to go 
+  to the online/avalaible thingie and it says i'm not 
+  currently connected?
+[01:01] <Etude> They really try to figure out her problem.  
+  And they keep doing it
+[01:02] <Etude> instead of taking her for what she is
+[01:02] <shuer> no  I wanna know how a browser can NOT see 
+  that shes online..
+[01:02] <Dianora> Carabear, heres what you should do
+[01:02] <CaraBear> ya?
+[01:02] <Dianora> Carabear, you shoudl put the computer back 
+  into the box
+[01:02] <CaraBear> no no
+[01:02] <Apatrix> She's already been told that at least once. 
+  :)
+[01:02] <Dianora> Carabear, take it back to the store you 
+  bought it from
+[01:02] <CaraBear> someone already told me that idea
+[01:02] <Dianora> Carabear, and tell them you are too stupid 
+  to own a computer.
+[01:02] <Etude> trolling for dollars
+[01:02] * Dianora goes back to coding
+[01:02] <NoizyToyz> GAAH
+[01:02] <Etude> good'
+[01:02] <shuer> I aklready told her that  :)
+[01:03] * Etude agrees
+[01:03] <Dianora> someone
+[01:03] <Dianora> please
+[01:03] <CaraBear> okay, I need a real tech channel now, you 
+  guys understand this but just won't help me
+[01:03] <Dianora> kick her the hell off
+[01:03] <Apatrix> This night will live on in infamy. *grin*
+[01:03] <Tailspin> CaraBear Ok , to make Dianora and prysm- 
+  happy, can you go to Start menu, Settings, Control panel, 
+  Internet, Connections, Proxy Settings (or just proxy 
+  section), and tell is what it says ?
+[01:03] <NoizyToyz> DISPOSE OF THIS NIGHTMARE!!
+[01:03] <NoizyToyz> MAKE IT STOP! MAKE IT STOP!
+[01:03] <Tailspin> is/us
+[01:03] <Etude> NO!  I want her to confess!
+[01:03] <Dianora> oh ya, if she had a proxy
+[01:03] <shuer> how can it be that a browser does not see 
+  that the puter is online??
+[01:04] <Tailspin> Dianora if there was a proxy set, icq 
+  would still work
+[01:04] <Dianora> tailspin, maybe not if she has just changed 
+  providers
+[01:04] <NoizyToyz> no! wont this ever ENNnnNND!?
+[01:04] <Tailspin> if there is no proxy set, it would all work
+[01:04] <prysm-> CaraBear plese do what tailspin suggested
+[01:04] <CaraBear> hold up
+[01:04] <NoizyToyz> and go away!
+[01:04] <Etude> Please do what I suggest.  CONFESS!
+[01:04] <CaraBear> okay...
+[01:04] <CaraBear> i'm trying this proxy thing
+[01:04] <NoizyToyz> shooo!
+[01:05] <CaraBear> go under Internet Options?
+[01:05] * prysm- recommends the ever unpopular /ignore 
+  command to NoizyToyz
+[01:05] <NoizyToyz> prysm-: thats fair enough
+[01:05] <Tailspin> yes
+[01:05] <NoizyToyz> prysm-: i forgot aobout that :)
+[01:05] <shuer> ok  I can see if ti has a proxy set...  but 
+  there is not proxy setting for ICQ that I know of  but let 
+  me check
+[01:05] <NoizyToyz> prysm-: i was too busy getting annoyed
+[01:05] <CaraBear> Tailsping: go under internet options, then 
+  connection and then what?
+[01:05] <Tailspin> shuer There is a place for them, but a new 
+  machine, 8 hours old, wouldn't have any set
+[01:06] <CaraBear> there isn't anything there about proxy's
+[01:06] <Tailspin> click LAN settings
+[01:06] <Etude> Amazingly enough.  Carabear does not annoy 
+  me.  It is everybody else who annoys me :)
+[01:06] * Apatrix is absolutely fascinated
+[01:07] <CaraBear> okay, there's an open box with 'use a 
+  proxy server' but it's unchecked?
+[01:07] <shuer> well  a new machine yould not come with ICQ  
+  or mirc
+[01:07] <shuer> would not
+[01:07] <shuer> so it had to be downloaded
+[01:08] <Tailspin> shuer sure off the internet
+[01:08] <Tailspin> but not ONLINE
+[01:08] <shuer> and the mirc is 5.6
+[01:08] <CaraBear> shuer: I already installed ICQ from a cd
+[01:08] <shuer> old
+[01:08] <dracus> ARGH - food.com is down...
+[01:08] <Etude> Cara, can you use your powers for good and 
+  not evil?  You see the thing is
+[01:08] <CaraBear> Tailspin: anything else with that Proxy 
+  server thingie?
+[01:09] <Etude> I am currently out of work and almost out of 
+  money ...
+[01:09] <Tailspin> Nope
+[01:09] <CaraBear> hrrmmm
+[01:09] <prysm-> there you go
+[01:09] <Etude> Is there anyway that you can do your magic 
+  and make me a multi-millionaire?
+[01:09] <prysm-> if you marry him and support him
+[01:09] <Etude> Pretty please with sugar on the pot?
+[01:09] <prysm-> he will configure your comptuer for you
+[01:09] <shuer> tail  where in ICQ do you see a setting for a 
+  proxy?
+[01:09] *** Jeff_- (JB@user-2ivfqn6.dialup.mindspring.com) 
+has joined #irchelp
+[01:09] *** Jeff_- (JB@user-2ivfqn6.dialup.mindspring.com) 
+has left #irchelp
+[01:10] <Lindy_> Etude what did you do when you were working?
+[01:10] <Tailspin> shuer I have an old version of icq, but I 
+  belive it was under preferences, or advanced settings , on 
+  the system menu
+[01:10] <Etude> Manufacturing software
+[01:10] <CaraBear> *ugh* alright, no ones really getting this 
+  modem hooked up any faster than I was by myself, i'm gonna 
+  get some sleep and contact my ISP, if it doens't work i'll 
+  try back k?
+[01:10] <shuer> it has a place to add servers....
+[01:10] <Tailspin> one sec lemme start icq
+[01:10] <Etude> no, either confess now or never return!
+[01:11] <Etude> It was funny once, but I will never go 
+  through this again
+[01:11] <CaraBear> ?
+[01:11] <NoizyToyz> heh
+[01:11] <CaraBear> Etude?
+[01:11] <shuer> it has a place for a firewall  and a LAN
+[01:11] *** Hiway has quit IRC (Ping timeout: 480 seconds)
+[01:11] <Lindy_> Etude isnt there lots of work in silicone 
+  valley?
+[01:11] <shuer> no proxy
+[01:11] <Etude> don't confess if you don't care too, but if 
+  not, next time I will kick/ban you on site
+[01:11] <CaraBear> kick/ban me on site?
+[01:12] <Etude> I don't mind you and others having your fun 
+  tonight, but it ain't going to happen again
+[01:12] <Tailspin> No, I already abnned you
+[01:12] <Etude> not as long as I have channel ops in here
+[01:12] <Etude> ah
+[01:12] <Etude> ok
+[01:12] <Etude> No one remove that ban!
+[01:12] <Tailspin> shuer ICQ, preferences, connection, I am 
+  on a Lan, I am behind a proxy/firewall
+[01:12] <shuer> ahhhh  ok
+[01:13] <Tailspin> <-icq 98a
+[01:13] <CaraBear> alright, you guys really aren't any 
+  helpful, next time if you can't help someone with their 
+  problem please don't ban them because of their problem?
+[01:13] <Tailspin> CaraBear we'll make a note
+[01:13] <shuer> bit that would have to be set manually....  
+  it would not be that way by default
+[01:13] <prysm->  we told you before you started that this is 
+  not a tech help channel
+[01:13] <Etude> no confession.  I figured as much :(
+[01:13] <CaraBear> i'll try back tomorrow if my ISP can't 
+  seem to fix this...all of you have a nice night and thanks 
+  for helping me whichever of you really did try
+[01:13] <prysm-> and to work with the people who supply your 
+  connection
+[01:14] <Tailspin> shall we kick on the count of three and 
+  see who gets it >?
+-
+CaraBear is Michele@206.146.182.11 * I don't exactly know?
+CaraBear on #irchelp 
+CaraBear using irc.colorado.edu [127.0.0.1] Univ of Colorado 
+Server (2.8.*)
+CaraBear End of /WHOIS list.
+-
+[01:14] <Etude> go for it
+[01:14] *** CaraBear (Michele@206.146.182.11) has left 
+#irchelp
+[01:14] <prysm-> awww
+[01:14] <prysm-> missed :'
+[01:14] <prysm->  /kick CaraBear ingratitude
+[01:14] <Tailspin> we are now all stupider for having 
+  witnessed that conversation
+[01:14] <NoizyToyz> woah
+[01:15] <Etude> I am a troll
+[01:15] <NoizyToyz> im glad thats over
+[01:15] <Etude> I am an idiot
+[01:15] <Etude> I have magical powers
+[01:15] <Tailspin> I am all alone, I am two tone
+[01:15] <Etude> I only wanted her to confess to one of those. 
+   Not all three
+[01:15] <Tailspin> and Im going to bed :)
+[01:15] <Etude> night
+[01:16] <shuer> he/she made my night...  I came in here blue 
+  as hell and have been all day....  but that was so much fun 
+  it pulled me right of it  :)
+[01:16] <shuer> g'nite tail  :)
+[01:16] <NoizyToyz> heh
+[01:17] <shuer> (right out of it)
+[01:17] * NoizyToyz dies
+[01:18] <NoizyToyz> that was too much for one MONTH! or a 
+  year even!
+[01:18] <shuer> end of log........
+[01:19] <Apatrix> I want a copy :)
+[01:19] <NoizyToyz> yep
+[01:19] <NoizyToyz> lets all publish it! :)
+End of #irchelp buffer    Fri Jan 19 01:19:24 2001
+

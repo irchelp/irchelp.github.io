@@ -1,0 +1,8 @@
+Usage: DCC RENAME <nick> [<filename1> [<filename2> ...]]
+  DCC RENAME renames a file prior to a DCC GET from filename1 to
+  filename2. If filename1 is not specified, the oldest file
+  connection to the given nick is renamed.
+
+See Also:
+  DCC GET
+  DCC LIST

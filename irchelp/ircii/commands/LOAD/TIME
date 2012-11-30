@@ -1,0 +1,4 @@
+Usage: LOAD date
+  Will put the time, date, etc in the appropriate variables as 
+  recorded from the 'uptime' and 'date' commands in unix.
+  Variables are 'day', 'month', 'date', and 'time'.

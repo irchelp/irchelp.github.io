@@ -1,0 +1,2 @@
+Usage: REHASH
+  Forces the server to re-read its configuration file.

@@ -1,0 +1,9 @@
+Usage: NOTE WAITFOR [&<pwd>] [+|-<flags>] [+|-<maxtime>]
+		<nick!username@host> [<msg>]
+  WAITFOR is an alias for USER +YD (default max 1 day)
+  Default message is [Waiting]
+  This command is for telling the recipient if this appears on IRC that
+  you are waiting for him/her and notice that this got that message. Example:
+    WAITFOR foobar
+    WAITFOR -2 foobar!username@*
+    WAITFOR foobar Waiting for you until pm3:00..

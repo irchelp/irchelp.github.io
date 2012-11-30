@@ -1,0 +1,6 @@
+Usage: ON [#|+|-|^|&|@]WALL [-|^]<parameters> [action]
+  This is activated whenever you receive a WALL (a global
+  message from an irc operator).
+
+Note:
+  WALL is dead.. Don't even bother.

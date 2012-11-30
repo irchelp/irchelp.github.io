@@ -1,0 +1,4 @@
+Usage: WINDOW BACK
+  Set the current window to the previous current window
+  swapping the current window with the new one if it was
+  hidden.

@@ -1,0 +1,7 @@
+Usage: SET HIGHLIGHT_CHAR [BOLD|INVERSE|UNDERLINE]
+  When the + option of IGNORE is used it highlights messages
+  from the specific user.  The setting of this variable
+  determines how the name is to be highlighted.
+
+See Also:
+  IGNORE

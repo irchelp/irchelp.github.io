@@ -1,0 +1,4 @@
+Usage: SET LASTLOG <value>
+  Sets the size of the lastlog buffer (See HELP LASTLOG).  This
+  buffer keeps an in memory record of messages sent and received.
+  If LASTLOG is set to 0, the lastlog function is disabled.

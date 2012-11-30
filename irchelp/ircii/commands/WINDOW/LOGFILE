@@ -1,0 +1,12 @@
+Usage: WINDOW LOGFILE [<filename>]
+  Sets the name of the file to be used for the log of this window.
+  New window logs are appended to the end of this file.
+
+  Nothing is appended to this name, if you use WINDOW LOG.
+  If you don't set a logfile for the window, and call WINDOW LOG,
+  ircII creates a name for you.
+
+See Also:
+  WINDOW LOG
+  SET LOG
+  SET LOGFILE

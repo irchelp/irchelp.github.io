@@ -1,0 +1,10 @@
+Usage: LOAD window
+  This script contains bindings for Window handling in an EMACS-like
+  fashion. After pressing the META2 key (either CTRL-X or TAB) you
+  can press one of these:
+    2		Open a new window.
+    + or z	Grow the current window by one line.
+    - or ^z	Shrink the current window by one line.
+    =		Balance the size of all windows.
+    0		Kill the current window!
+    1		Kill all other windows!

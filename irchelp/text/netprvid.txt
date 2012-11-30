@@ -1,0 +1,358 @@
+Index of providers by area code 11/94
+-------------------------------
+
+Nationwide : ACM, AlterNet, ANS, BIX, CIX, CRIS, Delphi, free.i.net, Gateway, Global Connect, HoloNet, IGC Networks, Network 99, NovaLink, Pipeline, Portal, Vnet
+
+800 : ACM, AIS, CENTURION, CERFnet, Colorado SuperNet, FXnet, INS, Internet Connection,  Internet Express, Internet Online, Interpath, Msen, National Internet, NeoSoft, New Mexico Technet, OARnet, 
+Ping, Rabbit Network, Sacramento Network, South Coast, SuperNet, VoiceNet, WLN, Zone
+
+201 : Digital, Dorsai, Echo, Interactive, Internet Online, National Internet, Mordor, Neighborhood, Netcom, New York Net, Panix, Planet, Zone
+202 : CAPCON, ClarkNet, Digital, NCM, NovaNet, US Net
+203 : Connix, Dorsai, New York Net, PCNet
+205 : interQuest, Nuance, Planet, Traveller 
+206 : Cyberlink, Eskimo North, Netcom, Network Acccess, NorthWest CommLink, Northwest Nexus, NorthwestNet, Pacifier, SeaNet, Skagit, Teleport, Townsend, WLN
+207 : maine.net
+208 : Evergreen, WLN
+209 : California Online, Sacramento Network
+210 : CRL, Freeside 
+212 : Blythe, Creative Data, CRL, Escape, Dorsai, Internet Online, Interport, Maestro, Phantom, Mordor, Netcom, New York Net, NYSERNet, Panix, Phantom, Zone
+213 : CRL, CSUnet, DHM, DigiLink, Earthlink, KAIWAN, Primenet, ViaNet
+214 : CRL, Dallas Vietnamese, DFW, Metronet, NeoSoft, Netcom
+215 : FishNet, VoiceNet
+216 : APK, Exchange, OARnet
+218 : Minnesota Regional Network, Red River
+301 : CAPCON, ClarkNet, Digital, FredNet, NCM, NovaNet, SURAnet, US Net
+302 : SSNet
+303 : Colorado Internet Cooperative, Colorado SuperNet, DASH, Evergreen, Internet Express, Netcom, New Mexico Technet, Nyx, Rocky Mountain
+304 : WVNET
+305 : CyberGate, Florida Online, IDS, SatelNET
+310 : CERFnet, CRL, CSUnet, DHM, DigiLink, Earthlink, KAIWAN, Lightside, Los Nettos, ViaNet
+312 : AIS, InterAccess, MCSNet, Netcom, Ripco, Tezcat, WorldWide
+313 : Innovative Data, Msen, MichNet, CICnet, ICNet
+314 : NeoSoft, ThoughtPort
+315 : NYSERNet
+316 : Tyrell
+317 : Network Link, IQuest
+319 : INS, Planet
+401 : IDS 
+402 : INS, MIDnet, Synergy
+404 : CRL, Internet Atlanta, Internet Connection, Intergate, Lyceum, Netcom, MindSpring, Ping
+405 : GSS
+406 : WLN
+407 : CyberGate, Florida Online, IDS, InternetU
+408 : Aimnet, California Online, CCnet, CSUnet, Darex, Duck Pond, ElectriCiti, InterNex, Netcom, Scruz-Net, South Valley, ViaNet, zNET
+409 : Internet Connect Services, NeoSoft 
+410 : CAPCON, ClarkNet, Digital
+412 : PREPnet, PSCNET, Telerama
+414 : BINCnet, Exec-PC, FullFeed, Internet Connect, MIX, WorldWide
+415 : Aimnet, BARRnet, California Online, CCnet, CERFnet, CRL, CSUnet, Darex, ElectriCiti, InterNex, LineX, Netcom, QuakeNet, Scruz-Net, ViaNet, Well, Zocalo
+419 : OARnet
+501 : Sibylline
+502 : IgLou
+503 : Hevanet, Internetworks, Netcom, RainDrop, Teleport, WLN
+504 : NeoSoft, Tyrell
+505 : Evergreen, Internet Express, New Mexico Technet
+507 : Millennium, Minnesota Regional Network
+508 : Destek, DMC, Internet Access, intuitive, North Shore, Schunix, UltraNet
+509 : Internet On-Ramp, WLN
+510 : Access InfoSystems, Aimnet, BDT, California Online, CCnet, CERFnet, Community ConneXion, CRL, CSUnet, ElectriCiti, IACNet, InterNex, Netcom, Sacramento Network, Zocalo
+512 : CRL, Eden Matrix, Freeside, Illuminati, Internet Connect Services, Moontower, Netcom, Onramp, Real/Time, THEnet, Zilker
+513 : EriNet, Freelance, IgLou, Internet Access Online, OARnet, IACNet
+515 : INS
+516 : Cosmic, Creative Data, Dorsai, Echo,  LI Net, Long Island Info, Maestro, Network Internet, New York Net, NYSERNet, Panix, Phantom, Savvy, Zone
+517 : ICNet, Msen, MichNet
+518 : Internet Online, NYSERNet, Wizvax
+602 : CRL, Evergreen, Internet Express, Netcom, New Mexico Technet, Primenet
+603 : Destek, MV Communications
+606 : IgLou
+607 : NYSERNet
+608 : BINCnet, FullFeed, WiscNet
+609 : Digital, New Jersey Computer, New York Net
+610 : SSNet, FishNet
+612 : Cloudnet, InterNetwork, MicroNet, Millennium, Minnesota Regional Network, Skypoint, StarNet
+614 : InfiNet, OARnet
+615 : Edge
+616 : ICNet, Msen, MichNet
+617 : Channel1, CRL, Delphi, Internet Access, Netcom, NEARNET, North Shore, Pioneer, Wilder
+619 : CERFnet, CSUnet, CTS, Data Transfer, ElectriCiti, ESNET, Netcom, Network Link
+701 : Red River
+702 : Evergreen, Great Basin, Netcom, NevadaNet, Sacramento Network, Sierra, @wizard
+703 : CAPCON, ClarkNet, Digital, Netcom, NCM, NovaNet, PSI, US Net
+704 : FXnet, Vnet
+706 : Internet Atlanta, MindSpring
+707 : Access Infosystems, California Online, CRL, CSUnet, Northcoast
+708 : AIS, InterAccess, MCSNet, netILLINOIS, Ripco, Tezcat, WorldWide
+712 : INS
+713 : The Black Box, CRL, Internet Connect Services, NeoSoft, Sesquinet, South Coast
+714 : CERFnet, CRL, CSUnet, DHM, DigiLink, KAIWAN, Lightside, Netcom, Network Intensive
+715 : BINCnet, FullFeed
+716 : NYSERnet
+717 : SuperNet 
+718 : Blythe, Creative Data, Escape, Digital, Dorsai, Interport, Maestro, Mordor, New York Net, NYSERNet, Panix, Phantom, Zone
+719 : Colorado SuperNet, Internet Express, Old Colorado, Rocky Mountain
+801 : Evergreen, XMission
+802 : Destek
+803 : FXnet, Global Vision, SIMS, South Carolina SuperNet, A World of Difference
+804 : Widomaker, VERnet
+805 : KAIWAN, Datawave
+808 : Hawaii OnLine, PACCOM 
+810 : ICNet, Innovative Data, Rabbit Network, MichNet, Msen
+812 : IgLou, The Point
+813 : CENTURION, CyberGate, Florida Online, PacketWorks
+814 : Telerama
+815 : AIS, InterAccess, MCSNet, WorldWide
+816 : Tyrell
+817 : ACM, DFW, Metronet
+818 : CERFnet, CRL, CSUnet, DHM, DigiLink, Earthlink, KAIWAN, Lightside, Netcom, Primenet, ViaNet
+904 : CyberGate, Florida Online, Jax, SymNet
+906 : ICNet, MichNet, Msen
+908 : Digital, New York Net, Planet, Zone
+907 : Internet Alaska
+909 : KAIWAN, Lightside
+910 : Vnet
+912 : Internet Atlanta
+913 : Tyrell
+914 : Cloud 9, Dorsai, IDS, MHVNet, New York Net, NYSERNET, Panix, Phantom, TZ-Link, WestNet, Zone
+915 : New Mexico Technet
+916 : California Online, CSUnet, Netcom, Sacramento Network, Sierra
+917 : New York Net, Zone
+918 : GSS, South Coast
+919 : Interpath, Netcom, CONCERT, Vnet
+
+Access InfoSystems 			Phone: (707) 422-1034 
+ACM Network Services			Phone: (817) 776-6876
+Aimnet Information Services		Phone: (408) 257-0900 
+AlterNet (UUNET Technologies)		Phone: (800) 4UUNET4
+American Information Systems, Inc (AIS)Phone: (708) 413-8400 
+APK Public Access UNI*		Phone:            (216) 481-9428 
+ANS					Phone:            (800) 456-8267, (703) 758-7700
+BARRNet				Phone:            (415) 725-1790 
+Beckemeyer Development (BDT)	Phone:            (510) 530-9637 
+BINCnet				Phone:            (608) 233-5222
+BIX (Delphi Internet Services)		Phone:            (800) 695-4775, (617) 354-4137
+The Black Box				Phone:            (713) 480-2684 
+Blythe Systems				Phone:            (212) 348-2875 
+California Online!			Phone:            (707) 586-3060
+CAPCON Library Network		Phone:            (202) 331-5771 
+CCnet Communications			Phone:            (510) 988-0680
+CENTURION Technology, Inc.		Phone:            (813) 572-5556 
+CERFnet				Phone:            (800) 876-2373, (619) 455-3900 
+Channel 1				Phone:            (617) 864-0100
+Charm Net				Phone:            (410) 558-3900
+CICnet					Phone:            (800) 947-4754, (313) 998-6703 
+Clark Internet Services (ClarkNet)	Phone:            Call 800-735-2258 (MD Relay Service) then give        410-730-9764 to the answering operator. This is a deaf owned/operated company so you will be using a voice service to communicate with the sales staff.
+Cloud 9 Internet				Phone:            (914) 682-0626 
+Cloudnet				Phone:            (612) 240-8243
+Colorado Internet Cooperative AssociationPhone:            (303) 443-3786 
+Colorado SuperNet, Inc			Phone:            (303) 296-8202
+Commercial Internet Exchange (CIX)	Phone:            (703) 8-CIX-CIX
+Community ConneXion			Phone:            (510) 841-2014
+CONCERT				Phone:            (919) 248-1999 
+The Connection				Phone:            (201) 435-4414 
+Connix: The Connecticut Internet Exchange   Phone:            (203) 349-7059 
+Cosmic Internet Services		Phone:            (516) 342-7597 
+Creative Data Consultants (silly.com)	Phone:            (718) 229-0489 x23 
+CRIS					Phone:            (517) 895-0500
+CRL Network Services			Phone:            (415) 837-5300 
+CSUnet (California State Unversity)	Phone:            (310) 985-9445 
+CTS Network Services			Phone:            (619) 637-3637 
+CyberGate, Inc				Phone:            (305) 428-4283 
+Cyberlink Communications		Phone:            (206) 281-5397, (515) 945-7000 
+Dallas Vietnamese Network		Phone:            (214) 248-8701 
+Darex Associates			Phone:            (415) 903-4720
+DASH - Denver Area Super Highway	Phone:            (800) 624-8597, (303) 674-9784
+Datawave Network Services		Phone:            (805) 730-7775
+Data Transfer Group			Phone:            (619) 220-8601
+Delphi Internet Services Corp		Phone:            (800) 695-4005 
+The Destek Group, Inc			Phone:            (603) 635-3857 or (508) 363-2413
+DFW Internet Services, Inc		Phone:            (817) 332-5116 
+DHM Information Management, Inc.	Phone:            (310) 214-3349
+DigiLink Network Services		Phone:            (310) 542-7421 
+Digital Express Group 			Phone:            (301) 220-2020, (410) 813-2724, (800) 969-9090 
+The Dorsai Embassy			Phone:            (718) 392-3667 
+DMConnection				Phone:            (508) 568-1618 
+Earthlink Network, Inc			Phone:            (213) 644-9500 
+Echo Communications Group		Phone:            (212) 255-3839 
+The Eden Matrix			Phone:            (512) 478-9900
+The Edge				Phone:            (615) 455-9915 (Tullahoma), (615) 726-8700 (Nashville) 
+ElectriCiti Incorporated			Phone:            (619) 338-9000
+EriNet Online Communications		Phone:            (513) 436-1700
+Escape (Kazan Corp)			Phone:            (212) 888-8780 
+Eskimo North				Phone:            (206) 367-7457 
+ESNET Communications		Phone:            (619) 287-5943 
+Evergreen Internet			Phone:            (602) 230-9330
+Exchange Network Services, Inc	Phone:            (216) 261-4593
+Exec-PC BBS				Phone:            (800) EXECPC-1, (414) 789-4200
+FishNet (Prometheus Information Corp)	Phone:            (610) 337-9994 
+Florida Online				Phone:            (407) 635-8888 
+FredNet				Phone:            (301) 69802386
+Freelance Systems Programming	Phone:            (513) 254-7246 
+free.i.net				Phone:            (503) 233-4774 
+Freeside Communications		Phone:            (800) 968-8750
+FullFeed Communications		Phone:            (608) 246-4239 
+FXnet					Phone:            (704) 338-4670 
+Gateway to the World, Inc		Phone:            (305) 670-2930 
+Global Connect Inc			Phone:            (804) 229-4484 
+Global Enterprise Services, Inc		Phone:            (609) 897-7324, (800) 35-TIGER 
+Global Vision, Inc			Phone:            (803) 241-0901
+Great Basin Internet Services		Phone:            (702) 829-2244
+GSS Internet				Phone:            (918) 835-3655
+Hawaii OnLine				Phone:            (808) 246-1880, (808) 533-6981
+Hevanet Communications		Phone:            (503) 228-3520 
+HoloNet/Information Access Technologies, Inc	Phone:            (510) 704-0160 
+IACNet					Phone:            (513) 887-8877 
+ICNet/Innovative Concepts		Phone:            (313) 998-0090
+IDS World Network			Phone:            (800) IDS-1680 
+IgLou Internet Services			Phone:            (800) 436-IGLOU 
+Illuminati Online			Phone:            (512) 462-0999, (512) 447-7866
+InfiNet (Infinite Systems)		Phone:            (614) 268-9941 
+Innovative Data Services (ID-Net)	Phone:            (810) 478-3554 
+INS Info Services			Phone:            (800) 546-6587 
+Institute for Global Communications (IGC Networks)	Phone:            (415) 442-0220 
+INTAC Access Corporation		Phone:            (201) 944-1417 
+InterAccess Company			Phone:            (800) 967-1580
+Interactive Networks, Inc		Phone:            (201) 881-1878, (800) 561-1878
+Intergate, Inc				Phone:            (404) 429-9599
+The Internet Access Company		Phone:            (617) 276-7200 
+Internet Atlanta				Phone:            (404) 410-9000 
+Internet Connect, Inc			Phone:            (414) 476-ICON (4266)
+Internet Connect Services, Inc		Phone:            (512) 572-9987, (713) 439-0949
+The Internet Connection			Phone:            (404) 454-4638
+Internet Express			Phone:            (800) 592-1240 
+Internet Online Services		Phone:            (800) 221-3756 
+Internet On-Ramp, Inc			Phone:            (509) 927-RAMP (7267), (509) 927-7267
+InternetU				Phone:            (407) 952-8487
+InterNetwork Services			Phone:            (612) 391-7300
+Internetworks				Phone:            (503) 233-4774 
+InterNex Information Services, Inc	Phone:            (415) 473-3060 
+Interpath				Phone:            (919) 890-6305, (800) 849-6305 
+Interport Communications Corp		Phone:            (212) 989-1128 
+interQuest inc				Phone:            (205) 464-8280
+intuitive information, inc.		Phone:            (508) 342-1100
+Quest Network Services			Phone:            (317) 259-5050, (800) 844-UNIX 
+Jax Gateway to the World		Phone:            (904) 730-7692
+KAIWAN Corporation			Phone:            (714) 638-2139 
+LI Net, Inc				Phone:            (516) 476-1168 
+Lightside, Inc				Phone:            (818) 858-9261 
+LineX Communcations			Phone:            (415) 455-1650 
+Los Nettos				Phone:            (310) 822-1551 
+Long Island Information, Inc		Phone:            (516) 248-5381 
+Lyceum					Phone:            (404) 377-7575 
+Maestro Technologies, Inc		Phone:            (212) 240-9600 
+maine.net, Inc				Phone:            (207) 780-6381 
+MCSNet				Phone:            (312) 248-8649 
+Metronet, Inc				Phone:            (214) 705-2900, (817) 543-8756
+MHVNet				Phone:            (914) 229-9853, (800) 998-7131 
+MichNet				Phone:            (313) 764-9430 
+MIDnet					Phone:            (402) 472-7600 
+Millennium Communications		Phone:            (507) 282-8943, (612) 338-5509
+MindSpring Enterprises, Inc		Phone:            (404) 888-0725 
+Minnesota MicroNet 			Phone:            (612) 681-8018
+Minnesota Regional Network (MRNet)	Phone:            (612) 342-2570 
+MIX Communications			Phone:            (414) 228-0739 
+MoonTower, Inc				Phone:            (512) 837-8670
+Mordor International 			Phone:            (201) 433-7343, (212) 843-3451
+Msen Inc				Phone:            (313) 998-4562 
+MV Communications			Phone:            (603) 429-2223 
+National Internet Source, Inc (NIS, Inc)	Phone:            (201) 825-4600 
+NEARNET				Phone:            (617) 873-8730 
+Neighborhood Internet Connection	Phone:            (201) 934-1445 
+NeoSoft, Inc. 				Phone:            (713) 684-5969 
+NetAxis					Phone:            (203) 969-0618 
+Netcom On-Line Communication ServicesPhone:            (408) 554-8649, (800) 501-8649 
+netILLINOIS				Phone:            (708) 866-1825  
+Network 23, Inc				Phone:            (212) 786-4810 
+Network 99, Inc				Phone:            (702) 442-7353, (602) 780-7533, (800) NET-99IP
+Network Intensive			Phone:           (800) 273-5600
+Network Internet Services 		Phone:            (516) 543-0234 
+The Network Link, Inc			Phone:            (619) 278-5943
+NevadaNet				Phone:            (702) 784-6861 
+New Jersey Computer Connection	Phone:            (609) 896-2799 
+New Mexico Technet, Inc		Phone:            (505) 345-6555 
+New York Net				Phone:            (718) 776-6811
+North Shore Access			Phone:            (617) 593-3110 
+Northcoast Internet			Phone:            (707) 443-8696 
+NorthWest CommLink			Phone:            (206) 336-0103 
+Northwest Nexus, Inc			Phone:            (206) 455-3505
+NorthwestNet				Phone:            (206) 562-3000 
+NovaNet, Inc				Phone:            (703) 524-4800
+Nuance Network Services		Phone:            (205) 533-4296 
+NYSERNet				Phone:            (315) 453-2912 
+Nyx					Phone:            (303) 871-3308 
+OARnet					Phone:            (800) 627-8101, (614) 728-8100 
+Old Colorado City Communications	Phone:            (719) 528-5849 
+Onramp Access, Inc.			Phone:            (512) 322-9200
+PACCOM				Phone:            (808) 956-3499
+Pacifier Computers			Phone:            (206) 693-2116 
+PacketWorks, Inc.			Phone:            (813) 446-8826
+Panix/Public Access Networks		Phone:            (212) 741-4400
+PCNet					Phone:            (800) 66-4INET
+Phantom Access Technologies, Inc	Phone:            (212) 989-2418
+Ping					Phone:            (800) 746-4635, (404) 399-1670
+Pioneer Global				Phone:            (617) 375-0200
+The Pipeline Network			Phone:           (212) 267-3636
+Planet Access Networks			Phone:            (201) 691-4704 
+The Point				Phone:            (812) 246-8032 
+Portal Information Network		Phone:            (800) 433-6444, (408) 973-9111 
+PREPnet				Phone:            (412) 268-7870 
+Primenet				Phone:            (602) 870-1010, (800) 4 NET FUN
+PSCNET				Phone:            (412) 268-4960 
+PSINet					Phone:            (800) 82PSI82, (703) 620-6651 
+QuakeNet				Phone:            (415) 655-6607 
+The Rabbit Network, Inc			Phone:            (800) 456-0094 
+Real/Time Communications		Phone:            (512) 451-0046 
+Red River Net				Phone:            (701) 232-2227 
+Ripco Communcations, Inc		Phone:            (312) 665-0065
+Rocky Mountain Internet, Inc		Phone:            (800) 900-RMII 
+Sacramento Network Access, Inc	Phone:            (916) 565-4500
+SatelNET Communications		Phone:            (305) 434-8738 
+Savvy					Phone:            (516) 626-2090 
+Schunix				Phone:            (508) 853-0258 
+Scruz-Net				Phone:            (800) 319-5555, (408) 457-5050
+SeaNet					Phone:            (206) 343-7828 
+Sesquinet				Phone:            (713) 527-4988 
+Sibylline, Inc				Phone:            (501) 521-4660 
+Sierra-Net				Phone:            (702) 832-6911
+SIMS, Inc				Phone:            (803) 762-4956 
+Skagit On-Line Services		Phone:            (206) 755-0190 
+Skypoint Communications, Inc		Phone:            (612) 475-2959
+South Carolina SuperNet, Inc		Phone:            (803) 748-1207
+South Coast Computing Services, Inc	Phone:            (800) 221-6478
+South Valley Internet			Phone:            (408) 683-4533 
+SprintLink				Phone:            (703) 904-2156 
+SSNet, Inc 				Phone:            (302) 378-1386
+StarNet Communications, Inc (Winternet)	Phone:            (612) 941-9177 
+SuperNet Internet Services		Phone:            (800) HOOKED-UP
+Synergy Communcations		Phone:            (402) 346-4638 
+SymNet				Phone:            (904) 385-1061 
+Teleport, Inc				Phone:            (503) 223-0076
+Telerama Public Access Internet	Phone:            (412) 481-3505 
+Tezcatlipoca, Inc			Phone:            (312) 850-0181 
+THEnet					Phone:            (512) 471-2444 
+ThoughtPort Inc. 			Phone:            (314) 474-6870  
+Townsend Communcations, Inc		Phone:            (206) 385-0464 
+Traveller Information Services		Phone:            (800) 840-TNET, (204) 883-2686
+Tyrell Corp				Phone:            (800) TYRELL-1 
+TZ-Link					Phone:            (914) 353-5443 
+UltraNet Communications, Inc		Phone:            (508) 229-8400, (800) 763-8111 
+US Net, Inc				Phone:            (301) 572-5926 
+VERnet					Phone:            (804) 924-0616 
+ViaNet Communications		Phone:            (415) 903-2242 
+Vnet Internet Access, Inc		Phone:            (800) 377-3282 
+VoiceNet/DCS				Phone:            (215) 674-9290
+The Well				Phone:            (415) 332-4335
+WestNet				Phone:            (914) 967-7816 
+Widomaker Communications		Phone:            (804) 253-7621 
+Wilder Systems, Inc			Phone:            (617) 933-8810
+WiscNet				Phone:            (608) 262-8874 
+@wizard.com				Phone:            (702) 871-4461  
+Wizvax Communications		Phone:            (518) 271-6005
+WLN					Phone:            (800) DIAL-WLN, (800) 342-5956, (206) 923-4000 
+A World of Difference, Inc		Phone:            (803) 769-4488
+WorldWide Access			Phone:            (708) 367-1870
+WVnet					Phone:            (304) 293-5192 
+XMission				Phone:            (801) 539-0852 
+Zilker Internet Park			Phone:            (512) 206-3850 
+zNET					Phone:            (408) 477-9638
+Zocalo Engineering			Phone:            (510) 540-8000 
+Zone One Network Exchange (ZONE)	Phone:            (718) 549-8078

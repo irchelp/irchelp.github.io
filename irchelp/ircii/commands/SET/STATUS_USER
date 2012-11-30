@@ -1,0 +1,7 @@
+Usage: SET STATUS_USER <text of status line user information>
+  The value of STATUS_USER is replaced in the STATUS_FORMAT
+  variable for any occurence of %U. If STATUS_USER is set to 
+  <EMPTY>, nothing will be replaced for %U.
+  Additionally 3 more variables STATUS_USER1, STATUS_USER2,
+  and STATUS_USER3 exist and they correspond to the occurences
+  of %X, %Y, and %Z

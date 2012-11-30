@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>IRC International</title>
+
+</head>
+<body BGCOLOR=#FFFFE8 TEXT=#7A0818>
+
+<MAP NAME="nav_map">
+<AREA SHAPE=RECT HREF="/" COORDS="1,1,70,38">
+<AREA SHAPE=RECT HREF="/irchelp/search_engine.cgi" COORDS="72,1,141,38">
+<AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38">
+<AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38">
+</MAP>
+
+<h3 align="center">International IRC resources</h3>
+<h5 align="center">IRC related links in various languages all over the world</h5>
+
+<!-- multiple broken links fixed 3/27/98 by Jolo -->
+<!-- updated 4/1/98 by Apatrix, Jolo changed mod date -->
+<!-- 4/30/99 Jolo added http://www.creaweb.net/irc/ to French section -->
+
+<hr>
+<p>English may be the main language on IRC, but is by no means the only
+one. Some languages in particular, like Finnish, Portuguese, Spanish and
+German are widely used and have dedicated channels on the large IRC
+networks or even whole networks where they replace English as the primary
+language. For people who are not comfortable with English or simply prefer
+their native tongue, there is also a place on IRC.<P>
+
+<SMALL>last modified Apr 20, 1999</SMALL>
+
+<hr>
+<p>Czech - Cesky
+ <ul>
+ <li><a href="http://irc.felk.cvut.cz/">IRC v Cechach a na Slovensku</a>
+ </ul>
+
+<p>Dutch - Nederlands
+ <ul>
+ <li><A HREF="nlnew2irc.html">IRC Prelude (Dutch translation)</A>
+ <li><a href="http://ezel.sci.kun.nl/thalia/helpme/helpme_irc_nl.html">De IRC helpme pages</a>
+ </ul>
+
+<p>Finnish - Suomeksi
+ <ul>
+ <li><a href="http://www.lut.fi/ltkk/lake/kannel-opas/luku10.html">LTKK:n IRC-opastus</a>
+ <li><a href="http://www.uta.fi/~samik/oppaat/ircohje.html">Samik:n IRC-ohje</a>
+ <li><a href="http://www.solutions.fi/is/irc.html">Internet Solutions IRC page</a>
+ </ul>
+
+<p>French - Fran&ccedil;ais
+ <ul>
+ <li><A HREF="frnew2irc.html">IRC Prelude (French translation)</A>
+ <li><A HREF="http://www.creaweb.net/irc/">Help for IRC (mIRC setup, general help)</A>
+ <li><a href="http://www.netitnow.com/netit/guides/irc.html">Belgique: Le Guide IRC [Net-iT]</a>
+	<!-- following updated to new location -->
+ <li><a href="http://www.imaginet.fr/ime/irc.htm">France: Un nouveau guide de l'Internet - IRC</a>
+ </ul>
+
+<p>German - Deutsch
+ <ul>
+ <li><A HREF="denew2irc.html">IRC Prelude (German translation)</A>
+ <li><a href="http://internet.relay.pages.de/">Internet Relay Chat - German Web Pages</a>
+ </ul>
+
+<p>Greek - ≈ÎÎÁÌÈÍ‹
+ <ul>
+ <li><a href="grnew2irc.html">IRC Prelude (Greek translation)</a>
+ <li><a href="http://www.ee.surrey.ac.uk/Societies/hellsoc/hellas/FAQirc.html">IRC FAQ in Greek</a>
+ </ul>
+
+<p>Hungarian - Magyarul
+ <ul>
+ <li><a href="http://www.weblapok.hu/technika/irc.htm">Az Internet dimenziÛi - IRC - Weblapok</a>
+ </ul>
+
+<p>Indonesian
+ <ul>
+ <li><a href="/irchelp/misc/idnew2irc.html">IRC Prelude (Indonesian translation)</a>
+ </ul>
+
+<p>Italian - Italiano
+ <ul>
+ <li><a href="http://www.inrete.it/irc/ircpage.html">Italian IRC page</a>
+ </ul>
+
+<p>Japanese
+ <ul>
+ <li><a href="http://irc.kyoto-u.ac.jp/">IRC users in Japan Home Page</a>
+ </ul>
+
+<p>Korean
+ <ul>
+ <li><a href="http://ee.tamu.edu/~skjo/ibook/Irc.html">Internet Guide in Hangul, Korean - IRC</a>
+ </ul>
+
+<p>Norwegian - Norsk
+ <ul>
+ <li><a href="http://www.nvg.unit.no/irc/">IRCNO - IRC i Norge</a>
+<!--
+ <li><a href="http://www.irc.no/ircno/">IRCNO WWW-siden</a>
+-->
+ </ul>
+
+<p>Polish - Polski
+ <ul>
+	<!-- following updated to new location -->
+ <li><a href="http://www.ia.pw.edu.pl/Pl-iso/irc/">Co to jest IRC?</a>
+ <li><a href="http://www.irc.pl/">WWW Polskiego IRC</a>
+ </ul>
+
+<p>Portuguese - Portugues
+ <ul>
+ <li><a href="http://irc.rccn.net/">Portugal: IRC-PTNet - Servi„o de IRC da RCCN</a>
+ <li><a href="http://www.brasirc.com.br/">Brasil: BrasIRC ano 2000</a>
+ </ul>
+
+<p>Russian - Ú’””À… 
+ <ul>
+ <li><a href="http://www.irc.portal.ru/">˜◊≈ƒ≈Œ…≈ ◊ IRC</a>
+ </ul>
+
+<p>Slovak - Slovensky
+ <ul>
+ <li><a href="http://w4u.eexi.gr/~shadow/irc/docs/IRCintro.sk">CO TO JE IRC?</a>
+ </ul>
+
+<p>Slovene
+ <ul>
+ <li><a href="http://irc.arnes.si/">#Slovenia home page</a>
+ </ul>
+
+<p>Spanish - Espa&ntilde;ol
+ <ul>
+ <li><a href="esnew2irc.html">IRC Prelude (Spanish translation)</a>
+ </ul>
+
+<!--
+<p>Swedish - svenska
+ <ul>
+ <li><a href="http://www.wineasy.se/usercenter/irc/">Wineasy User Center</a>
+ </ul>
+-->
+
+<p>Turkish - T&uuml;rkce
+ <ul>
+	<!-- following added trailing / for directory -->
+ <li><a href="http://www.prizma.net.tr/CHAT/">Prizmanet IRC pages</a>
+ </ul>
+
+<HR>
+<CENTER>
+<!-- navigation bar -->
+<IMG SRC="/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
+	ALT="-navigational bar-">
+<BR><SMALL>
+[ <A HREF="/">go back</A>
+| <a href="/irchelp/search_engine.cgi">search</A>
+| <A HREF="/irchelp/help.html">help</A>
+| <A HREF="/irchelp/mail.cgi">send email</A> ]
+</SMALL>
+<P>
+</CENTER>
+
+<CENTER><SMALL>
+<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
+</SMALL></CENTER>
+
+</BODY>
+</HTML>

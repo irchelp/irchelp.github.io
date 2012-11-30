@@ -1,0 +1,3 @@
+Usage: WINDOW HIDE
+  Make the current window "hidden".  It still exists in every way 
+  except it takes up no space on the screen.

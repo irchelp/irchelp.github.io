@@ -1,0 +1,3 @@
+Usage: SET SHOW_AWAY_ONCE [ON|OFF|TOGGLE]
+  This will show you someone's away message only once even if you
+  send them many messages.  

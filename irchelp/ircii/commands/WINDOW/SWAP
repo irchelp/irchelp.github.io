@@ -1,0 +1,3 @@
+Usage: WINDOW SWAP <r>  
+  Swaps the current window with the hidden window with refnum <r>.  
+  The proportions of the window are maintained.

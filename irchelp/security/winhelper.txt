@@ -1,0 +1,79 @@
+The 'winhelper' mIRC Takeover Trojan
+
+by Melinda Thompson aka habit <ima@badhabit.org>
+original version at <http://www.irchelp.org/irchelp/mirc/trojan.txt>
+Greek translation at <http://w4u.eexi.gr/~shadow/irc/trojan.txt>
+
+updated 1/17/98
+
+WHAT IS IT?
+
+Starting around Jan 10, 1998, many users of the mIRC IRC client for
+Windows have suffered from channel takeovers as the result of a new
+trojan horse program (a file that pretends to be something good when
+it's really not). Once infected, the client can be forced to
+do any or all of the following:
+	1. invite an evil-doer to any channel where you are an operator,
+	2. mass deop all the other ops, 
+	3. op the evil-doer
+	4. deop or quit IRC yourself
+These result in a de facto takeover which does not require
+exploiting the server timestamp (TS), splits, or any other hacks.
+
+HOW DID I GET INFECTED?
+
+The exploit is purposefully named like something that might be
+desirable, such as a screensaver, a crack, or some other .exe file.
+(Examples include spoof.exe, land.exe, etc.) You can get it within
+IRC using DCC get, or you might download it by WWW or FTP. No matter
+what, you need to actively get it from somewhere or somebody (unless
+you foolishly have mIRC's auto dcc get turned on, in which case
+anybody can send you anything at any time).
+
+When you attempt to run the trojan it is designed to give an error
+message or appear to have been a failed transfer, while actually
+altering win.ini and writing 2 other files. You probably assume the
+transfer corrupted the file and either throw the original away or
+just give up on it. However by this time the exploit is already
+installed. The fake mIRC.ini file is put at root level on the
+startup drive (C: \ usually) and evidently thru this higher level
+location the fake ini file is loaded rather than the correct ini
+file which is in the mirc subdirectory.
+
+HOW DOES IT WORK?
+
+The evil-doers hang out on a designated special channel and wait for
+signs that you are infected. You will /notice the control channel
+when you join IRC, nick change, and likely when you become a chanop.
+The evil-doers then come to your channel and force you to turn the
+channel over to them (see 4 steps above). Commands to the infected
+are done by /msg !<command> which the script blocks you from seeing.
+ So you hand over the channel, all without ever seeing that they are
+being msg'd with these commands.
+
+WHAT IS THE CURE?
+
+The cure is as follows: remove the file winhelper.exe, the C:\
+version of mIRC.ini and delete a line from win.ini that references
+winhelper.exe... in other words, a line in win.ini that says
+something about running c:\windows\system\winhelper.exe, or perhaps:
+run=C:\windows\winhelper.exe. Not sure of the exact format/location
+of the line in win.ini but it definitely refers to the file
+winhelper.exe.
+
+There are many variants of the original trojan now but they tend to
+act the same way: by creating or modifying default startup files
+such as mirc.ini, win.ini, or script.ini.
+
+MORAL OF THE STORY
+
+*NEVER* download files (by DCC, WWW, FTP, or other ways) from a
+person or a web site that you are not familiar with, no matter how
+enticing or normal the files seem to be. There are far too many
+lamers out there who are eager to take advantage of you, and the
+consequences can range from the relatively harmless, like IRC
+takeovers, to the relatively dangerous, like having your hard disk
+accessed/erased, your login compromised, or worse. See for example:
+	http://www.irchelp.org/irchelp/mirc/si.html
+for another popular trojan horse for mIRC. This is not a scare
+tactic - these things really do happen every day!

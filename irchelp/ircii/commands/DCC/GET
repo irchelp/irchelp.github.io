@@ -1,0 +1,9 @@
+Usage: DCC GET <nick> <filename>
+  DCC GET accepts a file transfer by direct client connection.
+  If the filename is not supplied then it defaults to the first
+  file offered by that nickname.
+  The sender must first have offered the file with DCC SEND.
+
+See Also:
+  DCC RENAME
+  DCC SEND

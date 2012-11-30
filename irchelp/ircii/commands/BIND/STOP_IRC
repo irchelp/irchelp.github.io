@@ -1,0 +1,5 @@
+Usage: BIND <key> STOP_IRC
+  Sends a Stop signal to IRC II, returning you to the shell.
+  Normally, you can then return to IRC II by typing fg.  Please
+  read about your shell to find out about this.  The default 
+  binding for stop_irc is meta2-^Z or for most people ^X^Z

@@ -1,0 +1,5 @@
+Usage: LOAD kpstat
+  This is based on the killpath script but it displays serverkill
+  messages in your status line instead of on the screen, making them
+  flash by.  This is good if you want to know something is going on
+  but don't want it to fill your screen.

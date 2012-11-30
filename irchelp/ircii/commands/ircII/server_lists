@@ -1,0 +1,18 @@
+The formats of an ircII server list is as follows:
+  servername
+  servername:portnum
+  servername:portnum:password:nick
+  servername::password:nick
+The servername is the name of the server, the portnum is the port
+number of that server to connect to, and the password is a
+connection password for that server.  The first format above
+uses the default port number and no password.  The second format
+specifies a port number for connection to the specified server
+and no password.  The third format specifies both a port number
+and password for connection.  The final format uses a password
+and the default port number.
+
+And, since we call these "server lists", you may specify as many
+of the above formats as you wish.  These may be used on the IRCII
+command line (See HELP ircII command_line_args) and in the
+IRCSERVER environment variable (see HELP ircII environment_vars).

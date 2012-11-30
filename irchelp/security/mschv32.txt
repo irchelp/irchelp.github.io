@@ -1,0 +1,63 @@
+MSchv32.exe trojan horse
+---------------------------------            
+by Allaik 22-06-98
+
+Description
+-----------
+
+This trojan is just like the router32b. It loads itself to memory on
+startup.  When you run this trojan, it will copy itself to
+c:\windows\system\MSchv32.exe.  Then it will modify your windows's
+registry. This makes the program run each time you run windows. 
+
+
+Check
+-----
+
+To see if you are infected with MSchv32.exe trojan, press ctrl-alt-del
+to open up the "Close Program" window. It will show a list of programs
+that you are running. Search for a program called MSchv32.exe. If it
+exists, you are infected. 
+
+
+Instruction on removal
+----------------------
+
+1. Press ctrl-alt-del. Open up the "Close Program" window. Select the
+   program called MSchv32.exe and click "End Task". Wait about 10
+   seconds, and windows will ask you that u confirm with closing 
+   program. Press "End Task". 
+
+2. Delete the file C:\windows\system\MSchv32.exe. (Using your Explorer
+   or DOS) 
+
+3. Go to Start Menu -> Run. Type "regedit.exe"
+   First, it would be wise to backup the registry file
+   Click Registry Menu -> Export Registry File
+   FileName: C:\windows\BackupRegistry.reg
+   Export Range: All
+   Then press Ok to save.
+
+4. Follow the path: HKEY_USERS -> .DEFAULT -> Software -> Microsoft 
+    -> Windows -> CurrentVersion -> Run
+   You will see a key that contain the Data "C:\windows\system\MSchv32.exe"
+   Select it, and press delete -> click "Yes" to confirm
+
+5. Run your Mirc Client, press Alt-R. 
+   Go to View Menu, see if you can find a file called script.ini. 
+   If you have it, select it.   Press Find Text and enter "opshit"
+
+   If you find the word, "opshit", look at the filename under the text box. 
+   Remember the path and filename. For example: C:\script.ini or C:\mirc\script.ini
+   Then go to  File Menu  and press Unload.
+
+6. Press ok to exit to Mirc Client again. 
+   In any window, press /remove c:\script.ini or the path you found on 
+   the filename in previous step.
+
+----------------------------------------------------------------------------------------
+
+You have now uninstalled that trojan. Good luck!
+
+For more information on other trojan:
+http://www.irchelp.org/irchelp/security/

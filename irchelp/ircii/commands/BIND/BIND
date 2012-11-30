@@ -1,0 +1,11 @@
+Usage: BIND <key> <function> [<string>]
+  Binds a keystroke sequence to an IRC function.  The
+  QUOTE_CHARACTER key (by default ^Q) may be used to override any
+  key binding and have IRC insert the actual value of the key in
+  the input line.  
+  
+See Also:
+  BIND KEYS         for information on allowable [key] parameters
+  BIND EXAMPLES     for some examples.
+  BIND <function>   for help on individual key binding functions
+  PARSEKEY

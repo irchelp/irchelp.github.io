@@ -1,0 +1,23 @@
+A brief explanation of the "Unable to connect (Can't assign requested address)" error.
+
+Due to the DoS attacks against DALnet, the DALnet administration disabled their random
+irc.dal.net server alias. This used to resolve to a list of one or more real server IP
+numbers, but often these days it points to 255.255.255.255 which is not a real IP. You
+can see this for yourself using mIRC's /dns feature:
+	/dns irc.dal.net
+
+When you try to connect to that bogus IP, mIRC gives the aforementioned error. The only
+way to connect is to use a specific server name like irc.example.com using the tips on
+the main DALnet connection guide page:
+	http://irchelp.org/dalnet
+
+Why did they do this? If there is no publicly addressable (i.e., "real") IP number,
+then there is no target for the DoS attackers. Unfortunately, that also means there is
+no way for legitimate users to connect either. This applies to nearly all of the
+servers shown in the /links list, even after you manage to connect do DALnet. The
+automatic server list in the URL above checks this for you, so you can tell which
+servers are "real" and which are not accessible.
+
+Good luck.
+
+Jolo@EFnet

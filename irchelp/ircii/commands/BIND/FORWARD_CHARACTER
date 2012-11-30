@@ -1,0 +1,3 @@
+Usage: BIND <key> FORWARD_CHARACTER
+  Moves the cursor to the right one position.  If the cursor is
+  at the end of the input buffer, this function has no effect.

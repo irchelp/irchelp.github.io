@@ -1,0 +1,10 @@
+Usage: DCC TMSG <user>[@<host>]
+  DCC TMSG sends a message across a talk connection to the given
+  user. If only one connection with the given username exists, the
+  host need not be supplied. Another way of doing this is with
+  MSG @user[@host].
+
+See Also:
+  DMSG
+  MSG
+  DCC TALK

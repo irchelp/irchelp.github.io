@@ -1,0 +1,10 @@
+Usage: LOAD meta1
+  Both the ESCAPE and ` keys are defined as META1 control key,
+  so if you do not have ESC you can use `.
+  To obtain a ` you must type ` twice. If you type ESCAPE twice
+  you'll get the ircII command completion function instead.
+
+  This script is provided for those, who switch terminals very
+  often and some terminals don't have ESC in the left upper corner.
+  The "`" which in those cases usually is there instead of ESC
+  will then act as META1, too.

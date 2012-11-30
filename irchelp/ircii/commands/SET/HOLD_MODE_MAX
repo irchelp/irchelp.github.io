@@ -1,0 +1,5 @@
+Usage: SET HOLD_MODE_MAX <number of lines>
+  This specifies the maximum number of lines that will be held
+  in HOLD_MODE before the display is automatically restarted.
+  If HOLD_MODE_MAX is 0, the number of lines held in HOLD_MODE
+  is unlimited.

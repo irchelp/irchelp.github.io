@@ -1,0 +1,7 @@
+Usage: BIND <key> YANK_FROM_CUTBUFFER
+  Restores the last deleted thing.  The following functions store
+  what they deleted to the cutbuffer:
+    DELETE_NEXT_WORD
+    DELETE_PREVIOUS_WORD
+    ERASE_LINE
+    ERASE_TO_END_OF_LINE

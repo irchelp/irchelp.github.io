@@ -1,0 +1,2 @@
+Usage: BIND <key> END_OF_LINE
+  Moves the cursor to the last character of the input buffer.

@@ -1,0 +1,8 @@
+Usage: WINDOW BIND <c>  
+  This command permentantly binds channel <c> to the current window.
+  It does not join the channel if you are on it, however, so a
+  WINDOW CHANNEL command might also be needed.  A window remains
+  bound until it is unbound with WINDOW UNBIND.
+
+See Also:
+  WINDOW UNBIND, WINDOW CHANNEL

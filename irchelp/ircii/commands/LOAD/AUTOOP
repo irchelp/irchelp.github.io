@@ -1,0 +1,22 @@
+Usage: LOAD autoop
+  There have been all too many complaints over the years the the current
+  automatic chanop alias and such act too fast, and thus you get this
+  slew of garbage as 10 people all op the same person the instant they
+  join the channel.  This script tries to alleviate this problem in the
+  following manner.  When someone on your autoop list joins a channel
+  on your channel list, the client will wait 10 seconds + a random
+  time and then CHECK to see if that person is opped yet, and if not,
+  op them.  This allows people to do it by hand in the meantime, but
+  it should cut the number of repetitive MODE commands by about 90%.
+
+  The other big feature of this script is the user-friendly interface.
+  Try it, use it, and remember BE PATIENT.  It will work, it just isn't
+  instant.  It's designed to work the way it does for a reason.
+
+Additionnal commands available:
+  showop	Show list of people on autoop list.
+  showchan	Show list of channels for which you will op people
+  addop		Add a nick!user@host to the autoop list. wildcards are allowed
+  addchan	Add a #channel to the channel list. wildcards are allowed
+  delop		Delete an item from the op list by number.  Use showop first.
+  delchan	Delete a channel from the channel list. Use showchan first.

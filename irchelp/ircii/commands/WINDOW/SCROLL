@@ -1,0 +1,6 @@
+Usage: WINDOW SCROLL [ON|OFF|TOGGLE]
+  This controls scrolling for the current window.
+  The settings of the system variable SCROLL is used as are 
+  used as default for new windows created.  If more than one 
+  window exists, then executing a SET SCROLL will change 
+  the settings for the current window only. 

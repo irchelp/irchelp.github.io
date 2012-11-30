@@ -1,0 +1,6 @@
+Usage: WINDOW NEW
+  Creates a new window by splitting either current window, or the 
+  largest window on the screen. 
+
+See Also:
+  SET ALWAYS_SPLIT_BIGGEST.

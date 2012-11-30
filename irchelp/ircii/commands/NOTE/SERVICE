@@ -1,0 +1,2 @@
+*Usage: NOTE SERVICE <nick> <note command>
+*  Useful in robots. Note will take the requests as if from <nick>

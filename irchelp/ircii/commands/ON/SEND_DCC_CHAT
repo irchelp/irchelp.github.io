@@ -1,0 +1,5 @@
+Usage: ON [#|+|-|^|&|@]SEND_DCC_CHAT [-|^]<parameters> [action]
+  This is activated whenever you send a DMSG to someone else.
+  The parameters for the action are as follows:
+    $0    nickname of person to whom you sent the DMSG
+    $1-   The message itself
