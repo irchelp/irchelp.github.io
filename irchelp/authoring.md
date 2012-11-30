@@ -28,10 +28,13 @@ A sample header follows:
 
 	---
 	title: Document title
-	author: stephanie
+	author: random-irchelper
+	datecreated: 1 September 1993
+	dateupdated: 30 November 2012
+	status: (this is optional, but I'm going to add hooks that put a warning message about depreciated content if the status is "historical")
 	summary:	>
 		This is a long summary with multiple lines.
-		Each line is indented in the same way. When the indentation stops, so does the item.
+		Each line is indented in the same way. When the indentation stops, so does the summary.
 	---
 
 Note the --- at the beginning and end of the header. This seperates the header from the content, and is required for PieCrust to recognize this as a header. The header is **not** Markdown formatted, so most other Markdown parsers will not format it.
