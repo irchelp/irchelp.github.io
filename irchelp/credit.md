@@ -1,11 +1,15 @@
+---
+title: Credits and Server Information for www.irchelp.org
+author: irchelp.org staff
+summary:	>
+	A listing of all the people who've helped to bring this site to you over the years.
+---
+
 # Credits & Server Info for www.irchelp.org
 
 updated 4/15/04
 
 * * *
-
-[ ![www.irchelp.org
-logo](/irchelp/Pix/wio_logo_small.gif)](http://www.irchelp.org/)
 
 ## Introduction
 
@@ -42,10 +46,4 @@ FAQ](http://www.qucis.queensu.ca/FAQs/FAQaid/copyright.html).
 
 * * *
 
-![-navigational bar-](/irchelp/Pix/ihnavbar.gif)
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
 
