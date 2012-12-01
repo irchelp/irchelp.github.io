@@ -6,7 +6,7 @@ summary:	>
 ---
 
 # Authoring Documents for www.irchelp.org
-
+*This is an early draft of this guide, documenting the new way we're going to maintain www.irvhelp.org. Suggestions are welcomed. Unless otherwise noted, this really isn't set in stone yet, so now is the time to give your input!*
 * * *
 
 ## Introduction
@@ -44,7 +44,7 @@ Note the --- at the beginning and end of the header. This seperates the header f
 
 Several programs are useful to irchelp.org authors.
 
-  * retext (apt-get install retext) is a graphical editor with live preview for Linux systems available in the Ubuntu repositories.
+  * [retext](http://sourceforge.net/p/retext/home/ReText/) is a graphical editor with live preview for Linux systems (available in the Ubuntu repositories as *retext*).
   * [PieCrust](http://bolt80.com/piecrust/) is useful to be able to test the automatic build process, but not required for authors.
 
 
@@ -68,5 +68,3 @@ Going forward, in order to protect ourselves from any legal trouble and avoid ha
   * Others?
 
 * * *
-
-
