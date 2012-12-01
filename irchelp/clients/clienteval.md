@@ -1,3 +1,13 @@
+---
+title: www.irchelp.org IRC client review guide
+author: jolo, stephanie
+summary:	>
+	Objective guidelines for evaluating IRC clients.
+---
+
+*This is an ancient draft, started by jolo in the late 90's of how to evaluate IRC clients. It's in the process of being updated, and will be the basis of how we review IRC clients for listing on our website.*
+
+
 This is a draft checklist for reviewing an IRC client. This isn't
 meant to be a complete list of what a client must/should have,
 but rather an abbreviated checklist of things I personally look
@@ -17,6 +27,71 @@ Key:
 no symbol - don't care
 - Undesirable
 -- Unacceptable
+
+# IRC Client Evaluation Checklist
+
+
+## Evaluation Levels
+
+### Full-featured clients (tier 1)
+*Examples of clients we consider full-featured include ircII, EPIC, irssi, XChat, and mIRC. These clients are widely regarded as the gold standards for IRC clients on their respective platforms. A full-featured client allows for rich customiztion through a scripting interface or API, and is suitable for virtually any purpose, from chatting with a few friends to being an IRC Operator on a major network.*
+ * Fully scriptable, generally with a turing-complete programming language that is capable of regulating and manipulating all client-server interactions.
+ * Suitable and stable for any purpose.
+ * Handles uncaught numerics and protocol messages gracefully.
+ * Provides /quote and raw hooks.
+ * Provides all standard /commands.
+
+### IRC Clients (tier 2)
+
+
+### Feature-Limited Clients (tier 3)
+
+This classification includes software that is either too limited to go beyond casual use, as well as software which isn't dedicated to IRC. These clients are functional enough to chat, but not necessarily well suited to functions used as a channel operator or IRC operator.
+
+
+#### Instant Messaging Programs
+
+#### Other Limited IRC Clients
+
+
+### Broken Clients (tier 4)
+
+From our perspective, a client may be considered as "broken" if it is missing core functionality needed to connect to a server, authenticate to services (if used), join channels, and send/recieve private messages and notices.
+
+Any of these things earn a spot on the broken list.
+
+ * Can't successfully complete a connection to one or more established IRC networks due to failure to follow standards or common practices of IRC clients.
+ * Hard-coded restrictions on IRC network or channel selection.
+ * Imability to authenticate to, or interact with services on one or more established IRC networks.
+ * Inability to send/recieve messages to/from channels
+ * Inability to send/recieve messages/notices to/from other users.
+ * Serious protocol errors or omissions which cause the client to disconnect or time out regularly from IRC servers (such as not supporting PING/POMG)
+
+Clients that fall into the "Broken" category as judged by the above will be listed as such, and our coverag, if any,  will be limited to their shortcomings and possible workarounds.
+
+
+
+
+
+## Basics
+
+### Stability
+
+ * General stability. (any crashes or hangs noted during testing?)
+ * Stability under flood. (test with /list on a large network)
+
+## Performance
+
+ * Load time. (On a system typical of those the client is designed for, should be under 30 seconds)
+
+## Licensing
+
+### Shareware/Demoware
+*This section only applies to shareware and demoware.*
+ * MUST allow access to all functionality needed for proper evaluation.
+ * Should not abort on a timer.
+ * If the software aborts on a timer, the timer MUST be long enough to permit proper evaluation.
+
 
 
 BASICS
