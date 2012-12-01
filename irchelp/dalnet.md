@@ -1,3 +1,14 @@
+---
+title: DALNet server list and general news.
+author: irchelpers
+datechanged: 1 December 2012
+status: historical
+summary:        >
+        A server list and news for Dalnet
+---
+
+*Editor's note: This document came about during a period of severe denial of service attacks directed against the DALNet IRC Network, during which EFNet #irchelp was flooded with questions from users that couldn't connect to DALNet.*
+
 # DALnet server list (and general news)
 
 updated Tue Jan 21 21:56:30 EST 2003

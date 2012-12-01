@@ -1,3 +1,12 @@
+---
+title: The New IRC Channel Operator's Guide
+author: Jolo, prysm, and RuyDuck of EFnet #IRChelp
+datechanged: 18 August 2008
+summary:        >
+        A guide for those finding themselves as channel operators in EFNet (or other networks without services) for the first time.
+---
+
+
 # The New IRC Channel Operator's Guide
 
 by Jolo, prysm, and RuyDuck of EFnet #IRChelp

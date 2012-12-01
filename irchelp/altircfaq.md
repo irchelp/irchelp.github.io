@@ -1,3 +1,11 @@
+---
+title: alt.irc faq
+author: alt.irc
+summary:        >
+        The FAQ from the Usenet group alt.irc
+---
+
+
 **Editor's note**: This is a classic help file dating back to the 1990s when IRC was very new. We still keep this file here for historic value, and also because the general information is still accurate. If you are interested in other, more up to date help files, see [IRC FAQs and Help Files](/irchelp/faq.html). 
 
 Back then there was only 1 network (EFnet), now there are hundreds, each with
