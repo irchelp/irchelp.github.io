@@ -1,4 +1,6 @@
 # Something jolo used in the past left a little bit of litter around... --steph
-.Parent
-.AppleDouble
+.Parent/
+.AppleDouble/
 *~
+_piecrust/
+_counter/
