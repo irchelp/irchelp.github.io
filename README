@@ -1,0 +1,23 @@
+This is the new and improved www.irchelp.org.
+
+Directory Structure
+-------------------
+
+ * documents/ - contains the files that will be processed as input by PieCrust
+ * otherfiles/ - contains other files, arranged into the same directory structure as the rest of the site.
+
+Build Process
+-------------
+
+The build process should go something like this.
+
+ 1. a _target folder is created.
+ 2. the documents folder is processed with PieCrust and the output placed in
+    the root of _target
+ 3. the otherfiles folder is copied to the root of _target, skipping any
+    files that already exist from the build process
+ 4. Sanity checks are optionally performed (has the size dropped more than it should,
+    etc)
+ 5. Entire contents of target are rsynced to a staging folder on the server.
+ 6. The live folder is renamed to old, and the staging folder is renamed so
+    that it becomes the live folder.
