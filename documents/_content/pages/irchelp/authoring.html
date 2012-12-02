@@ -46,6 +46,8 @@ After evaluating the possible alternatives to a CMS, the solution of a static si
  * Existing URLs will be carefully maintained, and redirects created as needed.
  * A backup of the site before the move will be carefully preserved. Additionally, we've been well preserved by the Internet Archive, [all the way back to Freesoft's time as webmaster](http://web.archive.org/web/19961219105056/http://irchelp.org/).
  * All software downloads including executables and scripts will be removed from the website, including old copies of mIRC, Windows 95/98 era hotfixes, and similar files. Redirects will be made appropriately.
+ * **Initally, we will NOT be clearing out the existing files and directories, but rather uploading the new site over the top of the old one - this means that any content that didn't migrate will still be there, unless it's explicitly removed.**
+ * * **Special attention will be needed to remove the existing CGIs which are blatently insecure.**
 
 ### In the future
 *These are changes which may come once the upgrades are complete.*
@@ -58,6 +60,8 @@ After evaluating the possible alternatives to a CMS, the solution of a static si
 As of 2012, all content on the site is maintained as Markdown files with a short YAML header containing metadata. [Markdown](en.wikipedia.org/wiki/Markdown) is a simple way of adding formatting to text files, very similar to wiki markup.
 
    The files are kept in a [Git](http://git-scm.org) repository, and automatically generated using [PieCrust](http://bolt80.com/piecrust/).
+
+The Git repository is very important to this process - it's the part that will allow multiple editors access to update the site, without risk of stepping on each other's toes, and which will allow us to easily roll back unwanted changes.
 
 ### Document Header
 The document header is written in YAML, and delimited with three dashes. It is a simple list of name: value pairs that describe each document. These headers will be used in templates.
@@ -84,6 +88,9 @@ Several programs are useful to irchelp.org authors.
 
   * [retext](http://sourceforge.net/p/retext/home/ReText/) is a graphical editor with live preview for Linux systems (available in the Ubuntu repositories as *retext*).
   * [PieCrust](http://bolt80.com/piecrust/) is useful to be able to test the automatic build process, but not required for authors.
+  * [Git](http://git-scm.com/) is necessary to read/write the repository which stores the source to the website. Clients are available there for virtually all operating systems, not just Linux :)
+
+
 
 
 
