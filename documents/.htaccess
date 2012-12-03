@@ -6,14 +6,18 @@
 #RewriteBase /piecrust
 
 # Don't rewrite requests to stuff that physically exists.
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -l [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^.*$ - [NC,L]
+#RewriteCond %{REQUEST_FILENAME} -f [OR]
+#RewriteCond %{REQUEST_FILENAME} -l [OR]
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteRule ^.*$ - [NC,L]
 
 # Rewrite all the rest through the gateway.
-RewriteRule ^.*$ index.php [NC,L]
+#RewriteRule ^.*$ index.php [NC,L]
 
 # Various other configuration stuff.
-SetEnv TZ Canada/Vancouver
+#SetEnv TZ Canada/Vancouver
 AddType text/css .less
+
+# Rules from the original irchelp.org
+
+ 
