@@ -18,6 +18,55 @@
 #SetEnv TZ Canada/Vancouver
 AddType text/css .less
 
-# Rules from the original irchelp.org
-
+# Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
  
+Redirect /bot http://www.irchelp.org/irchelp/misc/botfaq.html
+Redirect /bots http://www.irchelp.org/irchelp/misc/botfaq.html
+Redirect /noserv http://www.irchelp.org/irchelp/networks/noserv.html
+Redirect /dalnet http://www.irchelp.org/irchelp/networks/servers/dalnet.html
+Redirect /dalrefugee http://www.irchelp.org/irchelp/networks/dalrefugee.html
+Redirect /shortcuts http://www.irchelp.org/irchelp/misc/shortcuts.html
+Redirect /firewall http://www.irchelp.org/irchelp/security/fwfaq.html
+Redirect /gmode http://irchelp.org/irchelp/misc/gmode.html
+Redirect /news http://www.irchelp.org/irchelp/news/
+Redirect /chanfix http://www.efnet.org/chanfix/
+Redirect /downloading http://www.irchelp.org/irchelp/security/warez.html
+Redirect /download http://www.irchelp.org/irchelp/security/warez.html
+Redirect /warez http://www.irchelp.org/irchelp/security/warez.html
+Redirect /connect http://www.irchelp.org/irchelp/networks/connectprob.html
+Redirect /ts0 http://www.irchelp.org/irchelp/ircd/ts0.html
+Redirect /efnetsux http://www.irchelp.org/irchelp/networks/efnetsux.html
+Redirect /chanlist http://www.irchelp.org/irchelp/chanlist/
+Redirect /ircd http://www.irchelp.org/irchelp/ircd/
+Redirect /ircii http://www.irchelp.org/irchelp/ircii/
+Redirect /local http://www.irchelp.org/irchelp/networks/local.html
+Redirect /mac http://www.irchelp.org/irchelp/mac/
+Redirect /mirc http://www.irchelp.org/irchelp/mirc/
+Redirect /misc http://www.irchelp.org/irchelp/misc/
+Redirect /nets http://www.irchelp.org/irchelp/networks/
+Redirect /net http://www.irchelp.org/irchelp/networks/
+Redirect /networks http://www.irchelp.org/irchelp/networks/
+Redirect /network http://www.irchelp.org/irchelp/networks/
+Redirect /new2irc http://www.irchelp.org/irchelp/new2irc.html
+Redirect /nuke http://www.irchelp.org/irchelp/nuke/
+Redirect /script http://www.irchelp.org/irchelp/script/
+Redirect /shareware http://www.irchelp.org/irchelp/misc/shareware.html
+Redirect /security http://www.irchelp.org/irchelp/security/
+Redirect /trojan http://www.irchelp.org/irchelp/security/trojan.html
+Redirect /unix http://www.irchelp.org/irchelp/ircii/
+Redirect /rules.html http://www.irchelp.org/irchelp/misc/rules.html
+Redirect /rules http://www.irchelp.org/irchelp/misc/rules.html
+Redirect /dird http://deckard.mc.duke.edu/dird
+Redirect /dotn http://scuba.mc.duke.edu/scuba/dotn/
+Redirect /dsd http://scuba.mc.duke.edu/scuba/dsd/
+Redirect /scuba http://scuba.mc.duke.edu/scuba/
+Redirect /iblfaq http://www.irchelp.org/bolo/ibl/iblfaq.html
+Redirect /trolls http://www.irchelp.org/irchelp/ircd/trolls/
+Redirect /op http://www.irchelp.org/irchelp/ops/
+Redirect /ops http://www.irchelp.org/irchelp/ops/
+Redirect /exploit http://www.irchelp.org/irchelp/mirc/exploit.html
+Redirect /x http://www.irchelp.org/irchelp/mirc/exploit.html
+Redirect /changuide http://www.irchelp.org/irchelp/changuide.html
+Redirect /chanop http://www.irchelp.org/irchelp/mirc/chan_op.mrc
+Redirect /rfc http://www.irchelp.org/irchelp/rfc/
+Redirect /umode http://irchelp.org/irchelp/misc/umodes.html
