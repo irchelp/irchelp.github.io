@@ -19,18 +19,57 @@ updated 1/25/03 -dracus
 
 Please send suggestions/comments to Jolo at http://www.irchelp.org/~jyl/mail.cgi
 
-Key: 
-* Required
-++ recomended
-+ Desired
-no symbol - don't care
-- Undesirable
--- Unacceptable
 
-# IRC Client Evaluation Checklist
+
+# Overview
+
+Clients are evaluated on a long list of criteria.
+
+* Fitness for purpose
+* * General Use
+* * Channel Operator
+* * Server Operator
+* * Extensibility, Scripting, and Automation
+* Maturity
+* Annoyance (can the client be classed as a public nusance?)
+* Brokenness
+
+# Fitness for purpose
+
+Fitness for purpose is rated in four areas, communicating, channel maintainance, server maintainance, and scripting/automation. These ratings correspond to an overall sense of the client's capability, and whether a user would find the client suitable to perform the functions needed for a given role. Evaluation covers the user interface elements as well as access to necessary commands.
+
+Possible ratings:
+
+* Outstanding - The client goes above and beyond what is required for a high level of usability and capability.
+* Acceptable - The client is fully capable of all functions expected of this role in the expected way.
+* Deficient - The client is capable of all required functions for this role, but may require workarounds or be difficult to use.
+* Unacceptable - The client prevents access to necessary functionality for this role.
+
+## Communicating
+
+* Ability to join/part channels.
+* Ability to join multiple channels.
+* Ability to send/recieve private messages (PRIVMSG)
+* Ability to send/recieve notices (NOTICE)
+* Ability to view identifying information for other users (WHOIS)
+* Ability to view channel topic (TOPIC)
+* Ability to view list of channel members (WHO/NAMES)
+* Ability to list/find channels (if not prevented by network size)
+* Ability to list servers
+* Support for client side ignore.
+* Support for answering CTCP queries, minimally CTCP VERSION.
+* Must be able to send messages to nickserv/chanserv that comply with anti-spoofing features of major networks. (/quote nickserv command or /msg nickserv@services.example.com)
+
+### Nicities
+* Support for serverside ignore extensions (SILENCE/ACCEPT).
+
 
 
 ## Evaluation Levels
+
+
+
+
 
 ### Full-featured clients (tier 1)
 *Examples of clients we consider full-featured include ircII, EPIC, irssi, XChat, and mIRC. These clients are widely regarded as the gold standards for IRC clients on their respective platforms. A full-featured client allows for rich customiztion through a scripting interface or API, and is suitable for virtually any purpose, from chatting with a few friends to being an IRC Operator on a major network.*
