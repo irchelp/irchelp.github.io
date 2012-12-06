@@ -85,23 +85,23 @@ B. Setting Up Multiple Irssi Configurations.
 
 1. To do this trick, we will set up a unique Irssi config for each Irssi session we want to have. The Irssi config file is located in your home directory, for example,
 
-/home/user/.irssi/config  where “user” is the user name for your account
+~/.irssi/config  where “user” is the user name for your account
 
 2. Duplicate the entire .irssi directory in this manner: In a Linux terminal command line type and enter:
 
-	cp -r /home/user/.irssi/config  /home/user/.irssi-1/config
+	cp -r ~/.irssi/config  ~/.irssi-1/config
 
 Again, “user” is the user name for your account
 
 3. Now hide the config file in .irssi-1 like this:
 
-	mv /home/user/.irssi-1/config  /home/user/.irssi-1/config.hidden
+	mv ~/.irssi-1/config  ~/.irssi-1/config.hidden
 
 Again, “user” is the user name for your account. The reason you are hiding the config file is to force Irssi to create a new default config file.
 
 4. Now start Irssi from the second .irssi directory, .irssi-1 like this
 
-	irssi --config=/home/user/.irssi-1/config
+	irssi --config=~/.irssi-1/config
 
 Where “user” is the user name for your account
 
@@ -124,7 +124,7 @@ Now you can start your original Irssi configuration simply by typeing “irssi�
 
 However, if you want to start your irssi-1 configuration, type this on the Linux terminal command line:
 
-	irssi --config=/home/user/.irssi-1/config]
+	irssi --config=~/.irssi-1/config]
 
 Where “user” is the user name for your account
 
@@ -160,7 +160,7 @@ Then at a later time you can re-connect to the remote computer, re-attach to the
 
 10. Now open screen window 1 by pressing Ctrl+a then c. In this window open the .irssi-1 config by typing
 
-		irssi --config=/home/user/.irssi-1/config
+		irssi --config=~/.irssi-1/config
 
 11. Next configure the .irssi-1 configuration the way you did it in Part B.
 
@@ -205,7 +205,7 @@ Assuming you do have the permissions, do
 
 and your crontab file will be opened in your default editor. It may be full of comments (lines beginning #, which are ignored. Go to the end of the file and add a line that reads:
 
-	@reboot/home/user/startirssi
+	@reboot	~/startirssi
 
 Make sure there is a blank line visible in the file after this line, and of course, replace “user” with your actual username.
 
