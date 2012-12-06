@@ -85,25 +85,25 @@ B. Setting Up Multiple Irssi Configurations.
 
 1. To do this trick, we will set up a unique Irssi config for each Irssi session we want to have. The Irssi config file is located in your home directory, for example,
 
-~/.irssi/config  where “user” is the user name for your account
+~/.irssi/config  “~/” represents the home directory for your account, which is usually /home/username
 
 2. Duplicate the entire .irssi directory in this manner: In a Linux terminal command line type and enter:
 
 	cp -r ~/.irssi/config  ~/.irssi-1/config
 
-Again, “user” is the user name for your account
+Again, “~/” is the home directory for your account
 
 3. Now hide the config file in .irssi-1 like this:
 
 	mv ~/.irssi-1/config  ~/.irssi-1/config.hidden
 
-Again, “user” is the user name for your account. The reason you are hiding the config file is to force Irssi to create a new default config file.
+Again, “~/” is the home directory for your account. The reason you are hiding the config file is to force Irssi to create a new default config file.
 
 4. Now start Irssi from the second .irssi directory, .irssi-1 like this
 
 	irssi --config=~/.irssi-1/config
 
-Where “user” is the user name for your account
+Where “~/” is the home directory for your account
 
 This should start Irssi with a default config file.
 
@@ -126,7 +126,7 @@ However, if you want to start your irssi-1 configuration, type this on the Linux
 
 	irssi --config=~/.irssi-1/config]
 
-Where “user” is the user name for your account
+Where “~/” is the home directory for your account
 
 D. Additional Configurations.
 
@@ -207,7 +207,7 @@ and your crontab file will be opened in your default editor. It may be full of c
 
 	@reboot	~/startirssi
 
-Make sure there is a blank line visible in the file after this line, and of course, replace “user” with your actual username.
+Make sure there is a blank line visible in the file after this line.
 
 If the system crashes or has a power failure, for example, this will not work – you will need to log in and run “startirssi” yourself. However, on a simple reboot, it should be run automatically, and you will be able to get into it with “screen -r irssi” right away.
 
