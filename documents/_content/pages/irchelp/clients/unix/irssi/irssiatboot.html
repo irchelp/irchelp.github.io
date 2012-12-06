@@ -87,27 +87,15 @@ B. Setting Up Multiple Irssi Configurations.
 
 ~/.irssi/config  “~/” represents the home directory for your account, which is usually /home/username
 
-2. Duplicate the entire .irssi directory in this manner: In a Linux terminal command line type and enter:
+2. Now start Irssi, telling it to use a different path for its configuration
 
-	cp -r ~/.irssi/config  ~/.irssi-1/config
-
-Again, “~/” is the home directory for your account
-
-3. Now hide the config file in .irssi-1 like this:
-
-	mv ~/.irssi-1/config  ~/.irssi-1/config.hidden
-
-Again, “~/” is the home directory for your account. The reason you are hiding the config file is to force Irssi to create a new default config file.
-
-4. Now start Irssi from the second .irssi directory, .irssi-1 like this
-
-	irssi --config=~/.irssi-1/config
+	irssi --home=~/.irssi-1/
 
 Where “~/” is the home directory for your account
 
-This should start Irssi with a default config file.
+This should start Irssi with a default config file stored in the new location that you gave.
 
-5. With Irssi opened in the .irssi-1 directory, repeat the steps in Section A to set up an autoconnection and auto join scenario. However, use another server, not the generic irc.efnet.org server. This server can be another EFNet server of your choice or a server on a different IRC network, For example:
+5. With Irssi opened and using the  ~/.irssi-1/ directory, repeat the steps in Section A to set up an autoconnection and auto join scenario. However, use another server, not the generic irc.efnet.org server. This server can be another EFNet server of your choice or a server on a different IRC network, For example:
 
 	/server add -auto -network DALnet irc.dal.net
 
@@ -124,13 +112,13 @@ Now you can start your original Irssi configuration simply by typeing “irssi�
 
 However, if you want to start your irssi-1 configuration, type this on the Linux terminal command line:
 
-	irssi --config=~/.irssi-1/config]
+	irssi --home=~/.irssi-1/config
 
 Where “~/” is the home directory for your account
 
 D. Additional Configurations.
 
-You can have more that just two Irssi confgurations. To create additional Irssi configurations, simply follow the steps outlined in Part B, above. Just make sure each config has it’s own unique irssi directory name such as .irssi-1, .irssi-2, .irssi-3 etc.
+You can have more that just two Irssi confgurations. To create additional Irssi configurations, simply follow the steps outlined in Part B, above. Just make sure each config has it’s own unique irssi directory name such as ~/.irssi-1/, ~/.irssi-2/, ~/.irssi-3/ etc.
 
 E. Using Screen to Run Single or Multiple Irssi Sessions on a Remote Computer.
 
@@ -154,15 +142,15 @@ Then at a later time you can re-connect to the remote computer, re-attach to the
 
 7. Now kill the screen process by typing /quit in the irssi command line and then exit. This should kill the screen and put you back in the original Linux terminal command line.
 
-8. Follow the steps in Part B to set up your .irssi-1 directory.
+8. Follow the steps in Part B to set up your ~/.irssi-1/ directory.
 
 9. Then type “screen” to start a screen process. When in the first screen window, window 0, start Irssi by typing “irssi” on the command line. Now configure this irssi config the way you did in Part A..
 
 10. Now open screen window 1 by pressing Ctrl+a then c. In this window open the .irssi-1 config by typing
 
-		irssi --config=~/.irssi-1/config
+		irssi --home=~/.irssi-1/
 
-11. Next configure the .irssi-1 configuration the way you did it in Part B.
+11. Next configure the ~/.irssi-1/ configuration the way you did it in Part B.
 
 F. Using Cron to set the Irssi/Screen Session to Automatically Start on Boot or Reboot.
 
@@ -176,8 +164,8 @@ The example below starts three Irssi sessions in one screen session, each with a
 
 	#!/bin/bash
 	screen -dmS irssi irssi
-	screen -S irssi -X screen 1 irssi --config=~/.irssi-1/config
-	screen -S irssi -X screen 2 irssi --config=~/.irssi-2/config
+	screen -S irssi -X screen 1 irssi --home=~/.irssi-1/
+	screen -S irssi -X screen 2 irssi --home=~/.irssi-2/
 
 Call this file “startirssi” in your home directory, and do
 
