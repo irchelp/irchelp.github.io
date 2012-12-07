@@ -52,7 +52,13 @@ Building the Site
 
 	./bake_site.sh
 
-Pushing the Site
-----------------
+Publishing the Site to Staging
+------------------------------
 
  * To be announced. :)
+ 
+Publishing the Site to Production (Live Site)
+---------------------------------------------
+
+ * Not implemented yet.
+
