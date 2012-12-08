@@ -70,3 +70,19 @@ Redirect /changuide http://www.irchelp.org/irchelp/changuide.html
 Redirect /chanop http://www.irchelp.org/irchelp/mirc/chan_op.mrc
 Redirect /rfc http://www.irchelp.org/irchelp/rfc/
 Redirect /umode http://irchelp.org/irchelp/misc/umodes.html
+
+
+
+# Slashdot Protection - Uncomment all this to Redirect users from certain pages to CoralCDN
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteCond %{HTTP_USER_AGENT} !^CoralWebPrx
+#RewriteCond %{QUERY_STRING} !(^|&)coral-no-serve$
+#RewriteCond %{HTTP_COOKIE} heavyloaduser=true [OR]
+#RewriteCond %{HTTP_REFERER} slashdot\.org [NC]
+#RewriteCond %{HTTP_REFERER} digg\.com [NC,OR]
+#RewriteCond %{HTTP_REFERER} blogspot\.com [NC,OR]
+#RewriteCond %{HTTP_REFERER} reddit\.com [NC,OR]
+#RewriteCond %{HTTP_REFERER} stumbleupon\.com [NC,OR]
+#RewriteRule ^(.*)$ http://%{HTTP_HOST}.nyud.net%{REQUEST_URI} [R,L,CO=heavyloaduser:true:%{HTTP_HOST}]
+#</IfModule>
