@@ -56,7 +56,8 @@ just as dangerous as viruses and can spread to hurt others just as easily!)
 
 Trojans are executable programs, which means that when you open the file, it
 will perform some action(s). A trojan horse is so named because it has to fool
-you in some way to get executed in the first place.
+you in some way to get executed in the first place. There are many ways this can happen, but
+here are the more common ones:
 
 ### Lookalikes
 In Windows, executable programs have file extensions like "exe", "vbs", "com", "bat", etc.
@@ -140,16 +141,31 @@ There are several resources for one-on-one assistance with malware issues, inclu
 
 
   1. **Anti-Virus Software**: _Some_ of these can handle _most_ of the well known trojans, but _none_ are perfect, no matter what their advertising claims. You absolutely MUST make sure you have the very latest update files for your programs, or else they will miss the latest trojans. Compared to traditional viruses, today's trojans evolve much quicker and come in many seemingly innocuous forms, so anti-virus software is always going to be playing catch up. Also, if they fail to find every trojan, anti-virus software can give you a false sense of security, such that you go about your business not realizing that you are still dangerously compromised. There are many products to choose from, but the following are generally effective: [AVP](http://www.kaspersky.com/products.html), [PC-cillin](http://www.antivirus.com/pc-cillin/), and [McAfee VirusScan](http://www.mcafee.com/). All are available for immediate downloading typically with a 30 day free trial. For a more complete review of all major anti-virus programs, including specific configuration suggestions for each, see the HackFix Project's [anti-virus software page](http://www.hackfix.org/software/antivirus.html) [all are ext. links]. When you are done, make sure you've updated Windows with all [security patches](http://windowsupdate.microsoft.com) [ext. link]. 
-  2. **Anti-Trojan Programs**: These programs are the most effective against trojan horse attacks, because they specialize in trojans instead of general viruses. A popular choice is [The Cleaner](http://www.moosoft.com/products/cleaner/download/), $30 commercial software with a 30 day free trial. To use it effectively, you **must** follow hackfix.org's [configuration suggestions](http://www.hackfix.org/software/configure/cleaner.html) [ext. link]. When you are done, make sure you've updated Windows with all [security patches](http://windowsupdate.microsoft.com) [ext. link], then change all your passwords because they may have been seen by every "hacker" in the world. 
+  2. **Anti-Trojan Programs**: These programs are the most effective against trojan horse attacks, because they specialize in trojans instead of general viruses. A popular choice is [The Cleaner](http://www.moosoft.com/), $30 commercial software with a 30 day free trial. To use it effectively
+  When you are done, make sure you've updated Windows with all [security patches](http://windowsupdate.microsoft.com) [ext. link], then change all your passwords because they may have been seen by every "hacker" in the world. 
 
-### Getting Help
+#### Using The Cleaner effectively
 
-There are several resources for one-on-one assistance with malware issues, including trojan horses.
-  
-  * **IRC Help Channels**: If you're the type that needs some hand-holding, you can find trojan/virus removal help on IRC itself, such as EFnet #dmsetup. These experts will try to figure out which trojan(s) you have and offer you advice on how to fix it. The previous directions were in fact adapted from advice given by EFnet #dmsetup. (See our [networks page](/irchelp/networks) if you need help connecting to those networks.) 
-  * **Your antimalware vendor**: If you are paying for security software, you may be entitled to support from the vendor.
-  * **Your PC manufacturer**: If you are under a support agreement, or some warranties, your PC manufacturer may provide malware removal assistance.
-  * **Professional Repair Services**: A professional PC repair service can be contracted locally for assistance with removing viruses or trojans.
+The Cleaner is specifically designed for trojans, and should be used as a supplement rather than a replacement for other antimalware software.
+
+Follow these instructions carefully, if you skip a step, your system may still be infected.
+
+1. Download the program The Cleaner 2012 from http://www.moosoft.com/ or ftp.moosoft.com  in  /pub and remember where you save it to.
+2. Run cleaner8_setup.exe to install the program.
+3. Run The Cleaner by clicking on the desktop icon created.
+4. Press the Update tab then the Check for Updates button.
+5. Close The Cleaner and reboot your computer into Safe Mode -- If you do not know how to boot into Safe Mode, instructions are at http://support.microsoft.com/kb/315222
+6. Unplug your modem during the scan and leave it unplugged until instructed otherwise. 
+7. When your computer reboots, start The Cleaner AS STEP 3, select Scan, then select Full Scan and Use Heuristics and then select Start then select all your drives and then select Ok.
+8. When you are finished with the above, reboot again, plug your modem back in, and update your Windows at http://windowsupdate.microsoft.com
+9. Change ALL your passwords, and review your accounts for suspicious access. Trojan horses will usually capture sensitive information, including any passwords that were saved on or typed into the computer during the time it was infected. 
+10. Finally, review outstanding authorizations on sites you use - changing your password alone isn't enough to lock someone out of GMail, Twitter, Hotmail, Facebook, and many other services that issue authorization tokens to third party applications. See below for specific advice for common services.
+
+#### Instructions for securing access to online services
+
+* [GMail - Account Security Checklist](http://support.google.com/mail/bin/static.py?hl=en&page=checklist.cs&tab=29488)
+* [Facebook - What can I do to keep my account secure?](https://www.facebook.com/help/213481848684090/)
+
 
 
 ### Clean Re-installation

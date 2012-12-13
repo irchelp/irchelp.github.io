@@ -8,7 +8,7 @@ summary: Partial listing of IRC clients for Android users.
 
 A variety of Android devices are out there, including smartphones, handhelds, tablets, netbooks, set top boxes, and even dedicated digital cameras.
 
-Due to power management and wireless network instability, persistant connections such as IRC on Android devices tend to be a bit flaky. 
+*Note* Due to power management and wireless network instability, long-lived persistant connections such as IRC on Android devices tend to be somewhat unreliable. This is a general characteristic of mobile devices. rather than a flaw in any particular client, but it does mean that the utility of a mobile client for channel or server management will be limited.
 
 ## AndroIRC
 
@@ -26,3 +26,8 @@ If you have a desktop client running somewhere where you can access over SSH, a 
 
 ConnectBot is a popular SSH client for Android, and a version exists which has been modified for ease of use with irssi.
 
+irssi is notable in this area, as a single irssi client on a stable host can be accessible both via SSH and as an IRC proxy for a client running directly on the Android device, allowing you to maintain continuity of conversations even when the mobile network connectivity is very intermittant.
+
+# Using a bouncer/proxy
+
+Using a bouncer or proxy from a more stable network may be useful to improve connection reliability. 
