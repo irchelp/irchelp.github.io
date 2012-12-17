@@ -33,6 +33,13 @@ AddType text/css .less
 RewriteRule   ^irchelp/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
 RewriteRule   ^mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
 
+# crg-ircii moves - reorg /irchelp/ircii/ and shortcut /ircii under /clients/unix/ircii
+
+
+RewriteRule   ^irchelp/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
+RewriteRule   ^ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
+
+
 
 # Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
  
