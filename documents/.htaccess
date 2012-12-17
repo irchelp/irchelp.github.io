@@ -30,8 +30,8 @@ AddType text/css .less
 # crg-mirc moves - reorg /irchelp/mirc/ and shortcut /mirc under /clients/windows/mirc
 
 
-RewriteRule   ^irchelp/mirc(.*)          http://www.irchelp.org/clients/windows/mirc/$1 [R=301]
-RewriteRule   ^mirc(.*)          http://www.irchelp.org/clients/windows/mirc/$1 [R=301]
+RewriteRule   ^irchelp/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
+RewriteRule   ^mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
 
 
 # Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
