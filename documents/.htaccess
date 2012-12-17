@@ -1,3 +1,7 @@
+RewriteEngine on
+
+### All this stuff is only useful if PieCrust is handling the files live.
+
 # Uncomment this if you want to set 'pretty_urls' to 'true'.
 #RewriteEngine on
 
@@ -13,10 +17,29 @@
 
 # Rewrite all the rest through the gateway.
 #RewriteRule ^.*$ index.php [NC,L]
+### End stuff that's only for piecrust.
 
 # Various other configuration stuff.
 #SetEnv TZ Canada/Vancouver
 AddType text/css .less
+
+
+# Pages that have been moved 
+
+
+# crg-mirc moves - reorg /irchelp/mirc/ and shortcut /mirc under /clients/windows/mirc
+
+
+RewriteRule   ^irchelp/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
+RewriteRule   ^mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
+
+# crg-ircii moves - reorg /irchelp/ircii/ and shortcut /ircii under /clients/unix/ircii
+
+
+RewriteRule   ^irchelp/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
+RewriteRule   ^ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
+
+
 
 # Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
  
@@ -41,7 +64,7 @@ Redirect /ircd http://www.irchelp.org/irchelp/ircd/
 Redirect /ircii http://www.irchelp.org/irchelp/ircii/
 Redirect /local http://www.irchelp.org/irchelp/networks/local.html
 Redirect /mac http://www.irchelp.org/irchelp/mac/
-Redirect /mirc http://www.irchelp.org/irchelp/mirc/
+# obsoleted by crg-mirc moves: Redirect /mirc http://www.irchelp.org/irchelp/mirc/
 Redirect /misc http://www.irchelp.org/irchelp/misc/
 Redirect /nets http://www.irchelp.org/irchelp/networks/
 Redirect /net http://www.irchelp.org/irchelp/networks/
