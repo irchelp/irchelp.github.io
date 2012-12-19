@@ -39,6 +39,10 @@ RewriteRule   ^mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/
 RewriteRule   ^irchelp/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
 RewriteRule   ^ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
 
+# crg-mac moves - reorg /irchelp/mac/ and shortcut /mac under /clients/mac
+
+RewriteRule   ^irchelp/mac(.*)          http://www.irchelp.org/irchelp/clients/mac/$1 [R=301]
+RewriteRule   ^mac(.*)          http://www.irchelp.org/irchelp/clients/mac/$1 [R=301]
 
 
 # Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
