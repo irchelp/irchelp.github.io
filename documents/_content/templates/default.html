@@ -1,48 +1,61 @@
-{% import 'macros_google.html' as google %}
-{% import "macros_less.html" as less %}
 <!doctype html>
 <html>
 <head>
     <title>{{ site.title }}{% if page.title is not empty %} &mdash; {{ page.title }}{% endif %}</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="description" content="{{ site.description }}" />
-	<meta name="author" content="{{ site.author }}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.author }}" />
     <meta name="generator" content="PieCrust {{ piecrust.version }}" />
     <meta name="template-engine" content="Twig" />
-{% include('blueprint.html') %}
-	{{ google.webfonts('Lobster') }}
-	{{ less.stylesheet(baker, server, site.root ~ 'css/default') }}
-    {{ less.less_js(baker, server, site.root) }}
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
 </head>
 <body>
+    {% include('helpstrap_navbar.html') %}
+
     <div id="container" class="container">
-        <div id="header" class="span-24 last">
-			{% block header %}
-            <h1><a href="{{ site.root }}">{{ site.title }}</a></h1>
-			{% endblock %}
-        </div>
-        <div id="menu" class="span-4 push-20 last">
-			<div class="menu">
-				<ul>
-					<li><a href="{{ site.root }}">Home</a></li>
-					<li><a href="{{ pcurl('blog') }}">Site News</a></li>
-					<li><a href="{{ pcurl('about') }}">About</a></li>
-				</ul>
-			</div>
-        </div>
-        <div id="content" class="span-20 pull-4 last">
+            {% block header %}
+            <h1><a href="{{ site.root }}">{% if page.title is empty %}{{ site.title }}{% endif %}{% if page.title is not empty %}{{ page.title }}{% endif %}</a></h1>
+            {% endblock %}
+        
+        
             <div class="content">
                 {% block content %}
                 {{ content|raw }}
-        		{% endblock %}
+                {% endblock %}
             </div>
-        </div>
-        <div id="footer" class="span-24 last">
-			{% block footer %}
+        
+        <div class"footer">
+            {% block footer %}
             <p>{{ piecrust.branding|raw }}</p>
-			{% endblock %}
+            {% endblock %}
         </div>
     </div>
-	{{ piecrust.debug_info|raw }}
+    {{ piecrust.debug_info|raw }}
 </body>
 </html>
