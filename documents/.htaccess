@@ -26,6 +26,8 @@ AddType text/css .less
 
 # Pages that have been moved 
 
+Redirect /irchelp/wsirc.html http://www.irchelp.org/irchelp/historic/wsirc.html
+
 
 # crg-mirc moves - reorg /irchelp/mirc/ and shortcut /mirc under /clients/windows/mirc
 
