@@ -28,6 +28,13 @@ AddType text/css .less
 
 Redirect /irchelp/wsirc.html http://www.irchelp.org/irchelp/historic/wsirc.html
 
+# Obsolete trojan fixes.
+Redirect /irchelp/security/NetBus1.5 http://www.irchelp.org/irchelp/security/obsoletefixes.html
+Redirect /irchelp/security/NetBus1.6 http://www.irchelp.org/irchelp/security/obsoletefixes.html
+Redirect /irchelp/security/NetBus1.7 http://www.irchelp.org/irchelp/security/obsoletefixes.html
+
+
+
 
 # crg-mirc moves - reorg /irchelp/mirc/ and shortcut /mirc under /clients/windows/mirc
 
