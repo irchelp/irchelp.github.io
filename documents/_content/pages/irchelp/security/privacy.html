@@ -4,6 +4,8 @@
 
 IP addresses are an integral part of how users are identified on the IRC network, and on some networks, the only reasonably reliable form of identification. The address your connection to the IRC network originates from will be displayed to other users unless the server has been configured to do otherwise.
 
+In most cases, having your IP address displayed in this way is of little or no consequence. IP addresses of cable, DSL, and dialup users are not easily connected to individual subscriber identities without the cooperation of the service provider. The most information someone will get in the typical scenario is a rough estimate of geographical location, which may be very coarse or fairly specific depending on how your provider chooses to allocate IP addresses. 
+
 While it is generally impossible to prevent the display of your IP address, proxying your connection through an intermediary server or routing it through a VPN will cause the address of the intermediary server or network to be the address displayed.
 
 Identification by IP address is heavily relied upon to curb abuse, and most networks are extremely intolerant of any unsanctioned means of masking IP addresses, or of anyone providing connections which are deemed to be too "disposable" to support proper accountability, such as use of the Tor network (although, some networks may make exception for users once they have registered).
@@ -47,6 +49,13 @@ These services
 
 
 ### IPv6 tunnels
+
+
+### Address Leakage from DCC
+
+DCC chat and file transfer attempt to establish a direct connection between two clients. As part of establishing such a connection, the clients send "handshake" messages which contain the IP address to complete the connection. There is no way for a viable connection to be established without this exchange, however, VPN and Shell setups can use the desired publicly visible address for the connection, rather than the address the user is trying to keep private.
+
+### Address Leakage from visiting a URL
 
 
 
