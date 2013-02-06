@@ -27,6 +27,10 @@ AddType text/css .less
 # Pages that have been moved 
 
 Redirect /irchelp/wsirc.html http://www.irchelp.org/irchelp/historic/wsirc.html
+Redirect /irchelp/networks/local.html http://www.irchelp.org/irchelp/networks/regional.html
+Redirect /irchelp/networks/subject.html http://www.irchelp.org/irchelp/networks/topical.html
+
+
 
 # Obsolete trojan fixes.
 Redirect /irchelp/security/NetBus1.5 http://www.irchelp.org/irchelp/security/obsoletefixes.html
