@@ -1,3 +1,6 @@
+Welcome WIO Editors!
+--------------------
+
 This is the new and improved www.irchelp.org.
 
 PLEASE be aware that this is not a normal open source project, but rather the files that comprise a website being
