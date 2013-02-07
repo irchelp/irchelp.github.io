@@ -1,4 +1,0 @@
-Usage: WHOWAS <nickname> [<count>]
-  Shows information about who used the given nickname last, even
-  if no one is currently using it.  If <count> is specificed,
-  then only the last <count> entries are shown.

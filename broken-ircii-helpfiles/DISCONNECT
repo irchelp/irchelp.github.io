@@ -1,3 +1,0 @@
-Usage: DISCONNECT [<server> [<reason>]]
-  Disconnects you from the server <server>, or the current windows
-  server if not given.

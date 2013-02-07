@@ -1,5 +1,0 @@
-Usage: COMMENT [<anything you want>]
-  This is a comment, it does nothing.
-  Useful in .ircrc files.
-
-  COMMENT, : and # are identical in operation.

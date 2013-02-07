@@ -1,2 +1,0 @@
-Usage: BIND <key> ERASE_TO_END_OF_LINE
-  Erases from the cursor position to the end of the input buffer.

@@ -1,4 +1,0 @@
-Usage: QUIT [<reason>]
-  Quits your IRC session. If a reason is supplied, it is displayed
-  to other people on your channels.
-  BYE, EXIT and SIGNOFF are identical.

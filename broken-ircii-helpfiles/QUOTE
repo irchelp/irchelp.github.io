@@ -1,3 +1,0 @@
-Usage: QUOTE <server command>
-  Send a command directly to the server.  No parsing is done by
-  the client.

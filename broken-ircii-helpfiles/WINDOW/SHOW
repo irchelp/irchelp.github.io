@@ -1,3 +1,0 @@
-Usage: WINDOW SHOW <r>	 
-  Makes the hidden window with refnum <r> visible again and become
-  the current window.

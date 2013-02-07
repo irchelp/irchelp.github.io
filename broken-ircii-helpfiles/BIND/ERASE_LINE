@@ -1,2 +1,0 @@
-Usage: BIND <key> ERASE_LINE
-  Erases the contents of the input buffer, leaving it very empty.

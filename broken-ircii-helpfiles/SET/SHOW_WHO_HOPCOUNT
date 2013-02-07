@@ -1,3 +1,0 @@
-Usage: SET SHOW_WHO_HOPCOUNT [ON|OFF|TOGGLE]
-  When ON, this will show the number of IRC-server hops between you
-  and another user in any WHO output.

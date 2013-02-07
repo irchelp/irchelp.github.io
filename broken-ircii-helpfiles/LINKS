@@ -1,9 +1,0 @@
-Usage: LINKS [[<server>] <wildcard>]
-  Shows all of the servers currently connected to the IRC network.
-  If <wildcard> is specified, LINKS shows any servers
-  that match the given expression.
-
-  If a <server> is specified, it's asked for the relevant information.
-    LINKS *.au coombs*
-  will query whatever server is calling itself *.au for a list of
-  servers matching coombs*, then send the information back to you.
