@@ -1,23 +1,3 @@
-RewriteEngine on
-
-### All this stuff is only useful if PieCrust is handling the files live.
-
-# Uncomment this if you want to set 'pretty_urls' to 'true'.
-#RewriteEngine on
-
-# If you're running from a sub-directory, uncomment the RewriteBase statement and
-# change it to the sub-directory name you're using.
-#RewriteBase /piecrust
-
-# Don't rewrite requests to stuff that physically exists.
-#RewriteCond %{REQUEST_FILENAME} -f [OR]
-#RewriteCond %{REQUEST_FILENAME} -l [OR]
-#RewriteCond %{REQUEST_FILENAME} -d
-#RewriteRule ^.*$ - [NC,L]
-
-# Rewrite all the rest through the gateway.
-#RewriteRule ^.*$ index.php [NC,L]
-### End stuff that's only for piecrust.
 
 # Various other configuration stuff.
 #SetEnv TZ Canada/Vancouver
@@ -43,19 +23,19 @@ Redirect /irchelp/security/NetBus1.7 http://www.irchelp.org/irchelp/security/obs
 # crg-mirc moves - reorg /irchelp/mirc/ and shortcut /mirc under /clients/windows/mirc
 
 
-RewriteRule   ^irchelp/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
-RewriteRule   ^mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc/$1 [R=301]
+RedirectMatch   /irchelp/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc
+RedirectMatch   /mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc
 
 # crg-ircii moves - reorg /irchelp/ircii/ and shortcut /ircii under /clients/unix/ircii
 
 
-RewriteRule   ^irchelp/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
-RewriteRule   ^ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii/$1 [R=301]
+RedirectMatch   /irchelp/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii
+RedirectMatch   /ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii
 
 # crg-mac moves - reorg /irchelp/mac/ and shortcut /mac under /clients/mac
 
-RewriteRule   ^irchelp/mac(.*)          http://www.irchelp.org/irchelp/clients/mac/$1 [R=301]
-RewriteRule   ^mac(.*)          http://www.irchelp.org/irchelp/clients/mac/$1 [R=301]
+RedirectMatch   /irchelp/mac(.*)          http://www.irchelp.org/irchelp/clients/mac
+RedirectMatch   /mac(.*)          http://www.irchelp.org/irchelp/clients/mac
 
 
 # Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
@@ -78,7 +58,7 @@ Redirect /ts0 http://www.irchelp.org/irchelp/ircd/ts0.html
 Redirect /efnetsux http://www.irchelp.org/irchelp/networks/efnetsux.html
 Redirect /chanlist http://www.irchelp.org/irchelp/chanlist/
 Redirect /ircd http://www.irchelp.org/irchelp/ircd/
-Redirect /ircii http://www.irchelp.org/irchelp/ircii/
+# Obsoleted Redirect /ircii http://www.irchelp.org/irchelp/ircii/
 Redirect /local http://www.irchelp.org/irchelp/networks/local.html
 Redirect /mac http://www.irchelp.org/irchelp/mac/
 # obsoleted by crg-mirc moves: Redirect /mirc http://www.irchelp.org/irchelp/mirc/
@@ -113,16 +93,3 @@ Redirect /umode http://irchelp.org/irchelp/misc/umodes.html
 
 
 
-# Slashdot Protection - Uncomment all this to Redirect users from certain pages to CoralCDN
-#<IfModule mod_rewrite.c>
-#RewriteEngine On
-#RewriteCond %{HTTP_USER_AGENT} !^CoralWebPrx
-#RewriteCond %{QUERY_STRING} !(^|&)coral-no-serve$
-#RewriteCond %{HTTP_COOKIE} heavyloaduser=true [OR]
-#RewriteCond %{HTTP_REFERER} slashdot\.org [NC]
-#RewriteCond %{HTTP_REFERER} digg\.com [NC,OR]
-#RewriteCond %{HTTP_REFERER} blogspot\.com [NC,OR]
-#RewriteCond %{HTTP_REFERER} reddit\.com [NC,OR]
-#RewriteCond %{HTTP_REFERER} stumbleupon\.com [NC,OR]
-#RewriteRule ^(.*)$ http://%{HTTP_HOST}.nyud.net%{REQUEST_URI} [R,L,CO=heavyloaduser:true:%{HTTP_HOST}]
-#</IfModule>
