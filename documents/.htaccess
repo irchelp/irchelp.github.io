@@ -37,6 +37,23 @@ RedirectMatch   /ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/
 RedirectMatch   /irchelp/mac(.*)          http://www.irchelp.org/irchelp/clients/mac
 RedirectMatch   /mac(.*)          http://www.irchelp.org/irchelp/clients/mac
 
+###
+# clients redirects
+#
+# For any given client, if there is only a single page it lives at /clients/<platform>/name.html
+# if there are multiple pages, it lives at /clients/platform/name/
+# Whichever one we don't have, should redirect. 
+
+# Clients/Windows Redirects
+# 
+
+# Clients/Unix Redirects
+
+Redirect /irchelp/clients/unix/irssi.html http://www.irchelp.org/irchelp/clients/unix/irssi/
+Redirect /irchelp/clients/unix/ircii.html http://www.irchelp.org/irchelp/clients/unix/ircii/
+
+
+
 
 # Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
  
@@ -60,7 +77,7 @@ Redirect /chanlist http://www.irchelp.org/irchelp/chanlist/
 Redirect /ircd http://www.irchelp.org/irchelp/ircd/
 # Obsoleted Redirect /ircii http://www.irchelp.org/irchelp/ircii/
 Redirect /local http://www.irchelp.org/irchelp/networks/local.html
-Redirect /mac http://www.irchelp.org/irchelp/mac/
+Redirect /mac http://www.irchelp.org/irchelp/clients/mac
 # obsoleted by crg-mirc moves: Redirect /mirc http://www.irchelp.org/irchelp/mirc/
 Redirect /misc http://www.irchelp.org/irchelp/misc/
 Redirect /nets http://www.irchelp.org/irchelp/networks/
