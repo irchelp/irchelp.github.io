@@ -1,4 +1,3 @@
-
 # Various other configuration stuff.
 #SetEnv TZ Canada/Vancouver
 AddType text/css .less
@@ -116,12 +115,12 @@ Redirect /umode http://irchelp.org/irchelp/misc/umodes.html
 <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
 Header set Cache-Control "max-age=290304000, public"
 </filesMatch>
- 
+
 # 2 DAYS
 <filesMatch ".(xml|txt|css|js)$">
 Header set Cache-Control "max-age=172800, public, must-revalidate"
 </filesMatch>
- 
+
 # 2 HOURS
 <filesMatch ".(html|htm)$">
 Header set Cache-Control "max-age=7200, must-revalidate"
