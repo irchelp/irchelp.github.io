@@ -15,7 +15,9 @@ Directory Structure
 -------------------
 
  * documents/ - contains the files that will be processed as input by PieCrust
- * otherfiles/ - contains other files, arranged into the same directory structure as the rest of the site (not used yet)
+ * otherfiles/ - contains other files, which may be used by scripts later (not used yet)
+
+Most of the documents can be found [here](https://github.com/irchelp/wio/tree/master/documents/_content/pages/irchelp).
 
 Build Process
 -------------
