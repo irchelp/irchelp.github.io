@@ -126,3 +126,6 @@ Header set Cache-Control "max-age=172800, public, must-revalidate"
 Header set Cache-Control "max-age=7200, must-revalidate"
 </filesMatch>
 
+# Attempt to enable some compression too.
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/x-javascript
