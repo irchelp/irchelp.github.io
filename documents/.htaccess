@@ -5,16 +5,16 @@ AddType text/css .less
 
 # Pages that have been moved 
 
-Redirect /irchelp/wsirc.html http://www.irchelp.org/irchelp/historic/wsirc.html
-Redirect /irchelp/networks/local.html http://www.irchelp.org/irchelp/networks/regional.html
-Redirect /irchelp/networks/subject.html http://www.irchelp.org/irchelp/networks/topical.html
+Redirect 301 /irchelp/wsirc.html http://www.irchelp.org/irchelp/historic/wsirc.html
+Redirect 301 /irchelp/networks/local.html http://www.irchelp.org/irchelp/networks/regional.html
+Redirect 301 /irchelp/networks/subject.html http://www.irchelp.org/irchelp/networks/topical.html
 
 
 
 # Obsolete trojan fixes.
-Redirect /irchelp/security/NetBus1.5 http://www.irchelp.org/irchelp/security/obsoletefixes.html
-Redirect /irchelp/security/NetBus1.6 http://www.irchelp.org/irchelp/security/obsoletefixes.html
-Redirect /irchelp/security/NetBus1.7 http://www.irchelp.org/irchelp/security/obsoletefixes.html
+Redirect 303 /irchelp/security/NetBus1.5 http://www.irchelp.org/irchelp/security/obsoletefixes.html
+Redirect 303 /irchelp/security/NetBus1.6 http://www.irchelp.org/irchelp/security/obsoletefixes.html
+Redirect 303 /irchelp/security/NetBus1.7 http://www.irchelp.org/irchelp/security/obsoletefixes.html
 
 
 
@@ -22,19 +22,19 @@ Redirect /irchelp/security/NetBus1.7 http://www.irchelp.org/irchelp/security/obs
 # crg-mirc moves - reorg /irchelp/mirc/ and shortcut /mirc under /clients/windows/mirc
 
 
-RedirectMatch   ^/irchelp/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc
-RedirectMatch   ^/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc
+RedirectMatch   301 ^/irchelp/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc
+RedirectMatch   301 ^/mirc(.*)          http://www.irchelp.org/irchelp/clients/windows/mirc
 
 # crg-ircii moves - reorg /irchelp/ircii/ and shortcut /ircii under /clients/unix/ircii
 
 
-RedirectMatch   ^/irchelp/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii
-RedirectMatch   ^/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii
+RedirectMatch   301 ^/irchelp/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii
+RedirectMatch   301 ^/ircii(.*)          http://www.irchelp.org/irchelp/clients/unix/ircii
 
 # crg-mac moves - reorg /irchelp/mac/ and shortcut /mac under /clients/mac
 
-RedirectMatch   ^/irchelp/mac(.*)          http://www.irchelp.org/irchelp/clients/mac
-RedirectMatch   ^/mac(.*)          http://www.irchelp.org/irchelp/clients/mac
+RedirectMatch   301 ^/irchelp/mac(.*)          http://www.irchelp.org/irchelp/clients/mac
+RedirectMatch   301 ^/mac(.*)          http://www.irchelp.org/irchelp/clients/mac
 
 ###
 # clients redirects
@@ -48,10 +48,11 @@ RedirectMatch   ^/mac(.*)          http://www.irchelp.org/irchelp/clients/mac
 
 # Clients/Unix Redirects
 
-Redirect /irchelp/clients/unix/irssi.html http://www.irchelp.org/irchelp/clients/unix/irssi/
-Redirect /irchelp/clients/unix/ircii.html http://www.irchelp.org/irchelp/clients/unix/ircii/
+Redirect 301 /irchelp/clients/unix/irssi.html http://www.irchelp.org/irchelp/clients/unix/irssi/
+Redirect 301 /irchelp/clients/unix/ircii.html http://www.irchelp.org/irchelp/clients/unix/ircii/
 
-
+# This is gone. It won't ever return in the same spot because it depended on an outdated CGI we no longer have.
+Redirect 410 /irchelp/Pix
 
 
 # Shortcut rules from the original irchelp.org htaccess that we don't want to lose.
