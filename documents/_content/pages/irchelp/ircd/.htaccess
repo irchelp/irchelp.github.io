@@ -6,3 +6,6 @@ RedirectPermanent /irchelp/ircd/chanfix-fr.html http://www.efnet.org/chanfix/cha
 RedirectPermanent /irchelp/ircd/chanfix-no.html http://www.efnet.org/chanfix/chanfix-no.html
 RedirectPermanent /irchelp/ircd/chanfix-il.html http://www.efnet.org/chanfix/chanfix-il.html
 Redirect /irchelp/ircd/ircnet210.html http://www.irchelp.org/irchelp/ircd/ircnet/
+Redirect /irchelp/ircd/h7setup.html http://www.irchelp.org/irchelp/ircd/hybrid/h7setup.html
+Redirect /irchelp/ircd/hybrid6.html http://www.irchelp.org/irchelp/ircd/hybrid/hybrid6.html
+Recirect /irchelp/ircd/hybrid6.readme.txt http://www.irchelp.org/irchelp/ircd/hybrid/hybrid6.readme.txt
