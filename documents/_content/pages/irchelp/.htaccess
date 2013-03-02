@@ -6,3 +6,6 @@ Redirect /irchelp/botfaq.html http://www.irchelp.org/irchelp/misc/botfaq.html
 
 # Historical Documents
 Redirect /irchelp/telnet.html http://www.irchelp.org/irchelp/historic/telnet.html
+
+# Consolidation
+Redirect /irchelp/faqs.html http://www.irchelp.org/irchelp/allfaqs.html
