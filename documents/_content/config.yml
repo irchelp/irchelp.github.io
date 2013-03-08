@@ -3,6 +3,9 @@ site:
     description: Comprehensive information on everything Internet Relay Chat
     author: irchelpers
     pretty_urls: false
+    auto_formats:
+        md: markdown
+        textile: textile
     
 smartypants:
     enable: true
