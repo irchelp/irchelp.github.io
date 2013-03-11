@@ -16,7 +16,7 @@ The popular Unix IRC client [XChat](/irchelp/clients/windows/xchat.html) and a n
 
 ## Instant Messaging programs
 
-Trillian, Miranda, Pidgen, and other "all in one" [instant messaging programs](/irchelp/clients/windows/instantmessage.html) inclode IRC as one of their supported protocols.
+Trillian, Miranda, Pidgin, and other "all in one" [instant messaging programs](/irchelp/clients/windows/instantmessage.html) inclode IRC as one of their supported protocols.
 
 ## Bersirc
 [Bersirc](/irchelp/clients/windows/bersirc.html) is another choice for Windows users. 
