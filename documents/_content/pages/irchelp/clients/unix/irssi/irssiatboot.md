@@ -36,18 +36,18 @@ A. Auto Connecting to an IRC Server and Some Channels on Irssi startup.
 
 a. The default server list should look something like this:
 
-	Server          Port  Network    Settings
-	eu.irc6.net        IRCnet    
-	irc.open-ircnet.net IRCnet    
-	irc.efnet.org        EFNet     
-	irc.undernet.org    Undernet  
-	irc.dal.net          DALnet    
-	irc.quakenet.org   QuakeNet  
-	irc.oftc.net      OFTC      
-	irc.gamesurge.net    GameSurge 
-	irc.webchat.org     WebChat   
-	irc.rizon.net        Rizon     
-	irc.link-net.org     LinkNet  
+	Server               Port  Network    Settings
+	eu.irc6.net                IRCnet
+	irc.open-ircnet.net        IRCnet
+	irc.efnet.org              EFNet
+	irc.undernet.org           Undernet
+	irc.dal.net                DALnet
+	irc.quakenet.org           QuakeNet
+	irc.oftc.net               OFTC
+	irc.gamesurge.net          GameSurge
+	irc.webchat.org            WebChat
+	irc.rizon.net              Rizon
+	irc.link-net.org           LinkNet
 
 3. Now, let’s set Irssi to connect to the default EFNet server when Irssi is started. To do this simply type at the command line and enter:
 
@@ -57,18 +57,18 @@ Then type /save to save this new addition.
 
 Now, your server list should look like this:
 
-	Server          Port   Network   Settings
-	eu.irc6.net        IRCnet    
-	irc.open-ircnet.net IRCnet    
-	irc.efnet.org        EFNet autoconnect  
-	irc.undernet.org    Undernet  
-	irc.dal.net          DALnet    
-	irc.quakenet.org   QuakeNet  
-	irc.oftc.net      OFTC      
-	irc.gamesurge.net    GameSurge 
-	irc.webchat.org     WebChat   
-	irc.rizon.net        Rizon     
-	irc.link-net.org     LinkNet  
+	Server               Port   Network   Settings
+	eu.irc6.net                 IRCnet
+	irc.open-ircnet.net         IRCnet
+	irc.efnet.org               EFNet     autoconnect
+	irc.undernet.org            Undernet
+	irc.dal.net                 DALnet
+	irc.quakenet.org            QuakeNet
+	irc.oftc.net                OFTC
+	irc.gamesurge.net           GameSurge
+	irc.webchat.org             WebChat
+	irc.rizon.net               Rizon
+	irc.link-net.org            LinkNet
 
 Please notice that the irc.efnet.org entry now shows the autoconnect setting.
 
