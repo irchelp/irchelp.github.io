@@ -53,7 +53,7 @@ pay, you get periodic reminders ("nagware"), some features are disabled
 ("crippleware"), the program quits after a while each time you use it
 ("quitware"), or maybe it just stops working after 30 days ("bombware"). Of course we
 all dislike these tactics, but [studies prove that they are
-effective](http://web.archive.org/web/19980629012250/http://www.hackvan.com/pub/stig/articles/why-do-people-register-shareware.html)
+effective](/irchelp/misc/why_do_people_register.html)
 in encouraging more people to pay. Oh well, pay on time and
 you won't have to worry about it. There are also some variations on
 nagging such as "careware" which requests that you send money to a charity,
