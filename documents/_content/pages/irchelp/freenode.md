@@ -1,0 +1,1 @@
+Hi yano. ÊWe verify that The WIO would like to receive control of channel #irchelp on freenode.
