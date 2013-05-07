@@ -1,3 +1,9 @@
+---
+title: IRCnet Server List
+dateupdated: 2013-05-07
+summary: List of IRCnet servers and accessing IRCnet in general
+---
+
 # IRCnet Server List
 
 ## Important Tips for Connecting to IRCnet servers
