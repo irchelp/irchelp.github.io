@@ -9,7 +9,7 @@ The first clients and servers for IRC were written as portable C code, which cou
 
 ### ircII and derivatives
 For years, the standard by which all other clients were measured, [ircII](irchelp/clients/unix/ircii/) and its derivatives remain a solid choice. ircII, and it's closest descendant,
-[EPIC](/irchelp/clients/unix/epic.html) are still actively maintained, but maintain faithfulness with the original "blank canvas" of ircII - they are typically highly customized by each user, with by hand, or via a script pack.
+[EPIC](/irchelp/clients/unix/epic.html) are still actively maintained, but maintain faithfulness with the original "blank canvas" of ircII - they are typically highly customized by each user, either by hand, or via a script pack.
 
 [BitchX](/irchelp/clients/unix/bitchx.html) and [ScrollZ](/irchelp/clients/unix/scrollz.html) take a different approach, both having their original start as script packs, they eventually applied their modifications directly to the client itself, creating a derivative of ircII with more bells and whistles than any user could possibly need.
 
