@@ -1,11 +1,13 @@
-=Cross-platform IRC clients
+# Cross-platform IRC clients
 
-==ChatZilla==
+## ChatZilla
+
 [ChatZilla](/irchelp/clients/cross/chatzilla.html) runs as an addon for
 Firefox and Seamonkey, or standalone with the help of XULRunner, and as such
 is portable to all platforms on which Firefox can run. 
 
-==LeafChat==
+## LeafChat
+
 [LeafChat](/irchelp/clients/cross/leafchat.html) is a graphical, standalone
 client written in Java, and runs anywhere there's a suitable Java runtime.
 
@@ -16,11 +18,13 @@ client, with a look and feel inspired by [ircII](/irchelp/clients/unix/ircii/) b
 modern GUI functionality.
 
 
-==Web Based Clients==
+# Web Based Clients
+
 Webchat interfaces are listed [elsewhere](/irchelp/clients/webclients.html),
 and are available anywhere there's a working web browser.
 
-==Linux/Unix Clients on Windows==
+## Linux/Unix Clients on Windows
+
 Many of the terminal-based Unix/Linux IRC clients have been ported to run on
 Windows with the aid of Cygwin or MSYS. These ported clients may be awkward to use
 if not comfortable with console-mode applications, and primarily cater to
@@ -31,7 +35,6 @@ advanced users.
 The popular X11 client, xchat, also has a Windows version, which is a common
 alternative to mIRC on Windows systems.
 
-
-==Windows Clients on Linux/Unix/OSX==
+## Windows Clients on Linux/Unix/OSX
 
 mIRC is known to [work well with Wine](http://appdb.winehq.org/objectManager.php?sClass=application&iId=77).
