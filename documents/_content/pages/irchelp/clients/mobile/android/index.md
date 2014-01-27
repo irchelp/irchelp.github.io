@@ -8,7 +8,7 @@ summary: Partial listing of IRC clients for Android users.
 
 A variety of Android devices are out there, including smartphones, handhelds, tablets, netbooks, set top boxes, and even dedicated digital cameras.
 
-*Note* Due to power management and wireless network instability, long-lived persistant connections such as IRC on Android devices tend to be somewhat unreliable. This is a general characteristic of mobile devices. rather than a flaw in any particular client, but it does mean that the utility of a mobile client for channel or server management will be limited.
+*Note* Due to power management and wireless network instability, long-lived persistant connections such as IRC on Android devices tend to be somewhat unreliable. This is a general characteristic of mobile devices rather than a flaw in any particular client, but it does mean that the utility of a mobile client for channel or server management will be limited.
 
 ## AndroIRC
 
@@ -17,7 +17,7 @@ AndroIRC is a popular choice for Android - it works well on most devices, and it
 ## AndChat
 
 ## [Android IRC](https://play.google.com/store/apps/details?id=com.countercultured.irc&hl=en)
- stands out with a clean readable interface with little wasted space. It's
+ Stands out with a clean readable interface with little wasted space. It's
  also featureful, including support for SSL, SASL, and IRC proxies, nickname
  completion, and many of the things you'd expect from a desktop client.
 
