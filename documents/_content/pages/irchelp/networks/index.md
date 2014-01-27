@@ -2,8 +2,7 @@
 
 By PhyberBX, Apatrix, and Jolo
 
-original version at [http://www.irchelp.org/irchelp/networks/](http://www.irch
-elp.org/irchelp/networks/), please do not mirror or distribute.
+Original version at [http://www.irchelp.org/irchelp/networks/](http://www.irchelp.org/irchelp/networks/), please do not mirror or distribute.
 
 This site highlights just some of the over 800 independent IRC networks out
 there, each with its own channels and people. We do not seek to be
