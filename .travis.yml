@@ -1,12 +1,14 @@
 language: php
 php:
-  - 5.5
-
+- 5.5
 before_install:
-  - hg clone https://bitbucket.org/ludovicchabant/piecrust "_piecrust"
-
+- hg clone https://bitbucket.org/ludovicchabant/piecrust "_piecrust"
 script:
-  - ./bake_site.sh
-
-
-
+- ./bake_site.sh
+deploy:
+  provider: releases
+  api_key:
+    secure: D/QEchfF+M8J1zrrnFyQReM1CyJjx7jfIe/+W5ana9K0me+sc8tTILhuKNh3W2z/sVOaCwDITQJmZBue3P7Z5w5VLBEqmtOpOV6YxxsspLyvmmAeZmaPNBllCyC11NQZI9wkHsTBfa/sAdzJqplsXp9OGzkVoDsL6Afk+AG48ls=
+  file: wio.tar.gz
+  on:
+    repo: irchelp/wio
