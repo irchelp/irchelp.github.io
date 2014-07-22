@@ -3,9 +3,10 @@ php:
   - 5.5
 
 before_install:
-  - hg clone https://bitbucket.org/ludovicchabant/piecrust _piecrust
+  - hg clone https://bitbucket.org/ludovicchabant/piecrust "_piecrust"
 
-test:
+script:
   - ./bake_site.sh
+
 
 

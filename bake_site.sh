@@ -3,3 +3,6 @@
 
 _piecrust/bin/chef --root=documents bake
 
+cd documents/_content
+tar -cvzf ../../wio.tar.gz *
+
