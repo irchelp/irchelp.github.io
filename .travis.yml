@@ -12,3 +12,6 @@ deploy:
   file: wio.tar.gz
   on:
     repo: irchelp/wio
+    tags: true
+    all_branches: true
+
