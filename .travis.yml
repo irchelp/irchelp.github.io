@@ -14,4 +14,8 @@ deploy:
     repo: irchelp/wio
     tags: true
     all_branches: true
-
+after_success:
+- ./deploy_staging.sh
+env:
+  global:
+    secure: j9I1KjKSIc1S6pN3FXrpJdCqBR2puoFvQcuntSNjr7weGJiUlWGBUi7BMyLzZQlJyxbm0nRPkVjZM039G/Q5t8H6oQL0WMmXu4mplwmtYwIlUE06g4607Q+wcvjECRQaLkpyJuAkzd9N73SyCxEElB3Rq28AhHgBtssc84FH82k=
