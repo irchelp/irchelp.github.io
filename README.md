@@ -10,6 +10,8 @@ submitting them back to us. See COPYING for more information.
 
 Otherwise, please do not create mirrors of the site, thanks.
 
+[![Build Status](https://travis-ci.org/irchelp/wio.svg?branch=master)](https://travis-ci.org/irchelp/wio)
+
 
 Directory Structure
 -------------------
@@ -34,6 +36,8 @@ The build process should eventually go something like this.
  5. Entire contents of target are rsynced to a staging folder on the server.
  6. The live folder is renamed to old, and the staging folder is renamed so
     that it becomes the live folder.
+
+
 
 Getting PieCrust
 ----------------
@@ -65,13 +69,28 @@ Building the Site
 
 	./bake_site.sh
 
-Publishing the Site to Staging
-------------------------------
+Publishing the Site to Staging (irchelpers only)
+-------------------------------------------------
 
- * To be announced. :)
+ 1. Build the site.
+ 2. In another directory, git clone git@github.com:irchelp/irchelp.github.io if you haven't already.
+ 3. cd irchelp.github.io
+ 4. git pull (make sure you start from latest version)
+ 5. tar -xvzf ../wio/wio.tar.gz (untar the wio.tar.gz you made when you built the site into the staging directory)
+ 6. git add -A (stage all the changed files)
+ 7. git commit -m "updated the staging site with my new cool changes"
+ 8. git push
+ 
+
+Your changes wiil be live at http://irchelp.github.io within 10 minutes.
  
 Publishing the Site to Production (Live Site)
 ---------------------------------------------
 
- * Not implemented yet.
+ 1. Make sure you have the version you want to publish as your working copy, and all changes are committed.
+ 2. Tag the version. git tag YYYYMMDD-NN where YYYYMMDD is the current date and -NN is a version number in case there are multiple changes in a day (check the existing tags to make sure you aren't reusing them)
+ 3. Push your tags. git push --tags
+ 4. Site will be built by travsisci, and if there are no problems, a release with that tag will be found at https://github.com/irchelp/wio/releases/ in a few minutes.
+
+(rest of process TBD.... )
 
