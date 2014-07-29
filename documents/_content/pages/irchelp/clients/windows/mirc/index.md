@@ -6,23 +6,11 @@
 
 Download, FAQ, installation help, use and scripting.
 
-![*](/media/icons/mirc.gif)
-
 mIRC is by far the most popular Internet Relay Chat client for Windows and
 thus among all users. This page is devoted to the unofficial support of this
 shareware product.
 
 * * *
-
-![*](/media/icons/mirc.gif)
-
-## News
-
-**Recent version releases: (current) version 7.1 on Jul 30 2010, version 6.35 on Oct 18 2008, version 6.34 on Aug 8 2008**. See the [mIRC home page](http://www.mirc.com) [ext. link] for more info. 
-
-* * *
-
-![*](/media/icons/mirc.gif)
 
 ## Official mIRC home page
 
@@ -31,8 +19,6 @@ home page](http://www.mirc.com/)** [ext. link] which contains a wealth of
 information on mIRC: getting it, setting it up, using it, etc.
 
 * * *
-
-![*](/media/icons/mirc.gif)
 
 ## Download mIRC
 
@@ -45,8 +31,6 @@ site](http://www.mirc.com/get.html)** at mIRC home page [ext. link]
 
 * * *
 
-![*](/media/icons/mirc.gif)
-
 ## Frequently asked questions (FAQ)
 
 The **[mIRC FAQ](http://www.mirc.com/faq.html)** [ext. link] helps you to
@@ -58,16 +42,12 @@ tutorial on aliases, popups and on 'programming' the Tools/Remote section.
 
 * * *
 
-![*](/media/icons/mirc.gif)
-
 ## Setup and Installation
 
 *  **[Instructions for Net Newbies and Download
 Dummies](http://www.mirc.com/install.html)** [ext. link]
 
 * * *
-
-![*](/media/icons/mirc.gif)
 
 ## Using mIRC and scripting
 
