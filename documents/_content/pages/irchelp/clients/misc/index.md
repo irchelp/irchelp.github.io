@@ -134,3 +134,7 @@ Some XMPP-to-IRC transports include:
 * [jiigw](https://github.com/Jajcus/jjigw/)
 
 Functionality of such solutions will be limited by both the gateway and the instant messaging program in use. but is sufficient for basic chatting, and may be sufficient for limited exercise of channel operator functions, but not much else.
+
+## irc-to-xmpp and irc-to-other gateways
+
+* [bitlbee](irchelp/clients/misc/bitlbee.html) - multi-protocol gateway from IRC to XMPP (including Facebook Chat/Google Talk), AIM/ICQ, Yahoo, and others.
