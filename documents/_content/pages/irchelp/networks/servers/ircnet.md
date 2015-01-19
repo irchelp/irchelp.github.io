@@ -33,54 +33,68 @@ If you are not sure which servers you can connect to at all, use `!servers` in
 
 There are many outdated documents on IRCnet nodes all around the internet.
 
-<table width="100%">
+<table width="80%" border="1">
  <thead>
  <tr>
   <th>Country</th>
   <th>Address</th>
-  <th>Comments</th>
+  <th>IPv6-only Address, if any</th>
  </tr>
  </thead>
  <tbody>
  <tr>
   <td><b>International</b></td>
   <td><b>open.ircnet.net</b></td>
-  <td>This wildcard DNS record contains all IRCnet servers which are accessible independent of the country your IP address is registered in. This means that you should be able to connect to IRCnet by at least one of them. They will perhaps be less stable than a local server, and will be the target of DDoS attacks more often, which will result in them going down more frequently.</td>
+  <td></td>
  </tr>
  <tr>
   <td>Estonia</td>
   <td>irc.ircnet.ee</td>
-  <td>irc6.ircnet.ee - the Estonian IPv6 servers - allow connections from all over the world. If your ISP already supports IPv6, maybe try them.
+  <td>irc6.ircnet.ee</td>
  </tr>
  <tr>
   <td>France</td>
   <td>irc.fr.ircnet.net</td>
+  <td></td>
  </tr>
  <tr>
   <td>Germany</td>
   <td>irc.de.ircnet.net or random.ircd.de</td>
-  <td></td>
+  <td>irc6.de.ircnet.net</td>
  </tr>
  <tr>
   <td>Hungary</td>
   <td>irc.hu</td>
-  <td></td>
+  <td>irc6.hu</td>
  </tr>
  <tr>
   <td>Poland</td>
   <td>irc.pl.ircnet.net or polska.irc.pl</td>
+  <td>polska6.irc.pl</td>
  </tr>
  </tbody>
 </table>
 
-These are all known (well, to me) wildcard DNS records of IRCnet nodes by country. There are many stale DNS records and some countries might not even have wildcard DNS records at all. If in doubt, pick your servers from the tu-ilmenau list, which is always guaranteed to be kept up-to-date automatically.
+The "<b>International</b>" wildcard DNS record contains all IRCnet
+servers which are accessible independent of the country your IP address is
+registered in. This means that you should be able to connect to IRCnet by at
+least one of them. They will perhaps be less stable than a local server, and
+will be the target of DDoS attacks more often, which may perhaps result in them
+going down more frequently.
+
+These are all known (well, to me) wildcard DNS records of IRCnet nodes by
+country. There are many stale DNS records and some countries might not even
+have wildcard DNS records at all. If in doubt, pick your servers from the
+[tu-ilmenau list](http://irc.tu-ilmenau.de/all_servers/) or the `!servers`
+command on `#ircnet`, which are always guaranteed to be kept up-to-date
+automatically.
 
 ## Webchat
 
 The following semi-official web-gateways are available for IRCnet:
 
-* [CGI:IRC on xs4all.nl](http://webirc.xs4all.nl)
-* [CGI:IRC on tu-ilmenau.de](http://irc.tu-ilmenau.de/web-irc/)
+* [public qwebirc](http://webchat.ircnet.net)
+* [CGI:IRC on tu-ilmenau.de](http://irc.tu-ilmenau.de/web-irc/) (open to German users only)
 
 These web frontends are suitable for finding a server you have access to using the `!servers` method.
 
