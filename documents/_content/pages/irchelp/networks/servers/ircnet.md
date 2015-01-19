@@ -48,9 +48,18 @@ There are many outdated documents on IRCnet nodes all around the internet.
   <td></td>
  </tr>
  <tr>
+  <td>Czech Republic</td>
+  <td>irc.cz.ircnet.net</td>
+  <td>irc6.cz.ircnet.net</td>
+ <tr>
   <td>Estonia</td>
   <td>irc.ircnet.ee</td>
   <td>irc6.ircnet.ee</td>
+ </tr>
+ <tr>
+  <td>Finland</td>
+  <td>irc.fi.ircnet.net</td>
+  <td></td>
  </tr>
  <tr>
   <td>France</td>
@@ -66,6 +75,11 @@ There are many outdated documents on IRCnet nodes all around the internet.
   <td>Hungary</td>
   <td>irc.hu</td>
   <td>irc6.hu</td>
+ </tr>
+ <tr>
+  <td>Israel</td>
+  <td>irc.il.ircnet.net</td>
+  <td></td>
  </tr>
  <tr>
   <td>Poland</td>
