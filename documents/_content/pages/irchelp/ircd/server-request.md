@@ -123,17 +123,16 @@ You should carefully look over the documents in the [IRC Server
 Software](index.html) section, especially the [Myth of Opers](opermyth.html)
 and [IRC Operator's Guide](ircopguide.html).
 
-## Wait! Before you end, I want to help people on IRC. Don't I need O: to do
-that?
+## Wait! Before you end, I want to help people on IRC. Don't I need O: to do that?
 
 No! You don't! You can help the network by coming to #IRChelp and answering
 questions. You don't have to be a chanop on the channel to answer questions -
 everyone is welcome to pitch in as long as they follow our [channel
 rules](/irchelp/misc/rules.html). You will help the IRC network much more by
 answering newbie questions on #IRChelp than by being an /oper. There are
-hundreds of /oper's, but only a dozen or so people dedicated enough to help on
-#IRChelp. There are also many other well-run help channels, depending on your
-specific area of knowledge.
+hundreds of /oper's, but only a dozen or so people dedicated enough to help on #IRChelp.
+There are also many other well-run help channels, depending on your specific
+area of knowledge.
 
 * * *
 
