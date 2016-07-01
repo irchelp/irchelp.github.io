@@ -72,6 +72,8 @@ Building the Site
 Publishing the Site to Staging (irchelpers only)
 -------------------------------------------------
 
+This part is obsolete and is just for historical references. TravisCI automatically deploys the site to staging after each push.
+
  1. Build the site.
  2. In another directory, git clone git@github.com:irchelp/irchelp.github.io if you haven't already.
  3. cd irchelp.github.io
