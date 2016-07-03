@@ -1,3 +1,7 @@
+---
+title: Instant Messaging Programs on MacOS X with IRC Support
+---
+
 # Instant Messaging programs on MacOS X
 
 Although not designed specifically for IRC, many instant messageing programs

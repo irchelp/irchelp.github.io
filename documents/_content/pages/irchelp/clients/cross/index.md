@@ -1,10 +1,13 @@
+---
+title: Cross-platform IRC clients.
+---
 # Cross-platform IRC clients
 
 ## ChatZilla
 
 [ChatZilla](/irchelp/clients/cross/chatzilla.html) runs as an addon for
 Firefox and Seamonkey, or standalone with the help of XULRunner, and as such
-is portable to all platforms on which Firefox can run. 
+is portable to all platforms on which Firefox can run.
 
 ## LeafChat
 

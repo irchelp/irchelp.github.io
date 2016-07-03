@@ -1,3 +1,7 @@
+---
+title: ircle setup guide
+author: Joseph Lo (jolo)
+---
 #  ![*](/irchelp/Pix/ircle_spin.gif) Ircle Setup Guide
 ![*](/irchelp/Pix/ircle_spin.gif)
 
@@ -200,4 +204,3 @@ Ircle](http://www.ircle.com/download.html) ]
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

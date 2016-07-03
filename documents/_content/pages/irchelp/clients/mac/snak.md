@@ -1,3 +1,7 @@
+---
+title: Snak
+---
+
 [ ![*](snak.jpg)](http://www.snak.com/Snak.html)
 
 **Snak 5.2.x** &nbsp_place_holder; [ [ home page](http://www.snak.com/Snak.html) | [screen cap](snak.gif) ]
@@ -26,4 +30,3 @@ connection). Guardian feature permits adult control, for what that's worth
 help menu, balloon help, and bundled help manual (Ircle has none). $29
 shareware (covering updates over 2 years) is a great value and an example of
 how [shareware](../misc/shareware.html) really can work.
-
