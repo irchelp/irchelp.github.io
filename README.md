@@ -13,6 +13,16 @@ Otherwise, please do not create mirrors of the site, thanks.
 [![Build Status](https://travis-ci.org/irchelp/wio.svg?branch=master)](https://travis-ci.org/irchelp/wio)
 
 
+Contributing
+------------
+
+Virtually all the documents on irchelp.org start out as textfiles, using
+[Markdown](https://daringfireball.net/projects/markdown/) to apply simple formatting,
+such as linking to URLs. Submissions in this format are the easiest for us to work woth.
+
+[Complete IRCHelp.org contributor's guide](http://www.irchelp.org/irchelp/authoring.html)
+
+
 Directory Structure
 -------------------
 
