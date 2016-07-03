@@ -1,3 +1,7 @@
+---
+title: How to configure mIRC to connect through winGate
+---
+
 [ This is an emergency mirror of the [original
 page](http://kb.deerfield.com/search/viewarticle.cfm?a=1014) at Wingate's home
 page. ]
@@ -130,4 +134,3 @@ Support](http://www.wingate.net/support.htm) | [WinGate Help
 Desk](http://www.wingate.net/help.htm)
 
 &nbsp_place_holder;
-

@@ -1,3 +1,8 @@
+---
+title: Flood Protection and Ignoring People
+author: Ruth Mullen (hershey)
+---
+
 # Flood Protection and Ignoring People
 
 ### for users of mIRC, the Windows Internet Relay Chat client
@@ -31,7 +36,7 @@ better.
 
 ### 1) Fully Automatic Flood Protection
 
-    You can protect yourself against people who are flooding you with the automatic anti-flood system in mIRC. Simple type the command  
+    You can protect yourself against people who are flooding you with the automatic anti-flood system in mIRC. Simple type the command
 
 > **/flood 400 20 2 30**
 
@@ -95,4 +100,3 @@ you'll enjoy IRC as it is meant to be; a place to _CHAT_ :-) Have fun!
 
 ##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
 others.
-
