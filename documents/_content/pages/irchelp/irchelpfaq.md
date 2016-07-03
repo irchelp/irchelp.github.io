@@ -1,3 +1,7 @@
+---
+title: The unofficial #irchelp FAQ (ufAQ)
+author: Alex Charalabidis (Apatrix)
+---
 # The unofficial #irchelp FAQ (uFAQ)
 
 * * *
@@ -85,17 +89,17 @@ echo $SHELL
 
 Depending on the reply,
 
-  * If the reply is csh, tcsh or zsh, do this:  
+  * If the reply is csh, tcsh or zsh, do this:
 setenv IRCNAME "whatever"
 
-  * If the reply is ksh, bash or sh , this should work:  
+  * If the reply is ksh, bash or sh , this should work:
 IRCNAME="whatever";export IRCNAME
 
-  * If it's any other type of shell, sorry, you're on your own. 
-  * Add the appropriate line to your login file (usually .cshrc for csh/tcsh and .profile for bash/ksh) to make the change permanent and re-login. 
-  * Don't ignore the quotes and capitalization. They're there for a reason. 
-  * If you still haven't understood, get a Unix manual. 
-  * For VMS, add the following line to your login.com file:  
+  * If it's any other type of shell, sorry, you're on your own.
+  * Add the appropriate line to your login file (usually .cshrc for csh/tcsh and .profile for bash/ksh) to make the change permanent and re-login.
+  * Don't ignore the quotes and capitalization. They're there for a reason.
+  * If you still haven't understood, get a Unix manual.
+  * For VMS, add the following line to your login.com file:
 DEFINE IRCNAME "what you would like to appear"  If you're on some sort of BBS
 and don't have access to a command line interface, talk to your
 sysadmin/sysop. 4. Q: How can I change my email address as it appears in the
@@ -192,10 +196,10 @@ your connection to it. Which basically means you should check their [server
 lists](http://www.irchelp.org/irchelp/networks/servers/) and pick the one
 closest to you. However,
 
-  * EFnet: Most North American servers have excellent connectivity and those which accept foreign clients will be good for them too. Users in western and northern Europe should prefer their local servers. 
-  * Undernet: Use us.undernet.org to connect to a random US Undernet server. From Europe, use eu.undernet.org. 
-  * DALnet: irc.dal.net will connect you to a random DALnet server. Irc.eu.dal.net will do the trick for Europeans. 
-  * IRCnet: Try us.ircnet.org. If you're outside North America, check the server list for a server near you. IRCnet serves more countries directly than any other network. 15. Q: What does a + next to someone's name mean?     A: It means absolutely nothing if the channel isn't moderated (doesn't have channel mode +m active). If the channel is moderated, a non-op who's been given a +v (voice) may also send to the channel like its ops do, while users lacking it may not. On some channels, it's used as a sign of recognition for regulars who aren't ops but are trusted. It's also used as a joke, to make you ask this question. 16. Q: How can I see all users on my server?     A: Ten to one you don't mean the users on the IRC server you're connected to, but the users connected to your local Internet Service Provider. After this small lesson in terminology, try /who *.domain.com (substituting the domain name of said ISP) but don't expect any spectacular results, since the majority of users are invisible to /who scans. On the other hand, what's the point of connecting to a worldwide network if you're only looking for the locals? 17. Q: How can I be a channel op?     A: There are two ways of obtaining channel operator status (ops) on a channel. The first is to join it while it's empty, in which case you, being the first user to join, will automagically be made its operator. However, if the channel is already occupied, you will have to be given ops by a user who already is an op. 18. Q: Where can I get a list of servers?     A: For a quick and dirty look at your current network, type /links. The [#irchelp networks and server lists page](http://www.irchelp.org/irchelp/networks/), sloppily maintained by yours truly, is a reasonable if not always up to date source of server and network information.  
+  * EFnet: Most North American servers have excellent connectivity and those which accept foreign clients will be good for them too. Users in western and northern Europe should prefer their local servers.
+  * Undernet: Use us.undernet.org to connect to a random US Undernet server. From Europe, use eu.undernet.org.
+  * DALnet: irc.dal.net will connect you to a random DALnet server. Irc.eu.dal.net will do the trick for Europeans.
+  * IRCnet: Try us.ircnet.org. If you're outside North America, check the server list for a server near you. IRCnet serves more countries directly than any other network. 15. Q: What does a + next to someone's name mean?     A: It means absolutely nothing if the channel isn't moderated (doesn't have channel mode +m active). If the channel is moderated, a non-op who's been given a +v (voice) may also send to the channel like its ops do, while users lacking it may not. On some channels, it's used as a sign of recognition for regulars who aren't ops but are trusted. It's also used as a joke, to make you ask this question. 16. Q: How can I see all users on my server?     A: Ten to one you don't mean the users on the IRC server you're connected to, but the users connected to your local Internet Service Provider. After this small lesson in terminology, try /who *.domain.com (substituting the domain name of said ISP) but don't expect any spectacular results, since the majority of users are invisible to /who scans. On the other hand, what's the point of connecting to a worldwide network if you're only looking for the locals? 17. Q: How can I be a channel op?     A: There are two ways of obtaining channel operator status (ops) on a channel. The first is to join it while it's empty, in which case you, being the first user to join, will automagically be made its operator. However, if the channel is already occupied, you will have to be given ops by a user who already is an op. 18. Q: Where can I get a list of servers?     A: For a quick and dirty look at your current network, type /links. The [#irchelp networks and server lists page](http://www.irchelp.org/irchelp/networks/), sloppily maintained by yours truly, is a reasonable if not always up to date source of server and network information.
 Clients like mIRC and ircle come with pretty good server lists of their own
 too, assuming you're using the current version and not one you nicked from an
 antique client dealer. 19. Q: How do I set up ICQ?     A: I don't know. I
@@ -360,4 +364,3 @@ lightly, it took 7.5 million years to figure out.)
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

@@ -1,3 +1,7 @@
+---
+title: The IRC Prelude
+author: David Caraballo (DC-itsme) and Joseph Lo (Jolo)
+---
 # The IRC Prelude
 
 By David Caraballo (DC-itsme) and Joseph Lo (Jolo)
@@ -323,7 +327,7 @@ others.
 
 **Registration**   On many networks. services exist for the registration of
 nicknames and/or channels. These services vary greatly between networks, but are
-useually mentioned in the server's message of the day (MOTD) which is shown when 
+useually mentioned in the server's message of the day (MOTD) which is shown when
 you first connect. You can show the MOTD again at any time by typing /motd in most clients.
 
 THe network's home page will also detail any services offered on that network.
@@ -406,7 +410,7 @@ with whom you wish to chat. A window opens for that dcc chat session.
 
 
 
- 
+
 
 * * *
 
@@ -453,7 +457,7 @@ menu.
 
 
 
- 
+
 * * *
 
 ## 9. A word of warning
@@ -477,7 +481,7 @@ because of the DCC autoget setting.
 
 
 
- 
+
 
 * * *
 
@@ -489,5 +493,3 @@ are interested in learning more, check out the many documents on the [#IRChelp
 home page](http://www.irchelp.org/).
 
 * * *
-
-

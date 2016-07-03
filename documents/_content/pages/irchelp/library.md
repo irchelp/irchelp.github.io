@@ -1,3 +1,6 @@
+---
+title: Site Map
+---
 
 ## Site Map
 
@@ -24,7 +27,7 @@
 
   * [Network/Server Lists](/irchelp/networks/)
   * [Server Request FAQ](/irchelp/ircd/server-request.html)
-  * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext) 
+  * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext)
   * [Server Software](/irchelp/ircd/)
   * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
 
@@ -61,12 +64,12 @@
   * [EFnet](/irchelp/chanlist/)     **Networks / Servers**
 
   * [overview of networks](/irchelp/networks/servers/)
-  * [Big Four](/irchelp/networks/nets/big4.html):  
+  * [Big Four](/irchelp/networks/nets/big4.html):
 [EFnet](/irchelp/networks/servers/efnet.html), Undernet,
 [IRCnet](/irchelp/networks/servers/ircnet.html), DALnet
 
-  * [Medium](/irchelp/networks/nets/medium.html) and [Small](/irchelp/networks/nets/small.html) Nets 
-  * [Subject](/irchelp/networks/nets/subject.html) and [Local](/irchelp/networks/nets/local.html) Nets 
+  * [Medium](/irchelp/networks/nets/medium.html) and [Small](/irchelp/networks/nets/small.html) Nets
+  * [Subject](/irchelp/networks/nets/subject.html) and [Local](/irchelp/networks/nets/local.html) Nets
 
 * * *
 
@@ -107,8 +110,6 @@ Now click [here](/irchelp/) or on the first button in the navigational bar
 below to go back to the top of the #IRChelp home page, or if you came from
 somewhere else, select **BACK** on your browser to return there.
 
---Jolo 
+--Jolo
 
 * * *
-
-
