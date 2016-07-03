@@ -1,3 +1,8 @@
+---
+title: ircII
+---
+
+
 ![logo](/irchelp/Pix/irchelp_logo.gif)
 
 ** Unix/Linux/BSD/etc.
@@ -105,9 +110,9 @@ out-dated [IRC by Telnet FAQ](../misc/telnet.html) (question #6-8).
 
 If you are not very savvy with Unix here are your choices:
 
-  * seek help from somebody else who is, 
-  * download pre-compiled copies of your favorite client (the default method for users of package-managed distributions), 
-  * or stick to personal computer operating systems and clients which are easier to set up and use (such as [mIRC](/irchelp/mirc/) for Windows or the various [Mac clients](/irchelp/mac/)), 
+  * seek help from somebody else who is,
+  * download pre-compiled copies of your favorite client (the default method for users of package-managed distributions),
+  * or stick to personal computer operating systems and clients which are easier to set up and use (such as [mIRC](/irchelp/mirc/) for Windows or the various [Mac clients](/irchelp/mac/)),
 
 * * *
 
@@ -117,9 +122,9 @@ If you are not very savvy with Unix here are your choices:
 
 There are now 2 main variants of ircII which we describe below:
 
-**[ircII 2.8.2](ircii-2.8.2.tar.gz)** (4/95, 372,733 bytes)     The 'classic' release version of ircII, stable with relatively tame bugs, **recommended** for most people who don't feel the need to be on the bleeding edge. Some of our very experienced helpers have been satisfied with this version since 1995 and see no reason to ever upgrade. You need to get the [help file](ircii-2.8help.tar.gz) (~112KB) separately. 
+**[ircII 2.8.2](ircii-2.8.2.tar.gz)** (4/95, 372,733 bytes)     The 'classic' release version of ircII, stable with relatively tame bugs, **recommended** for most people who don't feel the need to be on the bleeding edge. Some of our very experienced helpers have been satisfied with this version since 1995 and see no reason to ever upgrade. You need to get the [help file](ircii-2.8help.tar.gz) (~112KB) separately.
 
-**[ircii-current](http://www.eterna.com.au/ircii/)** (3/2002, ~0.6MB) [ext. link]     
+**[ircii-current](http://www.eterna.com.au/ircii/)** (3/2002, ~0.6MB) [ext. link]
 
 After 2.8, ircII went through many, many versions from 2.9roof through 4.4Z,
 all of which were extremely buggy, either simply annoying or seriously
@@ -136,9 +141,9 @@ download it from there.
 
 ### Clients based upon ircII
 
-**[BitchX](http://www.bitchx.org/)** [ext. link]     The most popular ircII-based client (forked at ircii-2.8 originally, it's now based on the current EPIC release of ircII), currently at version 1.0c18 (2001). This client is packed with all sorts of desirable as well as useless features which make it complicated to the level of being unnecessarily bloated. This doesn't mean it's a bad client. It's stable, functional and its bugs aren't too irritating (although some can earn you K:lines if you're not careful). Documentation on BitchX-specific features is sparse (though much improved over older versions). Even slight configuration errors can become the cause of embarrassing events. We recommend it only as a heavy duty client, strictly for experienced ircII users who are prepared to figure out a lot of things by yourself and risk such mistakes. It is strongly recommended that you have the help files for ircII and EPIC available when using BitchX, as the functions BitchX shares with these clients are poorly documented (if documented at all) in BitchX's own documentation. Note that BitchX's channel protection settings are turned on by default, with inappropriate triggering thresholds which will probably result in your client turning on fellow channel operators in channels you hold ops in. Most of these protection features are generally counterproductive, and may compromise a channel in a crisis situation. It's strongly recommended that you look through the little bit of documentation that BitchX has, and turn these features off. While you are at it, make sure you turn the public away notices off too, they get a bit annoying, and many channels kick for them. 
+**[BitchX](http://www.bitchx.org/)** [ext. link]     The most popular ircII-based client (forked at ircii-2.8 originally, it's now based on the current EPIC release of ircII), currently at version 1.0c18 (2001). This client is packed with all sorts of desirable as well as useless features which make it complicated to the level of being unnecessarily bloated. This doesn't mean it's a bad client. It's stable, functional and its bugs aren't too irritating (although some can earn you K:lines if you're not careful). Documentation on BitchX-specific features is sparse (though much improved over older versions). Even slight configuration errors can become the cause of embarrassing events. We recommend it only as a heavy duty client, strictly for experienced ircII users who are prepared to figure out a lot of things by yourself and risk such mistakes. It is strongly recommended that you have the help files for ircII and EPIC available when using BitchX, as the functions BitchX shares with these clients are poorly documented (if documented at all) in BitchX's own documentation. Note that BitchX's channel protection settings are turned on by default, with inappropriate triggering thresholds which will probably result in your client turning on fellow channel operators in channels you hold ops in. Most of these protection features are generally counterproductive, and may compromise a channel in a crisis situation. It's strongly recommended that you look through the little bit of documentation that BitchX has, and turn these features off. While you are at it, make sure you turn the public away notices off too, they get a bit annoying, and many channels kick for them.
 
-**[EPIC](http://www.epicsol.org/)** [ext. link]     A definitely "lighter" client than BitchX, it lacks many of the less useful features and the (not exactly stunning) colour scheme. It remains a lot closer to ircII and is based upon extensions to version 2.8.2. Recommended for users who intend to extend their client through extensive scripting. 
+**[EPIC](http://www.epicsol.org/)** [ext. link]     A definitely "lighter" client than BitchX, it lacks many of the less useful features and the (not exactly stunning) colour scheme. It remains a lot closer to ircII and is based upon extensions to version 2.8.2. Recommended for users who intend to extend their client through extensive scripting.
 
 * * *
 
@@ -162,15 +167,15 @@ used to.
 
 ### GUI Clients
 
-**[X-Chat](http://www.xchat.org/)** [ext. link]     X-Chat is likely the most popular GUI client for Unix Currently at version 1.8.8 (as of March 2002), it features mIRC-like look and feel and the ability to run powerful PERL-based scripts. X-Chat has also been ported to Windows, but functions best in it's Unix home. Recommended for the novice user to get started for its ease of use, and to the expert for its potential. X-Chat is built on the popular GTK+ toolkit, and is usually included as part of a standard [GNOME](http://www.gnome.org) installation. 
+**[X-Chat](http://www.xchat.org/)** [ext. link]     X-Chat is likely the most popular GUI client for Unix Currently at version 1.8.8 (as of March 2002), it features mIRC-like look and feel and the ability to run powerful PERL-based scripts. X-Chat has also been ported to Windows, but functions best in it's Unix home. Recommended for the novice user to get started for its ease of use, and to the expert for its potential. X-Chat is built on the popular GTK+ toolkit, and is usually included as part of a standard [GNOME](http://www.gnome.org) installation.
 
-**[KVIrc](http://www.kvirc.net/)** [ext. link]     KVIrc is an equally popular IRC client, based on the competing QT toolkit, which is part of the [K Desktop Environment (KDE)](http://www.kde.org/). KVIrc is at version 2.1.1 (May, 2001) and is currently developing V3.0, supposedly a major feature upgrade. KVIrc has the ability to load scripts and modules, all downloadable somewhere on the Web. KVIrc has ALSO been ported to Windows. 
+**[KVIrc](http://www.kvirc.net/)** [ext. link]     KVIrc is an equally popular IRC client, based on the competing QT toolkit, which is part of the [K Desktop Environment (KDE)](http://www.kde.org/). KVIrc is at version 2.1.1 (May, 2001) and is currently developing V3.0, supposedly a major feature upgrade. KVIrc has the ability to load scripts and modules, all downloadable somewhere on the Web. KVIrc has ALSO been ported to Windows.
 
 * * *
 
 ### Bots
 
-**[eggdrop](http://www.egghelp.org)** [ext. link]     Bots are a very advanced subject, so be prepared to do a lot of reading and learning. Start with [Frequently Asked Questions about Internet Relay Chat roBOTs](/irchelp/misc/botfaq.html), then also check out the bot section near the end of the [New IRC Channel Operator's Guide](/irchelp/changuide.html). 
+**[eggdrop](http://www.egghelp.org)** [ext. link]     Bots are a very advanced subject, so be prepared to do a lot of reading and learning. Start with [Frequently Asked Questions about Internet Relay Chat roBOTs](/irchelp/misc/botfaq.html), then also check out the bot section near the end of the [New IRC Channel Operator's Guide](/irchelp/changuide.html).
 
 * * *
 
@@ -208,13 +213,13 @@ information about potential ident problems.
 
 Get the latest clients at these archives:
 
-  * [Freshmeat.Net](http://www.freshmeat.net) is almost inarguably the best resource for Unix applications on the web, including just about EVERY IRC client available to Unix users, even the most obscure. 
-  * [SourceForge](http://www.sourceforge.net) is a community of coders and developers who use this venue to track the latest changes and offerings of their open-source code. 
+  * [Freshmeat.Net](http://www.freshmeat.net) is almost inarguably the best resource for Unix applications on the web, including just about EVERY IRC client available to Unix users, even the most obscure.
+  * [SourceForge](http://www.sourceforge.net) is a community of coders and developers who use this venue to track the latest changes and offerings of their open-source code.
 
 Pre-compiled ircII binaries:
 
-  * [RPMFind](http://www.rpmfind.net) [ext. link] is the definitive archive for RPM-based distributions. RPM users can find anything they need right here. If it's not here, it doesn't exist. RPMFind is not always up-to-date with the latest releases of most IRC clients, however, so caveat emptor - buyer beware. 
-  * Precompiled binaries may also be available from individual client home pages, which you can find through SourceForge or FreshMeat above. Please note the precompiled binaries will only work under fairly close to the exact same conditions that they were compiled under. It's always preferable to compile your own or assure that your system is compatible (package management is supposed to assure this for you, don't always trust it). 
+  * [RPMFind](http://www.rpmfind.net) [ext. link] is the definitive archive for RPM-based distributions. RPM users can find anything they need right here. If it's not here, it doesn't exist. RPMFind is not always up-to-date with the latest releases of most IRC clients, however, so caveat emptor - buyer beware.
+  * Precompiled binaries may also be available from individual client home pages, which you can find through SourceForge or FreshMeat above. Please note the precompiled binaries will only work under fairly close to the exact same conditions that they were compiled under. It's always preferable to compile your own or assure that your system is compatible (package management is supposed to assure this for you, don't always trust it).
 
 * * *
 
@@ -256,4 +261,3 @@ not going to argue the point to death. What's pretty certain is that it is
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
