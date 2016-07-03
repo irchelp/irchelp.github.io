@@ -1,12 +1,15 @@
- 
+---
+title: Electropolist:  Communication and Community on Internet Relay Chat
+author: Elizabeth M. Reid
+---
 
 #### **[IRC Communication Research Resources][1]**
 
 #### **[Academic Resources][2]**
 
- 
 
-**Reid, E. Electropolis: Communication and Community on Internet Relay Chat.  
+
+**Reid, E. Electropolis: Communication and Community on Internet Relay Chat.
 Honours Dissertation, University of Melbourne, 1991.**
 
 * * *
@@ -67,9 +70,9 @@ Adapted from an Honours thesis written at the University of Melbourne
 
 # Publications based on this text:
 
-  * "Communication and Community on Internet Relay Chat: Constructing Communities." In _Conceptual Issues on the Electronic Frontier_. Edited by Peter Ludlow. MIT Press: 1996. 
-  * "Social Issues on Internet Relay Chat." _Media Information Australia_. No. 67 (February 1993). Pp. 62-70. 
-  * "Electropolis: Communication and Community on Internet Relay Chat." _Intertek_. Vol. 3.3 (Winter 1992). Pp. 7-15. 
+  * "Communication and Community on Internet Relay Chat: Constructing Communities." In _Conceptual Issues on the Electronic Frontier_. Edited by Peter Ludlow. MIT Press: 1996.
+  * "Social Issues on Internet Relay Chat." _Media Information Australia_. No. 67 (February 1993). Pp. 62-70.
+  * "Electropolis: Communication and Community on Internet Relay Chat." _Intertek_. Vol. 3.3 (Winter 1992). Pp. 7-15.
 
 * * *
 
@@ -547,10 +550,10 @@ The changes that a user might make to his or her perceived identity can be
 small, a matter of realising in others' minds a desire to be attractive,
 impressive, popular:
 
-    
+
         *BabyDoll* Well, I gotta admit, I shave a few lbs off of my
          wieght when I tell the guys on irc what i look like..
-    
+
 
 However, the anonymity of IRC can provide more than a means to 'fix' minor
 problems of appearance - one of the most fascinating aspects of this computer-
@@ -566,28 +569,28 @@ nickname to something that suggests the opposite of one's actual gender. It is
 possible for IRC to become the arena for experimentation with gender specific
 social roles:
 
-    
+
          <Marion> I've tried presenting m,yslef as male on occasion -
          to be honest I found itdull
-         <Barf> Umm, I've gender switched once or twice for about 2 
-         hour or so - mainly to lead another male up the garden path 
+         <Barf> Umm, I've gender switched once or twice for about 2
+         hour or so - mainly to lead another male up the garden path
          as a practical joke; but never a serious gender switch.
          <Marion> how did you find being perceived as female?
-         <Barf> I wasn't really being perceived as female, since I 
-         was basically just calling myself by a female name and 
-         utilising my knowledge of being male to get the other male 
+         <Barf> I wasn't really being perceived as female, since I
+         was basically just calling myself by a female name and
+         utilising my knowledge of being male to get the other male
          all stirred up
-         <Barf> I did find it mildly irritating that I should get so 
-         much attention and be immediately fixated as a sex object 
-         simply by pretending to be female 
-         <Marion> to be honest, I didn't like being male becuaseI 
-         missed the flattery that women tend to get 
-         <Marion> being expected to give attention ratehr than 
+         <Barf> I did find it mildly irritating that I should get so
+         much attention and be immediately fixated as a sex object
+         simply by pretending to be female
+         <Marion> to be honest, I didn't like being male becuaseI
+         missed the flattery that women tend to get
+         <Marion> being expected to give attention ratehr than
          recieve it was quite a shock!
-         <Barf> ahh - that is one reason that I tend to dislike 
-         unequal ratios in the sexes - the females get all the 
+         <Barf> ahh - that is one reason that I tend to dislike
+         unequal ratios in the sexes - the females get all the
          attention.[(33)][49]
-    
+
 
 The potential for such experimentation governs the expectations of many users
 of IRC. Gender is one of the more 'sacred' institutions in our society, a
@@ -597,15 +600,15 @@ attitudes taken by individual users of IRC differ as regards the possibility
 for gender concealment. Some view it as 'part of the game', others are hostile
 toward users who gender switch:
 
-    
+
          <saro> KAREN IS A BOY
          <saro> KAREN IS A BOY
          <saro> KAREN IS A BOY
          <SmilyFace> aros: so?????????
-         <Karen> yes aros I heard you 
-         <FuzzyB> Takes a relaxed place beside Karen offering her  
+         <Karen> yes aros I heard you
+         <FuzzyB> Takes a relaxed place beside Karen offering her
          her favourite drink.
-    
+
 
 Whatever may be the attitude of individual users of the IRC program to such
 examples of gender experimentation, the crucial point is that it is an
@@ -636,33 +639,33 @@ the computer medium, and with few social context cues to indicate 'proper'
 ways to behave, users are able to express and experiment with aspects of their
 personality that social inhibition would generally encourage them to suppress:
 
-    
+
          <Barf> Yes.. Oh well - I'm just saying that I switch
-         personalities all the time, and my usual personality on IRC 
-         and my usual personality on Fidonet are at extremes, and 
+         personalities all the time, and my usual personality on IRC
+         and my usual personality on Fidonet are at extremes, and
          I've never really shown my real self on any computer medium.
-         <Barf> I'm deliberately creating fake personalities instead 
-         of highlighting less obvious parts of my personality, so I 
+         <Barf> I'm deliberately creating fake personalities instead
+         of highlighting less obvious parts of my personality, so I
          do the opposite of what my real self would do.
-         <Marion> by doing something it by definition becomes an 
-         aspect of yourself - what you call your 'real self' is most 
-         likely the way you would like to see yourself or the way you 
-         usually are 
+         <Marion> by doing something it by definition becomes an
+         aspect of yourself - what you call your 'real self' is most
+         likely the way you would like to see yourself or the way you
+         usually are
          <Barf> I'm experiment in being different people, and that
-         involves doing things that I don't want to do to make the 
+         involves doing things that I don't want to do to make the
          fake character consistent and believable
          <Barf> No - my fake characters often do things and behave in
          such a way that I wouldn't want to ever be like
-         <Marion> woulsn't want to - perhaps not - but if it occurs 
-         to you to encat it then it is part of your potentiality 
+         <Marion> woulsn't want to - perhaps not - but if it occurs
+         to you to encat it then it is part of your potentiality
          <Barf> Ah - but the reason that I experiment with different
-         characters is so I can see how other people react and then 
-         adopt the good parts of the character that provoked a 
-         favourable response - however I don't compromise my own 
-         individuality and will continue  
+         characters is so I can see how other people react and then
+         adopt the good parts of the character that provoked a
+         favourable response - however I don't compromise my own
+         individuality and will continue
          <Barf> to do things that I like to do that not everyone else
          would like me to do.[(37)][53]
-    
+
 
 IRC encourages disinhibition. The lack of social context cues in computer-
 mediated communication obscures the boundaries that would generally separate
@@ -688,12 +691,12 @@ Freedom is given, either to be someone whom you are not, or to be more
 yourself than would usually be acceptable. As one user of the system sums it
 up:
 
-    
+
          *bob* by nature I'm shy..
-         *bob* normally wouldn't talk about such thingsw if you met 
+         *bob* normally wouldn't talk about such thingsw if you met
          me face to face
          *bob* thus the network is good..  [(40)][56]
-    
+
 
 Personal relationships amongst participants in computer-mediated communication
 systems can often be deep and highly emotional. Hiltz and Turoff have noted
@@ -703,29 +706,29 @@ never see."[(41)][57] 'Net.romances', long distance romantic relationships
 carried out over IRC, can result from the increased tendency for participants
 in CMC systems to be uninhibited:[(42)][58]
 
-    
+
          Channel    Nickname  S   User@Host (Name)
          +custard   Ireshi	  G   *@*.*.*.OZ.AU (Libby)
          +custard   Lori	  H@  *@*.*.washington.edu (Lori -
          Daniel's beloved)
          +custard   Daniel	  H@  *@*.*.*.edu.au (Daniel - Lori's
          beloved)...
-         <Lori> After just a few chats on irc, it became obvious to 
-         me that this was someone I could easily become very good 
+         <Lori> After just a few chats on irc, it became obvious to
+         me that this was someone I could easily become very good
          friends  with him...
          <Lori> The more we talked, the more we discovered we had in
          common...
-         <Lori> By this time, I knew I was starting to have "more 
+         <Lori> By this time, I knew I was starting to have "more
          than just a friend" feelings about Daniel...
-         <Lori> I told him that I was starting to get a crush on 
+         <Lori> I told him that I was starting to get a crush on
          him...
          <Lori> Anyway, it's grown and grown over the months.
-         <Daniel> A few mishaps, but we've overcome them, to bounce 
+         <Daniel> A few mishaps, but we've overcome them, to bounce
          back stronger than ever.
-         <Lori> And, as you know, we'll be getting together for 3 
-         weeks at the end of November, to see if we're as wonderful 
+         <Lori> And, as you know, we'll be getting together for 3
+         weeks at the end of November, to see if we're as wonderful
          as we think we are.
-    
+
 
 Such expressions of feeling are not in any way thought to be shallow or
 ephemeral. Far from being unsatisfactory for "more interpersonally involving
@@ -754,12 +757,12 @@ of hostilities and obscenities that would otherwise incur social sanctions,
 encourages some people to use IRC as a forum for airing their resentment of
 individuals or groups in a blatantly uninhibited manner:
 
-    
+
          !Venice! Bashers have taken over +gblf... we could use some
          help...
-         !radv*! Comment: -Gay_Bashe:+gblf- FUCK ALL OF BUTT FUCKING, 
+         !radv*! Comment: -Gay_Bashe:+gblf- FUCK ALL OF BUTT FUCKING,
          ASS LICKING, CHICKEN SHIT  BIOLOGICAL DISIASTERS![(44)][60]
-    
+
 
 Not all uninhibited behaviour on IRC is either so negative or so positive.
 Much of the opportunity for uninhibited behaviour is invested by users of IRC
@@ -771,16 +774,16 @@ otherwise strict codes regarding sexual behaviour. Conversations on IRC can be
 sexually explicit, in blatant disregard for social norms regarding the
 propositioning of strangers:
 
-    
+
          *Han* does this compu-sex stuff really happen?
          Lola-> *Han* *smooch*
          *Han* mmmmmmm......hehehe you alonee ; )?
          Lola-> *Han* certianly am! I'm dialling in from home
          *Han* me tooo.....are oyu horny today at all ; )?
-         Lola-> *Han* today? it's the middle of the night where I 
+         Lola-> *Han* today? it's the middle of the night where I
          am... as for the adjective, well, do what you can ;-)
          *Han* mmmmmm......when did you last get off?[(45)][61]
-    
+
 
 Such behaviour is often referred to as 'net.sleazing'. Perhaps because the
 majority of the users of IRC are in their late teens or early twenties, since
@@ -919,9 +922,9 @@ would call for laughter. IRC behaviour takes this to an extreme. It is a
 recognised convention to describe physical actions or reactions, denoted as
 such by presentation between two asterisks:[(58)][74]
 
-    
-         <Wizard> Come, brave Knight! Let me cast a spell of 
-         protection on you..... Oooops - wrong spell! You don;t mind 
+
+         <Wizard> Come, brave Knight! Let me cast a spell of
+         protection on you..... Oooops - wrong spell! You don;t mind
          being green for a while- do you???
          <Prince> Lioness: please don't eat him...
          <storm> *shivers from the looks of lioness*
@@ -929,7 +932,7 @@ such by presentation between two asterisks:[(58)][74]
          <Bel_letre> *hahahah*
          <Lioness> Very well, your excellency.  *looks frustrated*
          <Prince> *falls down laughing*.
-         <Knight> Wizard: as long as I can protect thou ass, I'd be 
+         <Knight> Wizard: as long as I can protect thou ass, I'd be
          utter grateful! :-)
          <Bel_letre> *Plays a merry melody*
          <storm> *walks over to lioness and pats her paw*
@@ -938,7 +941,7 @@ such by presentation between two asterisks:[(58)][74]
          <Prince> *brings a pallete of meat for Lioness*
          <Lioness> *licks Storm*
          <storm> *Looking up* Thank You for not eating me![(59)][75]
-    
+
 
 The above extract from a log of an IRC session, involving an online fantasy
 role-playing game, shows a concentration of verbalised physical actions and
@@ -949,10 +952,10 @@ their behaviour. Verbal statements by themselves give little indication of the
 emotional state of the speaker, and without physical expression to decode the
 specific context of statements, it is easy to misinterpret their intent:
 
-    
+
          *Whopper* just kidding...not trying to be offensive
          <Fireship-> *Whopper* didn't assume that you were...[(60)][76]
-    
+
 
 The corollary of Geertz's definition of culture is that groups of people who
 fail to communicate do not compose a common culture. If meaning is lost in
@@ -984,18 +987,18 @@ characters as representations of physical action. Commonly known as 'smileys',
 CMC users employ alphanumeric characters and punctuation symbols to create
 strings of highly emotively charged keyboard art:
 
-    
+
          :-) or : )      a smiling face, as viewed side-on
          ;-) or ; )      a winking, smiling face
          :-( or : (      an 'unsmiley': an unhappy face
          :-(*)           someone about to throw up
          8-)             someone whose eyes are opened wide in surprise.
          :-P             someone sticking out their tongue
-         >:-O            someone screaming in fright, their hair 
+         >:-O            someone screaming in fright, their hair
                          standing on end
          :-X             someone whose lips are sealed
          @}-`-,-`--      a rose
-    
+
 
 These 'emoticons' are many and various.[(62)][78] Although the most commonly
 used is the plain smiling face - used to denote pleasure or amusement, or to
@@ -1021,9 +1024,9 @@ emotion that would be unusual between complete strangers in the 'real world'.
 The IRC community relies on this intimacy, on spur of the moment social
 overtures made to other users:
 
-    
+
          /time
-         *** munagin.ee.mu.OZ.AU : Tuesday August 27 1991 -- 00:28 
+         *** munagin.ee.mu.OZ.AU : Tuesday August 27 1991 -- 00:28
          EST (from munagin.ee.mu.OZ.AU)
          /join +Sadness
          *** Miri has joined channel +Sadness
@@ -1032,10 +1035,10 @@ overtures made to other users:
          /topic Heartbreak
          *** Miri has changed the topic to "Heartbreak"
          *MALAY* What's wrong? Are you OK? <Tue Aug 27 00:36>
-         *Stodge* Hey, what's happened? Wanna talk about it? <Tue Aug 
+         *Stodge* Hey, what's happened? Wanna talk about it? <Tue Aug
          27 00:36>
          *LadyJay* What's the matter Miri? <Tue Aug 27 00:37>
-    
+
 
 IRC users regard their electronic world with a great deal of seriousness, and
 generally with a sense of responsibility for their fellows. The degree of
@@ -1083,20 +1086,20 @@ rightful users and sometimes deep feelings of guilt on the part of the
 perpetrators. This public announcement was made by a male IRC user to the
 newsgroup alt.irc, a forum for asynchronous discussion of IRC:[(64)][80]
 
-    
+
             I admit to having used the nickname "allison" on several
-         occasions,the name of an acquaintance and "virtual" friend 
-         at another university.Under this nick, I talked on channels 
-         +hottub and +gblf, as well as witha few individuals 
-         privately.  This was a deceptive, immature thing to do,and I 
-         am both embarrassed and ashamed of myself.[(65)][81]  I wish to 
-         apologizeto everyone I misled, particularly users 'badping' 
-         and 'kired'... I am truly sorry for what I have done, and 
-         regret ever having usedIRC, though I think it has the 
-         potential to be a wonderful forum and meansof communication.  
-         It certainly makes the world seem a small place.I shall 
+         occasions,the name of an acquaintance and "virtual" friend
+         at another university.Under this nick, I talked on channels
+         +hottub and +gblf, as well as witha few individuals
+         privately.  This was a deceptive, immature thing to do,and I
+         am both embarrassed and ashamed of myself.[(65)][81]  I wish to
+         apologizeto everyone I misled, particularly users 'badping'
+         and 'kired'... I am truly sorry for what I have done, and
+         regret ever having usedIRC, though I think it has the
+         potential to be a wonderful forum and meansof communication.
+         It certainly makes the world seem a small place.I shall
          never invade IRC with a false nick or username again.[(66)][82]
-    
+
 
 The physical aspect of IRC may be only virtual, but the emotional aspect is
 actual. IRC is not a 'game' in any light-hearted sense - it can inspire deep
@@ -1134,12 +1137,12 @@ which throws a specified user out of the given channel. IRC operators -
 connects them to IRC. The code of etiquette for doing so is outlined in the
 documentation that is part of the IRC program:
 
-    
-         Obnoxious users had best beware the operator who's fast on 
+
+         Obnoxious users had best beware the operator who's fast on
          the /kill command. "/kill nickname" blows any given nickname
-         completely out of the chat system. Obnoxiousness is not to 
-         be tolerated. But operators do not use /kill lightly.[(67)][83] 
-    
+         completely out of the chat system. Obnoxiousness is not to
+         be tolerated. But operators do not use /kill lightly.[(67)][83]
+
 
 There is a curious paradox in the concomitant usage of the words 'obnoxious'
 and 'kill'. Obnoxiousness seems a somewhat trivial term to warrant the use of
@@ -1161,16 +1164,16 @@ general rule that an operator issuing such a command should let other
 operators, and the victim, know the reason for his or her action by adding a
 comment to the '/kill message' that fellow operators will receive:
 
-    
+
          *** Notice -- Received KILL message for I4982784 from MaryD
          (Obscene Dumps!!!)
-         *** Notice -- Received KILL message for mic from mgp  
-         (massive abusive channel dumping involving lots of ctrl-gs 
+         *** Notice -- Received KILL message for mic from mgp
+         (massive abusive channel dumping involving lots of ctrl-gs
          and gaybashing, amongst other almost as obnoxious stuff)
          *** Notice -- Received KILL message for JP from Cyberman
-         ((repeatedely ignorning warnings to stop nickname 
+         ((repeatedely ignorning warnings to stop nickname
          abuse))[(68)][84]
-    
+
 
 There is no technical reason why such comments or excuses should be given -
 they are purely a 'courtesy'. Those in authority on IRC have self-imposed
@@ -1189,23 +1192,23 @@ self-justifications - often the debates are reduced to 'flame-wars', abusive
 arguments between opponents who are more concerned to insult and defeat rather
 than reason with each other:
 
-    
-         !JP! fucking stupid op cybman /killd me - think ya some kind 
-         of net.god? WHy not _ask_ people in the channle i'm in if 
+
+         !JP! fucking stupid op cybman /killd me - think ya some kind
+         of net.god? WHy not _ask_ people in the channle i'm in if
          I'm annoying them before blazing away????
          *** Notice -- Received KILL message for JP from Cyberman
          (abusive wallops)[(69)][85]
-    
+
 
 'Kills' can also be seen as unjustified by other operators, and the operator
 whose actions are questioned by his peers is likely to be 'killed' himself:
 
-    
+
          *** Notice -- Received KILL message for Alfred from Kamikaze
          (public insults are not appreciated)
-         *** Notice -- Received KILL message for Kamikaze from dave 
+         *** Notice -- Received KILL message for Kamikaze from dave
          (yes, but they are allowed.)[(70)][86]
-    
+
 
 The potential for tension between operators of IRC is often diffused into a
 game. 'Killwars', episodes in which opers will kill each other, often happen.
@@ -1214,7 +1217,7 @@ ironic realisation of the responsibilities and powers that opers have, mixed
 with bravado and humour - an effort to parody those same powers and
 responsibilities:
 
-    
+
          !puppy*! ok! one frivolous kill coming up! :D
          !Maryd*! Go puppy! :*)
          *** Notice -- Received KILL message for puppy from Glee (and
@@ -1224,29 +1227,29 @@ responsibilities:
          here's another)
          *** Notice -- Received KILL message for Maryd from Chas (and
          another)
-         *** Notice -- Received KILL message for Chas from blopam 
+         *** Notice -- Received KILL message for Chas from blopam
          (chain reaction - john farnham here I come)
-         *** Notice -- Received KILL message for blopam from dave 
+         *** Notice -- Received KILL message for blopam from dave
          (you must be next.)
-         !Chas*! HA HA HA : ) 
-         *** Notice -- Received KILL message for Chas from Maryd 
+         !Chas*! HA HA HA : )
+         *** Notice -- Received KILL message for Chas from Maryd
          (Only family is allowed to kill me!!!)
-         *** Notice -- Received KILL message for Maryd from dave (am 
+         *** Notice -- Received KILL message for Maryd from dave (am
          I still family?)
-         *** Notice -- Received KILL message for Glee from puppy 
+         *** Notice -- Received KILL message for Glee from puppy
          (just returning the favor ;D)
          *** Notice -- Received KILL message for Maryd from Chas (Oh
          yeah?? Oh my brother !!)
-         *** Notice -- Received KILL message for dave from Maryd 
+         *** Notice -- Received KILL message for dave from Maryd
          (yep, you sure are : ))
-         *** Notice -- Received KILL message for Chas from Maryd (8 
+         *** Notice -- Received KILL message for Chas from Maryd (8
          now)
-         *** Notice -- Received KILL message for Maryd from Chas (Oh 
+         *** Notice -- Received KILL message for Maryd from Chas (Oh
          yah ?)
-         !Alfred! thank you for a marvellously refreshing kill war; 
-         this completes my intro into the rarified and solemn IRCop 
+         !Alfred! thank you for a marvellously refreshing kill war;
+         this completes my intro into the rarified and solemn IRCop
          godhood.[(71)][87]
-    
+
 
 The ideas of authority and freedom are often in opposition on IRC, as the
 newly invented social conventions of the IRC community attempt to deal with
@@ -1280,43 +1283,43 @@ disparate cultural backgrounds helps to destroy any sense of intolerance that
 each may have for the other's culture and to foster a sense of cross-cultural
 community:[(73)][89]
 
-    
-         <Corwyn> Eldi: London, Paris, Waterloo, Dublin, Exeter, are 
-         all in Ontario 
-         <eldi> Ontarior!!! haha! Paris, France, London, England, 
+
+         <Corwyn> Eldi: London, Paris, Waterloo, Dublin, Exeter, are
+         all in Ontario
+         <eldi> Ontarior!!! haha! Paris, France, London, England,
          Dublin, Irelang are all better than SF, CA, US
          <yarly> the coffeeshops! :-)
          <Corwyn> Eldi: Don't you like San Francisco?
-         <eldi> well, it's like anything else. if you're around it 
+         <eldi> well, it's like anything else. if you're around it
          too much, there's no novelty in it.
          <Corwyn> Eldi: I guess so
          <eldi> I'm going to Paris in a few days. I'm gonna this
          that's the greatest thing I've ever seen, I'm sure
-         <Corwyn> Eldi: never been further west than Hannibal, MO I 
-         am afraid 
-         <eldi> but i'm gonna be living with a host family(studenmt 
-         echa exchange) history and philosophy 
+         <Corwyn> Eldi: never been further west than Hannibal, MO I
+         am afraid
+         <eldi> but i'm gonna be living with a host family(studenmt
+         echa exchange) history and philosophy
          <eldi> at thier summer home.
          <Corwyn> Eldi: parlez-vous francais?
          <eldi> Thier regular home is in the suburbs of Paris. I'm
-         sureParis wouldn't be as exciting to THEM,. and me! see what 
+         sureParis wouldn't be as exciting to THEM,. and me! see what
          i mean?
-         <yarly> francais!  
+         <yarly> francais!
          <eldi> BIEN SUR! j'espere que je puisse communiquer en (a)
          Paris!!!
          <eldi> of course! I hope thatI will be able to commin
-         (communicate) in paris, 
+         (communicate) in paris,
          <yarly> translation please eldi!
          <yarly> je ne parle pas francias
-         <eldi> in french, in paris all 
-         <eldi> of course there is one phrease that is most important 
+         <eldi> in french, in paris all
+         <eldi> of course there is one phrease that is most important
          for americans abraoad
          <Corwyn> Eldi: what is that?  Parlez-vous anglais?
          <eldi> "Ne tirer pas! Je suis Canadaien" "Don't shoot! I'm a
          canadian"
          <eldi> why bother to kill a canadaien? There goverment never
          does anything you can protest against! ;-)? [(74)][90]
-    
+
 
 Irreverent, and ironic, this kind of exchange exhibits the cosmopolitan nature
 of IRC. Cultural differences are celebrated, are made the object of curiosity
@@ -1470,7 +1473,7 @@ the activity of other users, results of input to the command line, or the
 results of information requests of the IRC program. From this interface a
 number of commands can be issued. The syntax for a command is:
 
-    
+
     /<command-name> <command-modifiers>
 
 There are three sets of commands, available to three sets of users. 'User
@@ -1592,7 +1595,7 @@ them from this list.
 
 ## Message and Command Formats
 
-**IRC messages appear as follows: **  
+**IRC messages appear as follows: **
 
 Private /msgs to a person:     are seen by the sender as:
 
@@ -1626,7 +1629,7 @@ are seen by the recipient as:
 
 `!sender! text`
 
-**The results of IRC commands appear as follows:**[(79)][95]  
+**The results of IRC commands appear as follows:**[(79)][95]
 
 /invite commands produce:     as seen by the inviter:
 
@@ -1643,20 +1646,20 @@ seen by the 'victim':
 `*** You have been killed by Waftam at munagin.ee.mu.OZ.AU!Waftam (You don't
 know how much this hurts me..)
 
-*** Use /SERVER to reconnect to a server` /kick commands produce:     as seen by the kicker and other members of the channel:  
+*** Use /SERVER to reconnect to a server` /kick commands produce:     as seen by the kicker and other members of the channel:
 `*** Waftam has been kicked off channel +anarres by Ireshi`     as seen by the
 person kicked:
 
 `*** You have been kicked off channel +anarres by Ireshi` /lists commands
 produce the following:     `*** Channel Users Topic
 
-*** +Vikz! 1  
-*** +Hulk 1  
-*** +anarres 2 Tests  
-*** +ricker 1  
-*** +hottub 5 Computers no bubbles.  
-*** +hack 1  
-*** #twilight_ 5` /mode commands produce:     `*** Mode change "+i " on channel +anarres by Ireshi` /names commands produce:     `Pub: +Vikz! @Vikz   
+*** +Vikz! 1
+*** +Hulk 1
+*** +anarres 2 Tests
+*** +ricker 1
+*** +hottub 5 Computers no bubbles.
+*** +hack 1
+*** #twilight_ 5` /mode commands produce:     `*** Mode change "+i " on channel +anarres by Ireshi` /names commands produce:     `Pub: +Vikz! @Vikz
 Pub: +Hulk @HulkHogan
 
 Pub: +anarres Waftam @Ireshi
@@ -1681,10 +1684,10 @@ munagin.ee.mu.OZ.AU)` /topic commands produce:     `*** Ireshi has changed the
 topic to "Test"` /whois or /whowas commands produce:     `*** Waftam is/was
 danielce@munagin.ee.mu.OZ.AU (Daniel
 
-*** Carosone) on channels: Waftam :+anarres #twilight_zone   
-*** on irc via server munagin.ee.mu.OZ.AU (University of   
-*** Melbourne, Australia)  
-*** Waftam is away: busy working  
+*** Carosone) on channels: Waftam :+anarres #twilight_zone
+*** on irc via server munagin.ee.mu.OZ.AU (University of
+*** Melbourne, Australia)
+*** Waftam is away: busy working
 *** Waftam has a connection to the twilight zone (is an IRC operator)`
 
 * * *
@@ -1787,68 +1790,68 @@ and Theory_. Vol.29 No.3, 1990. pp. 263-274.
 
 # Notes:
 
-  1. BARON, N. S. Computer mediated communication as a force in language change." _Visible Language_ Volume 18, Number 2, Spring 1984. p.120. 
-  2. BARON, p.122. 
-  3. Many of the references that I have used approach CMC from this perspective - see, for instance, RICE, RONALD E. and DONALD CASE. "Electronic Message Systems in the University: A Description of Use and Utility." _Journal of Communication_ No.33 1983. pp131-152, and ALLEN, THOMAS J. and OSCAR HAUPTMAN. "The Influence of Communication Technologies on Organizational Structure." _Communication Research_ Vol.14 No.5, October 1987. pp. 575-587. A notable exception is the work of Gordon Meyer and Jim Thomas, particularly "The Baudy World of the Byte Bandit: A Postmodernist Interpretation of the Computer Underground" (published in SCHMALLEGER, F. (ed.), _Computers in Criminal Justice_, Wyndham Hall: Bristol, Indiana, 1990, pp. 31-67 ) While not discussing the impact of CMC on human interaction per se, they discuss computer-mediated communities in the context of 'hacking', that is, unauthorised access to computer media. 
-  4. RICE, RONALD E. and GAIL LOVE. "Electronic Emotion: Socioemotional Content in a Computer-Mediated Communication Network." _Communication Research_. Vol.14 No.1, February 1987. p. 88. 
-  5. The Internet will be discussed in detail in the Introduction. 
-  6. A common test has been the assessment of the time taken and methods used by CMC groups to reach concensus on a given problem as compared to face-to-face groups. See, for instance, KIESLER, SARA, JANE SIEGEL, and TIMOTHY W. McGUIRE. "Social Psychological Aspects of Computer-mediated Communication." _American Psychologist_ Volume 39, Number 10. October 1984. pp. 1123-1134. This is clearly not an accurate measure of the kind of communication that occurs on IRC, which is chat rather than debate. 
-  7. MEYER, GORDON and JIM THOMAS. "The Baudy World of the Byte Bandit: A Postmodernist Interpretation of the Computer Underground" electronic manuscript (also published in F. Schmalleger (ed.). _Computers in Criminal Justice_. Bristol, Indiana: Wyndham Hall. 1990, pp. 31-67. lines 837-838. See Footnote 15 regarding electronic manuscripts. 
-  8. ANKERSMIT, F.R. "Historiography and Postmodernism." _History and Theory_ no.28 (No. 2, 1989). p.151. 
-  9. ZAGORIN, PEREZ, "Historiography and Postmodernism: Reconsiderations." _History and Theory_. Vol.29 No.3, 1990. p. 265. 
-  10. SCHNEIDER, D. "Notes Toward a Theory of Culture." K.R. Basso and H.A. Selby (eds.) _Meaning in Anthropology_. Albuquerque: University of New Mexico Press. 1976. p.198. 
-  11. HIEMSTRA, GLEN, "Teleconferencing, Concern for Face, and Organizational Culture." M. Burgoon (ed.), _Communication Yearbook 6_. Berverly Hills: Sage. 1982. p.874. 
-  12. LUI, ALAN. "Local Transcendence: Cultural Criticism, Postmodernism, and the Romanticism of Detail." _Representations_ No. 32: Fall 1990. pp 77-78. 
-  13. ANKERSMIT. p.148. 
-  14. LYOTARD, JEAN-FRANCOIS. _The Postmodern Condition: A Report on Knowledge_. Minneapolis: University of Minnesota Press. 1984. p.3. 
-  15. Two of the articles that I have made use of have only been available to me in electronic format, although they have been published in the United States. These are: MEYER, GORDON and JIM THOMAS, "The Baudy World of the Byte Bandit" (see Note 7), and BARLOW, JOHN PERRY. "Crime and Puzzlement: Desperados of the DataSphere" electronic manuscript (also published in _Whole Earth Review_, Sausalito, California, Fall 1990, pp.45-57). The former was electronically mailed to me by the authors, the latter was posted to the newsgroup 'alt.hackers'. In referring to these articles, I have cited the electronic form of the texts, since that is what I have been working with, giving line numbers rather than page references. However, electronic manuscripts would generally be read from within a text editor or word processor, enabling the reader to search for a specific text string. 
-  16. LYOTARD, p.4. 
-  17. BARLOW, lines 322-326. 
-  18. For a brief description of ARPANET, the Internet and AARNet, see MILLWARD, ROSS and PHILIP LEVERTON. _Technical Note 82: Using the UNIX Mail System_. Melbourne: University Computing Services, University of Melbourne. 1989.pp 13-15. For a more detailed discussion, see LAQUEY, TRACEY L. _The User's Directory of Computer Networks_. Massachussets: Digital Press. 1990. pp.193- 379, especially pp.193-204. 
-  19. Based on a conversation with 'Max' on IRC, Thursday July 11th, 22:20. My quotes from IRC sessions are taken from 'logs', computer files which consist of the records of conversations on IRC, either kept by me or given to me by the log keepers. In all quotes from logged IRC sessions, I have preserved the original spelling and syntax. I have, however, changed the names of the interlocutors unless I have been specifically requested by them not to do so. I have done my best to be certain that I have not used nicknames already in use on IRC - if I have inadvertently done so, my apologies to the people concerned. I have also deleted the Internet emailing addresses of IRC users so as to protect their privacy - for instance, my own address emr@munagin.ee.mu.oz.au appears as *@*.*.*.oz.au. I have thus indicated the geographic location of users without disclosing their full addresses and identities. In the version submitted to the University of Melbourne, these logs were included as Appendix B. 
-  20. The full listing is: Austria, Australia, Canada, Switzerland, Germany, Denmark, Finland, France, Israel, Italy, Japan, Korea, Mexico, Netherlands, New Zealand, Norway, Spain, Sweden, United Kingdom, United States. Taken from a posting to the newsgroup alt.irc (from: troy@plod.cbme.unsw.oz.au (Troy Rollo), Organization: Centre for Biomedical Engineering, Uni of NSW, Date: 10 Jul 91 10:27:48 GMT, Subject: NickServ Statistics as at July 10 1991). 
-  21. See Appendix A for a more complete (though not exhaustive) list and description of IRC commands. 
-  22. 'Virtual reality' is a phrase often used by users and constructors of computer systems designed to mimic 'real life'. The word 'virtual' is also used to describe individual computer- simulated equivalents of aspects of reality. The ABC recently aired a program discussing the technology of virtual reality: the BBC production "Colonising Cyberspace: Advances in Virtual Reality Technology" was shown on Sunday 11th August at 9:30pm as part of the "Horizens" series. 
-  23. BARLOW, lines 56-68. 
-  24. DENING, GREG. _The Bounty: An Ethnographic History_. Melbourne University Press. 1988. p.102. 
-  25. GEERTZ, CLIFFORD. _The Interpretation of Cultures: Selected Essays_. New York: Basic Books, Inc. 1973. p.45. 
-  26. DENING, p.100. 
-  27. This may not be the case in the future. Recent advances in 'multi-media' computer applications make the development of CMC systems that incorporate video, audio and textual elements a possibility. 
-  28. KIESLER, SIEGEL, and McGUIRE, p. 1126. 
-  29. KIESLER, SIEGEL and McGUIRE, p. 1126. 
-  30. For technical reasons - which I am not competent to explain - IRC nicknames cannot be of more than nine characters in length. 
-  31. The significance of IRC 'nicks' will be discussed in the section headed 'Constructing Communities.' 
-  32. KIESLER, SARA and LEE SPROULL. "Reducing Social Context Cues: Electronic Mail in Organizational Communication." _Management Science_ Vol.32 No.11. November 1986. p.1497. Sproull and Kiesler's comment suggests that user names were predetermined in the system that they were investigating. If this has been generally the case in the CMC systems that have been written about, then users may not have the option of altering names, and therefore potentially their perceived gender. 
-  33. IRC log, Friday July 12th, 00:39. This log is taken by 'Marion', therefore her name does not appear in the log. I have added her name to the beginning of her statements for the sake of clarity. 
-  34. KIESLER, SARA and LEE SPROULL, p.1498. 
-  35. KIESLER, SIEGEL and McGUIRE, p.1129. 
-  36. RICE, RONALD E. and GAIL LOVE, "Electronic Emotion: Socioemotional Content in a Computer-Mediated Communication Network" in _Communication Research_ Vol.14 No.1, February 1987, p.89. 
-  37. IRC log, Friday July 12th, 00:39. 
-  38. KIESLER, SIEGEL and McGUIRE, p.1127. 
-  39. KIESLER, SIEGEL and McGUIRE, p.1129. 
-  40. IRC log, Tuesday May 14th, 23:48 
-  41. HILTZ, STARR ROXANNE and MURRAY TUROFF. _The Network Nation: Human Communication via Computer_. Reading, Mass.: Addison-Wesley Publishing Company, Inc. 1978. p.101. 
-  42. Users of the Internet often refer to social phenomena occurring on the system by using the format "net.<phenomenon>" - thus 'net.sleazing' and 'net.romance.' 
-  43. HIEMSTRA, p.880. 
-  44. IRC log, Sunday July 7th, 18:36 - note that these are 'wallop' messages, that is messages written to all operators. +gblf is a popular channel on IRC, so popular that it is in almost - that is, barring technical mishaps - permanent use. The acronym stands for 'gays, bisexuals, lesbians and friends.' Other 'permanent' IRC channels are +hottub, known for flirtatious chat, and +initgame, in which users play games of 'twenty questions'. 
-  45. IRC log, Tuesday May 14th, 23:48. In the original transcript, taken by 'Lola', her name is not shown. 'Han's' private messages to 'Lola' appear as shown, however her private messages to him appear in the format "->*Han* <message text>. I have included 'Lola's' name at the beginning of her statements for the sake of clarity. 
-  46. BARLOW, lines 114-115. 
-  47. See LYOTARD, especially "Part Three - The Method: Language Games," pp.9-11 for a discussion of this concept. 
-  48. MEYER and THOMAS, lines 208-236. 
-  49. MEYER and THOMAS, lines 237-238. 
-  50. MEYER and THOMAS, lines 289-291 
-  51. VAN MAANEN, JOHN, and STEPHEN BARLEY. "Cultural Organization: Fragments of a Theory." P.J. Frost, et. al., (eds.), _Organizational Culture_. Beverly Hills: Sage. 1985. p.33. 
-  52. MEYER and THOMAS, lines 172-174. 
-  53. MEYER and THOMAS, lines 175-177. 
-  54. GEERTZ, p.44. 
-  55. The "The on-line hacker Jargon File, version 2.9.4, July 1991", an electronic dictionary of computer-related terms defines 'netiquette' "as, /net'ee-ket/ or /net'i-ket/ [portmanteau from "network etiquette"] n. Conventions of politeness recognized on {USENET}." Note that USENET is the news network that the Internet carries. 
-  56. KIESLER, SIEGEL, and McGUIRE, p.1125. 
-  57. Cited in KIESLER, SIEGEL, and McGUIRE, p.1125. 
-  58. To a lesser extent, users of IRC will also use other non- alphanumeric characters (for instance '<', '>', '#', '!' and '-') to enclose and denote 'physical' actions and responses. The asterisk is, however, by far the most common indicator. 
-  59. IRC log, Thursday May 2nd, 20:06. 
-  60. IRC log, Sunday June 30th, 17:12. As in previous quotes, the name of the log keeper - 'Fireship' - has been added for the sake of clarity. 
-  61. GEERTZ, p.46. 
-  62. This term is in general use throughout the computer network. The "The on-line hacker Jargon File, version 2.9.4, July 1991" defines them as follows:   
+  1. BARON, N. S. Computer mediated communication as a force in language change." _Visible Language_ Volume 18, Number 2, Spring 1984. p.120.
+  2. BARON, p.122.
+  3. Many of the references that I have used approach CMC from this perspective - see, for instance, RICE, RONALD E. and DONALD CASE. "Electronic Message Systems in the University: A Description of Use and Utility." _Journal of Communication_ No.33 1983. pp131-152, and ALLEN, THOMAS J. and OSCAR HAUPTMAN. "The Influence of Communication Technologies on Organizational Structure." _Communication Research_ Vol.14 No.5, October 1987. pp. 575-587. A notable exception is the work of Gordon Meyer and Jim Thomas, particularly "The Baudy World of the Byte Bandit: A Postmodernist Interpretation of the Computer Underground" (published in SCHMALLEGER, F. (ed.), _Computers in Criminal Justice_, Wyndham Hall: Bristol, Indiana, 1990, pp. 31-67 ) While not discussing the impact of CMC on human interaction per se, they discuss computer-mediated communities in the context of 'hacking', that is, unauthorised access to computer media.
+  4. RICE, RONALD E. and GAIL LOVE. "Electronic Emotion: Socioemotional Content in a Computer-Mediated Communication Network." _Communication Research_. Vol.14 No.1, February 1987. p. 88.
+  5. The Internet will be discussed in detail in the Introduction.
+  6. A common test has been the assessment of the time taken and methods used by CMC groups to reach concensus on a given problem as compared to face-to-face groups. See, for instance, KIESLER, SARA, JANE SIEGEL, and TIMOTHY W. McGUIRE. "Social Psychological Aspects of Computer-mediated Communication." _American Psychologist_ Volume 39, Number 10. October 1984. pp. 1123-1134. This is clearly not an accurate measure of the kind of communication that occurs on IRC, which is chat rather than debate.
+  7. MEYER, GORDON and JIM THOMAS. "The Baudy World of the Byte Bandit: A Postmodernist Interpretation of the Computer Underground" electronic manuscript (also published in F. Schmalleger (ed.). _Computers in Criminal Justice_. Bristol, Indiana: Wyndham Hall. 1990, pp. 31-67. lines 837-838. See Footnote 15 regarding electronic manuscripts.
+  8. ANKERSMIT, F.R. "Historiography and Postmodernism." _History and Theory_ no.28 (No. 2, 1989). p.151.
+  9. ZAGORIN, PEREZ, "Historiography and Postmodernism: Reconsiderations." _History and Theory_. Vol.29 No.3, 1990. p. 265.
+  10. SCHNEIDER, D. "Notes Toward a Theory of Culture." K.R. Basso and H.A. Selby (eds.) _Meaning in Anthropology_. Albuquerque: University of New Mexico Press. 1976. p.198.
+  11. HIEMSTRA, GLEN, "Teleconferencing, Concern for Face, and Organizational Culture." M. Burgoon (ed.), _Communication Yearbook 6_. Berverly Hills: Sage. 1982. p.874.
+  12. LUI, ALAN. "Local Transcendence: Cultural Criticism, Postmodernism, and the Romanticism of Detail." _Representations_ No. 32: Fall 1990. pp 77-78.
+  13. ANKERSMIT. p.148.
+  14. LYOTARD, JEAN-FRANCOIS. _The Postmodern Condition: A Report on Knowledge_. Minneapolis: University of Minnesota Press. 1984. p.3.
+  15. Two of the articles that I have made use of have only been available to me in electronic format, although they have been published in the United States. These are: MEYER, GORDON and JIM THOMAS, "The Baudy World of the Byte Bandit" (see Note 7), and BARLOW, JOHN PERRY. "Crime and Puzzlement: Desperados of the DataSphere" electronic manuscript (also published in _Whole Earth Review_, Sausalito, California, Fall 1990, pp.45-57). The former was electronically mailed to me by the authors, the latter was posted to the newsgroup 'alt.hackers'. In referring to these articles, I have cited the electronic form of the texts, since that is what I have been working with, giving line numbers rather than page references. However, electronic manuscripts would generally be read from within a text editor or word processor, enabling the reader to search for a specific text string.
+  16. LYOTARD, p.4.
+  17. BARLOW, lines 322-326.
+  18. For a brief description of ARPANET, the Internet and AARNet, see MILLWARD, ROSS and PHILIP LEVERTON. _Technical Note 82: Using the UNIX Mail System_. Melbourne: University Computing Services, University of Melbourne. 1989.pp 13-15. For a more detailed discussion, see LAQUEY, TRACEY L. _The User's Directory of Computer Networks_. Massachussets: Digital Press. 1990. pp.193- 379, especially pp.193-204.
+  19. Based on a conversation with 'Max' on IRC, Thursday July 11th, 22:20. My quotes from IRC sessions are taken from 'logs', computer files which consist of the records of conversations on IRC, either kept by me or given to me by the log keepers. In all quotes from logged IRC sessions, I have preserved the original spelling and syntax. I have, however, changed the names of the interlocutors unless I have been specifically requested by them not to do so. I have done my best to be certain that I have not used nicknames already in use on IRC - if I have inadvertently done so, my apologies to the people concerned. I have also deleted the Internet emailing addresses of IRC users so as to protect their privacy - for instance, my own address emr@munagin.ee.mu.oz.au appears as *@*.*.*.oz.au. I have thus indicated the geographic location of users without disclosing their full addresses and identities. In the version submitted to the University of Melbourne, these logs were included as Appendix B.
+  20. The full listing is: Austria, Australia, Canada, Switzerland, Germany, Denmark, Finland, France, Israel, Italy, Japan, Korea, Mexico, Netherlands, New Zealand, Norway, Spain, Sweden, United Kingdom, United States. Taken from a posting to the newsgroup alt.irc (from: troy@plod.cbme.unsw.oz.au (Troy Rollo), Organization: Centre for Biomedical Engineering, Uni of NSW, Date: 10 Jul 91 10:27:48 GMT, Subject: NickServ Statistics as at July 10 1991).
+  21. See Appendix A for a more complete (though not exhaustive) list and description of IRC commands.
+  22. 'Virtual reality' is a phrase often used by users and constructors of computer systems designed to mimic 'real life'. The word 'virtual' is also used to describe individual computer- simulated equivalents of aspects of reality. The ABC recently aired a program discussing the technology of virtual reality: the BBC production "Colonising Cyberspace: Advances in Virtual Reality Technology" was shown on Sunday 11th August at 9:30pm as part of the "Horizens" series.
+  23. BARLOW, lines 56-68.
+  24. DENING, GREG. _The Bounty: An Ethnographic History_. Melbourne University Press. 1988. p.102.
+  25. GEERTZ, CLIFFORD. _The Interpretation of Cultures: Selected Essays_. New York: Basic Books, Inc. 1973. p.45.
+  26. DENING, p.100.
+  27. This may not be the case in the future. Recent advances in 'multi-media' computer applications make the development of CMC systems that incorporate video, audio and textual elements a possibility.
+  28. KIESLER, SIEGEL, and McGUIRE, p. 1126.
+  29. KIESLER, SIEGEL and McGUIRE, p. 1126.
+  30. For technical reasons - which I am not competent to explain - IRC nicknames cannot be of more than nine characters in length.
+  31. The significance of IRC 'nicks' will be discussed in the section headed 'Constructing Communities.'
+  32. KIESLER, SARA and LEE SPROULL. "Reducing Social Context Cues: Electronic Mail in Organizational Communication." _Management Science_ Vol.32 No.11. November 1986. p.1497. Sproull and Kiesler's comment suggests that user names were predetermined in the system that they were investigating. If this has been generally the case in the CMC systems that have been written about, then users may not have the option of altering names, and therefore potentially their perceived gender.
+  33. IRC log, Friday July 12th, 00:39. This log is taken by 'Marion', therefore her name does not appear in the log. I have added her name to the beginning of her statements for the sake of clarity.
+  34. KIESLER, SARA and LEE SPROULL, p.1498.
+  35. KIESLER, SIEGEL and McGUIRE, p.1129.
+  36. RICE, RONALD E. and GAIL LOVE, "Electronic Emotion: Socioemotional Content in a Computer-Mediated Communication Network" in _Communication Research_ Vol.14 No.1, February 1987, p.89.
+  37. IRC log, Friday July 12th, 00:39.
+  38. KIESLER, SIEGEL and McGUIRE, p.1127.
+  39. KIESLER, SIEGEL and McGUIRE, p.1129.
+  40. IRC log, Tuesday May 14th, 23:48
+  41. HILTZ, STARR ROXANNE and MURRAY TUROFF. _The Network Nation: Human Communication via Computer_. Reading, Mass.: Addison-Wesley Publishing Company, Inc. 1978. p.101.
+  42. Users of the Internet often refer to social phenomena occurring on the system by using the format "net.<phenomenon>" - thus 'net.sleazing' and 'net.romance.'
+  43. HIEMSTRA, p.880.
+  44. IRC log, Sunday July 7th, 18:36 - note that these are 'wallop' messages, that is messages written to all operators. +gblf is a popular channel on IRC, so popular that it is in almost - that is, barring technical mishaps - permanent use. The acronym stands for 'gays, bisexuals, lesbians and friends.' Other 'permanent' IRC channels are +hottub, known for flirtatious chat, and +initgame, in which users play games of 'twenty questions'.
+  45. IRC log, Tuesday May 14th, 23:48. In the original transcript, taken by 'Lola', her name is not shown. 'Han's' private messages to 'Lola' appear as shown, however her private messages to him appear in the format "->*Han* <message text>. I have included 'Lola's' name at the beginning of her statements for the sake of clarity.
+  46. BARLOW, lines 114-115.
+  47. See LYOTARD, especially "Part Three - The Method: Language Games," pp.9-11 for a discussion of this concept.
+  48. MEYER and THOMAS, lines 208-236.
+  49. MEYER and THOMAS, lines 237-238.
+  50. MEYER and THOMAS, lines 289-291
+  51. VAN MAANEN, JOHN, and STEPHEN BARLEY. "Cultural Organization: Fragments of a Theory." P.J. Frost, et. al., (eds.), _Organizational Culture_. Beverly Hills: Sage. 1985. p.33.
+  52. MEYER and THOMAS, lines 172-174.
+  53. MEYER and THOMAS, lines 175-177.
+  54. GEERTZ, p.44.
+  55. The "The on-line hacker Jargon File, version 2.9.4, July 1991", an electronic dictionary of computer-related terms defines 'netiquette' "as, /net'ee-ket/ or /net'i-ket/ [portmanteau from "network etiquette"] n. Conventions of politeness recognized on {USENET}." Note that USENET is the news network that the Internet carries.
+  56. KIESLER, SIEGEL, and McGUIRE, p.1125.
+  57. Cited in KIESLER, SIEGEL, and McGUIRE, p.1125.
+  58. To a lesser extent, users of IRC will also use other non- alphanumeric characters (for instance '<', '>', '#', '!' and '-') to enclose and denote 'physical' actions and responses. The asterisk is, however, by far the most common indicator.
+  59. IRC log, Thursday May 2nd, 20:06.
+  60. IRC log, Sunday June 30th, 17:12. As in previous quotes, the name of the log keeper - 'Fireship' - has been added for the sake of clarity.
+  61. GEERTZ, p.46.
+  62. This term is in general use throughout the computer network. The "The on-line hacker Jargon File, version 2.9.4, July 1991" defines them as follows:
 emoticon: /ee-moh'ti-kon/ n. An ASCII glyph used to indicate an emotional
 state in email or news. Hundreds have been proposed, but only a few are in
 common use. These include:
@@ -1873,25 +1876,25 @@ at least recorded the date for posterity, but I had no idea that I was
 starting something that would soon pollute all the world's communication
 channels." Note that CompuServe, GEnie, and BIX are computer networks.
 
-  63. Note that the setting of an 'away message' causes all private messages sent to someone who is /away to appear on their screen with the date and time at which they were received shown. The sender receives the 'away message' - this function is mostly used when a person must be away from their terminal for a while, but does not wish to leave IRC. 
-  64. The news service carried by the Internet, known as Usenet News, contains many hundreds of groups, which are organised into divisions according to their application. Each division will contain many newsgroups, further divided into smaller subdivisions. These divisions and their subdivisions are known as hierarchies. Examples of major newsgroup divisions are the 'alt', 'rec' and 'sci' hierarchies, which contain such newsgroups as alt.irc, rec.humour, rec.society.greek, rec.society.italian and sci.physics.fusion.edward. teller.boom.boom.boom. 
-  65. See Footnote 44 regarding channels +hottub and +gblf. 
-  66. Newsgroup alt.irc 28/9/91. I have omitted the name and Internet address of the poster at his request. 
-  67. Internet Relay Chat, documentation file 'MANUAL.' Copyright (C) 1990, Karl Kleinpaste (Author: Karl Kleinpaste; email karl@cis.ohio-state.edu; Date: 04 Apr 1989; Last modification: 05 Oct 1990). 
-  68. IRC log, Sunday July 7th, 18:36. This log was taken by an irc operator - these lines consist of 'notices' sent by operators to all other operators online. They are read as follows: the first 'notice' announces that a user named '14982784' has been banished from the IRC system by an operator named 'MaryD', the second that a user named 'mic' was 'killed' by an operator named 'mgp.' 'Dumping' denotes the sending of long strings of text to the IRC environment. This is frowned upon since it prevents other users from being able to converse, and because it can cause the IRC server connections to malfunction. 'ctrl-gs' refers to the combination of the [control] and [g] keys on a computer keyboard which, when pressed together, will cause the computer to sound a 'beep'. If many 'ctrl-gs' are sent to an IRC channel then the terminals of all the channel participants will 'beep', which can be extremely annoying to those users. '/kill notices' are accompanied by technical information regarding the details of the 'path' over the computer network that the command travelled - these details, being lengthy and irrelevant to my purpose, I have omitted. Note that there is nothing to stop 'killed' users from reconnecting to IRC. 
-  69. IRC log, Sunday July 7th, 18:36. 
-  70. IRC log, Sunday September 22nd, 08:22. Again, I have deleted all information pertaining to the IRC network routes from these messages. 
-  71. IRC log, Sunday September 22nd, 08:22. Note that Chas's 'laughter', and Alfred's final comment, are wallop messages, that is, a message written to all operators. 
-  72. HILTZ, STARR ROXANNE and MURRAY TUROFF, "Structuring Computer-mediated Communication Systems to Avoid Information Overload." _Communications of the ACM_ Volume 28, Number 7. July 1985. p. 688. 
-  73. Apparently, Kuwait had just purchased an Internet link some few weeks before the Iraq invasion, and, while radio and television broadcasts out of the country were quickly stifled, almost a week passed before the Internet link was disabled. A number of Kuwaiti students were able to use IRC during this time and gave on-the-spot reports. Israel is also on the Internet, and I am told that users from the two countries often interacted with very few disagreements and mostly with sympathy for each other's position and outlook. A similar pattern was followed during the attempted Russian coup. At times of such international crisis, IRC users will form a channel named +report in which news or eyewitness reports from around the world will be shared. 
-  74. IRC log, Sunday June 30th, 17:12 
-  75. MEYER, and THOMAS, lines 1145-1146. 
-  76. Quoted in MEYER and THOMAS, lines 1158-1161. 
-  77. JOHANSEN, ROBERT, JACQUES VALLEE and KATHLEEN SPANGLER. _Electronic Meetings: Technical Alternatives and Social Choices_. Reading, Mass.: Addison-Wesley Publishing Company, Inc. 1979. pp.117-118. 
-  78. HILTZ and TUROFF, p.102. 
-  79. These examples are taken from a sample session of IRC. The results of /names and /list have been shortened. 
+  63. Note that the setting of an 'away message' causes all private messages sent to someone who is /away to appear on their screen with the date and time at which they were received shown. The sender receives the 'away message' - this function is mostly used when a person must be away from their terminal for a while, but does not wish to leave IRC.
+  64. The news service carried by the Internet, known as Usenet News, contains many hundreds of groups, which are organised into divisions according to their application. Each division will contain many newsgroups, further divided into smaller subdivisions. These divisions and their subdivisions are known as hierarchies. Examples of major newsgroup divisions are the 'alt', 'rec' and 'sci' hierarchies, which contain such newsgroups as alt.irc, rec.humour, rec.society.greek, rec.society.italian and sci.physics.fusion.edward. teller.boom.boom.boom.
+  65. See Footnote 44 regarding channels +hottub and +gblf.
+  66. Newsgroup alt.irc 28/9/91. I have omitted the name and Internet address of the poster at his request.
+  67. Internet Relay Chat, documentation file 'MANUAL.' Copyright (C) 1990, Karl Kleinpaste (Author: Karl Kleinpaste; email karl@cis.ohio-state.edu; Date: 04 Apr 1989; Last modification: 05 Oct 1990).
+  68. IRC log, Sunday July 7th, 18:36. This log was taken by an irc operator - these lines consist of 'notices' sent by operators to all other operators online. They are read as follows: the first 'notice' announces that a user named '14982784' has been banished from the IRC system by an operator named 'MaryD', the second that a user named 'mic' was 'killed' by an operator named 'mgp.' 'Dumping' denotes the sending of long strings of text to the IRC environment. This is frowned upon since it prevents other users from being able to converse, and because it can cause the IRC server connections to malfunction. 'ctrl-gs' refers to the combination of the [control] and [g] keys on a computer keyboard which, when pressed together, will cause the computer to sound a 'beep'. If many 'ctrl-gs' are sent to an IRC channel then the terminals of all the channel participants will 'beep', which can be extremely annoying to those users. '/kill notices' are accompanied by technical information regarding the details of the 'path' over the computer network that the command travelled - these details, being lengthy and irrelevant to my purpose, I have omitted. Note that there is nothing to stop 'killed' users from reconnecting to IRC.
+  69. IRC log, Sunday July 7th, 18:36.
+  70. IRC log, Sunday September 22nd, 08:22. Again, I have deleted all information pertaining to the IRC network routes from these messages.
+  71. IRC log, Sunday September 22nd, 08:22. Note that Chas's 'laughter', and Alfred's final comment, are wallop messages, that is, a message written to all operators.
+  72. HILTZ, STARR ROXANNE and MURRAY TUROFF, "Structuring Computer-mediated Communication Systems to Avoid Information Overload." _Communications of the ACM_ Volume 28, Number 7. July 1985. p. 688.
+  73. Apparently, Kuwait had just purchased an Internet link some few weeks before the Iraq invasion, and, while radio and television broadcasts out of the country were quickly stifled, almost a week passed before the Internet link was disabled. A number of Kuwaiti students were able to use IRC during this time and gave on-the-spot reports. Israel is also on the Internet, and I am told that users from the two countries often interacted with very few disagreements and mostly with sympathy for each other's position and outlook. A similar pattern was followed during the attempted Russian coup. At times of such international crisis, IRC users will form a channel named +report in which news or eyewitness reports from around the world will be shared.
+  74. IRC log, Sunday June 30th, 17:12
+  75. MEYER, and THOMAS, lines 1145-1146.
+  76. Quoted in MEYER and THOMAS, lines 1158-1161.
+  77. JOHANSEN, ROBERT, JACQUES VALLEE and KATHLEEN SPANGLER. _Electronic Meetings: Technical Alternatives and Social Choices_. Reading, Mass.: Addison-Wesley Publishing Company, Inc. 1979. pp.117-118.
+  78. HILTZ and TUROFF, p.102.
+  79. These examples are taken from a sample session of IRC. The results of /names and /list have been shortened.
 
- 
+
 
 * * *
 
@@ -1899,7 +1902,7 @@ channels." Note that CompuServe, GEnie, and BIX are computer networks.
 
 * * *
 
- 
+
 
 * * *
 
@@ -1999,4 +2002,3 @@ channels." Note that CompuServe, GEnie, and BIX are computer networks.
    [94]: http://www.crosswinds.net/~aluluei/electropolis.htm#note78
    [95]: http://www.crosswinds.net/~aluluei/electropolis.htm#note79
    [96]: #top
-

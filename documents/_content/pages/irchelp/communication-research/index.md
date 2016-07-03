@@ -1,8 +1,13 @@
+---
+title: IRC Communications Resarch Resources
+author: E. Sean Rintel
+---
+
 &nbsp_place_holder;
 
 # **IRC Communication Research Resources**
 
-By E. Sean Rintel
+By
 
 Last updated 19 October 2000
 
@@ -21,11 +26,3 @@ linguistic research into **how we use IRC to interact**.
   * **The [other IRC resources](other/)** include information about how to get started using IRC, to find information to technical questions, and to find other sites with IRC documents.
 
 * * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
