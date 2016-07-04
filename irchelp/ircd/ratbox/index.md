@@ -1,3 +1,7 @@
+---
+title: ircd-ratbox
+author: irchelp.org staff
+---
 # ratbox ircd
 
 [ircd-ratbox](http://www.ratbox.org/) originated as a fork of ircd-hybrid. Although designed with
@@ -6,4 +10,3 @@ performance and modularity.
 
 ratbox easily scales to network sizes of 100000 or more, with 10000 or more
 users carried on a single server.
-

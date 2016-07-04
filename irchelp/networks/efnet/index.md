@@ -1,14 +1,18 @@
-#EFNet#
+---
+title: EFNet
+author: irchelp.org staff
+---
+# EFNet
 
-Once the largest IRC network, it share the claim with IRCNet of being the
+Once the largest IRC network, EFNet shares the claim with IRCNet of being the
 oldest IRC network.
 
 EFNet and IRCNet both share a unique, decentralized philosophy, and continue
-to shun nickname and channel registration, and enforce a distinct seperation
-between network and channel matters. 
+to shun nickname and channel registration, and enforce a distinct separation
+between network and channel matters.
 
 As there are [no registration services](/irchelp/networks/noserv.html),"ownership" of nicknames and channels
-are not guranteed.
+are not guaranteed.
 
 Channels fare a little better than nicknames, but not much, with a service called chanfix
 designed to promote channel stability without officially recognizing
@@ -22,7 +26,7 @@ ownership.
 ## Governance
 
 EFNet is a loose confederation of servers, with each server having it's own
-policies and IRC operators. 
+policies and IRC operators.
 
 New servers are voted on by regional routing bodies in each of 3 recognized
 geographical regions, US (US-EFNet), Canada (CA-EFNet), and Europe
@@ -47,4 +51,3 @@ Generally only applicants with prior EFNet admin/oper experience and/or stellar 
 * [US-EFNet Guidelines and Application](http://www.efnet.org/?module=docs&doc=16)
 * [CA-EFNet Guidenines and Application](http://www.efnet.org/?module=docs&doc=21)
 * [EU-EFNet Guidelines and Application](http://www.efnet.org/?module=docs&doc=18)
-
