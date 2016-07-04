@@ -1,3 +1,8 @@
+---
+title: IRC Connection Problems
+author: Joseph Lo (jolo)
+---
+
 # IRC Connection Problems
 
 by Joseph Lo aka Jolo @ EFnet
@@ -42,9 +47,9 @@ If you can get connected at all, then you can try to identify the source of
 the problem and find alternative servers. The 3 most common problems are shown
 below, then explained in detail in section 4.
 
-  1. You are just not authorized, meaning those servers don't want people from your ISP to connect (this is very common), 
-  2. You have no reverse DNS, so that you show up with IP numbers instead of a hostname, and/or 
-  3. Your identd is not working.  In all 3 cases, you can use what I will call the "/who trick" to find other servers that allow people like you to connect. Use the `/who` command with appropriate "wild cards" to search for people that have the same ISP or problem that you do. Pick some of those people and use `/whois nickname` to see what servers they are using. mIRC users who can do this very easily with a simple [script](whosearch.mrc) (save as "whosearch.mrc" in mIRC directory, within mIRC do `/load -rs whosearch.mrc` and then search by `/whosearch *.home.com` for example). 
+  1. You are just not authorized, meaning those servers don't want people from your ISP to connect (this is very common),
+  2. You have no reverse DNS, so that you show up with IP numbers instead of a hostname, and/or
+  3. Your identd is not working.  In all 3 cases, you can use what I will call the "/who trick" to find other servers that allow people like you to connect. Use the `/who` command with appropriate "wild cards" to search for people that have the same ISP or problem that you do. Pick some of those people and use `/whois nickname` to see what servers they are using. mIRC users who can do this very easily with a simple [script](whosearch.mrc) (save as "whosearch.mrc" in mIRC directory, within mIRC do `/load -rs whosearch.mrc` and then search by `/whosearch *.home.com` for example).
 
 ## 4. Dealing with common problems
 
@@ -123,15 +128,15 @@ ban against those without identd.)
 
 How you fix your identd depends on what kind of internet connection you have:
 
-  * If you have a **direct internet connection** (no sharing or firewalling that you know of): 
-    * If you use a PC or Mac IRC client like mIRC, PIRCH, or Ircle, it has identd built in already. In mIRC, check to make sure it is enabled: Alt-O | Connect | Identd, check all 3 boxes, see this [figure](identd.gif). Ircle and Snak's identd is always on. If identd is on and doesn't work, you have sharing or firewall issues, see next major section. 
-    * If you are on a UNIX machine, the administrator must install identd such as [pidentd](http://freshmeat.net/projects/pidentd/). identd is a good, security-enhancing thing, described in the technical specs [RFC 1413](http://www.cis.ohio-state.edu/cgi-bin/rfc/rfc1413.html). 
-  * If you **share or firewall your internet connection**, such as sharing a DSL/cable connection among multiple PCs, or connecting through a proxy/hub/router, or running a software firewall program (including the one built into Windows XP), you should consult our [firewall FAQ](../security/fwfaq.html). In brief, here are your options: 
-    1. Windows XP has a built-in Internet Connection Firewall (ICF) which breaks identd and DCC. See [Microsoft's help page](http://www.microsoft.com/windowsxp/home/using/howto/homenet/icf.asp) for how to disable it. If you want to keep ICF on, you'll have to modify it, see the next section. 
-    2. The proper networking fix is to open up incoming TCP/IP on port 113 for identd and a range of unprivileged ports above 1024 for DCC, and redirect traffic on those ports to your local IP number behind the firewall. (By default, mIRC uses random ports in the 1024-5000 range for DCC, but you can constrain that to something like 1024-1034 in the DCC options, and open up those same ports in the firewall.) Exactly how all this is done depends on your firewall, consult your documentation and our [firewall FAQ](../security/fwfaq.html). 
-    3. Alternatively, you may have a real computer acting as the gateway/proxy. If you can run an IRC client like mIRC on the gateway machine and identd works fine, then you can try to install a "dummy" identd program on that gateway machine, which will handle all identd requests for the shared machines. It does _not_ help to put identd on the machines behind the gateway. Beware - using a dummy identd may make all your machines appear to be clones with the same user@@hostname, which many servers/channels do not allow and can get you banned. 
-      * If the gateway computer is running Windows or Mac OS, install this [Windows identd](identd/identd15.zip) or [Mac OS identd](http://hyperarchive.lcs.mit.edu/HyperArchive/Archive/comm/inet/ident-d.hqx) on the gateway machine. 
-      * If the gateway is a UNIX masquerading firewall, install [midentd](http://freshmeat.net/projects/midentd/). For help, try asking on *nix help channels like #unixhelp, #linuxhelp, or #nixhelp. 
+  * If you have a **direct internet connection** (no sharing or firewalling that you know of):
+    * If you use a PC or Mac IRC client like mIRC, PIRCH, or Ircle, it has identd built in already. In mIRC, check to make sure it is enabled: Alt-O | Connect | Identd, check all 3 boxes, see this [figure](identd.gif). Ircle and Snak's identd is always on. If identd is on and doesn't work, you have sharing or firewall issues, see next major section.
+    * If you are on a UNIX machine, the administrator must install identd such as [pidentd](http://freshmeat.net/projects/pidentd/). identd is a good, security-enhancing thing, described in the technical specs [RFC 1413](http://www.cis.ohio-state.edu/cgi-bin/rfc/rfc1413.html).
+  * If you **share or firewall your internet connection**, such as sharing a DSL/cable connection among multiple PCs, or connecting through a proxy/hub/router, or running a software firewall program (including the one built into Windows XP), you should consult our [firewall FAQ](../security/fwfaq.html). In brief, here are your options:
+    1. Windows XP has a built-in Internet Connection Firewall (ICF) which breaks identd and DCC. See [Microsoft's help page](http://www.microsoft.com/windowsxp/home/using/howto/homenet/icf.asp) for how to disable it. If you want to keep ICF on, you'll have to modify it, see the next section.
+    2. The proper networking fix is to open up incoming TCP/IP on port 113 for identd and a range of unprivileged ports above 1024 for DCC, and redirect traffic on those ports to your local IP number behind the firewall. (By default, mIRC uses random ports in the 1024-5000 range for DCC, but you can constrain that to something like 1024-1034 in the DCC options, and open up those same ports in the firewall.) Exactly how all this is done depends on your firewall, consult your documentation and our [firewall FAQ](../security/fwfaq.html).
+    3. Alternatively, you may have a real computer acting as the gateway/proxy. If you can run an IRC client like mIRC on the gateway machine and identd works fine, then you can try to install a "dummy" identd program on that gateway machine, which will handle all identd requests for the shared machines. It does _not_ help to put identd on the machines behind the gateway. Beware - using a dummy identd may make all your machines appear to be clones with the same user@@hostname, which many servers/channels do not allow and can get you banned.
+      * If the gateway computer is running Windows or Mac OS, install this [Windows identd](identd/identd15.zip) or [Mac OS identd](http://hyperarchive.lcs.mit.edu/HyperArchive/Archive/comm/inet/ident-d.hqx) on the gateway machine.
+      * If the gateway is a UNIX masquerading firewall, install [midentd](http://freshmeat.net/projects/midentd/). For help, try asking on *nix help channels like #unixhelp, #linuxhelp, or #nixhelp.
 
 If all else fails, use servers that don't require identd, such as those listed
 below. Once you connect with one, find others by doing `/who *~*` or mIRC
@@ -147,7 +152,7 @@ efnet.demon.co.uk `
 
 ### 5. Other common problems
 
-**"No more connections allowed in your connection class"**     
+**"No more connections allowed in your connection class"**
 
 In English, this means the server is full for people like you, at least for
 now. People from different providers might still be able to connect. You might
@@ -155,7 +160,7 @@ see this sometimes on servers that you were able to connect to just recently.
 Try a different port on the same server (other than 6667) or try a different
 server for a while.
 
-**"Unable to resolve IRC server name"**     
+**"Unable to resolve IRC server name"**
 
 If you try many servers from many networks and they all fail with something
 like this, then the problem is on your end. Either your provider's DNS is not
@@ -164,7 +169,7 @@ good check is to see if you can still use your PC to do other activities like
 browsing the web. If you are a mIRC user, you can get more information from
 the relevant [mIRC FAQ](http://www.geocities.com/~mirc/faq6.html#section6-5).
 
-**"Connection timed out"**     
+**"Connection timed out"**
 
 This vague error just means you couldn't establish a connection (as if you
 didn't know this already). If you get it a lot, try some of the servers listed
@@ -185,7 +190,7 @@ and breaking them is usually not wise.
 This is a little different, let's assume you can connect just fine, but you
 get disconnected a lot. Here are some common problems.
 
-**"Ping timeout" or "Connection reset by peer" or "Software caused connection abort"**     
+**"Ping timeout" or "Connection reset by peer" or "Software caused connection abort"**
 
 If this happens just once in a while, don't worry. The network connection
 between your client and the server got broken, it happens. Some people using
@@ -201,7 +206,7 @@ disconnects are due to natural causes. Try using different servers/ports, or
 avoid your usual nickname and channels for a while, see if the problem goes
 away.
 
-**"Excessive idle"**     
+**"Excessive idle"**
 
 A minority of servers (irc.prison.net on EFnet for example) don't like you to
 idle, so don't. Just use other servers which don't mind. Do not break server
@@ -220,4 +225,3 @@ you](addreq.html) ]
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

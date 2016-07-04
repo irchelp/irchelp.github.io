@@ -1,3 +1,7 @@
+---
+title: General IRC networks
+---
+
 # General IRC Networks
 
 _Selected networks with several hundred to several thousand users_

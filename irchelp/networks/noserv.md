@@ -1,3 +1,7 @@
+---
+title: Why EFnet/IRCnet has no registration services?
+author: Jolo
+---
 # Why EFnet/IRCnet has no registration services?
 
 by Jolo @ EFnet
@@ -22,11 +26,11 @@ other nets have no registration services.
 
 ## "Why don't you have services?"
 
-  1. Every [network](index.html) is independent and different. If every network had the exact same services and policies, there wouldn't be any reason for them to all exist separately. 
-  2. Some networks like EFnet and IRCnet are so old that they actually predate the idea of services, which were in fact developed specifically for newer networks like DALnet. Implementing services now could be quite controversial. Even in the unlikely event that everybody agreed to adopt registration now, it would be very difficult to establish who owned which channel/nick. For example, if registration took effect on a day when somebody just took over "your" channel/nick temporarily, then that channel/nick would be permanently owned by him instead. Imagine the outrage and chaos that would ensue. EFnet tried to compromise by coming up with a pseudo-chanserv called [CHANFIX](../ircd/chanfix.html) which effectively helps reasonably large, stable channels to deal with occasional opless or takeover problems. 
-  3. With registration you lose choices. Most of the "good" channel/nick names are already taken, since anybody can register a name and keep it even when they aren't online. On networks without registration, everything is first-come first-served, and nothing is permanent. Some people think this is confusing, we prefer to say it's fair. 
-  4. With registration you lose freedom. By necessity, registration services give the IRC operators or administrators who run the IRC servers the "magic" ability to give or take away ownership of a channel/nick. You know the saying, "Absolute power corrupts absolutely"? On networks with registration, there are often allegations of IRC oper/admin abuse, such as taking over a channel just because they disagree with the policy of the channel or the people who run it. Maybe this is true, maybe it's just some crybabies whining, but one thing is for sure: On networks without registration, oper/admins have no "magic" powers over channels and you are free to run them any way you want. 
-  5. With registration comes over-reliance on somebody else to run your channel for you. Once in a while DALnet's chanserv breaks, and for hours the network is plunged into total chaos. On networks without registration, channel ops are forced to be responsible for their own channels instead of relying on somebody else. At least then you can't blame anybody else if things go wrong. 
+  1. Every [network](index.html) is independent and different. If every network had the exact same services and policies, there wouldn't be any reason for them to all exist separately.
+  2. Some networks like EFnet and IRCnet are so old that they actually predate the idea of services, which were in fact developed specifically for newer networks like DALnet. Implementing services now could be quite controversial. Even in the unlikely event that everybody agreed to adopt registration now, it would be very difficult to establish who owned which channel/nick. For example, if registration took effect on a day when somebody just took over "your" channel/nick temporarily, then that channel/nick would be permanently owned by him instead. Imagine the outrage and chaos that would ensue. EFnet tried to compromise by coming up with a pseudo-chanserv called [CHANFIX](../ircd/chanfix.html) which effectively helps reasonably large, stable channels to deal with occasional opless or takeover problems.
+  3. With registration you lose choices. Most of the "good" channel/nick names are already taken, since anybody can register a name and keep it even when they aren't online. On networks without registration, everything is first-come first-served, and nothing is permanent. Some people think this is confusing, we prefer to say it's fair.
+  4. With registration you lose freedom. By necessity, registration services give the IRC operators or administrators who run the IRC servers the "magic" ability to give or take away ownership of a channel/nick. You know the saying, "Absolute power corrupts absolutely"? On networks with registration, there are often allegations of IRC oper/admin abuse, such as taking over a channel just because they disagree with the policy of the channel or the people who run it. Maybe this is true, maybe it's just some crybabies whining, but one thing is for sure: On networks without registration, oper/admins have no "magic" powers over channels and you are free to run them any way you want.
+  5. With registration comes over-reliance on somebody else to run your channel for you. Once in a while DALnet's chanserv breaks, and for hours the network is plunged into total chaos. On networks without registration, channel ops are forced to be responsible for their own channels instead of relying on somebody else. At least then you can't blame anybody else if things go wrong.
 
 Having said all that, there are perfectly good reasons to have services. It
 can be the only sane way for a relatively small or inexperienced group of
@@ -88,4 +92,3 @@ Return to [IRChelp.org Networks Page](./)
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

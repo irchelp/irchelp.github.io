@@ -1,3 +1,8 @@
+---
+title: Popular IRC networks
+author: irchelp.org staff
+---
+
 # Popular IRC Networks
 
 _Selected Networks with 10,000+ Users_
@@ -133,7 +138,7 @@ The Game, Freenode, Galaxynet, GamesNET, IRCNet, PTNet, QuakeNet, Undernet.
 
 **Server Locations**: North America, Europe, Asia, Australia, New Zealand
 
-**Services**: [Yes](http://cservice.galaxynet.org/), Channel (Q), Nick (NS), Memo (MS) 
+**Services**: [Yes](http://cservice.galaxynet.org/), Channel (Q), Nick (NS), Memo (MS)
 
 **Support Channels**: N/A
 
@@ -225,7 +230,7 @@ Statistics: [Quakenet.org](http://mrtg.quakenet.org/quakenet.org.html) or
 [Statistics](http://irc.netsplit.de/networks/Undernet/) |
 [Servers](http://www.undernet.org/servers.php)
 
-**Information**: Stable and highly organized network which pioneered features now commonplace on other networks. Channel service requires certain conditions before registering a channel. Policy and application form available from their web site. Support for its services is extensive. 
+**Information**: Stable and highly organized network which pioneered features now commonplace on other networks. Channel service requires certain conditions before registering a channel. Policy and application form available from their web site. Support for its services is extensive.
 
 * * *
 
