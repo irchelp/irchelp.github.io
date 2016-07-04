@@ -7,3 +7,4 @@ _counter/
 .DS_Store
 .*.sw?
 wio.tar.gz
+_site/
