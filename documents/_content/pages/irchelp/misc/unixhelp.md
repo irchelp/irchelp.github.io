@@ -1,3 +1,8 @@
+---
+title: Using Linux (and other Unix-like systems) from the command line
+author: irchelp.org staff
+---
+
 # Using Linux (and other Unix-like systems) from the command line
 
 While many Linux (and other Unix-like) systems will have a graphical user interface, or GUI, the most efficient way to use the system remains the command line interface, or CLI.
