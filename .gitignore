@@ -8,3 +8,5 @@ _counter/
 .*.sw?
 wio.tar.gz
 _site/
+.*.lock
+Gemfile.lock
