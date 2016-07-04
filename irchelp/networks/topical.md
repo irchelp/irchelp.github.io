@@ -1,3 +1,8 @@
+---
+title: Topical IRC networks
+author: irchelp.org staff
+---
+
 # Special Subject Networks
 
 _Selected networks serving a special subject matter or interest_
@@ -148,4 +153,3 @@ nets](general.html) | subject nets | [local nets](local.html) ]
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

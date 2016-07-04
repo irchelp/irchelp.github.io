@@ -1,3 +1,7 @@
+---
+title: Regional IRC networks
+---
+
 # Regional IRC Networks
 
 _Selected networks serving a specific geographic area or language_
@@ -274,4 +278,3 @@ nets](general.html) | [subject nets](subject.html) | local nets ]
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

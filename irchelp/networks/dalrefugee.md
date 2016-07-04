@@ -122,11 +122,11 @@ Spyware scanner from [http://www.ad-aware.com](http://www.ad-aware.com/).
 EFnet does **NOT** support any of the following features found on some other
 nets:
 
-  * modeless channels 
-  * +h mode aka "half ops" or "helper" 
-  * nicknames longer than 9 characters 
-  * topic lengths greater than 120 characters (may vary between servers) 
-  * kick message lengths greater than 90 characters (may vary between servers) 
+  * modeless channels
+  * +h mode aka "half ops" or "helper"
+  * nicknames longer than 9 characters
+  * topic lengths greater than 120 characters (may vary between servers)
+  * kick message lengths greater than 90 characters (may vary between servers)
 
 In addition, EFnet supports 100 total bans per channel, but that actually
 includes the sum of bans (+b), ban exemptions (+e), and invite exceptions
@@ -155,4 +155,3 @@ searchable web channel list at the [IRC Channel List](../chanlist/) page.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
