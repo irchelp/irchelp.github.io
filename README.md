@@ -25,11 +25,12 @@ such as linking to URLs. Submissions in this format are the easiest for us to wo
 Directory Structure
 -------------------
 
- * pages/ - contains all content files to be processed as pages
+ * / - contains all content files - most live in /irchelp for now
  * posts/ - contains all blog posts to be processed as news items
  * assets/ - contains all images and other assets
  * img/ - contains images from before the July 2016 site reorg, to avoid breakage
  * _scripts/ - contains build scripts
+ * _site - formatted content after being processed by jekyll, you'll only have this if you attempt to build the site locally
 
 Build Process
 -------------
