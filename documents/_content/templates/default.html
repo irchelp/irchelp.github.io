@@ -43,18 +43,18 @@
             {% block header %}
             <h1><a href="{{ site.root }}">{% if page.title is empty %}{{ site.title }}{% endif %}{% if page.title is not empty %}{{ page.title }}{% endif %}</a></h1>
             {% endblock %}
--->        
-        
+-->
+
             <div class="content">
                 {% block content %}
                 {{ content|raw }}
                 {% endblock %}
             </div>
-        
+
         <footer>
 
             {% block footer %}
-            <p>All documents &copy; irchelp.org or original authors 2014 <br />{{ piecrust.branding|raw }}</p>
+            <p>All documents &copy; irchelp.org or original authors 2016 <br />{{ piecrust.branding|raw }}</p>
             {% endblock %}
         </footer>
     </div>
