@@ -1,5 +1,5 @@
 ---
-title: Electropolist:  Communication and Community on Internet Relay Chat
+title: Electropolis  Communication and Community on Internet Relay Chat
 author: Elizabeth M. Reid
 ---
 

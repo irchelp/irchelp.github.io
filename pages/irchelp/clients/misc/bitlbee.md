@@ -1,6 +1,7 @@
 ---
-title: bitlbee: connecting IRC clients to other chat protocols
+title: bitlbee connecting IRC clients to other chat protocols
 ---
+
 # bitlbee: connecting IRC clients to other chat protocols
 
 [bitlbee](http://www.bitlbee.org) is an adaptor or "gateway" of sorts, used to connect IRC clients to other commonly used chat services and protocols.
