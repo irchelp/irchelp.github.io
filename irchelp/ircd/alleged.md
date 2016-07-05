@@ -1,4 +1,3 @@
-&nbsp_place_holder;
 ---
 title: IRCD Help (EFNet #ircd)
 author: Networked
