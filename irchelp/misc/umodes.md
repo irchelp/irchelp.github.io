@@ -1,10 +1,9 @@
 ---
 title: user modes for the major irc networks
-author: Apatrix (EFnet,IRCnet) with contributions from Toyota (EFnet), prysm
-(EFnet), Dakal (DALnet), MHz (EFnet,DALnet), Jupiter (EFnet), jilles (EFnet),
-and others
+author: Apatrix (EFnet,IRCnet) with contributions from Toyota (EFnet), prysm(EFnet), Dakal (DALnet), MHz (EFnet,DALnet), Jupiter (EFnet), jilles (EFnet), and others
 layout: default
 ---
+
 # User modes for the major networks
 
 partial update Mar 5, 2005
