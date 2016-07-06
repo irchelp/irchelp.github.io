@@ -1,5 +1,6 @@
 ---
 title: Web Clients
+layout: default
 ---
 
 # Overview

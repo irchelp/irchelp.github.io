@@ -1,6 +1,7 @@
 ---
 title: Undernet IRC FAQ Part 1
 author: Paul Grant, Mandar Mirashi
+layout: default
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: Textual
+layout: default
 ---
 
 ## Overview

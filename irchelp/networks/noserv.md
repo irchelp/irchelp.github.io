@@ -1,6 +1,7 @@
 ---
 title: Why EFnet/IRCnet has no registration services?
 author: Jolo
+layout: default
 ---
 # Why EFnet/IRCnet has no registration services?
 

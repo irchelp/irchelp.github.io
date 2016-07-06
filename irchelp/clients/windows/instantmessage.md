@@ -1,6 +1,7 @@
 ---
 title: IRC with an Instant Messaging program on Windows
 author: Stephanie Daugherty
+layout: default
 ---
 
 # Introduction

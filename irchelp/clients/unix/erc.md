@@ -1,5 +1,6 @@
 ---
 title: ERC (Emacs IRC Client)
+layout: default
 ---
 
 The text editor and kitchen sink GNU emacs has a obscure, but built-in IRC client in the form of [ERC](http://www.gnu.org/software/emacs/manual/html_mono/erc.html).

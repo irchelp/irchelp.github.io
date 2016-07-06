@@ -1,6 +1,7 @@
 ---
 title: www.irchelp.org content guidelines and authoring information.
 author: Stephanie Daugherty
+layout: default
 ---
 
 # Authoring Documents for www.irchelp.org

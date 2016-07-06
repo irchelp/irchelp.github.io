@@ -1,5 +1,6 @@
 ---
 title: jIRCii
+layout: default
 ---
 # jIRCii
 

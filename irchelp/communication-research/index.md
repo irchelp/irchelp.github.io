@@ -1,6 +1,7 @@
 ---
 title: IRC Communications Resarch Resources
 author: E. Sean Rintel
+layout: default
 ---
 
 &nbsp_place_holder;

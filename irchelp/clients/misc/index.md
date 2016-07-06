@@ -2,6 +2,7 @@
 title: Specialized Clients - Bots, Bouncers, and everything else.
 author: Stephanie Daugherty
 summary: Information on special-purpose IRC clients, such as bots and bouncers.
+layout: default
 ---
 
 # Specialized Clients - Bots, Bouncers, and everything else

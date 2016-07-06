@@ -1,6 +1,7 @@
 ---
 title: Popular IRC networks
 author: irchelp.org staff
+layout: default
 ---
 
 # Popular IRC Networks

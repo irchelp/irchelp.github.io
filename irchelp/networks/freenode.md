@@ -1,6 +1,7 @@
 ---
 title: Freenode
 author: irchelp.org staff
+layout: default
 ---
 
 # freenode

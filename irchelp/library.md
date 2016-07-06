@@ -1,5 +1,6 @@
 ---
 title: Site Map
+layout: default
 ---
 
 ## Site Map

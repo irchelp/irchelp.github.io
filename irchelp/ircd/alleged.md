@@ -1,19 +1,14 @@
-&nbsp_place_holder;
-
-&nbsp_place_holder;
-
-&nbsp_place_holder;
+---
+title: IRCD Help (EFNet #ircd)
+author: Networked
+layout: default
+---
 
 ##  IRCD Help (EFNet #ircd)
 
 by Networked
 
   
-&nbsp_place_holder;
-
-&nbsp_place_holder;
-
-* * *
 
 First off, this won't solve all of your problems, nor help the problem of
 world hunger, but hopefully it'll explain the main problems and Frequently
@@ -21,9 +16,6 @@ asked questions about ircd (Mainly Hybrid IRCD). If you have any other
 questions or would like to add to this FAQ, please feel free to hunt me down
 on EFnet in #ircd. My Nickname is usually Networked.
 
-&nbsp_place_holder;
-
-&nbsp_place_holder;
 
   * Where can I get Hybrid at?
   
@@ -31,7 +23,6 @@ on EFnet in #ircd. My Nickname is usually Networked.
 
 This is the main distribution site and has the latest releases avaliable.
 
-&nbsp_place_holder;
 
   * Well, now I want services for my hybrid!
   
@@ -43,7 +34,6 @@ and also at
 These are the main distribution sites for **GREAT** Hybrid Services writen by
 Sidewnder@EFnet.
 
-&nbsp_place_holder;
 
   * Do they have ircd for Windows 95/98/NT???
   
@@ -79,7 +69,6 @@ E) change directory to the one specified in the SPATH and type: ./ircd
 You WILL receive a notice about the FDLIMIT.. thats NORMAL unless you see
 "PLEASE FIX MAXCONNECTIONS".. we'll talk about this problem later...
 
-&nbsp_place_holder;
 
   * I CAN'T GET OPS ON MY SERVER IN A CHANNEL (no, I have this in caps for a reason)...
   
@@ -89,14 +78,12 @@ edit include/config.h and goto the #define NO_CHANOPS_ON_SPLIT and change it
 to #undef NO_CHANOPS_ON_SPLIT then type: make clean ; make install then rerun
 ircd.
 
-&nbsp_place_holder;
 
   * waaaa, waaa, my server won't accept any clients....
   
 REMOVE ALL OTHER I LINES and add this: **I:*@*::*@*::1** This will allow any
 client to connect.
 
-&nbsp_place_holder;
 
   * How do I link up 2 servers?
   
@@ -107,24 +94,23 @@ servers with the following info:
 
 2) irc.dung.net with IP addy 255.0.0.0
 
-&nbsp_place_holder;irc.poop.org would have the Following C/N lines:
+irc.poop.org would have the Following C/N lines:
 
 C:255.0.0.0:mystupidserverpass:irc.dung.net:6667:2
 
 N:255.0.0.0:mystupidserverpass:irc.dung.net::2
 
-&nbsp_place_holder;irc.dung.net would have the following C/N lines:
+irc.dung.net would have the following C/N lines:
 
 C:1.1.1.1:mystupidserverpass:irc.poop.net:6667:2
 
 N:1.1.1.1:mystupidserverpass:irc.poop.net::2
 
-&nbsp_place_holder;NOTE: the previous C/N Lines allow for auto connections..
+NOTE: the previous C/N Lines allow for auto connections..
 meaning each server will retry to connect after a certain amount of time
 specified in the Y lines in ircd.conf in this case, the Y:2 line will contain
 this information.
 
-&nbsp_place_holder;
 
   * awwwww man, my server won't let me oper up!!
   
@@ -146,7 +132,7 @@ edit the include/config.h file and change the following:
 
 #define INIT_MAXCLIENTS 800
 
-to&nbsp_place_holder;
+to
 
 #define HARD_FDLIMIT_ 250
 
@@ -167,7 +153,7 @@ running apache and every other exploitable unix binary.
 1) None off of the top of my head.. I know TAIN is always around...
 irc.megabytecoffee.com
 
-&nbsp_place_holder;2) Mode- informed me of a new network just starting out,
+;2) Mode- informed me of a new network just starting out,
 the hub server is irc.interave.net and the admins email is
 [mode@kirenet.com](mailto:mode@kirenet.com). They are running Hybrid for their
 servers.

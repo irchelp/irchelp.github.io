@@ -1,5 +1,6 @@
 ---
 title: alt.irc FAQ
+layout: default
 ---
 # The alt.irc IFAQ
 

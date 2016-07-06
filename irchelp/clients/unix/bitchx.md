@@ -1,5 +1,6 @@
 ---
 title: BitchX
+layout: default
 ---
 
 # Critical Warning

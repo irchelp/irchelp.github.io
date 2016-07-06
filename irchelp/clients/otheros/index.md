@@ -1,5 +1,6 @@
 ---
 title: IRC Clients for Other Desktop Operating Systems
+layout: default
 ---
 # IRC Clients for Other Operating Systems
 
