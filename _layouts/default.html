@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>{{ site.title }}{% if page.title is not empty %} &mdash; {{ page.title }}{% endif %}</title>
+    <title>{{ site.title }}{% if page.title %} &mdash; {{ page.title }}{% endif %}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="description" content="{{ site.description }}" />
     <meta name="author" content="{{ site.author }}" />
@@ -36,26 +36,22 @@
     <link rel="shortcut icon" href="/ico/favicon.png">
 </head>
 <body>
-    {% include('helpstrap_navbar.html') %}
+    {% include helpstrap_navbar.html %}
 
     <div id="container" class="container">
 <!--
-            {% block header %}
-            <h1><a href="{{ site.root }}">{% if page.title is empty %}{{ site.title }}{% endif %}{% if page.title is not empty %}{{ page.title }}{% endif %}</a></h1>
-            {% endblock %}
+            { block header %}
+            <h1><a href="{{ site.root }}">{% if page.title %}{{ site.title }}{% endif %}{% if page.title %}{{ page.title }}{% endif %}</a></h1>
+            { endblock %}
 -->
 
             <div class="content">
-                {% block content %}
                 {{ content|raw }}
-                {% endblock %}
             </div>
 
         <footer>
 
-            {% block footer %}
             <p>All documents &copy; irchelp.org or original authors 2016 <br />{{ piecrust.branding|raw }}</p>
-            {% endblock %}
         </footer>
     </div>
     {{ piecrust.debug_info|raw }}

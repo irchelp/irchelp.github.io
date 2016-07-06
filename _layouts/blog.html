@@ -1,7 +1,6 @@
-{% extends "default.html" %}
-
-{% block content %}
-
+---
+layout: default
+---
 {{ content|raw }}
 
 <div id="navigation">
@@ -12,5 +11,3 @@
 		<a href="{{ pcurl(pagination.next_page) }}" id="navigation-next">Older Entries</a>&nbsp;&raquo;
 	{% endif %}
 </div>
-
-{% endblock %}
