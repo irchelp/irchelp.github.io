@@ -1,6 +1,7 @@
 ---
 title: Trojan Horses or Vorus
 author: Joseph Lo (jolo)
+layout: default
 ---
 
 # Trojan Horse or Virus?

@@ -1,6 +1,7 @@
 ---
 title: Logging and Reporting IRC Abuse
 author: prysm, Joseph Lo (jolo)
+layout: detault
 ---
 
 # Logging and Reporting IRC Abuses

@@ -1,6 +1,7 @@
 ---
 title: Obsolete Fixes
 author: irchelp.org staff
+layout: default
 ---
 # This document has been removed.
 

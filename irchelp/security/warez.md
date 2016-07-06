@@ -1,6 +1,7 @@
 ---
 title: IRC File Trading
-author: Joseph Lo (jolo)
+author: Joseph Lo (jolo), irchelp.org staff
+layout: default
 ---
 
 # IRC File Trading: "Geek-centric way to get free stuff"?

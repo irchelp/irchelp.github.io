@@ -1,6 +1,7 @@
 ---
 title: Social Engineering
 author: irchelp.org staff
+layout: default
 ---
 
 # Social Engineering

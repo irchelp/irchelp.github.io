@@ -1,6 +1,7 @@
 ---
 title: Privacy on IRC
 author: irchelp.org staff
+layout: default
 ---
 
 # Privacy on IRC
@@ -72,7 +73,7 @@ Other anonymous proxies may be available, but tend to be rapidly banned from IRC
 VPN technology is best known for its use in connecting remote workers to a corporate LAN, but a number of services have sprung up for the purposes of anonymity, bypassing geographical restrictions on services, performance, and enhanced privacy.
 
 These services offer varying degrees of anonymity, with many claiming not to keep logs. Unfortunately, they are also
-frequently used to facilitate abuse, so they may often be banned from IRC servers. 
+frequently used to facilitate abuse, so they may often be banned from IRC servers.
 
 
 ### IPv6 tunnels

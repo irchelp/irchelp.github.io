@@ -1,6 +1,7 @@
 ---
 title: Trojan Horses
 author: irchelp.org staff
+layout: default
 ---
 
 # Trojan Horse Attacks

@@ -1,6 +1,7 @@
 ---
 title: IRC Security
 author: irchelp.org staff
+layout: default
 ---
 
 # IRC Security

@@ -1,6 +1,7 @@
 ---
 title: netbus
 author: internet security systems
+layout: default
 ---
 
 # NetBus Backdoor Attack
@@ -18,7 +19,7 @@ author: internet security systems
     Windows Backdoors Update
 
     Synopsis:
-    
+
     This advisory is an update of our cDc Back Orifice advisory, which was
     released August 6, 1998.
 

@@ -1,6 +1,7 @@
 ---
 title: srvcp trojan horse
 author: irchelp.org staff
+layout: default
 ---
 
 # srvcp Trojan Horse

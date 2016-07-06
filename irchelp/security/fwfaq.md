@@ -1,6 +1,7 @@
 ---
 title: Firewall FAQ
 author: Stephanie Daugherty (sdaugherty), Joseph Lo (jol0), RuyDuck, Vamps
+layout: default
 ---
 
 # Firewall FAQ

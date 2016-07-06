@@ -1,6 +1,7 @@
 ---
 title: How to NOT hide file extensions in Windows
 author: irchelp.org staff
+layout: default
 ---
 
 # How to NOT hide extensions in Windows

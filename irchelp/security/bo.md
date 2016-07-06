@@ -1,6 +1,7 @@
 ---
 title: Back Orifice
 author: Anthony Stirk (Upuaut), Chris Benson, Joseph Lo, Rich Lafferty
+layout: default
 ---
 # Back Orifice
 
