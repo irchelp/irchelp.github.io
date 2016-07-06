@@ -1,5 +1,7 @@
 ---
 title: Using mIRC with AOL
+author: irchelp.org staff
+layout: default
 ---
 
 # Using mIRC with AOL

@@ -1,5 +1,6 @@
 ---
 title: How to configure mIRC to connect through winGate
+layout: default
 ---
 
 [ This is an emergency mirror of the [original

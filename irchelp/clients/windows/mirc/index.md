@@ -1,3 +1,9 @@
+---
+title: Help for the mIRC Client
+author: irchelp.org staff
+layout: default
+---
+
 # Help for the mIRC Chat Client
 
 ![*](/media/icons/mirc.gif)
@@ -62,10 +68,10 @@ external links) provide information to ease the dramatic transition to version
 6.x.
 
   * first of all, `/help multi-server`
-  * [v6 - Help you can use!](http://mirc.stealth.net/v6Tips.html) - quick introduction to new commands and scripting changes 
-  * [Scripting Guide to mIRC 6](http://mirc.stealth.net/multi-FAQ.html)** - more detailed examples of scripting changes 
-  * [A brief look at mIRC's $submenu identifier](http://www.mishscript.de/help/submenu.htm) - this new identifier allows you to dynamically create a list of menu items, and can only be called from a popup menu definition. 
-  * [CID (Connection ID) Tutorial](http://mirc.codedreamers.com/Tutorials/CID.htm) - the CID is a unique number given to a connection, allows you to use scripts to get/send information from/to a specific connection, or to loop though connections. 
+  * [v6 - Help you can use!](http://mirc.stealth.net/v6Tips.html) - quick introduction to new commands and scripting changes
+  * [Scripting Guide to mIRC 6](http://mirc.stealth.net/multi-FAQ.html)** - more detailed examples of scripting changes
+  * [A brief look at mIRC's $submenu identifier](http://www.mishscript.de/help/submenu.htm) - this new identifier allows you to dynamically create a list of menu items, and can only be called from a popup menu definition.
+  * [CID (Connection ID) Tutorial](http://mirc.codedreamers.com/Tutorials/CID.htm) - the CID is a unique number given to a connection, allows you to use scripts to get/send information from/to a specific connection, or to loop though connections.
 
 *  **[Choosing a mIRC script](bestscript.htm)**
 Many new users rush out to try scripts blindly. This is both risky and
@@ -97,12 +103,12 @@ lots of useful things, such as redirect /whois information to your active
 window. There are separate files for 32- and 16-bit mIRC formats. Features
 include:
 
-  * Jump to specific numeric code entries or search the file by topic (Whois, ban list, MOTD, trace, mode, stats, etc.) 
+  * Jump to specific numeric code entries or search the file by topic (Whois, ban list, MOTD, trace, mode, stats, etc.)
   * Get dynamic online help from your mIRC command line: just type /numeric <number> or /numeric <keyword>
-  * Covers 001 through Series 500 Numerics 
-  * Contains sample scripting examples to get you started 
-  * Documents codes specific to EFnet, DALnet, or Undernet ircd 
-  * Lists and describes related web links: just click on the URL to start your browser! 
+  * Covers 001 through Series 500 Numerics
+  * Contains sample scripting examples to get you started
+  * Documents codes specific to EFnet, DALnet, or Undernet ircd
+  * Lists and describes related web links: just click on the URL to start your browser!
 
 *  **Universal /onotice replacement**      Having
 trouble with /onotice on some servers? Maybe it does not get through to all
@@ -153,7 +159,7 @@ of mIRC's /background switches and options.
 
 *  **General IRC help**
 
-* [ The IRC Prelude: Newbie's Introduction to IRC](/irchelp/new2irc.html) (many non-English translations). 
+* [ The IRC Prelude: Newbie's Introduction to IRC](/irchelp/new2irc.html) (many non-English translations).
 
 * * *
 
