@@ -1,7 +1,15 @@
+---
+title: WebTV and Internet Relay Chat
+author: Ngan Bui (Ariell), Joseph Lo (Jolo), and Stephanie Daugfherty (sdaugherty)
+layout: default
+---
 # WebTV and Internet Relay Chat
 
-By Ngan Bui (Ariell), Joseph Lo (Jolo), and Josh Rollyson (dracus), with help
+By Ngan Bui (Ariell), Joseph Lo (Jolo), and Stephanie Daugfherty (sdaugherty), with help
 from lots of people
+
+**Editor's note: The MSN TV (formerly WebTV) service shut down on September 30, 2013, rendering
+all of these set-top boxes useless, and this guide obsolete. It's retained only for historical interest.**
 
 Most of this document updated Jun 24, 2000, minor note on 3rd pty clients Jun
 22, 2003
@@ -76,17 +84,17 @@ You may not be able to access all networks or servers due to restrictions
 placed on each server to limit the kind of people who can connect. After you
 have this information, do the following:
 
-  1. Return to the Home page 
+  1. Return to the Home page
   2. Select **Community**
   3. Select **Chat**
   4. Select **Go to**
-  5. Enter the following: 
-    * server address (something like irc.whatever.com) 
-    * port number (typically 6667, or you can try 6660-6667) 
-    * the channel name (such as #IRChelp) 
+  5. Enter the following:
+    * server address (something like irc.whatever.com)
+    * port number (typically 6667, or you can try 6660-6667)
+    * the channel name (such as #IRChelp)
   6. Select **Connect**
 
-**Note** that all channels names begin with a # symbol, but using the **Go to** feature you can optionally type the # or not (such as #IRChelp or IRChelp). You do _not_ type the # when using the /join command mentioned below. 
+**Note** that all channels names begin with a # symbol, but using the **Go to** feature you can optionally type the # or not (such as #IRChelp or IRChelp). You do _not_ type the # when using the /join command mentioned below.
 
 See the list of [servers and networks](/irchelp/networks/) for some
 suggestions. If you're new, you might want to stick to smaller networks at
@@ -105,21 +113,21 @@ Each command begins with a slash character (/) at the beginning of the line,
 and you just type them into the same text field at the bottom of the chat
 screen.
 
-**/join coolness**     Command to join the existing channel #coolness. Note with this command, you do _not_ enter the # before the channel name. If the channel did not exist before, by joining it you will create it and also have ops on that channel. You can only be on one channel at a time. 
+**/join coolness**     Command to join the existing channel #coolness. Note with this command, you do _not_ enter the # before the channel name. If the channel did not exist before, by joining it you will create it and also have ops on that channel. You can only be on one channel at a time.
 
-**/who**     This gives you the nicknames of people in the current channel only, with some information about them. 
+**/who**     This gives you the nicknames of people in the current channel only, with some information about them.
 
 **Hello everybody!**     Once you join a channel, you can speak to everybody on the channel by typing any line without a leading slash character. Everybody else will see "your_nick> Hello everybody!"
 
-**/me is a pink bunny.**     Everybody in the channel sees "* your_nick is a pink bunny." This is called an action. 
+**/me is a pink bunny.**     Everybody in the channel sees "* your_nick is a pink bunny." This is called an action.
 
-**/whois jack**     You get some information about that jack, such as "jack is jk1@some.host.name." If jack is also a WebTV user, the answer will not include the hostname, just whether or not he is on-line at the moment. 
+**/whois jack**     You get some information about that jack, such as "jack is jk1@some.host.name." If jack is also a WebTV user, the answer will not include the hostname, just whether or not he is on-line at the moment.
 
-**/msg jack text**     Sends a private message to jack only. This is sometimes called "whispering" since nobody else can hear you except jack. 
+**/msg jack text**     Sends a private message to jack only. This is sometimes called "whispering" since nobody else can hear you except jack.
 
-**/ignore jack**     Ignores all messages from jack, such as if he is annoying you. 
+**/ignore jack**     Ignores all messages from jack, such as if he is annoying you.
 
-**/topic Dalmatians are spotted.**     Sets the channel topic to "Dalmatians are spotted." - but note that not all channels allow anybody to change the topic. 
+**/topic Dalmatians are spotted.**     Sets the channel topic to "Dalmatians are spotted." - but note that not all channels allow anybody to change the topic.
 
 [ Contents ]
 
@@ -185,11 +193,11 @@ be amazed at what else you can do with IRC and many other things.
 
 Here are some ways to get more help.
 
-**World Wide Web**     Definitely check out WebTV's own [help site](http://help.webtv.net/), which includes a FAQ (frequently asked questions list) just for [chat](http://help.webtv.net/features/community/chat.html). In additioin, we have many [general help guides](../faq.html). (Just remember the limitations of WebTV when you're reading those guides.) We particularly recommend the short general introduction to IRC called [The IRC Prelude](../new2irc.html). There are also lists of [networks](../networks/) and [channels](../chanlist/) there. 
+**World Wide Web**     Definitely check out WebTV's own [help site](http://help.webtv.net/), which includes a FAQ (frequently asked questions list) just for [chat](http://help.webtv.net/features/community/chat.html). In additioin, we have many [general help guides](../faq.html). (Just remember the limitations of WebTV when you're reading those guides.) We particularly recommend the short general introduction to IRC called [The IRC Prelude](../new2irc.html). There are also lists of [networks](../networks/) and [channels](../chanlist/) there.
 
-**Email**      Another way to get your _WebTV-specific_ IRC questions answered is to email [wecare@webtv.net](mailto:wecare@webtv.net). 
+**Email**      Another way to get your _WebTV-specific_ IRC questions answered is to email [wecare@webtv.net](mailto:wecare@webtv.net).
 
-**IRC**     The most popular help channels for WebTV are on [TalkCity](http://www.talkcity.com/). The channels include #New2WebTV, #WebTVhelp, and #WebTVtech. 
+**IRC**     The most popular help channels for WebTV are on [TalkCity](http://www.talkcity.com/). The channels include #New2WebTV, #WebTVhelp, and #WebTVtech.
 
 [ Contents ]
 
@@ -201,4 +209,3 @@ Here are some ways to get more help.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

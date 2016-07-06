@@ -1,3 +1,8 @@
+---
+title: wio shortcuts
+author: irchelp.org staff
+layout: default
+---
 This is a list of shortcuts available at [IRChelp.org](http://irchelp.org/).
 For each word in the 1st column, you would append it to
 `http://www.irchelp.org/` (the www. is actually optional too). Take for
@@ -204,4 +209,3 @@ same as 'download'
 ** [ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) | [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ] **
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

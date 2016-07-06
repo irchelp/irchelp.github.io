@@ -1,6 +1,12 @@
+---
+title: Hints for better IRC usage
+layout: default
+author: Vegard Engen
+---
+
 # Hints for better IRC usage.
 
-**Ed. note:** This is a must-read for anybody suffering from the frustrations of a takeover. It is mirrored with permission from the original by Vegard Engen, an IRC administrator. We combined 4 small files into this 1 file for your convenience, and added a few minor updates. For more related information, see also our guide to [logging and reporting IRC abuse](/irchelp/misc/irclog.html). -Jolo 
+**Ed. note:** This is a must-read for anybody suffering from the frustrations of a takeover. It is mirrored with permission from the original by Vegard Engen, an IRC administrator. We combined 4 small files into this 1 file for your convenience, and added a few minor updates. For more related information, see also our guide to [logging and reporting IRC abuse](/irchelp/misc/irclog.html). -Jolo
 
 * * *
 
@@ -22,7 +28,7 @@ to get help from an IRC-operator everytime you have a problem. Below is a
 collection of technical and social hints that you can make use of.
 
   * What to do when your channel is taken over.
-  * Modeless channels.(only on IRCnet as far as I know) 
+  * Modeless channels.(only on IRCnet as far as I know)
   * I want to create a bot for my channel, how do I do it?
 
 * * *
@@ -113,20 +119,10 @@ often, they need knowledge, and bots can not replace knowledge.
 
 The best way to take care of a channel without bots, are:
 
-  * Never give op to anyone you don't trust. 
-  * Acknowledge the fact that when there aren't people on the channel, the channel does not need to exist. Channels were never meant to be static. 
-  * If your channel gets taken over, either because you were sloppy with whom you gave op to, because someone abused IRC to get ops on the channel, or because someone created the channel when you were not on it, just create a new one with a similar name.  Read also the session above on takeovers for some good advices on what do in case of takeovers, and how to make sure you and the regulars of the channel are prepared in case a takeover happens. Remember, bots can not not replace knowledge. Knowledge are better than bots. 
+  * Never give op to anyone you don't trust.
+  * Acknowledge the fact that when there aren't people on the channel, the channel does not need to exist. Channels were never meant to be static.
+  * If your channel gets taken over, either because you were sloppy with whom you gave op to, because someone abused IRC to get ops on the channel, or because someone created the channel when you were not on it, just create a new one with a similar name.  Read also the session above on takeovers for some good advices on what do in case of takeovers, and how to make sure you and the regulars of the channel are prepared in case a takeover happens. Remember, bots can not not replace knowledge. Knowledge are better than bots.
 
 [ Return to top ]
 
 Vegard Engen, Vegard.Engen@uninett.no
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

@@ -1,3 +1,9 @@
+---
+title: Shareware is Good
+author: Joseph Lo (jolo)
+layout: default
+---
+
 # Shareware is Good
 
 by Jolo, last updated Apr 8, 2013
@@ -81,4 +87,3 @@ security.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

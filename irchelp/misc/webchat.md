@@ -1,3 +1,9 @@
+---
+title: IRC via the WEb
+author: Joseph Lo (jolo)
+layout: default
+---
+
 # Internet Relay Chat using the Web
 
 by Joseph Lo, Ph.D. aka Jolo, last updated Feb 18, 2007
@@ -30,7 +36,7 @@ established network/server. You're just going to have to take my word for this
 really curious, we refer you to our [server request FAQ](/irchelp/ircd/server-
 request.html).
 
-**If you have an existing IRC channel on some IRC network or server, there are 2 ways to allow your web visitors to access that channel. You can either help your visitors set up an IRC client program, or you can set up a web gateway so they can just point-and-click their way to your channel.** We will cover each approach below. 
+**If you have an existing IRC channel on some IRC network or server, there are 2 ways to allow your web visitors to access that channel. You can either help your visitors set up an IRC client program, or you can set up a web gateway so they can just point-and-click their way to your channel.** We will cover each approach below.
 
 ## Help your visitors set up an IRC client
 
@@ -69,12 +75,12 @@ to deal with a standalone IRC client. This is what we will spend the rest of
 this page talking about. In spite of what we said above, it can sometimes
 still be a good idea to provide a web gateway:
 
-  1. Newbies can at least "try out" your channel before committing to something like mIRC. It's still in your and their best interest to get them switched over to a standalone IRC client as soon as possible, but at least with the web gateway you can talk them through the process. 
-  2. Occasionally, the web gateway may be the only way for people to join, since their free/cheap/work-related ISP has blocked IRC access or allows only web browsing. Frankly, trying to support these people is a losing proposition, and you in fact may be helping them violate their terms of service and getting them in trouble. Unless you are catering to a large group of people using such crippled free ISPs, their limitations should not be your concern. 
+  1. Newbies can at least "try out" your channel before committing to something like mIRC. It's still in your and their best interest to get them switched over to a standalone IRC client as soon as possible, but at least with the web gateway you can talk them through the process.
+  2. Occasionally, the web gateway may be the only way for people to join, since their free/cheap/work-related ISP has blocked IRC access or allows only web browsing. Frankly, trying to support these people is a losing proposition, and you in fact may be helping them violate their terms of service and getting them in trouble. Unless you are catering to a large group of people using such crippled free ISPs, their limitations should not be your concern.
 
-**OK enough lecturing, tell me about the web gateways.** There are a few ways of doing this somewhat evil trick of mangling together the IRC and WWW protocols. We'll describe the pros and cons. It's up to you to set them up properly by reading their documentation. We assume you are a reasonably competent webmaster and know the meaning of words like Perl, CGI, Java, IP, and hostname. You should also be fairly experienced with IRC and know about things like identd, K-lines, and clones. If not, this task is too technical for you, sorry. 
+**OK enough lecturing, tell me about the web gateways.** There are a few ways of doing this somewhat evil trick of mangling together the IRC and WWW protocols. We'll describe the pros and cons. It's up to you to set them up properly by reading their documentation. We assume you are a reasonably competent webmaster and know the meaning of words like Perl, CGI, Java, IP, and hostname. You should also be fairly experienced with IRC and know about things like identd, K-lines, and clones. If not, this task is too technical for you, sorry.
 
-**CGI:IRC** &nbsp_place_holder; [[home page](http://cgiirc.org/) | [features & screen caps](http://cgiirc.org/features/) ]     
+**CGI:IRC** &nbsp_place_holder; [[home page](http://cgiirc.org/) | [features & screen caps](http://cgiirc.org/features/) ]
 
 CGI:IRC looks remarkably like a real GUI IRC program, including tabs for
 channels, userlist and options. The javascript to run it is just a few lines.
@@ -84,7 +90,7 @@ their own PC. Quick and easy to configure. No weird firewall or security
 dialog windows to deal with. Works with most modern web browsers. In short,
 what more do you want? :) Check it out below.  Nickname:
 
-**JPilot** &nbsp_place_holder; [[home page](http://www.jpilot.com/) | [screen cap](webchat_jp.gif) | [demo1](http://www.jpilot.com/java/irc/chat.html) | [demo2](http://www.arklink.net/Chat/chat.html) ]     
+**JPilot** &nbsp_place_holder; [[home page](http://www.jpilot.com/) | [screen cap](webchat_jp.gif) | [demo1](http://www.jpilot.com/java/irc/chat.html) | [demo2](http://www.arklink.net/Chat/chat.html) ]
 
 JPilot is a reasonably full-featured IRC client, and runs as a Java applet.
 Compared to Whiplash, the biggest differences are that JPilot includes identd
@@ -110,7 +116,7 @@ MSIE.
 JPilot is $39.99 [shareware](/irchelp/misc/shareware.html), documentation
 seems pretty good.
 
-**IRC CLient for Java** &nbsp_place_holder; [[home page](http://www.alphaworks.ibm.com/formula/)]     
+**IRC CLient for Java** &nbsp_place_holder; [[home page](http://www.alphaworks.ibm.com/formula/)]
 
 This has rapidly become one of the most popular Java IRC clients, perhaps
 thanks to major providers like Mindspring which make it their default client.
@@ -124,7 +130,7 @@ run an IRC server or relay on your web server.
 
 Freeware, good documentation, support available through discussion groups.
 
-**"Webmaster's Backpack" Java Client** &nbsp_place_holder; [ [home page](http://www.conferenceroom.com/products/productshome.shtml) | [demo](webchat_confrm.html) | [screen cap](webchat_confrm.gif) ]     
+**"Webmaster's Backpack" Java Client** &nbsp_place_holder; [ [home page](http://www.conferenceroom.com/products/productshome.shtml) | [demo](webchat_confrm.html) | [screen cap](webchat_confrm.gif) ]
 
 Conference Room by Webmaster Inc. is commercial Windows IRC server software,
 but their "Webmaster's Backpack" java client is free. It is very full-featured
@@ -143,9 +149,9 @@ small new channel, then maybe you won't mind sticking to their network.
 
 The Conference Room Java Client is free; easy setup requires no documentation.
 
-**Whiplash** &nbsp_place_holder; [ [home page and demo](http://www.networkdweebs.com/stuff/whiplash/) | [screen cap](webchat_whip.gif) ]     
+**Whiplash** &nbsp_place_holder; [ [home page and demo](http://www.networkdweebs.com/stuff/whiplash/) | [screen cap](webchat_whip.gif) ]
 
-**Ed. note** - Whiplash used to be free, but appears to have recently become $149 commercial ware only. The web site is still evolving and shows conflicting information. For now I'll show the old review below, and will update it as soon as they stabilize their policies. 
+**Ed. note** - Whiplash used to be free, but appears to have recently become $149 commercial ware only. The web site is still evolving and shows conflicting information. For now I'll show the old review below, and will update it as soon as they stabilize their policies.
 
 Whiplash is a very simple IRC client with a crude interface and limited
 features. It runs as a streaming Perl CGI on UNIX systems only. By the
@@ -178,4 +184,3 @@ freeware? :-)
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

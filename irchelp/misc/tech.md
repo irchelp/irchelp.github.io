@@ -1,3 +1,8 @@
+---
+title: Technology and Social Isolation
+author: Chris Barylick
+layout: default
+---
 **Technology and Social Isolation**
 
 By [Chris Barylick](mailto: chris@macnn.com)
@@ -197,4 +202,3 @@ end, not the end to all means. Life isn't a spectator sport, nor has it ever
 been. Turn off the computer, step outside on a random weekend night and see
 where your feet take you among the thousand options that open up when you're
 looking for them.
-

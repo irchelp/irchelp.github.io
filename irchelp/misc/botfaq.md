@@ -1,6 +1,9 @@
-# Frequently Asked Questions about
-
-Internet Relay Chat roBOTs
+---
+title: IRC Bot FAQ
+author: Black Nemesis, TheRose, DiverGuy, Joseph Lo (jolo)
+layout: default
+---
+# Frequently Asked Questions about IRC bot, Internet Relay Chat roBOTs
 
 Originally written mostly by Nemesis][ - (Black Nemesis), with a little help
 from TheRose
@@ -138,11 +141,11 @@ user name. You can get the username by typing `/whois <nick>`. Also look in
 the username field for a bot command in parentheses. An example of a bot could
 be:
 
-    
-    
+
+
      #junk   JunkyBot   H@   cszvb1@120.23.77.4 (/msg JunkyBot Hello)
      #idiots IdiotSrv   H@   rzx14g@mindless.nut.org (/msg IdiotSrv Help)
-    
+
 
 ## (4) Do I need a bot to run my own channel?
 
@@ -259,7 +262,7 @@ bots are "locking" different channel modes. When bots disagree on channel
 settings, it results in a bot-war and a flood of mode changes which makes the
 channel unstable and unusuable for chatting. It also gives bots a bad name.
 
-** CAUTION: NEVER download a bot or bot-code from an UNKNOWN source. The possibility of backdoors planted into unknown bots is HIGH. We also STRONGLY RECOMMEND that you are familiar with the language in which your bot is written. 
+** CAUTION: NEVER download a bot or bot-code from an UNKNOWN source. The possibility of backdoors planted into unknown bots is HIGH. We also STRONGLY RECOMMEND that you are familiar with the language in which your bot is written.
 
 A [backdoor/trojan](../security/trojan.html) could allow someone to enter your
 bot or your account and take it over without your even knowing it occurred.
@@ -272,13 +275,3 @@ Not as simple as you thought 'eh? Good Luck, and Happy IRC'ing.
 
 Another classic help page on this subject is the [bot FAQ](bot_faq.htm)
 archived from ircworks.com.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

@@ -1,4 +1,9 @@
-**Ed. note:** We at [IRChelp.org](http://www.irchelp.org/) are not affiliated in any way with TalkCity. The following letter was sent out to all registered TC members, and we are providing it here purely for information purposes. All comments should be directed to the CEO of TC using the email link at the bottom. -Jolo 
+---
+title: talkcity announcement
+layout: default
+---
+
+**Ed. note:** We at [IRChelp.org](http://www.irchelp.org/) are not affiliated in any way with TalkCity. The following letter was sent out to all registered TC members, and we are providing it here purely for information purposes. All comments should be directed to the CEO of TC using the email link at the bottom. -Jolo
 
 * * *
 
@@ -57,10 +62,10 @@ parents will have a greater ability to protect their children.
 To effect this new level of service within Talk City, changes will be made to
 our site and they will occur in three phases, starting with
 
-  * Phase I  Sometime very soon, you will notice a change in the way we categorize our chat rooms. All rooms will be classified into one of three distinct categories respectively named Hosted Rooms, Featured Rooms, and Open Rooms. Hosted Rooms are designed to be the safest rooms on Talk City as they will be moderated and monitored by a team of Talk City employees and volunteer hosts. Featured Rooms, on the other hand, represent those rooms that offer a high degree of self-policing capability, including some rooms that have been purchased by our members as well as those long-standing rooms with consistent and loyal supporters who have proven their ability to maintain stability without the persistent need for hosts. Our hosts, however, will maintain an on-call presence to support Featured Rooms. The last category, Open Rooms, will contain all other chat rooms. Much like the chat rooms you find on Yahoo, MSN, or Lycos, Open Rooms will not be moderated or monitored. And while it remains the obligation of every Talk City member to abide by and respect our Community Standards regardless of room category, our ability to monitor violations and enforce our standards will be very limited in the Open Rooms area. 
+  * Phase I  Sometime very soon, you will notice a change in the way we categorize our chat rooms. All rooms will be classified into one of three distinct categories respectively named Hosted Rooms, Featured Rooms, and Open Rooms. Hosted Rooms are designed to be the safest rooms on Talk City as they will be moderated and monitored by a team of Talk City employees and volunteer hosts. Featured Rooms, on the other hand, represent those rooms that offer a high degree of self-policing capability, including some rooms that have been purchased by our members as well as those long-standing rooms with consistent and loyal supporters who have proven their ability to maintain stability without the persistent need for hosts. Our hosts, however, will maintain an on-call presence to support Featured Rooms. The last category, Open Rooms, will contain all other chat rooms. Much like the chat rooms you find on Yahoo, MSN, or Lycos, Open Rooms will not be moderated or monitored. And while it remains the obligation of every Talk City member to abide by and respect our Community Standards regardless of room category, our ability to monitor violations and enforce our standards will be very limited in the Open Rooms area.
 
-  * Phase II  Then, sometime a short time later, the Hosted Rooms and Featured Rooms will become secured areas. The goal here is to create an environment where people can feel safe, secure, and protected. The only way for us, as a company, to do this is to know an individuals real identity. Therefore, members who wish to enter chat rooms in these secured areas will be asked to provide verifiable information about themselves, and to do so as a part of subscribing for an annual membership and to pay a nominal fee of $1.00 (One Dollar) per month. It is the information we collect via the payment process that provides the level of personal accountability and authenticity. Needless to say, anyone who violates Talk City standards in these rooms or engages in attacks on individual members or rooms will immediately forfeit their membership and be denied access to the secured areas of our site. We will safeguard your personal information with a high level of care and we will describe to you what uses we will make of this information before we ask you to provide it. Let me add that we intend to continue to comply with the commitment to privacy that we have stated in our Privacy Policy, and the forthcoming changes to this Policy will continue to reflect our respect for your privacy and anonymity within the community.  
-  
+  * Phase II  Then, sometime a short time later, the Hosted Rooms and Featured Rooms will become secured areas. The goal here is to create an environment where people can feel safe, secure, and protected. The only way for us, as a company, to do this is to know an individuals real identity. Therefore, members who wish to enter chat rooms in these secured areas will be asked to provide verifiable information about themselves, and to do so as a part of subscribing for an annual membership and to pay a nominal fee of $1.00 (One Dollar) per month. It is the information we collect via the payment process that provides the level of personal accountability and authenticity. Needless to say, anyone who violates Talk City standards in these rooms or engages in attacks on individual members or rooms will immediately forfeit their membership and be denied access to the secured areas of our site. We will safeguard your personal information with a high level of care and we will describe to you what uses we will make of this information before we ask you to provide it. Let me add that we intend to continue to comply with the commitment to privacy that we have stated in our Privacy Policy, and the forthcoming changes to this Policy will continue to reflect our respect for your privacy and anonymity within the community.
+
 Let me also emphasize that the initiatives outlined above do not represent a
 wholesale change to Talk City and, for most of you, nothing will change. In
 fact, of the many thousands of chat rooms that are active every day on Talk
@@ -69,13 +74,13 @@ participation in these rooms will remain open and free of charge. The sole
 purpose of establishing a secured area is to address the needs of those
 members who seek a higher level of safety and accountability.
 
-  
+
 Please note that if you are already a paying subscriber in other Talk City
 programs (e.g. Chat Room Ownership or Home Page Subscription) you will _not_
 have to pay for this new program. Moreover, owners of purchased rooms will
 have the option of choosing to be listed in Featured Rooms or Open Rooms.
 
-  * Phase III  In order to ensure that we continue to create programs designed to enhance the safety and security of our community, I have decided to create a Community Advisory Board consisting of representatives of the volunteer hosts, the user community, and Talk City management. I am currently envisioning a committee of six, with two representatives from each group. Although the first, original slate of representatives will be appointed, it is my plan to have subsequent community representatives be popularly elected. The task of determining such election guidelines and procedures will be one of the first items on the founding committees agenda. Another pressing item on the agenda will be to help in the development of a program and budget for increased hosting services in the secured areas, which will allow for greater supervision and better accountability. Much like the way our own government can only be elected by citizens, the privilege to vote will be held only by paying members of Talk City. 
+  * Phase III  In order to ensure that we continue to create programs designed to enhance the safety and security of our community, I have decided to create a Community Advisory Board consisting of representatives of the volunteer hosts, the user community, and Talk City management. I am currently envisioning a committee of six, with two representatives from each group. Although the first, original slate of representatives will be appointed, it is my plan to have subsequent community representatives be popularly elected. The task of determining such election guidelines and procedures will be one of the first items on the founding committees agenda. Another pressing item on the agenda will be to help in the development of a program and budget for increased hosting services in the secured areas, which will allow for greater supervision and better accountability. Much like the way our own government can only be elected by citizens, the privilege to vote will be held only by paying members of Talk City.
 
 My vision is to transform Talk City into the safest and most accountable
 community on the Internet and to do so with an optimal balance of security and
@@ -96,4 +101,3 @@ CEO, Talk City
 Email: [TalkCityCEO@myesp.com](mailto:TalkCityCEO@myesp.com)
 
 &nbsp_place_holder;
-

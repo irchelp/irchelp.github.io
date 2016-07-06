@@ -1,3 +1,8 @@
+---
+title: IRC (EFNet) by telnet
+author: Ron Ritzman
+layout: default
+---
 **Ed. note: This is a "classic" guide dating to the mid-90s, it is preserved here only for historical reasons. Most of the advice in here is hopelessly out of date now. If you want to play with IRCing through telnet, then just get really comfortable with the [RFC](../rfc/) because you are essentially trying to do the tedious job that your client usually does for you. -Jolo**
 
 #  IRC (EFnet) by telnet
@@ -16,8 +21,8 @@ added list of ftp sites from the alt.irc faq
 
 ## 1: What is the current list of available telnet clients?
 
-  * Begin list --- 
-  * End list --- 
+  * Begin list ---
+  * End list ---
 
 * * *
 
@@ -40,8 +45,8 @@ irc as one of their services. This is one way to access irc by telnet.
 
 ## 4: Which freenets, bbs's etc. offer irc?
 
-  * Begin list --- 
-  * End list --- 
+  * Begin list ---
+  * End list ---
 
 * * *
 
@@ -66,13 +71,13 @@ of disk space, then you can ftp to cs-ftp.bu.edu and retrieve
 
 Follow these instructions step by step.
 
-  1. From the shell prompt type "zcat CURRENT | tar -xvfm -". (if you are lacking disk space then use your tmp directory. It is usually "/tmp" "/var/tmp" or "/usr/tmp") 
-  2. chdir do the directory created. 
-  3. Type "./configure" (this will take a few minutes) 
-  4. look at the files "Makefile and "include/config.h" to see if there is anything you wish to change. Edit "Makefile" and change the lines that define where irc looks for its helpfiles, scripts, and translation tables (You can still build the client without editing these files) 
-  5. Type "make all". If make finishes without saying something like "error code 1", "exit 1" and/or "stop" then you have your very own irc client. The file is called "irc" or "ircII" and it is in the /source directory. Copy it to your home or private bin directory. You will also find programs called "ircserv" "ircflush" and "wserve". These complement the client but are not absolutely nessessary. 
-  6. Copy the scripts, translation tables, and helpfiles (these have to be retreved seperatly from the ftp site) to their appropriate directories. These files are not absolutely nessessary. The only thing you absolutely need is the irc executable. 
-  7. If make is unsuccessfull then ask your system administrator or local guru for help 
+  1. From the shell prompt type "zcat CURRENT | tar -xvfm -". (if you are lacking disk space then use your tmp directory. It is usually "/tmp" "/var/tmp" or "/usr/tmp")
+  2. chdir do the directory created.
+  3. Type "./configure" (this will take a few minutes)
+  4. look at the files "Makefile and "include/config.h" to see if there is anything you wish to change. Edit "Makefile" and change the lines that define where irc looks for its helpfiles, scripts, and translation tables (You can still build the client without editing these files)
+  5. Type "make all". If make finishes without saying something like "error code 1", "exit 1" and/or "stop" then you have your very own irc client. The file is called "irc" or "ircII" and it is in the /source directory. Copy it to your home or private bin directory. You will also find programs called "ircserv" "ircflush" and "wserve". These complement the client but are not absolutely nessessary.
+  6. Copy the scripts, translation tables, and helpfiles (these have to be retreved seperatly from the ftp site) to their appropriate directories. These files are not absolutely nessessary. The only thing you absolutely need is the irc executable.
+  7. If make is unsuccessfull then ask your system administrator or local guru for help
 
 * * *
 
@@ -113,15 +118,15 @@ then 20 dollars a month. Some even give you a discount if you will be
 accessing them through telnet only. One of these is crl. telnet to crl.com and
 log in as "guest" for more information. Some others are...
 
-    
-    
+
+
        telnet                 login
        ------                 -----
        netcom.com             guest
        portal.com             guest
        phantom.com            guest
        texas.net              guest
-    
+
 
 There are others. Check out alt.internet.services and
 alt.internet.access.wanted
@@ -141,8 +146,8 @@ platforms (from the alt.irc faq)
 
 UNIX client-> cs-ftp.bu.edu /irc/clients
 
-    
-    
+
+
                   ftp.acsu.buffalo.edu /pub/irc
                   ftp.funet.fi /pub/unix/irc
                   coombs.anu.edu.au /pub/irc
@@ -153,14 +158,14 @@ UNIX client-> cs-ftp.bu.edu /irc/clients
                   ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/clients
                   slopoke.mlb.semi.harris.com /pub/irc/emacs
                   cs.hut.fi /pub/irchat
-    
+
 
 X11 client-> catless.ncl.ac.uk /pub
 
 (Zircon) ftp.aud.alcatel.com /tcl/code
 
-    
-    
+
+
     VMS ->        cs-ftp.bu.edu /irc/clients/vms
                   coombs.anu.edu.au /pub/irc/vmsirc
                   ftp.funet.fi  /pub/unix/irc/vms
@@ -180,7 +185,7 @@ X11 client-> catless.ncl.ac.uk /pub
     ("Homer" and    mrcnext.cso.uiuc.edu /pub/info-mac/comm/tcp
      "ircle")       ftp.funet.fi /pub/unix/irc/mac
                     ftp.ira.uka.de /pub/systems/mac
-    
+
 
 **Ed. note: This is a "classic" guide dating to the mid-90s, it is preserved here only for historical reasons. Most of the advice in here is hopelessly out of date now. If you want to play with IRCing through telnet, then just get really comfortable with the [RFC](../rfc/) because you are essentially trying to do the tedious job that your client usually does for you. -Jolo**
 
@@ -192,4 +197,3 @@ last modified Jan 14, 1997
 
 ##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
 others.
-
