@@ -1,6 +1,7 @@
 ---
 title: ircle setup guide
 author: Joseph Lo (jolo)
+layout: default
 ---
 #  ![*](/irchelp/Pix/ircle_spin.gif) Ircle Setup Guide
 ![*](/irchelp/Pix/ircle_spin.gif)

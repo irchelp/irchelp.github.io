@@ -1,6 +1,7 @@
 ---
 title: IRC Connection Problems
 author: Joseph Lo (jolo)
+layout: default
 ---
 
 # IRC Connection Problems

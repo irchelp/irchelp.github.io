@@ -4,6 +4,7 @@ author: irchelpers
 datecreated: 1 September 1993
 datechanged: 21 December 2012
 summary: this is a summary
+layout: default
 ---
 
 # Introduction

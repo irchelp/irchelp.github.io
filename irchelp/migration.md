@@ -1,6 +1,7 @@
 ---
 title: www.irchelp.org 2012 site redesign and migration
 author: Stephanie Daugherty
+layout: default
 ---
 
 ## Timeline

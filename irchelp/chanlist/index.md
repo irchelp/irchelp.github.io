@@ -1,5 +1,6 @@
 ---
 title: IRC Channel Lists
+layout: default
 ---
 
 # IRC Channel Lists

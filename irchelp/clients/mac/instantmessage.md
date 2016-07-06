@@ -1,5 +1,6 @@
 ---
 title: Instant Messaging Programs on MacOS X with IRC Support
+layout: default
 ---
 
 # Instant Messaging programs on MacOS X

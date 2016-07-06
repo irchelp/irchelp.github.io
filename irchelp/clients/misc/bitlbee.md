@@ -1,5 +1,6 @@
 ---
 title: bitlbee connecting IRC clients to other chat protocols
+layout: default
 ---
 
 # bitlbee: connecting IRC clients to other chat protocols

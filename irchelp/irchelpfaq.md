@@ -1,6 +1,7 @@
 ---
 title: The unofficial #irchelp FAQ (ufAQ)
 author: Alex Charalabidis (Apatrix)
+layout: default
 ---
 # The unofficial #irchelp FAQ (uFAQ)
 

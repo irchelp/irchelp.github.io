@@ -1,6 +1,7 @@
 ---
 title: Slack and IRC
 author: Stephanie Daugherty
+layout: default
 ---
 
 # Slack

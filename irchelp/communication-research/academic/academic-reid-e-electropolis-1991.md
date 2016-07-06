@@ -1,6 +1,7 @@
 ---
 title: Electropolis  Communication and Community on Internet Relay Chat
 author: Elizabeth M. Reid
+layout: default
 ---
 
 #### **[IRC Communication Research Resources][1]**

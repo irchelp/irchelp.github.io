@@ -1,6 +1,7 @@
 ---
 title: Using Linux (and other Unix-like systems) from the command line
 author: irchelp.org staff
+layout: default
 ---
 
 # Using Linux (and other Unix-like systems) from the command line

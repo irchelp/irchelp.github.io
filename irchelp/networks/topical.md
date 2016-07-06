@@ -1,6 +1,7 @@
 ---
 title: Topical IRC networks
 author: irchelp.org staff
+layout: default
 ---
 
 # Special Subject Networks

@@ -2,6 +2,7 @@
 title: alt.irc faq
 author: alt.irc
 summary: The FAQ from the Usenet group alt.irc
+layout: default
 ---
 
 

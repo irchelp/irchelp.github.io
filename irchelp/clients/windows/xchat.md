@@ -1,5 +1,6 @@
 ---
 title: XChat
+layout: default
 ---
   
 # XChat

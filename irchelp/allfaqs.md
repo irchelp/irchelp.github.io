@@ -1,6 +1,7 @@
 ---
 title: All Frequently Asked Questions
 author: IRCHelp.org
+layout: default
 ---
 
 # IRC Frequently Asked Questions (FAQ) and Help Files

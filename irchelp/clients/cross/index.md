@@ -1,5 +1,6 @@
 ---
 title: Cross-platform IRC clients.
+layout: default
 ---
 # Cross-platform IRC clients
 

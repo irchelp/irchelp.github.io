@@ -4,6 +4,7 @@ dateupdated: 08 May 2013
 author: Moritz Wilhelmy
 summary: Information about IRCnet as a network
 title: IRCnet
+layout: default
 ---
 # IRCNet
 

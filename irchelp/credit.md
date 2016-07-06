@@ -2,6 +2,7 @@
 title: Credits and Server Information for www.irchelp.org
 author: irchelp.org staff
 summary: A listing of all the people who've helped to bring this site to you over the years.
+layout: default
 ---
 
 # Credits & Server Info for www.irchelp.org

@@ -1,6 +1,7 @@
 ---
 title: IRCD Help (EFNet #ircd)
 author: Networked
+layout: default
 ---
 
 ##  IRCD Help (EFNet #ircd)

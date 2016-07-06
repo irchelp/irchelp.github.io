@@ -1,5 +1,6 @@
 ---
 title: Regional IRC networks
+layout: default
 ---
 
 # Regional IRC Networks

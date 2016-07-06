@@ -1,6 +1,7 @@
 ---
 title: ircd-hybrid
 author: irchelp.org staff
+layout: default
 ---
 # hybrid ircd
 
