@@ -1,10 +1,14 @@
+---
+title: Back Orifice
+author: Anthony Stirk (Upuaut), Chris Benson, Joseph Lo, Rich Lafferty
+---
 # Back Orifice
 
 by Anthony Stirk aka Upuaut
 
 Contributions from Chris Benson, Joseph Lo and Rich Lafferty.
 
-  
+
 The original version of this page is at <[http://www.irchelp.org/irchelp/secur
 ity/bo.html](http://www.irchelp.org/irchelp/security/bo.html)>
 
@@ -100,7 +104,7 @@ use one of these methods to remove Back Orifice.
 
 > **_The Automated Fix_**
 
-  
+
 This fix program (BODetect) was written by Chris Benson who works for
 Symantec. It is $20 [shareware](/irchelp/misc/shareware.html) with 30 day free
 trial and no nagging or crippling. Download it [Chris's own site](http://www.s
@@ -108,13 +112,13 @@ piritone.com/~cbenson/current_projects/backorifice/backorifice.htm) or
 [www.download.com](http://www.download.com/) or
 [www.hotfiles.com](http://www.hotfiles.com/).
 
-  
+
 Simply download and run the program, we urge you to read the accompanying
 README.TXT
 
 > **_The Manual Fix_**
 
-  
+
 This fix is for those of you who want to heed our good advice and NOT run
 programs for 'untrusted' sources. It has been used successfully to remove Back
 Orifice from an infected machine but is not as complex as the Automated Fix
@@ -135,7 +139,7 @@ mess your machine up. _**_MAKE A BACKUP !_**
 
 3. Using the **+ **to expand the branches, locate the following key :
 
-  
+
 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunServices**
 
 > ![](scrsht1.gif)
@@ -153,7 +157,7 @@ backspace make sure the key is empty), then click _O_K.
 
 8. At the DOS prompt type :
 
-  
+
 **del c:\windows\system\exe~1**
 
 #### 2.3 How can I prevent getting Back Orifice?
@@ -163,7 +167,7 @@ can't trust. Don't accept files that are 'temptingly' named PAMMY.EXE (!) for
 example . The BOServer is around 122kb in size. And if you accidentally do
 accept a file DON'T RUN IT !
 
-  
+
 Another precaution to take is to ensure that Auto-DCC-Get is disabled. Under
 the **DCC** menu, choose **Options...** and then the **Send** tab.
 
@@ -198,4 +202,3 @@ files on your hard drive. So in short yes.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

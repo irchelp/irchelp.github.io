@@ -1,3 +1,8 @@
+---
+title: IRC File Trading
+author: Joseph Lo (jolo)
+---
+
 # IRC File Trading: "Geek-centric way to get free stuff"?
 
 by Jolo@EFnet with help from many others, updated May 25, 2005
@@ -33,4 +38,3 @@ only ridicule or trouble.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

@@ -18,15 +18,3 @@ from original distribution disks or secure backups. It's not an easy fix, but
 then again you have broken your computer in a very real way by running this
 very serious Trojan attack. If a trustworthy, effective fix comes along in the
 future, we'll be sure to pass that along.
-
-Return to main [Trojan](trojan.html) page.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

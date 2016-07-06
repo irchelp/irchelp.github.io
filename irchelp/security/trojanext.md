@@ -1,3 +1,8 @@
+---
+title: How to NOT hide file extensions in Windows
+author: irchelp.org staff
+---
+
 # How to NOT hide extensions in Windows
 
 Part of the [Trojan horse attacks help
@@ -18,10 +23,10 @@ The solution is simple - just unhide the extensions.
 In Windows 2000 (and more recent):      - select Start | Settings | Control
 Panels | Folder Options
 
-- select the View tab  
-- check "show hidden files and folders"  
-- UNcheck "hide file extensions for known file types"  
-- Click OK to finish  
+- select the View tab
+- check "show hidden files and folders"
+- UNcheck "hide file extensions for known file types"
+- Click OK to finish
 
 If the above minimal directions are not enough for you, check out this
 [illustrated guide](http://www.fileinfo.com/help/windows-show-extensions.html)
@@ -52,4 +57,3 @@ take candy from strangers, and there's no free lunch in life.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

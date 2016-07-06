@@ -1,50 +1,15 @@
+---
+title: Not Cool
+author: Dan Pressnell
+---
+
 Ed. note: This is a fast, ad-free, official mirror copy of the author's
 [original version](http://dan_pressnell.tripod.com/notcool.htm). The links in
 this page will take you away from our site.
 
 * * *
 
-**Not cool...**  
-[&nbsp_place_holder;[Home](./)&nbsp_place_holder;]
-[&nbsp_place_holder;[Up](essays.htm)&nbsp_place_holder;]
-[&nbsp_place_holder;Not&nbsp_place_holder;cool...&nbsp_place_holder;] [&nbsp_p
-lace_holder;[School&nbsp_place_holder;Discipline&nbsp_place_holder;-&nbsp_plac
-e_holder;Thou&nbsp_place_holder;Shalt&nbsp_place_holder;Not&nbsp_place_holder;
-Defend&nbsp_place_holder;Thyself](school.htm)&nbsp_place_holder;] [&nbsp_place
-_holder;[Flower&nbsp_place_holder;Children&nbsp_place_holder;and&nbsp_place_ho
-lder;the&nbsp_place_holder;Hand-Me-
-Down&nbsp_place_holder;World](generation.htm)&nbsp_place_holder;] [&nbsp_place
-_holder;[My&nbsp_place_holder;Effort&nbsp_place_holder;to&nbsp_place_holder;He
-lp&nbsp_place_holder;Al&nbsp_place_holder;Gore's&nbsp_place_holder;Web&nbsp_pl
-ace_holder;Site](helpgore.html)&nbsp_place_holder;] [&nbsp_place_holder;[My&nb
-sp_place_holder;Horrible&nbsp_place_holder;Dining&nbsp_place_holder;Experience
-&nbsp_place_holder;at&nbsp_place_holder;IHOP&nbsp_place_holder;in&nbsp_place_h
-older;Killeen](ihop.html)&nbsp_place_holder;] [&nbsp_place_holder;[My&nbsp_pla
-ce_holder;Webpage&nbsp_place_holder;Design&nbsp_place_holder;Philosophy](webde
-s.htm)&nbsp_place_holder;] [&nbsp_place_holder;[When&nbsp_place_holder;Restaur
-ants&nbsp_place_holder;Stop&nbsp_place_holder;Serving&nbsp_place_holder;Food](
-restaur.htm)&nbsp_place_holder;]
-[&nbsp_place_holder;[Soccer](soccer.htm)&nbsp_place_holder;] [&nbsp_place_hold
-er;[My&nbsp_place_holder;thoughts&nbsp_place_holder;on&nbsp_place_holder;the&n
-bsp_place_holder;Internet](inet.htm)&nbsp_place_holder;] [&nbsp_place_holder;[
-Are&nbsp_place_holder;you&nbsp_place_holder;the&nbsp_place_holder;victim&nbsp_
-place_holder;of&nbsp_place_holder;a&nbsp_place_holder;stalker?](stalked.htm)&n
-bsp_place_holder;] [&nbsp_place_holder;[Being&nbsp_place_holder;Important&nbsp
-_place_holder;with&nbsp_place_holder;a&nbsp_place_holder;Cell&nbsp_place_holde
-r;Phone](cellphones.htm)&nbsp_place_holder;] [&nbsp_place_holder;[Term&nbsp_pl
-ace_holder;Limits&nbsp_place_holder;in&nbsp_place_holder;Politics](termlimits.
-htm)&nbsp_place_holder;]
-
-&nbsp_place_holder;
-
-[How&nbsp_place_holder;to&nbsp_place_holder;be&nbsp_place_holder;a&nbsp_place_
-holder;Hacker](howtohack.htm)
-
-[Denial&nbsp_place_holder;of&nbsp_place_holder;Service&nbsp_place_holder;Attac
-ks](dosa.htm)
-
-[Feedback&nbsp_place_holder;from&nbsp_place_holder;Hackers](hfeed.htm)
-
+**Not cool...**
 ## "Hackers" -- People who think it's cool to be a jerk.
 
 Unfortunately, one of the problems with the internet is that there are some
@@ -121,9 +86,6 @@ type "fuck you" to somebody. It doesn't make sense, but there it is.
 For all the egos these people have, they are amazingly incompetent. Look at
 this usenet post:
 
-&nbsp_place_holder;
-
-&nbsp_place_holder;
 
 `Subject:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_
 holder;&nbsp_place_holder; Stupid Question !&nbsp_place_holder;
@@ -138,7 +100,7 @@ er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
 
 Newsgroups: alt.irc&nbsp_place_holder;
 
-  
+
 Can any1 talk me how to go to #hacker Channal of irc ! Please ! Thanx Very
 Much 4 Ur Help !&nbsp_place_holder;`
 
@@ -206,7 +168,7 @@ Newsgroups:&nbsp_place_holder;&nbsp_place_holder; alt.hackers.malicious`
 
 `Dear Fellow Hacker,
 
-  
+
 &nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&n
 bsp_place_holder;&nbsp_place_holder;&nbsp_place_holder; I need some addons to
 IRC that will let me MASS-kick, MASS-ban, flood and do all that nice stuff!!!
@@ -216,10 +178,10 @@ web?? If so, gimme an e-mail, please... `
 
 ` Thanks
 
-  
+
 Thug4Life
 
-  
+
 milesjames@earthlink.net`
 
 "Thug4Life" just can't do his "nice stuff" yet, because he doesn't have any
@@ -645,13 +607,3 @@ so.
 * * *
 
 My E-Mail Address: [dan_pressnell@yahoo.com](mailto:dan_pressnell@yahoo.com)
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

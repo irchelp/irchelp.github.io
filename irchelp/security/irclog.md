@@ -1,3 +1,8 @@
+---
+title: Logging and Reporting IRC Abuse
+author: prysm, Joseph Lo (jolo)
+---
+
 # Logging and Reporting IRC Abuses
 
 by prysm with minor edits by Jolo
@@ -50,9 +55,9 @@ troublemakers often use these commands, and you wouldn't want to be mistaken
 for one of those. Some servers will not allow you to do these commands unless
 you are connected to the server yourself.
 
-  * **/stats p server.name.here** will show you currently connected opers on that server (and some may show idle time as well) 
-  * **/trace server.name.here** does much the same thing. 
-  * **/stats o server.name.here** shows the list of opers authorized by that server, but it does not guarantee they are using that nick or even online at the moment. **/whois nick nick** (typing the nick twice) should show you their idle time. 
+  * **/stats p server.name.here** will show you currently connected opers on that server (and some may show idle time as well)
+  * **/trace server.name.here** does much the same thing.
+  * **/stats o server.name.here** shows the list of opers authorized by that server, but it does not guarantee they are using that nick or even online at the moment. **/whois nick nick** (typing the nick twice) should show you their idle time.
 
 **Remember, If an oper says they will not or cannot help you, please respect the answer.** Opers are usually volunteers, they are not paid by you or anybody else, so they are not obligated to do anything for you.
 
@@ -117,4 +122,3 @@ a full screen change, then take your screen image capture.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

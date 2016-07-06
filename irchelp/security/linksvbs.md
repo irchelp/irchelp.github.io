@@ -5,6 +5,7 @@ datemodified: 12 Jan 2000
 status: historical
 layout: default
 ---
+
 *Editor's note: This document pertains to the removal of a trojan horse which most commonly affected Windows 95, Windows 98, Windows ME, and occasional Windows XP systems. Current antimalware software should detect and remove this trojan horse - the instructions below are obsolete and may not work correctly on more modern operating systems.*
 
 
@@ -34,20 +35,17 @@ Follow these steps if you understand what they do and feel comfortable
 executing them. If not, you should seek help from other sources, see our
 [Trojan Horse help page](trojan.html).
 
-  * Using Regedit navigate to HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\ CurrentVersion\Run 
-  * Delete the key rundll=rundll.vbs 
-  * Delete the file c:\windows\links.vbs 
-  * Delete the file c:\windows\system\rundll.vbs 
-  * Close regedit 
-  * Remove all copies of mIRC and pirch 
-  * Reboot 
-  * Recheck for the files created by the trojan 
-  * Reinstall your IRC client 
-  * Inform all users in your Microsoft Outlook Address book that you have inadvertantly sent them this trojan. 
+  * Using Regedit navigate to HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\ CurrentVersion\Run
+  * Delete the key rundll=rundll.vbs
+  * Delete the file c:\windows\links.vbs
+  * Delete the file c:\windows\system\rundll.vbs
+  * Close regedit
+  * Remove all copies of mIRC and pirch
+  * Reboot
+  * Recheck for the files created by the trojan
+  * Reinstall your IRC client
+  * Inform all users in your Microsoft Outlook Address book that you have inadvertantly sent them this trojan.
 
 Updated 12 Jan 2000
 
 dracus
-
-
-

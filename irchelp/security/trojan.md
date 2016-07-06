@@ -1,3 +1,8 @@
+---
+title: Trojan Horses
+author: irchelp.org staff
+---
+
 # Trojan Horse Attacks
 
 If you were referred here, you may have been "hacked" by a Trojan horse
@@ -91,7 +96,7 @@ attacking them or trying to infect them!
 
 ## III. How do I avoid getting infected in the future?
 
-**You must be certain of BOTH the source AND content of each file you download!** In other words, you need to be sure that you trust not only the person or file server that gave you the file, but also the contents of the file itself. 
+**You must be certain of BOTH the source AND content of each file you download!** In other words, you need to be sure that you trust not only the person or file server that gave you the file, but also the contents of the file itself.
 
 * Know the source.
 * Ask questions. Even when you trust the source, it's easy for a trojan to impersonate a user when it has control of their computer. Ask questions to determine what the file is before you download.
@@ -105,13 +110,13 @@ Here are some practical tips to avoid getting infected (again). For more
 general security information, please see our main [security help
 page](index.html).
 
-  1. **NEVER download blindly from people or sites which you aren't 100% sure about.** In other words, as the old saying goes, don't accept candy from strangers. If you do a lot of [file downloading](warez.html), it's often just a matter of time before you fall victim to a trojan. 
-  2. **Even if the file comes from a friend, you still must be sure what the file is before opening it**, because many trojans will automatically try to spread themselves to friends in an email address book or on an IRC channel. There is seldom reason for a friend to send you a file that you didn't ask for. When in doubt, ask them first, and scan the attachment with a fully updated anti-virus program. 
-  3. **Beware of hidden file extensions!** Windows by default hides the last extension of a file, so that innocuous-looking "susie.jpg" might really be "susie.jpg.exe" - an executable trojan! To reduce the chances of being tricked, [unhide those pesky extensions](trojanext.html). 
-  4. **NEVER use features in your programs that automatically get or preview files.** Those features may seem convenient, but they let anybody send you anything which is extremely reckless. For example, never turn on "auto DCC get" in mIRC, instead ALWAYS screen every single file you get manually. Likewise, disable the preview mode in Outlook and other email programs. 
-  5. **Never blindly type commands that others tell you to type, or go to web addresses mentioned by strangers, or run pre-fabricated programs or scripts** (not even popular ones). If you do so, you are potentially trusting a stranger with control over your computer, which can lead to trojan infection or other serious harm. 
-  6. **Don't be lulled into a false sense of security just because you run anti-virus programs**. Those do **not** protect perfectly against many viruses and trojans, even when fully up to date. Anti-virus programs should not be your front line of security, but instead they serve as a backup in case something sneaks onto your computer. 
-  7. Finally, don't download an executable program just to "check it out" - if it's a trojan, the first time you run it, you're already infected! 
+  1. **NEVER download blindly from people or sites which you aren't 100% sure about.** In other words, as the old saying goes, don't accept candy from strangers. If you do a lot of [file downloading](warez.html), it's often just a matter of time before you fall victim to a trojan.
+  2. **Even if the file comes from a friend, you still must be sure what the file is before opening it**, because many trojans will automatically try to spread themselves to friends in an email address book or on an IRC channel. There is seldom reason for a friend to send you a file that you didn't ask for. When in doubt, ask them first, and scan the attachment with a fully updated anti-virus program.
+  3. **Beware of hidden file extensions!** Windows by default hides the last extension of a file, so that innocuous-looking "susie.jpg" might really be "susie.jpg.exe" - an executable trojan! To reduce the chances of being tricked, [unhide those pesky extensions](trojanext.html).
+  4. **NEVER use features in your programs that automatically get or preview files.** Those features may seem convenient, but they let anybody send you anything which is extremely reckless. For example, never turn on "auto DCC get" in mIRC, instead ALWAYS screen every single file you get manually. Likewise, disable the preview mode in Outlook and other email programs.
+  5. **Never blindly type commands that others tell you to type, or go to web addresses mentioned by strangers, or run pre-fabricated programs or scripts** (not even popular ones). If you do so, you are potentially trusting a stranger with control over your computer, which can lead to trojan infection or other serious harm.
+  6. **Don't be lulled into a false sense of security just because you run anti-virus programs**. Those do **not** protect perfectly against many viruses and trojans, even when fully up to date. Anti-virus programs should not be your front line of security, but instead they serve as a backup in case something sneaks onto your computer.
+  7. Finally, don't download an executable program just to "check it out" - if it's a trojan, the first time you run it, you're already infected!
 
 ## IV. How do I get rid of trojans?!?
 
@@ -122,7 +127,7 @@ Good luck!
 
 ### To repair or to reformat?
 
-The decision whether to attempt to repair an infected computer or reformat and do a clean reinstallation is a difficult one. 
+The decision whether to attempt to repair an infected computer or reformat and do a clean reinstallation is a difficult one.
 On one hand, no antimalware software will ever be able to provide 100% assurance that all malware has been removed. On the other hand, most infections are from the same couple of hundred actively circulating trojans, that are well understood and reliably removed by the appropriate removal tool, and a clean reformat and reinstall with take anywhere from several hours to several days.
 
 As a practical matter, it's worth trying to repair infected computers first. Most of the time, you can completely get rid of the infection quickly and easily. If an infection persistantly returns, it's likely that it wasn't completely removed in the first place, at which point stronger measures should be considered.
@@ -130,8 +135,8 @@ As a practical matter, it's worth trying to repair infected computers first. Mos
 ### Getting Help
 
 There are several resources for one-on-one assistance with malware issues, including trojan horses. If you aren't sure what to do, you can try one of the following:
-  
-  * **IRC Help Channels**: If you're the type that needs some hand-holding, you can find trojan/virus removal help on IRC itself, such as EFnet #dmsetup. These experts will try to figure out which trojan(s) you have and offer you advice on how to fix it. The previous directions were in fact adapted from advice given by EFnet #dmsetup. (See our [networks page](/irchelp/networks) if you need help connecting to those networks.) 
+
+  * **IRC Help Channels**: If you're the type that needs some hand-holding, you can find trojan/virus removal help on IRC itself, such as EFnet #dmsetup. These experts will try to figure out which trojan(s) you have and offer you advice on how to fix it. The previous directions were in fact adapted from advice given by EFnet #dmsetup. (See our [networks page](/irchelp/networks) if you need help connecting to those networks.)
   * **Your antimalware vendor**: If you are paying for security software, you may be entitled to support from the vendor.
   * **Your PC manufacturer**: If you are under a support agreement, or some warranties, your PC manufacturer may provide malware removal assistance.
   * **Professional Repair Services**: A professional PC repair service can be contracted locally for assistance with removing viruses or trojans.
@@ -140,9 +145,9 @@ There are several resources for one-on-one assistance with malware issues, inclu
 ### Repairing the Damage
 
 
-  1. **Anti-Virus Software**: _Some_ of these can handle _most_ of the well known trojans, but _none_ are perfect, no matter what their advertising claims. You absolutely MUST make sure you have the very latest update files for your programs, or else they will miss the latest trojans. Compared to traditional viruses, today's trojans evolve much quicker and come in many seemingly innocuous forms, so anti-virus software is always going to be playing catch up. Also, if they fail to find every trojan, anti-virus software can give you a false sense of security, such that you go about your business not realizing that you are still dangerously compromised. There are many products to choose from, but the following are generally effective: [AVP](http://www.kaspersky.com/products.html), [PC-cillin](http://www.antivirus.com/pc-cillin/), and [McAfee VirusScan](http://www.mcafee.com/). All are available for immediate downloading typically with a 30 day free trial. For a more complete review of all major anti-virus programs, including specific configuration suggestions for each, see the HackFix Project's [anti-virus software page](http://www.hackfix.org/software/antivirus.html) [all are ext. links]. When you are done, make sure you've updated Windows with all [security patches](http://windowsupdate.microsoft.com) [ext. link]. 
+  1. **Anti-Virus Software**: _Some_ of these can handle _most_ of the well known trojans, but _none_ are perfect, no matter what their advertising claims. You absolutely MUST make sure you have the very latest update files for your programs, or else they will miss the latest trojans. Compared to traditional viruses, today's trojans evolve much quicker and come in many seemingly innocuous forms, so anti-virus software is always going to be playing catch up. Also, if they fail to find every trojan, anti-virus software can give you a false sense of security, such that you go about your business not realizing that you are still dangerously compromised. There are many products to choose from, but the following are generally effective: [AVP](http://www.kaspersky.com/products.html), [PC-cillin](http://www.antivirus.com/pc-cillin/), and [McAfee VirusScan](http://www.mcafee.com/). All are available for immediate downloading typically with a 30 day free trial. For a more complete review of all major anti-virus programs, including specific configuration suggestions for each, see the HackFix Project's [anti-virus software page](http://www.hackfix.org/software/antivirus.html) [all are ext. links]. When you are done, make sure you've updated Windows with all [security patches](http://windowsupdate.microsoft.com) [ext. link].
   2. **Anti-Trojan Programs**: These programs are the most effective against trojan horse attacks, because they specialize in trojans instead of general viruses. A popular choice is [The Cleaner](http://www.moosoft.com/), $30 commercial software with a 30 day free trial. To use it effectively
-  When you are done, make sure you've updated Windows with all [security patches](http://windowsupdate.microsoft.com) [ext. link], then change all your passwords because they may have been seen by every "hacker" in the world. 
+  When you are done, make sure you've updated Windows with all [security patches](http://windowsupdate.microsoft.com) [ext. link], then change all your passwords because they may have been seen by every "hacker" in the world.
 
 #### Using The Cleaner effectively
 
@@ -155,10 +160,10 @@ Follow these instructions carefully, if you skip a step, your system may still b
 3. Run The Cleaner by clicking on the desktop icon created.
 4. Press the Update tab then the Check for Updates button.
 5. Close The Cleaner and reboot your computer into Safe Mode -- If you do not know how to boot into Safe Mode, instructions are at http://support.microsoft.com/kb/315222
-6. Unplug your modem during the scan and leave it unplugged until instructed otherwise. 
+6. Unplug your modem during the scan and leave it unplugged until instructed otherwise.
 7. When your computer reboots, start The Cleaner AS STEP 3, select Scan, then select Full Scan and Use Heuristics and then select Start then select all your drives and then select Ok.
 8. When you are finished with the above, reboot again, plug your modem back in, and update your Windows at http://windowsupdate.microsoft.com
-9. Change ALL your passwords, and review your accounts for suspicious access. Trojan horses will usually capture sensitive information, including any passwords that were saved on or typed into the computer during the time it was infected. 
+9. Change ALL your passwords, and review your accounts for suspicious access. Trojan horses will usually capture sensitive information, including any passwords that were saved on or typed into the computer during the time it was infected.
 10. Finally, review outstanding authorizations on sites you use - changing your password alone isn't enough to lock someone out of GMail, Twitter, Hotmail, Facebook, and many other services that issue authorization tokens to third party applications. See below for specific advice for common services.
 
 #### Instructions for securing access to online services
@@ -190,7 +195,7 @@ Follow these instructions carefully, if you skip a step, your system may still b
 
 This will take several hours, and require some degree of technical competancy. If you are not up to the task a professional repair shop can be paid to perform these steps.
 
- 
+
 
 
 
@@ -204,6 +209,3 @@ information.
   * [How to unhide Windows file extensions](trojanext.html)
 
 * * *
-
-
-

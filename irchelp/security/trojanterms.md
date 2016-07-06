@@ -1,3 +1,8 @@
+---
+title: Trojan Horses or Vorus
+author: Joseph Lo (jolo)
+---
+
 # Trojan Horse or Virus?
 
 by Joseph Lo aka Jolo
@@ -20,15 +25,15 @@ possible.
 
 ## Definitions
 
-**Virus**     A virus is a program that propagates itself by infecting other programs on the same computer. Viruses can do serious damage, such as erasing your files or your whole disk, or they may just do silly/annoying things like pop up a window that says "Ha ha you are infected!" True viruses cannot spread to a new computer without human assistance, such as if you trade files with a friend and give him an infected file (such as on a floppy or by an email attachment). 
+**Virus**     A virus is a program that propagates itself by infecting other programs on the same computer. Viruses can do serious damage, such as erasing your files or your whole disk, or they may just do silly/annoying things like pop up a window that says "Ha ha you are infected!" True viruses cannot spread to a new computer without human assistance, such as if you trade files with a friend and give him an infected file (such as on a floppy or by an email attachment).
 
-**Worm**     Like a virus, a worm is also a program that propagates itself. Unlike a virus, however, a worm can spread itself automatically over the network from one computer to the next. Worms are not clever or evil, they just take advantage of automatic file sending and receiving features found on many computers. 
+**Worm**     Like a virus, a worm is also a program that propagates itself. Unlike a virus, however, a worm can spread itself automatically over the network from one computer to the next. Worms are not clever or evil, they just take advantage of automatic file sending and receiving features found on many computers.
 
-**Trojan horse**     This is a very general term, referring to programs that appear desirable, but actually contain something harmful. The harmful contents could be something simple, for example you may download what looks like a free game, but when you run it, it erases every file in that directory. The trojan's contents could also be a virus or worm, which then spread the damage. See our [Trojan horse help page](trojan.html) for more information. 
+**Trojan horse**     This is a very general term, referring to programs that appear desirable, but actually contain something harmful. The harmful contents could be something simple, for example you may download what looks like a free game, but when you run it, it erases every file in that directory. The trojan's contents could also be a virus or worm, which then spread the damage. See our [Trojan horse help page](trojan.html) for more information.
 
-**Cracker**     Crackers are often mistakenly called "hackers". Crackers are the "bad guys" who seek to "crack" or gain unauthorized access to computers, typically to do malicious things e.g. to steal credit card information or crash the computer. Crackers might do this by writing a virus, worm, or Trojan horse. Alternatively, they may just exploit weaknesses in the computer's operating system in order to gain entry. Many crackers will install a "backdoor" which allows the cracker to "remote control" your computer over the internet, such as to distribute child porn or perform a [denial of service attack](/irchelp/nuke/) against somebody else. Most crackers are just bored, anti-social kids who aren't particularly smart and just take advantage of well-known, existing exploits or the gullibility of the typical internet user. 
+**Cracker**     Crackers are often mistakenly called "hackers". Crackers are the "bad guys" who seek to "crack" or gain unauthorized access to computers, typically to do malicious things e.g. to steal credit card information or crash the computer. Crackers might do this by writing a virus, worm, or Trojan horse. Alternatively, they may just exploit weaknesses in the computer's operating system in order to gain entry. Many crackers will install a "backdoor" which allows the cracker to "remote control" your computer over the internet, such as to distribute child porn or perform a [denial of service attack](/irchelp/nuke/) against somebody else. Most crackers are just bored, anti-social kids who aren't particularly smart and just take advantage of well-known, existing exploits or the gullibility of the typical internet user.
 
-**Hacker**     When used properly, this term refers to an elite breed of "good guys" who are talented computer programmers. They enjoy solving challenging problems or exploring the capabilities of computers. Like a carpenter wielding an axe to make furniture, the hacker does good things with his skills. True hackers subscribe to a code of ethics and look down upon the illegal and immoral activity of crackers (defined above). When the press uses "hackers" to describe virus authors or computer criminals who commit theft or vandalism, it is not only incorrect but also insulting to true hackers. 
+**Hacker**     When used properly, this term refers to an elite breed of "good guys" who are talented computer programmers. They enjoy solving challenging problems or exploring the capabilities of computers. Like a carpenter wielding an axe to make furniture, the hacker does good things with his skills. True hackers subscribe to a code of ethics and look down upon the illegal and immoral activity of crackers (defined above). When the press uses "hackers" to describe virus authors or computer criminals who commit theft or vandalism, it is not only incorrect but also insulting to true hackers.
 
 ## Land of Confusion
 
@@ -68,4 +73,3 @@ downloading the **trojan** that installs that backdoor in the first place.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

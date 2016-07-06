@@ -1,6 +1,11 @@
+---
+title: Social Engineering
+author: irchelp.org staff
+---
+
 # Social Engineering
 
-Social Engineering refers to a version of the classical confidence game. It's no small secret that the weakest link in computer security is often the person at the keyboard. 
+Social Engineering refers to a version of the classical confidence game. It's no small secret that the weakest link in computer security is often the person at the keyboard.
 
 A social engineer takes advantage of the human tendency to trust, and may additionally take advantage of a user's lack of understanding of the system they are working with.
 
@@ -26,5 +31,3 @@ The same tactics are also used for channel takeovers, and to give attackers a la
 * Make sure you understand what any key combinations or commands will do before you execute them.
 * Don't accept unsolicited files from strangers, they might be Trojans.
 * Be especially wary of unsolicited "help".
-
-

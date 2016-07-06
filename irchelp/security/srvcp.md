@@ -1,3 +1,8 @@
+---
+title: srvcp trojan horse
+author: irchelp.org staff
+---
+
 # srvcp Trojan Horse
 
 This page is part of the Trojan Horse Attacks Help Page at [http://www.irchelp
@@ -8,12 +13,12 @@ Have you suddenly been finding yourself K-lined (banned) on servers? Since the
 middle of May, thousands of K-lines have been put in with these or similar
 reasons:
 
-  * Drone infected 
-  * Srvcp-infected 
-  * Drones not allowed 
-  * Trojan infected 
-  * clonebots prohibited 
-  * Drone abuser 
+  * Drone infected
+  * Srvcp-infected
+  * Drones not allowed
+  * Trojan infected
+  * clonebots prohibited
+  * Drone abuser
 
 If any of those look familiar, suspect that you have run a file which
 installed the srvcp trojan on your computer. It may also be that if you are on
@@ -45,13 +50,3 @@ information and directions for a specific, manual fix.
 
 More general advice regarding trojans may be found on our [Trojan Horse
 Attacks](trojan.html) help page.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
