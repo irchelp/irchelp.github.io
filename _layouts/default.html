@@ -40,6 +40,7 @@
 
     <div id="container" class="container">
 <!--
+            TODO: fix block header here
             { block header %}
             <h1><a href="{{ site.root }}">{% if page.title %}{{ site.title }}{% endif %}{% if page.title %}{{ page.title }}{% endif %}</a></h1>
             { endblock %}
@@ -50,8 +51,10 @@
             </div>
 
         <footer>
-
+            <!-- TODO: fix block footer here
+            { block footer %} -->
             <p>All documents &copy; irchelp.org or original authors 2016 <br />{{ piecrust.branding|raw }}</p>
+            <!-- { endblock %} -->
         </footer>
     </div>
     {{ piecrust.debug_info|raw }}
