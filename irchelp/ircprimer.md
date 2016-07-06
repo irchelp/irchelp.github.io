@@ -1,5 +1,6 @@
 ---
 title: A Short IRC Primer
+layout: default
 ---
 
 _ [ Note: At 93 K in size, this "short" help file is anything but short, and

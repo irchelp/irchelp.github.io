@@ -1,5 +1,6 @@
 ---
 title: An IRC Tutorial
+layout: default
 ---
 
 # An IRC Tutorial

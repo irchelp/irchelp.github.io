@@ -1,5 +1,6 @@
 ---
 title: IRC Clients for Windows
+layout: default
 ---
 
 # IRC Clients for Windows

@@ -1,6 +1,7 @@
 ---
 title: ircd information
 author: irchelp.org staff
+layout: default
 ---
 
 

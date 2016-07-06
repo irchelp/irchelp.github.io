@@ -1,6 +1,7 @@
 ---
 title: ircd-ratbox
 author: irchelp.org staff
+layout: default
 ---
 # ratbox ircd
 

@@ -1,6 +1,7 @@
 ---
 title: The Operator's Guide
 status: historical
+layout: default
 ---
 
 **Editor's note**: This is a classic help file dating back to the 1990s when IRC was very new. We still keep this file here for historic value, and also because the general information is still accurate. If you are interested in other, more up to date help files, see [IRC FAQs and Help Files](/irchelp/faq.html). In particular, we completely rewrote this guide to create [The New IRC Channel Operator's Guide](/irchelp/changuide.html) which covers all the information you need to run a stable, successful channel. 

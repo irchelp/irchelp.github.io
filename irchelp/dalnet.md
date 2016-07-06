@@ -4,6 +4,7 @@ author: irchelpers
 datechanged: 1 December 2012
 status: historical
 summary: A server list and news for Dalnet
+layout: default
 ---
 
 *Editor's note: This document came about during a period of severe denial of service attacks directed against the DALNet IRC Network, during which EFNet #irchelp was flooded with questions from users that couldn't connect to DALNet.*

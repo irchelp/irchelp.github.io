@@ -2,6 +2,7 @@
 title: epic
 author: Stephanie Daugherty
 summary: Information about epic
+layout: default
 ---
 
 # EPIC

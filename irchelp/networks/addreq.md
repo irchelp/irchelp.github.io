@@ -1,6 +1,7 @@
 ---
 title: Adding yourself to our networks list
 author: irchelp.org staff
+layout: default
 ---
 
 # Adding yourself to our networks list

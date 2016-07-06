@@ -1,6 +1,7 @@
 ---
 title: WSIRC
 status: historical
+layout: default
 ---
 
 *Editor's note: The WSIRC mentioned here was an early 1990s IRC client for Windows 3.1 systems, one of the first to be offered for Windows. This client is long obsolete, but the information on it is retained for historical interest.*

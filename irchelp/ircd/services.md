@@ -1,6 +1,7 @@
 ---
 title: Understanding IRC Services
 author: Stephanie Daugherty
+layout: default
 ---
 
 # Understanding IRC Services

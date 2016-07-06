@@ -1,6 +1,7 @@
 ---
 title: A Hitchhiker's Guide to ircII for GAS Users
 status: historical
+layout: default
 ---
 
 A Hitchhiker's Guide to ircII for GAS Users

@@ -2,6 +2,7 @@
 title: IRC (EFnet) by telnet
 author: Ron Ritzman
 status: historical
+layout: default
 ---
 
 *Editor's Note: This document is outdated, and is retained only for historical interest.*

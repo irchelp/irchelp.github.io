@@ -1,5 +1,6 @@
 ---
 title: General IRC networks
+layout: default
 ---
 
 # General IRC Networks

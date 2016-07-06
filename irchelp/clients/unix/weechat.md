@@ -1,5 +1,6 @@
 ---
 title: weechat
+layout: default
 ---
 
 [WeeChat](www.weechat.org) is a terminal based IRC client. 

@@ -1,5 +1,6 @@
 ---
 title: help page for irchelp archive
+layout: default
 ---
 # Help page for #IRChelp archive
 

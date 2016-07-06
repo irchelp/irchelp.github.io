@@ -1,5 +1,6 @@
 ---
 title: Snak
+layout: default
 ---
 
 [ ![*](snak.jpg)](http://www.snak.com/Snak.html)

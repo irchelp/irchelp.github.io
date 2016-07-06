@@ -1,5 +1,6 @@
 ---
 title: bersirc
+layout: default
 ---
 
 # Bersirc

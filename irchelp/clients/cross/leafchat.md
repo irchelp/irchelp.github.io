@@ -1,5 +1,6 @@
 ---
 title: LeafChat
+layout: default
 ---
 
 ## Overview

@@ -1,6 +1,7 @@
 ---
 title: Using Linux/Unix Clients on Windows
 author: Stephanie Daugherty
+layout: default
 ---
 
 

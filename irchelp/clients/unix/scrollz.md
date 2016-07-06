@@ -1,5 +1,6 @@
 ---
 title: ScrollZ
+layout: default
 ---
 
 [ScrollZ](http://www.scrollz.com/), offers an ircII like client with extensive script-like features already built in.

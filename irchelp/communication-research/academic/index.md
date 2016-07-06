@@ -1,5 +1,6 @@
 ---
 title: Academic Resources
+layout: default
 ---
 
 #### **IRC Communication Research Resources**

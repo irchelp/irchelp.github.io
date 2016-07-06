@@ -1,5 +1,6 @@
 ---
 title: IRC Client Directory
+layout: default
 ---
 
 #IRC Clients

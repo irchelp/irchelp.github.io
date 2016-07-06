@@ -3,6 +3,7 @@ title: Identification and removal of links.vbs trojan horse
 author: Stephanie Daugherty
 datemodified: 12 Jan 2000
 status: historical
+layout: default
 ---
 *Editor's note: This document pertains to the removal of a trojan horse which most commonly affected Windows 95, Windows 98, Windows ME, and occasional Windows XP systems. Current antimalware software should detect and remove this trojan horse - the instructions below are obsolete and may not work correctly on more modern operating systems.*
 
