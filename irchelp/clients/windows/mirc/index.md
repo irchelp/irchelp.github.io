@@ -16,7 +16,6 @@ mIRC is by far the most popular Internet Relay Chat client for Windows and
 thus among all users. This page is devoted to the unofficial support of this
 shareware product.
 
-* * *
 
 ## Official mIRC home page
 
@@ -24,18 +23,22 @@ If this page doesn't answer all your questions, go to the official **[mIRC
 home page](http://www.mirc.com/)** [ext. link] which contains a wealth of
 information on mIRC: getting it, setting it up, using it, etc.
 
-* * *
+## Recommended Support Channels
+Many of us in EFNet, Freenode, and IRCNet #irchelp are familiar with mIRC and can
+help you with basic questions regarding it.
+
+There are however, a number of other channels which deal specifically with mIRC,
+and, if your question is particularly complex or has to do with scripting, they may
+be better able to help you.
+
+* #mirc on EFnet
+* #mirchelp on EFnet
+* ##mirc on freenode
 
 ## Download mIRC
 
-*  **[What's
-New?](http://www.mirc.com/news.html)** official announcement of new features
-and changes [ext. link]
-
-*  **[Official download
-site](http://www.mirc.com/get.html)** at mIRC home page [ext. link]
-
-* * *
+*  **[What's New?](http://www.mirc.com/news.html)** official announcement of new features and changes [ext. link]
+*  **[Official download site](http://www.mirc.com/get.html)** at mIRC home page [ext. link]
 
 ## Frequently asked questions (FAQ)
 
@@ -46,26 +49,18 @@ really handy. On top of answering questions, the FAQ will provide you with a
 lot of additional information on mIRC's powerful features. It includes a
 tutorial on aliases, popups and on 'programming' the Tools/Remote section.
 
-* * *
-
 ## Setup and Installation
 
-*  **[Instructions for Net Newbies and Download
-Dummies](http://www.mirc.com/install.html)** [ext. link]
-
-* * *
+*  **[Instructions for Net Newbies and Download Dummies](http://www.mirc.com/install.html)** [ext. link]
 
 ## Using mIRC and scripting
 
-*  **[mIRC script debugging
-guide](http://kthx.net/ftb/)** [ext. link]     With scripting now easier than
+*  **[mIRC script debugging guide](http://kthx.net/ftb/)** [ext. link]     With scripting now easier than
 ever, sometimes it seems like the art of debugging is becoming lost.
 Fortunately, argv[0], an experienced helper on EFnet #mIRC, has patiently
 shared all his great tips to help you find your script bugs!
 
-*  **Version 6 Hot Links**     These pages (all
-external links) provide information to ease the dramatic transition to version
-6.x.
+*  **Version 6 Hot Links**     These pages (all external links) provide information to ease the dramatic transition to version 6.x.
 
   * first of all, `/help multi-server`
   * [v6 - Help you can use!](http://mirc.stealth.net/v6Tips.html) - quick introduction to new commands and scripting changes
@@ -160,8 +155,6 @@ of mIRC's /background switches and options.
 *  **General IRC help**
 
 * [ The IRC Prelude: Newbie's Introduction to IRC](/irchelp/new2irc.html) (many non-English translations).
-
-* * *
 
 mIRC is [shareware](/irchelp/misc/shareware.html). mIRC is a registered
 trademark of mIRC Co. Ltd.
