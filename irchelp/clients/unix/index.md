@@ -1,4 +1,10 @@
-#Unix/Linux IRC Clients
+---
+title: Unix/Linux IRC CLients
+author: irchelp.org staff
+layout: default
+---
+
+# Unix/Linux IRC Clients
 
 ## Terminal
 
@@ -28,11 +34,11 @@ XChat is easily the most popular of the X11 clients - it's lightweight, scriptab
 
 
 ### Konversation
-Konversation is the default choice out of the two IRC clients shipped with the KDE desktop. 
+Konversation is the default choice out of the two IRC clients shipped with the KDE desktop.
 
 
 ### ChatZilla
 
-Using the same framework that powers Firefox and SeaMonkey as it's runtime, ChatZilla is portable to any operating system where Firefox or SeaMonkey can run. It provides a very clean, modern interface, and can be customized extensively with CSS and JavaScript. 
+Using the same framework that powers Firefox and SeaMonkey as it's runtime, ChatZilla is portable to any operating system where Firefox or SeaMonkey can run. It provides a very clean, modern interface, and can be customized extensively with CSS and JavaScript.
 
 ChatZilla is the best choice for those that want a consistent graphical experience between multiple different desktop environments and operating systems. It's also a great option for anyone who needs to get a fully functional client up and running quickly on systems with Firefox installed, as it's readily available as an extension from the Mozilla Addons site.
