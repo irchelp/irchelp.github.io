@@ -1,9 +1,17 @@
+---
+title: Undernet ircd.conf guide
+layout: default
+status: historical
+author: nap, _dl
+---
+
 # ircdconf
 
+**Editor's note: This is an ancient guide and likely does not reflect current software or practices of Undernet.**
 * * *
-    
-    
-    
+
+
+
     # -----------------------------------------------------------------------------
     #                            IRC configuration file
     # -----------------------------------------------------------------------------
@@ -16,7 +24,7 @@
     # your changes or search for %%%%
     #
     # --- technical details : --------
-    # 
+    #
     # This ircd.conf uses m4 to lighten the configuration work.
     # You need to have #define M4_PREPROC in the server config.h
     # for this to work, and have a file called "ircd.m4" in the IRCD directory.
@@ -168,7 +176,7 @@
     # just skip those 2 next lines, don't edit them !
     M:SERVERNAME.UnderNet.org::SERVERTEXT:SERVERPORT
     A:ADMINLOCATION:ADMINISTRATOR:ADMIN_EMAIL
-    
+
     # -----------------------------------------------------------------------------
     # Use the following to accept clients:
     # The first parameter should be an IP address, second a hostname.
@@ -180,22 +188,22 @@
     # They only put the matching clients in the same class...
     # %%%%
     CLIENT_DOAUTH(*)
-    # Most french servers have no authd 
+    # Most french servers have no authd
     #CLIENT_NOAUTH(*.fr)
-    
+
     # -----------------------------------------------------------------------------
     # %%%% Use the following to define operators:
     #   OPERATOR(nick,user@host,password)
     OPERATOR(mynick,*@mymachine.mysite.etc,put_here_a_crypted_passwd)
     # if you use LOCAL Operator defines in config.h :
     # LOCOP(anothernick,*@mymachine.mysite.etc,put_here_a_crypted_passwd)
-    
+
     # -----------------------------------------------------------------------------
     # Use the following to forbid use of the server to troublesome users:
     # CLIENT_KILLED(hostmask [,user])
     #CLIENT_KILLED(*,root)
     #CLIENT_KILLED(*.oxy.edu)
-    
+
     # -----------------------------------------------------------------------------
     # Use the following to add additionnal ports to listen to
     # Portnum : what the port is called
@@ -208,7 +216,7 @@
     #ADD_PORT(6666)
     # unix domain sockets :
     #ADD_PORT(6666,/tmp/.ircd)
-    
+
     # -----------------------------------------------------------------------------
     # you can skip to %%%% for simpler definition...
     #
@@ -248,43 +256,43 @@
     # SERVER_LEAF(MaskedServername [,ServerForbidden [,count]] )
     # SERVER_HUB(MaskedServername [,ServerAllowed] )
     #
-    # .undernet.org is added automagically, if you need 
+    # .undernet.org is added automagically, if you need
     # non 'UnderNet.org' versions use _STD macros...
     #
     # %%%%
-    # simply put 
+    # simply put
     # SERVER_UPLINK(ip_of_your_uplink_no1,passwd,NameOfUplink[,port if different
     # than 7000])
     # for all your uplinks, don't add .UnderNet.org, it is added automatically
     # do the same with your downlinks if you have...(using SERVER_DOWNLINK())
     # (H lines for uplinks are added too)
-    
+
     # This is a downlink which can introduce any server for france.
     # They use AUTHD do I can put "irc@" in the server part.
     #SERVER_DOWNLINK(irc@ip.ip.ip.ip,zzz,Perpet.Fr.Eu)
     #SERVER_HUB(Perpet.Fr.Eu,*.Fr.Eu)
-    
+
     # A Leaf that can introduce 5 server and don't use ident max.
     #SERVER_DOWNLINK(ip.ip.ip.ip,passwd,SmallTown.SmallCountry.Continent)
     #SERVER_LEAF(SmallTown.SmallCountry.Continent,,5)
-    
+
     # *.fi is hostmasked! can you believe that? :)
     #SERVER_DOWNLINK(128.214.6.100,finally,*.fi.Eu)
     #SERVER_HUB(*.fi.Eu)
-    
+
     # The list of my uplinks, HUBS for the whole network.
-    
+
     # for servers on port 6667 and still not on new 7000 :
     #SERVER_UPLINK(#ip.ip.ip.ip,passwd,Lame.Serv.WW,6667)
-    
+
     # _dl's Hub :
     #SERVER_UPLINK(130.84.202.10,yourpasswdwithdl,Paris.Fr.EU)
-    
+
     # McFly's Hub :
     #SERVER_UPLINK(130.223.205.3,yourpasswdwithmcfly,Lausanne.Ch.EU)
-    
+
     # --- that's all folks ! --- It wasn't that hard eh ?
-    
+
 
 * * *
 
@@ -292,4 +300,3 @@
 
 ##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
 others.
-
