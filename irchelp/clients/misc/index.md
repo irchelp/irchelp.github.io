@@ -13,9 +13,9 @@ This category covers special types of clients, such as bots, bouncers, and other
 
 ## Bots
 
-Bots are automated IRC clients which run with little or no user interaction, generally to provide some utility or amusement to channels.  On networks without channel registration services such as EFNet and IRCNet, bots often fulfill a key role on channels of maintaining ops. 
+Bots are automated IRC clients which run with little or no user interaction, generally to provide some utility or amusement to channels.  On networks without channel registration services such as EFNet and IRCNet, bots often fulfill a key role on channels of maintaining ops.
 
-Servers have widely varying policies regarding bot usage - in the past, very few servers allowed bots on EFNet and IRCNet (and those that did usually required prior permission) because of their place in channel wars, while networks supporting registration have generally been more tolerant. 
+Servers have widely varying policies regarding bot usage - in the past, very few servers allowed bots on EFNet and IRCNet (and those that did usually required prior permission) because of their place in channel wars, while networks supporting registration have generally been more tolerant.
 
 These days, most servers will allow bots, but it's still necessary to check the policies of the network and individual servers. Even where bots are allowed, bots are expected to be well behaved - bots that cause problems, or in some case, even bots that are involved in problems, are likely to be banned.
 
@@ -75,19 +75,19 @@ A number of frameworks also exist, which are well suited to writing your own cus
 
 
 ### Other Bots
-This is by no means a comprehensive list of bot software, expecially given that full-featured IRC clients often have functionality that borders on bot-like, and many specialized bots exist to particular tasks. Software developers in particular are fond of writing bots for specific tasks, like announcing commits to version control systems, outcomes of software builds and testing, and other things that interest them.
+This is by no means a comprehensive list of bot software, especially given that full-featured IRC clients often have functionality that borders on bot-like, and many specialized bots exist to particular tasks. Software developers in particular are fond of writing bots for specific tasks, like announcing commits to version control systems, outcomes of software builds and testing, and other things that interest them.
 
 ## Bouncers
 
-Bouncers, also known as IRC proxies, proxy IRC connections for reasons of privacy, security, or vanity, and they may additionally function as bots as well, allowing persistant presence for users with intermittant connections.
+Bouncers, also known as IRC proxies, proxy IRC connections for reasons of privacy, security, or vanity, and they may additionally function as bots as well, allowing persistent presence for users with intermittent connections.
 
 ### bnc
 
-BNC was the original IRC bouncer, and may still be referred to in some howtos and other documentation. The homepage is down of this writing, but the package is still found in some repositories. It's considered obsolete by most users these days, but it's sufficient for circumventing port restrictions or masking your home address. 
+BNC was the original IRC bouncer, and may still be referred to in some howtos and other documentation. The homepage is down of this writing, but the package is still found in some repositories. It's considered obsolete by most users these days, but it's sufficient for circumventing port restrictions or masking your home address.
 
 ### znc
 
-Part bot, part bouncer, znc is a robust way to keep a constant presence on IRC. In addition to the standard bnc proxying functions, znc provides persistant connections to the server that stay active when a client connects, a backlog that's delivered to the client when it reconnects, and a module system that allows znc to function as a bot in your absence.
+Part bot, part bouncer, znc is a robust way to keep a constant presence on IRC. In addition to the standard bnc proxying functions, znc provides persistent connections to the server that stay active when a client connects, a backlog that's delivered to the client when it reconnects, and a module system that allows znc to function as a bot in your absence.
 
 Homepage
 
@@ -111,7 +111,7 @@ IRC Channels
 ### Clients with built in proxies
 
 Several unix clients also function as IRC proxies, and are documented on their
-respective pages: 
+respective pages:
 
 * [irssi](/irchelp/clients/unix/irssi/)
 * [weechat](/irchelp/clients/unix/weechat.html)
@@ -124,9 +124,9 @@ Some other "specialty" clients may not fit cleanly into any of these categories.
 
 ### xmpp-to-irc gateways
 
-xmpp, better known to many users as jabber, has a provision for gateways between the IRC network and the XMPP network. These gateways are known in XMPP terms as "transports", and usually translate IRC sessions to XMPP's Multi-User Chat (MUC) facility so that an instant messaging user can connect to IRC without an additional client. 
+xmpp, better known to many users as jabber, has a provision for gateways between the IRC network and the XMPP network. These gateways are known in XMPP terms as "transports", and usually translate IRC sessions to XMPP's Multi-User Chat (MUC) facility so that an instant messaging user can connect to IRC without an additional client.
 
-Normally, a transport is installed only for the users (or a subset of the users) of a particular XMPP service on the network. 
+Normally, a transport is installed only for the users (or a subset of the users) of a particular XMPP service on the network.
 
 Some XMPP-to-IRC transports include:
 
