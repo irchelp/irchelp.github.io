@@ -1,68 +1,170 @@
 ---
 title: IRCHelp.org homepage
-layout: default
+layout: none
+format: none
 ---
 
-{::comment}
-Main hero unit for a primary marketing message or call to action
-{:/comment}
-<div class="hero-unit">
-# Welcome to #irchelp
-*[/I-R-C]: Internet Relay Chat
-/I-R-C/ n. - IRC provides a way of communicating in real time with people from all over the world. It consists of various separate [networks](/irchelp/networks/) (or "nets") of IRC servers, machines that allow users to connect to IRC. IRC is very similar to text messaging, but designed around communicating with large groups of users instead of one on one.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Internet Relay Chat Help</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+      href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../ico/favicon.png">
+  </head>
+  <body>
+{% include helpstrap_navbar.html %}
 
-/#irchelp/ n. - a channel on the EFNet IRC network dedicated to supporting IRC users since 1993.
 
-[Get Started »](/irchelp/new2irc.html){: .btn .btn-primary .btn-large}
-</div>
+    <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Welcome to #irchelp<br>
+        </h1>
+        <span id="hotword"><span style="color: rgb(51, 51, 51); cursor:
+            default;" id="hotword" name="hotword"
+            onmouseover="this.style.color='#0055bb';this.style.cursor='pointer'"
+onmouseout="this.style.color='#333333';this.style.cursor='default'"
+            onclick="return hotwordOneClick(this);">/I-R-C/</span> <span
+            id="hotword" name="hotword"
+            onmouseover="this.style.color='#0055bb';this.style.cursor='pointer'"
+onmouseout="this.style.color='#333333';this.style.cursor='default'"
+            onclick="return hotwordOneClick(this);">n.</span> <span
+            style="color: rgb(51, 51, 51); cursor: default;"
+            id="hotword" name="hotword"
+            onmouseover="this.style.color='#0055bb';this.style.cursor='pointer'"
+onmouseout="this.style.color='#333333';this.style.cursor='default'"
+            onclick="return hotwordOneClick(this);">[Internet</span> <span
+            style="color: rgb(51, 51, 51); cursor: default;"
+            id="hotword" name="hotword"
+            onmouseover="this.style.color='#0055bb';this.style.cursor='pointer'"
+onmouseout="this.style.color='#333333';this.style.cursor='default'"
+            onclick="return hotwordOneClick(this);">Relay</span> <span
+            style="color: rgb(51, 51, 51); cursor: default;"
+            id="hotword" name="hotword"
+            onmouseover="this.style.color='#0055bb';this.style.cursor='pointer'"
+onmouseout="this.style.color='#333333';this.style.cursor='default'"
+            onclick="return hotwordOneClick(this);">Chat] - </span></span>IRC
 
-{::comment}
-Example row of columns
-{:/comment}
-<div class="row">
 
-<div class="span4">
-## Clients
-An IRC client is the vehicle that connects you to the global network of IRC servers. A variety of applications are available, so whether you are on Windows, Linux, MacOS or one of dozens of other operating systems, or even on your smartphone, find out which client is best for you.
 
-[Find a Client »](/irchelp/clients){: .btn}
-</div>
-<div class="span4">
-## Networks
-IRC is organized into numerous independent networks, all with different audiences, geographical reach and management. Besides the major networks, there are also many smaller networks that serve either a niche audience or a small geographical region.
 
-[Find a Network »](/irchelp/networks){: .btn}
-</div>
-<div class="span4">
-## Security
-Learn how to protect your computer from risks on and off of IRC, including social engineering, trojan horse attacks and denial of service attacks.
 
-[Learn to stay safe »](/irchelp/security){: .btn}
-</div>
-
-</div>
-
-{::comment}
-Example row of columns
-{:/comment}
-<div class="row">
-
-<div class="span4">
-## FAQs
-There are a lot of questions people frequently ask about IRC and we've collected them into several lists of FAQs.
-
-[Browse FAQs »](/irchelp/allfaqs.html){:. btn}
-</div>
-<div class="span4">
-## IRCD
-IRCD, or Internet Relay Chat Daemon, is the family of server software that powers IRC.
-
-[Learn about IRCD »](/irchelp/ircd){: .btn}
-</div>
-<div class="span4">
-## Reference
-Our reference section holds technical documents, such as the RFCs, CTCP specification, DCC specification and details of other extensions to the IRC protocol, as well as research papers on IRC itself.
-[Browse the Library »](/irchelp/library.html){: .btn}
-</div>
-
-</div>
+        provides a way of communicating in real time with people from
+        all over the world. It consists of various separate <a
+          href="http://www.irchelp.org/irchelp/networks/">networks</a>
+        (or "nets") of IRC servers, machines that allow users to connect
+        to IRC. IRC is very similar to text messaging, but designed around
+        communicating with large groups of users instead of one on one.<br>
+        <br>
+        /#irchelp/ n. - A channel on the EFNet IRC network dedicated to
+        supporting IRC users since 1993. <br>
+        <a class="btn btn-primary btn-large"
+          href="/irchelp/new2irc.html">Get Started »</a> </div>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Clients</h2>
+          <p>An IRC client is the vehicle that connects you to the global
+          network of IRC servers. A variety of applications are available,
+          so, whether you are on
+            Windows, Linux, MacOS, or one of dozens of other operating
+            systems, or even on your smartphone, find out which client
+            is best for you.<br>
+          </p>
+          <p><a class="btn" href="/irchelp/clients">Find a Client »</a></p>
+        </div>
+        <div class="span4">
+          <h2>Networks</h2>
+          <p>IRC is organized into numerous independent networks, all
+            with different audiences, geographical reach, and
+            management. Besides the major networks, there are also many
+            smaller networks that serve either a niche audience or a
+            small geographical region.&nbsp; </p>
+          <p><a class="btn" href="/irchelp/networks">Find a network »</a></p>
+        </div>
+        <div class="span4">
+          <h2>Security</h2>
+          <p>Learn how to protect your computer from risks on and off of
+            IRC, including social engineering, trojan horse attacks, and
+            denial of service attacks. <br>
+          </p>
+          <p><a class="btn" href="/irchelp/security">Learn to stay safe »</a></p>
+        </div>
+      </div>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>FAQs</h2>
+          <p>There are a lot of questions people frequently ask about IRC,
+          and we've collected them into several lists of FAQs. </p>
+          <p><a class="btn" href="/irchelp/allfaqs.html">Browse FAQs »</a></p>
+        </div>
+        <div class="span4">
+          <h2>IRCD<br>
+          </h2>
+          <p>IRCD, or Internet Relay Chat Daemon, is the family of server software
+          that powers IRC. </p>
+          <p><a class="btn" href="/irchelp/ircd">Learn about IRCD »</a></p>
+        </div>
+        <div class="span4">
+          <h2>Reference<br>
+          </h2>
+          Our reference section holds technical documents, such as the
+          RFCs, CTCP specification, DCC specification, and details of
+          other extensions to the IRC protocol, as well as research
+          papers on IRC itself.<br>
+          <br>
+          <a class="btn" href="/irchelp/library.html">Browse the Library »</a> </div>
+      </div>
+      <hr>
+      <footer>
+        <p>All documents &copy; irchelp.org or original authors 2016 <br>
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+  </body>
+</html>
