@@ -3,6 +3,7 @@ title: Cross-platform IRC clients.
 layout: default
 ---
 # Cross-platform IRC clients
+There are a large and growing number of cross-platform clients that run equally well on many different operating systems.
 
 ## ChatZilla
 
@@ -21,6 +22,8 @@ client written in Java, and runs anywhere there's a suitable Java runtime.
 client, with a look and feel inspired by [ircII](/irchelp/clients/unix/ircii/) but taking advantage of
 modern GUI functionality.
 
+## HexChat
+The popular XChat fork, [HexChat](./hexchat.html), originated as an unofficial Windows port, and now runs on Linux/Unix systems as well. A OSX port is available through Homebrew.
 
 # Web Based Clients
 

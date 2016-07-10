@@ -1,5 +1,8 @@
 ---
 title: XChat
+author: Stephanie Daugherty
+layout: default
+---
 # XChat
 
 XChat is easily the most popular of the X11 clients - it's lightweight, scriptable in multiple languages, and has sensible defaults. XChat is an open source project developed under the GPL, and although primarily developed as a Unix/Linux client, ports exist for other platforms.
