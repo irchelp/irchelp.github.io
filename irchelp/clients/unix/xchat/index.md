@@ -2,6 +2,8 @@
 title: XChat
 author: Stephanie Daugherty
 layout: default
+redirect_from:
+  - /irchelp/clients/unix/xchat.html
 ---
 # XChat
 

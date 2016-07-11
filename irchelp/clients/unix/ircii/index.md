@@ -1,5 +1,13 @@
 ---
 title: ircII
+author: RuyDuck, Apatrix, dracus, Jolo, and many other UNIXsaurii
+layout: default
+redirect_from:
+  - /ircii
+  - /ircII
+  - /irchelp/ircii
+  - /irchelp/ircII
+  - /irchelp/clients/unix/ircii.html
 ---
 
 

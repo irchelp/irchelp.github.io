@@ -2,11 +2,14 @@
 title: irssi
 author: Stephanie Daugherty
 summary: Information about irssi
+redirect_from:
+  - /irchelp/clients/unix/irssi.html
+  - /irssi
 ---
 
 # irssi
 
-[irssi](http://www.irssi.org) is a mature, full-featured terminal-based IRC client for Unix/Linux systems. 
+[irssi](http://www.irssi.org) is a mature, full-featured terminal-based IRC client for Unix/Linux systems.
 
 ## Key Features
 
@@ -16,7 +19,7 @@ summary: Information about irssi
 
 ## First-time Configuration
 
-irssi works well out of the box for most users, and the defaults are generally unobtrusive to other users. Power users may find the number of window selection keybindings inadequate, but beyond that, little or no configuration is  needed. 
+irssi works well out of the box for most users, and the defaults are generally unobtrusive to other users. Power users may find the number of window selection keybindings inadequate, but beyond that, little or no configuration is  needed.
 
 ## Tutorials
 
@@ -34,7 +37,7 @@ irssi can be extended by scripts written in Perl. Documentation for the script A
 
 ## Themes
 
-irssi supports theming to customize the appearance and color scheme of the client. Themes are stored in toe client directory (`~/.irssi/`) and loaded with the command `/SET theme theme_name` 
+irssi supports theming to customize the appearance and color scheme of the client. Themes are stored in toe client directory (`~/.irssi/`) and loaded with the command `/SET theme theme_name`
 
 A small collection of themes can be found [on the irssi website](http://www.irssi.org/themes).
 
