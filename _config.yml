@@ -16,6 +16,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.irchelp.org" # the base hostname & protocol for your site
 twitter_username:
 github_username:  irchelp
-
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
 # Build settings
 markdown: kramdown
