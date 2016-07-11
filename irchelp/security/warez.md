@@ -33,12 +33,3 @@ or typing "!list" or "@find". Also, keep in mind that people on IRC help
 channels are volunteers who are there to answer legitimate IRC questions, not
 to become your accomplice in crime. If you ignore this advice, you'll find
 only ridicule or trouble.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
