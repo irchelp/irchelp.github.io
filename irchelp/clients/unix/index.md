@@ -2,6 +2,9 @@
 title: Unix/Linux IRC CLients
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /unix
+  - /linux
 ---
 
 # Unix/Linux IRC Clients

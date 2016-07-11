@@ -2,6 +2,8 @@
 title: IRC Security
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /security
 ---
 
 # IRC Security

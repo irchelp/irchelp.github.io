@@ -2,6 +2,8 @@
 title: IRC Networks
 author: PhyberBX, Apatrix, and Jolo
 layout: default
+redirect_from:
+  - /Networks
 ---
 
 # IRC Networks and Server Lists

@@ -2,6 +2,12 @@
 title: Help for the mIRC Client
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /mirc
+  - /mIRC
+  - /irchelp/mirc
+  - /irchelp/mIRC
+  - /irchelp/clients/windows/mirc.html
 ---
 
 # Help for the mIRC Chat Client
