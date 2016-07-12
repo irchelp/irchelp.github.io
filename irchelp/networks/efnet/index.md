@@ -22,6 +22,9 @@ ownership.
 
 * [EFNet.org](http://www.efnet.org) - Semi-official EFNet home page.
 
+## Server List
+We maintain a [server list](./servers.html) for EFNet.
+Another, semi-official server list is available from efnet.org <http://www.efnet.org/?module=servers]>.
 
 ## Governance
 
@@ -36,7 +39,6 @@ the same region as their closest hub, according to network topography.
 A handful of global policies have been adopted by a majority vote of all
 server admins, including the adoption of chanfix, and the adoption of
 glines.
-
 
 
 ### Linking
