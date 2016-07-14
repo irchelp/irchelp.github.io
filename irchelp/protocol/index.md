@@ -106,7 +106,7 @@ Ban exemption (EXEMPT) provides another way to manage collateral damage from ban
 by specifying masks which are exempt from banning. An user matching a ban exemption
 can therefore join no matter what bans they match.
 
-### Invite Exemption (=I)
+### Invite Exemption (+I)
 Invite exemption (INVEX) provides a way to have a standing invite, by specifying
 masks which are allowed to join in spite of the channel being invite-only.
 
