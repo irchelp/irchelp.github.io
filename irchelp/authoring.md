@@ -5,7 +5,7 @@ layout: default
 ---
 
 # Authoring Documents for www.irchelp.org
-*This is an early draft of this guide, documenting the new way we're going to maintain www.irvhelp.org. Suggestions are welcomed. Unless otherwise noted, this really isn't set in stone yet, so now is the time to give your input!*
+*This is an early draft of this guide, documenting the new way we're going to maintain www.irchelp.org. Suggestions are welcomed. Unless otherwise noted, this really isn't set in stone yet, so now is the time to give your input!*
 * * *
 
 ## Introduction
@@ -67,7 +67,7 @@ This list is by no means comprehensive, but it's a good starting point for autho
 
 ## Legal Requirements
 
-Most of our current content was either authored by IRCHelp chanoel ops specifically for irchelp.org and made available on an "all rights reserves" basis, or used by permission, and we do not have the rights to relicense it.
+Most of our current content was either authored by IRCHelp chanoel ops specifically for irchelp.org and made available on an "all rights reserved" basis, or used by permission, and we do not have the rights to relicense it.
 
 Going forward, in the interests of license clarity, as well as to protect ourselves from any legal trouble and avoid having to scramble to remove articles, we need to have clear rights to use all content on irchelp.org.
 
@@ -85,7 +85,7 @@ In any case, content must either be your own work, so that you have a clear righ
 
 ## Other Acceptable Licenses
 
-Other licenses that we find accept include any of the following:
+Other licenses that we find acceptable include any of the following:
    * Older revisions of any of the preferred creative commons licenses or GFDL
    * GFDL with invariant sections, subject to the editorial acceptability of the invariant sections.
    * GPL
