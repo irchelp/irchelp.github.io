@@ -67,12 +67,12 @@ This list is by no means comprehensive, but it's a good starting point for autho
 
 ## Legal Requirements
 
-Most of our current content was either authored by IRCHelp chanoel ops specifically for irchelp.org and made available on an "all rights reserved" basis, or used by permission, and we do not have the rights to relicense it.
+Most of our current content was either authored by IRCHelp channel ops specifically for irchelp.org and made available on an "all rights reserved" basis, or used by permission, and we do not have the rights to relicense it.
 
 Going forward, in the interests of license clarity, as well as to protect ourselves from any legal trouble and avoid having to scramble to remove articles, we need to have clear rights to use all content on irchelp.org.
 
 There are two options for this:
- - the first, and preferred way is for content may to be licensed under terms that permit anyone to use it - public domain or an acceptable free documentation license
+ - the first, and preferred way is for content to be licensed under terms that permit anyone to use it - public domain or an acceptable free documentation license
  - Alternatively, the content may be provided to irchelp.org under a release that grants us a non-revocable right to publish it.
 
 In any case, content must either be your own work, so that you have a clear right to license it, or it must already be under an appropriate free documentation license.
@@ -96,7 +96,7 @@ Other licenses that we find acceptable include any of the following:
 Other licenses may prove to be acceptable, but we will need to evaluate these on a case-by-case basis in the future.
 
 ## License Tags
-The applicable licensing tag should be indicated in tne YAML front matter of each document, as one of the following values.
+The applicable licensing tag should be indicated in the YAML front matter of each document, as one of the following values.
 
 * cc-by-4 - The document uses the [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license and may be freely used and distributed so long as the attribution remains intact.
 * cc-by-sa-4
