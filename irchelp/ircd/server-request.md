@@ -1,3 +1,9 @@
+---
+title: Server Request FAQ
+author: Helen Rose, Joseph Lo
+layout: default
+---
+
 # IRC Server Request FAQ
 
 * * *
@@ -26,14 +32,14 @@ There are many myths about IRC operators and what they can and cannot do. You
 can check out this [very detailed list](opermyth.html), but here are some
 quick facts. They apply to EFnet and IRCnet at least:
 
-  * **CAN** /kill users off of their local server, BUT only if they're breaking server rules (i.e. if they're a bot, etc). 
-  * **CAN** break network links, BUT if they do this without a good reason, they'll lose their /oper privileges quickly. 
-  * **CANNOT** fix channels. IRC Operators cannot op someone else on a channel. 
-  * **CANNOT** op themselves on channels. 
-  * **CANNOT** enforce "owned" nicknames (nicknames are not owned!). IRC Operators cannot /kill for nickname "stealers". 
-  * **CANNOT** send /kills for gratuitous reasons. Any IRC Operator that /kill's too many innocent users is going to have their privileges revoked. 
-  * **CANNOT** find invisible users, or see who is on a +s (secret) channel. 
-  * **CANNOT** stop illegal activity. It's not "IRC Cop", but IRC Operator. _Police_ stop criminal or illegal activity. And because IRC is over international borders, it's sometimes confusing whose laws are followed. A good site for reference on The Law and The Net is [EFF](http://www.eff.org/). 
+  * **CAN** /kill users off of their local server, BUT only if they're breaking server rules (i.e. if they're a bot, etc).
+  * **CAN** break network links, BUT if they do this without a good reason, they'll lose their /oper privileges quickly.
+  * **CANNOT** fix channels. IRC Operators cannot op someone else on a channel.
+  * **CANNOT** op themselves on channels.
+  * **CANNOT** enforce "owned" nicknames (nicknames are not owned!). IRC Operators cannot /kill for nickname "stealers".
+  * **CANNOT** send /kills for gratuitous reasons. Any IRC Operator that /kill's too many innocent users is going to have their privileges revoked.
+  * **CANNOT** find invisible users, or see who is on a +s (secret) channel.
+  * **CANNOT** stop illegal activity. It's not "IRC Cop", but IRC Operator. _Police_ stop criminal or illegal activity. And because IRC is over international borders, it's sometimes confusing whose laws are followed. A good site for reference on The Law and The Net is [EFF](http://www.eff.org/).
 
 But wait! You might say "people will think I'm smart/sexy if I have an O:
 line. I'll look cool". Come on! You're smarter than that! That's the argument
@@ -64,9 +70,9 @@ it, even when you're not online.
 Here are just some of the many requirements for running a server on a major
 network such as EFnet:
 
-  * You must have the blessing and support of the administrators for not only your computer but also your ISP, and even your upstream providers. IRC servers frequently attract [security problems](/irchelp/security/) from "crackers" (aka "hackers") such as [denial of service attacks](/irchelp/nuke/) - your systems/network administrator would not appreciate this. 
-  * You need to have at least a multi-homed, dual DS3 link or faster. ISDN, cable, DSL or any kind of modem just won't do the job. 
-  * You need to know all about the UNIX operating system, which is used by nearly all the big, well-run IRC networks. 
+  * You must have the blessing and support of the administrators for not only your computer but also your ISP, and even your upstream providers. IRC servers frequently attract [security problems](/irchelp/security/) from "crackers" (aka "hackers") such as [denial of service attacks](/irchelp/nuke/) - your systems/network administrator would not appreciate this.
+  * You need to have at least a multi-homed, dual DS3 link or faster. ISDN, cable, DSL or any kind of modem just won't do the job.
+  * You need to know all about the UNIX operating system, which is used by nearly all the big, well-run IRC networks.
 
 Yes, there are **Windows servers** such as [Webmaster's
 ConferenceRoom](http://www.webmaster.com/) or
@@ -142,4 +148,3 @@ area of knowledge.
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
