@@ -24,8 +24,7 @@ with a solid base of users, rather than users finding channels they want and
 sit vacant have already been registered and are unavailable.
 
 ## Culture
-UnderNet has a strong culture of welcoming users, with moderated classes on basic
-IRC topics and services regularly run for the benefit of new users on the network.
+UnderNet has a strong culture of welcoming users, with help channels, special events, news, informational classes and seminars, for the benefit of all users on the network.
 
 UnderNet is a centrally governed network, with a comparatively bureaucratic structure,
 and many activities governed by various [committees](http://www.undernet.org/committees.php).
