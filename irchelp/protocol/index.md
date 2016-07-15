@@ -52,6 +52,13 @@ protocol originally specified by the RFCs.
 
 ## Common Extensions affecting Clients
 
+### CAP
+The IRCv3 capabilities extension allows clients to negotiate protocol extensions
+with the server, so that new features in the protocol can be implemented in a
+backwards-compatible way. It is complementary in some ways to RPL_ISUPPORT, but
+happens much earlier in the registration process, and unlike RPL_ISUPPORT, actually
+provides the means for clients to request the features they can support.
+
 ### RPL_ISUPPORT (005)
 The 005 (RPL_ISUPPORT) numeric allows servers to communicate which extensions are
 in use on a given server or network. It is presented as a tokenized list, and allows
@@ -116,3 +123,9 @@ function, therefore allowing a disruptive user to be prevented from speaking on 
 while still being able to join it. In effect, this functions as a moderated status just
 for particular hostmasks, and is typically implemented so that voice (+v) or other
 privileged status on the channel overrules the quieting.
+
+## External Resources
+A number of other sites contain extensive documentation of the IRC protocol which may
+be of interest.
+
+* <http://modern.ircdocs.horse> - A living reference to the client-server protocol as it exists today.
