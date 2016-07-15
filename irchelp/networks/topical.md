@@ -2,15 +2,14 @@
 title: Topical IRC networks
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/networks/subject.html
 ---
 
 # Special Subject Networks
 
 _Selected networks serving a special subject matter or interest_
 
-* * *
-
-updated Mar 15, 2003
 
 This page is part of the [IRChelp.org Networks
 Site](http://www.irchelp.org/irchelp/networks/), please do not mirror or
@@ -23,20 +22,9 @@ networks dedicated to a special subject of interest. Here are some of them,
 loosely grouped by subject. Note that some subjects may not be appropriate for
 all people. Many are web-based chats (not strictly IRC) or standalone servers.
 
-* * *
 
-**Network**
-**Data**
+## Computers
 
-* * *
-
-* * *
-
-**Computers**
-
-* * *
-
-* * *
 
 [Freenode](http://freenode.info/)
 
@@ -48,15 +36,9 @@ projects, including free software and open source. (See full description in
 
 Formally "Anet", they are Amiga-friendly but not limited to just that.
 
-* * *
 
-* * *
+## Kids and Education
 
-**Kids and Education**
-
-* * *
-
-* * *
 
 [Kidlink IRC](http://www.kidlink.org/IRC/)
 
@@ -79,15 +61,9 @@ events and discussions as well as classrooms on internet-related topics.
 Friendly network dedicated to providing a secure environment for kids without
 being too restrictive.
 
-* * *
 
-* * *
+## Games
 
-**Games**
-
-* * *
-
-* * *
 
 [QuakeNet](http://www.quakenet.org/)
 
@@ -95,30 +71,18 @@ Network formerly for mainly European addicts of the multi-player game, it has
 since grown into the largest IRC network in the world! (See full description
 in [popular nets](popular.html).)
 
-* * *
+[ColdFront](http://www.coldfront.net) is a small network dedicated to fostering communities of online gamers.
 
-* * *
+## Arts and Literature
 
-**Arts and Literature**
-
-* * *
-
-* * *
 
 [SciFi](http://www.scifi.com/chat/)
 
 The SciFi TV channel caters to science fiction and fantasy, this chat server
 hosts chats with stars from the shows.
 
-* * *
 
-* * *
-
-**Miscellaneous**
-
-* * *
-
-* * *
+## Miscellaneous
 
 [EqNET](http://www.equestrianpages.com)
 
@@ -138,19 +102,3 @@ sexuality. (No, it's not a porn trading post.)
 
 "Our goal is to unite the stoners around the world in order to bring an end to
 the prohibition of cannabis."
-
-* * *
-
-* * *
-
-[ [networks home](./) | [popular nets](popular.html) | [general
-nets](general.html) | subject nets | [local nets](local.html) ]
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

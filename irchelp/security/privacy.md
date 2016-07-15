@@ -28,6 +28,35 @@ Against a person deeply involved in underground activities, doxing can be an ele
 Doxing is primarily a tool of criminal hackers (crackers), hacktivists, and security specialists. Most users are at very low risk for doxing. Public figures, those in underground scenes, and those involved in highly controversial activities online and off are most likely to be doxed - the average IRC user will never attract such attention.
 
 
+## Encryption
+A growing number of networks use SSL/TLS for connection between servers, and
+many offer SSL connections for users. While SSL/TLS encryption protects
+information in transit, it does not protect it within the server itself - a
+compromised server will still have access to messages traveling though that
+server. Despite this limitation, SSL/TLS encryption still provides a significant
+improvement for the privacy and security of users.
+
+### OTR (Off-the-record messaging)
+The OTR encryption protocol can be implemented on top of IRC to provide end-to-end
+encryption between two clients. As OTR is a one-to-one communication scheme, and
+not suitable for one-to-many communication, it can be used only for private messages
+between individual users.
+
+Very few IRC clients support OTR, as it has primarily been used within instant
+messaging clients. Pidgin is one such client which does support OTR, and, as
+it also supports IRC, it can be used to exchange end-to-end encrypted messages
+with other users.
+
+An [OTR plugin](https://github.com/cryptodotis/irssi-otr) also exists for the popular irssi client, but is considered to be
+"alpha quality". Hexchat also has an [OTR plugin](https://github.com/TingPing/hexchat-otr) which is
+listed as being a "work in progress".
+
+### Other solutions for end to end encryption.
+Some clients have their own encryption schemes, many of which use a pre-shared key.
+Unfortunately, these schemes are not standardized, and therefore, only work between
+clients using the same encryption scheme.
+
+
 ## IP Addresses
 
 IP addresses are an integral part of how users are identified on the IRC network, and on some networks, the only reasonably reliable form of identification. The address your connection to the IRC network originates from will be displayed to other users unless the server has been configured to do otherwise.

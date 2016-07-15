@@ -12,9 +12,8 @@ script: ./_scripts/build-jekyll.sh
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-  - master     # test the gh-pages branch
+  - gh-pages
   - /pages-(.*)/ # test every branch which starts with "pages-"
-  - jekyll-reorg/
 
 env:
   global:
