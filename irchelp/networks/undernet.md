@@ -10,7 +10,7 @@ layout: default
 to offer channel registration.
 
 ## Services
-UnderNet offers account and channel registration. There is no nickname registration.
+UnderNet offers [account and channel registration](http://www.undernet.org/services.php). There is no nickname registration.
 
 Channel registration on UnderNet is reserved for "established" channels, and
 follows a unique process - users wishing to register a channel must already
@@ -27,7 +27,7 @@ sit vacant have already been registered and are unavailable.
 UnderNet has a strong culture of welcoming users, with moderated classes on basic
 IRC topics and services regularly run for the benefit of new users on the network.
 
-UnderNet is a centrally managed network, with a comparatively bureaucratic structure,
+UnderNet is a centrally governed network, with a comparatively bureaucratic structure,
 and many activities governed by various [committees](http://www.undernet.org/committees.php).
 
 ## Official Channels
