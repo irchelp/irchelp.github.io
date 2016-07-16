@@ -1,6 +1,12 @@
+---
+title: EFNet Frequently Asked Questions
+author: disciple
+layout: default
+---
+
 The EFNet Frequently Asked Questions - By Disciple
 
-  
+
 The Official and most recent copy can be obtained from:
 
 [http://www.irchelp.org/irchelp/ircd/efnetfaq.html](http://www.irchelp.org/irc
@@ -10,11 +16,11 @@ All other copies may be old and/or obsolete.
 
 Last Updated: May 30, 2002
 
-  
+
 
 * * *
 
-  
+
 Many of the answers to these questions were obtained from
 [http://www.irchelp.org/](http://www.irchelp.org) and [http://www.the-
 project.org/efnet/opermyth.html](http://www.the-
@@ -30,10 +36,10 @@ else, or for another FAQ, as long as due credit is given.
 
 * * *
 
-  
+
 QUESTION INDEX:
 
-  
+
 1. What are servers I can run bots on?
 
 2. Why can't I register a channel or nickname?
@@ -109,14 +115,14 @@ opers on the server they are on. What do I do?
 33. I would like to find out more about efnet and how it's run. Where can I
 find this information?
 
-  
+
 
 * * *
 
-  
+
 QUESTIONS AND ANSWERS:
 
-  
+
 Question 1:
 
 Q: What are servers I can run bots on?
@@ -126,7 +132,7 @@ abusive) bots, do /motd [server name here] and look for their bot policies.
 
 Question Index
 
-  
+
 Question 2:
 
 Q: Why can't I register a channel or nickname?
@@ -139,7 +145,7 @@ services, dalnet offers both chanserv and nickserv.
 
 Question Index
 
-  
+
 Question 3:
 
 Q: Can an IRC Operator help me with a taken over channel or opless channel?
@@ -148,31 +154,31 @@ A: It depends. If your channel was taken over by people whom you've never
 seen, then IRC Operators may be able to assist you in getting your channel
 back.
 
-  
+
 EFnet has a service called "CHANFIX" that keeps a record of the top 10 ops in
 a channel over a recent period of time. If a channel becomes opless, CHANFIX
 will automatically join the channel and re-op the correct ops, based on the
 record of who's been op'd longest previously.
 
-  
+
 If a "normal op" (someone who is usually op'd in a channel) decides to "take
 control" of a channel - it is an internal matter and no IRC Operator can help
 you in this instance.
 
-  
+
 If you believe you need assistance with CHANFIX, please see the [CHANFIX
 guide](chanfix.html) which contains more information on how CHANFIX works and
 how to seek help with it.
 
-  
+
 If you need an IRC Operator to have a CHANFIX issued, please /stats p [your
 server] and /msg the least idle operator for assistance.
 
-  
+
 Please note that IRC Operators and Administrators can **NOT** choose who to
 op. Who CHANFIX op's is dependent upon who has been op'd previously.
 
-  
+
 For more information on services.int and CHANFIX, please see the following:
 
 [CHANFIX guide at
@@ -186,7 +192,7 @@ com/pastvotes/index.shtml)
 
 Question Index
 
-  
+
 Question 4:
 
 Q: My channel is opless - what do I do?
@@ -198,7 +204,7 @@ p [your server here] and /msg an active operator for assistance.
 
 Question Index
 
-  
+
 Question 5:
 
 Q: How do I find an active operator?
@@ -208,7 +214,7 @@ long, in seconds, they have been idle.
 
 Question Index
 
-  
+
 Question 6:
 
 Q: How do I see a list of all the operators on the server I'm on?
@@ -219,7 +225,7 @@ servers have disables users ability to do "/stats o". If this is the case, you
 will not be able to easily obtain an oper list from that server. Question
 Index
 
-  
+
 Question 7:
 
 Q: I was killed and I want to know why, but when I ask no one gives me an
@@ -234,40 +240,40 @@ free to do "/admin [irc server]" and contact their Administrators.
 
 Question Index
 
-  
+
 Question 8:
 
 Q: What are all the /stats commands I can use?
 
 A: The modes are (use /stats [letter]):
 
-    
-    
-       (Some of these are no longer available to non-opers)	
-          ?	  Server connection statistics	
-          b   B-lines	
-          c	  C/N-lines	
-          d	  D-lines	
+
+
+       (Some of these are no longer available to non-opers)
+          ?	  Server connection statistics
+          b   B-lines
+          c	  C/N-lines
+          d	  D-lines
           e	  E-lines
-          h   H/L-lines	
-          i	  I-lines	
-          k	  K-lines	
+          h   H/L-lines
+          i	  I-lines
+          k	  K-lines
           l	  Data transfer statistics by connection
-              The numeric fields are as follows:			
+              The numeric fields are as follows:
                       sendQ (outgoing message queue)
-    		  sendM (protocol messages sent)			
+    		  sendM (protocol messages sent)
                       sendK (total kilobytes sent)
-    	          receiveM (protocol messages received)			
+    	          receiveM (protocol messages received)
                       receiveK (total kilobytes received)
     		  time in seconds since the connection was created
-          L	  Same as STATS l, except shows IP address instead of host	
+          L	  Same as STATS l, except shows IP address instead of host
           m	  Command statistics
-          o	  O/o-lines	
-          p	  Current opers online	
-          t	  General server statistics	
+          o	  O/o-lines
+          p	  Current opers online
+          t	  General server statistics
           u	  Server uptime
-          v	  Server link information	
-          y   Y-lines	
+          v	  Server link information
+          y   Y-lines
           z	  More server statistics
 
 For more information see [http://www.irchelp.org/irchelp/ircd/ircopguide.html]
@@ -278,15 +284,15 @@ see section: VII. IRCD and Associated Files on the same page.
 
 Question Index
 
-  
+
 Question 9:
 
 Q: What are all the user modes and what do they do?
 
 A: Below are the usermodes for ircd-hybrid at the time of this FAQ.
 
-    
-    
+
+
           +O - Designates this client is a local IRC Operator.
                Use the /oper command to attain this.
           +o - Designates this client is a global IRC Operator.
@@ -305,13 +311,13 @@ A: Below are the usermodes for ircd-hybrid at the time of this FAQ.
         * +b - Can see possible bot warnings.
         * +x - Can see new server introduction and server split
                messages.
-    
+
         * Oper-Only usermodes
-    
+
 
 Question Index
 
-  
+
 Question 10:
 
 Q: Will operators kill spammers and flooders?
@@ -321,7 +327,7 @@ on], and /msg an active oper, they will usually handle them.
 
 Question Index
 
-  
+
 Question 11:
 
 Q: Will operators kill or kline for my nick?
@@ -330,7 +336,7 @@ A: No. It is a general belief that nicks are not owned on efnet.
 
 Question Index
 
-  
+
 Question 12:
 
 Q: I was talking to someone and they changed their nick. Can an operator tell
@@ -341,7 +347,7 @@ realm of IRC Operators duties.
 
 Question Index
 
-  
+
 Question 13:
 
 Q: Will operators kill or kline because someone is "nuking" or "DoS'ing" me?
@@ -351,7 +357,7 @@ Administrators best interests to stay out of user-to-user disagreements.
 
 Question Index
 
-  
+
 Question 14:
 
 Q: Is there a way I can see operwalls without being an operator?
@@ -360,7 +366,7 @@ A: No. Only IRC Operators can see them.
 
 Question Index
 
-  
+
 Question 15:
 
 Q: How do I become an IRC Operator?
@@ -374,7 +380,7 @@ help/ircd/ircopguide.html](http://www.irchelp.org/irchelp/ircd/ircopguide.html
 
 Question Index
 
-  
+
 Question 16:
 
 Q: How do I link my own efnet server?
@@ -388,7 +394,7 @@ guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines).
 
 Question Index
 
-  
+
 Question 17:
 
 Q: In the new server guidelines, it says "it is in the applicant's best
@@ -404,7 +410,7 @@ project.org/efnet/votes/closed.votes/), and the discussion about them at
 
 Question Index
 
-  
+
 Question 18:
 
 Q: Where can I get the actual IRC server itself?
@@ -415,7 +421,7 @@ lackened.com/pub/irc/hybrid/), and IRCD Comstud is archived at
 
 Question Index
 
-  
+
 Question 19:
 
 Q: Where can I get Hybserv?
@@ -425,7 +431,7 @@ r/projects/tarballs/).
 
 Question Index
 
-  
+
 Question 20:
 
 Q: If I decide to send in a server application, where will the discussion and
@@ -437,7 +443,7 @@ Most of efnets routing/connection "issues" are discussed there.
 
 Question Index
 
-  
+
 Question 21:
 
 Q: Are there any other mailing lists like the Routing one?
@@ -450,7 +456,7 @@ project.org/operlist/current/threads.html).
 
 Question Index
 
-  
+
 Question 22:
 
 Q: What is a TCM, and what is a TCM Oper?
@@ -462,7 +468,7 @@ with the exception that they cannot /squit or /connect their server.
 
 Question Index
 
-  
+
 Question 23:
 
 Q: Where can I get TCM-hybrid and help/information about it?
@@ -471,7 +477,7 @@ A: [http://www.ircd-hybrid.org/tcm/](http://www.ircd-hybrid.org/tcm/).
 
 Question Index
 
-  
+
 Question 24:
 
 Q: Where can I get OOMon and help/information about it?
@@ -480,7 +486,7 @@ A: [http://toast.blackened.com/oomon/](http://toast.blackened.com/oomon/).
 
 Question Index
 
-  
+
 Question 25:
 
 Q: What are the new features in Hybrid-6?
@@ -491,7 +497,7 @@ tp://www.irchelp.org/irchelp/ircd/hybrid6.html](http://www.irchelp.org/irchelp
 
 Question Index
 
-  
+
 Question 26:
 
 Q: Someone has banned be from a channel, is there anything an oper can do?
@@ -502,7 +508,7 @@ the channel ops of that channel.
 
 Question Index
 
-  
+
 Question 27:
 
 Q: I need help setting up my irc server, will someone help me?
@@ -513,7 +519,7 @@ mailing list.
 
 Question Index
 
-  
+
 Question 28:
 
 Q: I'm looking for a small irc network to chat and maybe link a server to.
@@ -524,7 +530,7 @@ networks/](http://www.irchelp.org/irchelp/networks/).
 
 Question Index
 
-  
+
 Question 29:
 
 Q: What is timestamp and what does it do?
@@ -537,7 +543,7 @@ ting.blackened.com/docs/ts5.txt).
 
 Question Index
 
-  
+
 Question 30:
 
 Q: When I do /list I get disconnected. What can I do to see a list of
@@ -548,7 +554,7 @@ ttp://www.efnet.org/index.php?p=channels).
 
 Question Index
 
-  
+
 Question 31:
 
 Q: What is a wallop/operwall and a locop message?
@@ -560,7 +566,7 @@ opers on the same server you are currently connected to.
 
 Question Index
 
-  
+
 Question 32:
 
 Q: Someone is bothering/spamming/flooding/etc. me, and there are no active
@@ -573,7 +579,7 @@ is /ignore them until either an oper becomes active or they /quit.
 
 Question Index
 
-  
+
 Question 33:
 
 Q: I would like to find out more about efnet and how it's run. Where can I
@@ -619,15 +625,3 @@ OOMon help and information
 [http://www.efnet.org](http://www.efnet.org/) - Misc. EFNet information
 
 Question Index
-
-  
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

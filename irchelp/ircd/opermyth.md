@@ -1,13 +1,19 @@
+---
+title: Dispelling the myths of opers
+author: Ray Powers
+layout: default
+---
+
 # **Dispelling the myths of opers....**
 
 * * *
 
-**Ed. note:** This is a must-read for anybody who wants to know what an IRC operator ("oper") really can or will do, at least on networks like EFnet which have no services. As of 2001, there is now a pseudo-service on EFnet called ["CHANFIX"](chanfix.html) which contradicts some of the things said below in that it supports _de facto_ ownership of channels and limited oper intervention in takeovers, but the following document still represents the mainstream spirit of EFnet's philosophy. In addition, there is also another semi-official updated version at [EFnet.info](http://www.efnet.info/?module=docs&doc=6&type=html) which contains a lot more technical details. After reading this, you may also be interested in reading our other [ircd-related helpfiles](index.html). -Jolo 6/28/04 
+**Ed. note:** This is a must-read for anybody who wants to know what an IRC operator ("oper") really can or will do, at least on networks like EFnet which have no services. As of 2001, there is now a pseudo-service on EFnet called ["CHANFIX"](chanfix.html) which contradicts some of the things said below in that it supports _de facto_ ownership of channels and limited oper intervention in takeovers, but the following document still represents the mainstream spirit of EFnet's philosophy. In addition, there is also another semi-official updated version at [EFnet.info](http://www.efnet.info/?module=docs&doc=6&type=html) which contains a lot more technical details. After reading this, you may also be interested in reading our other [ircd-related helpfiles](index.html). -Jolo 6/28/04
 
-**Date: **Thu, 30 Jul 1998 16:21:40-0700 (MST)  
-**To:** operlist@the-project.org  
-**From:** rayp@primenet.com (Ray Powers)  
-**Subject:** The myths of opers....  
+**Date: **Thu, 30 Jul 1998 16:21:40-0700 (MST)
+**To:** operlist@the-project.org
+**From:** rayp@primenet.com (Ray Powers)
+**Subject:** The myths of opers....
 
 I've always wanted to write something like this.. Its half rant, half fact, so
 bear with it. Hopefully it will be worth reading.
@@ -19,48 +25,48 @@ misconceptions. I'd like to take a minute to talk about part three in hopes of
 clearing a few things up. This will kind of be in a FAQ form, maybe you'll
 like it, maybe not, but its worth a shot.
 
-**Q: What can an oper on efnet do.**     
+**Q: What can an oper on efnet do.**
 
-**A:** This is an **EXACT** list of what we can do: 
+**A:** This is an **EXACT** list of what we can do:
 
-  1. /squit a server, separating it from the rest of the net 
-  2. /die our server 
-  3. /kill a user, this disconnects them from the server they are on 
-  4. /kline a hostmask, this bans them from our server 
-  5. /dline an ip, this bans them from our server, regardless of hostmask 
-  6. See all invisible users on our server 
-  7. Mass Msg/CTCP/notice a hostmask 
-  8. Mass Msg/CTCP/notice a server 
-  9. See and send Operwall/wallops notices 
+  1. /squit a server, separating it from the rest of the net
+  2. /die our server
+  3. /kill a user, this disconnects them from the server they are on
+  4. /kline a hostmask, this bans them from our server
+  5. /dline an ip, this bans them from our server, regardless of hostmask
+  6. See all invisible users on our server
+  7. Mass Msg/CTCP/notice a hostmask
+  8. Mass Msg/CTCP/notice a server
+  9. See and send Operwall/wallops notices
 
 That's it. We can see more server messages than you, but that's not the
 point.. The point to be shown here is very simple, **none** of these things
 have anything to do with channels. Which leads us to our next question.
 
-**Q: What can opers **NOT** do, but keep being asked to anyways?**     
+**Q: What can opers **NOT** do, but keep being asked to anyways?**
 
-**A:** We can **NOT**: 
+**A:** We can **NOT**:
 
-  1. Enter a channel that is +i or +k without being invited or having the key 
-  2. See who is inside a +s channel 
-  3. Op ourselves or op you on a channel (unless of course we are a channel op for that channel) 
-  4. Tell you what XXXX's new nick is since they changed it to hide from you.  
+  1. Enter a channel that is +i or +k without being invited or having the key
+  2. See who is inside a +s channel
+  3. Op ourselves or op you on a channel (unless of course we are a channel op for that channel)
+  4. Tell you what XXXX's new nick is since they changed it to hide from you.
 [Ed. note: Actually an oper can follow nick changes but only on his own
 server, but he won't invade that privacy for you because nobody likes a
 stalker. :-]
 
-  5. Deop someone for you on a channel (unless of course we are a channel op for that channel) 
+  5. Deop someone for you on a channel (unless of course we are a channel op for that channel)
 
 Notice a trend, with the exception of 4, all of these are 100% channel
 related. Efnet is made so that opers have **NO** power over channels, for
 better or worse. If we don't help you with these requests, its not because we
 won't, its because we are completely incapable doing so. On the other hand....
 
-**Q: What can opers do, but won't?**     
+**Q: What can opers do, but won't?**
 
-**A:** This will be a bit differently done, because I figure I should explain why opers don't do these things, when they may normally make sense. 
+**A:** This will be a bit differently done, because I figure I should explain why opers don't do these things, when they may normally make sense.
 
-  1. Why won't they kill somebody who has stolen your nick. 
+  1. Why won't they kill somebody who has stolen your nick.
 
 Efnet has gone on the basis of nicks not being owned, which is why there is no
 nickserv on Efnet. Of course we see opers kill all the time for nicks, though,
@@ -83,7 +89,7 @@ and people still lie to me on a regular basis. So, the oper is stuck refusing
 to help because he can't tell who is who. Remember this line of reasoning, its
 going to be coming up a lot. :P
 
-  2. Why won't they kill that guy nuking/smurfing/ping -f'ing me? 
+  2. Why won't they kill that guy nuking/smurfing/ping -f'ing me?
 
 This one is simple. There is no way to prove that somebody is doing any of
 these things to you from an opers point of view. All logs are fakable, and the
@@ -91,7 +97,7 @@ oper has no way to firsthand prove it's happening. Your best bet in this
 situation is to [log](/irchelp/misc/irclog.html) what you can and complain
 loud and long to their ISPs.
 
-  3. Why won't they help me take my channel back? 
+  3. Why won't they help me take my channel back?
 
 [Ed. note: see note at the very top regarding [CHANFIX](chanfix.html) and how
 it affects this question.]
@@ -125,7 +131,7 @@ its taken over, as per the conversation about nicks, we often can't.
 
 [Ed. note: make that >100,000 people as of mid-2002 and growing fast.]
 
-  4. But.. its obvious they took it from me! The topic says "Ha ha, we took your channel Rick!" for Pete's sake! And there's only One op, so you can kill him and get the channel back immediately! 
+  4. But.. its obvious they took it from me! The topic says "Ha ha, we took your channel Rick!" for Pete's sake! And there's only One op, so you can kill him and get the channel back immediately!
 
 This one is a bit more complex, but its really a personal call. That one op
 could be a rampant smurfpup with a penis so tiny he has no choice but to
@@ -150,11 +156,3 @@ Ray Powers
 Monkster/MimePunk/PrimeMonk/PacMonk/MtgMonk/Ihavefartoomanynickstonickjupe
 
 * * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
