@@ -1,3 +1,9 @@
+---
+title: Server Numerics Headers
+author: irchelp.org staff
+layout: default
+---
+
 # Server Numerics Headers
 
 This file is purely informative, intended to replace the well-known server-
@@ -42,15 +48,15 @@ Ircd server numerics v1.1, 22 Oct 2000
 By Alex Charalabidis (Apatrix)
 
 * * *
-    
-    
+
+
     E=EFnet hybrid-6rc4
     I=IRCnet 2.10.3
     i=IRCnet, reserved according to Undernet (sic) numerics headers
     U=Undernet u2.10.07
     D=DALnet bahamut 1.4.8
-    
-    
+
+
     001	IEUD	RPL_WELCOME
     002	IEUD	RPL_YOURHOST
     003	IEUD	RPL_CREATED
@@ -319,14 +325,6 @@ By Alex Charalabidis (Apatrix)
     619	D	RPL_ENDOFDCCLIST
     620	D	RPL_DCCINFO
     999	D	ERR_NUMERIC_ERR
-    
+
 
 * * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

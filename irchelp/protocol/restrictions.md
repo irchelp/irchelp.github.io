@@ -15,7 +15,8 @@ commands and features exist in the IRC protocol which are now heavily restricted
 on many networks.
 
 A complete list of these restrictions is impossible, as they are ever evolving in
-response to new forms of abuse.
+response to new forms of abuse, however this document attempts cover as many of the
+restrictions commonly imposed on clients as possible.
 
 ## Command Throttling
 Many commands in the IRC protocol are now subject to throttling by the server
@@ -79,3 +80,19 @@ the list becomes full, new "targets" are not allowed for a period of time - afte
 which the oldest target can be replaced by a new target. Though this seems somewhat
 convoluted, it's actually transparent to most users, and highly effective at
 disrupting spambots, as they cannot efficiently operate under the restrictions.
+
+## Restricted Mode
+IRCNet defines a special "restricted mode" for client connections, which can be
+defined by connection class in the server configuration. When a connection is
+designated for restricted mode, the user has the +r mode automatically set for
+their connection at the time they connect, they cannot remove this mode, they do
+not get ops if they create a new channel, and, while they can be oppped by other
+users, they are effectively treated as unopped, and can't use any of the powers
+of a channel operator.
+
+Restricted-mode connections are individually decided by each server on the network,
+so a user that finds themselves in restricted mode can often move to another server
+and be free of the restrictions. Restricted mode effectively treats some connections as
+being second class citizens, but the introduction of this mechanic effectively led to a
+greater number of "open servers" on IRCNet, where the majority of servers had been
+geographically restricted ("closed servers").

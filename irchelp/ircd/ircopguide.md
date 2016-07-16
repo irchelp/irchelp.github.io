@@ -1,3 +1,9 @@
+---
+title: IRC Operator Guide
+author: Aaron Brinton
+layout: default
+---
+
 # IRC Operators Guide
 
 by Aaron Brinton aka aaronb v1 8/97
@@ -28,8 +34,8 @@ minimum.
 
 ## Contents
 
-    
-    
+
+
        I. Interacting with Users and Other Operators
       II. Using KILL and KLINE
      III. Bots and Bothunting
@@ -43,7 +49,7 @@ minimum.
       XI. Operator Communications (WALLOPS and OPERWALL)
      XII. Linking New Servers
     XIII. Attitude and Perspective
-    
+
 
 * * *
 
@@ -177,9 +183,9 @@ wait until someone complains about it, and then monitor its behavior.
 Here is a short description of a few of the bots out there, and a couple of
 tips for finding them:
 
-  * eggdrop - this is the most common bot that you'll run into. Typically you'll see "/msg botnick hello" in the gecos field (the description line in the whois information) if the bot is poorly configured. Additionally, by default, these bots PRIVMSG #lamest for invite/ops. They also join #botcentral by default. 
-  * johbot - these bots PRIVMSG blahb1ah on a regular basis. If you change your nickname to that, you can sit and wait for them to find you. Additionally, if you enter the channel a suspected johbot is in, and do a fake netsplit quit (/quit irc.blah.com irc.something.net), the johbot will automatically change its nickname. 
-  * combot - these are a comstud creation. I have never found one myself, which either means there aren't many around, or they just hide really well. I've heard that doing a /ctcp botnick source will generate a reply with "Combot" followed by the version.  There are other methods of finding bots, but they change far too regularly for this document. Also, we don't need to be giving the masses out there all of our secrets. Keep in touch with other opers on this stuff. 
+  * eggdrop - this is the most common bot that you'll run into. Typically you'll see "/msg botnick hello" in the gecos field (the description line in the whois information) if the bot is poorly configured. Additionally, by default, these bots PRIVMSG #lamest for invite/ops. They also join #botcentral by default.
+  * johbot - these bots PRIVMSG blahb1ah on a regular basis. If you change your nickname to that, you can sit and wait for them to find you. Additionally, if you enter the channel a suspected johbot is in, and do a fake netsplit quit (/quit irc.blah.com irc.something.net), the johbot will automatically change its nickname.
+  * combot - these are a comstud creation. I have never found one myself, which either means there aren't many around, or they just hide really well. I've heard that doing a /ctcp botnick source will generate a reply with "Combot" followed by the version.  There are other methods of finding bots, but they change far too regularly for this document. Also, we don't need to be giving the masses out there all of our secrets. Keep in touch with other opers on this stuff.
 
 * * *
 
@@ -284,11 +290,11 @@ versions.
 The installed file structure varies from server to server, but you should have
 at least these two primary files:
 
-    
-    
+
+
     	ircd			the IRC server daemon (main program)
     	ircd.conf		the server configuration file
-    
+
 
 The configuration file has various configuration items in it, which are in a
 format beginning with a letter and a colon. This file is read and processed
@@ -360,7 +366,7 @@ R:hostmask:program path:username
 
 Y:class id:ping frequency:connect frequency:max connections:max sendq
 
-    The Y-line defines a connection class. The class id is a number that identifies the class, and is used in I-lines and C/N-lines to identify which Y-line to use. The ping frequency is the time (in seconds) between ping requests (to verify that the connection is still alive). Connect frequency is the time between automatic connection attempts for server connections (should be zero for client connection classes). Max connections is self explanatory. The "sendq" is the amount of data (in bytes) that is allowed to be pending going out to a connection in that class before the server will close it (with a message such as "Sendq exceeded").  
+    The Y-line defines a connection class. The class id is a number that identifies the class, and is used in I-lines and C/N-lines to identify which Y-line to use. The ping frequency is the time (in seconds) between ping requests (to verify that the connection is still alive). Connect frequency is the time between automatic connection attempts for server connections (should be zero for client connection classes). Max connections is self explanatory. The "sendq" is the amount of data (in bytes) that is allowed to be pending going out to a connection in that class before the server will close it (with a message such as "Sendq exceeded").
 On the 2.9.x versions of ircd, the connect frequency is replaced with an
 identifier to handle cloning. If it is a positive number, it identifies how
 many clients can connect from the same hostmask. If negative, it identifies
@@ -395,8 +401,8 @@ user@hostmask for that user.
 STATS [letter]
 
     The STATS command returns server information. These tend to vary by server version, and are sometimes case sensitive. Here are a few that I know or use regularly:
-    
-    
+
+
     	?	Server connection statistics
     	b	B-lines
     	c	C/N-lines
@@ -422,7 +428,7 @@ STATS [letter]
     	v	Server link information
     	y	Y-lines
     	z	More server statistics
-    
+
 
 If you are not currently an oper, I don't recommend going through and testing
 these all at once. Multiple STATS requests are usually viewed as a threat to
@@ -447,14 +453,14 @@ server connections. However, I have researched this quite a bit.
 
 For my description, let's assume a network that looks something like this:
 
-    
-    
+
+
     		A-----B----C----D
     		      |         |
     		E-----F         G----H
     		|     |         |
     		I     J----K    L----M
-    
+
 
 Usually when there is a problem, you first notice it by the decrease in
 response time from other users. Then you try pinging a few users and notice
@@ -500,14 +506,14 @@ to find a port. From your client on server L, you do a STATS l on server D
 (/stats l irc.d.com) and look at what ports it has open. Here's a couple of
 STATS l response lines that we are interested in:
 
-    
-    
+
+
     	211 irc.d.com  0 30844455 1978134 15372958 794195 156641 156641 -
     	211 irc.d.com[@*@*.6665]  0 702234 48662 118794 5963 156641 156641 -
     	211 irc.d.com[@*@*.6666]  0 1750847 130878 547336 22204 156641 156641 -
     	211 irc.d.com[@*@*.6668]  0 568644 38618 100102 4626 156641 156641 -
     	211 irc.d.com[@*@*.6669]  0 701079 48973 121065 5271 156641 156641 -
-    
+
 
 The first line is the default port (6667), and looks like it's been pretty
 busy, so let's use port 6665 to relink on instead.
@@ -538,21 +544,21 @@ If you are opering from a leaf server (like I do now), then you will generally
 only SQUIT and CONNECT locally to your uplink. So you have the following
 network:
 
-    
-    
+
+
     	A----B----C
     	          |
     	     D----E
-    
+
 
 And you are on server A, with real lag to the network, then you can reroute
 yourself to server D with:
 
-    
-    
+
+
     	/squit irc.b.com :reroute
     	/connect irc.d.com [port]
-    
+
 
 My previous discussion should carry over to help with evaluation of the
 connection between server A and server B.
@@ -651,18 +657,10 @@ to the average user, not to other operators. If you can think of anything more
 I should cover, or if you want to send me hatemail (or maybe even a nice
 comment), please feel free.
 
-**Aaron Brinton**  
+**Aaron Brinton**
 former [EFnet](http://www.efnet.org/) Operator (irc.ionet.net, irc.uci.edu)
 
 Special thanks to **Ruth Mullen** for many suggestions and saving me from some
 grossly embarrassing grammatical mistakes. :)
 
 * * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
