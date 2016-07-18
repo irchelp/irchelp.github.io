@@ -114,7 +114,7 @@ what you're doing! Trust me, I've made this mistake myself....
 
 To install an IRC client, you usually need to have a decent level of [UNIX
 knowledge](../misc/unixhelp.html). You may also get some tips from the rather
-out-dated [IRC by Telnet FAQ](../misc/telnet.html) (question #6-8).
+out-dated [IRC by Telnet FAQ](/irchelp/misc/telnet.html) (question #6-8).
 
 If you are not very savvy with Unix here are your choices:
 
