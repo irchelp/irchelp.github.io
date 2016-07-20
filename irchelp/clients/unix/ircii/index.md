@@ -11,15 +11,17 @@ redirect_from:
 ---
 
 
-![logo](/irchelp/Pix/irchelp_logo.gif)
-
-** Unix/Linux/BSD/etc.
-
-IRC clients primarily for the Unix shell **
+# ircII
 
 updated May 9, 2004
 
-by RuyDuck, Apatrix, dracus, Jolo, and many other UNIXsaurii
+by RuyDuck, Apatrix, stephanie, Jolo, and many other UNIXsaurii
+
+* * *
+
+**Security Warning** Versions of ircII earlier than 20030314 contained a buffer
+overflow vulnerability. This vulnerability can only be exploited by a malicious
+ircd, and not by other clients, however clients are still urged to upgrade!
 
 * * *
 
@@ -28,11 +30,17 @@ by RuyDuck, Apatrix, dracus, Jolo, and many other UNIXsaurii
 The UNIX operating system was the original home to the Internet Relay Chat,
 when some code developers wanted a way to chat in an easy-to-use, real-time
 forum and discuss their developments. Back in the early days of IRC, the
-**IrcII** (pronounced irc-two[*]) program was the premiere client. Designed to
+[ircII](http://www.eterna.com.au/ircii/) (pronounced irc-two[*]) program was the premiere client. Designed to
 run in a text-mode environment, IrcII is not pretty -- it has no sounds,
-graphics, menus, pop-ups, etc. (see a [screen capture](ircii.gif)). It is,
+graphics, menus, pop-ups, etc. (see a [screen capture](/media/ircii.gif)). It is,
 however, fast, stable, lightweight, portable, and easily backgrounded using
 virtual terminals such as Unix "screen".
+ircII was the first to implement Client to Client Protocol (CTCP) and Direct Client
+to Client (DCC).
+
+![screenshot of ircII running in a terminal window, circa 2001](/images/2016/07/ircii.gif)
+
+
 
 UNIX has evolved over the years into many variant OS's such as Linux, BSD,
 Solaris, etc., sometimes collectively known as "*nix", "Unix-like" or simply
@@ -64,77 +72,61 @@ largely taken over that position.
 
 * * *
 
-## Installing Text-Mode Unix Clients
-
-Many distributions of Linux and BSD come with built-in package management
-software (such as rpm for RedHat-based systems or deb for Debian-based
-systems). In these cases, installing your IRC client is usually as simple as
-downloading the program appropriate for your distribution and then installing
-the binary package. Some distributions have source packages, which allow you
-to maintain the package management of the distribution while still benefiting
-from building your client from source code. Managing distributions this way is
-for moderately experienced users who have the patience to read the package
-manager's manual pages to understand how it functions.
-
-Alternatively, you can download a "pristine source", usually in the form of a
-tarball that ends with the .tar.gz or .tgz extension. This package should be
-unpacked (using the gzip and/or tar utilities) into its own directory. Once
-that's done, every tarball package comes with two files, usually called README
-and INSTALL. Some clients may have additional README.extension files, which
-you should also read. These files tell you _important_ information about how
-to compile and install the program!
-
-## Installing GUI Unix Clients
-
-Installing the GUI client may be easier than it sounds. Of course, running a
-graphical client requires that you have a graphical environment installed on
-your computer, such as the XFree86 system. It also requires a window manager,
-such as FVWM2, Enlightenment!, Sawfish, WindowMaker, NextStep, BlackBox, or
-any of about a hundred other options. Some clients, such as XChat and KVIrc,
-require special "widget sets" to be installed on your system. If you go to the
-home pages of these IRC clients, they will tell you what you need to download
-and install.
-
-Luckily, if you have a package-managed distribution as stated above, the
-process is just as simple as downloading and installing the package you need.
-Most typical end-users of distributions such as RedHat or Mandrake have the
-benefit of a default installation that has already supplied you with
-everything you need. Again, if you plan to compile from a source tarball
-package, you should follow the instructions in README and INSTALL.
-
-## A Brief Note
-
-We'd also like to take a brief moment to make a very important point: if your
-Unix distribution uses package management, it behooves you to use it. Please
-do not install source tarball packages into distributions that use package
-management, such as rpm or deb, unless your are a fairly experienced user (in
-which case, what are you doing here?). While it's likely these programs will
-work once compiled, they can still do more harm than good if you don't know
-what you're doing! Trust me, I've made this mistake myself....
-
-To install an IRC client, you usually need to have a decent level of [UNIX
-knowledge](../misc/unixhelp.html). You may also get some tips from the rather
-out-dated [IRC by Telnet FAQ](/irchelp/misc/telnet.html) (question #6-8).
-
-If you are not very savvy with Unix here are your choices:
-
-  * seek help from somebody else who is,
-  * download pre-compiled copies of your favorite client (the default method for users of package-managed distributions),
-  * or stick to personal computer operating systems and clients which are easier to set up and use (such as [mIRC](/irchelp/mirc/) for Windows or the various [Mac clients](/irchelp/mac/)),
-
 * * *
 
-## Downloading Unix IRC Clients
+## Getting ircII
 
-### IrcII
+### From Packages
+Most Linux distributions, as well as other UNIX and UNIX-like
+operating systems, will have binary packages based on a
+relatively recent version of ircII available.
 
-There are now 2 main variants of ircII which we describe below:
+It's highly recommended that you use distribution-provided
+packages if available, even if they are not the latest
+version - ircII changes at a glacially slow pace, and by
+using your distribution's packages, you can easily
+apply any necessary security updates, as well as easily
+uninstall ircII if you no longer need it.
 
-**[ircII 2.8.2](ircii-2.8.2.tar.gz)** (4/95, 372,733 bytes)     The 'classic' release version of ircII, stable with relatively tame bugs, **recommended** for most people who don't feel the need to be on the bleeding edge. Some of our very experienced helpers have been satisfied with this version since 1995 and see no reason to ever upgrade. You need to get the [help file](ircii-2.8help.tar.gz) (~112KB) separately.
+#### Debian/Ubuntu and derivatives
+Under Debian, Ubuntu, and derivatives, using the apt/dpkg package management system ircII is normally
+found in the *ircii* package, and can be installed via `sudo apt-get install ircii`
 
-**[ircii-current](http://www.eterna.com.au/ircii/)** (3/2002, ~0.6MB) [ext. link]
+#### Fedora, RHEL, CentOS, and derivatives
+Under Fedora, Red Had Enterprise Linux, CentOS, and derivatives, ircII is normally in the *ircii* package, and
+can be installed via `sudo yum install ircii`
 
-After 2.8, ircII went through many, many versions from 2.9roof through 4.4Z,
+
+### Fron Source
+If your distribution does not offer packages of ircII, or
+you wish to use a version newer than your distribution
+provides, you can download and compile the source code.
+
+Compiling and installing software from source is not
+difficult, but does require a solid understanding of
+the *nix shell environment. We highly recommend that users stick to packaged versions if possible, as they are much easier to install and maintain than software compiled from source.
+
+Mixing distribution-packaged software and software built from source on the same system is likely to lead to conflicts.
+At the very least, Be sure to install into /usr/local rather than into /usr
+when installing from source, so as not to conflict
+with files installed by package managers. Due to
+systemwide configuration files or scripts for ircII installed by some distribution, you may encounter other conflicts or oddities if a prepackaged
+version is installed alongside a source-built version,
+even when the source-built version is installed in the
+correct location. This can persist even if the distribution
+packages are removed, if systemwide configuration files are
+left behind.
+You may wish to use [GNU Stow](https://www.gnu.org/software/stow/) to
+manage packages compiled from source - GNU Stow "packages"
+source installed packages into subdirectories and manages
+symlinks, making it easy to "install", "update", and "uninstall" such packages without risking leaving traces
+behind.
+
+[ircii-current](http://www.eterna.com.au/ircii/)
+
+## Version History
+2.8.2 was for a long time the most popular version, and
+was widely deployed in the 90s.  After the 2.8 series, ircII went through many, many versions from 2.9roof through 4.4Z,
 all of which were extremely buggy, either simply annoying or seriously
 compromised. After ircII 4.4 reached the Z release, the ircII team switched to
 naming their releases according to date. As of this writing, the most recent
@@ -145,47 +137,47 @@ original 2.8 release. Because ircii-current is a rolling release at this
 point, it's best if you go to the home page by following the link, and
 download it from there.
 
+**The older versions are no longer recommended due to a security vulnerability discovered in 2003, and fixed in version 20030314.**
+
+The version history from 4.4 onwards is detailed in [ircII's news page](http://www.eterna.com.au/ircii/news.html)
+
 * * *
 
 ### Clients based upon ircII
 
+**[EPIC](http://www.epicsol.org/)** [ext. link]
+EPIC is a fork of ircII designed to improve upon the
+scripting capabilities of the client. It adds little to
+nothing in terms of user interface, but, under the hood,
+there are numerous improvements designed to make scripting
+easier and more efficient. It retains extremely close
+compatability to version 2.8.2, from which it was forked
+
+
 **[BitchX](http://www.bitchx.org/)** [ext. link]     The most popular ircII-based client (forked at ircii-2.8 originally, it's now based on the current EPIC release of ircII), currently at version 1.0c18 (2001). This client is packed with all sorts of desirable as well as useless features which make it complicated to the level of being unnecessarily bloated. This doesn't mean it's a bad client. It's stable, functional and its bugs aren't too irritating (although some can earn you K:lines if you're not careful). Documentation on BitchX-specific features is sparse (though much improved over older versions). Even slight configuration errors can become the cause of embarrassing events. We recommend it only as a heavy duty client, strictly for experienced ircII users who are prepared to figure out a lot of things by yourself and risk such mistakes. It is strongly recommended that you have the help files for ircII and EPIC available when using BitchX, as the functions BitchX shares with these clients are poorly documented (if documented at all) in BitchX's own documentation. Note that BitchX's channel protection settings are turned on by default, with inappropriate triggering thresholds which will probably result in your client turning on fellow channel operators in channels you hold ops in. Most of these protection features are generally counterproductive, and may compromise a channel in a crisis situation. It's strongly recommended that you look through the little bit of documentation that BitchX has, and turn these features off. While you are at it, make sure you turn the public away notices off too, they get a bit annoying, and many channels kick for them.
 
-**[EPIC](http://www.epicsol.org/)** [ext. link]     A definitely "lighter" client than BitchX, it lacks many of the less useful features and the (not exactly stunning) colour scheme. It remains a lot closer to ircII and is based upon extensions to version 2.8.2. Recommended for users who intend to extend their client through extensive scripting.
+### Suggested Alternatives
 
-* * *
+[irssi](/irchelp/clients/unix/irssi/)
 
-### Other Console Clients
+irssi has largely taken the place of ircII as the gold-standard for console IRC clients, due to a simple
+but extensible user interface, and defaults that just
+work out of the box for most users without needing
+any customization.
 
-[**irssi**](http://www.irssi.org) [ext. link]
+Users migrating from ircII should note that irssi's default configuration utilizes hidden windows,
+making it much easier to keep track of multiple channels.
+It also utilizes an embedded Perl interpreter for its scripting, eliminating the need to learn a
+new language. This is a positive for new users, but,
+might be a downside if you are heavily invested in ircII
+customizations.
 
-Probably the newest of the console IRC clients. irssi has rapidly matured into
-a capable IRC client. Its default configuration utilizes hidden windows,
-making it much easier to keep track of multiple channels. It also utilizes an
-embedded Perl interpreter for its scripting, eliminating the need to learn a
-new language. irssi appears to be very full featured, and may eventually
-overtake BitchX in popularity. Irssi also lacks the potentially dangerous
-defaults BitchX has, making it a good choice for the novice user. Even though
-irssi's defaults are more reasonable, it would still be advisable to read the
-documentation before trying to use irssi, as it is quite different from other
-console clients, and the default use of hidden windows can take some getting
-used to.
+### Other UNIX/Linux Clients
 
-* * *
+Our main [UNIX/Linux Clients](/irchelp/clients/unix/) page
+lists a large number of clients, including both console
+and GUI Clients.
 
-### GUI Clients
-
-**[X-Chat](http://www.xchat.org/)** [ext. link]     X-Chat is likely the most popular GUI client for Unix Currently at version 1.8.8 (as of March 2002), it features mIRC-like look and feel and the ability to run powerful PERL-based scripts. X-Chat has also been ported to Windows, but functions best in it's Unix home. Recommended for the novice user to get started for its ease of use, and to the expert for its potential. X-Chat is built on the popular GTK+ toolkit, and is usually included as part of a standard [GNOME](http://www.gnome.org) installation.
-
-**[KVIrc](http://www.kvirc.net/)** [ext. link]     KVIrc is an equally popular IRC client, based on the competing QT toolkit, which is part of the [K Desktop Environment (KDE)](http://www.kde.org/). KVIrc is at version 2.1.1 (May, 2001) and is currently developing V3.0, supposedly a major feature upgrade. KVIrc has the ability to load scripts and modules, all downloadable somewhere on the Web. KVIrc has ALSO been ported to Windows.
-
-* * *
-
-### Bots
-
-**[eggdrop](http://www.egghelp.org)** [ext. link]     Bots are a very advanced subject, so be prepared to do a lot of reading and learning. Start with [Frequently Asked Questions about Internet Relay Chat roBOTs](/irchelp/misc/botfaq.html), then also check out the bot section near the end of the [New IRC Channel Operator's Guide](/irchelp/changuide.html).
-
-* * *
 
 ## Help and related files
 
@@ -217,19 +209,6 @@ information about potential ident problems.
 
 * * *
 
-## Other Download Sites
-
-Get the latest clients at these archives:
-
-  * [Freshmeat.Net](http://www.freshmeat.net) is almost inarguably the best resource for Unix applications on the web, including just about EVERY IRC client available to Unix users, even the most obscure.
-  * [SourceForge](http://www.sourceforge.net) is a community of coders and developers who use this venue to track the latest changes and offerings of their open-source code.
-
-Pre-compiled ircII binaries:
-
-  * [RPMFind](http://www.rpmfind.net) [ext. link] is the definitive archive for RPM-based distributions. RPM users can find anything they need right here. If it's not here, it doesn't exist. RPMFind is not always up-to-date with the latest releases of most IRC clients, however, so caveat emptor - buyer beware.
-  * Precompiled binaries may also be available from individual client home pages, which you can find through SourceForge or FreshMeat above. Please note the precompiled binaries will only work under fairly close to the exact same conditions that they were compiled under. It's always preferable to compile your own or assure that your system is compatible (package management is supposed to assure this for you, don't always trust it).
-
-* * *
 
 ## Scripts for ircII (and variants)
 
@@ -262,10 +241,3 @@ not going to argue the point to death. What's pretty certain is that it is
 "two" and not "ee".
 
 * * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
