@@ -21,6 +21,14 @@ AndroIRC is a popular choice for Android - it works well on most devices, and it
  also featureful, including support for SSL, SASL, and IRC proxies, nickname
  completion, and many of the things you'd expect from a desktop client.
 
+## IRCCloud
+[IRCCloud](https://www.irccloud.com/) - also listed under our [web clients](/irchelp/clients/webclients.html)
+is a hosted service accessible via the web as well as Android and iOS apps. Their
+mobile clients act as a proxy for connections - routing the connection through
+IRCCloud's servers. They offer free and paid plans, with the paid plans offering
+persistent connections even with the client closed down, and push notifications,
+which can help to work around spotty mobile network coverage.
+
 ## Using Linux IRC clients on Android
 
 As Android is Linux-based under the hood, it's possible to run some IRC clients for a Linux terminal directly on an android device, using a terminal emulator application to interact with them via the shell. Depending on the device, you may be able to do this without root, but it will always work on a rooted device.
@@ -35,4 +43,4 @@ irssi is notable in this area, as a single irssi client on a stable host can be 
 
 # Using a bouncer/proxy
 
-Using a bouncer or proxy from a more stable network may be useful to improve connection reliability. 
+Using a bouncer or proxy from a more stable network may be useful to improve connection reliability.
