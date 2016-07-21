@@ -2,6 +2,8 @@
 title: callerid, aka usermode g
 author: Osc
 layout: default
+redirect_from:
+  - /irchelp/misc/gmode.html
 ---
 
 # Quick usermode g information for EFnet

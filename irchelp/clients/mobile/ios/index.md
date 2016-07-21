@@ -38,3 +38,13 @@ of your own in order to get it to work.
 Also a transplant from the MacOS desktop, [LimeChat](http://limechat.net/iphone/) is an IRC client for all iOS devices.
 It supports SSL connections and SASL authentication, as well as automatic nickserv
 authentication on non-SASL networks.
+
+## IRCCloud
+[IRCCloud](https://www.irccloud.com/), which is also listed under our [web clients](/irchelp/clients/webclients.md)
+section, is a "hosted" client running on IRCCloud's servers, with web, iOS, and Android
+apps available to access the service. Free and paid versions of the service exist,
+with paid versions offering persistent connections, push notifications, stored
+message history, and synchronization between multiple clients
+
+As IRCCloud essentially works as an IRC proxy, it's able to work around the iOS
+platform restrictions on background data - if you have a paid account with them.

@@ -14,6 +14,9 @@ Web gateways provide access with only a web browser, using a backend program on 
  * [CGI:IRC](http://cgiirc.org/)
  * [qwebirc](http://qwebirc.org/)
  * [KiwiIRC](https://kiwiirc.com/)
+ * [IRCCloud](https://www.irccloud.com/)
+
+
 
 
 ## Java & Flash Clients
@@ -29,6 +32,20 @@ Mibbit is a large, public web gateway designed to be easily embedded as a widget
 
 ### KiwiIRC
 [KiwiIRC](https://kiwiirc.com/) is both a open source, self-hosted web IRC client, and operates a public web gateway with support for a number of popular IRC networks. Unlike most web clients, it provides users with a scripting interface, and it's designed for both desktop and mobile use.
+
+### IRCCloud
+[IRCCloud](https://www.irccloud.com/) is a commercial
+web client service, offering free and paid accounts usable
+via a web browser or via Android and iOS applications. The
+free plan current is limited to 2 active connections, while
+the paid plans offer unlimited connections as well as
+persistent connections with full message history and synchronization
+across the web application and mobile clients. As of July 2016,
+they mention BNC as an upcoming service for paid users.
+
+As this is one of the few "hosted" services offering push notifications
+for mobile users, this is one of the small number of clients for iOS users which can remain
+connected in the background.
 
 ### Other Public Web Gateways
 
