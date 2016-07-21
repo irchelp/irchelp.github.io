@@ -14,6 +14,7 @@ are significant resources for users, operators, and administrators.
 * [Internet Relay Chat on Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat) - extensive article on IRC and its history.
 * <http://irc.netsplit.de/> - documentation, statistics, and channel/server search
 * <https://www.irc.wiki/> - Wiki devoted to all things IRC.
+* [IRCDocs IRC Definition Files](http://defs.ircdocs.horse/) collection of protocol references for scripting and client development, including server numerics, user and channel modes, channel member prefixes, channel types, and RPL_ISUPPORT tokens.
 
 ## Protocol References
 * [IRCv3](http://ircv3.net/) IRCv3 specifications - a set of extensions to the IRC protocol for modern IRC clients.
