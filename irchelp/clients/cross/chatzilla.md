@@ -33,7 +33,7 @@ ChatZilla benefits highly from the portability of the underlying Gecko platform,
 
 ## Quirks
  * The automatic linkification of bug reports (linking bug #12345 to the corresponding URL) is highly specific to developers, and not necessary for most users - this can be customized or disabled as a global setting, by network, or by channel.
- * Tabs are listed strictly in the order they are opened, and not groupsed by network.
+ * Tabs are listed strictly in the order they are opened, and not grouped by network.
  * Conference mode automatically hides joins, parts, nickname changes, and quits for very large channels (by default, channels with over 150 users) - this can also be customized or disabled as a global setting, by network, or by channel.
  * The automatic rendering of text emoticons into graphic emoticons occasionally transforms text that wasn't intended as an emoticon.
 
