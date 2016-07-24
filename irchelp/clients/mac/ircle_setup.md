@@ -196,12 +196,3 @@ below (be sure to select the Mac helper).
 [ [back to Mac IRC page](index.html) | [Ircle home
 page](http://www.ircle.com/) | [download
 Ircle](http://www.ircle.com/download.html) ]
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

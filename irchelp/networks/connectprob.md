@@ -214,15 +214,3 @@ idle, so don't. Just use other servers which don't mind. Do not break server
 rules by using anti-idle scripts, that's lame, unncessary, and often not
 effective any way (since they know all the usual tricks too). Intentionally
 breaking their rules may even earn you a k-line (server ban).
-
-[ [main page](./) | [servers](servers/) | [networks](nets/) | [adding
-you](addreq.html) ]
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

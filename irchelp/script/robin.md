@@ -128,13 +128,3 @@ done.
 [Return to general ircII script page.](/irchelp/script/)
 
 ##### Copyright (C) 1997,1998,1999 David Hansen with a lot of inspiration.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

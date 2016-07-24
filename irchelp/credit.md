@@ -31,6 +31,3 @@ pages littered all over the Internet.
   * [David Delmont aka kylania](http://www.radiks.net/kylania/) helped to create or customize many Perl scripts including the [email feedback](/irchelp/mail.cgi) and [site search](/irchelp/search_engine.cgi). 
   * Many other files were written by other #IRChelp ops and helpers from all over the Internet... there are too many to thank individually. Each page is credited where possible. 
 
-* * *
-
-

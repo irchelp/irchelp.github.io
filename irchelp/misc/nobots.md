@@ -31,13 +31,3 @@ You can defend your channel very effectively by getting a channel protection
 script which will give ops to people you trust and deop others. We are working
 on providing a channel protection script which will give you the tools to
 defend against takeovers. Check back with us soon.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
