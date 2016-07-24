@@ -84,12 +84,3 @@ far less likely to be crippled by attacks like the "Big Five" and can let you
 chat in peace, which is the whole point of IRC after all.
 
 Return to [IRChelp.org Networks Page](./)
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

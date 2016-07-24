@@ -78,12 +78,3 @@ security.
   * [Tucows](http://www.tucows.com/)
   * [Apple App Store](http://www.apple.com/osx/apps/app-store.html)
   * [Version Tracker for Mac OS](http://www.versiontracker.com/)
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

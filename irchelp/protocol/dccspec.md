@@ -160,14 +160,3 @@ By Troy Rollo (troy@plod.cbme.unsw.oz.au)
     troy@cbme.unsw.EDU.AU	      Overworked, overcommited and always multitasking.
     Opinions expressed are not those of the CBME or UNSW, but are my opinions only.
     You are free to adopt them.   I suggest you adopt them.    You will adopt them!
-
-
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

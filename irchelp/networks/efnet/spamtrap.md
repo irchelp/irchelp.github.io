@@ -11,7 +11,7 @@ irc.efnet.nl
 Thanks to ^duck^, Beige, HndlWCare, wmono, Jupiter, jilles, and various other
 EFNet opers and #irchelp'ers for proofreading and feedback.:
 
-$Id: spamtrap.xml 10 2007-01-07 20:04:50Z Stephanie $
+$Id$
 
 Copyright © 2007
 
@@ -152,13 +152,3 @@ hostmasks constantly.
 With that said, we maintain the [#spamfix](irc://irc.efnet.org/spamfix)
 channel on EFNet for users to go for help with spam issues or issues with the
 spamtrap system.
-
-* * *
-
-
-
-[ [go back](/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

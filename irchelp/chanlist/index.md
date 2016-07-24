@@ -59,12 +59,3 @@ Number of users: minimum  2 351025 50100200  maximum  2 351025 50100200 9999
 Search by channel: name topic name or topic
 
 **[IRCnet Channel Search](http://www.ludd.luth.se/irc/list.html)** (external link)     Similar to our EFnet list above, but for [IRCnet](http://www.ircnet.com/) only.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

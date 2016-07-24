@@ -73,15 +73,3 @@ _Note: Feel free to link to any of these pages, but no part of these documents
 may be mirrored or distributed in any form, either partly or in whole.
 Comments and critiques are based on our personal views and are not necessarily
 shared or condoned by the maintainers and owners of this site._
-
-[ networks home | [popular nets](popular.html) | [general nets](general.html)
-| [subject nets](subject.html) | [local nets](local.html) ]
-
-* * *
-
-
-
-[ [go back](/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[All pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

@@ -18,9 +18,6 @@ version 0.3.4s
 updated 2/3/99 -dracus
 updated 1/25/03 -dracus
 
-Please send suggestions/comments to Jolo at http://www.irchelp.org/~jyl/mail.cgi
-
-
 
 # Overview
 

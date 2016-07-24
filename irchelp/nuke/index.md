@@ -115,12 +115,3 @@ the case, shouldn't you really just avoid these troublemakers?)
 **[Firewall FAQ](../security/fwfaq.html)**     Technical discussion of problems involved with using IRC from behind a proxy, firewall, or NAT gateway. Includes links for specific fixes for identd and DCC problems.
 
 **[BugTraq](http://www.securityfocus.com/)** [external link]     This is the definitive source of information (and misinformation too!) when it comes to attacks, bugs, exploits, etc. It is _not_ intended for typical users because it is extremely technical and can be very hard to sort through even for expert programmers and system administrators. There have been ample examples of outright hoaxes published on this mailing list which have led to a lot of unnecessary panic and confusion.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

@@ -127,12 +127,3 @@ automated means of checking all ops to make sure they belong to your
 authorized ops list. It takes considerable IRC experience and resources to
 maintain a channel, so good luck. If you don't feel up to the task, there's
 always DALnet. :-)
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

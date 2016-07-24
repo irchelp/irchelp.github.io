@@ -114,12 +114,3 @@ your command line.) When using backscroll, use the ESC-p command twice to get
 a full screen change, then take your screen image capture.
 
 **[Ircle (for Macintosh)](/irchelp/macintosh/)**     It's easy to log stuff in Ircle and other Mac clients. Simply select the text you want, copy, go to a text editor such as SimpleText or BBEdit, paste, and save. If the text extends beyond the current screen, you can just use the mouse to select and scroll up while holding down the mouse button. You can also "shift-select" the text: click on the first word, use the scroll bar to go to the other end, then hold down shift and click on the last word to select everything in between. Ircle also supports automatic logging if you want to routinely log everything, see File / Preferences / Logging.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

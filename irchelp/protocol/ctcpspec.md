@@ -941,13 +941,3 @@ redirect_from:
     	The original block size used by IRCII was 1024. Other clients
     have adopted this. Note, however, that an implementation should accept
     any blocksize. IRCII currently allows a user-settable blocksize.
-
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

@@ -65,12 +65,3 @@ firewalls" which are programs that run on your PC and can block communications
 from some backdoor programs. Since file downloads are a normal part of your
 internet experience, however, personal firewalls can't stop you from
 downloading the **trojan** that installs that backdoor in the first place.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

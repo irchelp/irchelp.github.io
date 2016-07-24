@@ -552,13 +552,3 @@ helpers on EFnet for their many helpful suggestions.
 Adesso che hai letto questa guida per principianti, vai su IRC e divertiti!
 Oppure se sei interessato a imparare dell'altro, dai un'occhiata ai documenti
 presenti sulla [#IRChelp home page](http://www.irchelp.org/).
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

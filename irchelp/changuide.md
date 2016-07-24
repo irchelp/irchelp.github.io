@@ -558,13 +558,3 @@ Remember, IRC is a very dynamic medium, you never know when a
 channel/server/network might just cease to exist. If you need a channel, make
 sure it is already stable and well supported before making plans surrounding
 it.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

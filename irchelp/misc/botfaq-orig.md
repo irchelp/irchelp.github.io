@@ -112,13 +112,3 @@ is one of the original bots on EFnet, located on #Eliza, the "grand dame"...a
 fun but perfectly useless type of bot. It is highly recommended that you do
 not start a bot for the sole purpose of retaining ops on a channel and to keep
 a channel open. If your channel is popular enough there is no need for this.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
