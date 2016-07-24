@@ -2,6 +2,7 @@
 title: www.irchelp.org content guidelines and authoring information.
 author: Stephanie Daugherty
 layout: default
+license: cc-by-sa-4
 ---
 
 # Authoring Documents for www.irchelp.org
@@ -75,11 +76,17 @@ There are two options for this:
  - the first, and preferred way is for content to be licensed under terms that permit anyone to use it - public domain or an acceptable free documentation license
  - Alternatively, the content may be provided to irchelp.org under a release that grants us a non-revocable right to publish it.
 
+The preferred license for new irchelp.org content is the [Creative Commons
+Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+(CC-B4-SA) license. This license requires that the license be preserved intact
+when reusing or republishing content, and that content must be attributed back
+to original authors.
+
 In any case, content must either be your own work, so that you have a clear right to license it, or it must already be under an appropriate free documentation license.
 
 ### Preferred Licenses
-  * CC-BY
   * CC-BY-SA
+  * CC-BY
   * GFDL with no invariant sections
   * Public Domain
 
@@ -92,8 +99,12 @@ Other licenses that we find acceptable include any of the following:
    * LGPL
    * Modified ("3 clause") BSD License
    * Simplified ("2 clause") BSD License
- 
+
 Other licenses may prove to be acceptable, but we will need to evaluate these on a case-by-case basis in the future.
+
+## Acceptable under Special Circumstances
+  * All rights reserved to irchelp.org (acceptable for older work)
+  * Used by permission (acceptable for archival documents if no other license terms are available)
 
 ## License Tags
 The applicable licensing tag should be indicated in the YAML front matter of each document, as one of the following values.

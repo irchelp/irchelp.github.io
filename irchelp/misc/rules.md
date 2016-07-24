@@ -10,17 +10,17 @@ updated 5/12/02
 
 ## So you want to help on #IRChelp?
 
-We are the helpers of #IRChelp on EFnet/IRCnet. (There are #IRChelp channels
+We are the helpers of #IRChelp on EFnet/freenode/IRCnet. (There are #IRChelp channels
 on most large networks, but those others are not directly affiliated with this
 web site.) We try to conduct ourselves in a professional, courteous manner.
 Anybody is welcome to help, but you **must** follow these guidelines:
 
-  1. Do not idle - that is, staying silent for hours and not responding when prompted. This rule enhances channel security and improves our ability to help. An "idling helper" is a contradiction in terms and may get you kicked. If you need a break, just /leave and rejoin later. You're welcome to learn by watching, but be sure you stay awake and respond when somebody talks to you. A better way to learn is to study the [#IRChelp FAQs](/irchelp/irchelpfaq.html) or our many other [help files](/irchelp/faq.html). More information on this rule is at the bottom of this page.*
+  1. Do not idle excessively - that is, staying silent for days and even weeks and not responding when prompted.  We reserve the right to kick idle clients at any point based upon our best judgement of their intent and possible risk to our users. This rule enhances channel security and improves our ability to know who needs help.  You're welcome to learn by watching, but be sure you stay awake and respond when somebody talks to you. A better way to learn is to study the [#IRChelp FAQs](/irchelp/irchelpfaq.html) or our many other [help files](/irchelp/faq.html). More information on this rule is at the bottom of this page.
   2. Answer only questions you are absolutely sure about, using clear and concise English. No jokes or pranks please.
   3. Give help publicly on the channel, since the help may apply to other users, and so that we may monitor who is getting help and if that help is accurate.
   4. No help on anything that violates IRC server policies, e.g. how to annoy, takeover, flood, clone, collide, spoof, etc.
   5. No help on anything illegal, e.g. how to do [denial of service attacks](../nuke/), [illegal file trading](../security/warez.html) etc.
-  6. No automated scripts please, including automatic greetings, public away messages, file serve announcements, etc.
+  6. No automated scripts please, including automatic greetings, automatic replies, public away messages, file serve announcements, etc. If we want something automated in the channel, it will be set up and provided by the channel operators.
   7. Avoid annoying behavior which is not tolerated on most channels, e.g. insults, profanity, ads, invites, slaps, ALL CAPS, colors, **bold**/_underline_/inverse, etc.
   8. It's OK to field simple scripting questions such as how to create short aliases or remotes, but otherwise we usually do not provide extensive bot/script help, as they are beyond our scope and best referred to other channels which specialize in them (e.g. #egghelp for bots, #mirc for mIRC scripting). We do not support any 3rd party scripts, not even our own.
   9. Avoid help on non-IRC issues unless the channel is really quiet. Refer the questions to #help, #pc, #windows, #unixhelp, etc. depending on the question.
@@ -42,7 +42,7 @@ If you are genuinely interested in helping other people to use and enjoy IRC,
 you would help with no expectations of reward other than a job well done. If
 that describes you, welcome aboard!
 
-- EFnet and IRCnet #IRChelp ops
+  \- EFnet, freenode, and IRCnet #IRChelp ops
 
 * * *
 

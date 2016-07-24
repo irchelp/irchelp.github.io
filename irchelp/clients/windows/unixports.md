@@ -17,7 +17,7 @@ Unless you are feeling adventurous, nostalgic, or really are more comfortable wi
 
 ### irssi
 
-A version of irssi 0.8.15 marked as being "for testing" is available from the [irssi homepage](www.irssi.org). This is considered by the irssi team to be prerelease software. 
+A version of irssi 0.8.15 marked as being "for testing" is available from the [irssi homepage](www.irssi.org). This is considered by the irssi team to be prerelease software.
 
 ### pidgin
 
@@ -44,9 +44,15 @@ MSYS is a much less complete solution, but is considered lighter weight. It also
 
 ### Other ways to port
 
+### Windows 10
+Windows 10 includes 'Services for Linux' and "Bash On Ubuntu On Windows" as of the
+August 2016 "Anniversary Update". This means a full installation of Ubuntu Trusty
+running on the Windows kernel is possible - and with it, any IRC clients that work
+in the terminal can run in a window.
+
 #### Services for Unix
 
-Microsoft Services for Unix is a similar framework to Cygwin and MSYS, provided by Microsoft. It's not widely used outside of some enterprise applications that have been ported with it, but it seems at least *theroretically* possible to port a client over with this toolchain. I'm not aware of any successes here, but your mileage may vary. 
+Microsoft Services for Unix is a similar framework to Cygwin and MSYS, provided by Microsoft. It's not widely used outside of some enterprise applications that have been ported with it, but it seems at least *theroretically* possible to port a client over with this toolchain. I'm not aware of any successes here, but your mileage may vary.
 
 #### Build using Visual Studio
 
@@ -61,4 +67,3 @@ via virtualization, most likely with far fewer difficulties than you'd run
 into with a badly ported \*nix client running in Windows.
 
 The choice is yours however, but you do have some options.
-

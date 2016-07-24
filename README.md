@@ -1,3 +1,5 @@
+$Id$
+
 Welcome WIO Editors!
 --------------------
 

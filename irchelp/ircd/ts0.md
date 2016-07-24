@@ -1,14 +1,40 @@
+---
+title: The Channel Timestamp (TS) Zero Problem
+author: Joseph Lo
+layout: default
+---
+
 # The Channel Timestamp (TS) Zero Problem
 
 by Joseph Lo aka Jolo, last updated Aug 6, 2002
 
 ''Note'': TS0 has largely disappeared from IRC networks, with the last major
 network where it commonly appeared (EFNet) being updated several years ago
-with protocol changes which automatically updated TS0 channels to have a valid, 
+with protocol changes which automatically updated TS0 channels to have a valid,
 current timestamp. The TS0 problem, is thus, a relic of thie past, and this document is largely
 historic.
 
+# Summary
+A timestamp of 0 on a network implementing the *timestamp protocol* was once
+commonplace in the years following the introduction of channel timestamps. 0
+in this case, representing a null value - the channel never had a timestamp.
 
+TS0 channels adhered to pre-timestamp behavior for channel collisions - meaning,
+they were exempt from TS rules, and users could still ride into these channels
+with ops after a split.
+
+Most channels were recreated shortly after the introduction of TS on EFNet and
+other networks in order to establish TS protection, but it still persisted on
+a few EFNet channels as a sort of badge of honor or status symbol, most notably,
+the #twilight_zone channel, which was nominally an IRC Operator only channel dating
+back to the earliest days of EFNet and IRC.
+
+Because of the inherent insecurity of TS0 channels, TS0 was largely a curiosity
+within a short time after timestamp was fully implemented, but resurfaced on a
+few occasions over the years as a result of hacked servers. These days,
+the server-to-server protocol of most networks has been updated, and a TS0 channel
+will be automatically corrected to a valid timestamp, so TS0 channels are no
+longer possible on modern networks.
 
 
 ## What is a TS?
@@ -62,7 +88,7 @@ On most clients, you can check your TS with the command `/mode #channelname`,
 which should show your channel's current modes and when it was created. The
 result may be shown on your status screen, console window, etc. For example:
 
-    
+
         /mode #irchelp
         *** Mode for channel #irchelp is "+tnl 25"
         *** #irchelp - created Sat Mar 24 03:56:59 2001
@@ -80,14 +106,14 @@ you'll be safe. The danger of course is that whoever gets back in first is the
 new owner of the channel, so you need to maximize the chances that it's one of
 your ops. Here's the recommended way to do this.
 
-  1. Wait until things are pretty quiet such as at night, and arrange to have a few experienced ops to help. You don't want to do this while a lot of visitors are coming and going. 
-  2. Make sure there are no splits in progress. Use `/lusers` to see if all 40 or so servers are linked. Use `/ping #channelname` to see if anybody is lagging and thus likely to split soon. If you proceed during a split, this will either not work, or you may even lose your channel! 
-  3. Set `/mode #channelname +i` (invite only) to deter new vistors and auto-rejoining clients. 
-  4. Get people to leave the channel and to stay away for at least 15 minutes, by asking nicely first, then by kicking if necessary. 
-  5. When you are down to just the few experienced ops who are awake and each have one client left, wait a few minutes more. You can optionally go -i for a minute to see if anybody else is trying to sneak in. 
-  6. If you use channel maintenance bots which know how to auto-cycle the channel, get all but one bot out. Make sure the bot's owner is around in case you need manual intervention. Then everybody should just leave and not rejoin for a minute to let the bot have time to cycle the channel. 
-  7. If you don't use bots, just cycle the channel the old fashioned way. When you think the coast is clear, on the count of 3, all of you should leave and immediately try to rejoin the channel. By making it a race, you improve the chances that one of you is the winner instead of some outsider. It doesn't matter which of you wins. 
-  8. The winner re-distributes ops carefully to other authorized people. Don't forget to reset channel modes including topic, bans, etc. 
+  1. Wait until things are pretty quiet such as at night, and arrange to have a few experienced ops to help. You don't want to do this while a lot of visitors are coming and going.
+  2. Make sure there are no splits in progress. Use `/lusers` to see if all 40 or so servers are linked. Use `/ping #channelname` to see if anybody is lagging and thus likely to split soon. If you proceed during a split, this will either not work, or you may even lose your channel!
+  3. Set `/mode #channelname +i` (invite only) to deter new vistors and auto-rejoining clients.
+  4. Get people to leave the channel and to stay away for at least 15 minutes, by asking nicely first, then by kicking if necessary.
+  5. When you are down to just the few experienced ops who are awake and each have one client left, wait a few minutes more. You can optionally go -i for a minute to see if anybody else is trying to sneak in.
+  6. If you use channel maintenance bots which know how to auto-cycle the channel, get all but one bot out. Make sure the bot's owner is around in case you need manual intervention. Then everybody should just leave and not rejoin for a minute to let the bot have time to cycle the channel.
+  7. If you don't use bots, just cycle the channel the old fashioned way. When you think the coast is clear, on the count of 3, all of you should leave and immediately try to rejoin the channel. By making it a race, you improve the chances that one of you is the winner instead of some outsider. It doesn't matter which of you wins.
+  8. The winner re-distributes ops carefully to other authorized people. Don't forget to reset channel modes including topic, bans, etc.
 
 If you're not sure you can handle it, seek help with #irchelp. Be sure the
 person you talk to is an op (@ by their nick) before trusting them.
@@ -110,4 +136,3 @@ always DALnet. :-)
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

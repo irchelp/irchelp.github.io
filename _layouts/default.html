@@ -40,11 +40,17 @@
 
     <div id="container" class="container">
 <!--
-            TODO: fix block header here
-            { block header %}
-            <h1><a href="{{ site.root }}">{% if page.title %}{{ site.title }}{% endif %}{% if page.title %}{{ page.title }}{% endif %}</a></h1>
-            { endblock %}
+            TODO: fix page header here so it's presentable
+            {% if page.title %} <h1 class="title"> {{ page.title }}</h1><br />{% endif %}
+            {% if page.author %} <h2 class="author"> {{ page.author }}</h2><br /> {% endif %}
+            {% if page.date %} <h2 class="pubdate"> Last modified: {{ page.date }}</h2><br /> {% endif %}
+            {% if page.license == 'cc-by-sa-4' %}<p>This document is licensed under
+              the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike
+              license.</a></p>{% endif %}
+            <hr />
+
 -->
+
 
             <div class="content">
                 {{ content|raw }}

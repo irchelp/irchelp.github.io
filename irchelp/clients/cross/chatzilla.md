@@ -24,7 +24,7 @@ ChatZilla benefits highly from the portability of the underlying Gecko platform,
  * Tab completion for replies, nicknames, channels, and commands.
  * Themeable via CSS
  * Lightweight when run as part of Firefox or SeaMonkey (under 400KB installed size as of December 2012)
- * Provides a built-in ident daemon when running on Windows for connecting to servers that require identd. 
+ * Provides a built-in ident daemon when running on Windows for connecting to servers that require identd.
  * "Stalk list" provides keyword highlighting or highlighting whenever a given user speaks.
  * Available in a number of languages, and with support for right to left (RTL) languages.
  * Open Source, available under Mozilla Public License 1.1
@@ -33,7 +33,7 @@ ChatZilla benefits highly from the portability of the underlying Gecko platform,
 
 ## Quirks
  * The automatic linkification of bug reports (linking bug #12345 to the corresponding URL) is highly specific to developers, and not necessary for most users - this can be customized or disabled as a global setting, by network, or by channel.
- * Tabs are listed strictly in the order they are opened, and not groupsed by network.
+ * Tabs are listed strictly in the order they are opened, and not grouped by network.
  * Conference mode automatically hides joins, parts, nickname changes, and quits for very large channels (by default, channels with over 150 users) - this can also be customized or disabled as a global setting, by network, or by channel.
  * The automatic rendering of text emoticons into graphic emoticons occasionally transforms text that wasn't intended as an emoticon.
 
@@ -43,7 +43,7 @@ ChatZilla benefits highly from the portability of the underlying Gecko platform,
 
 * [Download and install](https://addons.mozilla.org/en-US/firefox/addon/chatzilla/) the extension from within Firefox.
 * Restart Firefox when prompted.
-* Access ChatZilla from the Tools menu. 
+* Access ChatZilla from the Tools menu.
 
 ### As part of SeaMonkey
 
@@ -51,9 +51,13 @@ ChatZilla is included by default in builds of the SeaMonkey application suite. S
 
 ### As a standalone application
 
-As of this writing, it's still possible to run a standalone version of ChatZilla, but challenging due to a dependency on XULRunner, which has reached end of life. The ChatZilla homepage has more information on this, but it's not recommended for the faint of heart.
+It's possible to run a standalone version of [ChatZilla using XULRunner](http://chatzilla.rdmsoft.com/xulrunner/).
+There's a Windows installer offered, other platforms will have to build XULRunner
+first.
 
 ## Resources
 * [ChatZilla FAQ](http://chatzilla.hacksrus.com/faq/)
+* [ChatZilla on XULRunner](http://chatzilla.rdmsoft.com/xulrunner/)
+* [James Ross' Chatzilla Page](http://james-ross.co.uk/mozilla/chatzilla/links)
+* [ChatZilla on Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/chatzilla/)
 * [Wikipedia entry for ChatZilla](http://en.wikipedia.org/wiki/ChatZilla)
-
