@@ -1,3 +1,11 @@
+---
+title: New IrcNet Channel Modes and Other Changes in 2.10
+author: Thoman Kuiper (engerim)
+layout: default
+redirect_from:
+  - /irchelp/ircd/ircnet210.html
+---
+
 # New IRCNet Channel Modes and Other Changes
 
 by Thomas 'Engerim' Kuiper
@@ -16,11 +24,11 @@ This mode stands for ban exception, so that a specific subset of the banned
 mask can still join. For example, to ban all users from example.org except for
 the user using "test" as his username/ident:
 
-    
-    
+
+
         /mode #foo +b *!*@example.org
         /mode #foo +e *!test@example.org
-    
+
 
 Disadvantage of this new Mode: Many scripts and bots kick users from a channel
 if they match a +b mask. They _don't_ care about the new mode +e yet. If you
@@ -50,10 +58,10 @@ errors.
 Each !channel gets a unique name on your server. To create the equivalent of
 #test as an "uncollideable channel", you would you would type:
 
-    
-    
+
+
         /join !!test        (Note 2 exclamation marks.)
-    
+
 
 The The unique ID could be !42AQWtest for example. If you were the first to
 try to /join !!test, you as the first user get the +O mode (uppercase "O for
@@ -68,10 +76,10 @@ Duplicate : !!channels recipients. Join aborted.
 This means the channel was already requested. In this case we can only join it
 by using the uncollideable name via:
 
-    
-    
+
+
         /join !42AQWtest     (Note 1 exclamation mark.)
-    
+
 
 If someone on a split server tries to /join !!test, it gets another unique ID
 like !hjzittest so there will be no collision when the server rejoins.
@@ -127,4 +135,3 @@ Example of 2.10.x server: `2.10.0p5+Cr22e1+FL4f1.: irc.vsp.cz AaeEfijJKMRtuZ`
 [help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
 
 [all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-
