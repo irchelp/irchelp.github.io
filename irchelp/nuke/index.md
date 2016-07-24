@@ -4,6 +4,7 @@ author: Joseph Lo
 layout: default
 redirect_from:
   - /nuke/
+  - /irchelp/security/nuke.html
 ---
 # Denial of Service or "Nuke" Attacks
 
