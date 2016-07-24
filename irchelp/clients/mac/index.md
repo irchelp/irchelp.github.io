@@ -4,6 +4,10 @@ author: Joseph Lo aka Jolo
 dateupdated: 08 May 2013
 summary: IRC Clients for Apple Mac OS X
 layout: default
+redirect_from:
+  - /mac/
+  - /irchelp/mac/
+  - /irchelp/clients/mac.html
 ---
 [![*](/media/macappstore_icon.jpg) ](http://www.apple.com/)
 
