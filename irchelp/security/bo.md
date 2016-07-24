@@ -192,14 +192,3 @@ anything they could if the were sitting at the machine itself.
 
 > Back Orifice has the ability to transfer files, delete, create and modify
 files on your hard drive. So in short yes.
-
-[Return to top]
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

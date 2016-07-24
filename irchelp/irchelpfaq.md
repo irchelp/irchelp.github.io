@@ -356,12 +356,3 @@ gonna happen. The Ultimate Question about Life, the Universe and Everything.
 The Invaluable Answer is:
 [42!](http://www.empirenet.com/personal/dljones/index.html) (Don't take this
 lightly, it took 7.5 million years to figure out.)
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

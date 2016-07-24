@@ -20,18 +20,3 @@ actually more harmful. As a result, I have removed all of these tools.
   3. Most attackers spoof their IP address so that you log only a fake address. This is at best useless (like "www.microsoft.com") and at worst very misleading. Sometimes people will do this just to make you kick and ban the wrong people. 
   4. These monitoring programs watch for suspicious activity on certain "ports" for network connections on your computer. Just by listening on these ports, however, they can sometimes make you vulnerable to attacks designed specifically against these monitoring programs! It's like opening your armor helmet to peek outside, only to get a sharp object suddenly thrust into your eye - ouch! 
   5. Even if the attacker is stupid enough to use his own IP address and you manage to record it, you can try to [log and report the attacks](report.html) but you don't often get a satisfactory response. Why not? Because you are not a network administrator, and don't know who to contact or how to describe the incident in a concise yet technically correct way.  **
-
-[ [introduction](index.html) | [more info & patches](info.html) | tracing &
-monitoring ]
-
-**
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

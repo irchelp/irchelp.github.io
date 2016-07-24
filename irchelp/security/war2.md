@@ -80,13 +80,3 @@ Finally, to learn more about P2P file-sharing issues, check out the Electronic
 Frontier Frontation's [Let the Music Play](http://www.eff.org/share/) advocacy
 site, or the RIAA's educational site
 [Soundbyting](http://www.its.caltech.edu/its/help/policies/riaa/).
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

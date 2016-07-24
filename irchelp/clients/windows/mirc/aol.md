@@ -38,12 +38,3 @@ above.
 **IRCnet**     irc.gmd.DE, irc.cifnet.com
 
 **DALnet**     AOL users can connect to many different DALnet servers, when in doubt, just use the "random" server irc.dal.net (and try more than once if necessary, each time you roll up a different server).
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

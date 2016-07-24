@@ -199,13 +199,3 @@ changes in Hybrid.
 * * *
 
 **For complete information on all Hybrid 6 changes see the [changelog](hybrid6.readme.txt).**
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

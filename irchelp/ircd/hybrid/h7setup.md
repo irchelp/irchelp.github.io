@@ -675,14 +675,3 @@ The script:
     
     #Edit to reflect your proper paths and filenames:
     system('/<install path>/bin/ircd') if ( ! `ps -aef|grep -v grep|grep ircd`);
-    
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

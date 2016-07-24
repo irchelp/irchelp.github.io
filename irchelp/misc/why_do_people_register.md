@@ -168,12 +168,3 @@ Compilation Copyright (c) 1995 Shareware Trade Association and Resources.
 _Webmaster's note: This is an archive of the original spring 1995 STARgazer article,
 a publication of the Shareware Trade Association and 
 Resources (STAR). This was retrieved from archive.org when all other links seemed to be broken._
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

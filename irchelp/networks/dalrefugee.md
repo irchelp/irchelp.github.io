@@ -146,12 +146,3 @@ although sometimes this can cause such a flood of information that you get
 flooded off due to the different way that EFnet servers handle your request.
 If this happens, or just to learn how to /list without flooding off, see our
 searchable web channel list at the [IRC Channel List](../chanlist/) page.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

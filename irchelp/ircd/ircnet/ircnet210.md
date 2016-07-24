@@ -126,12 +126,3 @@ Type /quote version in your client to get the server version.
 Example of 2.9.x server: `2.9.5+Cr15e1+Fl4. irc.u-net.com AaeEfFHiIkMprRuY$`
 
 Example of 2.10.x server: `2.10.0p5+Cr22e1+FL4f1.: irc.vsp.cz AaeEfijJKMRtuZ`
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

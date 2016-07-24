@@ -65,15 +65,3 @@ lists below.
   * Among many other sites, [IRCnews.com](http://www.ircnews.com/) and [mIRC.net](http://www.mirc.net/) have both been covering the day to day events relating to DALnet. 
   * See our own page for general information on [denial of service attacks](../../nuke/). 
   * These kinds of attacks are common on all the large nets, not just DALnet. For some historical perspective, see this page regarding attacks which crippled [EFnet](../efnetsux.html) in mid 2001, and this [wired.com news story](http://www.wired.com/news/culture/0,1284,41167,00.html) [ext. link] for the attacks aimed at DALnet and Undernet in early 2001. 
-
-[[Return to IRChelp.org networks page](../)]
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

@@ -55,12 +55,3 @@ and may not necessarily have anything to do with running IRC servers or the
 world of IRC operators.
 
 **[Chanfix: EFnet op-less channel fixing](chanfix.html)**      Introduction to the op-restoring service recently implemented on EFnet. **[Channel Timestamp (TS) Zero Problem](ts0.html)**      What does it mean when your channel's timestamp is reset to zero? How do you fix this problem before your channel gets taken over? **[Major Changes in Hybrid6](hybrid6.html)**      This new ircd for many EFnet servers has major changes which may affect your clients and scripts. **[Hybrid6 Opers Features/Commands](opers.txt)**      This file outlines the features that ircd-hybrid has for IRC Operators. **[Server Numeric Headers](numerics.html)**      Server numerics extracted from the current ircd's for four major networks. Essential for people who write clients or advanced scripts. **[Server Desynchronizations ("Desyncs")](desync.html)**      Information on server desyncs and how to fix them. **[Timestamp and Services](ircserv.html)**      Technical document on how servers use time stamps to tell who first created a channel or assumed a nickname, also covers other server patches.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

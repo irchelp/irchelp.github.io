@@ -26,13 +26,3 @@ re-installation of your system, as we described on our main
 Thanks again to #NoHack on DALnet for providing this fix.
 
 Return to main [Trojan](trojan.html) page.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

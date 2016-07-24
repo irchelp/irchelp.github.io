@@ -49,12 +49,3 @@ So now that you can see the extensions, how do you know which ones are
 dangerous? There are far too many to list comprehensively, so a simpler rule
 is - when in doubt, don't download or run the file. As the sayings go, don't
 take candy from strangers, and there's no free lunch in life.
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

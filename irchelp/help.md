@@ -120,12 +120,3 @@ below to go back to the top of the #IRChelp home page, or if you came from
 somewhere else, select **BACK** on your browser to return there.
 
 --Jolo
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

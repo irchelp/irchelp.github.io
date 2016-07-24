@@ -200,12 +200,3 @@ Here are some ways to get more help.
 **IRC**     The most popular help channels for WebTV are on [TalkCity](http://www.talkcity.com/). The channels include #New2WebTV, #WebTVhelp, and #WebTVtech.
 
 [ Contents ]
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)

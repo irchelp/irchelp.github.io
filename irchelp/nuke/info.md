@@ -299,20 +299,3 @@ take your time and browse around carefully.
   * [winfiles.com bug page](http://www.winfiles.com/bugs/)
   * [#ICMP home page](http://icmpinfo.darkelf.net/)
   * [Hans Husman's Denial of Service Page](http://www.student.tdb.uu.se/%7Et95hhu/c-war.html)
-
-**
-
-[ [introduction](index.html) | more info & patches | [tracing &
-monitoring](trace.html) ]
-
-**
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
-

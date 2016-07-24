@@ -37,8 +37,6 @@ Michelle A. Hoyle, (Eingang on IRC)
 
 Joseph Lo, (Jolo on IRC)
 
-[email form](http://bishop.mc.duke.edu/~jyl/mail.cgi)
-
 Edition 1.2, January 1, 1997
 
 * * *

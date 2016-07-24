@@ -111,12 +111,3 @@ trojans pop up all the time. You can often find more information at the
   * Another annoying trojan, here's the fix.
 
 **[[Return to main Trojan help page](trojan.html)]
-
-* * *
-
-
-
-[ [go back](/irchelp/) | [search](/irchelp/search_engine.cgi) |
-[help](/irchelp/help.html) | [send email](/irchelp/mail.cgi) ]
-
-[all pages (C) IRCHELP.ORG or original authors](/irchelp/credit.html)
