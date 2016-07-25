@@ -7,7 +7,7 @@ layout: default
 
 # EPIC
 
-[EPIC](http://www.spicsol.org) was originally forked from ircII 2.8.2, and emerged at a time when ircII
+[EPIC](http://www.spicsol.org) was originally forked from [ircII](/irchelp/clients/inix/ircii/) 2.8.2, and emerged at a time when ircII
 development was extremely stagnant. ircII's developer at the time was extremely
 conservative, with a narrow vision of what an IRC client should and shouldn't be
 and while many regarded 2.8.2 as the "perfect" ircII release, there were also
@@ -20,8 +20,8 @@ nearly identical to that of ircII. This makes EPIC something of a clean slate -
 just as with ircII you will have difficulty using it for more than a single
 channel out of the box.
 
-While there are some niceties like mIRC compatible colors, Where EPIC differentiates
-from ircII is in its scripting capabilities - EPIC development has been primarily
+While there are some niceties like mIRC compatible colors, EPIC differentiates
+from ircII in its scripting capabilities - EPIC development has been primarily
 directed by the needs of script authors for over 20 years.
 
 
@@ -29,5 +29,5 @@ directed by the needs of script authors for over 20 years.
  * Remains close to ircII in spirit, while being friendlier to developers.
  * DCC REVERSE support
  * DCC RESUME support
- * IPc6 support
+ * IPv6 support
  * [Extensive documentation](http://www.epicsol.org/doku.php/help_root).
