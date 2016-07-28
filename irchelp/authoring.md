@@ -36,8 +36,8 @@ A sample header follows:
 	datecreated: 1 September 1993
 	dateupdated: 30 November 2012
 	status: (this is optional, but I'm going to add hooks that put a warning message about depreciated content if the status is "historical")
-  layout: default
-  license: (see below under legal requirements)
+	layout: default
+	license: (see below under legal requirements)
 	summary:	>
 		This is a long summary with multiple lines. This is also optional.
 		Each line is indented in the same way. When the indentation stops, so does the summary.
