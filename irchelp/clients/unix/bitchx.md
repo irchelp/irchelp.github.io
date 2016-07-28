@@ -3,13 +3,14 @@ title: BitchX
 layout: default
 ---
 
-# Critical Warning
-Versions prior to the  current stable version, 1.2.1, released in 2014, suffer from critical security vulnerabilities, which would allow the IRC server to execute arbitrary code on the user's machine.  (CVE-2007-3360, CVE-2007-4584).
-
 
 ## Overview
 
 Once widely popular, [BitchX](http://www.bitchx.com/) incorporates many features traditionally found in script packages directly into an IRC client. BitchX has a reputation for being the kitchen sink of terminal-based IRC clients.
+
+**Security warning**: Users of versions older than 1.2.1 are urged to upgrade immediately
+due to a buffer overflow vulnerability which can be exploited by a malicious server.
+
 
 ## Caution
 
