@@ -48,7 +48,11 @@ MSYS is a much less complete solution, but is considered lighter weight. It also
 Windows 10 includes 'Services for Linux' and "Bash On Ubuntu On Windows" as of the
 August 2016 "Anniversary Update". This means a full installation of Ubuntu Trusty
 running on the Windows kernel is possible - and with it, any IRC clients that work
-in the terminal can run in a window.
+in the terminal can run in a window. As of the latest preview releases there are
+still terminal handling issues, but these gradually improving and will likely
+continue to be improved by subsequent updates. irssi, EPIC, and ircII are known to
+at least run and connect to a server, but the ugly terminal handling of the Windows
+console host makes it anyone's guess when you'll be able to do something useful.
 
 #### Services for Unix
 
