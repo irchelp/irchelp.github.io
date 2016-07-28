@@ -1,4 +1,8 @@
-[]()
+---
+title: Frequently Asked Questions - mIRC "SCRIPT.INI" trojans
+author: Rich Lafferty (mendel)
+layout: default
+---
 
 Frequently Asked Questions: mIRC "SCRIPT.INI"
 =============================================
@@ -230,12 +234,3 @@ from strangers!
 
 \
 [\[Return to top\]](#top)
-
-------------------------------------------------------------------------
-
-![-navigational bar-](/irchelp/Pix/ihnavbar.gif){width="285"
-height="40"}
-
-[Copyright © 1996,1997](/irchelp/credit.html) Joseph Lo and many
-others.\
-
