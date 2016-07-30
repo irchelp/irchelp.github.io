@@ -4,30 +4,30 @@ author: Stephanie Daugherty
 layout: default
 redirect_from:
   - /irchelp/clients/unix/xchat.html
+  - /irchelp/clients/windows/xchat.html
 ---
 # XChat
 
-XChat is easily the most popular of the X11 clients - it's lightweight, scriptable in multiple languages, and has sensible defaults. XChat is an open source project developed under the GPL, and although primarily developed as a Unix/Linux client, ports exist for other platforms.
+XChat was once the most popular of the X11 clients, but by 2016 has fallen into abandonment - the last meaningful releases were in
+May 2010, the user forums have been taken offline, and some distributions have begun to remove it from their repositories as unmaintained software. In it's present state, we can no longer recommend XChat.
 
-XChat supports a binary plugin API, in which addons can be written in C or C++, and several scripting languages including Perl, Python, TCL and others are supported through the plugin architecture.
+[Hexchat](/irchelp/clients/cross/hexchat.html) is a fork of XChat that is actively
+maintained, with a substantial following. For all intents and purposes, it's
+the spiritual successor to XChat, and for most users,  likely to be an easy
+replacement.
 
-XChat is included in a number of Linux distributions, either as part of the base system or as part of official package repositories.
+## So... what Happened?
+At the height of its popularity, XChat was widely included in Linux distributions,
+and had an official Windows port that was gaining ground rapidly on mIRC. It was
+the Windows port and decisions around it by XChat's maintainer that would prove
+fatal. XChat was released under the GPL license, a copyleft free software license.
+The maintainer unilaterally declared that the official releases of XChat would
+be shareware under Windows, citing the rising popularity, complexity of development,
+and cost of maintaining development tools for Windows. The backlash from this led
+to a number of unofficial ports, the loss of virtually all outside developers,
+and most importantly, the loss of the community's trust - even among Linux/Unix users
+who were not directly affected by the change.
 
-
-## Official Windows Port
-
-XChat has long offered an official Windows port. Originally, the Windows version was freely distributed, but since 2004 the official builds have been offered under a shareware license, even though the source code remains freely available under GPL.
-
-Unlike users of Linux and other Unix-like operating systems, the majority of Windows users do not readily have access to development tools, or have the technical know-how to build a program designed for X11 as a native Windows application. Most Windows users therefore have to rely on the developer or third parties (see below) to distribute binaries.
-
-
-
-## Unofficial Builds, Ports and Other Derivatives
-
-Controversy over the devision to license the Windows port of XChat as shareware led to a number of unofficial builds for Windows users, at least one of which grew into a fork of XChat.
-
-
-### HexChat
-[HexChat](/irchelp/clients/unix/xchat/hexchat.html) originally sprung out of the shareware controversy, starting as the unofficial Windows port XChat-WDK, which was renamed HexChat and became a fork in its own right.
-
-HexChat is now offered on Unix/Linux systems as well as Windows. HexChat has become the more actively developed than XChat while maintaining close compatibility, with frequent releases and new features.
+One of those unofficial Windows ports, [HexChat](/irchelp/clients/cross/hexchat.html),
+grew up into a not just a port, but a viable, active, and well-maintained fork of
+XChat, and the community of users and developers have largely followed.
