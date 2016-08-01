@@ -4,6 +4,7 @@ author: Joseph Lo aka Jolo
 dateupdated: 08 May 2013
 summary: IRC Clients for Apple Mac OS X
 layout: default
+license: irchelp
 redirect_from:
   - /mac/
   - /irchelp/mac/

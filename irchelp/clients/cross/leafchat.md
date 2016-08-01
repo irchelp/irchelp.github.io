@@ -1,6 +1,8 @@
 ---
 title: LeafChat
 layout: default
+author: Stephanie Daugherty
+license: CC-BY-SA-4
 ---
 
 ## Overview
@@ -8,4 +10,3 @@ layout: default
 
 ## Support
 Home Channel: #leafchat on irc.dal.net
-

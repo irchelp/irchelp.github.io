@@ -2,9 +2,10 @@
 title: irssi
 author: Stephanie Daugherty
 summary: Information about irssi
+license: CC-BY-SA-4
 redirect_from:
   - /irchelp/clients/unix/irssi.html
-  - /irssi
+  - /irssi/
 ---
 
 # irssi

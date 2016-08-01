@@ -1,6 +1,8 @@
 ---
 title: Snak
 layout: default
+author: Joseph Lo
+license: irchelp
 ---
 
 [ ![*](snak.jpg)](http://www.snak.com/Snak.html)

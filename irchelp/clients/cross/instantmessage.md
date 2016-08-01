@@ -1,6 +1,7 @@
 ---
 title: Cross-platform instant messaging clients with IRC support
 author: Stephanie Daugherty
+license: CC-BY-SA-4
 ---
 
 # Cross-platform instant messaging clients with IRC support
@@ -21,4 +22,3 @@ Instantbird is available for Windows, OSX, Linux, and theroretically, for any pl
 Gecko/xulrunner internals as current builds of Firefox and Thunderbird. Like Pidgin, it's first and foremost and instant messaging
 clinet, and this shows in the level of support for IRC, and the user interface. Again, this is going to be good enough to participate
 in IRC channels, but you'll find it lacking for anything beyond that.
-

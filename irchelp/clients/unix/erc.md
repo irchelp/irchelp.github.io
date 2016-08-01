@@ -1,6 +1,8 @@
 ---
 title: ERC (Emacs IRC Client)
 layout: default
+author: Stephanie Daugherty
+license: CC-BY-SA-4
 ---
 
 The text editor and kitchen sink GNU emacs has a obscure, but built-in IRC client in the form of [ERC](http://www.gnu.org/software/emacs/manual/html_mono/erc.html).
@@ -17,4 +19,3 @@ Once the connection settings are entered, the client connects automatically, and
 
 
 More information can be found on the [emacs wiki](http://www.emacswiki.org/cgi-bin/wiki/ERC)
-

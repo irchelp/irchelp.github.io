@@ -1,6 +1,8 @@
 ---
 title: jIRCii
 layout: default
+author: Stephanie Daugherty
+license: CC-BY-SA-4
 ---
 # jIRCii
 

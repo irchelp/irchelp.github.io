@@ -1,7 +1,8 @@
 ---
 title: iOS IRC Clients
-author: irchelp.org staff
+author: Stephanie Daugherty
 layout: default
+license: CC-BY-SA-4
 ---
 
 ## A word of warning about Apple's background app restrictions

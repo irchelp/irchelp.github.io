@@ -1,9 +1,11 @@
 ---
 title: weechat
 layout: default
+author: Stephanie Daugherty
+license: CC-BY-SA-4
 ---
 
-[WeeChat](www.weechat.org) is a terminal based IRC client. 
+[WeeChat](www.weechat.org) is a terminal based IRC client.
 
 ## Features
  * Binary plugin interface for modules written in C
@@ -11,4 +13,3 @@ layout: default
 
 ## License
  * GPLv3
- 

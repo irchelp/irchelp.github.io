@@ -1,6 +1,8 @@
 ---
 title: Colloquy
 layout: default
+author: Joseph Lo
+license: irchelp
 ---
 
 **Colloquy 2.x** &nbsp_place_holder; [ [ home page](http://colloquy.info/) | [screen cap](http://colloquy.info/screenshots.html) ]
