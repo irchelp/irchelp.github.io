@@ -2,6 +2,7 @@
 title: EFNet Frequently Asked Questions
 author: disciple
 layout: default
+license: usedbypermission
 ---
 
 The EFNet Frequently Asked Questions - By Disciple

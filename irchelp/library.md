@@ -1,6 +1,8 @@
 ---
 title: Site Map
 layout: default
+author: irchelp.org staff
+license: irchelp
 ---
 
 ## Site Map

@@ -1,7 +1,8 @@
 ---
 title: Privacy on IRC
-author: irchelp.org staff
+author: Stephanie Daugherty
 layout: default
+license: CC-BY-SA-4
 ---
 
 # Privacy on IRC

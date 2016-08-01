@@ -2,6 +2,7 @@
 title: Server Request FAQ
 author: Helen Rose, Joseph Lo
 layout: default
+license: irchelp
 ---
 
 # IRC Server Request FAQ
