@@ -2,6 +2,7 @@
 title: ircd-ratbox
 author: irchelp.org staff
 layout: default
+license: CC-BY-SA-4
 ---
 # ratbox ircd
 
