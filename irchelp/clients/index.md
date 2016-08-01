@@ -2,11 +2,12 @@
 title: IRC Client Directory
 author: irchelp.org staff
 layout: default
+license: CC-BY-SA-4
 redirect_from:
-  - /clients
+  - /clients/
 ---
 
-#IRC Clients
+# IRC Clients
 
 Unlike web-based chat, IRC uses software on your computer (a "client") to connect to an IRC server. This gives you a great deal of choice in where and how you use IRC. IRC clients exist for every major operating system, and many of the more obscure ones.
 
