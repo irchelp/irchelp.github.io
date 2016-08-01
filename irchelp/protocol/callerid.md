@@ -4,6 +4,7 @@ author: Osc
 layout: default
 redirect_from:
   - /irchelp/misc/gmode.html
+license: usedbypermission
 ---
 
 # Quick usermode g information for EFnet

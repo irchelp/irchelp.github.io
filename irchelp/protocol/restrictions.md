@@ -2,6 +2,7 @@
 title: Restrictions on IRC Clients
 author: Stephanie Daugherty
 layout: default
+license: CC-BY-SA-4
 ---
 
 # Restrictions on IRC Clients

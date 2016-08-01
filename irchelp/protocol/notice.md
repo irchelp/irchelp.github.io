@@ -2,6 +2,7 @@
 title: A note about NOTICE
 author: Stephanie Daugherty
 layout: default
+license: CC-BY-SA-4
 ---
 
 # A note about NOTICE
