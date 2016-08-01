@@ -2,6 +2,7 @@
 title: irchelp channel rules
 author: irchelp.org staff
 layout: default
+license: irchelp
 ---
 
 # #IRChelp Channel Rules

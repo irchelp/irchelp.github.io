@@ -4,6 +4,7 @@ author: irchelp.org staff
 layout: default
 redirect_from:
   - /irchelp/mirc/old/
+license: CC-BY-SA-4
 ---
 
 # No Software Downloads on IRCHelp.org
