@@ -95,8 +95,25 @@ Generally, where use of Tor is permitted, it will only be allowed for establishe
 
 Other anonymous proxies may be available, but tend to be rapidly banned from IRC networks due to persistent abuse.
 
-### Bouncers and Shells
+### Bouncers, Shells, and other Remote Access
+Running your connection through an IRC Bouncer running elsewhere on the internet
+is a popular way to achieve a modest level of privacy on IRC, and frequently,
+a persistent presence on IRC. By doing so, the address of the IRC Bouncer is what
+will be displayed as your host on IRC, therefore protecting you from casual attempts
+to discover your internet location.
 
+Some users choose to run their client directly on such a server instead of, or in
+addition to using an IRC bouncer. The biggest advantage of this is that the client can
+be run within a tool such as screen or tmux, and the client is accessible via ssh,
+so it can be used from networks where IRC is blocked.
+
+A number of providers offer "shell access" accounts, a user account on a Linux
+or Unix system that's accessible over SSH for the purpose of running IRC clients,
+IRC bouncers, and IRC bots.
+
+VIrtual Private Servers (VPS), or Dedicated Servers can also obviously be used
+for running IRC clients, bots, and bouncers, but tends to be a more costly solution,
+especially if you only intend to use it for IRC.
 
 ### VPN
 
@@ -105,8 +122,22 @@ VPN technology is best known for its use in connecting remote workers to a corpo
 These services offer varying degrees of anonymity, with many claiming not to keep logs. Unfortunately, they are also
 frequently used to facilitate abuse, so they may often be banned from IRC servers.
 
-
 ### IPv6 tunnels
+
+A number of organizations offer IPv6 tunnels, so that users not yet offered IPv6
+connectivity by their internet service provider can obtain a pool of IPv6 addresses,
+and have those IPv6 addresses tunneled to their network via a technique similar
+to a VPN.
+
+Such tunnels don't provide strong anonymity, and they still involve exposing the
+tunneled addresses publically, so you may still be target for denial of service
+attacks and other network-based attacks.
+
+However, because your tunneled IPv6 address and not your ISP-assigned IPv4 address
+is what will be exposed to the IRC server, this does provide a weak form of protection
+from having your identity casually revealed.
+
+## IP Address Leakage Threats
 
 
 ### Address Leakage from DCC
