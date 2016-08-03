@@ -2,6 +2,10 @@
 title: wio shortcuts
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /shortcuts/
+  - /short/
+license: irchelp
 ---
 This is a list of shortcuts available at [IRChelp.org](http://irchelp.org/).
 For each word in the 1st column, you would append it to
@@ -201,4 +205,3 @@ warez
 [http://www.irchelp.org/irchelp/security/warez.html](../security/warez.html)
 
 same as 'download'
-

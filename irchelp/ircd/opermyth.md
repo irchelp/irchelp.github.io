@@ -2,6 +2,7 @@
 title: Dispelling the myths of opers
 author: Ray Powers
 layout: default
+license: usedbypermission
 ---
 
 # **Dispelling the myths of opers....**

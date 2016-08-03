@@ -3,6 +3,7 @@ title: Undernet ircd.conf guide
 layout: default
 status: historical
 author: nap, _dl
+license: usedbypermission
 ---
 
 # ircdconf

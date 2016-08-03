@@ -2,13 +2,14 @@
 title: IRC Clients for Android
 author: Stephanie Daugherty
 summary: Partial listing of IRC clients for Android users.
+license: CC-BY-SA-4
 ---
 
 # IRC Clients for Android
 
 A variety of Android devices are out there, including smartphones, handhelds, tablets, netbooks, set top boxes, and even dedicated digital cameras.
 
-*Note* Due to power management and wireless network instability, long-lived persistant connections such as IRC on Android devices tend to be somewhat unreliable. This is a general characteristic of mobile devices rather than a flaw in any particular client, but it does mean that the utility of a mobile client for channel or server management will be limited.
+*Note* Due to power management and wireless network instability, long-lived persistent connections such as IRC on Android devices tend to be somewhat unreliable. This is a general characteristic of mobile devices rather than a flaw in any particular client, but it does mean that the utility of a mobile client for channel or server management will be limited.
 
 ## AndroIRC
 

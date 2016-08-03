@@ -1,6 +1,7 @@
 ---
 title: ircnet ircd
 layout: default
+license: CC-BY-SA-4
 ---
 
 # IRCNet ircd

@@ -2,6 +2,7 @@
 title: Not Cool
 author: Dan Pressnell
 layout: default
+license: usedbypermission
 ---
 
 Ed. note: This is a fast, ad-free, official mirror copy of the author's

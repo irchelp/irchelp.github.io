@@ -2,6 +2,9 @@
 title: Firewall FAQ
 author: Stephanie Daugherty (sdaugherty), Joseph Lo (jol0), RuyDuck, Vamps
 layout: default
+license: CC-BY-SA-4
+redirect_from:
+  - /firewall/
 ---
 
 # Firewall FAQ

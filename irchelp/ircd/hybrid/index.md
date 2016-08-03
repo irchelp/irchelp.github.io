@@ -2,6 +2,7 @@
 title: ircd-hybrid
 author: irchelp.org staff
 layout: default
+license: CC-BY-SA-4
 ---
 # hybrid ircd
 

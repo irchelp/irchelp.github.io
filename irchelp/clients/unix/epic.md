@@ -3,6 +3,7 @@ title: epic
 author: Stephanie Daugherty
 summary: Information about epic
 layout: default
+license: CC-BY-SA-4
 ---
 
 # EPIC

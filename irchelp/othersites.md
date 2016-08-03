@@ -2,6 +2,7 @@
 title: Other IRC-Related Sites
 author: irchelp.org staff
 layout: default
+license: CC-BY-SA-4
 ---
 
 # Other IRC-Related Sites

@@ -2,6 +2,7 @@
 title: The Unofficial Undernet Operator's Manual
 author: Tony Vincill
 layout: default
+license: usedbypermission
 ---
 # operman
 **Editor's Note: This is an ancient guide, and likely does not reflect the current practices of Undernet.**

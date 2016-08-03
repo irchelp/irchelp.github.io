@@ -2,6 +2,7 @@
 title: Understanding IRC Services
 author: Stephanie Daugherty
 layout: default
+license: CC-BY-SA-4
 ---
 
 # Understanding IRC Services
@@ -13,14 +14,14 @@ of the network.
 Modern IRC services work within the IRC protocol, but are not defined by the protocol, and may differ greatly from one network
 to another. In every case, they are operated for the entire network, and serve as an extension of that network's policies.
 
-The most frequent use of IRC services is to provide registration services. Registration services enforce claims to ownership, 
+The most frequent use of IRC services is to provide registration services. Registration services enforce claims to ownership,
 either of channels, nicknames, or most frequently, of both, where the IRC protocol alone does not. Generally, nickname and channel
 registration services work in concert with one another, with nicknames being registered, and channels in turn being associated
 with registered nicknames.
 
 It is very important to note that registration services are not standardized, therefore they will differ widely from one network to another, and
 do not carry over from one network to another! Information on a network's available services use usually available in the MOTD of
-each server. 
+each server.
 
 EFNet and IRCNet are largely unique in that they have no registration services. Both networks operate on IRC protocol rules for
 transient ownership of nicknames and channels - there is no guarantee of perminant ownership. EFNet augments these rules with a
@@ -28,7 +29,7 @@ unique type of network service, chanfix, which uses recent snapshots to recover 
 
 ## Basics of networks without services
 
-On networks Without registration services, such as EFNet or IRCNet, only the IRC protocol's rules of ownership apply - that means ownership is 
+On networks Without registration services, such as EFNet or IRCNet, only the IRC protocol's rules of ownership apply - that means ownership is
 transient, on the basis of occupancy for nicknames and continious control for channels. This means that nicknames and channels
 are strictly first-come, first-serve, but if you stop using them, even briefly, as might happen in a disconnect, you may lose
 your claim.
@@ -68,5 +69,3 @@ access to moderate the channel from being able to take perminant control of the 
 The founder/registrant role is special, and usually tied to the registered nickname of the "owner". There qill frerquently be a
 "channel password" which allows others to act as the channel owner, and there may be a "successor" mechanism which designates
 someone to inherit the channel if the owner has not been seen for some period of time.
-
-

@@ -1,6 +1,8 @@
 ---
 title: IRC Clients for Other Desktop Operating Systems
 layout: default
+author: irchelp.org staff
+license: CC-BY-SA-4
 ---
 # IRC Clients for Other Operating Systems
 

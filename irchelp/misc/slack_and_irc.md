@@ -2,6 +2,7 @@
 title: Slack and IRC
 author: Stephanie Daugherty
 layout: default
+license: CC-BY-SA-4
 ---
 
 # Slack
@@ -22,5 +23,3 @@ user must retrieve their own credentials from the web application - these creden
 
 The gateway emulates an IRC server, with a dedicated IRC server spun up for each team on Slack, and with Slack channels mapped 1:1 to IRC channels, and Slack users mapped 1:1 to IRC users. The
 full rich functionality of Slack does not map over to the IRC gateway, but text chat is fully supported.
-
-

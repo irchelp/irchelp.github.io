@@ -2,6 +2,7 @@
 title: Frequently Asked Questions - mIRC "SCRIPT.INI" trojans
 author: Rich Lafferty (mendel)
 layout: default
+license: irchelp
 ---
 
 Frequently Asked Questions: mIRC "SCRIPT.INI"

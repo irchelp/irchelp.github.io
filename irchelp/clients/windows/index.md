@@ -1,8 +1,10 @@
 ---
 title: IRC Clients for Windows
 layout: default
+license: CC-BY-SA-4
+author: irchelp.org staff
 redirect_from:
-  - /windows
+  - /windows/
 ---
 
 # IRC Clients for Windows

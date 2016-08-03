@@ -2,6 +2,7 @@
 title: Chatzilla
 author: Stephanie Daugherty
 summary: ChatZilla cross-platform IRC client.
+license: CC-BY-SA-4
 layout: default
 ---
 

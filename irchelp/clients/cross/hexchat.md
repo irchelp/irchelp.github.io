@@ -1,6 +1,7 @@
 ---
 title: HexChat
 author: Stephanie Daugherty
+license: CC-BY-SA-4
 layout: default
 ---
 

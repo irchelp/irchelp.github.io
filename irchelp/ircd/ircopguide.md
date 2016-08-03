@@ -2,6 +2,7 @@
 title: IRC Operator Guide
 author: Aaron Brinton
 layout: default
+license: usedbypermission
 ---
 
 # IRC Operators Guide

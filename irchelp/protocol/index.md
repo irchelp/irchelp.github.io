@@ -2,6 +2,7 @@
 title: IRC protocol resources
 author: irchelp.org staff
 layout: default
+license: CC-BY-SA-4
 ---
 
 # IRC Protocol resources

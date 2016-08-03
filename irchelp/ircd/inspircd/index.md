@@ -2,6 +2,7 @@
 title: InspIRCd
 author: Stephanie Daugherty
 layout: default
+license: CC-BY-SA-4
 ---
 
 # InspIRCd
