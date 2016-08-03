@@ -124,10 +124,10 @@ frequently used to facilitate abuse, so they may often be banned from IRC server
 
 ### IPv6 tunnels
 
-A number of organizations offer IPv6 tunnels, so that users not yet offered IPv6
-connectivity by their internet service provider can obtain a pool of IPv6 addresses,
-and have those IPv6 addresses tunneled to their network via a technique similar
-to a VPN.
+A number of organizations ("tunnel brokers") offer IPv6 tunnels, so that users
+not yet offered IPv6 connectivity by their internet service provider can obtain
+a pool of IPv6 addresses, and have those IPv6 addresses tunneled to their network
+via a technique similar to a VPN.
 
 Such tunnels don't provide strong anonymity, and they still involve exposing the
 tunneled addresses publically, so you may still be target for denial of service
