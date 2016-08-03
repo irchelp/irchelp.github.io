@@ -15,12 +15,16 @@ upper bound of what is acceptable to paste directly into IRC - any more is
 at best viewed as extremely rude, and at worst regarded as an attack.
 
 A number of third party sites has sprung up around the need to paste and share
-text with other users.
+text with other users. A few of these sites are listed below for the convenience
+of our readers.
 
 * <http://www.pastebin.com>
 * <http://paste.debian.net>
 * <https://gist.github.com>
 * <http://pastie.org/>
+
+*Inclusion on this list does not imply endorsement of these sites by IRCHelp.org
+or the authors of this document.*
 
 The above list is by no means complete - there are dozens of others out there.
 All of these sites share a common feature - you can copy and paste text into the
