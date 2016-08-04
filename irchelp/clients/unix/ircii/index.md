@@ -38,9 +38,7 @@ virtual terminals such as Unix "screen".
 ircII was the first to implement Client to Client Protocol (CTCP) and Direct Client
 to Client (DCC).
 
-![screenshot of ircII running in a terminal window, circa 2001](/images/2016/07/ircii.gif)
-
-
+![*](/images/2016/07/ircii.gif)
 
 UNIX has evolved over the years into many variant OS's such as Linux, BSD,
 Solaris, etc., sometimes collectively known as "*nix", "Unix-like" or simply
@@ -51,8 +49,8 @@ into them at some stage in their development.
 
 Even more recently, with the increased use of Unix on home PCs, IRC users are
 turning to graphical user interface (GUI) clients to meet their needs. As with
-[mIRC](http://www.irchelp.org/irchelp/mirc/) for Windows or the various
-[Macintosh](http://www.irchelp.org/irchelp/mac/) clients, text-based clients
+[mIRC](http://www.irchelp.org/irchelp/clients/windows/mirc/) for Windows or the various
+[Macintosh](http://www.irchelp.org/irchelp/clients/mac/) clients, text-based clients
 can be used in in GUI "terminal emulators" that make them available in the
 graphical environment. Additionally, pure graphical clients have been
 developed to offer some of the look, feel, and functionality of Windows and
@@ -67,7 +65,7 @@ distributor of UNIX OS systems in the world.
 
 At one time, the IrcII client set the standard against which all other clients
 were developed and measured. While this may still hold true to some extent
-today, the Windows client [mIRC](http://www.irchelp.org/irchelp/mirc/) has
+today, the Windows client [mIRC](http://www.irchelp.org/irchelp/clients/windows/mirc/) has
 largely taken over that position.
 
 * * *
@@ -181,11 +179,11 @@ and GUI Clients.
 
 ## Help and related files
 
-[Help for ircII commands](commands/)     WWW help files for all 500 commands
+[Help for ircII commands](/irchelp/clients/unix/ircii/commands/)     WWW help files for all 500 commands
 and settings! All of these should be available in all ircII-based clients
 (ircII, BitchX, EPIC).
 
-[irciiman.txt](irciiman.txt) (formerly called irciiman.wri)     The same help
+[irciiman.txt](/irchelp/clients/unix/ircii/irciiman.txt) (formerly called irciiman.wri)     The same help
 information as above in one text file that you can download and keep as a
 reference. This way you don't have to keep typing /help in ircII or stumble
 all over the WWW help links. All ircII-based clients should implement these
@@ -204,7 +202,7 @@ numbers mean when you get information from a server.
 establishes your identity which is required by servers on most of EFnet and
 all of DALnet, as well as many other nets. Requires root (superuser) access to
 install, if you don't have it or know what that means, talk to your system
-administrator. Also, see [the Firewall FAQ](../security/fwfaq.html) for more
+administrator. Also, see [the Firewall FAQ](/irchelp/security/fwfaq.html) for more
 information about potential ident problems.
 
 * * *
