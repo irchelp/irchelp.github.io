@@ -7,8 +7,22 @@ license: CC-BY-SA-4
 
 # Privacy on IRC
 
+Privacy on IRC is a complex subject. Many users will initially be concerned about hiding their IP address, but, in reality there are many privacy concerns when using IRC.
+
+IRC was never designed to be private. From the very beginning, IRC has been designed to expose details about the users connected to it, for reasons of accountability, and as a crude form of authentication.
+
+Many techniques for enhancing privacy over IRC have been heavily abused by malicious users to harass others and disrupt the network without consequence, so networks and servers themselves are often extremely hostile to many privacy-enhancing technologies such as Tor as a matter of policy.
 
 ## Risk Assessment
+
+You should take an objective look at what your risks realistically are before participating in IRC - specifically, who might want to know your identify, and what the consequences of that could be. The risks to most users are comparably small.
+
+The most important questions you should ask yourself are?
+
+- Could I be fired for what I say or do on IRC?
+- Could I be jailed for what I say or do on IRC?
+- Could I be subject to real-life threats or harassment for what I say or do on IRC?
+- Am I discussing sensitive information over IRC?
 
 Users engaged in copyright infringement, dissidents, activists, and whistleblowers are most at risk from breaches of privacy, although all users should exercise some degree of caution in protecting their identity.
 
@@ -28,39 +42,29 @@ Against a person deeply involved in underground activities, doxing can be an ele
 
 Doxing is primarily a tool of criminal hackers (crackers), hacktivists, and security specialists. Most users are at very low risk for doxing. Public figures, those in underground scenes, and those involved in highly controversial activities online and off are most likely to be doxed - the average IRC user will never attract such attention.
 
-
 ## Encryption
-A growing number of networks use SSL/TLS for connection between servers, and
-many offer SSL connections for users. While SSL/TLS encryption protects
-information in transit, it does not protect it within the server itself - a
-compromised server will still have access to messages traveling though that
-server. Despite this limitation, SSL/TLS encryption still provides a significant
-improvement for the privacy and security of users.
+
+A growing number of networks use SSL/TLS for connection between servers, and many offer SSL connections for users. While SSL/TLS encryption protects information in transit, it does not protect it within the server itself - a compromised server will still have access to messages traveling though that server. Despite this limitation, SSL/TLS encryption still provides a significant improvement for the privacy and security of users.
+
+A number of schemes for end-to-end encryption exist, but they are seldom used. Most users do not have clients configured to support any form of end-to-end encryption.
+
+In particular, of the end-to-end encryption tools that do exist, they tend to only be usable in one-on-one communication, and not over IRC channels. Even those mechanisms that would be suitable for use on a channel are effectively unworkable for the vast majority of users, because client support is far from universal.
 
 ### OTR (Off-the-record messaging)
-The OTR encryption protocol can be implemented on top of IRC to provide end-to-end
-encryption between two clients. As OTR is a one-to-one communication scheme, and
-not suitable for one-to-many communication, it can be used only for private messages
-between individual users.
 
-Very few IRC clients support OTR, as it has primarily been used within instant
-messaging clients. Pidgin is one such client which does support OTR, and, as
-it also supports IRC, it can be used to exchange end-to-end encrypted messages
-with other users.
+The OTR encryption protocol can be implemented on top of IRC to provide end-to-end encryption between two clients. As OTR is a one-to-one communication scheme, and not suitable for one-to-many communication, it can be used only for private messages between individual users.
 
-An [OTR plugin](https://github.com/cryptodotis/irssi-otr) also exists for the popular irssi client, but is considered to be
-"alpha quality". Hexchat also has an [OTR plugin](https://github.com/TingPing/hexchat-otr) which is
-listed as being a "work in progress".
+Very few IRC clients support OTR, as it has primarily been used within instant messaging clients. Pidgin is one such client which does support OTR, and, as it also supports IRC, it can be used to exchange end-to-end encrypted messages with other users.
+
+An [OTR plugin](https://github.com/cryptodotis/irssi-otr) also exists for the popular irssi client, but is considered to be "alpha quality". Hexchat also has an [OTR plugin](https://github.com/TingPing/hexchat-otr) which is listed as being a "work in progress".
 
 ### Other solutions for end to end encryption.
-Some clients have their own encryption schemes, many of which use a pre-shared key.
-Unfortunately, these schemes are not standardized, and therefore, only work between
-clients using the same encryption scheme.
 
+Some clients have their own encryption schemes, many of which use a pre-shared key. Unfortunately, these schemes are not standardized, and therefore, only work between clients using the same encryption scheme.
 
 ## IP Addresses
 
-IP addresses are an integral part of how users are identified on the IRC network, and on some networks, the only reasonably reliable form of identification. The address your connection to the IRC network originates from will be displayed to other users unless the server has been configured to do otherwise.
+IP addresses are an integral part of how users are identified on the IRC network, and on some networks, the only reasonably reliable form of network-level identification. The address your connection to the IRC network originates from will be displayed to other users unless the server has been configured to do otherwise.
 
 In most cases, having your IP address displayed in this way is of little or no consequence. IP addresses of cable, DSL, and dialup users are not easily connected to individual subscriber identities without the cooperation of the service provider. The most information someone will get in the typical scenario is a rough estimate of geographical location, which may be very coarse or fairly specific depending on how your provider chooses to allocate IP addresses.
 
@@ -68,6 +72,11 @@ While it is generally impossible to prevent the display of your IP address, prox
 
 Identification by IP address is heavily relied upon to curb abuse, and most networks are extremely intolerant of any unsanctioned means of masking IP addresses, or of anyone providing connections which are deemed to be too "disposable" to support proper accountability, such as use of the Tor network (although, some networks may make exception for users once they have registered).
 
+### Masking
+
+Many networks automatically "mask" part of a user's host or IP address to provide a basic level of privacy. When this is in place, barring any unforeseen "leakage" from bugs in the IRCD software, the hostname or IP address displayed masks enough information to prevent identifying an individual subscriber.
+
+IRC Operators on such networks will have access to the unmasked addresses for combating abuse, but individual, unprivileged users will not.
 
 ### Cloaks
 
@@ -96,49 +105,32 @@ Generally, where use of Tor is permitted, it will only be allowed for establishe
 Other anonymous proxies may be available, but tend to be rapidly banned from IRC networks due to persistent abuse.
 
 ### Bouncers, Shells, and other Remote Access
-Running your connection through an IRC Bouncer running elsewhere on the internet
-is a popular way to achieve a modest level of privacy on IRC, and frequently,
-a persistent presence on IRC. By doing so, the address of the IRC Bouncer is what
-will be displayed as your host on IRC, therefore protecting you from casual attempts
-to discover your internet location.
 
-Some users choose to run their client directly on such a server instead of, or in
-addition to using an IRC bouncer. The biggest advantage of this is that the client can
-be run within a tool such as screen or tmux, and the client is accessible via ssh,
-so it can be used from networks where IRC is blocked.
+Running your connection through an IRC Bouncer running elsewhere on the internet is a popular way to achieve a modest level of privacy on IRC, and frequently, a persistent presence on IRC. By doing so, the address of the IRC Bouncer is what will be displayed as your host on IRC, therefore protecting you from casual attempts to discover your internet location.
 
-A number of providers offer "shell access" accounts, a user account on a Linux
-or Unix system that's accessible over SSH for the purpose of running IRC clients,
-IRC bouncers, and IRC bots.
+Some users choose to run their client directly on such a server instead of, or in addition to using an IRC bouncer. The biggest advantage of this is that the client can be run within a tool such as screen or tmux, and the client is accessible via ssh, so it can be used from networks where IRC is blocked.
 
-VIrtual Private Servers (VPS), or Dedicated Servers can also obviously be used
-for running IRC clients, bots, and bouncers, but tends to be a more costly solution,
-especially if you only intend to use it for IRC.
+A number of providers offer "shell access" accounts, a user account on a Linux or Unix system that's accessible over SSH for the purpose of running IRC clients, IRC bouncers, and IRC bots.
+
+VIrtual Private Servers (VPS), or Dedicated Servers can also obviously be used for running IRC clients, bots, and bouncers, but tends to be a more costly solution, especially if you only intend to use it for IRC.
 
 ### VPN
 
 VPN technology is best known for its use in connecting remote workers to a corporate LAN, but a number of services have sprung up for the purposes of anonymity, bypassing geographical restrictions on services, performance, and enhanced privacy.
 
-These services offer varying degrees of anonymity, with many claiming not to keep logs. Unfortunately, they are also
-frequently used to facilitate abuse, so they may often be banned from IRC servers.
+These services offer varying degrees of anonymity, with many claiming not to keep logs. Unfortunately, they are also frequently used to facilitate abuse, so they may often be banned from IRC servers.
 
 ### IPv6 tunnels
 
-A number of organizations ("tunnel brokers") offer IPv6 tunnels, so that users
-not yet offered IPv6 connectivity by their internet service provider can obtain
-a pool of IPv6 addresses, and have those IPv6 addresses tunneled to their network
-via a technique similar to a VPN.
+A number of organizations ("tunnel brokers") offer IPv6 tunnels, so that users not yet offered IPv6 connectivity by their internet service provider can obtain a pool of IPv6 addresses, and have those IPv6 addresses tunneled to their network via a technique similar to a VPN.
 
-Such tunnels don't provide strong anonymity, and they still involve exposing the
-tunneled addresses publically, so you may still be target for denial of service
-attacks and other network-based attacks.
+Such tunnels don't provide strong anonymity, and they still involve exposing the tunneled addresses publically, so you may still be target for denial of service attacks and other network-based attacks.
 
-However, because your tunneled IPv6 address and not your ISP-assigned IPv4 address
-is what will be exposed to the IRC server, this does provide a weak form of protection
-from having your identity casually revealed.
+However, because your tunneled IPv6 address and not your ISP-assigned IPv4 address is what will be exposed to the IRC server, this does provide a weak form of protection from having your identity casually revealed.
+
+Tunnel broker services also are not necessarily useful for privacy - many report the owner of tunneled networks through whois services as part of their network management practices.
 
 ## IP Address Leakage Threats
-
 
 ### Address Leakage from DCC
 
@@ -146,19 +138,16 @@ DCC chat and file transfer attempt to establish a direct connection between two 
 
 ### Address Leakage from visiting a URL
 
-Web servers typically log requests, including the IP address of the computer requesting documents. One technique often used to deanonymize users is to convince them to visit a URL where their IP address can be logged, either as a
-direct result of the request, or as a result of the resources requested (images and other content) to serve the page.
+Web servers typically log requests, including the IP address of the computer requesting documents. One technique often used to deanonymize users is to convince them to visit a URL where their IP address can be logged, either as a direct result of the request, or as a result of the resources requested (images and other content) to serve the page.
 
 ## A word about ban evasion
 
 Unfortunately, many of the users that inquire about changing or hiding their IP address want to do so because they have been banned from a channel, server, or entire network. Attempting to evade responsibility for your own actions, or evade bans so that you can continue the same activities that got you banned in the first place almost always makes the situation worse.
 
-Bans of any sort may be widened due to evasion - no matter how just or injust the original ban was, evading a ban is almost universally regarded as justification for a longer lasting, and broader ban, even if the original ban was not
-warranted,
+Bans of any sort may be widened due to evasion - no matter how just or injust the original ban was, evading a ban is almost universally regarded as justification for a longer lasting, and broader ban, even if the original ban was not warranted,
 
 In addition, on many networks, IRC operators will intervene with server bans in certain cases of ban evasion, particularly when channels are in danger of filling up their ban lists.
 
-Internet services which are deemed to be "throwaway", including any public anonymizing services, are likely to be
-banned on sight - this include open proxies, free ISPs, and Tor connections, among others.
+Internet services which are deemed to be "throwaway", including any public anonymizing services, are likely to be banned on sight - this include open proxies, free ISPs, and Tor connections, among others.
 
 Frequently redialing a dialup connection, or releasing your DHCP address to get another IP to bypass a ban generally results in the ban being expanded to a mask which will cover all of the addresses you have used.
