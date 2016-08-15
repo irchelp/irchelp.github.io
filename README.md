@@ -1,4 +1,3 @@
-$Id$
 
 Welcome WIO Editors!
 --------------------
@@ -12,7 +11,8 @@ submitting them back to us. See COPYING for more information.
 
 Otherwise, please do not create mirrors of the site, thanks.
 
-[![Build Status](https://travis-ci.org/irchelp/wio.svg?branch=master)](https://travis-ci.org/irchelp/wio)
+[![Build Status](https://travis-ci.org/irchelp/wio.svg?branch=gh-pages)](https://travis-ci.org/irchelp/wio)
+[![Stories in Ready](https://badge.waffle.io/irchelp/wio.png?label=ready&title=Ready)](http://waffle.io/irchelp/wio)
 
 Contributing
 ------------
