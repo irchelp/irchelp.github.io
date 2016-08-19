@@ -13,8 +13,8 @@ Otherwise, please do not create mirrors of the site, thanks.
 
 [![Build Status](https://travis-ci.org/irchelp/wio.svg?branch=gh-pages)](https://travis-ci.org/irchelp/wio)
 [![Stories in Ready](https://badge.waffle.io/irchelp/wio.png?label=ready&title=Ready)](http://waffle.io/irchelp/wio)
-[![#irchelp on freenode](https://img.shields.io/badge/freenode-%23irchelp-pink.svg](https://webchat.freenode.net/?channels=irchelp)
-[![#irchelp on efnet](://img.shields.io/badge/efnet-%23irchelp-pink.svg](https:/chat.efnet.org/?channels=irchelp)
+[![#irchelp on freenode](https://img.shields.io/badge/freenode-%23irchelp-pink.svg)](https://webchat.freenode.net/?channels=irchelp)
+[![#irchelp on efnet](https://img.shields.io/badge/efnet-%23irchelp-pink.svg)](https:/chat.efnet.org/?channels=irchelp)
 
 
 Contributing
