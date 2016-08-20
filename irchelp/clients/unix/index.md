@@ -1,5 +1,5 @@
 ---
-title: Unix/Linux IRC CLients
+title: Unix/Linux IRC Clients
 author: irchelp.org staff
 layout: default
 redirect_from:
@@ -11,19 +11,19 @@ redirect_from:
 
 ## Terminal
 
-The first clients and servers for IRC were written as portable C code, which could be compiled and run on a variety of Unix derivatives, including many of the systems common in academic research at the time. The original IRC client, which was once distributed in the same package with IRCNet's IRCD, is now obsolete, but many other clients have improved upon it's design.
+The first clients and servers for IRC were written as portable C code, which could be compiled and run on a variety of Unix derivatives, including many of the systems common in academic research at the time. The original IRC client, which was once distributed in the same package with IRCNet's IRCD, is now obsolete, but many other clients have improved upon its design.
 
 ### irssi
-[irssi](/irchelp/clients/unix/irssi.html) has taken ircII's place as the modern gold standard for IRC clients, with a sensible, familiar interfaces, sane defaults, modern featureset, and of course, an embedded perl interpeter as its scripting interface.
+[irssi](/irchelp/clients/unix/irssi.html) has taken ircII's place as the modern gold standard for IRC clients, with a sensible, familiar interface, sane defaults, a modern featureset, and of course, an embedded perl interpeter as its scripting interface.
 
 ### ircII and derivatives
-For years, the standard by which all other clients were measured, [ircII](irchelp/clients/unix/ircii/) and its derivatives remain a solid choice. ircII, and it's closest descendant,
-[EPIC](/irchelp/clients/unix/epic.html) are still actively maintained, but maintain faithfulness with the original "blank canvas" of ircII - they are typically highly customized by each user, either by hand, or via a script pack.
+For years, the standard by which all other clients were measured, [ircII](/irchelp/clients/unix/ircii/) and its derivatives remain a solid choice. ircII and its closest descendant,
+[EPIC](/irchelp/clients/unix/epic.html), are still actively maintained, but maintain faithfulness with the original "blank canvas" of ircII&#8211;they are typically highly customized by each user, either by hand, or via a script pack.
 
-[BitchX](/irchelp/clients/unix/bitchx.html) and [ScrollZ](/irchelp/clients/unix/scrollz.html) take a different approach, both having their original start as script packs, they eventually applied their modifications directly to the client itself, creating a derivative of ircII with more bells and whistles than any user could possibly need.
+[BitchX](/irchelp/clients/unix/bitchx.html) and [ScrollZ](/irchelp/clients/unix/scrollz.html) take a different approach: both having started originally as script packs, they eventually applied their modifications directly to the client itself, creating a derivative of ircII with more bells and whistles than any user could possibly need.
 
 ### WeeChat
-[WeeChat](/irchelp/clients/unix/weechat.html) is a relative newcomer to the terminal oriented client scene, but still compares favorably to the others. It's comparable in features to irssi, but, uniquely, also functions as a Jabber client.
+[WeeChat](/irchelp/clients/unix/weechat.html) is a relative newcomer to the terminal-oriented client scene, but still compares favorably to the others. It's comparable in features to irssi, but, uniquely, also functions as a Jabber client.
 
 ### ERC (emacs IRC client)
 
