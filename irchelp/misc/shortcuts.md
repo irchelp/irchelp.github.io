@@ -5,14 +5,11 @@ layout: default
 redirect_from:
   - /shortcuts/
   - /short/
+  - /irchelp/misc/shortcuts.html
 license: irchelp
 ---
-This is a list of shortcuts available at [IRChelp.org](http://irchelp.org/).
-For each word in the 1st column, you would append it to
-`http://www.irchelp.org/` (the www. is actually optional too). Take for
-example the first entry below 'bot', just use `http://irchelp.org/bot` and you
-will automatically be redirected to that long URL in the 2nd column,
-`http://www.irchelp.org/irchelp/misc/botfaq.html`.
+
+This is a list of shortcuts available at [IRChelp.org](http://irchelp.org/). For each word in the 1st column, you would append it to `http://www.irchelp.org/` (the www. is actually optional too). Take for example the first entry below 'bot', just use `http://irchelp.org/bot` and you will automatically be redirected to that long URL in the 2nd column, `http://www.irchelp.org/irchelp/misc/botfaq.html`.
 
 shortuctactual full URLdescription
 
@@ -156,7 +153,7 @@ rules
 
 [http://www.irchelp.org/irchelp/misc/rules.html](../misc/rules.html)
 
-#IRChelp channel rules
+# IRChelp channel rules
 
 rules.html
 
