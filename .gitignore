@@ -10,3 +10,5 @@ wio.tar.gz
 _site/
 .*.lock
 Gemfile.lock
+# temporary entry while working on ircII helpfile conversion
+irchelp/clients/unix/ircii/commands/orig/

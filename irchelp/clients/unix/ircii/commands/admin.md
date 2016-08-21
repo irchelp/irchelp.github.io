@@ -1,0 +1,16 @@
+---
+TITLE: ircII - ADMIN
+author: Michael Sandrof, Troy Rollo, Matthew Gree
+layout: default
+license: ircii
+---
+
+# ADMIN
+## Usage
+```
+ADMIN [<server>|<nickname>]
+```
+Displays the administrative details about the given server. If
+no server is specified, the server you are connected to is
+used. If a nickname is supplied then it gives the administrative
+information for that person's current server.
