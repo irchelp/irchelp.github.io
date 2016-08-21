@@ -2,6 +2,10 @@
 title: EFNet Server List
 author: irchelp.org staff
 layout: default
+license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/networks/efnet/servers.html
+  - /irchelp/networks/servers/efnet.html
 ---
 
 EFNet does not have an official "round robin" DNS record, as EFNet has no central
