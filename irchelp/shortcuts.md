@@ -45,24 +45,16 @@ Channel searching and listing
 
 connect
 
-[http://www.irchelp.org/irchelp/networks/connectprob.html](../networks/connect
+[http://www.irchelp.org/networks/connectprob.html](/networks/connect
 prob.html)
 
 EFnet connection troubleshooting
 
 dalnet
 
-[http://www.irchelp.org/irchelp/networks/servers/dalnet.html](../networks/serv
-ers/dalnet.html)
+[http://www.irchelp.org/irchelp/networks/dalnet.html](/networks/dalnet/)
 
 DALnet connection guide
-
-dalrefugee
-
-[http://www.irchelp.org/irchelp/networks/dalrefugee.html](../networks/dalrefug
-ee.html)
-
-DALnet refugee guide
 
 download
 
