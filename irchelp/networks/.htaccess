@@ -1,9 +1,0 @@
-Redirect /irchelp/networks/chanfix.html http://www.irchelp.org/irchelp/ircd/chanfix/
-Redirect /irchelp/networks/nets/ http://www.irchelp.org/irchelp/networks/
-Redirect /irchelp/networks/efnet.html http://www.irchelp.org/irchelp/networks/efnet/
-Redirect /irchelp/networks/efnetsux.html http://www.irchelp.org/irchelp/networks/efnet/efnetsux.html
-Redirect /irchelp/networks/servermap.html http://www.irchelp.org/irchelp/networks/efnet/servermap.html
-Redirect /irchelp/networks/spamtrap.html http://www.irchelp.org/irchelp/networks/efnet/spamtrap.html
-Redirect /irchelp/networks/spamtrap.xml http://www.irchelp.org/irchelp/networks/efnet/spamtrap.xml
-Redirect /irchelp/networks/efnet.txt http://www.irchelp.org/irchelp/networks/efnet/
-
