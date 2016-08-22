@@ -1,10 +1,12 @@
 ---
-title: IRC Channel Lists
+title: IRC Channels (Don't call them "chat rooms")
 layout: default
 redirect_from:
   - /irchelp/chanlist/
   - /irchelp/chanlist/index.html
 ---
+
+<!-- Raccoon is renaming and reauthoring this page.  22 Aug 2016 -->
 
 # IRC Channel Lists
 
