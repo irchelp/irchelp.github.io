@@ -6,6 +6,7 @@ license: CC-BY-SA-4
 redirect_from:
   - /irchelp/clients/unix/irssi.html
   - /irssi/
+  - /irchelp/clients/unix/irssi/
 ---
 
 # irssi

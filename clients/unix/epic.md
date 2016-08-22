@@ -4,6 +4,8 @@ author: Stephanie Daugherty
 summary: Information about epic
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/unix/epic.html
 ---
 
 # EPIC

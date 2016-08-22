@@ -2,6 +2,8 @@
 title: ircle setup guide
 author: Joseph Lo (jolo)
 layout: default
+redirect_from:
+  - /irchelp/clients/mac/ircle.html
 ---
 #  ![*](/irchelp/Pix/ircle_spin.gif) Ircle Setup Guide
 ![*](/irchelp/Pix/ircle_spin.gif)

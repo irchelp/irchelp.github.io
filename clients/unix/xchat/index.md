@@ -5,6 +5,7 @@ layout: default
 redirect_from:
   - /irchelp/clients/unix/xchat.html
   - /irchelp/clients/windows/xchat.html
+  - /irchelp/clients/unix/xchat/
 ---
 # XChat
 

@@ -3,6 +3,8 @@ title: Snak
 layout: default
 author: Joseph Lo
 license: irchelp
+redirect_from:
+  - /irchelp/clients/mac/snak.html
 ---
 
 [ ![*](snak.jpg)](http://www.snak.com/Snak.html)

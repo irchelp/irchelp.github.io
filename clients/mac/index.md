@@ -9,6 +9,7 @@ redirect_from:
   - /mac/
   - /irchelp/mac/
   - /irchelp/clients/mac.html
+  - /irchelp/clients/mac/
 ---
 [![*](/media/macappstore_icon.jpg) ](http://www.apple.com/)
 

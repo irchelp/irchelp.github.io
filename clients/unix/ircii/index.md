@@ -8,6 +8,7 @@ redirect_from:
   - /irchelp/ircii/
   - /irchelp/ircII/
   - /irchelp/clients/unix/ircii.html
+  - /irchelp/clients/unix/ircii/
 ---
 
 

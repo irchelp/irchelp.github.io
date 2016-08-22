@@ -6,6 +6,7 @@ layout: default
 license: CC:BY-SA-4
 redirect_from:
   - /mobile/
+  - /irchelp/clients/mobile/
 ---
 
 * [Android](android/)

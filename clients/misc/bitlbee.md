@@ -3,6 +3,8 @@ title: bitlbee connecting IRC clients to other chat protocols
 layout: default
 author: Stephanie Daugherty
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/misc/bitlbee.html
 ---
 
 # bitlbee: connecting IRC clients to other chat protocols

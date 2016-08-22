@@ -3,6 +3,8 @@ title: ScrollZ
 layout: default
 author: Stephanie Daugherty
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/unix/scrollz.html
 ---
 
 [ScrollZ](http://www.scrollz.com/), offers an ircII like client with extensive script-like features already built in.

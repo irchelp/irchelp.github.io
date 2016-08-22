@@ -4,7 +4,7 @@ author: irchelp.org staff
 layout: default
 license: CC-BY-SA-4
 redirect_from:
-  - /clients/
+  - /irchelp/clients/
 ---
 
 # IRC Clients

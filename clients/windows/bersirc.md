@@ -1,6 +1,8 @@
 ---
 title: bersirc
 layout: default
+redirect_from:
+  - /irchelp/clients/windows/bersirc.html
 ---
 
 # Bersirc

@@ -3,6 +3,8 @@ title: IRC Clients for Other Desktop Operating Systems
 layout: default
 author: irchelp.org staff
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/otheros/
 ---
 # IRC Clients for Other Operating Systems
 

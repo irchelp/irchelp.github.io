@@ -2,6 +2,8 @@
 title: Cross-platform instant messaging clients with IRC support
 author: Stephanie Daugherty
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/cross/instantmessage.html
 ---
 
 # Cross-platform instant messaging clients with IRC support

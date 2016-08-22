@@ -3,6 +3,8 @@ title: Colloquy
 layout: default
 author: Joseph Lo
 license: irchelp
+redirect_from:
+  - /irchelp/clients/mac/colloquy.html
 ---
 
 **Colloquy 2.x** &nbsp_place_holder; [ [ home page](http://colloquy.info/) | [screen cap](http://colloquy.info/screenshots.html) ]

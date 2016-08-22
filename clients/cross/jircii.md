@@ -8,6 +8,8 @@ tags:
   - gui
   - license-artistic
   - abandoned
+redirect_from:
+    - /irchelp/clients/cross/jircii.html
 ---
 
 **Caution:** As of 2016-08-03 it appears jIRCii may be abandoned. Development was

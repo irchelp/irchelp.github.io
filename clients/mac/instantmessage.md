@@ -3,6 +3,8 @@ title: Instant Messaging Programs on MacOS X with IRC Support
 layout: default
 author: Stephanie Daugherty
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/mac/instantmessage.html
 ---
 
 # Instant Messaging programs on MacOS X

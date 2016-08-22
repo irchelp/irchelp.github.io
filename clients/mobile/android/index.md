@@ -3,6 +3,8 @@ title: IRC Clients for Android
 author: Stephanie Daugherty
 summary: Partial listing of IRC clients for Android users.
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/android/
 ---
 
 # IRC Clients for Android

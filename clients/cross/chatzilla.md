@@ -4,6 +4,8 @@ author: Stephanie Daugherty
 summary: ChatZilla cross-platform IRC client.
 license: CC-BY-SA-4
 layout: default
+redirect_from:
+  - /irchelp/clients/cross/chatzilla.html
 ---
 
 # ChatZilla

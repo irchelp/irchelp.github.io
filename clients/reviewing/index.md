@@ -3,6 +3,8 @@ title: www.irchelp.org IRC client review guide
 author: jolo, stephanie
 summary: Objective guidelines for evaluating IRC clients.
 layout: default
+redirect_from:
+  - /irchelp/clients/reviewing/
 ---
 
 *This is an ancient draft, started by jolo in the late 90's of how to evaluate IRC clients. It's in the process of being updated, and will be the basis of how we review IRC clients for listing on our website.*
@@ -139,7 +141,7 @@ mention of possible workarounds.
 BASICS
 	general stability
 	stability while getting /list (indication of stability during a
-	flood) 
+	flood)
 	++load time (on a typical system as of the time it was released)
 		under 30 seconds.
         memory size (preferably under 1MB, should at least be under 5MB)
@@ -150,7 +152,7 @@ BASICS
         ++connections to multiple networks
 	*Uses common / commands
 	++Allows access to ALL features from / commands
-	++if software is shareware or demo it must not abort on timer 
+	++if software is shareware or demo it must not abort on timer
 	*if software does abort on timer it must be long enough to evaluate
 	properly (1 hour min)
 
@@ -181,7 +183,7 @@ FILE / NETWORKS / SERVERS
 	+ Should deal with anonymous channel operators gracefully (Hybrid 7
 		+a channelmode)
 	+ Should deal with anonymous channels gracefully (IRCNet +a channelmode)
-	+ Should deal with masked servers gracefully (serverhide, IRCnet 		
+	+ Should deal with masked servers gracefully (serverhide, IRCnet
 		servermasks)
 
 SECURITY
@@ -275,7 +277,7 @@ HELP
 	+Client "suggests" help topics or provides help when commands are
 		entered improperly
 	+Online help should fully describe each /command
-        
+
 SCRIPTING
         +availability of built-in variables and features
         +portability/ease
@@ -291,7 +293,7 @@ Channel Maintainance
 	+timed bans
         +friends list
         +shit list
-        
+
 OTHER
 	*Client should ignore or warn user about forged CTCP replies
 	--Links looker
@@ -307,7 +309,7 @@ NON-RFC FEATURES
         sound
         others: -faces, video, white board, -HTML, etc.
 
-        
+
 BUILT-IN/BUNDLED SCRIPTS
 
 	-- "war" features (text flooding,terminal bombs,nukers)

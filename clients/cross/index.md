@@ -1,6 +1,8 @@
 ---
 title: Cross-platform IRC clients.
 layout: default
+redirect_from:
+  - /irchelp/clients/cross/
 ---
 # Cross-platform IRC clients
 There are a large and growing number of cross-platform clients that run equally well on many different operating systems.

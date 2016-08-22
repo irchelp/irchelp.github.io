@@ -3,6 +3,8 @@ title: IRC with an Instant Messaging program on Windows
 author: Stephanie Daugherty
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/windows/instantmessage.html
 ---
 
 # Introduction

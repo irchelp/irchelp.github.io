@@ -3,6 +3,8 @@ title: LeafChat
 layout: default
 author: Stephanie Daugherty
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/cross/leafchat.html
 ---
 
 ## Overview

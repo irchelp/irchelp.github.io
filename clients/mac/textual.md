@@ -3,6 +3,8 @@ title: Textual
 layout: default
 author: Stephanie Daugherty
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/mac/textual.html
 ---
 
 ## Overview

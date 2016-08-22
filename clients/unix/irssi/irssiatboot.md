@@ -1,6 +1,8 @@
 ---
 title: Auto Start & Auto Connect Single or Multi Irssi Sessions in a Terminal or Screen
 author: EmleyMoor, ShadowDog, and Jupiter/Mangelo
+redirect_from:
+   - /irchelp/clients/unix/irssi/irssiatboot.html
 ---
 # Auto Start & Auto Connect Single or Multi Irssi Sessions in a Terminal or Screen
 
@@ -200,5 +202,3 @@ Make sure there is a blank line visible in the file after this line.
 If the system crashes or has a power failure, for example, this will not work – you will need to log in and run “startirssi” yourself. However, on a simple reboot, it should be run automatically, and you will be able to get into it with “screen -r irssi” right away.
 
 Good luck -- enjoy. :-)
-
-

@@ -2,6 +2,8 @@
 title: Using Linux/Unix Clients on Windows
 author: Stephanie Daugherty
 layout: default
+redirect_from:
+  - /irchelp/clients/windows/unixports.html
 ---
 
 

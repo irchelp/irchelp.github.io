@@ -8,6 +8,7 @@ redirect_from:
   - /irchelp/mirc/
   - /irchelp/mIRC/
   - /irchelp/clients/windows/mirc.html
+  - /irchelp/clients/windows/mirc/
 ---
 
 # Help for the mIRC Chat Client

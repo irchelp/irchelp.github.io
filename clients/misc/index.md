@@ -4,6 +4,8 @@ author: Stephanie Daugherty
 summary: Information on special-purpose IRC clients, such as bots and bouncers.
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/clients/misc/
 ---
 
 # Specialized Clients - Bots, Bouncers, and everything else
