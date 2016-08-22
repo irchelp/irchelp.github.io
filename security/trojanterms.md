@@ -1,7 +1,9 @@
 ---
-title: Trojan Horses or Vorus
+title: Trojan Horses or Virus
 author: Joseph Lo (jolo)
 layout: default
+redirect_from:
+  - /irchelp/security/trojanterms.html
 ---
 
 # Trojan Horse or Virus?

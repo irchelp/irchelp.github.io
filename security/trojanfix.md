@@ -2,6 +2,8 @@
 title: Specific fixes for Trojan Horses
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/security/trojanfix.html
 ---
 
 ** This page is out of date and no longer being maintained. It will continue to be available for historical reference only. For more up to date information, see the links from our main page on [Trojan horse attacks](trojan.html).**

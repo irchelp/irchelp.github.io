@@ -3,6 +3,8 @@ title: Frequently Asked Questions - mIRC "SCRIPT.INI" trojans
 author: Rich Lafferty (mendel)
 layout: default
 license: irchelp
+redirect_from:
+  - /irchelp/security/si.html
 ---
 
 Frequently Asked Questions: mIRC "SCRIPT.INI"

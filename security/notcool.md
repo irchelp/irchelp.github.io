@@ -3,6 +3,8 @@ title: Not Cool
 author: Dan Pressnell
 layout: default
 license: usedbypermission
+redirect_from:
+  - /irchelp/security/notcool.html
 ---
 
 Ed. note: This is a fast, ad-free, official mirror copy of the author's

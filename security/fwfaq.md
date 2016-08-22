@@ -5,6 +5,7 @@ layout: default
 license: CC-BY-SA-4
 redirect_from:
   - /firewall/
+  - /irchelp/security/fwfaq.html
 ---
 
 # Firewall FAQ

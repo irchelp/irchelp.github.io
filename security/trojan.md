@@ -2,6 +2,8 @@
 title: Trojan Horses
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/security/trojan.html
 ---
 
 # Trojan Horse Attacks

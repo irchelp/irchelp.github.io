@@ -2,6 +2,8 @@
 title: netbus
 author: internet security systems
 layout: default
+redirect_from:
+  - /irchelp/security/netbus.html
 ---
 
 # NetBus Backdoor Attack

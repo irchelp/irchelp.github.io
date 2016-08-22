@@ -2,6 +2,8 @@
 title: srvcp trojan horse
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/security/srvcp.html
 ---
 
 # srvcp Trojan Horse

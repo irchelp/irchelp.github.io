@@ -3,6 +3,8 @@ title: Social Engineering
 author: irchelp.org staff
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/security/socialeng.html
 ---
 
 # Social Engineering

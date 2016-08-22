@@ -2,6 +2,8 @@
 title: Logging and Reporting IRC Abuse
 author: prysm, Joseph Lo (jolo)
 layout: default
+redirect_from:
+  - /irchelp/security/irclog.html
 ---
 
 # Logging and Reporting IRC Abuses

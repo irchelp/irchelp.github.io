@@ -3,8 +3,9 @@ title: IRC File Trading
 author: Joseph Lo (jolo), irchelp.org staff
 layout: default
 redirect_from:
-  - /warez
-  - /irchelp/warez
+  - /warez/
+  - /irchelp/warez/
+  - /irchelp/security/warez.html
 ---
 
 # IRC File Trading: "Geek-centric way to get free stuff"?

@@ -2,6 +2,8 @@
 title: How to NOT hide file extensions in Windows
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/security/trojanext.html
 ---
 
 # How to NOT hide extensions in Windows

@@ -2,6 +2,8 @@
 title: Back Orifice
 author: Anthony Stirk (Upuaut), Chris Benson, Joseph Lo, Rich Lafferty
 layout: default
+redirect_from:
+  - /irchelp/security/bo.html
 ---
 # Back Orifice
 

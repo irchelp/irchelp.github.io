@@ -2,6 +2,8 @@
 title: Obsolete Fixes
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/security/obsoletefixes.html
 ---
 # This document has been removed.
 
