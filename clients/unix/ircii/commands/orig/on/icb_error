@@ -1,0 +1,11 @@
+!	 $eterna: icb_error,v 1.4 2002/10/30 13:55:13 mrg Exp $
+!
+! Copyright (c) 2000  Matthew Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: ON [#|+|-|^|&|@]ICB_ERROR [-|^]<message> [action]
+  This is activated whenever you receive an error message from
+  the ICB server.
+    $0-   The error message

@@ -1,0 +1,15 @@
+!	 $eterna: nuser,v 1.1 2011/11/14 20:53:56 mrg Exp $
+!
+! Copyright (c) 2011 Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: NUSER <newloginname> [<newircname>]
+  NUSER disconnects and reconnects with a new loginname and
+  ircname, while keeping the same nickname.
+
+See Also:
+  DISCONNECT
+  SERVER

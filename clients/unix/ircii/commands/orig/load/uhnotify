@@ -1,0 +1,12 @@
+!	 $eterna: uhnotify,v 1.6 2002/08/29 10:25:12 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD uhnotify
+  This script adds userhost lookups for every nick on
+  the notify list.  It works much better with ircII
+  clients 2.3.13 or older.

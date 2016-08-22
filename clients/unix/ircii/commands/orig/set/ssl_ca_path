@@ -1,0 +1,18 @@
+!	 $eterna: ssl_ca_path,v 1.2 2014/08/25 04:45:38 mrg Exp $
+!
+! Copyright (c) 2014  Matthew Green,
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: SET SSL_CA_PATH <path>
+  Sets the path of a subdirectory of PEM CA certificates.
+  Please see SSL documentation for more details about SSL.
+
+Example:
+  /SET SSL_CA_PATH /etc/openssl/certs
+
+See also:
+  SET SSL_CA_CHAIN_FILE
+  SET SSL_CA_FILE
+  SET SSL_CA_PRIVATE_KEY_FILE

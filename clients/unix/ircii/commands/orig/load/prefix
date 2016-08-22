@@ -1,0 +1,12 @@
+!	 $eterna: prefix,v 1.6 2002/08/29 10:25:08 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD prefix
+  For those who use multiple channels without opening windows
+  for each of them. The channel name talk is coming from or going
+  to is displayed as prefix to each line.

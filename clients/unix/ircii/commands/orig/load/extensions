@@ -1,0 +1,12 @@
+!	 $eterna: extensions,v 1.6 2002/08/29 10:25:02 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD extensions
+  This one is usually loaded automatically anyway by the 'global' script.
+  It simply defines 'umode', 'dmsg', and 'dquery' thus taking the 
+  burden off the client itself to deal with them.

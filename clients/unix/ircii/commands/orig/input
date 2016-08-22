@@ -1,0 +1,12 @@
+!	 $eterna: input,v 1.7 2014/03/14 20:59:18 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: INPUT "<prompt>" <command> <args>
+  Where it displays "prompt" and then calls command, with args,
+  and with the line prompted for as $*.  E.g:
+    ALIAS ex INPUT "Enter shell command >" exec $$*

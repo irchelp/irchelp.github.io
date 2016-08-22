@@ -1,0 +1,12 @@
+!	 $eterna: lastlog,v 1.6 2002/08/29 10:25:51 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: SET LASTLOG <value>
+  Sets the size of the lastlog buffer (See HELP LASTLOG).  This
+  buffer keeps an in memory record of messages sent and received.
+  If LASTLOG is set to 0, the lastlog function is disabled.

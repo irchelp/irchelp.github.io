@@ -1,0 +1,11 @@
+!	 $eterna: meta2,v 1.6 2002/08/29 10:25:06 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD meta2
+  TAB is redefined to do META2.
+  Pressing TAB twice toggles the insert mode.

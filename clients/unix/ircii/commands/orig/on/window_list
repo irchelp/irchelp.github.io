@@ -1,0 +1,22 @@
+!	 $eterna: window_list,v 1.2 2002/04/02 09:10:25 mrg Exp $
+!
+! Copyright (c) 2002  Matthew Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: ON [#|+|-|^|&|@]WINDOW_LIST [-|^]<parameters> [action]
+  This hook is called for the WINDOW LIST command, and can reformat
+  the output in any fashion required.
+  The parameters are:
+    $0    Maximum window name length
+    $1    Refnum of the window
+    $2    Nick in this window
+    $3    Name of this window
+    $4    Current channel in this window
+    $5    Query nick for this window
+    $6    Server for this window
+    $7    Lastlog level for this window
+    $8    Visibility for this window
+See Also
+  WINDOW LIST

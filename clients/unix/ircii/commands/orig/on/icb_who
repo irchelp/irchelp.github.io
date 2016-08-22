@@ -1,0 +1,16 @@
+!	 $eterna: icb_who,v 1.2 2007/06/26 03:33:36 mrg Exp $
+!
+! Copyright (c) 2002, 2006  Matthew Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: ON [#|+|-|^|&|@]ICB_WHO [-|^]"<parameters>" [action]
+  This is activated whenever you receive an reply to a WHO list 
+  the ICB server.
+    $0    The nickname of this user (mod has a '*' prefix)
+    $1    The idle time of this user
+    $2    The signon time of this user
+    $3    The username of this user
+    $4    The hostname this user is connected from
+    $5    This users registration status

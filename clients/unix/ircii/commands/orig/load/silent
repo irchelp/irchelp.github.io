@@ -1,0 +1,16 @@
+!	 $eterna: silent,v 1.6 2002/08/29 10:25:10 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD silent
+  A series of ON commands, which will make all of the *** join, leave,
+  signoff nickname and mode change messages disappear. Meant to be used
+  in high-traffic channels such as #report.
+
+  If you have %U somewhere in your STATUS_FORMAT variable, the messages
+  will appear in the status line instead, which is much less annoying,
+  than to have them in the ircII windows.

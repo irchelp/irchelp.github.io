@@ -1,0 +1,14 @@
+!	 $eterna: decrypt_program,v 1.1 2002/03/18 12:51:29 mrg Exp $
+!
+! Copyright (c) 2002  Matthew Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: SET DECRYPT_PROGRAM <decryption program path>
+  Sets the program used to decrypt messages, if it needs to be
+  different to the SET ENCRYPT_PROGRAM setting.  If unset,
+  it will use the ENCRYPT_PROGRAM.
+See also:
+ SET OLD_ENCRYPT_PROGRAM
+ SET ENCRYPT_PROGRAM
