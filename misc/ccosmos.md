@@ -1,6 +1,8 @@
 ---
 tttie: IRC Command Cosmos
 layout: default
+redirect_from:
+  - /irchelp/misc/ccosmos.html
 ---
 
 **Ed. note:** This guide is intended for advanced users, others should first check out our many introductory [help files](/irchelp/faq.html). As the author pointed out, this guide is primarily for [Undernet](http://servers.undernet.org/), but much of this information also applies to other networks as well. This file is mirrored with permission of the author, see also his [frames-enabled version](http://www.student.uib.no/%7Est01369/ccosmos/ccosmos.html).

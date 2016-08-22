@@ -1,3 +1,9 @@
+---
+title: itnew2irc
+layout: default
+redirect_from:
+  - /irchelp/misc/itnew2irc.html
+---
 # The IRC Prelude
 
 By David Caraballo (DC-itsme) and Joseph Lo (Jolo)

@@ -2,6 +2,8 @@
 title: aliases
 author: Wags
 layout: default
+redirect_from:
+  - /irchelp/misc/ircalias.html
 ---
 
 # ircalias

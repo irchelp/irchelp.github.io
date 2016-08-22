@@ -2,6 +2,8 @@
 title: IRC via the WEb
 author: Joseph Lo (jolo)
 layout: default
+redirect_from:
+  - /irchelp/misc/webchat.html
 ---
 
 # Internet Relay Chat using the Web

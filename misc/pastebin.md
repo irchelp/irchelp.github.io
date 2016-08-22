@@ -3,6 +3,8 @@ title: Using Pastebins to share text
 author: Stephanie Daugherty
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/misc/pastebin.html
 ---
 
 # Using Pastebins to share text

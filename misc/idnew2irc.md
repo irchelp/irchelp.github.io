@@ -1,3 +1,9 @@
+---
+title: idnew2irc
+layout: default
+redirect_from:
+  - /irchelp/misc/idnew2irc.html
+---
 # IRC untuk Pemula
 
 Oleh David Caraballo (DC-itsme) dan Joseph Lo (Jolo)
@@ -662,4 +668,3 @@ Copyright (C)1998 ajr <ajr@arjuna.net>, dkk.
 
 ##### [Copyright (C) 1997,1998](/irchelp/credit.html) Joseph Lo and many
 others.
-

@@ -2,6 +2,8 @@
 title: IRC Bot FAQ
 author: Black Nemesis, TheRose, DiverGuy, Joseph Lo (jolo)
 layout: default
+redirect_from:
+  - /irchelp/misc/botfaq.html
 ---
 # Frequently Asked Questions about IRC bot, Internet Relay Chat roBOTs
 

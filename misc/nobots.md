@@ -1,3 +1,10 @@
+---
+title: no bots
+layout: default
+redirect_from:
+  - /irchelp/misc/nobots.html
+---
+
 ### What is a bot?
 
 A (ro)bot is a set of scripted IRC commands which runs as an automated

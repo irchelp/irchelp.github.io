@@ -1,6 +1,8 @@
 ---
 title: talkcity announcement
 layout: default
+redirect_from:
+  - /irchelp/misc/talkcity.html
 ---
 
 **Ed. note:** We at [IRChelp.org](http://www.irchelp.org/) are not affiliated in any way with TalkCity. The following letter was sent out to all registered TC members, and we are providing it here purely for information purposes. All comments should be directed to the CEO of TC using the email link at the bottom. -Jolo

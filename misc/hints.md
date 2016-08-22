@@ -2,6 +2,8 @@
 title: Hints for better IRC usage
 layout: default
 author: Vegard Engen
+redirect_from:
+  - /irchelp/misc/hints.html
 ---
 
 # Hints for better IRC usage.

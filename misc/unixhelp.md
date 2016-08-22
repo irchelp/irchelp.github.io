@@ -2,6 +2,8 @@
 title: Using Linux (and other Unix-like systems) from the command line
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/misc/unixhelp.html
 ---
 
 # Using Linux (and other Unix-like systems) from the command line
@@ -10,11 +12,11 @@ While many Linux (and other Unix-like) systems will have a graphical user interf
 
 The key difference between a command line and graphical interface is that in a GUI, the computer shows you what you can do, and you are limited to those choices before you, while with a CLI, you tells the computer exactly what you want it to do, but you must yourself know what the choices are.
 
-You can access the command line even from within the GUI, via a *terminal window*. 
+You can access the command line even from within the GUI, via a *terminal window*.
 
 ## Using the command line for the first time.
 
-The first time you access the command line, you will be presented with a prompt, which tells you that it is waiting for a command. The prompt will usually be a single `$` or it may spell out more information, such as `user@laptop ~ $`. 
+The first time you access the command line, you will be presented with a prompt, which tells you that it is waiting for a command. The prompt will usually be a single `$` or it may spell out more information, such as `user@laptop ~ $`.
 
 Enter `man 1 intro` at the prompt, and you should be presented with a brief tutorial on how to use the command prompt.
 
@@ -29,7 +31,7 @@ The CLI not only affords precision, but also requires it. Commands must be enter
 Most "commands" are actually small programs of their own - for example, if you have the [irssi](/irchelp/clients/unix/irssi.html) client installed, you should be able to run it simply by typing `irssi` at the prompt and pressing enter,
 
 ## Useful Commands to Know
-    
+
     Command     What The Command Does (And syntax example if necessary)
     ls          shows the contents of the current directory
     pwd         shows the name of the current directory
@@ -48,7 +50,7 @@ Most "commands" are actually small programs of their own - for example, if you h
     tail        shows the last few lines of a file (tail filename)
     pico        starts a friendly but limited file editor program
     vi          starts an unfriendly but powerful file editor program
-    date        even you can figure this one out 
+    date        even you can figure this one out
     time        see above
     w           shows who is logged in and what they are doing
     finger      user info check (finger user -or- finger user@host)
@@ -67,14 +69,14 @@ Most "commands" are actually small programs of their own - for example, if you h
     lynx        starts a friendly text-based World Wide Web browser program
     cal         shows a calender for any month and year (cal MM YYYY)
     ping        verifies that an address exists (ping address.name.here)
-    
+
 There are also some keystrokes that are often recognized by the command line, and by command line programs.
 
-    ctrl-L      re-draws the screen in case it gets messed up somehow    
+    ctrl-L      re-draws the screen in case it gets messed up somehow
     ctrl-C      cancels the current program (try quit or exit first)
     ctrl-Z      stops the current program (it may be resumed with ctrl-Z)
 
-    
+
 
 To get more help on any of the commands, do this: `man command_name_here`.
 For example, to see all the different ways to use flags and wildcards with the

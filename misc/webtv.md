@@ -1,9 +1,11 @@
 ---
 title: WebTV and Internet Relay Chat
-author: Ngan Bui (Ariell), Joseph Lo (Jolo), and Stephanie Daugfherty (sdaugherty)
+author: Ngan Bui (Ariell), Joseph Lo (Jolo), and Stephanie Daugherty (sdaugherty)
 layout: default
 status: historical
 license: irchelp
+redirect_from:
+  - /irchelp/misc/webtv.html
 ---
 # WebTV and Internet Relay Chat
 

@@ -2,6 +2,8 @@
 title: Shareware is Good
 author: Joseph Lo (jolo)
 layout: default
+redirect_from:
+  - /irchelp/misc/shareware.html
 ---
 
 # Shareware is Good

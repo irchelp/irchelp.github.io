@@ -2,6 +2,8 @@
 title: Technology and Social Isolation
 author: Chris Barylick
 layout: default
+redirect_from:
+  - /irchelp/misc/tech.html
 ---
 **Technology and Social Isolation**
 

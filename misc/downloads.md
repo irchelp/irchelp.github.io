@@ -4,6 +4,7 @@ author: irchelp.org staff
 layout: default
 redirect_from:
   - /irchelp/mirc/old/
+  - /irchelp/misc/downloads.html
 license: CC-BY-SA-4
 ---
 
