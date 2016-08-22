@@ -2,6 +2,9 @@
 title: irchelp.org privacy policy
 author: irchelp.org staff
 layout: default
+license: irchelp
+redirect_from:
+  - /irchelp/misc/privacy.html
 ---
 
 # IRChelp.org Privacy Notice, Mission Statement, and General Rant
