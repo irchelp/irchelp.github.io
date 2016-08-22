@@ -1,3 +1,8 @@
+Review.  Materials from this document should be considered for reuse in a
+guide to using the mIRC client.
+Reviewed by a raccoon on Aug 21, 2016.
+
+
 6.03 hotlink fix:
 on ^*:hotlink:*//*.*:*: { }
 on *:hotlink:*//*.*:*: { run C:\Program Files\Opera\Opera.exe $1 }

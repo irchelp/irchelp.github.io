@@ -2,7 +2,16 @@
 title: Flood Protection and Ignoring People
 author: Ruth Mullen (hershey)
 layout: default
+redirect_from:
+  - /irchelp/clients/windows/mirc/flood.html
+reviewed: Raccoon Aug 21, 2016
 ---
+
+/!\ Materials from this page should be considered for reuse in a guide to using
+mIRC's features, and also possibly included in a general guide about chat
+flooding and online harassment.
+Reviewed by a raccoon on Aug 21, 2016.
+
 
 # Flood Protection and Ignoring People
 

@@ -1,7 +1,18 @@
 ---
 title: How to configure mIRC to connect through winGate
 layout: default
+redirect_from:
+  - /irchelp/clients/windows/mirc/wingate.html
+delete-me: Raccoon Aug 21, 2016
 ---
+
+/!\ This page was reviewed and chosen for deletion.
+It contains woefully outdated and inaccurate information today.
+The contents serve little archival value besides historic interest.
+This page should be replaced with a general article touching on proxies,
+firewalls and other network traffic forwarding technologies.
+Reviewed by a raccoon on Aug 21, 2016.
+
 
 [ This is an emergency mirror of the [original
 page](http://kb.deerfield.com/search/viewarticle.cfm?a=1014) at Wingate's home

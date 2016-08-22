@@ -2,7 +2,15 @@
 title: Using mIRC with AOL
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/clients/windows/mirc/aol.html
+delete-me: Raccoon Aug 21, 2016
 ---
+
+/!\ This page was reviewed and chosen for deletion.
+It contains woefully outdated and inaccurate information today.
+The contents probably serve no archival value besides historic interest.
+Reviewed by Raccoon on Aug 21, 2016.
 
 # Using mIRC with AOL
 
