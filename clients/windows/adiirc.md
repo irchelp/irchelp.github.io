@@ -17,11 +17,16 @@ redirect_from:
      With -Kr0n right-aligned beneath it. -->
 
 
-## Quick Support Links
-**External Sites:**
+## Quick Links
+** On This Page: **
+[Screenshots](#Screenshots) |
+[About AdiIRC](#About+AdiIRC) |
+[Scripting](#Scripting)
+
+** External Sites: **
 [Website](https://adiirc.com/) |
 [Download](https://adiirc.com/download.php) |
-[Change Log](https://adiirc.com/notes.php) | <!-- Change Log,Version History,Release Notes -->
+[Change Log](https://adiirc.com/notes.php) | <!-- Version History,Release Notes -->
 [FAQ](https://adiirc.com/support.php?p=4) |
 [Development](https://dev.adiirc.com/projects/adiirc) |
 [Issues](https://dev.adiirc.com/projects/adiirc/issues) |
@@ -31,40 +36,49 @@ redirect_from:
 [Wine Support](https://dev.adiirc.com/projects/adiirc/wiki/Wine) |
 [Contact](https://dev.adiirc.com/projects/adiirc/wiki/contact)
 
-**IRC Channels:**
-[#AdiIRC](irc://chat.freenode.net/#adiirc) on [freenode]() (official) |
-[#AdiIRC](irc://) on [NordicIRC]() |
-[#AdiIRC](irc://) on [Rizon]() |
-[#AdiIRC](irc://) on [ElectroCode]() | [(more)](https://dev.adiirc.com/projects/adiirc/wiki/IRC_Channels)
+** IRC Channels: **
+[#AdiIRC](irc://chat.freenode.net/#adiirc) on [freenode](#) (official) |
+[#AdiIRC](irc://irc.nordicirc.com/#adiirc) on [NordicIRC](#) |
+[#AdiIRC](irc://irc.rizon.net/#adiirc) on [Rizon](#) |
+[#AdiIRC](irc://irc.​electrocode.​net/#adiirc) on [ElectroCode](#) | [(more)](https://dev.adiirc.com/projects/adiirc/wiki/IRC_Channels)
 
 
+<a name="Screenshots"></a>
 ## Screenshots
 
 [x] [x] [x] [x] [x]
 
 
+<a name="About+AdiIRC"></a>
 ## About AdiIRC
 
 AdiIRC was first publicly released on January 07, 2016, and is presently in
 active development.  It is a closed-source freeware IRC client for Windows,
 modeled after the popular [mIRC](mirc) client, and written in C# (C-Sharp).
 Compatible with Windows Vista and later, and runs fine in Wine for Linux.
-AdiIRC is supported by [donations](). <!--AdiIRC goes pretty good with Wine.-->
+AdiIRC is supported by [donations](#). <!--AdiIRC goes pretty good with Wine.-->
 
 > Q: What does "Adi" stands for? <br />
->A: Nothing really. It's an old prefix used for some other projects many years ago, and the prefix just carried over to this IRC client. Original it was derived from the song A.D.I.D.A.S by the band KoRn. According to some it could stand for "All Day I IRC" :P - Kr0n
+> A: Nothing really. It's an old prefix used for some other projects many years
+  ago, and the prefix just carried over to this IRC client. Original it was
+  derived from the song A.D.I.D.A.S by the band KoRn. According to some it could
+  stand for "All Day I IRC" :P - Kr0n
 
-
+<a name="Scripting"></a>
 ## Scripting
 
 AdiIRC supports a variant of the mIRC Scripting Language (mSL), with its own
 additions and deviations from the official mIRC supported script.  Some features
 and syntactic behaviours may not work as expected, but the developer is fairly
-responsive to community suggestions and bug reports.
+responsive to bug reports and suggestions for improvement.
 
 The developer hosts his own [paste bin](https://kr0n.dk/) for use in the
 [#AdiIRC](irc://chat.freenode.net/#adiirc) support channel.
 
+---
+Last revised on 25 August 2016
+&mdash; [Hey, you can edit this page on github!
+](https://github.com/irchelp/wio/blob/gh-pages/clients/windows/adiirc.md)
 
 <!-- Last modified -->
 <!-- [You can edit this page!](github/wio link to file) -->
