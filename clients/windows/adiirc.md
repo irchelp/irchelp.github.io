@@ -7,9 +7,18 @@ redirect_from:
   - /AdiIRC
 ---
 
+<!--  Notes:
+* Heading anchors work. Wishlist: Automatically name headings as anchor points.
+* Quick Links don't take up as much vertical space as they would as bulleted lists.
+* I need to add a bulleted list of basic (comparative) vitals for each client.
+* Floating image seems to work.  I chose 256p logo, would like to do all clients.
+-->
+
 <!--div style="text-align: right"-->
 <div style="float: right;"> <!-- margin: 0px 15px 15px 0px; -->
+
 ![AdiIRC Logo](adiirc_256p.png "AdiIRC Logo")
+
 </div>
 
 # AdiIRC
@@ -81,7 +90,7 @@ The developer hosts his own [paste bin](https://kr0n.dk/) for use in the
 
 ---
 Last revised on 25 August 2016
-&mdash; [Hey, you can edit this page on github!
+&mdash; [Hey, you can edit this page!
 ](https://github.com/irchelp/wio/blob/gh-pages/clients/windows/adiirc.md)
 
 <br />
