@@ -5,6 +5,8 @@ layout: default
 redirect_from:
   - /adiirc
   - /AdiIRC
+  - /clients/adiirc
+  - /clients/AdiIRC
 ---
 
 <!--  Notes:
@@ -59,8 +61,28 @@ redirect_from:
 
 ## Screenshots <a name="Screenshots"></a>
 
-[x] [x] [x] [x] [x]
+<!-- We need an auto-thumbnailer.  Until then, broadband... -->
 
+<img src="adiirc_screenshot_outofthebox.png" height="100" style="width: auto;"
+  alt="screenshot_outofthebox" title="Out Of The Box.">
+<img src="adiirc_screenshot_sexy.png" height="100" style="width: auto;"
+  alt="screenshot_sexy" title="Sexy.">
+<img src="adiirc_screenshot_moresexy.png" height="100" style="width: auto;"
+  alt="screenshot_moresexy" title="More Sexy.">
+<img src="adiirc_screenshot_paragraphspacing.png" height="100" style="width: auto;"
+  alt="screenshot_paragraphspacing" title="Paragraph Spacing.">
+<img src="adiirc_screenshot_retro.png" height="100" style="width: auto;"
+  alt="screenshot_retro" title="Retro.">
+<img src="adiirc_screenshot_hackergreen.png" height="100" style="width: auto;"
+  alt="screenshot_hackergreen" title="Hacker Green.">
+<img src="adiirc_screenshot_quasselthemed.png" height="100" style="width: auto;"
+  alt="screenshot_quasselthemed" title="Quassel Themed.">
+<img src="adiirc_screenshot_kiwiircthemed.png" height="100" style="width: auto;"
+  alt="screenshot_kiwiircthemed" title="KiwiIRC Themed.">
+<img src="adiirc_screenshot_colloquythemed.png" height="100" style="width: auto;"
+  alt="screenshot_colloquythemed" title="Colloquy Themed.">
+<img src="adiirc_screenshot_weechatthemed.png" height="100" style="width: auto;"
+  alt="screenshot_weechatthemed" title="WeeChat Themed.">
 
 ## About AdiIRC <a name="About+AdiIRC"></a>
 
@@ -93,7 +115,6 @@ Last revised on 25 August 2016
 &mdash; [Hey, you can edit this page!
 ](https://github.com/irchelp/wio/blob/gh-pages/clients/windows/adiirc.md)
 
-<br />
 
 <!-- Last modified -->
 <!-- [You can edit this page!](github/wio link to file) -->
