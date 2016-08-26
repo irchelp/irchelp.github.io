@@ -11,14 +11,14 @@ redirect_from:
 * Heading anchors work. Wishlist: Automatically name headings as anchor points.
 * Quick Links don't take up as much vertical space as they would as bulleted lists.
 * I need to add a bulleted list of basic (comparative) vitals for each client.
-* Floating image seems to work.  I chose 256p logo, would like to do all clients.
+* !!! Floating md image seems nnot to work. I put in a regular img html tag. :(
+* I chose 256p logo, would like to do all clients.
 -->
 
 <!--div style="text-align: right"-->
 <div style="float: right;"> <!-- margin: 0px 15px 15px 0px; -->
-
-![AdiIRC Logo](adiirc_256p.png "AdiIRC Logo")
-
+<!--XXX ![AdiIRC Logo](adiirc_256p.png "AdiIRC Logo") -->
+<img src="adiirc_256p.png" alt="AdiIRC Logo" title="AdiIRC Logo">
 </div>
 
 # AdiIRC
