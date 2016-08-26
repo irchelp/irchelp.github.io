@@ -3,6 +3,7 @@ title: Internet Relay Chat RFCs
 layout:default
 redirect_from:
   - /rfc/
+  - /irchelp/rfc/
 ---
 
 # RFC: Internet Relay Chat Protocol
