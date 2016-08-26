@@ -76,9 +76,11 @@ Creating an IRC client without internet was probably not my brightest hour. :P
 
 ## Quick Links
 **On This Page:**
-[Screenshots](#Screenshots) |
-[About AdiIRC](#About+AdiIRC) |
-[Scripting](#Scripting)
+[Screenshots](#screenshots) |
+[About AdiIRC](#about_adiirc) |
+[Features](#features) |
+[Scripting](#scripting) |
+[Themes](#themes)
 
 **External Sites:**
 [Website](https://adiirc.com/) |
@@ -100,7 +102,7 @@ Creating an IRC client without internet was probably not my brightest hour. :P
 [#AdiIRC](irc://irc.​electrocode.​net/#adiirc) on [ElectroCode](#) | [(more)](https://dev.adiirc.com/projects/adiirc/wiki/IRC_Channels)
 
 
-## Screenshots <a name="Screenshots"></a>
+## Screenshots {#screenshots}
 
 <!-- We need an auto-thumbnailer.  Until then, broadband... -->
 <!-- style referenced from
@@ -137,7 +139,8 @@ Creating an IRC client without internet was probably not my brightest hour. :P
   style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_weechatthemed" title="WeeChat Themed.">
 
-## About AdiIRC <a name="About+AdiIRC"></a>
+
+## About AdiIRC {#about_adiirc}
 
 AdiIRC was first publicly released on January 07, 2016, and is presently in
 active development.  It is a closed-source freeware IRC client for Windows,
@@ -153,21 +156,41 @@ company! &Hat;&lowbar;&Hat;
   derived from the song A.D.I.D.A.S by the band KoRn. According to some it could
   stand for "All Day I IRC" :P - Kr0n
 
-## Scripting <a name="Scripting"></a>
 
-AdiIRC supports a variant of the mIRC Scripting Language (mSL), with its own
-additions and deviations from the official mIRC supported script.  Some features
-and syntactic behaviours may not work as expected, but the developer is fairly
-responsive to bug reports and suggestions for improvement.
+## Features {#features}
+
+Some of the features AdiIRC boasts include; [Scripting](#scripting) support with
+sophisticated debugging, an advanced [Theming](#theming) engine, Spell checker,
+Language translations, IRCv3 compatibility, advanced server/network database,
+SASL / Services support, Regular expression search, and of course Emoticons. ;)
+
+
+## Scripting {#scripting}
+
+AdiIRC supports a variant of the [mIRC Scripting Language](#) (mSL), with its
+own additions and deviations from the official mIRC supported script.  Some
+features and syntactic behaviors may not work as expected, but the developer is
+fairly responsive to bug reports and suggestions for improvement.
+In particular, AdiIRC offers scriptable access to Windows APIs so you can poll
+system information, access media players ("now playing"), and really customize
+the client's look and feel with highly refined theming.
 
 The developer hosts his own [paste bin](https://kr0n.dk/) for use in the
 [#AdiIRC](irc://chat.freenode.net/#adiirc) support channel.
 
+
+## Themes {#themes}
+
+(Write something about themes; glamorous and technical.) The screenshots on this
+page demonstrate how AdiIRC can be customized to look like any other IRC client.
+Just about every element of the client can be modified, including the color and
+layout of all text, dockable panels, icons, menus and anything else.
+
+
 ---
-Last revised on 25 August 2016
+Last revised on 26 August 2016
 &mdash; [Hey, you can edit this page!
 ](https://github.com/irchelp/wio/blob/gh-pages/clients/windows/adiirc.md)
-
 
 <!-- Last modified -->
 <!-- [You can edit this page!](github/wio link to file) -->
