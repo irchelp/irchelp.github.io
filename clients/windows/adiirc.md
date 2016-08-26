@@ -63,25 +63,35 @@ redirect_from:
 
 <!-- We need an auto-thumbnailer.  Until then, broadband... -->
 
-<img src="adiirc_screenshot_outofthebox.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_outofthebox.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_outofthebox" title="Out Of The Box.">
-<img src="adiirc_screenshot_sexy.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_sexy.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_sexy" title="Sexy.">
-<img src="adiirc_screenshot_moresexy.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_moresexy.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_moresexy" title="More Sexy.">
-<img src="adiirc_screenshot_paragraphspacing.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_paragraphspacing.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_paragraphspacing" title="Paragraph Spacing.">
-<img src="adiirc_screenshot_retro.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_retro.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_retro" title="Retro.">
-<img src="adiirc_screenshot_hackergreen.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_hackergreen.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_hackergreen" title="Hacker Green.">
-<img src="adiirc_screenshot_quasselthemed.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_quasselthemed.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_quasselthemed" title="Quassel Themed.">
-<img src="adiirc_screenshot_kiwiircthemed.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_kiwiircthemed.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_kiwiircthemed" title="KiwiIRC Themed.">
-<img src="adiirc_screenshot_colloquythemed.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_colloquythemed.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_colloquythemed" title="Colloquy Themed.">
-<img src="adiirc_screenshot_weechatthemed.png" height="100" style="width: auto;"
+<img src="adiirc_screenshot_weechatthemed.png" height="100"
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px" 
   alt="screenshot_weechatthemed" title="WeeChat Themed.">
 
 ## About AdiIRC <a name="About+AdiIRC"></a>
