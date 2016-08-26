@@ -25,9 +25,50 @@ redirect_from:
 
 # AdiIRC
 
-> <center> _I was without internet for 3 months, got bored and created my own irc client. <br />
-> Creating an IRC client without internet was probably not my brightest hour. :P <br />
-> -Kr0n_ </center>
+<style class="fancyquote">
+blockquote {
+  border-left: 0px !important;
+  font-family: Georgia, serif;
+  font-size: 22px !important;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+}
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 128px;
+  position: absolute;
+  left: -20px;
+  top: -50px;
+}
+blockquote:after {
+  display: block;
+  content: "\201D";
+  font-size: 128px;
+  position: absolute;
+  right: 260px;
+  bottom: -110px;
+}
+blockquote cite {
+  font-size: 18px;
+  display: block;
+  margin-top: 5px;
+}
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+</style>
+
+<blockquote class="fancyquote">
+
+I was without internet for 3 months, got bored and created my own irc client.
+Creating an IRC client without internet was probably not my brightest hour. :P
+<cite>Kr0n</cite>
+
+</blockquote>
 
 <!-- Block quotes in giant, centered, italicized block.
      With -Kr0n right-aligned beneath it. -->
@@ -62,6 +103,8 @@ redirect_from:
 ## Screenshots <a name="Screenshots"></a>
 
 <!-- We need an auto-thumbnailer.  Until then, broadband... -->
+<!-- style referenced from
+  https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css/8839678#8839678 -->
 
 <img src="adiirc_screenshot_outofthebox.png" height="100"
   style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
@@ -91,7 +134,7 @@ redirect_from:
   style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_colloquythemed" title="Colloquy Themed.">
 <img src="adiirc_screenshot_weechatthemed.png" height="100"
-  style="width: auto; height: 100px; max-width: 160px; max-height: 100px" 
+  style="width: auto; height: 100px; max-width: 160px; max-height: 100px"
   alt="screenshot_weechatthemed" title="WeeChat Themed.">
 
 ## About AdiIRC <a name="About+AdiIRC"></a>
