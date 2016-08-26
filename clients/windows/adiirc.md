@@ -19,8 +19,8 @@ redirect_from:
 
 <!--div style="text-align: right"-->
 <div style="float: right;"> <!-- margin: 0px 15px 15px 0px; -->
-<!--XXX ![AdiIRC Logo](adiirc_256p.png "AdiIRC Logo") -->
-<img src="adiirc_256p.png" alt="AdiIRC Logo" title="AdiIRC Logo">
+<!--XXX ![AdiIRC Logo](adiirc_logo_256p.png "AdiIRC Logo") -->
+<img src="adiirc_logo_256p.png" alt="AdiIRC Logo" title="AdiIRC Logo">
 </div>
 
 # AdiIRC

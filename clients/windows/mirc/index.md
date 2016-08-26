@@ -11,9 +11,17 @@ redirect_from:
   - /irchelp/clients/windows/mirc/
 ---
 
-# Help for the mIRC Chat Client
+<!--div style="text-align: right"-->
+<div style="float: right;"> <!-- margin: 0px 15px 15px 0px; -->
+<!--XXX ![mIRC Logo](mirc_logo_256p.png "mIRC Logo") -->
+<img src="mirc_logo_256p.png" alt="mIRC Logo" title="mIRC Logo">
+</div>
 
-![*](/media/icons/mirc.gif)
+# mIRC
+
+> When I first started using IRC, most IRC clients were difficult to use or
+  limited in features. I wanted to see if I could create an IRC client that
+  was both fun and easy to use. <cite>Khaled Mardam-Bey</cite>
 
 **Got mIRC?**
 
