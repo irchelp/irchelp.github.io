@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 <!--div style="text-align: right"-->
-<img src="mirc_logo_256p.png" class="img-reponsive pull-right" alt="mIRC Logo" title="mIRC Logo">
+<img src="mirc_logo_256p.png" class="img-responsive pull-right" alt="mIRC Logo" title="mIRC Logo">
 
 # mIRC
 
