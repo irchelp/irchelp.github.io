@@ -12,10 +12,7 @@ redirect_from:
 ---
 
 <!--div style="text-align: right"-->
-<div style="float: right;"> <!-- margin: 0px 15px 15px 0px; -->
-<!--XXX ![mIRC Logo](mirc_logo_256p.png "mIRC Logo") -->
-<img src="mirc_logo_256p.png" alt="mIRC Logo" title="mIRC Logo">
-</div>
+<img src="mirc_logo_256p.png" class="img-reponsive pull-right" alt="mIRC Logo" title="mIRC Logo">
 
 # mIRC
 
