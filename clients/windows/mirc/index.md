@@ -57,6 +57,10 @@ be better able to help you.
 
 ## Frequently asked questions (FAQ)
 
+<div style="float: left; margin: 0px 25px 15px 0px;">
+<img src="mirc_arnie_256p.png" alt="mIRC Logo" title="mIRC Logo">
+</div>
+
 The **[mIRC FAQ](http://www.mirc.com/faq.html)** [ext. link] helps you to
 solve virtually all setup and install problems you could encounter with mIRC.
 You can read the FAQ on the web, but having it for off-line reference is
