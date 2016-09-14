@@ -1,0 +1,12 @@
+!	 $eterna: irciihelp,v 1.6 2002/08/29 10:25:03 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD ircIIhelp
+  This simply emulates an ircIIhelp robot.  It will send help on a 
+  subject to anyone who asks for it. Actual ircIIhelp robots however
+  are not done this way, a faster C language version exists.

@@ -1,0 +1,35 @@
+; Fixes for mIRC when sending out a /ame or an /onotice on hybrid6 servers
+; Paste in aliases section. Might not work with mirc scripts.
+; These were made to act like the original commands including the
+; error messages. For mIRC 5.6 only.
+
+ame {
+  var %i = 0
+  :loop
+  inc %i
+  if ($chan(%i)) {
+    .raw PRIVMSG $ifmatch :ACTION $1-
+    goto loop
+  }
+}
+onotice {
+  if ($active !ischan) {
+    echo $colour(info) -si * /onotice: you're not on a channel
+    linesep -s
+    return
+  }
+  var %c = $iif($1,$1,#),%m = $iif($1,$2-,$1-)
+  if ($me isop %c) {
+    var %i = 0,%opnick
+    :loop
+    inc %i
+    %opnick = $nick(%c,%i,o)
+    if (%opnick) {
+      if (%opnick == $me) goto loop
+      .timer -m 1 %i .notice %opnick %m
+      goto loop
+    }
+    echo $colour(own) -qi # -> Ops %c $+ : %m
+  }
+  else echo $colour(info) -ai * /onotice: must be an Op on %c
+}

@@ -1,0 +1,28 @@
+!	 $eterna: @,v 1.1 2003/03/13 11:34:26 mrg Exp $
+!
+! Copyright (c) 2003  Matthew Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: @ <expression>
+  The @ command evaluates the given expression in "variable
+  expression" mode.  This is the same mode used inside IF ()
+  and WHILE ().  Normally it is used for variable assignment
+  as it provides a nicer syntax than ASSIGN does in some
+  contexts.  These are the same thing:
+
+	@ foo = [bar]
+	assign foo bar
+
+  as are these:
+
+	@ foo = C
+	assign foo $C
+
+See Also:
+  ASSIGN
+  ALIAS
+  IF
+  SET INPUT_ALIASES
+  ALIAS functions

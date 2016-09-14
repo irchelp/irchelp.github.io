@@ -1,0 +1,15 @@
+!	 $eterna: help,v 1.2 2001/08/12 15:43:07 mrg Exp $
+!
+! Copyright (c) 1997 Matthew Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD help
+  This script allows help services (bots) to be used with ircII.
+  The default help service is called ircIIhelp, and can be set by
+  running /HELPSERVICE <service>.
+
+See Also:
+  HELP
+  SET HELP_PATH

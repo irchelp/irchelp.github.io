@@ -1,0 +1,12 @@
+!	 $eterna: 2.9script,v 1.2 2001/08/12 15:43:06 mrg Exp $
+!
+! Copyright (c) 1997 Matthew Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD 2.9script
+  Load ON commands to deal with 2.9 server messages and stats
+  p output.
+
+Note: This script uses /on raw_irc which can use a lot of CPU.

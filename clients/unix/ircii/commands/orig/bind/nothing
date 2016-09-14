@@ -1,0 +1,12 @@
+!	 $eterna: nothing,v 1.6 2002/08/29 10:24:44 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: BIND <key> NOTHING
+  The NOTHING function does nothing.  Effectively, it disables
+  the key it is bound to (to which it is bound for you
+  grammatical types).

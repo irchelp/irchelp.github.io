@@ -1,0 +1,10 @@
+!	 $eterna: stack,v 1.6 2002/08/29 10:26:24 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: WINDOW STACK
+  Show all the windows in the window stack.

@@ -3,6 +3,8 @@ title: Getting help via IRC
 author: Stephanie Daugherty
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/misc/helpviairc.md
 ---
 
 # Getting help via IRC

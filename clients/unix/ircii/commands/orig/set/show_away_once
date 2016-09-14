@@ -1,0 +1,11 @@
+!	 $eterna: show_away_once,v 1.6 2002/08/29 10:25:56 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: SET SHOW_AWAY_ONCE [ON|OFF|TOGGLE]
+  This will show you someone's away message only once even if you
+  send them many messages.  

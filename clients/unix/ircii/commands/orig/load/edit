@@ -1,0 +1,19 @@
+!	 $eterna: edit,v 1.7 2003/12/08 05:05:59 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD edit
+  Edit a loaded alias on the command line.
+ 
+  Usage:  /edit alias_name
+  This will take the matching alias and put it in the command
+  line to be edited at will.  The alias name may be abreviated
+  if there are no other matching aliases.
+
+Note: If you are using a client version less than ircII2.2.2
+  this script may not work reliably, as it has to define
+  its own 'xtype' alias.

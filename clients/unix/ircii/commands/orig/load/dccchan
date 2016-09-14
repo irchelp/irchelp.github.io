@@ -1,0 +1,21 @@
+!	 $eterna: dccchan,v 1.2 2001/08/12 15:43:06 mrg Exp $
+!
+! Copyright (c) 1997  Matthew R. Green.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD dccchan
+  DCC based channels.  DCC channels work similar to other servers, except
+  that they are just another channel, not a full server.  This implementation
+  also has the limit of one DCC channel per client.
+
+  To use:
+    /makeid <nick>          - creates a unique nickid for you
+    /openport <port>        - create a dcc channel on port <port>
+    /closeport <port>       - close a dcc channel on port <port>
+    /opencon <host> <port>  - connect to port <port> on host <host>
+    /whoon                  - list who is on the channel
+
+  Use the /d_msg command to send a message to the channel.  You can also use
+  /query /d_msg to achieve the same

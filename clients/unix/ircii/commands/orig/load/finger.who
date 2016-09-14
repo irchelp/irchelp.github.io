@@ -1,0 +1,15 @@
+!	 $eterna: finger.who,v 1.6 2002/08/29 10:25:02 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD finger.who
+  This is just a rewrite of the FINGER script, but this one is supposedly
+  more efficient.  
+
+Additionnal commands available:
+  FINGER <nickname>
+    should find and finger that person's account.

@@ -1,0 +1,12 @@
+!	 $eterna: channel,v 1.6 2002/08/29 10:25:00 mrg Exp $
+!
+! Copyright (c) 1990-2002  Michael Sandrof, Troy Rollo, Matthew Green,
+! and other ircII contributors.
+!
+! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
+! information.
+!
+Usage: LOAD channel
+  Makes the /channel command act differently from /join.
+    CHANNEL <new channel>
+  will now leave the current channel before joining a new one.

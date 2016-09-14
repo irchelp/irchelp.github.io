@@ -3,6 +3,8 @@ title: Slack and IRC
 author: Stephanie Daugherty
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/misc/slack_and_irc.html
 ---
 
 # Slack
