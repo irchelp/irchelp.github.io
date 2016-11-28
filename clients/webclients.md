@@ -51,6 +51,13 @@ As this is one of the few "hosted" services offering push notifications
 for mobile users, this is one of the small number of clients for iOS users which can remain
 connected in the background.
 
+### TheLounge
+[TheLounge](https://thelounge.github.io/) is a free and opensource
+self-hosted alternative to IRCCloud. It's an active community-managed fork of the 
+[Shout](https://www.shoutirc.com/) project. It has both a private and public mode,
+and acts as a persistant client in the former. It has themes, upcoming support for plugins,
+multi-user support, and a responsive layout. A demo can be found [here](https://avatar.playat.ch:1000).
+
 ### Other Public Web Gateways
 
 Various public web gateways may be usable for your purposes as well, but are generally associated with or restricted to specific networks.
