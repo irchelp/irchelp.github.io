@@ -32,7 +32,7 @@ Browsing for a new network to explore? Want to compare the policies or character
 - [Popular nets](/networks/popular.html). At over 10,000 users each, these nets account for a majority of IRC users (about 2/3). Tend to be plagued by lag, splits, spam and general stupidity, but for most people, nets like these are 'the place to be' for finding people, illegal files, etc.
 - [General nets](/networks/general.html): This is the broadest category, selected from hundreds of general chat networks with hundreds to thousands of people. Compared to the popular nets above, nets like these can be just as fun but a lot less frustrating.
 - [Subject nets](/networks/topical.html): Some groups of people have set up their own networks, dedicated to their cause, subject of interest or serving a particular social group. Many of these subjects are covered by channels on the popular nets, but these nets offer a calm, dedicated alternative.
-- [Local nets](networks/regional.html): These nets allow local server connections, especially useful in areas with bad network connectivity, offer an environment where the local language is predominant in the case of non-English speaking countries and, of course, will be a place for discussing topics of local interest.
+- [Local nets](/networks/regional.html): These nets allow local server connections, especially useful in areas with bad network connectivity, offer an environment where the local language is predominant in the case of non-English speaking countries and, of course, will be a place for discussing topics of local interest.
 
 **Connection Problems?**
 
