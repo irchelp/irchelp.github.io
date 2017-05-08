@@ -35,7 +35,7 @@ These external sites each boast 100000s of channels on 100s of nets. This is the
 
 **[Netsplit.de](http://irc.netsplit.de/channels/)**
 
-**[SearchIRC.com](http://www.searchirc.com/)**
+**[IRC-Source.com](https://IRC-Source.com/)**
 
 **EFnet Channel Search**
 
