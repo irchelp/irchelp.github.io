@@ -1,6 +1,6 @@
 ---
 title: Internet Relay Chat RFCs
-layout:default
+layout: default
 redirect_from:
   - /rfc/
   - /irchelp/rfc/

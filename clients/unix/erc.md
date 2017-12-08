@@ -3,7 +3,7 @@ title: ERC (Emacs IRC Client)
 layout: default
 author: Stephanie Daugherty
 license: CC-BY-SA-4
-- /irchelp/clients/unix/erc.html
+  - /irchelp/clients/unix/erc.html
 ---
 
 The text editor and kitchen sink GNU emacs has a obscure, but built-in IRC client in the form of [ERC](http://www.gnu.org/software/emacs/manual/html_mono/erc.html).
