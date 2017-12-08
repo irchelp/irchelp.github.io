@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="description" content="{{ site.description }}" />
     <meta name="author" content="{{ site.author }}" />
-    <meta name="generator" content="PieCrust {{ piecrust.version }}" />
+    <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
     <meta name="template-engine" content="Twig" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -71,13 +71,12 @@
             <!-- TODO: fix block footer here
             { block footer %} -->
             <p>The content on irchelp.org is maintained on <a href="https://github.com/irchelp/wio">Github</a>. Pull requests are welcomed, see <a href="/irchelp/authoring.html">our contributor's guide</a> for details on how you can help.</p>
-            <p>All documents &copy; irchelp.org or original authors 2016 <br />{{ piecrust.branding|raw }}</p>
+            <p>All documents &copy; irchelp.org or original authors 2016
 
             <!-- { endblock %} -->
         </footer>
     </div>
-    {{ piecrust.debug_info|raw }}
-        <!-- Le javascript
+    <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="/js/jquery.js"></script>
