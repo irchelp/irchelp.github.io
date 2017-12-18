@@ -8,40 +8,21 @@ redirect_from:
 
 **Ed. Note:** The following note is from the author's original email announcing this CTCP specification file. All of this came after the original [RFC 1459](index.html) for the IRC protocol. -Jolo
 
+> From: ben@gnu.ai.mit.edu  
+> Subject: REVISED AND UPDATED CTCP SPECIFICATION  
+> Date: Fri, 12 Aug 94 00:21:54 edt  
 >
-
->     From: ben@gnu.ai.mit.edu
-
->     Subject: REVISED AND UPDATED CTCP SPECIFICATION
-
->     Date: Fri, 12 Aug 94 00:21:54 edt
-
+> As part of documenting the ZenIRC client, I expanded, revised, and
+> merged two text files that have been around on IRC archive sites for
+> some time: ctcp.doc, and dcc.protocol. The file "ctcp.doc" by Klaus
+> Zeuge described the basic CTCP protocol, and most of the CTCP commands
+> other than DCC.  The file Troy Rollo wrote, "[dcc.protocol](dccspec.html)", contained
+> a description of the CTCP DCC messages as well as the protocols used
+> by DCC CHAT and DCC file transfers. I have merged the two documents to
+> produce this one, edited them for clarity, and expanded on them where I
+> found them unclear while implementing CTCP in the ZenIRC client.
 >
-
->     As part of documenting the ZenIRC client, I expanded, revised, and
-
->     merged two text files that have been around on IRC archive sites for
-
->     some time: ctcp.doc, and dcc.protocol. The file "ctcp.doc" by Klaus
-
->     Zeuge described the basic CTCP protocol, and most of the CTCP commands
-
->     other than DCC.  The file Troy Rollo wrote,
-"[dcc.protocol](dccspec.html)", contained
-
->     a description of the CTCP DCC messages as well as the protocols used
-
->     by DCC CHAT and DCC file transfers. I have merged the two documents to
-
->     produce this one, edited them for clarity, and expanded on them where I
-
->     found them unclear while implementing CTCP in the ZenIRC client.
-
->
-
->     --Ben
-
->
+> --Ben
 
 * * *
 
