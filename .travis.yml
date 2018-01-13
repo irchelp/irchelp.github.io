@@ -7,7 +7,7 @@ before_script:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: ./_scripts/build-jekyll.sh
+script: bundle exec jekyll build
 
 # branch whitelist, only for GitHub Pages
 branches:
