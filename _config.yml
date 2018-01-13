@@ -8,8 +8,6 @@ baseurl: ""
 
 url: http://www.irchelp.org
 
-twitter_username: ""
-
 github_username:  irchelp
 
 gems:
