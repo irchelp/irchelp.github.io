@@ -13,6 +13,7 @@ twitter_username:
 github_username:  irchelp
 
 gems:
+  - jekyll-github-metadata
   - jekyll-redirect-from
   - jekyll-sitemap
 
