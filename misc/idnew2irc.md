@@ -131,7 +131,7 @@ Anda diterima dengan hangat.
 
 >
 
-> [IRC server](http://www.irchelp.org/irchelp/ircd/) dikelola oleh IRC admin
+> [IRC server](http://www.irchelp.org/ircd/) dikelola oleh IRC admin
 dan IRC operator (atau "IRCops"). IRCops tidak turut campur dalam urusan
 pribadi orang-orang, perang antar channel, memberi status op, dan lain-lain.
 Mereka bukanlah "IRC cops".

@@ -4,8 +4,8 @@
 
 by Jolo, tiggergrm and many others
 
-Original version at [http://www.irchelp.org/irchelp/ircd/chanfix/](http://www.
-irchelp.org/irchelp/ircd/chanfix/)
+Original version at [http://www.irchelp.org/ircd/chanfix/](http://www.
+irchelp.org/ircd/chanfix/)
 
   
 updated Nov 8, 2003
@@ -122,7 +122,7 @@ On EFnet, **nobody can just op you** on any channel, not even IRC operators
 networks such as DALnet where they have services that give opers these powers.
 For more information, see [Why EFnet has no registration
 services](http://www.irchelp.org/irchelp/networks/noserv.html) and [The Myths
-of Opers](http://www.irchelp.org/irchelp/ircd/opermyth.html).
+of Opers](http://www.irchelp.org/ircd/opermyth.html).
 
 ## 3. We still have ops but they are all idle, can you op me instead?
 

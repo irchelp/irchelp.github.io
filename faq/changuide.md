@@ -114,7 +114,7 @@ some more specific tips.
 
 **s: Secret**      If your channel is just for friends to chat and you are not interested in attracting strangers and newcomers, then the easiest way to keep your channel safe is to keep it secret. If people don't know about it, they can't attack it or take it over. Outsiders can still guess your channel name or stumble upon it accidentally. For example, making #greece secret isn't going to stop every Greek person from trying `/join #greece` anyway. 
 
-**i: Invite-only**      The most secure way to keep outsiders away is to make the channel invite-only, but be aware that can also keep your friends out unless they know a nickname of somebody inside to ask for an invitation. On most networks, most users are +i (invisible, not to be confused with the +i channel mode) and don't show up when you do a `/names #channelname` from outside. On some networks running [Hybrid ircd](/irchelp/ircd/hybrid6.html) you can try asking for a general invitation with `/knock #channelname`. You can also try looking at the ban list for the nick of an op to /msg, but often those are just bots who won't respond. 
+**i: Invite-only**      The most secure way to keep outsiders away is to make the channel invite-only, but be aware that can also keep your friends out unless they know a nickname of somebody inside to ask for an invitation. On most networks, most users are +i (invisible, not to be confused with the +i channel mode) and don't show up when you do a `/names #channelname` from outside. On some networks running [Hybrid ircd](/ircd/hybrid6.html) you can try asking for a general invitation with `/knock #channelname`. You can also try looking at the ban list for the nick of an op to /msg, but often those are just bots who won't respond. 
 
 **k: Keyword-protected**      Alternatively, set a keyword or password, that way anybody who knows the keyword already can `/join #channelname keyword` without having to ask for an invitation. If necessary you can always change the keyword, anybody currently on the channel will see the new keyword, and you can notify others privately. 
 
@@ -292,7 +292,7 @@ block all without identd, or *!*@*.no for everybody from Norway, and refine
 them later. This may temporarily block some of your friends from joining too,
 but the most important thing is to keep your channel safe. On some
 servers/networks, you might be able to use ban exceptions, see our [Hybrid IRC
-Server Guide](/irchelp/ircd/hybrid6.html) or consult your local help channel.
+Server Guide](/ircd/hybrid6.html) or consult your local help channel.
 
 If you're the victim of a [denial of service attack](/irchelp/nuke/), then
 that technically has nothing to do with IRC - the packets used to flood you

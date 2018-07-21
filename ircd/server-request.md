@@ -16,7 +16,7 @@ minor updates by Joseph Lo aka Jolo
 Last modified: Aug 16 2008
 
 This is required reading for anybody who is interested in running an [IRC
-server](/irchelp/ircd/), being an IRC operator, or otherwise interested in
+server](/ircd/), being an IRC operator, or otherwise interested in
 learning more about how IRC servers work.
 
 ## What is an IRC Server?

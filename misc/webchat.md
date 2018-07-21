@@ -35,7 +35,7 @@ Now, for the people trying to provide the chat service, you can either run
 your own server, or just help users connect to your existing IRC channel on an
 established network/server. You're just going to have to take my word for this
 - the first option of running your own server is not worth it. If you're
-really curious, we refer you to our [server request FAQ](/irchelp/ircd/server-
+really curious, we refer you to our [server request FAQ](/ircd/server-
 request.html).
 
 **If you have an existing IRC channel on some IRC network or server, there are 2 ways to allow your web visitors to access that channel. You can either help your visitors set up an IRC client program, or you can set up a web gateway so they can just point-and-click their way to your channel.** We will cover each approach below.

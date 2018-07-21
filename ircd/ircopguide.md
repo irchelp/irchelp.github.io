@@ -16,7 +16,7 @@ world of IRC operators, also known as IRC ops or opers. This has very little
 to do with channel ops or the maintenance of a chat channel. The guide is
 written by an oper ostensibly for other opers, but its real audience is the
 average user. For other help files regarding IRC ops or running servers, see
-the [IRCd server directory](/irchelp/ircd/). -Jolo
+the [IRCd server directory](/ircd/). -Jolo
 
 * * *
 

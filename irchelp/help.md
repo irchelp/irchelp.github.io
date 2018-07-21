@@ -25,7 +25,7 @@ layout: default
   * [FAQ from alt.irc](/irchelp/faq.html)
   * [IFAQ](/irchelp/ifaq.html)
   * [IRC Command Cosmos](/irchelp/misc/ccosmos.html)
-  * [IRC Operator Guide](/irchelp/ircd/ircopguide.html)
+  * [IRC Operator Guide](/ircd/ircopguide.html)
   * [RFC (technical specs) for IRC](/irchelp/rfc/) and [DCC/CTCP](/irchelp/rfc/ctcpspec.html)
 
 * * *
@@ -35,21 +35,21 @@ layout: default
     **Server Setup**
 
   * [Network/Server Lists](/irchelp/networks/)
-  * [Server Request FAQ](/irchelp/ircd/server-request.html)
+  * [Server Request FAQ](/ircd/server-request.html)
   * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext)
-  * [Server Software](/irchelp/ircd/)
+  * [Server Software](/ircd/)
   * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
 
   * [Changes in Hybrid 6](hybrid6.html)
-  * [Server Numeric Headers](/irchelp/ircd/numerics.html)
-  * [Server Desyncs](/irchelp/ircd/desync.html)
-  * [Time Stamp](/irchelp/ircd/ircserv.html)
+  * [Server Numeric Headers](/ircd/numerics.html)
+  * [Server Desyncs](/ircd/desync.html)
+  * [Time Stamp](/ircd/ircserv.html)
   * [User Modes](/irchelp/misc/umodes.html)     **IRC operators (IRCops)**
 
-  * [Server Request FAQ](/irchelp/ircd/server-request.html)
-  * [Myth of Opers](/irchelp/ircd/opermyth.html)
-  * [IRC Operator Guide](/irchelp/ircd/ircopguide.html)
-  * [#us-opers FAQ](/irchelp/ircd/usfaq.html)
+  * [Server Request FAQ](/ircd/server-request.html)
+  * [Myth of Opers](/ircd/opermyth.html)
+  * [IRC Operator Guide](/ircd/ircopguide.html)
+  * [#us-opers FAQ](/ircd/usfaq.html)
 
 ### IRC Clients
 

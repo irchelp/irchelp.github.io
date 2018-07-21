@@ -40,7 +40,7 @@ questions about IRC:
 
 [The New IRC Channel Operator's Guide](/irchelp/changuide.html)
 
-     This **advanced channel operator's guide** is very long and detailed, providing most of the information you need to run a stable, successful channel. You really should read all the above guides first, especially the IRC Tutorial.  [IRC Operator Guide](/irchelp/ircd/ircopguide.html)
+     This **advanced channel operator's guide** is very long and detailed, providing most of the information you need to run a stable, successful channel. You really should read all the above guides first, especially the IRC Tutorial.  [IRC Operator Guide](/ircd/ircopguide.html)
 
      Another unorthodox guide, this offers a fascinating glimpse into the "Twilight Zone" world of **IRC operators**, also known as IRCops or opers. This has very little to do with channel ops or the maintenance of a chat channel. The guide is written by an oper ostensibly for other opers, but its real audience is the average user. 
 
@@ -54,24 +54,24 @@ questions about IRC:
   * [FAQ from alt.irc](/irchelp/faq.html)
   * [IFAQ](/irchelp/ifaq.html)
   * [IRC Command Cosmos](/irchelp/misc/ccosmos.html)
-  * [IRC Operator Guide](/irchelp/ircd/ircopguide.html)
+  * [IRC Operator Guide](/ircd/ircopguide.html)
 
 ## IRCd (server management)
 
 
   * [Network/Server Lists](/irchelp/networks/)
-  * [Server Request FAQ](/irchelp/ircd/server-request.html)
+  * [Server Request FAQ](/ircd/server-request.html)
   * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext) 
   * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
 
   * [Changes in Hybrid 6](hybrid6.html)
-  * [Server Numeric Headers](/irchelp/ircd/numerics.html)
-  * [Server Desyncs](/irchelp/ircd/desync.html)
-  * [Time Stamp](/irchelp/ircd/ircserv.html)
+  * [Server Numeric Headers](/ircd/numerics.html)
+  * [Server Desyncs](/ircd/desync.html)
+  * [Time Stamp](/ircd/ircserv.html)
   * [User Modes](/irchelp/misc/umodes.html) 
-  * [Myth of Opers](/irchelp/ircd/opermyth.html)
-  * [IRC Operator Guide](/irchelp/ircd/ircopguide.html)
-  * [#us-opers FAQ](/irchelp/ircd/usfaq.html)
+  * [Myth of Opers](/ircd/opermyth.html)
+  * [IRC Operator Guide](/ircd/ircopguide.html)
+  * [#us-opers FAQ](/ircd/usfaq.html)
 
 
 

@@ -296,7 +296,7 @@ concerned, if you didn't even know how to get the ircd and had to ask this
 question, you don't stand a cat in hell's chance of getting a link, even if
 you do have the required dedicated machine, multiple T1's and sizeable local
 userbase. Expertise and experience happen to be required as well. Read the [
-EFnet server requirements](http://www.irchelp.org/irchelp/ircd/server-
+EFnet server requirements](http://www.irchelp.org/ircd/server-
 request.html) for more information. 32. Q: I keep sending people this file.
 What is script.ini? What is dmsetup? What to they do?     A: Script.ini,
 dmsetup.exe, and a truckload of other seemingly innocent files are really

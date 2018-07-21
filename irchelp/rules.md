@@ -28,7 +28,7 @@ We are the helpers of #IRChelp on EFnet/freenode/IRCnet. (There are #IRChelp cha
 
 ## Give me ops!?!
 
-If you are interested in gaining ops on #IRChelp, you should know that we are _very_ selective. Ops are for channel maintenance only, and we currently have more than enough people to keep the channel running smoothly. For us to even consider you for ops, you need to be a very dedicated helper (several hours a day, several days a week, for at least several months). You also must have tremendous knowledge and a good personality. In fact, our last few recruits all provided several _years_ of service before being trusted with ops! Finally, although many [IRC operators](/irchelp/ircd/) frequent our channel, earning ops on #IRChelp is _not_ a shortcut to becoming an oper.
+If you are interested in gaining ops on #IRChelp, you should know that we are _very_ selective. Ops are for channel maintenance only, and we currently have more than enough people to keep the channel running smoothly. For us to even consider you for ops, you need to be a very dedicated helper (several hours a day, several days a week, for at least several months). You also must have tremendous knowledge and a good personality. In fact, our last few recruits all provided several _years_ of service before being trusted with ops! Finally, although many [IRC operators](/ircd/) frequent our channel, earning ops on #IRChelp is _not_ a shortcut to becoming an oper.
 
 If you are genuinely interested in helping other people to use and enjoy IRC, you would help with no expectations of reward other than a job well done. If that describes you, welcome aboard!
 

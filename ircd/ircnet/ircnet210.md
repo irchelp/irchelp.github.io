@@ -3,7 +3,7 @@ title: New IrcNet Channel Modes and Other Changes in 2.10
 author: Thoman Kuiper (engerim)
 layout: default
 redirect_from:
-  - /irchelp/ircd/ircnet210.html
+  - /ircd/ircnet210.html
 ---
 
 # New IRCNet Channel Modes and Other Changes

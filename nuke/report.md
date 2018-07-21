@@ -11,7 +11,7 @@ Are you one of those innocent people being nuked constantly, causing your
 computer to crash or disconnect? This is happening to increasing numbers of
 people on [Internet Relay Chat](/irchelp/) (IRC), especially to Windows users.
 You're probably asking, "What can I do to get back at these [expletive]?" or
-"What can [IRC ops](/irchelp/ircd/ircopguide.html) or #IRChelp helpers do to
+"What can [IRC ops](/ircd/ircopguide.html) or #IRChelp helpers do to
 stop this?" Well the short answer is: not much. Before you get all upset, let
 me explain. We're not trying to blow you off; we entirely empathize with your
 plight! That's why we devote a lot of time to maintain the [Denial of Service

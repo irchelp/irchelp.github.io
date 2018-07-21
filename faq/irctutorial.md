@@ -770,9 +770,9 @@ mistakenly known as "IRC cops". These people run each IRC server and try to
 maintain a fast, reliable IRC network. **They are not cops** and do not
 interfere in user or channel matters such as restoring ops, fighting
 takeovers, defeating bans, nickname disputes, etc. For more information on
-what IRCops do, see the [IRC Operator Guide](/irchelp/ircd/ircopguide.html)
+what IRCops do, see the [IRC Operator Guide](/ircd/ircopguide.html)
 which is like a training manual for IRCops, or Monkster's short [Oper
-Myths](/irchelp/ircd/opermyth.html) which definitively lists what IRCops
+Myths](/ircd/opermyth.html) which definitively lists what IRCops
 can/can't/will/won't do. If after reading those you still think you need to
 contact an IRCop to report IRC abuse, see our [IRC logging
 guide](http://www.irchelp.org) for directions.

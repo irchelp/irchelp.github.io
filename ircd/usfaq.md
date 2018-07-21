@@ -3,7 +3,7 @@ The Official #US-Opers EFNet Frequently Asked Questions - By Disciple
   
 The Official and most recent copy can be obtained from:
 
-[http://www.irchelp.org/irchelp/ircd/usfaq.html](http://www.irchelp.org/irchel
+[http://www.irchelp.org/ircd/usfaq.html](http://www.irchelp.org/irchel
 p/ircd/usfaq.html)
 
 All other copies may be old and/or obsolete.
@@ -241,8 +241,8 @@ A: The modes are (use /stats [letter]):
           y   Y-lines	
           z	  More server statistics
 
-For more information see [http://www.irchelp.org/irchelp/ircd/ircopguide.html]
-(http://www.irchelp.org/irchelp/ircd/ircopguide.html) section: VIII. Server
+For more information see [http://www.irchelp.org/ircd/ircopguide.html]
+(http://www.irchelp.org/ircd/ircopguide.html) section: VIII. Server
 Information Commands (TRACE, STATS, LINKS, and HTM) For more information on
 what some of these modes do see section: VII. IRCD and Associated Files on the
 same page.
@@ -317,7 +317,7 @@ A: In short, you don't. Becoming an IRC Operator requires not only a strong
 working knowledge of IRC and this IRC network, but also a working relationship
 with hub admins and other opers. Opers are selected when there is a need, and
 never given based on who is asking for it. See [http://www.irchelp.org/irchelp
-/ircd/ircopguide.html](http://www.irchelp.org/irchelp/ircd/ircopguide.html)
+/ircd/ircopguide.html](http://www.irchelp.org/ircd/ircopguide.html)
 section VI for more details.
 
 Question Index
@@ -434,7 +434,7 @@ Question 25:
 Q: What are the new features in Hybrid-6?
 
 A: A list of all the new features and changes in Hybrid-6 are available at [ht
-tp://www.irchelp.org/irchelp/ircd/hybrid6.html](http://www.irchelp.org/irchelp
+tp://www.irchelp.org/ircd/hybrid6.html](http://www.irchelp.org/irchelp
 /ircd/hybrid6.html).
 
 Question Index
@@ -482,8 +482,8 @@ Question 29:
 Q: What is timestamp and what does it do?
 
 A: Timestamp is a protocol which disallows netsplit ops and channel desynchs.
-For more technical info on timestamp, see [http://www.irchelp.org/irchelp/ircd
-/ircserv.html](http://www.irchelp.org/irchelp/ircd/ircserv.html).
+For more technical info on timestamp, see [http://www.irchelp.org/ircd
+/ircserv.html](http://www.irchelp.org/ircd/ircserv.html).
 
 Question Index
 
@@ -547,10 +547,10 @@ project.org/ircd/current/) - IRC3 Mailing list
 [http://www.the-project.org/operlist/current/threads.html](http://www.the-
 project.org/operlist/current/threads.html) - Operlist Mailing list
 
-[http://www.irchelp.org/irchelp/ircd/usfaq.html](http://www.irchelp.org/irchel
+[http://www.irchelp.org/ircd/usfaq.html](http://www.irchelp.org/irchel
 p/ircd/usfaq.html) - #US-Opers FAQ (This Document)
 
-[http://www.irchelp.org/irchelp/ircd/ircopguide.html](http://www.irchelp.org/i
+[http://www.irchelp.org/ircd/ircopguide.html](http://www.irchelp.org/i
 rchelp/ircd/ircopguide.html) - A basic but very informative guide for irc
 operators
 

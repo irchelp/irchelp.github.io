@@ -201,7 +201,7 @@ access].
    [45]: http://www.icahdq.org/publications/joc.html
    [46]: ../other/
    [47]: http://irchelp.org/
-   [48]: http://www.irchelp.org/irchelp/ircd/ircopguide.html
+   [48]: http://www.irchelp.org/ircd/ircopguide.html
    [49]: http://www.irchelp.org/irchelp/rfc/
    [50]: http://www.irchelp.org/irchelp/rfc/rfc.html
    [51]: http://www.the-project.org/history.html

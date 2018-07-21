@@ -12,7 +12,7 @@ by prysm with minor edits by Jolo
 
 updated Oct 13, 1998
 
-**Ed. note:** Are you being attacked by hordes of evil takeover bots, or otherwise feel like you need to contact an IRC operator for help? Before you run off in search of an IRC operator, first see the [Myth of Opers](/irchelp/ircd/opermyth.html) regarding what IRC ops can and cannot do for you, as well as the [IRC Hints](hints.html) regarding takeovers and attacks. If you still think you need an IRC op's help, this file provides some guidelines for logging IRC and reporting abuses. Logs are important because nobody is going to take your word for some alleged abuse. Written by prysm, an IRCop on [EFnet](http://www.efnet.org/), some of these guidelines apply only to EFnet, but most users should find it generally helpful. -Jolo
+**Ed. note:** Are you being attacked by hordes of evil takeover bots, or otherwise feel like you need to contact an IRC operator for help? Before you run off in search of an IRC operator, first see the [Myth of Opers](/ircd/opermyth.html) regarding what IRC ops can and cannot do for you, as well as the [IRC Hints](hints.html) regarding takeovers and attacks. If you still think you need an IRC op's help, this file provides some guidelines for logging IRC and reporting abuses. Logs are important because nobody is going to take your word for some alleged abuse. Written by prysm, an IRCop on [EFnet](http://www.efnet.org/), some of these guidelines apply only to EFnet, but most users should find it generally helpful. -Jolo
 
 ## 1. The Quick Version
 
@@ -28,7 +28,7 @@ the following anyway.
 
 ## 2. Why do you want to talk to an IRCop?
 
-**First, realize that the job of the IRC operators (IRCops or OPERs) is to run the servers.** _They are not "IRC cops"_ and they do not enforce laws or monitor people for bad behavior. They are not responsible for getting back nicks or channels, since neither are 'owned' or 'registered' on EFnet IRC. On EFnet, IRCops do not have the omnipotent ability to see into secret channels or change channel modes. (For more information on what IRC ops can and cannot do, check out our many guides pertaining to the [IRC operators and servers](/irchelp/ircd/).)
+**First, realize that the job of the IRC operators (IRCops or OPERs) is to run the servers.** _They are not "IRC cops"_ and they do not enforce laws or monitor people for bad behavior. They are not responsible for getting back nicks or channels, since neither are 'owned' or 'registered' on EFnet IRC. On EFnet, IRCops do not have the omnipotent ability to see into secret channels or change channel modes. (For more information on what IRC ops can and cannot do, check out our many guides pertaining to the [IRC operators and servers](/ircd/).)
 
 **Opers _can_ sometimes help you** if somebody is viciously attacking you or your channel, running bots or clones, or otherwise violating the rules of that server. These rules are spelled out in the message of the day for every server, type **/MOTD server.name.here** to read them.
 

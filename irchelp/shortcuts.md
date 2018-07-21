@@ -27,13 +27,13 @@ same as above
 
 chanfix
 
-[http://www.irchelp.org/irchelp/ircd/chanfix.html](../ircd/chanfix.html)
+[http://www.irchelp.org/ircd/chanfix.html](../ircd/chanfix.html)
 
 CHANFIX FAQ
 
 chanfix-no
 
-[http://www.irchelp.org/irchelp/ircd/chanfix-no.html](../ircd/chanfix-no.html)
+[http://www.irchelp.org/ircd/chanfix-no.html](../ircd/chanfix-no.html)
 
 CHANFIX FAQ - Norsk translation.
 
@@ -83,7 +83,7 @@ Firewall FAQ (dcc/identd problems)
 
 ircd
 
-[http://www.irchelp.org/irchelp/ircd/](../ircd/)
+[http://www.irchelp.org/ircd/](../ircd/)
 
 IRCd directory
 
@@ -179,7 +179,7 @@ Trojan horse attacks (security)
 
 ts0
 
-[http://www.irchelp.org/irchelp/ircd/ts0.html](../ircd/ts0.html)
+[http://www.irchelp.org/ircd/ts0.html](../ircd/ts0.html)
 
 Timestamp Zero FAQ
 

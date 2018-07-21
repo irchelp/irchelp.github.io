@@ -1,7 +1,7 @@
 Ed. note: Hybrid 7 is the latest version of IRC server software likely to be
 adopted by most of [EFnet](../networks/nets/big4.html) and many other
 networks. This guide is part of our [ircd help
-section](http://www.irchelp.org/irchelp/ircd/), and is intended for the
+section](http://www.irchelp.org/ircd/), and is intended for the
 relative novice. Before you attempt to set up your own ircd, you should be
 reasonably expert at both the IRC protocol and UNIX. For example, have you set
 up IRC clients on UNIX before (not one of those auto-install deals, but rather

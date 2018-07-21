@@ -113,8 +113,8 @@ where you are more welcome.
 
 
 
- [IRC servers](/irchelp/ircd/) are run by IRC admins and by [IRC
-operators](/irchelp/ircd/ircopguide.html), or "IRC ops". IRC ops manage the
+ [IRC servers](/ircd/) are run by IRC admins and by [IRC
+operators](/ircd/ircopguide.html), or "IRC ops". IRC ops manage the
 servers themselves and, on EFnet and many other networks, do not get involved
 in personal disputes, channel takeovers, restoring lost ops, etc. They are
 _not_ "IRC cops."

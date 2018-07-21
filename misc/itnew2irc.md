@@ -128,8 +128,8 @@ cercare un altro posto ove tu sia benvenuto.
 
 >
 
-> [Gli IRC servers](/irchelp/ircd/) sono gestiti da amministratori IRC (IRC
-admins) e da [IRC operators](/irchelp/ircd/ircopguide.html), o "IRC ops". Gli
+> [Gli IRC servers](/ircd/) sono gestiti da amministratori IRC (IRC
+admins) e da [IRC operators](/ircd/ircopguide.html), o "IRC ops". Gli
 IRC ops gestiscono i propri server e, su EFnet ed altri networks, non sono
 coinvolti in dispute personali, takeover dei canali, fornire privilegi
 operatore perduti, etc. _Non _sono "IRC cops." (poliziotti IRC)

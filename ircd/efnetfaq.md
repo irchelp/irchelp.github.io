@@ -10,7 +10,7 @@ The EFNet Frequently Asked Questions - By Disciple
 
 The Official and most recent copy can be obtained from:
 
-[http://www.irchelp.org/irchelp/ircd/efnetfaq.html](http://www.irchelp.org/irc
+[http://www.irchelp.org/ircd/efnetfaq.html](http://www.irchelp.org/irc
 help/ircd/efnetfaq.html)
 
 All other copies may be old and/or obsolete.
@@ -183,7 +183,7 @@ op. Who CHANFIX op's is dependent upon who has been op'd previously.
 For more information on services.int and CHANFIX, please see the following:
 
 [CHANFIX guide at
-http://www.irchelp.org/irchelp/ircd/chanfix.html](chanfix.html)
+http://www.irchelp.org/ircd/chanfix.html](chanfix.html)
 
 [ http://www.demolished.org/qurve/efnet/jupes-
 faq.txt](http://www.demolished.org/qurve/efnet/jupes-faq.txt)
@@ -277,8 +277,8 @@ A: The modes are (use /stats [letter]):
           y   Y-lines
           z	  More server statistics
 
-For more information see [http://www.irchelp.org/irchelp/ircd/ircopguide.html]
-(http://www.irchelp.org/irchelp/ircd/ircopguide.html) section: VIII. Server
+For more information see [http://www.irchelp.org/ircd/ircopguide.html]
+(http://www.irchelp.org/ircd/ircopguide.html) section: VIII. Server
 Information Commands (TRACE, STATS, LINKS, and HTM), or the documentation
 included in ircd-hybrid. For more information on what some of these modes do
 see section: VII. IRCD and Associated Files on the same page.
@@ -376,7 +376,7 @@ A: In short, you don't. Becoming an IRC Operator requires not only a strong
 working knowledge of IRC and this IRC network, but also a working relationship
 with server admins and other opers. Opers are selected when there is a need,
 and never given based on who is asking for it. See [http://www.irchelp.org/irc
-help/ircd/ircopguide.html](http://www.irchelp.org/irchelp/ircd/ircopguide.html
+help/ircd/ircopguide.html](http://www.irchelp.org/ircd/ircopguide.html
 ) section VI for more details.
 
 Question Index
@@ -493,7 +493,7 @@ Question 25:
 Q: What are the new features in Hybrid-6?
 
 A: A list of all the new features and changes in Hybrid-6 are available at [ht
-tp://www.irchelp.org/irchelp/ircd/hybrid6.html](http://www.irchelp.org/irchelp
+tp://www.irchelp.org/ircd/hybrid6.html](http://www.irchelp.org/irchelp
 /ircd/hybrid6.html), or in the ircd-hybrid documentation.
 
 Question Index
@@ -603,10 +603,10 @@ project.org/routing/current/) - US Routing archive
 [http://www.the-project.org/ircd/current/](http://www.the-
 project.org/ircd/current/) - IRC3 Mailing list
 
-[http://www.irchelp.org/irchelp/ircd/efnetfaq.html](http://www.irchelp.org/irc
+[http://www.irchelp.org/ircd/efnetfaq.html](http://www.irchelp.org/irc
 help/ircd/efnetfaq.html) - EFnet FAQ (This Document)
 
-[http://www.irchelp.org/irchelp/ircd/ircopguide.html](http://www.irchelp.org/i
+[http://www.irchelp.org/ircd/ircopguide.html](http://www.irchelp.org/i
 rchelp/ircd/ircopguide.html) - A basic but very informative guide for irc
 operators
 

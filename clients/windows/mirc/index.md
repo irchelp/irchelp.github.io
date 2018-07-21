@@ -125,7 +125,7 @@ include:
 trouble with /onotice on some servers? Maybe it does not get through to all
 ops, or you get error messages like "multiple recipients, message not sent"?
 This has become a problem among the majority of EFnet servers running
-[hybrid-6 ircd](/irchelp/ircd/hybrid6.html) as well as some other networks
+[hybrid-6 ircd](/ircd/hybrid6.html) as well as some other networks
 such as DALnet. Fix it with this replacement [Onotice.mrc](Onotice.mrc)
 script, which should allow you to use the replacement alias /wall6 on all
 major IRC server versions.
