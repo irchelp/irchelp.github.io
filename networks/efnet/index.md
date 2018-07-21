@@ -24,7 +24,7 @@ Channels fare a little better than nicknames, but not much, with a service calle
 
 ## Server List
 
-We maintain a [server list](networks/efnet//servers.html) for EFNet. Another, semi-official server list is available from efnet.org <http://www.efnet.org/?module=servers]>.
+We maintain a [server list](networks/efnet//servers.html) for EFNet. Another, semi-official server list is available from efnet.org <http://www.efnet.org/?module=servers>.
 
 ## Governance
 
