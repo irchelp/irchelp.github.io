@@ -3,6 +3,7 @@ title: The IRC Prelude
 author: David Caraballo (DC-itsme) and Joseph Lo (Jolo)
 layout: default
 license: irchelp
+redirect_from: /irchelp/new2irc.html
 ---
 # The IRC Prelude
 
