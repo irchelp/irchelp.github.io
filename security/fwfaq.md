@@ -64,41 +64,55 @@ information presented here (see our official
   16. How does NAT interfere with identd?
   17. What about the so-called personal firewalls? Are they any good?
   18. Where can I get specific information about fixing firewall-related problems?
+  
+## FAQ
 
 1. **Q: What is IRC?**
+
    **A:** Internet Relay Chat. If you are asking this question, you are reading the wrong FAQ. Go see our [general help files](../faq.html).
 
 2. **Q: What is a firewall?** (including software firewalls e.g. ZoneAlarm, Windows XP ICF)
+
    **A:** Traditionally, a firewall has been a dedicated piece of hardware meant to allow two networks to communicated in a limited way. A typical setup is to allow users behind the firewall to access web pages and email without allowing users on the outside to access any computers on the internal network. In recent years, software firewalls have come into use, and they pose a cost effective solution for many users, such as those with home or small office broadband networks. Note that Windows XP (prior to SP2) comes with a software firewall built in called Internet Connection Firewall, which is often the source of connection problems. Windows XP systems running Service Pack 2 have a much more functional "Windows Firewall" which replaces the problematic "Internet Connection Firewall". (See help links in Firewall Products section below.)
 
 3. **Q: What is a proxy?**
+
    **A:** A proxy is an application level gateway, typically placed between two networks. Proxies have various uses, including use in a firewall to further isolate two networks. Proxy software is often marketed as a way to share a single internet connection between computers.
 
 4. **Q: What is Network Address Translation (NAT)? (including cable/DSL modem and router)**
+
    **A:** Quite simply, network address translation is a way to rewrite the addresses of packets as they travel through a system. Typical uses include allowing several computers to share a single internet connection. NAT can also reinforce the security provided by a firewall, and in some cases provide equivalent levels of security. Typical devices that perform NAT functions for the average computer user may be routers, cable/DSL modems or hardware firewalls that allow multiple computers to connect to it, or computers dedicated to the task of "masquerading" or "internet connection sharing" (ICS). If you are a cable/DSL modem/router user and you're having problems, first look through questions 1-17 to understand the terminology, then see #18 at the bottom to find specific help for many router setups.
 
 5. **Q: What is DCC?**
+
    **A:** DCC stands for DIRECT CLIENT TO CLIENT (see [technical specification](../rfc/dccspec.html)). DCC is a crude hack used to allow two IRC clients to communicate directly without involving the IRC server. Typical uses include accessing IRC robots (or 'bots) for short, extended private conversations between two users, and [file transfers](../security/warez.html).
 
 6. **Q: What is identd?**
+
    **A:** identd is a server for the "Identification Protocol" defined by [RFC 1413](http://www.cis.ohio-state.edu/cgi-bin/rfc/rfc1413.html) [ext. link]. Essentially, it provides for the accountability of individual users beyond the local system. It was originally created at a time when most systems on the internet were large, multi-user systems. It is still used today, mostly by IRC, SMTP, and FTP servers.
 
 7. **Q: Why do IRC servers require identd?**
+
    **A:** Even though identd is intended for multiuser systems, IRC servers typically require it to be installed, even for single user systems. One reason for this is that it increases the technical difficulty of "spoofing" attacks (see next question). Another is that operators of unsecured proxies typically don't provide for identd. By requiring identd, the servers reject potentially abusive connections from those proxies.
 
 8. **Q: "Spoofing"? What's that?**
+
    **A:** "Spoofing" means using various means to forge the addresses on network traffic so that it looks like the traffic came from another machine. Traditional internet protocols provide little protection against this, and anyone with sufficient technical knowledge can often pull off an attack of this type. In this way, someone could masquerade as another user, possibly gaining ops in one of that users channels, or damaging that users reputation in the process. And that's just the tip of the iceberg, any security relying on addresses alone can be completely compromised with relative ease in this manner, and security partially reliant on the "security" of addresses is significantly weakened.
 
 9. **Q: Will a firewall protect my system?**
+
    **A:** It will help. There is no such thing as a magic bullet that will provide 100% protection for every possible threat 100% of the time. That said, a firewall can be a very effective part of a good security policy.
 
 10. **Q: Security Policy?**
+
     **A:** A security policy is a set of rules for keeping systems secure. Any system connected to the internet, directly or indirectly, should have a security policy. For a typical home system, this doesn't have to be very complicated, and it doesn't have to exist as a formal document, just a set of rules that set out what you are trying to accomplish, and what anybody using your computers is expected to do to protect them. For more information, see [RFC 2196](http://www.cis.ohio-state.edu/cgi-bin/rfc/rfc2196.html) and also the CERT guide to [home network security](http://www.cert.org/tech_tips/home_networks.html) [both ext. links].
 
 11. **Q: What are public (routable) addresses?**
+
     **A:** Public addresses are addresses which are routable over the internet, and which can be made directly accessible to hosts on the internet. Public addresses are always formally assigned by one of the regional address registries, such as ARIN, RIPE, or APNIC, and may be sub-delegated (reassigned) in part by the providers which they are issued to. As the cost of IP registration and assignment via the regional registries is prohibitive for smaller networks, small networks and smaller ISPs almost always receive their IP address assignments as a sub-delegation from their upstream providers.
 
 12. **Q: What are private (non-routable) addresses?**
+
     **A:** Private addresses are addresses which are not intended to be routable over the internet. They are typically used for home networks, and in other applications where direct accessibility is not required. In the past, it was common practice to choose any random range of addresses for this purpose. This practice is depreciated, and there are presently several blocks of network addresses permanently reserved for private use. This prevents the problems that may occur when a network not originally intended to be connected to the internet is later connected to the internet.
 
     [From [RFC 1918](https://tools.ietf.org/html/rfc1918), ext. link]
@@ -119,6 +133,7 @@ information presented here (see our official
     global internet.
 
 13. **Q: How does a firewall interfere with DCC?**
+
     **A:** DCC uses randomly selected ports, typically in the range 1024-65535 (mIRC uses 1024-5000 by default, this can be constrained in DCC options). As it is common security policy to block all "unused" ports, a firewall is often configured to block all traffic outside of common ports, or to block all inbound traffic not intended for authorized services, such as web servers. In the DCC protocol the receiver initiates the connection to the sender, so a common problem is that a firewalled user can receive but not send. In this case the firewall is not restricting the outbound connection, therefore the receiver can connect to the sender to retrieve the file, but when the roles are reversed, with the firewalled user sending, the receiver cannot connect through the firewall to retrieve the file.
 
     Solutions for users who cannot send or receive because of a firewall:
@@ -132,6 +147,7 @@ information presented here (see our official
     * Configure the firewall to permit incoming connections to a range of ports, and configure clients to use those ports for DCC send, unless the ability to transmit files outside of your network is against your security policy.
 
 14. **Q: How does NAT interfere with DCC?**
+
     **A:** NAT implementations are typically not aware of ports being opened on client systems behind the NAT gateway, and generally have no idea that they need to forward the incoming connections needed for DCC SEND to work. Generally, most NAT implementations will allow receiving files, but won't allow sending them. There are a few ways to work around this:
 
     * Use the DMZ feature in many cable & DSL routers. This feature causes all untracked connections to be redirected to a single internal machine. Be aware that the machine is then effectively exposed to the internet, as if it were directly connected without the router. This method will weaken the security of the machine exposed in this manner, and will only get DCC working properly for that one machine.
@@ -141,9 +157,11 @@ information presented here (see our official
     * Implement special client software which interacts with the firewall to request port forwardings for DCC transfers transparently to the user. This would be difficult, but would work.
 
 15. **Q: How does a firewall interfere with identd?**
+
     **A:** Firewalls are often configured to block unused ports, particularly those in the 1-1024 range of "privileged" ports, which under many operating systems, require administrative privileges to run services under. Firewalls also providing NAT further interfere with identd, see next question for more details.
 
 16. **Q: How does NAT interfere with identd?**
+
     **A:** NAT is typically used in a one-to-many configuration, that is, one routable IP address is shared between several systems. Identd is designed to identify the "owner" of a connection on a single, multiuser system. Typical Identd implementations do not account for NAT, and therefore will respond "unknown" for systems behind a NAT gateway. Further complicating the situation is the fact that the gateway may translate ports as well, and that to properly implement Identd on a network running NAT, an implementation must do the following:
 
     * Identify the machine for which the Identd request is intended for behind the NAT gateway, and direct that request to that machine. Once forwarded to the machine responsible for the network, identify the user responsible for that connection, accounting for differences caused by port translation. OR
@@ -155,6 +173,7 @@ information presented here (see our official
     turn off the default identd setting of "enable only when connecting".
 
 17. **Q: What about the so-called personal firewalls? Are they any good?**
+
     **A:** While they can provide some limited protection, software or personal firewalls have many weaknesses. No matter what the manufacturer of any personal firewall would like you to believe, there is no software product which will protect you against all types of attacks, nor from an "internal" compromise, that is, if you (or somebody else with access to your PC) run software on your machine which takes control of that machine and subverts the firewall. **While we STRONGLY recommend that a hardware firewall be used, in most circumstances, you are better off with a software firewall than with no firewall, due to the difficulties in closing off the many insecure services bundled with Windows. **We will list the pros and cons of using personal firewalls below.
 
     **Personal firewall PROs**
@@ -181,6 +200,7 @@ information presented here (see our official
     Almost all reasonably adequate personal firewalls are commercial software costing anywhere from $30 to much more, often with additional annual "update" license fees. Note that Windows XP comes with its built in [Internet Connection Firewall](http://www.microsoft.com/windowsxp/pro/using/howto/networ king/icf.asp).
 
 18. **Q: Where can I get specific information about fixing firewall-related problems?**
+
     **A:** The above should arm you with the proper general knowledge for fixing your problem, provided you consult with the documentation that came with your firewall, router, etc. In case that's still not enough, the following links may be useful [almost all external links]:
 
     Some general resources:
@@ -204,7 +224,7 @@ information presented here (see our official
     * [Norton Personal Firewall](http://www.symantec.com/sabu/nis/npf/) (formerly AtGuard)
     * [McAfee Personal Firewall](http://www.mcafee.com/myapps/firewall/ov_firewall.asp?) (formerly Conseal)
 
-  For mIRC or Windows:
+    For mIRC or Windows:
 
     * [Proxies and Firewalls](http://www.mirc.co.uk/help/proxies.html), by the makers of mIRC, provides Windows help with proxies.
     * [DCC Help](http://www.mirc.org/dcc.shtml) - a list of URLs from DALnet #mIRC helpers, includes many of the ones listed below and then some, such as specific fixes for certain router brands or software firewalls.
