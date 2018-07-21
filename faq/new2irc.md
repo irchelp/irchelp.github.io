@@ -11,7 +11,7 @@ By David Caraballo (DC-itsme) and Joseph Lo (Jolo)
 
 
 
-The original version of this page is at <[http://www.irchelp.org/irchelp/new2irc.html](http://www.irchelp.org/irchelp/new2irc.html)>
+The original version of this page is at <[http://www.irchelp.org/faqs/new2irc.html](http://www.irchelp.org/faqs/new2irc.html)>
 
 Translations: [Español](/irchelp/misc/esnew2irc.html) |
 [Français](/irchelp/misc/frnew2irc.html) |
