@@ -14,9 +14,9 @@ description: > # this means to ignore newlines until "baseurl:"
   jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.irchelp.org" # the base hostname & protocol for your site
-twitter_username:
+#twitter_username:
 github_username:  irchelp
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 # Build settings
