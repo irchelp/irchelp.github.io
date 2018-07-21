@@ -3,6 +3,8 @@ title: An IRC Tutorial
 layout: default
 author: Ronald van Loon (rvl)
 license: irchelp
+redirect_from:
+  - /irchelp/irctutorial.html
 ---
 
 # An IRC Tutorial
