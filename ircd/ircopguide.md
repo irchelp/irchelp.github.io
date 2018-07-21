@@ -9,7 +9,7 @@ license: usedbypermission
 
 by Aaron Brinton aka aaronb v1 8/97
 
-HTML translation by Joseph Lo aka [Jolo](/~jyl/mail.cgi) 9/97
+HTML translation by Joseph Lo aka Jolo 9/97
 
 > Ed. note: This guide offers a fascinating glimpse into the "Twilight Zone"
 world of IRC operators, also known as IRC ops or opers. This has very little
