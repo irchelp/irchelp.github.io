@@ -43,7 +43,7 @@ A sample header follows:
 		Each line is indented in the same way. When the indentation stops, so does the summary.
 	---
 
-Note the --- at the beginning and end of the header. This seperates the header from the content, and is required for PieCrust to recognize this as a header. The header is **not** Markdown formatted, so most other Markdown parsers will not format it.
+Note the --- at the beginning and end of the header. This seperates the header from the content, and is required for Jekyll to recognize this as a header. The header is **not** Markdown formatted, so most other Markdown parsers will not format it.
 
 Everything but the title: and layout: values are technically optional, but documents must have the YAML Front Matter prepended to them for Jekyll to recognize them as files it should process.
 

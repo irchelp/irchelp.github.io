@@ -1,18 +1,17 @@
 title: IRCHelp.org
 
 email: support@irchelp.org
-
-description: Information related to IRC
-
-baseurl:
-
-url: http://www.irchelp.org
-
+description: > # this means to ignore newlines until "baseurl:"
+  irchelp.org is a website about the workings of IRC for both newbies and
+  experts alike. It exists since 1996, but has recently been converted to
+  jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.irchelp.org" # the base hostname & protocol for your site
+#twitter_username:
 github_username:  irchelp
-
-gems:
-  - jekyll-github-metadata
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 markdown: kramdown
