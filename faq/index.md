@@ -2,6 +2,9 @@
 title: All Frequently Asked Questions
 author: IRCHelp.org
 layout: default
+redirect_from:
+  - /faq/allfaqs.html
+  - /irchelp/allfaqs.html
 ---
 
 # IRC Frequently Asked Questions (FAQ) and Help Files
