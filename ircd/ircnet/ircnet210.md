@@ -4,6 +4,8 @@ author: Thoman Kuiper (engerim)
 layout: default
 redirect_from:
   - /ircd/ircnet210.html
+  - /irchelp/ircd/ircnet210.html
+  - /irchelp/ircd/ircnet/ircnet210.html
 ---
 
 # New IRCNet Channel Modes and Other Changes

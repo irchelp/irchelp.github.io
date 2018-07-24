@@ -3,6 +3,8 @@ title: EFNet Frequently Asked Questions
 author: disciple
 layout: default
 license: usedbypermission
+redirect_from:
+  - /irchelp/ircd/efnetfaq.md
 ---
 
 The EFNet Frequently Asked Questions - By Disciple
@@ -10,8 +12,7 @@ The EFNet Frequently Asked Questions - By Disciple
 
 The Official and most recent copy can be obtained from:
 
-[http://www.irchelp.org/ircd/efnetfaq.html](http://www.irchelp.org/irc
-help/ircd/efnetfaq.html)
+[http://www.irchelp.org/ircd/efnetfaq.html](http://www.irchelp.org/irchelp/ircd/efnetfaq.html)
 
 All other copies may be old and/or obsolete.
 
@@ -23,9 +24,9 @@ Last Updated: May 30, 2002
 
 
 Many of the answers to these questions were obtained from
-[http://www.irchelp.org/](http://www.irchelp.org) and [http://www.the-
-project.org/efnet/opermyth.html](http://www.the-
-project.org/efnet/opermyth.html). Most of these questions are answered
+[http://www.irchelp.org/](http://www.irchelp.org) and
+[http://www.the-project.org/efnet/opermyth.html](http://www.the-project.org/efnet/opermyth.html).
+Most of these questions are answered
 elsewhere, but not all in one place, hence this text. These are the questions
 that I've seen asked multiple times, and instead of sending people to a bunch
 of different places, I decided to compile them into one text. This text will

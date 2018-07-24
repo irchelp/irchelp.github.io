@@ -3,6 +3,8 @@ title: IRC Operator Guide
 author: Aaron Brinton
 layout: default
 license: usedbypermission
+redirect_from:
+  - /irchelp/ircd/ircopguide.md
 ---
 
 # IRC Operators Guide
