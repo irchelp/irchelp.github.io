@@ -2,6 +2,8 @@
 title: IRCD Help (EFNet #ircd)
 author: Networked
 layout: default
+redirect_from:
+  - /irchelp/ircd/alleged.md
 ---
 
 ##  IRCD Help (EFNet #ircd)

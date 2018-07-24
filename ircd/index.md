@@ -2,6 +2,8 @@
 title: ircd information
 author: irchelp.org staff
 layout: default
+redirect_from:
+  - /irchelp/ircd/index.md
 ---
 
 

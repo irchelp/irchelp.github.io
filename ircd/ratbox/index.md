@@ -3,6 +3,8 @@ title: ircd-ratbox
 author: irchelp.org staff
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/ircd/ratbox/index.md
 ---
 # ratbox ircd
 

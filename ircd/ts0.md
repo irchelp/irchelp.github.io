@@ -2,6 +2,8 @@
 title: The Channel Timestamp (TS) Zero Problem
 author: Joseph Lo
 layout: default
+redirect_from:
+  - /irchelp/ircd/ts0.md
 ---
 
 # The Channel Timestamp (TS) Zero Problem
