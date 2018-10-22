@@ -15,3 +15,37 @@ redirect_from:
 
 ## License
  * GPLv3
+
+## Getting started
+
+First start the application:
+
+```
+$ weechat
+```
+
+Add a server:
+
+```
+/server add freenode chat.freenode.net
+```
+
+Connect to it using the alias given above (`freenode` in this case):
+
+```
+/connect freenode
+```
+
+Join a channel:
+
+```
+/join #ffmpeg
+```
+
+Send a message:
+
+```
+Hi!
+```
+
+You can scroll the historic with *PageUp/PageDown*.
