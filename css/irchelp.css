@@ -1,0 +1,12 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.mbtablestyle {
+    width: 40ex;
+    border-collapse: collapse;
+
+    table, td, th {
+        border: 1px solid black;
+    }
+}

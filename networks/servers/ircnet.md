@@ -16,17 +16,6 @@ There are many outdated documents on IRCnet nodes all around the internet. The
 table below was last updated on 2018-10-31 and will probably be relatively
 up-to-date compared to other resources.
 
-<style>
-.mbtablestyle {
-    width: 40ex;
-    border-collapse: collapse;
-
-    table, td, th {
-        border: 1px solid black;
-    }
-}
-</style>
-
 | Country        | Address                             | IPv6-only address, if any |
 | -------------  | -------                             | ------------------------- |
 | International  | open.ircnet.net                     |                           |
