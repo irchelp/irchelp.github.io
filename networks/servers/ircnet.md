@@ -30,6 +30,8 @@ up-to-date compared to other resources.
 | United States  | irc.us.ircnet.net                   |                           |
 {:.mbtablestyle}
 
+<b>If in doubt, use the International server.</b>
+
 The "<b>International</b>" wildcard DNS record contains all IRCnet
 servers which are accessible independent of the country your IP address is
 registered in. This means that you should be able to connect to IRCnet by at
