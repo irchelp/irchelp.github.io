@@ -28,6 +28,7 @@ up-to-date compared to other resources.
 | Israel         | irc.il.ircnet.net                   |                           |
 | Poland         | irc.pl.ircnet.net or polska.irc.pl  | polska6.irc.pl            |
 | United States  | irc.us.ircnet.net                   |                           |
+{:.mbtablestyle}
 
 The "<b>International</b>" wildcard DNS record contains all IRCnet
 servers which are accessible independent of the country your IP address is
