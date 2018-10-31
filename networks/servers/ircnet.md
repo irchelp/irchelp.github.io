@@ -13,7 +13,7 @@ If you are not sure which servers you can connect to at all, use `!servers` in
 `#ircnet`.
 
 There are many outdated documents on IRCnet nodes all around the internet. The
-table below was last updated on 2015-01-19 and will probably be relatively
+table below was last updated on 2018-10-31 and will probably be relatively
 up-to-date compared to other resources.
 
 | Country        | Address                             | IPv6-only address, if any |
