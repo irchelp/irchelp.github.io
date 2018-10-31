@@ -7,7 +7,7 @@ redirect_from:
   - /irchelp/clients/unix/weechat.html
 ---
 
-[WeeChat](www.weechat.org) is a terminal based IRC client.
+[WeeChat](http://www.weechat.org) is a terminal based IRC client.
 
 ## Features
  * Binary plugin interface for modules written in C
@@ -48,4 +48,4 @@ Send a message:
 Hi!
 ```
 
-You can scroll the historic with *PageUp/PageDown*.
+You can scroll the history with *PageUp/PageDown* (on OS X, this might be *Fn+Shift+Up/Down* or similar).
