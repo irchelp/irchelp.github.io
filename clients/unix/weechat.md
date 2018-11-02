@@ -7,7 +7,7 @@ redirect_from:
   - /irchelp/clients/unix/weechat.html
 ---
 
-[WeeChat](www.weechat.org) is a terminal based IRC client.
+[WeeChat](http://www.weechat.org) is a terminal based IRC client.
 
 ## Features
  * Binary plugin interface for modules written in C
@@ -15,3 +15,37 @@ redirect_from:
 
 ## License
  * GPLv3
+
+## Getting started
+
+First start the application:
+
+```
+$ weechat
+```
+
+Add a server:
+
+```
+/server add freenode chat.freenode.net
+```
+
+Connect to it using the alias given above (`freenode` in this case):
+
+```
+/connect freenode
+```
+
+Join a channel:
+
+```
+/join #ffmpeg
+```
+
+Send a message:
+
+```
+Hi!
+```
+
+You can scroll the history with *PageUp/PageDown* (on OS X, this might be *Fn+Shift+Up/Down* or similar).

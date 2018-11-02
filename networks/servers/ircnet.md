@@ -1,6 +1,6 @@
 ---
 title: IRCnet Server List
-dateupdated: 2015-01-09
+dateupdated: 2018-10-31
 summary: List of IRCnet servers and accessing IRCnet in general
 ---
 
@@ -13,64 +13,24 @@ If you are not sure which servers you can connect to at all, use `!servers` in
 `#ircnet`.
 
 There are many outdated documents on IRCnet nodes all around the internet. The
-table below was last updated on 2015-01-19 and will probably be relatively
+table below was last updated on 2018-10-31 and will probably be relatively
 up-to-date compared to other resources.
 
-<table width="80%" border="1">
- <thead>
- <tr>
-  <th>Country</th>
-  <th>Address</th>
-  <th>IPv6-only Address, if any</th>
- </tr>
- </thead>
- <tbody>
- <tr>
-  <td><b>International</b></td>
-  <td><b>open.ircnet.net</b></td>
-  <td></td>
- </tr>
- <tr>
-  <td>Czech Republic</td>
-  <td>irc.cz.ircnet.net</td>
-  <td>irc6.cz.ircnet.net</td>
- <tr>
-  <td>Estonia</td>
-  <td>irc.ircnet.ee</td>
-  <td>irc6.ircnet.ee</td>
- </tr>
- <tr>
-  <td>Finland</td>
-  <td>irc.fi.ircnet.net</td>
-  <td></td>
- </tr>
- <tr>
-  <td>France</td>
-  <td>irc.fr.ircnet.net</td>
-  <td></td>
- </tr>
- <tr>
-  <td>Germany</td>
-  <td>irc.de.ircnet.net or random.ircd.de</td>
-  <td>irc6.de.ircnet.net</td>
- </tr>
- <tr>
-  <td>Hungary</td>
-  <td>irc.hu</td>
-  <td>irc6.hu</td>
- </tr>
- <tr>
-  <td>Israel</td>
-  <td>irc.il.ircnet.net</td>
-  <td></td>
- </tr>
- <tr>
-  <td>Poland</td>
-  <td>irc.pl.ircnet.net or polska.irc.pl</td>
-  <td>polska6.irc.pl</td>
- </tr>
- </tbody>
-</table>
+| Country        | Address                             | IPv6-only address, if any |
+| -------------  | -------                             | ------------------------- |
+| International  | open.ircnet.net                     |                           |
+| Czech Republic | irc.cz.ircnet.net                   | irc6.cz.ircnet.net        |
+| Estonia        | irc.ircnet.ee                       |                           |
+| Finland        | irc.fi.ircnet.net                   |                           |
+| France         | irc.fr.ircnet.net                   |                           |
+| Germany        | irc.de.ircnet.net or random.ircd.de | irc6.de.ircnet.net        |
+| Hungary        | irc.hu                              | irc6.hu                   |
+| Israel         | irc.il.ircnet.net                   |                           |
+| Poland         | irc.pl.ircnet.net or polska.irc.pl  | polska6.irc.pl            |
+| United States  | irc.us.ircnet.net                   |                           |
+{:.mbtablestyle}
+
+<b>If in doubt, use the International server.</b>
 
 The "<b>International</b>" wildcard DNS record contains all IRCnet
 servers which are accessible independent of the country your IP address is
@@ -88,7 +48,7 @@ automatically.
 
 ## Webchat
 
-The following semi-official web-gateways are available for IRCnet:
+The following web-gateways are available for IRCnet:
 
 * [public qwebirc](http://webchat.ircnet.net)
 * [CGI:IRC on tu-ilmenau.de](http://irc.tu-ilmenau.de/web-irc/) (open to German users only)
@@ -97,7 +57,6 @@ These web frontends are suitable for finding a server you have access to using t
 
 ## Important Tips for Connecting to IRCnet servers
 
-* It's very important to use other ports than the default 6667 whenever possible, since that port tends to be very busy. Try something else in the 6660-6669 range instead.
 * Many IRCnet servers allow none or few connections from users outside their domain, so try a server in your own country or at least close to you.
 * Even after you connect, the traditional `/links` command to get a server list will only show about 1/3 of the servers, since many servers are "masked" and not shown. So for example, although there are about 16 servers in Finland (.fi), unless you're already on a .fi server, `/links` or `/links *.fi` will show only the first one. You would need to do something like `/links *.fi *.fi` to see them all.
 
@@ -119,4 +78,4 @@ This list is run by the admins of an IRCnet server, and is automatically refresh
 * irc6.net I-line request website: [www.irc6.net](http://www.irc6.net) (IPv6 only)
 * The "official" IRCnet website (not updated since 2004) [ircnet.org](http://www.ircnet.org/)
 * ircd software website: [www.irc.org](http://www.irc.org/)
-* [unofficial twitter account by an operator](https://twitter.com/irc_net)
+* [twitter account run by an operator](https://twitter.com/irc_net)
