@@ -46,31 +46,15 @@ The following networks are highlighted below: Aniverse, BRASnet, EFNet, Enter Th
 
 --------------------------------------------------------------------------------
 
-[BRASnet](http://www.brasnet.org/)
-
-**Server Locations**: Brazil
-
-**Services**: [Yes](http://www.brasnet.org/recursos.php), ChanServ, NickServ, MemoServ, BotServ, HelpServ, OperServ
-
-**Support Channels**: #ajuda, #help
-
-[Statistics](http://irc.netsplit.de/networks/BRASnet/) | [Servers](http://irc.netsplit.de/networks/BRASnet/)
-
-**Information**: The largest local Brazilian network, and also one of the largest nets in the world now.
-
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-
 [EFNet](http://www.efnet.org/)
 
 **Server Locations**: Europe, US, Near East
 
-**Services**: None, except for a pseudo-chanserv ([CHANFIX](http://irchelp.org/chanfix))
+**Services**: None, except for a pseudo-chanserv ([CHANFIX](/ircd/chanfix/))
 
 **Support Channels**: #IRCHelp [General IRC], #help [General], #dmsetup [Virus/Trojan], #chanfix [takeover]
 
-[Statistics](http://irc.netsplit.de/networks/EFnet/) | Servers: [EFnet.info](http://efnet.info/?module=servers)
+[Statistics](http://irc.netsplit.de/networks/EFnet/) | Servers: [EFnet.info](http://www.efnet.org/?module=servers)
 
 **Information**: Formerly the prime IRC network and for a long time synonymous with IRC. EFnet stands for Eris-Free net, due to a historical event involving a server with a machine name of 'eris'. In 1996, many servers and users split off to form what is now IRCnet, since then both networks have grown and prospered independently. Both still do not support services such as channel or nickname registration, resulting in the most freedom as well as chaos for the users.
 
@@ -100,43 +84,11 @@ The following networks are highlighted below: Aniverse, BRASnet, EFNet, Enter Th
 
 **Services**: Yes, ChanServ, NickServ
 
-**Support Channels**: Many many support channels. ([More Info](http://freenode.net/groups.shtml))
+**Support Channels**: Many many support channels.
 
 [Statistics](http://irc.netsplit.de/networks/freenode/) | [Servers](http://freenode.info/irc_servers.shtml)
 
 **Information**: "an interactive environment for coordination and support of peer-directed projects, including... free software and open source. Our aim is to help improve the communicative and collaborative skills of our participants and to maintain a friendly, efficient environment for project coordination and technical support."
-
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-
-[Galaxynet](http://www.galaxynet.org/)
-
-**Server Locations**: North America, Europe, Asia, Australia, New Zealand
-
-**Services**: [Yes](http://cservice.galaxynet.org/), Channel (Q), Nick (NS), Memo (MS)
-
-**Support Channels**: N/A
-
-[Statistics](http://irc.netsplit.de/networks/GalaxyNet/) | [Servers](http://www.galaxynet.org/servers.php)
-
-**Information**: This network has firmly established itself as one of the more popular nets and along with IRCnet has the distinction of serving the most number of countries.
-
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-
-[GamesNET](http://www.gamesnet.net/)
-
-**Server Locations**: Europe, US, Canada
-
-**Services**: [Yes](http://www.gamesnet.net/guide.php), AuthServ, ChanServ
-
-**Support Channels**: #support
-
-[Statistics](http://irc.netsplit.de/networks/GamesNET/) | [Servers](http://www.gamesnet.net/servers.php)
-
-**Information**: "GamesNET was the very first irc network devoted solely to gaming founded many years ago in 1996... now known as the premier irc gaming network."
 
 --------------------------------------------------------------------------------
 
@@ -150,7 +102,7 @@ The following networks are highlighted below: Aniverse, BRASnet, EFNet, Enter Th
 
 **Support Channels**: #IRChelp, #ircnet.com
 
-[Statistics](http://irc.netsplit.de/networks/IRCnet/) | [Servers](http://www.ircnet.com/index.php?&p=5)
+[Statistics](http://irc.netsplit.de/networks/IRCnet/) | [Servers](http://irc.netsplit.de/servers/?net=IRCnet)
 
 **Information**: Created in 1996 division of EFnet, IRCnet has continued to grow independently. Lays claim to historical privilege of being the original IRC network by virtue of still containing the core of early IRC, including the Finnish site where IRC was first used. Administration and operation are also more traditional than on other networks. Many of the most popular channels are "national" channels, devoted to the social gathering of people from Europe and Japan.
 
@@ -182,7 +134,7 @@ The following networks are highlighted below: Aniverse, BRASnet, EFNet, Enter Th
 
 **Support Channels**: #feds
 
-Statistics: [Quakenet.org](http://mrtg.quakenet.org/quakenet.org.html) or [netsplit.de](http://irc.netsplit.de/networks/QuakeNet/) | [Servers](http://staff.quakenet.org/servers.phtml)
+Statistics: [Quakenet.org](http://www.quakenet.org/statistics) or [netsplit.de](http://irc.netsplit.de/networks/QuakeNet/) | [Servers](http://www.quakenet.org/servers)
 
 **Information**: They call it the best multiplayer game ever. Maybe they're right, maybe not. Anyway, here's a network full of (mainly European) addicts. It has grown from a subject-specific network into the largest IRC network in the world!
 
