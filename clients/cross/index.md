@@ -9,18 +9,18 @@ There are a large and growing number of cross-platform clients that run equally 
 
 ## ChatZilla
 
-[ChatZilla](/irchelp/clients/cross/chatzilla.html) runs as an addon for
+[ChatZilla](/clients/cross/chatzilla.html) runs as an addon for
 Firefox and Seamonkey, or standalone with the help of XULRunner, and as such
 is portable to all platforms on which Firefox can run.
 
 ## LeafChat
 
-[LeafChat](/irchelp/clients/cross/leafchat.html) is a graphical, standalone
+[LeafChat](/clients/cross/leafchat.html) is a graphical, standalone
 client written in Java, and runs anywhere there's a suitable Java runtime.
 
 ## jIRCii
 
-[jIRCii](/irchelp/clients/cross/jircii.html) is a barely graphical standalone Java
+[jIRCii](/clients/cross/jircii.html) is a barely graphical standalone Java
 client, with a look and feel inspired by [ircII](/irchelp/clients/unix/ircii/) but taking advantage of
 modern GUI functionality.
 
@@ -29,7 +29,7 @@ The popular XChat fork, [HexChat](./hexchat.html), originated as an unofficial W
 
 # Web Based Clients
 
-Webchat interfaces are listed [elsewhere](/irchelp/clients/webclients.html),
+Webchat interfaces are listed [elsewhere](/clients/webclients.html),
 and are available anywhere there's a working web browser.
 
 ## Linux/Unix Clients on Windows

@@ -115,7 +115,7 @@ Furthermore, not all browsers are compatible, the latest versions are
 definitely recommended. In particular many problems were reported with Mac
 MSIE.
 
-JPilot is $39.99 [shareware](/irchelp/misc/shareware.html), documentation
+JPilot is $39.99 [shareware](/misc/shareware.html), documentation
 seems pretty good.
 
 **IRC CLient for Java** &nbsp_place_holder; [[home page](http://www.alphaworks.ibm.com/formula/)]

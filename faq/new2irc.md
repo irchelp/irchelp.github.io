@@ -17,11 +17,11 @@ Translations: [Español](/irchelp/misc/esnew2irc.html) |
 [Français](/irchelp/misc/frnew2irc.html) |
 [Deutsch](/irchelp/misc/denew2irc.html) |
 [Greek](/irchelp/misc/grnew2irc.html) |
-[Indonesia](/irchelp/misc/idnew2irc.html) |
-[Italiano](/irchelp/misc/itnew2irc.html) |
+[Indonesia](/misc/idnew2irc.html) |
+[Italiano](/misc/itnew2irc.html) |
 [Nederlands](/irchelp/misc/nlnew2irc.html) |
-[Portugues](/irchelp/misc/ptnew2irc.html) |
-[Turkce](/irchelp/misc/trnew2irc.html)
+[Portugues](/misc/ptnew2irc.html) |
+[Turkce](/misc/trnew2irc.html)
 
 ## Contents
 

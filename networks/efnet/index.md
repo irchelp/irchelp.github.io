@@ -14,7 +14,7 @@ Once the largest IRC network, EFNet shares the claim with IRCNet of being the ol
 
 EFNet and IRCNet both share a unique, decentralized philosophy, and continue to shun nickname and channel registration, and enforce a distinct separation between network and channel matters.
 
-As there are [no registration services](/irchelp/networks/noserv.html),"ownership" of nicknames and channels are not guaranteed.
+As there are [no registration services](/networks/noserv.html),"ownership" of nicknames and channels are not guaranteed.
 
 Channels fare a little better than nicknames, but not much, with a service called chanfix designed to promote channel stability without officially recognizing ownership.
 

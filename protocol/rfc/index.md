@@ -14,7 +14,7 @@ redirect_from:
 
 **[RFC 1459: Internet Relay Chat Protocol](rfc.html)**      This is the original and authoritative RFC for IRC. Written in 1993, it is the basis for IRC as we know it. If you want to write an IRC client, you need to read this carefully. It does _not_ include details on DCC or CTCP, which came later and are described in the following.
 
-**The Client-To-Client Protocol (CTCP)**      Written in 1994, the [CTCP specification](/irchelp/protocol/ctcpspec.html) follows the original IRC RFC above, and it is the authoritative document for the client-to-client protocol. It includes the related, older [DCC specification](/irchelp/protocol/dccspec.html) in its entirety. Later, an unofficial Internet Draft was released for an [updated CTCP specification](http://www.invlogic.com/irc/ctcp.html) [ext. link] and has been adopted by many major clients including mIRC.
+**The Client-To-Client Protocol (CTCP)**      Written in 1994, the [CTCP specification](/protocol/ctcpspec.html) follows the original IRC RFC above, and it is the authoritative document for the client-to-client protocol. It includes the related, older [DCC specification](/protocol/dccspec.html) in its entirety. Later, an unofficial Internet Draft was released for an [updated CTCP specification](http://www.invlogic.com/irc/ctcp.html) [ext. link] and has been adopted by many major clients including mIRC.
 
 **New RFCs for IRC**      In 2000, these 4 new RFCs were created to address many of the changes that took place since the original was written. You should still consider these as updates rather than replacements for the original RFC 1459. In particular, they do not necessarily represent a new, official standard.
 

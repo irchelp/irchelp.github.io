@@ -25,7 +25,7 @@ AndroIRC is a popular choice for Android - it works well on most devices, and it
  completion, and many of the things you'd expect from a desktop client.
 
 ## IRCCloud
-[IRCCloud](https://www.irccloud.com/) - also listed under our [web clients](/irchelp/clients/webclients.html)
+[IRCCloud](https://www.irccloud.com/) - also listed under our [web clients](/clients/webclients.html)
 is a hosted service accessible via the web as well as Android and iOS apps. Their
 mobile clients act as a proxy for connections - routing the connection through
 IRCCloud's servers. They offer free and paid plans, with the paid plans offering

@@ -18,11 +18,11 @@ Most users on Windows choose to use the popular shareware client, [mIRC](/irchel
 The popular Unix IRC client [XChat](/irchelp/clients/windows/xchat.html) and a number clients forked from it are also available for Windows.
 
 ## ChatZilla
-[ChatZilla](/irchelp/clients/cross/chatzilla.html) is a viable choice for Windows users, and a particularly compelling one for users who regularly switch between different platforms.
+[ChatZilla](/clients/cross/chatzilla.html) is a viable choice for Windows users, and a particularly compelling one for users who regularly switch between different platforms.
 
 ## Instant Messaging programs
 
-Trillian, Miranda, Pidgin, and other "all in one" [instant messaging programs](/irchelp/clients/windows/instantmessage.html) include IRC as one of their supported protocols.
+Trillian, Miranda, Pidgin, and other "all in one" [instant messaging programs](/clients/windows/instantmessage.html) include IRC as one of their supported protocols.
 
 ## Bersirc
-[Bersirc](/irchelp/clients/windows/bersirc.html) is another choice for Windows users.
+[Bersirc](/clients/windows/bersirc.html) is another choice for Windows users.

@@ -117,7 +117,7 @@ Several unix clients also function as IRC proxies, and are documented on their
 respective pages:
 
 * [irssi](/irchelp/clients/unix/irssi/)
-* [weechat](/irchelp/clients/unix/weechat.html)
+* [weechat](/clients/unix/weechat.html)
 * [quassel](/irchelp/clients/unix/quassel.html)
 
 

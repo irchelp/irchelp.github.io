@@ -91,7 +91,7 @@ EFnet and IRCnet do **not** have channel registration at all, although EFnet
 has a ["CHANFIX" service](http://efnet.org/chanfix/) that can sometimes
 restore lost ops and reverse takeovers through a "squatter's rights" system.
 For more information, check out [Why EFnet/IRCnet has no registration
-services?](/irchelp/networks/noserv.html).
+services?](/networks/noserv.html).
 
 The bottomline is that you have to decide where you want to host your new
 channel, and then abide by the rules of that network regarding channel
@@ -299,7 +299,7 @@ that technically has nothing to do with IRC - the packets used to flood you
 off do not originate in or pass through any IRC server. The attacker doesn't
 even have to be on IRC to knock you offline. Your options are very limited,
 see our guide on [Reporting Nukes or Denial of Service
-Attacks](/irchelp/nuke/report.html). Just remember, _nobody_ is safe against a
+Attacks](/nuke/report.html). Just remember, _nobody_ is safe against a
 determined, coordinated attack. Your best defense is once again rule #1 - try
 to stay out of trouble, and if trouble comes anyway, just hope that you have
 more bandwidth or patience than the attacker.
@@ -372,7 +372,7 @@ we said in earlier sections, you should seriously rethink whether it's worth
 the hassle of trying to run your own channel right now.
 
 We assume you have already read our [FAQs about IRC
-roBOTs](/irchelp/misc/botfaq.html). The following provides additional advice.
+roBOTs](/misc/botfaq.html). The following provides additional advice.
 
 What can go wrong with a bot? If not set up properly, they can be annoying or
 cause problems. It can be hard to get them to leave the channel to get ops

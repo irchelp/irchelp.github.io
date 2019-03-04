@@ -109,7 +109,7 @@ use one of these methods to remove Back Orifice.
 
 
 This fix program (BODetect) was written by Chris Benson who works for
-Symantec. It is $20 [shareware](/irchelp/misc/shareware.html) with 30 day free
+Symantec. It is $20 [shareware](/misc/shareware.html) with 30 day free
 trial and no nagging or crippling. Download it [Chris's own site](http://www.s
 piritone.com/~cbenson/current_projects/backorifice/backorifice.htm) or
 [www.download.com](http://www.download.com/) or

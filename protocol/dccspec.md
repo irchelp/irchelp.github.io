@@ -3,6 +3,7 @@ title: A description of the DCC Protocol
 author: Troy Rollo
 layout: default
 redirect_from:
+  - /irchelp/protocol/dccspec.html
   - /irchelp/rfc/dccspec.html
 ---
 # A description of the DCC protocol

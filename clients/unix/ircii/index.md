@@ -203,7 +203,7 @@ numbers mean when you get information from a server.
 establishes your identity which is required by servers on most of EFnet and
 all of DALnet, as well as many other nets. Requires root (superuser) access to
 install, if you don't have it or know what that means, talk to your system
-administrator. Also, see [the Firewall FAQ](/irchelp/security/fwfaq.html) for more
+administrator. Also, see [the Firewall FAQ](/security/fwfaq.html) for more
 information about potential ident problems.
 
 * * *

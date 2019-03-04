@@ -190,7 +190,7 @@ layout of all text, dockable panels, icons, menus and anything else.
 ---
 Last revised on 26 August 2016
 &mdash; [Hey, you can edit this page!
-](https://github.com/irchelp/wio/blob/gh-pages/clients/windows/adiirc.md)
+](/clients/cross/hexchat.html)
 
 <!-- Last modified -->
 <!-- [You can edit this page!](github/wio link to file) -->

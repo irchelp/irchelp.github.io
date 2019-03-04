@@ -18,6 +18,6 @@ We list IRC clients by operating system.:
 * [Linux/Unix](/irchelp/clients/unix/)
 * [Smartphone](/irchelp/clients/mobile/)
 * [Crossplatform](/irchelp/clients/cross/)
-* [Other Operating Systems](/irchelp/clients/otheros)
+* [Other Operating Systems](/clients/otheros)
 
-For users who want to get started without installing a client, there are a number of [web-based clients and gateways](/irchelp/clients/webclients.html) that you may be able to use to try IRC in your browser.
+For users who want to get started without installing a client, there are a number of [web-based clients and gateways](/clients/webclients.html) that you may be able to use to try IRC in your browser.

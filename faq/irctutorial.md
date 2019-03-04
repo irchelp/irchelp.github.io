@@ -185,10 +185,10 @@ show more or less aliases or commands):
 
 Each server is known by a "hostname" such as irc.ais.net, us.undernet.org,
 irc.dal.net, or irc.webbernet.net, which are sample servers for the networks
-[EFnet](/irchelp/networks/servers/efnet.html),
+[EFnet](/networks/servers/efnet.html),
 [Undernet](http://servers.undernet.org/),
 [DALnet](http://www.dal.net/servers/), and
-[IRCnet](/irchelp/networks/servers/ircnet.html), respectfully. Just specify
+[IRCnet](/networks/servers/ircnet.html), respectfully. Just specify
 the hostname to connect or switch to that server. For example:
 
 
@@ -529,7 +529,7 @@ In addition to talking, IRC has also become a popular and convenient way to
 exchange a wide variety of files. Be forewarned, however, that many people are
 getting into serious trouble by downloading files that seem interesting or
 enticing, only to find out they are [trojan horse
-attacks](/irchelp/security/trojan.html). These hacks allow strangers to take
+attacks](/security/trojan.html). These hacks allow strangers to take
 over your channels, force you to disconnect, erase your hard disk, or worse.
 The moral is clear: **Never accept candy from strangers**. For more
 information, see our [Downloading Files from IRC](/security/warez.html) guide.
@@ -779,7 +779,7 @@ can/can't/will/won't do. If after reading those you still think you need to
 contact an IRCop to report IRC abuse, see our [IRC logging
 guide](http://www.irchelp.org) for directions.
 
-**A special word on nukes:** denial of service attacks, commonly known as "[nukes](/irchelp/nuke/)", are not part of IRC at all. As such, IRCops have no authority in trying to stop them. See our guide on [logging and reporting nukes](/irchelp/nuke/report.html).
+**A special word on nukes:** denial of service attacks, commonly known as "[nukes](/irchelp/nuke/)", are not part of IRC at all. As such, IRCops have no authority in trying to stop them. See our guide on [logging and reporting nukes](/nuke/report.html).
 
 Unless otherwise stated, all commands below apply to your current server
 unless you specify another server's hostname as the optional argument.
