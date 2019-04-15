@@ -96,7 +96,7 @@ Under Fedora, Red Had Enterprise Linux, CentOS, and derivatives, ircII is normal
 can be installed via `sudo yum install ircii`
 
 
-### Fron Source
+### From Source
 If your distribution does not offer packages of ircII, or
 you wish to use a version newer than your distribution
 provides, you can download and compile the source code.
