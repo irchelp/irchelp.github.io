@@ -34,7 +34,7 @@ which can help to work around spotty mobile network coverage.
 
 ## Using Linux IRC clients on Android
 
-As Android is Linux-based under the hood, it's possible to run some IRC clients for a Linux terminal directly on an android device, using a terminal emulator application to interact with them via the shell. Depending on the device, you may be able to do this without root, but it will always work on a rooted device.
+As Android is Linux-based under the hood, it's possible to run some IRC clients for a Linux terminal directly on an Android device, using a terminal emulator application to interact with them via the shell. Depending on the device, you may be able to do this without root, but it will always work on a rooted device.
 
 ## Using Linux/Unix IRC clients via SSH
 
@@ -42,7 +42,7 @@ If you have a desktop client running somewhere where you can access over SSH, a 
 
 ConnectBot is a popular SSH client for Android, and a version exists which has been modified for ease of use with irssi.
 
-irssi is notable in this area, as a single irssi client on a stable host can be accessible both via SSH and as an IRC proxy for a client running directly on the Android device, allowing you to maintain continuity of conversations even when the mobile network connectivity is very intermittant.
+irssi is notable in this area, as a single irssi client on a stable host can be accessible both via SSH and as an IRC proxy for a client running directly on the Android device, allowing you to maintain continuity of conversations even when the mobile network connectivity is very intermittent.
 
 # Using a bouncer/proxy
 
