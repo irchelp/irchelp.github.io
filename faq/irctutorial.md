@@ -575,7 +575,7 @@ too.
 
 # 3. Beyond the Basics
 
-Most novices can enjoy IRC quiet well with the basic IRC skills described in
+Most novices can enjoy IRC quite well with the basic IRC skills described in
 part 1 and the ability to chat publicly and privately discussed in part 2.
 This section will now cover the basics of channel maintenance. After you have
 mastered this material, you may learn more about running channels from the
