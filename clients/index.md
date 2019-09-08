@@ -11,7 +11,7 @@ redirect_from:
 
 Unlike web-based chat, IRC uses software on your computer (a "client") to connect to an IRC server. This gives you a great deal of choice in where and how you use IRC. IRC clients exist for every major operating system, and many of the more obscure ones.
 
-We list IRC clients by operating system.:
+We list IRC clients by operating system:
 
 * [Windows](/irchelp/clients/windows/)
 * [MacOS X](/irchelp/clients/mac/)
