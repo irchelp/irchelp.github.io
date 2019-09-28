@@ -2,6 +2,8 @@
 title: IRCnet Server List
 dateupdated: 2018-10-31
 summary: List of IRCnet servers and accessing IRCnet in general
+redirect_from:
+  - /irchelp/networks/servers/ircnet.html
 ---
 
 # IRCnet Server List

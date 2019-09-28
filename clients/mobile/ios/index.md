@@ -43,7 +43,7 @@ It supports SSL connections and SASL authentication, as well as automatic nickse
 authentication on non-SASL networks.
 
 ## IRCCloud
-[IRCCloud](https://www.irccloud.com/), which is also listed under our [web clients](/irchelp/clients/webclients.md)
+[IRCCloud](https://www.irccloud.com/), which is also listed under our [web clients](/clients/webclients.html)
 section, is a "hosted" client running on IRCCloud's servers, with web, iOS, and Android
 apps available to access the service. Free and paid versions of the service exist,
 with paid versions offering persistent connections, push notifications, stored

@@ -3,6 +3,8 @@ title: Nick and Channel delays
 author: Stephanie Daugherty
 layout: default
 license: CC-BY-SA-4
+redirect_from:
+  - /irchelp/protocol/ndcd.html
 ---
 
 # Nick And Channel Delays
@@ -37,4 +39,4 @@ delay period.
 * Opless channels tend to remain permanently opless.
 
 # Related Extensions
-* [Split Mode](/irchelp/protocol/splitmode.html) - a feature where channels can't be created (or in some cases joined at all) during a split.
+* [Split Mode](/protocol/splitmode.html) - a feature where channels can't be created (or in some cases joined at all) during a split.

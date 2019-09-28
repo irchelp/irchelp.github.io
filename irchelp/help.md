@@ -18,13 +18,13 @@ layout: default
 
   * [IRC Prelude](/irchelp/new2irc.html)
   * [IRC Tutorial](/irchelp/irctutorial.html)
-  * [WebTV and IRC](/irchelp/misc/webtv.html)
-  * [IRC International](/irchelp/misc/foreign.html)     **More Advanced**
+  * [WebTV and IRC](/misc/webtv.html)
+  * [IRC International](/misc/foreign.html)     **More Advanced**
 
   * [IRC Primer](/irchelp/ircprimer.html)
   * [FAQ from alt.irc](/irchelp/faq.html)
   * [IFAQ](/irchelp/ifaq.html)
-  * [IRC Command Cosmos](/irchelp/misc/ccosmos.html)
+  * [IRC Command Cosmos](/misc/ccosmos.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
   * [RFC (technical specs) for IRC](/irchelp/rfc/) and [DCC/CTCP](/irchelp/rfc/ctcpspec.html)
 
@@ -44,7 +44,7 @@ layout: default
   * [Server Numeric Headers](/ircd/numerics.html)
   * [Server Desyncs](/ircd/desync.html)
   * [Time Stamp](/ircd/ircserv.html)
-  * [User Modes](/irchelp/misc/umodes.html)     **IRC operators (IRCops)**
+  * [User Modes](/misc/umodes.html)     **IRC operators (IRCops)**
 
   * [Server Request FAQ](/ircd/server-request.html)
   * [Myth of Opers](/ircd/opermyth.html)
@@ -73,12 +73,12 @@ layout: default
   * [EFnet](/irchelp/chanlist/)     **Networks / Servers**
 
   * [overview of networks](/irchelp/networks/servers/)
-  * [Big Four](/irchelp/networks/nets/big4.html):
-[EFnet](/irchelp/networks/servers/efnet.html), Undernet,
-[IRCnet](/irchelp/networks/servers/ircnet.html), DALnet
+  * [Big Four](/networks/nets/big4.html):
+[EFnet](/networks/servers/efnet.html), Undernet,
+[IRCnet](/networks/servers/ircnet.html), DALnet
 
-  * [Medium](/irchelp/networks/nets/medium.html) and [Small](/irchelp/networks/nets/small.html) Nets
-  * [Subject](/irchelp/networks/nets/subject.html) and [Local](/irchelp/networks/nets/local.html) Nets
+  * [Medium](/networks/nets/medium.html) and [Small](/networks/nets/small.html) Nets
+  * [Subject](/networks/nets/subject.html) and [Local](/networks/nets/local.html) Nets
 
 * * *
 
@@ -87,10 +87,10 @@ layout: default
     **Attacks and Defenses**
 
   * [Denial of Service attacks (nukes)](/irchelp/nuke/)
-  * [Trojan Horse attacks (IRC viruses)](/irchelp/security/trojan.html)
-  * [IRC Hints for Takeovers](/irchelp/misc/hints.html)
+  * [Trojan Horse attacks (IRC viruses)](/security/trojan.html)
+  * [IRC Hints for Takeovers](/misc/hints.html)
   * [reporting abuse](/irchelp/misc/irclog.html)
-  * [backdoors](/irchelp/security/irc-backdoor.txt)
+  * [backdoors](/security/irc-backdoor.txt)
 
 ## What's the picture bar at the bottom of the page?
 

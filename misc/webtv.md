@@ -160,7 +160,7 @@ required by many servers, including most of EFnet and all of DALnet. Short of
 complaining directly to WebTV to implement this very simple feature, you're
 pretty much out of luck and will have to chat on other servers. If you're
 trying to get on EFnet, see our [EFnet connection problem
-guide](/irchelp/networks/connectprob.html). Otherwise just find another
+guide](/networks/connectprob.html). Otherwise just find another
 [network](/irchelp/networks/) to chat on.
 
 Colors, Fonts, and Sounds     You _cannot_ change text color, size, font,

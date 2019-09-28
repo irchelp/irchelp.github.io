@@ -37,7 +37,7 @@ questions about IRC:
 
   If you prefer to **learn by doing** instead of reading some long user manual, this **medium-length step-by-step tutorial** is for you. It shows you how to master IRC, one command at a time.
 
-[IRC Command Cosmos](/irchelp/misc/ccosmos.html)
+[IRC Command Cosmos](/misc/ccosmos.html)
 
   This **advanced user guide** is designed to supplement the "standard" guides above. It is very up to date and has a **Undernet/mIRC emphasis**, but it's useful to everybody.
 
@@ -52,11 +52,11 @@ questions about IRC:
 
   * [IRC Prelude](/irchelp/new2irc.html)
   * [IRC Tutorial](/irchelp/irctutorial.html)
-  * [IRC International](/irchelp/misc/foreign.html)     **More Advanced**
+  * [IRC International](/misc/foreign.html)     **More Advanced**
   * [IRC Primer](/irchelp/ircprimer.html)
   * [FAQ from alt.irc](/irchelp/faq.html)
   * [IFAQ](/irchelp/ifaq.html)
-  * [IRC Command Cosmos](/irchelp/misc/ccosmos.html)
+  * [IRC Command Cosmos](/misc/ccosmos.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
 
 ## IRCd (server management)
@@ -71,7 +71,7 @@ questions about IRC:
   * [Server Numeric Headers](/ircd/numerics.html)
   * [Server Desyncs](/ircd/desync.html)
   * [Time Stamp](/ircd/ircserv.html)
-  * [User Modes](/irchelp/misc/umodes.html)
+  * [User Modes](/misc/umodes.html)
   * [Myth of Opers](/ircd/opermyth.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
   * [#us-opers FAQ](/ircd/usfaq.html)

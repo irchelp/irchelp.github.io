@@ -12,7 +12,7 @@ redirect_from:
 XChat was once the most popular of the X11 clients, but by 2016 has fallen into abandonment - the last meaningful releases were in
 May 2010, the user forums have been taken offline, and some distributions have begun to remove it from their repositories as unmaintained software. In it's present state, we can no longer recommend XChat.
 
-[Hexchat](/irchelp/clients/cross/hexchat.html) is a fork of XChat that is actively
+[Hexchat](/clients/cross/hexchat.html) is a fork of XChat that is actively
 maintained, with a substantial following. For all intents and purposes, it's
 the spiritual successor to XChat, and for most users,  likely to be an easy
 replacement.
@@ -29,6 +29,6 @@ to a number of unofficial ports, the loss of virtually all outside developers,
 and most importantly, the loss of the community's trust - even among Linux/Unix users
 who were not directly affected by the change.
 
-One of those unofficial Windows ports, [HexChat](/irchelp/clients/cross/hexchat.html),
+One of those unofficial Windows ports, [HexChat](/clients/cross/hexchat.html),
 grew up into a not just a port, but a viable, active, and well-maintained fork of
 XChat, and the community of users and developers have largely followed.

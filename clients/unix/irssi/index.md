@@ -25,7 +25,7 @@ irssi works well out of the box for most users, and the defaults are generally u
 
 ## Tutorials
 
-* [Starting irssi automatically on boot](/irchelp/clients/unix/irssi/irssiatboot.html) - explains how to use cron to automatically restart irssi under a screen at startup.
+* [Starting irssi automatically on boot](/clients/unix/irssi/irssiatboot.html) - explains how to use cron to automatically restart irssi under a screen at startup.
 * [A Guide to Efficiently Using Irssi and Screen](http://quadpoint.org/articles/irssi/) (ext. link) - covers the basics of using irssi and using screen.
 * [An Illustrated Guide to Split Windows in Irssi](http://quadpoint.org/articles/irssisplit/) (ext. link) - in depth tutorial on irssi's split window mode.
 

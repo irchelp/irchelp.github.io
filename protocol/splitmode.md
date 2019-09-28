@@ -3,6 +3,8 @@ title: Split Mode
 author: Stephanie Daugherty
 license: CC-BY-SA-4
 layout: default
+redirect_from:
+  - /irchelp/protocol/splitmode.html
 ---
 
 # Split Mode
@@ -10,7 +12,7 @@ layout: default
 Split mode is a feature originally added in ircd-hybrid, and also present in
 many forks including ircd-ratbox and charybdis.
 
-It is similar in purpose to IRCNet's [Channel Delay](/irchelp/protocol/ndcd.html),
+It is similar in purpose to IRCNet's [Channel Delay](/protocol/ndcd.html),
 but not in the details of its operation.
 
 Split mode was introduced originally to deal with a loophole in the TS3 protocol
@@ -68,7 +70,7 @@ to exploit network splits to recover opless channels on behalf of users, or
 to gather intel on locked down channels.
 
 Split mode is considered complementary to TS protections, rather than an alternative to
-them as IRCNet's [Nick and Channel Delay](/irchelp/protocol/ndcd.html)
+them as IRCNet's [Nick and Channel Delay](/protocol/ndcd.html)
 
 While TS5 removed the opless channel loophole, a side benefit of split mode remains:
 users can't take advantage of a split to join a channel from which the modes of

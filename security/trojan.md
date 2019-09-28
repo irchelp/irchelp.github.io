@@ -139,7 +139,7 @@ As a practical matter, it's worth trying to repair infected computers first. Mos
 
 There are several resources for one-on-one assistance with malware issues, including trojan horses. If you aren't sure what to do, you can try one of the following:
 
-  * **IRC Help Channels**: If you're the type that needs some hand-holding, you can find trojan/virus removal help on IRC itself, such as EFnet #dmsetup. These experts will try to figure out which trojan(s) you have and offer you advice on how to fix it. The previous directions were in fact adapted from advice given by EFnet #dmsetup. (See our [networks page](/irchelp/networks) if you need help connecting to those networks.)
+  * **IRC Help Channels**: If you're the type that needs some hand-holding, you can find trojan/virus removal help on IRC itself, such as EFnet #dmsetup. These experts will try to figure out which trojan(s) you have and offer you advice on how to fix it. The previous directions were in fact adapted from advice given by EFnet #dmsetup. (See our [networks page](/networks) if you need help connecting to those networks.)
   * **Your antimalware vendor**: If you are paying for security software, you may be entitled to support from the vendor.
   * **Your PC manufacturer**: If you are under a support agreement, or some warranties, your PC manufacturer may provide malware removal assistance.
   * **Professional Repair Services**: A professional PC repair service can be contracted locally for assistance with removing viruses or trojans.

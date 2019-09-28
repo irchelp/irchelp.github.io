@@ -39,7 +39,7 @@ IF they don't, they may either ask follow up questions to help them understand, 
 
 ## Don't paste blobs of text into IRC.
 
-1-2 lines is usually fine, but if you have anything longer than that, you should put in on the web somewhere using your own site, or a [pastebin](/irchelp/misc/pastebin.html) and link to it - this lets people see it if they need to see it, but doesn't much up the window and drown out other conversations with noise.
+1-2 lines is usually fine, but if you have anything longer than that, you should put in on the web somewhere using your own site, or a [pastebin](/misc/pastebin.html) and link to it - this lets people see it if they need to see it, but doesn't much up the window and drown out other conversations with noise.
 
 # Resources
 

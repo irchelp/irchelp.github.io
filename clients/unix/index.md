@@ -19,16 +19,16 @@ The first clients and servers for IRC were written as portable C code, which cou
 
 ### ircII and derivatives
 For years, the standard by which all other clients were measured, [ircII](/irchelp/clients/unix/ircii/) and its derivatives remain a solid choice. ircII and its closest descendant,
-[EPIC](/irchelp/clients/unix/epic.html), are still actively maintained, but maintain faithfulness with the original "blank canvas" of ircII&#8211;they are typically highly customized by each user, either by hand, or via a script pack.
+[EPIC](/clients/unix/epic.html), are still actively maintained, but maintain faithfulness with the original "blank canvas" of ircII&#8211;they are typically highly customized by each user, either by hand, or via a script pack.
 
-[BitchX](/irchelp/clients/unix/bitchx.html) and [ScrollZ](/irchelp/clients/unix/scrollz.html) take a different approach: both having started originally as script packs, they eventually applied their modifications directly to the client itself, creating a derivative of ircII with more bells and whistles than any user could possibly need.
+[BitchX](/clients/unix/bitchx.html) and [ScrollZ](/clients/unix/scrollz.html) take a different approach: both having started originally as script packs, they eventually applied their modifications directly to the client itself, creating a derivative of ircII with more bells and whistles than any user could possibly need.
 
 ### WeeChat
-[WeeChat](/irchelp/clients/unix/weechat.html) is a relative newcomer to the terminal-oriented client scene, but still compares favorably to the others. It's comparable in features to irssi, but, uniquely, also functions as a Jabber client.
+[WeeChat](/clients/unix/weechat.html) is a relative newcomer to the terminal-oriented client scene, but still compares favorably to the others. It's comparable in features to irssi, but, uniquely, also functions as a Jabber client.
 
 ### ERC (emacs IRC client)
 
-Everyone's favorite kitchen sink has a built in IRC client, [ERC](/irchelp/clients/unix/erc.html), which is fully functional, extensible in the Lisp language so fondly loved by emacs users, and sadly, relevant to almost no-one else. If your text editor is also your operating system, it might be a great first choice for you, otherwise, consider sticking with the more mainstream clients.
+Everyone's favorite kitchen sink has a built in IRC client, [ERC](/clients/unix/erc.html), which is fully functional, extensible in the Lisp language so fondly loved by emacs users, and sadly, relevant to almost no-one else. If your text editor is also your operating system, it might be a great first choice for you, otherwise, consider sticking with the more mainstream clients.
 
 
 ## X11 (Graphical)

@@ -4,6 +4,7 @@ author: Joseph Lo (jolo)
 layout: default
 license: irchelp
 redirect_from:
+  - /irchelp/networks/connectprob.html
   - /irchelp/network/connectprob.html
   - /connect/
 ---
@@ -110,7 +111,7 @@ This is a little different, let's assume you can connect just fine, but you get 
 
 **"Ping timeout" or "Connection reset by peer" or "Software caused connection abort"**
 
-If this happens just once in a while, don't worry. The network connection between your client and the server got broken, it happens. Some people using Windows seem to have particularly unstable winsock, welcome to the wonders of Windows. The actual error message is not very informative or even reliable, and there is no fix beyond making sure Windows is up to date with the latest patches. Note that pinging a server will have no effect for this problem. If it's happening repeatedly or only when you visit certain channels or talk to certain people, then you may be the victim of a [denial of service attack](/irchelp/nuke) (better known as "getting nuked"). Don't immediately assume something evil is going on, though, since the vast majority of these disconnects are due to natural causes. Try using different servers/ports, or avoid your usual nickname and channels for a while, see if the problem goes away.
+If this happens just once in a while, don't worry. The network connection between your client and the server got broken, it happens. Some people using Windows seem to have particularly unstable winsock, welcome to the wonders of Windows. The actual error message is not very informative or even reliable, and there is no fix beyond making sure Windows is up to date with the latest patches. Note that pinging a server will have no effect for this problem. If it's happening repeatedly or only when you visit certain channels or talk to certain people, then you may be the victim of a [denial of service attack](/nuke) (better known as "getting nuked"). Don't immediately assume something evil is going on, though, since the vast majority of these disconnects are due to natural causes. Try using different servers/ports, or avoid your usual nickname and channels for a while, see if the problem goes away.
 
 **"Excessive idle"**
 

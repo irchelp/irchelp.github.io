@@ -98,11 +98,11 @@ script, check out this [guide to picking scripts](bestscript.htm).
 out these guides pertaining to IRC security:
 
   * [Denial of service attacks or "nukes"](/irchelp/nuke/)
-  * [Trojan Horse attacks or "IRC viruses"](/irchelp/security/trojan.html)
+  * [Trojan Horse attacks or "IRC viruses"](/security/trojan.html)
   * [Firewall FAQ](../security/fwfaq.html)
 
 *  **Connection problem?**     See our [connection
-troubleshooting guide](/irchelp/networks/connectprob.html).
+troubleshooting guide](/networks/connectprob.html).
 
 *  **mIRC commands**     [Official list of all
 mIRC commands](http://www.mirc.com/cmds.html) [ext. link]
@@ -172,7 +172,7 @@ of mIRC's /background switches and options.
 
 * [ The IRC Prelude: Newbie's Introduction to IRC](/irchelp/new2irc.html) (many non-English translations).
 
-mIRC is [shareware](/irchelp/misc/shareware.html). mIRC is a registered
+mIRC is [shareware](/misc/shareware.html). mIRC is a registered
 trademark of mIRC Co. Ltd.
 
 We at IRChelp.org are not affiliated with mIRC Co. Ltd.

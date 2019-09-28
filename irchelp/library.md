@@ -9,16 +9,16 @@ license: irchelp
 
 ### General Information
 
-    **Novice**
+  **Novice**
 
   * [IRC Prelude](/irchelp/new2irc.html)
   * [IRC Tutorial](/irchelp/irctutorial.html)
-  * [IRC International](/irchelp/misc/foreign.html)     **More Advanced**
+  * [IRC International](/misc/foreign.html)     **More Advanced**
 
   * [IRC Primer](/irchelp/ircprimer.html)
   * [FAQ from alt.irc](/irchelp/faq.html)
   * [IFAQ](/irchelp/ifaq.html)
-  * [IRC Command Cosmos](/irchelp/misc/ccosmos.html)
+  * [IRC Command Cosmos](/misc/ccosmos.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
   * [RFC (technical specs) for IRC](/irchelp/rfc/) and [DCC/CTCP](/irchelp/rfc/ctcpspec.html)
 
@@ -26,7 +26,7 @@ license: irchelp
 
 ### IRCd (server management)
 
-    **Server Setup**
+  **Server Setup**
 
   * [Network/Server Lists](/irchelp/networks/)
   * [Server Request FAQ](/ircd/server-request.html)
@@ -38,7 +38,7 @@ license: irchelp
   * [Server Numeric Headers](/ircd/numerics.html)
   * [Server Desyncs](/ircd/desync.html)
   * [Time Stamp](/ircd/ircserv.html)
-  * [User Modes](/irchelp/misc/umodes.html)     **IRC operators (IRCops)**
+  * [User Modes](/misc/umodes.html)     **IRC operators (IRCops)**
 
   * [Server Request FAQ](/ircd/server-request.html)
   * [Myth of Opers](/ircd/opermyth.html)
@@ -47,7 +47,7 @@ license: irchelp
 
 ### IRC Clients
 
-    **Windows**
+  **Windows**
 
   * [mIRC](/irchelp/mirc/)     **UNIX**
 
@@ -62,52 +62,34 @@ license: irchelp
 
 ### Lists (Channels, Nets, Servers)
 
-    **Channels (chat rooms)**
+  **Channels (chat rooms)**
 
   * [EFnet](/irchelp/chanlist/)     **Networks / Servers**
 
   * [overview of networks](/irchelp/networks/servers/)
-  * [Big Four](/irchelp/networks/nets/big4.html):
-[EFnet](/irchelp/networks/servers/efnet.html), Undernet,
-[IRCnet](/irchelp/networks/servers/ircnet.html), DALnet
-
-  * [Medium](/irchelp/networks/nets/medium.html) and [Small](/irchelp/networks/nets/small.html) Nets
-  * [Subject](/irchelp/networks/nets/subject.html) and [Local](/irchelp/networks/nets/local.html) Nets
+  * [Big Four](/networks/nets/big4.html):
+[EFnet](/networks/servers/efnet.html), Undernet,
+[IRCnet](/networks/servers/ircnet.html), DALnet
+  * [Medium](/networks/nets/medium.html) and [Small](/networks/nets/small.html) Nets
+  * [Subject](/networks/nets/subject.html) and [Local](/networks/nets/local.html) Nets
 
 * * *
 
 ### Security
 
-    **Attacks and Defenses**
+  **Attacks and Defenses**
 
   * [Denial of Service attacks (nukes)](/irchelp/nuke/)
-  * [Trojan Horse attacks (IRC viruses)](/irchelp/security/trojan.html)
-  * [IRC Hints for Takeovers](/irchelp/misc/hints.html)
+  * [Trojan Horse attacks (IRC viruses)](/security/trojan.html)
+  * [IRC Hints for Takeovers](/misc/hints.html)
   * [reporting abuse](/irchelp/misc/irclog.html)
-  * [backdoors](/irchelp/security/irc-backdoor.txt)
-
-## What's the picture bar at the bottom of the page?
-
-You will find this "navigational bar" at the bottom of all our pages, it lets
-you move around quickly within the archive.
-
-[![back](/irchelp/Pix/ihback.gif)](/irchelp/) [Go back](/irchelp/) to the top
-level
-
-[![help](/irchelp/Pix/ihhelp.gif)](/irchelp/help.html) Return here to this
-help page
-
-[![search](/irchelp/Pix/ihsearch.gif)](/irchelp/search_engine.cgi)
-[Search](/irchelp/search_engine.cgi) the archive using keywords
-
-[![mail](/irchelp/Pix/ihmail.gif)](/irchelp/mail.cgi) [Email](mail.cgi)
-questions or feedback
+  * [backdoors](/security/irc-backdoor.txt)
 
 ## Still confused?
 
 For live help from our many volunteer experts, visit us on #IRChelp on EFnet
 and IRCnet - somebody is always happy to answer your IRC questions 24 hours a
-day, 7 days a week. If you prefer, [email us](/irchelp/mail.cgi)!
+day, 7 days a week.
 
 Now click [here](/irchelp/) or on the first button in the navigational bar
 below to go back to the top of the #IRChelp home page, or if you came from

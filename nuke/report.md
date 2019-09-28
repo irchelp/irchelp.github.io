@@ -3,7 +3,7 @@
 By Jolo - Jan 22, 1998
 
 The original, most up to date version of this page is at
-<[http://www.irchelp.org/irchelp/nuke/report.html](/irchelp/nuke/report.html)>
+<[http://www.irchelp.org/irchelp/nuke/report.html](/nuke/report.html)>
 
 ## How can I put a stop to nuking?
 
@@ -30,7 +30,7 @@ you could prove it, an IRC op can't punish somebody who isn't even on IRC!
 ## Can't I use logs to prove somebody on IRC is nuking me?
 
 Not really, again because nukes are not part of IRC. There are some
-[tools](/irchelp/nuke/trace.html) for monitoring and logging nuke attempts,
+[tools](/nuke/trace.html) for monitoring and logging nuke attempts,
 but they don't catch all types of attacks, and even if they do, they will
 record just an IP address, such as "dialup-123.whatever.com", which (1)
 doesn't necessarily correspond to any IRC user, and (2) can be and often is

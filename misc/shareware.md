@@ -61,7 +61,7 @@ pay, you get periodic reminders ("nagware"), some features are disabled
 ("crippleware"), the program quits after a while each time you use it
 ("quitware"), or maybe it just stops working after 30 days ("bombware"). Of course we
 all dislike these tactics, but [studies prove that they are
-effective](/irchelp/misc/why_do_people_register.html)
+effective](/misc/why_do_people_register.html)
 in encouraging more people to pay. Oh well, pay on time and
 you won't have to worry about it. There are also some variations on
 nagging such as "careware" which requests that you send money to a charity,
@@ -73,7 +73,7 @@ live, or "beerware"... well you can figure that one out.
 These are just some of the many sites where you can find a wide range of
 freeware or shareware. Be very careful about downloading blindly from other sites,
 because what may look like shareware could instead be a [Trojan horse
-attack](/irchelp/security/trojan.html) which could seriously compromise your
+attack](/security/trojan.html) which could seriously compromise your
 security.
 
   * [CNET Download.com](http://download.cnet.com/)

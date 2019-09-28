@@ -25,7 +25,7 @@ AndroIRC is a popular choice for Android - it works well on most devices, and it
  completion, and many of the things you'd expect from a desktop client.
 
 ## IRCCloud
-[IRCCloud](https://www.irccloud.com/) - also listed under our [web clients](/irchelp/clients/webclients.html)
+[IRCCloud](https://www.irccloud.com/) - also listed under our [web clients](/clients/webclients.html)
 is a hosted service accessible via the web as well as Android and iOS apps. Their
 mobile clients act as a proxy for connections - routing the connection through
 IRCCloud's servers. They offer free and paid plans, with the paid plans offering
@@ -34,7 +34,7 @@ which can help to work around spotty mobile network coverage.
 
 ## Using Linux IRC clients on Android
 
-As Android is Linux-based under the hood, it's possible to run some IRC clients for a Linux terminal directly on an android device, using a terminal emulator application to interact with them via the shell. Depending on the device, you may be able to do this without root, but it will always work on a rooted device.
+As Android is Linux-based under the hood, it's possible to run some IRC clients for a Linux terminal directly on an Android device, using a terminal emulator application to interact with them via the shell. Depending on the device, you may be able to do this without root, but it will always work on a rooted device.
 
 ## Using Linux/Unix IRC clients via SSH
 
@@ -42,7 +42,7 @@ If you have a desktop client running somewhere where you can access over SSH, a 
 
 ConnectBot is a popular SSH client for Android, and a version exists which has been modified for ease of use with irssi.
 
-irssi is notable in this area, as a single irssi client on a stable host can be accessible both via SSH and as an IRC proxy for a client running directly on the Android device, allowing you to maintain continuity of conversations even when the mobile network connectivity is very intermittant.
+irssi is notable in this area, as a single irssi client on a stable host can be accessible both via SSH and as an IRC proxy for a client running directly on the Android device, allowing you to maintain continuity of conversations even when the mobile network connectivity is very intermittent.
 
 # Using a bouncer/proxy
 

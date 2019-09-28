@@ -3,6 +3,7 @@ title: The Client-To-Client Protocol (CTCP)
 author: Klaus Zeuge, Troy Rollo, Ben Mesander
 layout: default
 redirect_from:
+  - /irchelp/protocol/ctcpspec.html
   - /irchelp/rfc/ctcpspec.html
 ---
 
