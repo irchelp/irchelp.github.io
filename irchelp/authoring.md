@@ -1,6 +1,7 @@
 ---
 title: www.irchelp.org content guidelines and authoring information.
 author: Stephanie Daugherty
+dateupdated: 28 June 2020 
 layout: default
 license: cc-by-sa-4
 ---
@@ -17,11 +18,12 @@ follow so that your content can be easily included into the site.
 
 ## Technical Information
 
-As of 2012, all content on the site is maintained as Markdown files with a short YAML header containing metadata. [Markdown](en.wikipedia.org/wiki/Markdown) is a simple way of adding formatting to text files, very similar to wiki markup.
+As of 2012, all content on the site is maintained as Markdown files with a short YAML header containing metadata. 
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a simple way of adding formatting to text files, very similar to wiki markup.
 
    The files are kept in a [Git](http://git-scm.org) repository on [GitHub](https://www.github.com), and automatically generated using [Jekyll](https://jekyllrb.com/).
 
-Our public git repository is located at https://github.com/irchelp/wio
+Our public git repository is located at <https://github.com/irchelp/wio>
 
 The Git repository is very important to this process - it's the part that will allow multiple editors access to update the site, without risk of stepping on each other's toes, and which will allow us to easily roll back unwanted changes.
 
@@ -51,11 +53,11 @@ Everything but the title: and layout: values are technically optional, but docum
 
 Several programs are useful to irchelp.org authors.
 
-  * [retext](http://sourceforge.net/p/retext/home/ReText/) is a graphical editor with live preview for Linux systems (available in the Ubuntu repositories as *retext*).
+  * [retext](https://github.com/retext-project/retext) is a graphical editor with live preview for Linux systems (available in the Ubuntu repositories as *retext*).
   * [Atom](https://atom.io/) is a powerful GUI text editor for many platforms, including Windows, Mac, and Linux, with syntax highlighting and a number of plugins such as [Markdown Preview Plus](https://atom.io/packages/markdown-preview-plus) available to make working with Markdown easier for authors.
   * [Jekyll](https://jekyllrb.com) is used to process the Markdown files into finished HTML documents. You don't need this to author documents, but it's useful if you want to preview them exactly as they will look on the actual website.
   * [GitHub Desktop](https://desktop.github.com) is available for Windows and Mac, and provides an easy to use interface to our Git repository on Github. The standard commandline git client is also bundled along with a suite of basic Unix text handling utilities.
-  * [TortoiseGit]{https://tortoisegit.org/} integrates Git functionality into Windows Explorer, making it easy to see the status of your files and making Git functions available on right click menus.
+  * [TortoiseGit](https://tortoisegit.org/) integrates Git functionality into Windows Explorer, making it easy to see the status of your files and making Git functions available on right click menus.
   * [Git](http://git-scm.com/) is necessary to read/write the repository which stores the source to the website. Clients are available there for virtually all operating systems, not just Linux :)
 
 This list is by no means comprehensive, but it's a good starting point for authors looking for tools.
