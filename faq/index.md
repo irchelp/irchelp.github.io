@@ -17,19 +17,19 @@ questions about IRC:
 
   This is a **must-read if you are new to Internet Relay Chat** (IRC). This **very short help file** by the #IRChelp operators covers the basics of IRC and will get you going in no time!
 
-[FAQ from the alt.irc newsgroup](/irchelp/altircfaq.html)
+[FAQ from the alt.irc newsgroup](/faq/altircfaq.html)
 
   This is the **authoritative list of FAQ** (frequently asked questions) for IRC newbies. Please read this first before asking any questions! This file covers stuff like what is IRC, how is IRC set up, how to use a client, how to connect to a server, how to choose and join channels, and more than 20 other topics.
 
-[The IFAQ (Inordinately Frequently Asked Questions)](/irchelp/ifaq.html)
+[The IFAQ (Inordinately Frequently Asked Questions)](/faq/ifaq.html)
 
   This is sort of a **sequel to the IRC FAQ** above, addressing more obscure questions such as how to find somebody by their email, how to get your own server or get it linked, how to become an IRC op, how to get scripts, and over 20 others.
 
-[#IRChelp Channel FAQ](/irchelp/irchelpfaq.html)
+[#IRChelp Channel FAQ](/faq/irchelpfaq.html)
 
   This is the last FAQ but it's actually the **most up to date** one. This is the list of questions we are asked most often on the #IRChelp channel. If you're the type who likes to lurk and learn on the channel, you're probably better off reading this.
 
-[IRC Primer](/irchelp/ircprimer.html)
+[IRC Primer](/faq/ircprimer.html)
 
   This is the "bible" of IRC, a **very long but thorough discussion** of everything you ever wanted to know about IRC. The content is similar to the FAQs above, but it is presented more like a book with organized chapters and sections.
 
@@ -41,7 +41,7 @@ questions about IRC:
 
   This **advanced user guide** is designed to supplement the "standard" guides above. It is very up to date and has a **Undernet/mIRC emphasis**, but it's useful to everybody.
 
-[The New IRC Channel Operator's Guide](/irchelp/changuide.html)
+[The New IRC Channel Operator's Guide](/faq/changuide.html)
 
   This **advanced channel operator's guide** is very long and detailed, providing most of the information you need to run a stable, successful channel. You really should read all the above guides first, especially the IRC Tutorial.  [IRC Operator Guide](/ircd/ircopguide.html)
 
@@ -52,10 +52,12 @@ questions about IRC:
 
   * [IRC Prelude](/irchelp/new2irc.html)
   * [IRC Tutorial](/irchelp/irctutorial.html)
+{% comment %}
   * [IRC International](/misc/foreign.html)     **More Advanced**
-  * [IRC Primer](/irchelp/ircprimer.html)
-  * [FAQ from alt.irc](/irchelp/faq.html)
-  * [IFAQ](/irchelp/ifaq.html)
+{% endcomment %}
+  * [IRC Primer](/faq/ircprimer.html)
+  * [FAQ from alt.irc](/faq/altircfaq.html)
+  * [IFAQ](/faq/ifaq.html)
   * [IRC Command Cosmos](/misc/ccosmos.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
 
@@ -64,10 +66,12 @@ questions about IRC:
 
   * [Network/Server Lists](/irchelp/networks/)
   * [Server Request FAQ](/ircd/server-request.html)
+{% comment %}
   * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext)
   * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
+{% endcomment %}
 
-  * [Changes in Hybrid 6](hybrid6.html)
+  * [Changes in Hybrid 6](/ircd/hybrid/hybrid6.html)
   * [Server Numeric Headers](/ircd/numerics.html)
   * [Server Desyncs](/ircd/desync.html)
   * [Time Stamp](/ircd/ircserv.html)
