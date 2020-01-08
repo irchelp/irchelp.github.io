@@ -3,6 +3,7 @@ title: A Short IRC Primer
 layout: default
 datecreated: 1 June  1992
 dateupdated: 7 January 2020
+redirect_from: /irchelp/ircprimer.html
 ---
 * * *
 
