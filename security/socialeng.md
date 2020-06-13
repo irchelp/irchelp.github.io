@@ -9,7 +9,7 @@ redirect_from:
 
 # Social Engineering
 
-Social Engineering refers to a version of the classical confidence game. It's no small secret that the weakest link in computer security is often the person at the keyboard.
+Social engineering is a version of the classical confidence game. It is quite well-known that the weakest link in computer security is often the person at the keyboard.
 
 A social engineer takes advantage of the human tendency to trust, and may additionally take advantage of a user's lack of understanding of the system they are working with.
 
@@ -32,6 +32,7 @@ The same tactics are also used for channel takeovers, and to give attackers a la
 ## Protecting yourself
 
 * Understand that users on IRC and elsewhere may not have your best interests in mind.
-* Make sure you understand what any key combinations or commands will do before you execute them.
+* Make sure you understand what any key combinations or commands will do before you execute them. For example, if SomeBadUser tells you to type `/op somebaduser`, don't do it!
 * Don't accept unsolicited files from strangers, they might be Trojans.
-* Be especially wary of unsolicited "help".
+* Be especially wary of unsolicited "help"; the instructions might be destructive.
+* Don't pass on messages about malware or other security issues; they might be fake and may even _spread_ malware.
