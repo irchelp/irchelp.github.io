@@ -38,8 +38,6 @@ Translations:
   8. [Ausführlichere Hilfe](#hilfe)
   9. [Ein paar Warnungen](#warnungen)
 
-* * *
-
 ## 1. Was ist IRC, und wie funktioniert es ?
 {:#was}
 
@@ -87,8 +85,6 @@ IRC ist kein Computerspiel, und ich empfehle doch sehr, alle Leute, die du auf
 IRC triffst, genau so zu behandelt als wenn du dich im "echten Leben" mit ihnen
 unterhalten würdest.
 
-* * *
-
 ## 2. Ein paar Einzelheiten
 {:#ein}
 
@@ -135,8 +131,6 @@ where you are more welcome.
 IRC Operators sind also nur für den Server (technisch gesehen)
 verantwortlich, und mischen sich nicht in Channel-Gespräche ein. Sie sind vor
 allem _keine_ IRC Polizei o.ä.
-
-* * *
 
 ## 3. Reden und Eingeben von Kommandos.
 {:#reden}
@@ -205,8 +199,6 @@ servers, so it are unaffected by server lag, net splits, etc.
       Channel-Unabhängige Kommandos (wie z.B. /msg /quit /ping) funktionieren
       natürlich trotzdem.
 
-* * *
-
 ## 4. Wo sollte man hingehen
 {:#wo}
 
@@ -226,8 +218,6 @@ Um einen eigenen Channel mit dem Namen #mychannel zu eröffnen (vorausgesetzt,
  #mychannel existiert noch nicht), benutzt man wie beim Betreten von schon
 vorhandenen Channel /join, also tippt man /join #mychannel. Man bekommt in
 einem neueröffneten Channel automatisch Channel Op Status.
-
-* * *
 
 ## 5. Smilies und Jargon
 {:#jargon}
@@ -255,8 +245,6 @@ Hier sind IRC typische Abkürzungen, ihre Bedeutung sowie Übersetzung:
 	                                        (Help file, Readme, etc..)
 	rotfl = rolling on the floor laughing   über den Boden rollend
                                            (=auf dem Boden liegend), lachend
-
-* * *
 
 ## 6. Ein paar Hinweise
 {:#hinweise}
@@ -315,8 +303,6 @@ abuse](/irchelp/misc/irclog.html) when it violates server rules, which you can
 read by typing /motd.
 {% endcomment %}
 
-* * *
-
 ## 7. Probleme mit IRC servern, und wie man sich einen Server aussucht
 {:#server}
 
@@ -357,8 +343,6 @@ wird dcc chat mit Hilfe von /dcc chat nickname gestartet, und mit /msg
 =nickname (also dem zusätzlichen = vor dem nicknamen) benutzt. Geschlossen wird
 die Verbindung mit /dcc close nickname.
 
-* * *
-
 ## 8. Ausführlichere Hilfe
 {:hilfe}
 
@@ -374,8 +358,6 @@ server-numerics und [RFC1459](https://www.ietf.org/rfc/rfc1459.txt).
 Automatisierte Hilfe ist erreichbar über FreeSoft's client ai- auf EFNet.
 Einfach /msg ai- help eingeben. (Es sei erwähnt, daß zum Zeitpunkt der
 Übersetzung kein deutscher IRC-Server dem EFNet angehört.
-
-* * *
 
 ## 9. Ein paar Warnungen
 {:#warnungen}
@@ -410,4 +392,3 @@ helpful suggestions this file has greatly benefited.
 
 Übersetzt von / Translated by faber 
 
-* * *
