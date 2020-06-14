@@ -27,15 +27,15 @@ UnderNet is a centrally governed network, with a comparatively bureaucratic stru
 
 ## Official Channels
 
-- # Undernet - Undernet is a social channel for all users of the network.
+- \#Undernet - Undernet is a social channel for all users of the network.
 
-- # Cservice - Help with X and registered channels
+- \#Cservice - Help with X and registered channels
 
-- # Userguide - General Help from the User Committee
+- \#Userguide - General Help from the User Committee
 
-- # Usernames - Username related issues
+- \#Usernames - Username related issues
 
-- # zt & #Nastrand - Oper Help with Unregistered Channels
+- \#zt & \#Nastrand - Oper Help with Unregistered Channels
 
 ## Server List
 
