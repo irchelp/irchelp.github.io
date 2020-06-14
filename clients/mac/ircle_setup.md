@@ -5,8 +5,7 @@ layout: default
 redirect_from:
   - /irchelp/clients/mac/ircle.html
 ---
-#  ![*](/irchelp/Pix/ircle_spin.gif) Ircle Setup Guide
-![*](/irchelp/Pix/ircle_spin.gif)
+#  ![spin](/media/screenshots/ircle_spin.gif) Ircle Setup Guide ![spin](/media/screenshots/ircle_spin.gif)
 
 original version by [Jolo](http://deckard.mc.duke.edu/%7Ejyl/) at [http://www.
 irchelp.org/irchelp/mac/ircle_setup.html](http://www.irchelp.org/irchelp/mac/i
@@ -56,7 +55,7 @@ then see the following array of windows. To get connected, highlight the first
 line from the **Connection** window if it isn't already and click **Edit** (as
 shown by the red arrow).
 
-![](ircle_init.gif)
+![init](/media/screenshots/ircle_init.gif)
 
 ## Step 2. Setting up your personal information
 
@@ -72,7 +71,7 @@ such as to explore some of the other networks or to meet a friend on a
 specific server, click on the **Select** button (as shown by the red arrow)
 and go to the next step.
 
-![](ircle_conn.gif)
+![conn](/media/screenshots/ircle_conn.gif)
 
 _Note:_ you can check _Auto connect to server_ if you want Ircle to
 automatically make this connection when it is launched. You can check
@@ -88,7 +87,7 @@ for [EFnet](http://www.efnet.org/) North America, the biggest [IRC
 network](/irchelp/networks/). In the figure below I selected _irc.cris.com_.
 Now click **Select** to accept that change.
 
-![](ircle_serv.gif)
+![serv](/media/screenshots/ircle_serv.gif)
 
 ## Step 4. Adding a new server to the list
 
@@ -106,7 +105,7 @@ _irc.mo.net_ and _6666_ as shown below. If you know the network name like
 Finally click **OK**. This returns you to the **Server list** window where you
 can click **Select** to use your new or edited server.
 
-![](ircle_servadd.gif)
+![servadd](/media/screenshots/ircle_servadd.gif)
 
 ## Step 5. Miscellaneous personal information
 
@@ -116,7 +115,7 @@ on the tab on top labelled **Misc./CTCP** and fill in the blanks with anything
 you like. These replies are given when others query you with the _/ctcp
 yournick finger_ or _/ctcp yournick userinfo_ commands.
 
-![](ircle_misc.gif)
+![misc](/media/screenshots/ircle_misc.gif)
 
 _Note:_ the _Autoexec_ tab (between the _Identity_ and _Misc./CTCP_ tabs) will
 let you enter startup IRC commands that you routinely type when you first
@@ -136,7 +135,7 @@ some information. When the connection has been made, the status picture in the
 arrows. Before you go further, select **Save preferences** under the **File**
 menu so you won't have to redo these steps in the future.
 
-![](ircle_mo.gif)
+![mo](/media/screenshots/ircle_mo.gif)
 
 _What are those **Console** messages?_ The _identd_ is a way to confirm your
 identity (the username and your machine's IP address). After the connection is
@@ -161,7 +160,7 @@ on top _(#irchelp: irc.mo.net)_ while the channel topic is shown on the bottom
 _(Topic: Ask your IRC question etc.)_. To chat, I just type into the bottom
 **Inputline** window.
 
-![](ircle_irchelp.gif)
+![irchelp](/media/screenshots/ircle_irchelp.gif)
 
 _What are all these windows?_ The chatting is in the big window - purple for
 my speech, black for everybody else's speech, red for private messages, blue
@@ -179,7 +178,7 @@ to have arbitrary colors, sounds, and fonts. Here I've changed the colors and
 established simultaneous connections to 2 channels on different networks
 (EFnet's #irchelp and Undernet's #macintosh).
 
-![](ircle_2net.gif)
+![2net](/media/screenshots/ircle_2net.gif)
 
 ## Step 9. Quitting.
 
