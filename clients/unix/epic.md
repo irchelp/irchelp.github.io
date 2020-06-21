@@ -10,7 +10,9 @@ redirect_from:
 
 # EPIC
 
-[EPIC](http://www.spicsol.org) was originally forked from [ircII](/irchelp/clients/inix/ircii/) 2.8.2, and emerged at a time when ircII
+[EPIC](http://www.epicsol.org) was originally forked from 
+[ircII](/clients/unix/ircii) 
+2.8.2, and emerged at a time when ircII
 development was extremely stagnant. ircII's developer at the time was extremely
 conservative, with a narrow vision of what an IRC client should and shouldn't be
 and while many regarded 2.8.2 as the "perfect" ircII release, there were also
@@ -33,4 +35,4 @@ directed by the needs of script authors for over 20 years.
  * DCC REVERSE support
  * DCC RESUME support
  * IPv6 support
- * [Extensive documentation](http://www.epicsol.org/doku.php/help_root).
+ * [Extensive documentation](http://www.epicsol.org/help_root).
