@@ -15,7 +15,7 @@ redirect_from:
 
 ## Key Features
 
- * Extensible with scripts written in [Perl](www.perl.org)
+ * Extensible with scripts written in [Perl](http://www.perl.org)
  * Fully configurable keybindings, formats, and themes.
  * irssi-proxy (client can be used as a bouncer for another client)
 
