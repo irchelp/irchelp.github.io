@@ -96,10 +96,11 @@ Creating an IRC client without internet was probably not my brightest hour. :P
 [Contact](https://dev.adiirc.com/projects/adiirc/wiki/contact)
 
 **IRC Channels:**
-[#AdiIRC](irc://chat.freenode.net/#adiirc) on [freenode](#) (official) |
-[#AdiIRC](irc://irc.nordicirc.com/#adiirc) on [NordicIRC](#) |
-[#AdiIRC](irc://irc.rizon.net/#adiirc) on [Rizon](#) |
-[#AdiIRC](irc://irc.​electrocode.​net/#adiirc) on [ElectroCode](#) | [(more)](https://dev.adiirc.com/projects/adiirc/wiki/IRC_Channels)
+[#AdiIRC](irc://chat.freenode.net/#adiirc) on freenode (official) |
+[#AdiIRC](irc://irc.nordicirc.com/#adiirc) on NordicIRC |
+[#AdiIRC](irc://irc.rizon.net/#adiirc) on Rizon |
+[#AdiIRC](irc://irc.​electrocode.​net/#adiirc) on ElectroCode | 
+[(more)](https://dev.adiirc.com/projects/adiirc/wiki/IRC_Channels)
 
 
 ## Screenshots {#screenshots}
@@ -148,7 +149,7 @@ modeled after the popular [mIRC](mirc) client, and written in C# (C-Sharp).
 Compatible with Windows XP and later, and runs fine in Wine for Linux and
 MacOS.  ~~AdiIRC is supported by donations.~~  The author, Per Amundsen, no
 longer accepts monetary gain, but you could hire him at your Fortune 500
-company! &Hat;&lowbar;&Hat;
+company! ^\_^
 
 > Q: What does "Adi" stands for? <br />
 > A: Nothing really. It's an old prefix used for some other projects many years
@@ -160,14 +161,14 @@ company! &Hat;&lowbar;&Hat;
 ## Features {#features}
 
 Some of the features AdiIRC boasts include; [Scripting](#scripting) support with
-sophisticated debugging, an advanced [Theming](#theming) engine, Spell checker,
+sophisticated debugging, an advanced [Theming](#themes) engine, Spell checker,
 Language translations, IRCv3 compatibility, advanced server/network database,
 SASL / Services support, Regular expression search, and of course Emoticons. ;)
 
 
 ## Scripting {#scripting}
 
-AdiIRC supports a variant of the [mIRC Scripting Language](#) (mSL), with its
+AdiIRC supports a variant of the [mIRC Scripting Language](#scripting) (mSL), with its
 own additions and deviations from the official mIRC supported script.  Some
 features and syntactic behaviors may not work as expected, but the developer is
 fairly responsive to bug reports and suggestions for improvement.
