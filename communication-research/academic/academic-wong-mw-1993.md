@@ -1,3 +1,4 @@
+{% comment %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML lang="en">
 <HEAD>
@@ -13,6 +14,7 @@
 <AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38" ALT="">
 <AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38" ALT="">
 </MAP>
+{% endcomment %}
 
 <center>
   <table width="600" border="0" cellspacing="0" cellpadding="0">
@@ -21,9 +23,9 @@
     </tr>
     <tr> 
       <td height="17" align="center"> 
-        <h4><b><a href="/irchelp/communication-research/">IRC Communication Research 
+        <h4><b><a href="..">IRC Communication Research 
           Resources</a></b></h4>
-        <h4><b><a href="/irchelp/communication-research/academic/">Academic Resources</a></b></h4>
+        <h4><b><a href=".">Academic Resources</a></b></h4>
       </td>
     </tr>
     <tr> 
@@ -56,7 +58,7 @@
           we need<br>
           | a whole new vocabulary to define "frienships" (or more, or less) on 
           the<br>
-          | infiNET.</p>
+          | infiNET.<p/>
         <p>Two thoughts come to mind. </p>
         <p>Many of us have made built great friendships on the net. And I must 
           admit that there <i>is</i> a certain "spell" associated with a net-relationship 
@@ -147,18 +149,21 @@
         <p> 
         <hr size="1" noshade>
         <p></p>
+{% comment %}
         <p>Go to <a href="http://seas.upenn.edu/~mengwong/meng.html">Meng's Home 
           Page.</a></p>
+{% endcomment %}
         <p><b>Disclaimer: This document in no way represents the University of 
           Pennsylvania. All opinions and errors are mine alone. </b></p>
         <address>mengwong@seas.upenn.edu</address>
-      </td>
-    </tr>
-  </table>
+      <td/>
+    <tr/>
+  <table/>
 
 
-</center>
+<center/>
 
+{% comment %}
 <HR>
 <CENTER>
 <!-- navigation bar -->
@@ -179,3 +184,4 @@
 
 </BODY>
 </HTML>
+{% endcomment %}
