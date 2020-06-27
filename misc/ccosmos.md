@@ -5,7 +5,15 @@ redirect_from:
   - /irchelp/misc/ccosmos.html
 ---
 
-**Ed. note:** This guide is intended for advanced users, others should first check out our many introductory [help files](/irchelp/faq.html). As the author pointed out, this guide is primarily for [Undernet](http://servers.undernet.org/), but much of this information also applies to other networks as well. This file is mirrored with permission of the author, see also his [frames-enabled version](http://www.student.uib.no/%7Est01369/ccosmos/ccosmos.html).
+**Ed. note:** This guide is intended for advanced users, others should first
+check out our many introductory [help files](/faq/new2irc.html). As the author
+pointed out, this guide is primarily for
+[Undernet](https://www.undernet.org/), but much of this information also
+applies to other networks as well. This file is mirrored with permission of the
+author.
+{% comment %}
+see also his [frames-enabled version](http://www.student.uib.no/%7Est01369/ccosmos/ccosmos.html).
+{% endcomment %}
 
 * * *
 
@@ -15,103 +23,8 @@ Edition 2.2, August 2002
 
 Up to date as of u2.10.11.rc.1
 
-
-
-
-    * 1 Introduction
-      * 1.1 Why this guide?
-      * 1.2 What does The IRC Command Cosmos contain?
-      * 1.3 Is my net using ircu?
-      * 1.4 Hiding the Undernet
-      * 1.5 Changes in this edition of The IRC Command Cosmos
-      * 1.6 Getting the latest version and contacting the author
-    * 2 People
-      * 2.1 nick
-      * 2.2 privmsg
-      * 2.3 Notice
-      * 2.4 Whois
-      * 2.5 Usermodes
-        * 2.5.1 All the modes for a nick
-        * 2.5.2 Finding peoples modes
-        * 2.5.3 Server notice masks
-      * 2.6 Getting seconds idle
-      * 2.7 Searching for people
-        * 2.7.1 Searching by address
-        * 2.7.2 Searching by nick
-        * 2.7.3 Searching it all
-        * 2.7.4 Note on invisibility
-      * 2.8 Finding an IRCop
-      * 2.9 userhost / userip
-      * 2.10 Whowas
-      * 2.11 away
-      * 2.12 silence
-      * 2.13 ISON
-      * 2.14 WHO with advanced parameters
-      * 2.15 /quit
-    * 3 Channels
-      * 3.1 join
-      * 3.2 Local channels
-      * 3.3 The modeless channel. Equality by simplicity
-      * 3.4 /part and /quit with comments
-      * 3.5 Channelmodes
-        * 3.5.1 All the modes for a channel
-        * 3.5.2 /Topic and retrieving channelmodes
-        * 3.5.3 Difference between +p and +s
-      * 3.6 /invite will find a way
-      * 3.7 "Shutting their mouth." Powerfull chanops-feature
-      * 3.8 kick
-      * 3.9 names. Listing the inhabitants
-      * 3.10 Cnotice/Cprivmsg. A "too many targets" exception
-      * 3.11 Wallchops
-    * 4 The net
-      * 4.1 Network structure and overview
-        * 4.1.1 lusers
-        * 4.1.2 map
-        * 4.1.3 links
-        * 4.1.4 list, with extensions
-        * 4.1.5 trace
-      * 4.2 Specific server
-        * 4.2.1 motd
-        * 4.2.2 time
-        * 4.2.3 admin
-        * 4.2.4 help
-        * 4.2.5 info
-        * 4.2.6 version
-        * 4.2.7 Decoding serveroptions in "version"
-    * 5 STATS. Query for retrieving various data and statistics
-      * 5.1 Who's allowed in and how.
-        * 5.1.1 k K-line
-        * 5.1.2 g G-line
-        * 5.1.3 i I-line
-        * 5.1.4 o O-line
-        * 5.1.5 y Y-line
-      * 5.2 Server-server connections
-        * 5.2.1 c
-        * 5.2.2 U (uppercase)
-      * 5.3 Statistics-related commands
-        * 5.3.1 m (lowercase)
-        * 5.3.2 l
-        * 5.3.3 p
-        * 5.3.4 t (lowercase)
-        * 5.3.5 z
-        * 5.3.6 w
-        * 5.3.7 M (uppercase)
-        * 5.3.8 r and x
-        * 5.3.9 u (lowercase)
-    * 6 Discussions
-      * 6.1 A look under the hood
-      * 6.2 Privacy and anonymity on IRC
-      * 6.3 What's a ping? Meet CTCP and DCC
-      * 6.4 What's lag and bandwidth?
-      * 6.5 Desyncs after a netburst
-      * 6.6 Obscure commands
-      * 6.7 What's Uworld, X and Cservice?
-      * 6.8 Summary of Undernet anti-flood measures.
-      * 6.9 Characters on IRC
-    * 7 The logon procedure
-    * 8 Other resources
-      * 8.1 Undernet Channels
-      * 8.2 Web resources
+* auto-gen TOC:
+{:toc}
 
 The IRC Command Cosmos, an advanced guide to IRC commands.
 
@@ -120,12 +33,11 @@ Edition 2.2, August 2002
 Up to date as of u2.10.11.rc.1
 
 
+{:#sec1}
+#  1 Introduction 
 
-
-
-#  **1 Introduction **
-
-##  **_1.1 Why this guide?_**
+{:#sec1-1}
+##  1.1 Why this guide?
 
 The average IRC-guides around tend to teach only the basics or they'r
 hopelessly outdated and mix IRC-commands with the IRCII 1) client commands.
@@ -137,8 +49,8 @@ If you are new to IRC, I suggest you go for the other guides first,
 ([http://www.irchelp.org/](http://www.irchelp.org/) or
 [http://www.undernet.org/](http://www.undernet.org/)) but if you're fairly
 familiar with IRC and want to fetch some interesting and often usefull
-commands, ([2.6](ccosmos.html#_Ref439871180) and
-[3.7](ccosmos.html#_Ref439868930) beeing highlights) you've come to the right
+commands, ([2.6](#sec2-5) and
+[3.7](#sec3-7) beeing highlights) you've come to the right
 guide! :-)
 
 
@@ -146,10 +58,10 @@ guide! :-)
 today.
 
 
+{:#sec1-2}
+##  1.2 What does The IRC Command Cosmos contain?
 
-##  **_1.2 What does The IRC Command Cosmos contain? _**
-
-An explanation for every command on the IRC network **Undernet **or other nets
+An explanation for every command on the IRC network **Undernet** or other nets
 using the latest **ircu** software 1), except service-commands 2) and those
 commands restricted to IRC-Operators only.
 
@@ -172,11 +84,11 @@ year, depending on the upcoming changes.
 
 
 1) ircu: The server-software developed by Undernet and also used by several
-other networks. See [http://coder-com.undernet.org/](http://coder-
-com.undernet.org/) for the most recent version. Some networks have developed
+other networks. See <http://coder-com.undernet.org/>
+for the most recent version. Some networks have developed
 their software starting from earlier versions of ircu. A former developer
 started his own branch of ircu,
-([http://ircu.sourceforge.net/](http://ircu.sourceforge.net/)) claiming this
+(<http://ircu.sourceforge.net/>) claiming this
 to be the "real" ircu. This guide however, choose not to deal with specifics
 for this or other branches of ircu. Still, much in this guide will apply to
 them as well.
@@ -192,19 +104,20 @@ e.t.c to work at all. The client protocol is more or less defined in RFC1459,
 a document that defined the "original" IRC. There exist other documents, like
 RFC2812, but 1459 is the only one who can claim authority among all the
 various nets, even though it itself is outdated. See ISUPPORT messages
-([7](ccosmos.html#_Ref17402031)) for another way to bridge the divide.
+([7](#sec7)) for another way to bridge the divide.
 
+{:#sec1-3}
+##  1.3 Is my net using ircu?
 
+Many of the smaller IRC networks are using various versions of ircu. To test if
+your net does, log into IRC and type /version. if the reply starts with
+u2...e.t.c, it's using a version of ircu, e.g 2.10.10. If it dosn't, you could
+also type /info and see if it mentions Undernet or ircu. Some nets run software
+based on an ircu version, but with their own tweaks and additions which /info
+ought to tell you about.
 
-
-##  **_1.3 Is my net using ircu?_**
-
-
-    Many of the smaller IRC networks are using various versions of ircu. To test if your net does, log into IRC and type /version. if the reply starts with u2...e.t.c, it's using a version of ircu, e.g 2.10.10. If it dosn't, you could also type /info and see if it mentions Undernet or ircu. Some nets run software based on an ircu version, but with their own tweaks and additions which /info ought to tell you about.
-
-
-
-##  **_1.4 Hiding the Undernet_**
+{:#sec1-4}
+##  1.4 Hiding the Undernet
 
 Early in 2001, Undernet was struck with a massive Denial Of Service-attack,
 bringing down the channelservice and prompting several servers to leave the
@@ -219,21 +132,21 @@ proposal took effect from ircu2.10.10.pl14
 These commands are disabled:
 
 
-Every /STATS ([5](ccosmos.html#_Ref517255557)) except P, u and W
+Every /STATS ([5](#sec5)) except P, u and W
 
-/map ([4.1.2](ccosmos.html#_Ref452377474))
+/map ([4.1.2](#sec4-1-2))
 
-/links ([4.1.3](ccosmos.html#_Ref517255651))
+/links ([4.1.3](#sec4-1-3))
 
-/trace ([4.1.5](ccosmos.html#_Ref517255654))
+/trace ([4.1.5](#sec4-1-5))
 
-+s, +w and +g nickmode ([2.5](ccosmos.html#_Ref504700445))
++s, +w and +g nickmode ([2.5](#sec2-5))
 
 
 the names of irc-servers are hidden in /who
-([2.14](ccosmos.html#_Ref517358862)), /whois
-([2.4](ccosmos.html#_Ref517358888)), /whowas
-([2.10](ccosmos.html#_Ref517358911)) and in netsplits and forced modechanges.
+([2.14](#sec2-14)), /whois
+([2.4](#sec2-4)), /whowas
+([2.10](#sec2-10)) and in netsplits and forced modechanges.
 Remote /whois dosn't depend on knowing the server and is still allowed. _All
 other remote queries are or will be disabled_.
 
@@ -264,19 +177,19 @@ college of your choice! Visit your local library today!)
 
 **Help to selfhelp**
 With /map gone,
-[http://www.undernet.org/servers.php](http://www.undernet.org/servers.php)
+<http://www.undernet.org/servers.php>
 keep a list of servers on undernet, minus the dedicated routing servers. In
 addition, there's still a few commands left for the eager scripter-soul to
 exploit:
 
 
 
-  * before 2.10.10.pl15: Remote /admin ([4.2.3](ccosmos.html#_Ref517258033)) tests if a known server is connected to the net and support wildcards which return first matching. Maybe something about the network structure can be deduced from who's _first_?
+  * before 2.10.10.pl15: Remote /admin ([4.2.3](#sec4-2-3)) tests if a known server is connected to the net and support wildcards which return first matching. Maybe something about the network structure can be deduced from who's _first_?
 
 
   * before 2.10.11: Another way to check if a server is in the net without connecting to it is doing a remote serverping by its full name: `/raw ping servername` will return `PONG from yourserver yournick` if the server is connected, and `PONG from yourserver servername` if it's not. Apparently the ping never goes remote but is checked against the list of servers nontheless.
 
-  * The extended /msg syntax ([2.2](ccosmos.html#_Ref489375893)) allow for a quick brute-force search determining which server a nick is on. In ircu2.10.11.rc1 it will not send any message but amazingly still triggers a "no such nick" if you write in a non-existing servername. I have, for the lack of netsplits, been unable to check if the name is looked up in the list of connected servers or merely the static list of Undernet-servers that every server keeps locally. (anyone more versed in C out there?)
+  * The extended /msg syntax ([2.2](#sec2-2)) allow for a quick brute-force search determining which server a nick is on. In ircu2.10.11.rc1 it will not send any message but amazingly still triggers a "no such nick" if you write in a non-existing servername. I have, for the lack of netsplits, been unable to check if the name is looked up in the list of connected servers or merely the static list of Undernet-servers that every server keeps locally. (anyone more versed in C out there?)
 
 
 The tricks above suppose that the full servername (e.g
@@ -286,7 +199,7 @@ latest removals, beeing able to refer to a remote servers' name turns out as a
 non-essential feature in itself.
 
 The servers already refer to themselves by shorter nicks
-([4.1.2](ccosmos.html#_Ref452377474)) when communicating between themselves,
+([4.1.2](#sec4-1-2)) when communicating between themselves,
 only translating for the users using a local list of names. As remote
 servernames don't get displayed anymore, renaming the servers in this list
 would stop the above exploits with no changes in the code. This however is
@@ -294,102 +207,103 @@ impractical, so these tricks ought to be around up to some given ircu-version.
 
 
 
-  * The simplest and best tool is still ping ([6.3](ccosmos.html#_Ref517258077)). With users in a channel running some script, a usefull lag-map could still be constructed among those in a channel, giving suggestions of lesser lagged servers, regardless of the underlying network structure. There must be a script for this around already?
+  * The simplest and best tool is still ping ([6.3](#sec6-3)). With users in a channel running some script, a usefull lag-map could still be constructed among those in a channel, giving suggestions of lesser lagged servers, regardless of the underlying network structure. There must be a script for this around already?
 If we suppose that servers with lagged connections are seldomly hubs in the
-network, ([4.1.2](ccosmos.html#_Ref452377474)) it follows that changing to any
+network, ([4.1.2](#sec4-1-2)) it follows that changing to any
 other server will get you past its lagged connection, and so there's little
 need to consult the tree-structure. In June 2001, 17 out of 25 servers visible
 in /map were leafs, and some of the hubs were dedicated ones not allowing
 client-connections. (today, all hubs on Undernet are, far as I gather,
 unavailable to users)
 
-  * The difference between clients and users in /lusers ([4.1.1](ccosmos.html#_Ref517258284)) will tell you how many connections your server has to other servers and from that if it is a hub or purely a leaf.
+  * The difference between clients and users in /lusers ([4.1.1](#sec4-1-1)) will tell you how many connections your server has to other servers and from that if it is a hub or purely a leaf.
 
-  * The propagation of the /silence settings ([2.12](ccosmos.html#_Ref517258830)) leave a trail across the net from the sending server via every intermediary to the receiving one. As we are allowed to see the propagated parts of other users' silence-settings, one could traverse the servers winding up the thread like some cyber-Ariadne. Together with the information from /lusers and imposing the necessary tree-structure, ([4.1.2](ccosmos.html#_Ref452377474)) it shouldn't be too hard to get the overview again. Almost as good as /map and twice the fun. :-)
+  * The propagation of the /silence settings ([2.12](#sec2-12)) leave a trail across the net from the sending server via every intermediary to the receiving one. As we are allowed to see the propagated parts of other users' silence-settings, one could traverse the servers winding up the thread like some cyber-Ariadne. Together with the information from /lusers and imposing the necessary tree-structure, ([4.1.2](#sec4-1-2)) it shouldn't be too hard to get the overview again. Almost as good as /map and twice the fun. :-)
 
 
 
     In addition there's littered with smaller glimpses of servernames in /kill, /who, /quit, /whowas netsplits, the use of local channels e.t.c in serverversions between ircu2.10.10 and 10.11. Should any of you implement the tricks above or find other loopholes yourself in 2.10.11, why not drop me a mail? (Well, to keep it to yourself and stop the ircu-coders from fixing it, but how does such secrecy fit with a hacker-mentality?)
 
 
-##  **_1.5 Changes in this edition of The IRC Command Cosmos_**
+{:#sec1-5}
+##  1.5 Changes in this edition of The IRC Command Cosmos
 
 Since edition 2.1, the following sections have changed, mostly due to changes
 in ircu between 2.10.10.pl14 and 2.10.11.rc.1
 
 
-[1.4](ccosmos.html#_Ref17405996): Updating the self-to-selfhelp to reflect
+[1.4](#sec1-4): Updating the self-to-selfhelp to reflect
 ircu development
 
-[2.5.1](ccosmos.html#_Ref17392428): +w, along with +g and +s are not allowed
+[2.5.1](#sec2-5-1): +w, along with +g and +s are not allowed
 on Undernet. (and has been disallowed for a while)
 
-[2.5.1](ccosmos.html#_Ref17392428) and [3.5.1](ccosmos.html#_Ref504735579):
+[2.5.1](#sec2-5-1) and [3.5.1](#sec3-5-1):
 Nickmodes +r, +x and channelmode +r introduced for upcoming channelservice
 upgrades and added security through host-hiding (we've been waiting for this
 one! :-D)
 
-[2.6](ccosmos.html#_Ref17402275): Individual servers may choose to hide the
+[2.6](#sec2-6): Individual servers may choose to hide the
 idletime in a remote /whois
 
-[2.9](ccosmos.html#_Ref17392199): An elaboration on the difference between
+[2.9](#sec2-9): An elaboration on the difference between
 /userip and /dns
 
-[2.12](ccosmos.html#_Ref17392355): beeing able to see other users' /silence
+[2.12](#sec2-12): beeing able to see other users' /silence
 list is not a bug, it's a feature!
 
-[2.14](ccosmos.html#_Ref17401282): extended /who didn't display both @ and +
+[2.14](#sec2-14): extended /who didn't display both @ and +
 if a user were both op and voiced in the same channel
 
-[3.2](ccosmos.html#_Ref472441475): bugfix for /invite to local channels
+[3.2](#sec3-2): bugfix for /invite to local channels
 
-[3.5.1](ccosmos.html#_Ref504735579): Changing into a banned nick while in
+[3.5.1](#sec3-5-1): Changing into a banned nick while in
 channel now properly ban you and the modes +b and +m now stops you from
 sending to the channel from outside, even if it is -n.
 
-[3.5.2](ccosmos.html#_Ref17392317): the propagation of topics is now less
+[3.5.2](#sec3-5-2): the propagation of topics is now less
 noisy
 
-[3.11](ccosmos.html#_Ref17391883): Daniel Corkill solved the /wallchops vs
+[3.11](#sec3-11): Daniel Corkill solved the /wallchops vs
 /notice inconsistency
 
-[4.1.4](ccosmos.html#_Ref17391956): A new /list stop feature added (Why didn't
+[4.1.4](#sec4-1-4): A new /list stop feature added (Why didn't
 anyone think of it before? A Coloumbi-egg)
 
-[4.2.7](ccosmos.html#_Ref17392257): A new but uninteresting serveroption in
+[4.2.7](#sec4-2-7): A new but uninteresting serveroption in
 /version
 
-[6.9](ccosmos.html#_Ref504696823): A problem with characters and banning.
+[6.9](#sec6-9): A problem with characters and banning.
 Luckily only of academic interest.
 
-[7](ccosmos.html#_Ref17391997): Updating information about the ISUPPORT
+[7](#sec7): Updating information about the ISUPPORT
 messages and adding rumours about a novel use of the passworded login
 
-[8](ccosmos.html#_Ref17391928): Addes some more weblinks and channels
+[8](#sec8): Addes some more weblinks and channels
 
 
 The STATS section does not reflect recent changes in the ircu code after
 Undernet barred access to them, but I may get back to these if I find an ircu-
 network where they are actually viewable by users or I get around to compile
-ircu on my computer. Until then I must refer to [the coder-com
-website](http://www.coder-com.undernet.org/).
+ircu on my computer. Until then I must refer to 
+[the coder-com website](http://www.coder-com.undernet.org/).
 
 
 
+{:#sec1-6}
+##  1.6 Getting the latest version and contacting the author
 
-##  **_1.6 Getting the latest version and contacting the author_**
-
-The latest edition is always available at [http://www.student.uib.no/~st01369/
-ccosmos/](http://www.student.uib.no/~st01369/ccosmos/) A mirror is available
-at [http://www.irchelp.org/irchelp/misc/ccosmos.html](http://www.irchelp.org/i
-rchelp/misc/ccosmos.html). The last URL is probably the most permanent.
+The latest edition is always available at `http://www.student.uib.no/~st01369/
+ccosmos/` A mirror is available
+at <http://www.irchelp.org/irchelp/misc/ccosmos.html>.
+The last URL is probably the most permanent.
 
 If you wish to be notified of new editions, please visit
-[http://www.topica.com/lists/ccosmos](http://www.topica.com/lists/ccosmos) to
+`http://www.topica.com/lists/ccosmos`
 register. (No, I won't use your e-mail address for anything else and I won't
 give it out to anyone. :-)
 
-Feel free to contact [me](http://www.student.uib.no/~st01369/indexe.html) with
+Feel free to contact me `http://www.student.uib.no/~st01369/indexe.html` with
 your corrections, suggestions or comments. As for quoting and noncommercial
 distribution: Go ahead, as long as the guides' name and a link to its original
 location is kept and the text isn't altered substantially without stating so.
@@ -398,13 +312,15 @@ If you'r mirroring the guide, drop me a note and I'll include a link to it.
 
 
 
-#  **2 People**
+{:#sec2}
+#  2 People
 
-##  **_2.1 nick_**
+{:#sec2-1}
+##  2.1 nick
 
 Sets your nick. Syntax: /nick yournewnick The maximum nicklenght on Undernet
-is 9 characters. See NICKLEN in chapter [7](ccosmos.html#_Ref504696758) for
-the length at your net and [6.9](ccosmos.html#_Ref504696823) for legal
+is 9 characters. See NICKLEN in chapter [7](#sec7) for
+the length at your net and [6.9](#sec6-9) for legal
 characters in a nick.
 
 
@@ -414,9 +330,10 @@ You can not change your nick more than once in 30 secs, or twice if it's been
 unchanged for 60 secs already.
 
 You can't change your nick if you'r in a channel where you'r banned, see
-[3.7](ccosmos.html#_Ref489212253)
+[3.7](#sec3-7)
 
-##  **_2.2 privmsg_**
+{:#sec2-2}
+##  2.2 privmsg
 
 Syntax: `/privmsg receiver text`
 
@@ -424,10 +341,10 @@ If the receiver is a nick, this equals talking to someone in a private window.
 
 If the receiver is a channel and you'r in it, it equals typing something in
 the channel. also see the sister-command /notice
-([2.3](ccosmos.html#_Ref517613738))
+([2.3](#sec2-3))
 
 /msg as it is called in mIRC, could also be used for external messages. (See
-+n [3.5](ccosmos.html#_Ref472444591)). When you send a message to a channel
++n [3.5](#sec3-5)). When you send a message to a channel
 from outside with /notice, mIRC and other clients will treat it correctly,
 while an external /privmsg will appear as if an invisible nick suddenly raised
 its voice. According to some this is still the correct way, according to
@@ -450,7 +367,7 @@ Didn't some IRC-virus implement that already?)
 
 
 PRIVMSG is also taking care of the /me statements. See
-[6.3](ccosmos.html#_Ref489375252)
+[6.3](#sec6-3)
 
 
 The /raw (or /quote) command is how you bypass aliases and your clients
@@ -469,12 +386,12 @@ resides on. This syntax were intended for sending your password to the
 channelservice bots, so that you wouldn't mistakeingly send it to someone else
 posing as them on another network. On Undernet, you could never change your
 nick into typical service-nicks anyway. (see
-[5.2.2](ccosmos.html#_Ref517205759))
+[5.2.2](#sec5-2-2))
 
 
 Example:
 
-The nick Timo has the address "*.surfers.org" and is using the irc-server
+The nick Timo has the address "\*.surfers.org" and is using the irc-server
 "Oslo-R.NO.EU.Undernet.org"
 
 `/msg Timo%*.surfers.org@Oslo-R.NO.EU.Undernet.org Hi there! You won't see
@@ -492,7 +409,8 @@ us with a brute-force way to find a persons' irc-server.
 
 
 
-##  **_2.3 Notice _**
+{:#sec2-3}
+##  2.3 Notice
 
 Syntax: `/notice receiver text` where receiver is nick or channel.
 
@@ -511,32 +429,33 @@ Bot1: I don't understand the command "Sorry, I'm turned off".
 Bot2: Sorry I'm turned off.
 
 
-A ping Query/Reply between users ([6.3](ccosmos.html#_Ref517258077)) is a good
+A ping Query/Reply between users ([6.3](#sec6-3)) is a good
 example of an automated PRIVMSG/NOTICE pair.
 
 NOTICE-messages may be treated slightly different than PRIVMSG when displayed
 in mIRC, both in color and which window they'r displayed in. Just as PRIVMSG,
 you may msg both channels and person. You may send a notice to the channelops
-alone with: `/notice @#channel text` ([3.11](ccosmos.html#_Ref489205106))
+alone with: `/notice @#channel text` ([3.11](#sec3-11))
 
 
 
-##  **_2.4 Whois_**
+{:#sec2-4}
+##  2.4 Whois
 
 Syntax: `/whois nick1,nick2, ...`
 
 Basic information about a nick. A central command in IRC and it pops up all
-through this guide. Usermodes ([2.5](ccosmos.html#_Ref504700445)), getting
-seconds idle ([2.6](ccosmos.html#_Ref508316173)) e.t.c Notice that the
+through this guide. Usermodes ([2.5](#sec2-5)), getting
+seconds idle ([2.6](#sec2-6)) e.t.c Notice that the
 channels in the whois reply are sorted with the channel the nick joined first
 as the rightmost.
 
 The full internet-address for the user is shown in the whois, also see
-[2.9](ccosmos.html#_Ref517424379). Some nets hide the first part of the
+[2.9](#sec2-9). Some nets hide the first part of the
 address, as an attempt to combat attacks which involve the users' address, e.g
 portscanning and pinging. Then only IRC-operators may see the full address.
 (something like this is in the making on Undernet, see
-[2.5.1](ccosmos.html#_Ref17403958)) Others will send an IDENTD request to
+[2.5.1](#sec2-5-1)) Others will send an IDENTD request to
 verify the username. mIRC usually handles that. For more information about
 identd, see the IDENTD RFC. (RFC1413) or check the undernet homepage.
 
@@ -547,13 +466,13 @@ Debet is ~ted@modem68.johnsonconsulting.com * Accountancy RULEZ
 
 Debet on @#spreadsheet-newbies
 
-Debet using *.undernet.org The Undernet Underworld
+Debet using \*.undernet.org The Undernet Underworld
 
 Debet End of /WHOIS list.
 
 
 The ~ means that no IDENT has verified the username ted and Debet is an op on
-#spreadsheet-newbies.
+\#spreadsheet-newbies.
 
 The network does not hide his internet-address modem68.johnsonconsulting.com
 but it hides what IRC-server he is using, an ircu2.10.10-something feature.
@@ -561,8 +480,10 @@ but it hides what IRC-server he is using, an ircu2.10.10-something feature.
 
 
 
-##  **_2.5 Usermodes _**
+{:#sec2-5}
+##  2.5 Usermodes
 
+{:#sec2-5-1}
 ###  2.5.1 All the modes for a nick
 
 Here's all the modes available for a nick.
@@ -570,51 +491,39 @@ Here's all the modes available for a nick.
 
 Syntax: `/mode <nickname> {[+|-]mode(s)}`
 
-
-
 i
-
-Makes you invisible. See "Note on invisibility"
-([2.7.4](ccosmos.html#_Ref439928743))
-
-
+: Makes you invisible. See "Note on invisibility"
+([2.7.4](#sec2-7-4))
 
 s
-
-Receives server notices. You receive various information sent between servers.
+: Receives server notices. You receive various information sent between servers.
 Mostly kills and G-lines, but also nickname collisions, invalid usernames,
-splits e.t.c See [2.5.3](ccosmos.html#_Ref439928808) for masks for this
+splits e.t.c See [2.5.3](#sec2-5-3) for masks for this
 command. (ircu only)
 
-
-
 w
-
-Receives wallops. The IRCops broadcast messages with this, you might even
+: Receives wallops. The IRCops broadcast messages with this, you might even
 catch an IRCop-conversation! (Almost like tuning in on the police-radio, eh?
 :-P ) As for the moment, "uworld.undernet.org", that is the X service on
 Undernet, uses the Wallops too. ircu2.10.10 has the option of disabling this
 for regular users
 
 g
-
-[New in ircu2.10.04] You receive "HACK wallops". After a desynch of the net,
+: [New in ircu2.10.04] You receive "HACK wallops". After a desynch of the net,
 servers would start mending it and creating large amount of these wallops.
 This tended to flood the user and desynchs were even created to do just that.
 Therefore these wallops were moved to beeing "DESYNCH messages", displayed as
 wallops to the user if he were +g
 
 d
-
-Deaf in all channels. Ircu only. You won't "hear" a thing that's said in the
+: Deaf in all channels. Ircu only. You won't "hear" a thing that's said in the
 channels. Private messages get trough though. Primary reason is making the job
 easier for service bots that dosn't want to process channel messages. Makes
 logging of changes in chan easier too, and would suffice as an overly brute
 channel-flood stopper.
 
 x
-
-On a network where everyone runs ircu2.10.11 or above, you will be able to
+: On a network where everyone runs ircu2.10.11 or above, you will be able to
 turn on this mode _after_ logging into X on Undernet or whatever service your
 net would be running. setting this mode hides your hostname (your internet
 address) in the /whois reply and elsewhere. The hostname
@@ -628,42 +537,43 @@ carried out on IRC, but be aware that taking part in a DCC chat or
 filetransfer will reveal your IP-address, so turn off automatic acceptance of
 these if you want to use +x.
 
-Also see use of passwords during logon ([7](ccosmos.html#_Ref17379451))
+Also see use of passwords during logon ([7](#sec7))
 
 
 In addition, there's the operator flag, (+o) that indicates an operator, the
 zombie-flag "!" used halfway in mending a netsplit, +k that's used by the
 channelservice. And +r to signify a logged-in service account, a prerequisite
-to set +x. (See [3.5.1](ccosmos.html#_Ref504735579) for details on +r)
+to set +x. (See [3.5.1](#sec3-5-1) for details on +r)
 
 No one can kick or deop +k clients from a channel, and they may also message
 any channel from outside, regardless of any restriction. You may /msg +k users
-regardless of target-restrictions. ([3.10](ccosmos.html#_Ref517632913),
-[7](ccosmos.html#_Ref517632925)) Lastly, a whois on a +k won't show the
+regardless of target-restrictions. ([3.10](#sec3-10),
+[7](#sec7)) Lastly, a whois on a +k won't show the
 channels it's on.
 
 
 Note that Undernet do not let ordinary users see w, g and s messages. The
 ability to disallow that has been around since ircu2.10.10. (see
-[1.4](ccosmos.html#_Ref17405996))
+[1.4](#sec1-4))
 
 
 
 
 
+{:#sec2-5-2}
 ###  2.5.2 Finding peoples modes
 
 You'll spot a +d in the who and whois reply.
 
 Example:
 
-"/Who mowgli" returns: `mowgli Hd* mow@ppp-21.treetop.jungle.br :3 Baloo-Bot
+"/Who mowgli" returns: `mowgli Hd\* mow@ppp-21.treetop.jungle.br :3 Baloo-Bot
 TM`
 
-Hd means the user is _H_ere (as opposed to _G_one, i.o.w
-away([2.11](ccosmos.html#_Ref452375100))) and that mode d (deaf) is on. The *
+Hd means the user is _H_-ere (as opposed to _G_-one, i.o.w
+away([2.11](#sec2-11)) and that mode d (deaf) is on. The *
 tells us he's an IRCop. :3 means the hopcount is 3.
-([4.1.5](ccosmos.html#_Ref439929681))
+([4.1.5](#sec4-1-5))
 
 In the /whois reply, a +d is spotted by a - after a channelname.
 
@@ -671,7 +581,7 @@ Example: `mowgli on -@#Junglechat` (+d mode and op on the channel.)
 
 +o is spotted in whois by "nickname is an IRC operator"
 
-+i is spotted by doing "/whois *nickname" and seeing if the right person pops
++i is spotted by doing "/whois \*nickname" and seeing if the right person pops
 up. If he/she dosn't, the nick is invisible.
 
 +w and +s can't be seen by normal users. (+w due to a recent Undernet patch)
@@ -679,11 +589,11 @@ up. If he/she dosn't, the nick is invisible.
 
 
 Note:
-
-For address and away, also see /userhost ([2.9](ccosmos.html#_Ref439929603))
-
+: For address and away, also see /userhost ([2.9](#sec2-9))
 
 
+
+{:#sec2-5-3}
 ###  2.5.3 Server notice masks
 
 From version 2.10 of the ircu serversoftware, a masking option of users s-mode
@@ -695,114 +605,33 @@ This section is based on documentation supplied by Ghostwolf.
 
 Syntax: `/mode <nick> +s [+/-][mask]`
 
-
-
-**Mask**
-
-**Name**
-
-**Description**
-
-1
-
-SNO_OLDSNO
-
-unsorted old messages
-
-2
-
-SNO_SERVKILL
-
-server kills (nick collisions)
-
-4
-
-SNO_OPERKILL
-
-oper kills
-
-8
-
-SNO_HACK2
-
-desyncs
-
-16
-
-SNO_HACK3
-
-temporary desyncs
-
-32
-
-SNO_UNAUTH
-
-unauthorized connections
-
-64
-
-SNO_TCPCOMMON
-
-common TCP or socket errors
-
-128
-
-SNO_TOOMANY
-
-too many connections
-
-256
-
-SNO_HACK4
-
-Uworld actions on channels
-
-512
-
-SNO_GLINE
-
-glines
-
-1024
-
-SNO_NETWORK
-
-net join/break, etc
-
-2048
-
-SNO_IPMISMATCH
-
-IP mismatches
-
-4096
-
-SNO_THROTTLE
-
-host throttle add/remove notices
-
-Operators only:
-
-
-
-8192
-
-SNO_OLDREALOP
-
-old oper-only messages
-
-16384
-
-SNO_CONNEXIT
-
-client connect/exit
-
+|---------------+--------------+--------------------------------|
+|       **Mask**|      **Name**|                 **Description**|
+|:-------------:+--------------+--------------------------------|
+|              1|    SNO_OLDSNO|           unsorted old messages|
+|              2|  SNO_SERVKILL|  server kills (nick collisions)|
+|              4|  SNO_OPERKILL|                      oper kills|
+|              8|     SNO_HACK2|                         desyncs|
+|             16|     SNO_HACK3|               temporary desyncs|
+|             32|    SNO_UNAUTH|        unauthorized connections|
+|             64| SNO_TCPCOMMON|     common TCP or socket errors|
+|            128|   SNO_TOOMANY|            too many connections|
+|            256|     SNO_HACK4|      Uworld actions on channels|
+|            512|     SNO_GLINE|                          glines|
+|           1024|   SNO_NETWORK|             net join/break, etc|
+|           2048|SNO_IPMISMATCH|                   IP mismatches|
+|           4096|  SNO_THROTTLE|host throttle add/remove notices|
+|---------------------------------------------------------------|
+|**Operators only:**                                            |
+|           8192| SNO_OLDREALOP|          old oper-only messages|
+|          16384|  SNO_CONNEXIT|             client connect/exit|
+|---------------+--------------+--------------------------------|
 
 If you want more than one of the masks, you simply add the numbers. To later
 add or remove a mask from your s-mode, use + and -.
 
 
-Examples:
+**Examples:**
 
 To be notified upon net join/breaks, you would type `/mode yournick +s 1024`.
 
@@ -813,7 +642,7 @@ Now you are notified both about "too many connections" and "net join/break"
 
 
 Another day, you'r feeling bored, and want to watch new g-lines
-([5.1.2](ccosmos.html#_Ref457229300)) in addition.
+([5.1.2](#sec5-1-2)) in addition.
 
 You type `/mode yournick +s 1664`. (Since 1024 + 128 + 512 = 1664)
 
@@ -832,7 +661,8 @@ netsplits/joins
 
 
 
-##  **_2.6 Getting seconds idle _**
+{:#sec2-6}
+##  2.6 Getting seconds idle
 
 The idle time is how long the nick has been silent towards its IRC-server. In
 other words being quiet. Only the server that the nick is connected to "knows"
@@ -842,7 +672,7 @@ you. It could also be used successfully as a "silent ping" as it can give you
 the lag from you to the nicks' server. Just count the seconds it takes from
 you send the command to you receive the reply, and divide with 2. That's how
 many seconds it take for a message from you to reach the persons server.
-(another approach outlined in [4.1.5](ccosmos.html#_Ref504697252))
+(another approach outlined in [4.1.5](#sec4-1-5))
 
 
 Syntax:
@@ -877,18 +707,20 @@ Note:
 
 * If you and the nick is on the same server, a common /whois will do the same.
 * The chatting in a DCC-chat dosn't go through the IRC-network, and so is not detected by idle-time. An alternative "ping" could be to use the CTCP finger (/ctcp nick finger) as atleast mIRC supplies an idletime for the whole program in the reply; but this isn't "silent".
-* It's standard to only nullify idle-time when nick uses PRIVMSG. That is, sending a message to a nick or a channel. /notice does not qualify. See server options ([4.2.7](ccosmos.html#_Ref439922662)) to determine if the server is using the standard setting.
+* It's standard to only nullify idle-time when nick uses PRIVMSG. That is, sending a message to a nick or a channel. /notice does not qualify. See server options ([4.2.7](#sec4-2-7)) to determine if the server is using the standard setting.
 * away-messages arn't broadcasted when a netsplit is mended. You must do a remote whois to see it.
 * admins have the option from ircu2.10.10 and onwards, to hide the idletime when requested remotely.
 
 
-##  **_2.7 Searching for people _**
+{:#sec2-7}
+##  2.7 Searching for people
 
+{:#sec2-7-1}
 ###  2.7.1 Searching by address
 
 Example:
 
-`/who *.fiddledep.gov`
+`/who \*.fiddledep.gov`
 
 This lists all visible nicks using the Fiddle Departments' internet-
 connection. The command is usefull for finding people from your own host and
@@ -899,10 +731,11 @@ Example:
 
 Your ISP gives people from your area DNS-addresses ending with
 "smalltown.wasanet.se" for example modem30.ppp.smalltown.wasanet.se Typing
-`/who *.smalltown.wasanet.se` may then reveal people from your area.
+`/who \*.smalltown.wasanet.se` may then reveal people from your area.
 
 
 
+{:#sec2-7-2}
 ###  2.7.2 Searching by nick
 
 You can use wildcards like * and ? in a whois-query also. Here are some
@@ -917,6 +750,7 @@ from flooding yourself.
 
 
 
+{:#sec2-7-3}
 ###  2.7.3 Searching it all
 
 The first line in a whois-reply might look like this:
@@ -926,37 +760,38 @@ The first line in a whois-reply might look like this:
 using wildcards, we're able to search for anything in that line. _Even the
 Namefield._
 
-"`/who *garfunkel*`", "`/who *netomania*`", "`/who *xerx*`", "`/who john*`"
-and "`/who *funk*`" will all reveal his name if he is visible.
+`/who *garfunkel*`, `/who *netomania*`, `/who *xerx*`, `/who john*`
+and `/who *funk*` will all reveal his name if he is visible.
 
-"`/who fullservername`" lists people using that irc-server. (wildcards
+`/who fullservername` lists people using that irc-server. (wildcards
 allowed) so if he's on sandiego.ca.us.undernet.org, `/who *diego*` would
 reveal him and others as well. (Use /lusers with servername, as described in
-[4.1.1](ccosmos.html#_Ref439921405)_ _if you'r just going to count people on a
+[4.1.1](#sec4-1-1) if you'r just going to count people on a
 server.)
 
 
-Note:
+**Note:**
 
 This shows that beeing visible and writing "I'm from Essex" in the namefield
 might not be such a good idea if some jerk is mass-messaging everyone that
-matches "`/who *sex*`". Again, be aware that the namefield IS searchable.
+matches `/who *sex*`. Again, be aware that the namefield IS searchable.
 
-See section [2.5.2](ccosmos.html#_Ref439921478) (Finding peoples modes) for
+See section [2.5.2](#sec2-5-2) (Finding peoples modes) for
 explanation of details in the "/who nickname" output. Also note that "/who"
 searches each of the "information fields" (nick, login, real name, host name
 and server name) _separately_ so you can't filter simultaneously, you must do
 an individual search for each field.
 
 That means if you'r looking for jane in sweden, you'll have to look at the
-outputs of "`/who *jane*`" and "`/who *se*`".
+outputs of `/who *jane*` and `/who *se*`.
 
-"`/who *jane* *se*`" would ignore *se* and "`/who *jane*se*`" would search one
-and one field and match on the namefield "`I'm Janet, now go stare at someone
-elses whois!`" but would NOT match username janet with address *.se
+`/who *jane* *se*` would ignore \*se\* and `/who *jane*se*` would search one
+and one field and match on the namefield `I'm Janet, now go stare at someone
+elses whois!` but would NOT match username janet with address \*.se
 
 
 
+{:#sec2-7-4}
 ###  2.7.4 Note on invisibility
 
 Invisible people won't show up when searched for with /who, /who #chan and not
@@ -974,12 +809,13 @@ your' not visible from outside a channel. Today roughly half the nicks on
 Undernet and most on Efnet is set invisible.
 
 
-Note: If a nick is on a secret channel ([3.5](ccosmos.html#_Ref472444591))
+Note: If a nick is on a secret channel ([3.5](#sec3-5))
 they won't show up on a wildcard /whois, even if they arn't set invisible
 
-##  **_2.8 Finding an IRCop_**
+{:#sec2-8}
+##  2.8 Finding an IRCop
 
-An IRC operator is a person with +o mode. ([2.5](ccosmos.html#_Ref504700445))
+An IRC operator is a person with +o mode. ([2.5](#sec2-5))
 The op goes around fixing channelops, kicking users and maintaining the net.
 
 Don't expect help if you'r banned from a channel (Atleast that's Undernet
@@ -989,26 +825,26 @@ The standard way to find an operator is to type `/who 0 o` (zero o). This
 lists all non-invisible opers on the net.
 
 Before you message them, check their idle-time.
-([2.6](ccosmos.html#_Ref439922306)) Most of them idles for days.
+([2.6](#sec2-6)) Most of them idles for days.
 
 
 If this dosn't work, the operators of your server might list themselves in the
-/motd ([4.2.1](ccosmos.html#_Ref472457535)), possibly with e-mail.
+/motd ([4.2.1](#sec4-2-1)), possibly with e-mail.
 
 By now, you have found everyone who _wants_ to be found, proceed on your own
 risk:
 
 
-/stats O ([5.1.4](ccosmos.html#_Ref489370764)) reveal the nicks of operators
+/stats O ([5.1.4](#sec5-1-4)) reveal the nicks of operators
 on your server. (Ofcourse they could just change nicks after logging in)
 
 
-/trace ([4.1.5](ccosmos.html#_Ref489296992)) has a loophole that reveals
+/trace ([4.1.5](#sec4-1-5)) has a loophole that reveals
 online ops.
 
 
 Local channels are sometimes used by operators on your server.
-([3.2](ccosmos.html#_Ref472441475))
+([3.2](#sec3-2))
 
 
 Join typical oper-hangouts and do the /who 0 o again. The +i dosn't apply when
@@ -1027,11 +863,12 @@ Whatever the reason for your hunger for power is, be it fame, revenge,
 groupies or tax deduction, you'd have a better chance at one of the really
 small networks. Then again, who in their right mind would give op to a total
 stranger who comes in and just ask for it? As a last resort you can always
-start your own network! ([8.2](ccosmos.html#_Ref504731793))
+start your own network! ([8.2](#sec8-2))
 
 
 
-##  **_2.9 userhost / userip _**
+{:#sec2-9}
+##  2.9 userhost / userip
 
 Returns a nicks hostaddress or IP and if it's away or not.
 
@@ -1057,8 +894,8 @@ by IP-adress would have been very effective in this case, and that is exactly
 what has been implemented. The ban-code has been changed so that you can ban
 an IP-adress even if the server has resolved his/her address as a hostname.
 The IP-ban has also taken effect for SILENCE
-([2.12](ccosmos.html#_Ref439924810)) and K-lines
-([5.1.1](ccosmos.html#_Ref439924827))
+([2.12](#sec2-12)) and K-lines
+([5.1.1](#sec5-1-1))
 
 
 Example:
@@ -1074,7 +911,7 @@ different IPs every time he logs on.
 So what's the IP of the ISP? /dns in mIRC tells me that m1.camping.com has IP
 123.321.250 and it seems to end at m200.
 
-I set the bans to 123.321.* ,123.322.* and 123.323.* knowing I've banned the
+I set the bans to 123.321.\* ,123.322.\* and 123.323.\* knowing I've banned the
 ISP, hoping I havn't banned others. Banning an ISP to stop a person is a brute
 approach anyway if it's a large ISP, and most people that are banned give up
 withouth putting much effort in getting around the ban, so I havn't bothered
@@ -1095,10 +932,11 @@ reason. In short, you risk getting the wrong IP-address, so use /userip for
 added reliability.
 
 
-Also see +x ([2.5.1](ccosmos.html#_Ref17387584)) for the upcoming ability to
+Also see +x ([2.5.1](#sec2-5-1)) for the upcoming ability to
 ban a user when logged in on the channelservice
 
-##  **_2.10 Whowas _**
+{:#sec2-10}
+##  2.10 Whowas
 
 Syntax: `/whowas nick [count]`
 
@@ -1107,23 +945,25 @@ address, the server keeps a buffer with the nicks that disappeared the last
 seconds. Count is how many nicks it should return. Every matching nick if not
 supplied. No wildcards are allowed so the count were only usefull in special
 cases. For how many nicks the server keep in whowas, see /stats z
-([5.3.5](ccosmos.html#_Ref457134199))
+([5.3.5](#sec5-3-5))
 
-##  **_2.11 away_**
+{:#sec2-11}
+##  2.11 away
 
 Syntax: `/away [insert cunning remark about doing laundry here]`
 
 Sets an away-message that will be displayed in your /whois reply and shown to
 people who try to contact you.
 
-See chapter [7](ccosmos.html#_Ref506669534) for the maximun lenght of your
+See chapter [7](#sec7) for the maximun lenght of your
 away-message (It's 160 by default on Undernet)
 
-See [6.5](ccosmos.html#_Ref452375685) for the issue of netsplits and
-[2.5.2](ccosmos.html#_Ref489300801) and [2.9](ccosmos.html#_Ref506669407) on
+See [6.5](#sec6-5) for the issue of netsplits and
+[2.5.2](#sec2-5-2) and [2.9](#sec2-9) on
 spotting the mode while missing the cunning remark.
 
-##  **_2.12 silence _**
+{:#sec2-12}
+##  2.12 silence
 
 mIRC has a very customizeable command called /ignore that will filter out
 everything coming from certain nicks or addresses. What it dosn't do though is
@@ -1170,7 +1010,7 @@ silence-settings.
 
 
 On Undernet, you have a maximum of 15 lines of silence-settings. Doublecheck
-with your logon in chapter [7](ccosmos.html#_Ref489213448)
+with your logon in chapter [7](#sec7)
 
 Overlapping silences are removed. Example: `/silence +*.dadaism.net` will
 remove silencing of `*modem4.dadaism.net` since it is now reduntand. Beware
@@ -1185,12 +1025,13 @@ defend against it, see the undernet website or the helpbot in #class on
 undernet.
 
 
-See [2.9](ccosmos.html#_Ref439924333) (userhost / userip) for how to silence
+See [2.9](#sec2-9) (userhost / userip) for how to silence
 people with virtual hostnames.
 
 
 
-##  **_2.13 ISON _**
+{:#sec2-13}
+##  2.13 ISON
 
 ISON is the command used for the notify list in mIRC.
 
@@ -1211,7 +1052,8 @@ reply: `ISON: Susanne Zygot`
 
 
 
-##  **_2.14 WHO with advanced parameters _**
+{:#sec2-14}
+##  2.14 WHO with advanced parameters
 
 /who gives part of the same info as /whois.
 
@@ -1230,7 +1072,7 @@ Syntax:
 
 Which gives:
 
-`WHO <mask> <options> ` or ` WHO <some garbage> <options> :<mask>`
+`WHO <mask> <options> ` or `WHO <some garbage> <options> :<mask>`
 
 The second syntax will allow a space, and is therefore good for matching the
 infotext. Case is not significant anywhere.
@@ -1256,20 +1098,19 @@ This could be used to search any field
 Note:
 
 If you'r not familiar with masking, * means "any string, even of zero lenght"
-and ? means "one character". the mask "ge*" would match both "get" and
+and ? means "one character". the mask "ge\*" would match both "get" and
 "geronimo!" while "l?ve" matches "love" and "live", but not "legislative".
 
-"i??*" matches "inventory" and "inn", but not "is".
+"i??\*" matches "inventory" and "inn", but not "is".
 
 
-In the case of IRC atleast, "0" works as a *.
+In the case of IRC atleast, "0" works as a \*.
 
 
 If you wish to match IP-numbers in the single mask, there's 3 ways to do it.
 
 (This part is quoted from the WHO documentation in the ircu2.10.05 release
-notes, which you can find at [www.coder-com.undernet.org](http://www.coder-
-com.undernet.org))
+notes, which you can find at <http://www.coder-com.undernet.org>)
 
 
 
@@ -1297,33 +1138,23 @@ Each flag is one letter. First, the various userinformation:
 
 
 n
-
-Searching nicknames to match.
+:	Searching nicknames to match.
 
 u
-
-UserID. (As in nick!user@host)
+:	UserID. (As in nick!user@host)
 
 h
-
-Hostname. (Still as in nick!user@host)
+:	Hostname. (Still as in nick!user@host)
 
 i
-
-Numeric IP.
+:	Numeric IP.
 
 e
-
-Servername. (The canonic name of the IRC server a person is using) Use /links
+:	Servername. (The canonic name of the IRC server a person is using) Use /links
 (4.1.3) if you'r unsure about canonical names
 
 r
-
-Info text. (Formerly known as "realname" )
-
-
-
-
+:	Info text. (Formerly known as "realname" )
 
 
 If you don't specify any of these flags, the default "nuhs" is used.
@@ -1331,11 +1162,10 @@ If you don't specify any of these flags, the default "nuhs" is used.
 
 
 In addition, it's possible to search for for usermodes, (overview in
-[2.5.1](ccosmos.html#_Ref456715012)) but there's only support for one of them:
+[2.5.1](#sec2-5-1)) but there's only support for one of them:
 
 o
-
-Operator (Yup! the same as in [2.8](ccosmos.html#_Ref456715032))
+:	Operator (Yup! the same as in [2.8](#sec2-8))
 
 
 
@@ -1346,29 +1176,38 @@ fields
 of the userinformation should be returned to you.
 
 
-c Include the last channel the person joined, or first common, if the person
+c
+:	Include the last channel the person joined, or first common, if the person
 is +i.
-
 (If no common channel exist among you, a +i user won't be shown.)
 
-d How many servers away the nick are. (hopcount, also see 4.1.5)
+d
+:	How many servers away the nick are. (hopcount, also see 4.1.5)
 
-h hostname
+h
+:	hostname
 
-i Numeric IP
+i
+:	Numeric IP
 
-n nick
+n
+:	nick
 
-r Info text
+r
+:	Info text
 
-s servername
+s
+:	servername
 
-u userID (with eventual ~)
+u
+:	userID (with eventual ~)
 
 
-f Include all the flags you passed on earlier
+f
+:	Include all the flags you passed on earlier
 
-t Include querytype in the reply (see below)
+t
+:	Include querytype in the reply (see below)
 
 
 The fields are always returned in the same order.
@@ -1397,47 +1236,37 @@ gives max 186 lines.
 Beside the nick in the reply we will gett various letters indicating:
 
 H / G
-
-Here or Gone, indicating if the nick is set /away or not
+:	Here or Gone, indicating if the nick is set /away or not
 
 *
-
-The nick is an IRC-operator
+:	The nick is an IRC-operator
 
 @
-
-The nick is a channel-operator on the last channel it joined and still is on
+:	The nick is a channel-operator on the last channel it joined and still is on
 
 +
-
-The nick is voiced on the last channel it joined and still is on
+:	The nick is voiced on the last channel it joined and still is on
 
 !
-
-The nick is zombie on a channel
+:	The nick is zombie on a channel
 
 d
-
-The nick is set deaf
+:	The nick is set deaf
 
 
 **Examples:**
 
 We send: `/who 0 o%fn` to get a list of operators. The reply is this:
 
-`Napoleon H*`
-
-`McMini H*`
-
-`Sodapunk H*@`
-
-`Tordivelen G*@`
-
-`Aquagirl H*`
-
-`Q-Beck G*`
-
-`* End of /WHO list.`
+```
+Napoleon H*
+McMini H*
+Sodapunk H*@
+Tordivelen G*@
+Aquagirl H*
+Q-Beck G*
+End of /WHO list.
+```
 
 
 Each line presents one nick and the corresponding flags. Tordivelen is both
@@ -1446,19 +1275,15 @@ gone and a channel-operator in the last channel he joined.
 
 `/who #Luggage_Claim %dct,9` could return this:
 
-`9 #Luggage_Claim 3`
-
-`9 #Luggage_Claim 3`
-
-`9 #Luggage_Claim 1`
-
-`9 #Luggage_Claim 3`
-
-`9 #Luggage_Claim 3`
-
-`9 #Luggage_Claim 5`
-
-`9 #Luggage_Claim 3`
+```
+9 #Luggage_Claim 3
+9 #Luggage_Claim 3
+9 #Luggage_Claim 1
+9 #Luggage_Claim 3
+9 #Luggage_Claim 3
+9 #Luggage_Claim 5
+9 #Luggage_Claim 3
+```
 
 
 "9" is the query type field, The rightmost numbers are the hopcount for each
@@ -1466,18 +1291,18 @@ nick. Most of the folks seem to be 3 hops away.
 
 
 
-Note:
+**Note:**
 
 If you'r using a mIRC copy older than 5.3, you'll have to send channel-whos as
 "/raw who #e.t.c..."
 
-On EFnet and possibly other nets but not Undernet "/who *" lists everyone on
+On EFnet and possibly other nets but not Undernet "/who \*" lists everyone on
 the last channel you joined and still is on (the first channel in your whois-
-reply) If you'r on no channels or on Undernet, "/who *" will flood you.
+reply) If you'r on no channels or on Undernet, "/who \*" will flood you.
 
 
 If you'r say, swedish and joins a channel, you may want to type "/who #channel
-*.se" to list every swede in the channel.
+\*.se" to list every swede in the channel.
 
 This a mIRC feature but works fine on non-ircu nets. However, with newer ircu
 you must a script to do this filtering manually as the extra parameter messes
@@ -1491,40 +1316,44 @@ user were both Op and Voiced in the same channel.
 
 
 
-##  **_2.15 /quit_**
+{:#sec2-15}
+##  2.15 /quit
 
-Waves goodbye to the net. See [3.4](ccosmos.html#_Ref506669097) for the
+Waves goodbye to the net. See [3.4](#sec3-4) for the
 quitmessage.
 
 
 
-#  **3 Channels**
+{:#sec3}
+#  3 Channels
 
-##  **_3.1 join_**
+{:#sec3-1}
+##  3.1 join
 
 Syntax: `/join #channel1, #channel2, ...` or `/join channel key`.
 
 Separated with a comma, you can join several channels at once, saving you some
 typing. (But if you want to save typing, perhaps IRC isn't the right place?
 :-) On Undernet, you'r limited to beeing on 10 channels at the same time. (See
-[7](ccosmos.html#_Ref489301337) for the limit on your net)
+[7](#sec7) for the limit on your net)
 
-See [6.9](ccosmos.html#_Ref504696823) for allowed characters in a channelname
-and [3.5.1](ccosmos.html#_Ref504735579) for keys. The maximum lenght of a
+See [6.9](#sec6-9) for allowed characters in a channelname
+and [3.5.1](#sec3-5-1) for keys. The maximum lenght of a
 channel is 89 characters plus the #.
 
-##  **_3.2 Local channels_**
+{:#sec3-2}
+##  3.2 Local channels
 
 A channel with the "&" prefix instead of "#" (e.g &chat) is a channel that is
 local to your server. People from other IRC-servers can't join, can't find it
 in the channel-listing and can't spot you'r in it, unless they retrieve a
-remote whois. ([2.6](ccosmos.html#_Ref439946486))
+remote whois. ([2.6](#sec2-6))
 
 This feature might have been usefull when a server served a geographically
 limited userbase exclusively, for instance a specific university, but today
 you can connect to most servers in a net regardless of where you are.
 Operators on a server might stick around in a &channel, since LOCOPS and OPERS
-have equal powers over it, (see [4.2.7](ccosmos.html#_Ref504699910)) and
+have equal powers over it, (see [4.2.7](#sec4-2-7)) and
 operators can toy around with the channel directly while the ability to toy
 with global channels would have messed up the security. There, they have to go
 through Uworld. (A service on Undernet) Don't be surprised if this feature
@@ -1537,7 +1366,8 @@ topic of a local channel to other servers. If a local channel with the same
 name existed on a server directly linked to the first one, there may have been
 "leaks", but this is unconfirmed
 
-##  **_3.3 The modeless channel. Equality by simplicity _**
+{:#sec3-3}
+##  3.3 The modeless channel. Equality by simplicity
 
 As of ircu2.10.02 you can start a "modeless channel" This is a channel with
 the prefix "+" instead of #. (e.g +chat)
@@ -1552,13 +1382,14 @@ logically follows.
 The purpose for this invention is "to create an enviroment where all users are
 equal and not tempted to fight about ops". Flooding should be dealt with by
 either leaving the channel or using /ignore or /silence.
-([2.12](ccosmos.html#_Ref472444382)) Making it topic-free and non-invite is to
+([2.12](#sec2-12)) Making it topic-free and non-invite is to
 avoid flooding by topic-changing or mass-invite, or any gibbering over what
 todays topic should be.
 
 
 
-##  **_3.4 /part and /quit with comments_**
+{:#sec3-4}
+##  3.4 /part and /quit with comments
 
 You can put a comment along when you quit irc which is visible to fellow
 channelmembers, with the command /quit, and as of ircu2.10.02 you can send a
@@ -1573,7 +1404,7 @@ Syntax:
 
 
 The maximun lenght of a quit-message is governed by TOPICLEN in chapter
-[7](ccosmos.html#_Ref506671162), and is 160 characters by the time on
+[7](#sec7), and is 160 characters by the time on
 Undernet.
 
 A part message could be a maximum of 65 letters and truncated with a '...' at
@@ -1582,8 +1413,8 @@ the end if it's longer.
 When a message to the channel wouldn't have been allowed to be sent, as in
 cases of ban or moderated channel,
 
-these message won't be sent either. See [3.5](ccosmos.html#_Ref472444591)
-(moderated) and [3.7](ccosmos.html#_Ref472444599) (ban) for more about this.
+these message won't be sent either. See [3.5](#sec3-5)
+(moderated) and [3.7](#sec3-7) (ban) for more about this.
 
 
 A client-independet way to leave all channels at once is "/join 0".
@@ -1596,65 +1427,53 @@ u2.10.11.rc.1 does not display them anyway unless a reason has been specified.
 
 
 
-##  **_3.5 Channelmodes_**
+{:#sec3-5}
+##  3.5 Channelmodes
 
+{:#sec3-5-1}
 ###  3.5.1 All the modes for a channel
 
 First, a quick summary of the channelmodes:
 
 
-syntax: /mode <mode> [parameter]
+syntax: `/mode <mode> [parameter]`
 
+`b <mask>[<reason>]`
+:	To ban someone and display the reason.
 
+`o <nick>`
+:	To op someone
 
-b <mask>[<reason>]
-
-To ban someone and display the reason.
-
-o <nick>
-
-To op someone
-
-v nick
-
-Voice someone (Speaks through ban and moderations and get a nice + by their
+`v <nick>`
+:	Voice someone (Speaks through ban and moderations and get a nice + by their
 nick)
 
-I
+`I`
+:	Channel is invite-only
 
-Channel is invite-only
+`l <limit>`
+:	Channel is limited to <limit> participants at the same time
 
-l <limit>
+`n`
+:	No messages/notices is allowed to be sent to the channel from outside.
 
-Channel is limited to <limit> participants at the same time
+`m`
+:	Channel is moderated. Only ops and voiced people can talk.
 
-n
+`t`
+:	Noone but the ops can change the channeltopic
 
-No messages/notices is allowed to be sent to the channel from outside.
+`p`
+:	Channel is private
 
-m
+`s`
+:	Channel is secret
 
-Channel is moderated. Only ops and voiced people can talk.
+`k <key>`
+:	Set a password-key (any text) necessary to get into the channel.
 
-t
-
-Noone but the ops can change the channeltopic
-
-p
-
-Channel is private
-
-s
-
-Channel is secret
-
-k <key>
-
-Set a password-key (any text) necessary to get into the channel.
-
-r
-
-ACCOUNT-limited channel
+`r`
+:	ACCOUNT-limited channel
 
 
 
@@ -1664,71 +1483,64 @@ my comments on them:
 
 
 b:
+:	See [3.7](#sec3-7) for novel use. The maximum number of
+	simultaneous bans in a channel on Undernet is 30. See MAXBANS in chapter
+	[7](#sec7) for the limit at your net. You can easily
+	clear a banlist by typing "/mode #channel +b-b *!*@* *!*@* ?"
 
-See [3.7](ccosmos.html#_Ref472443081) for novel use. The maximum number of
-simultaneous bans in a channel on Undernet is 30. See MAXBANS in chapter
-[7](ccosmos.html#_Ref506668458) for the limit at your net. You can easily
-clear a banlist by typing "/mode #channel +b-b *!*@* *!*@* ?"
 
-
-Before ircu2.10.11, a nick-ban (e.g slobodan!*@*) wouldn't take effect if the
-user changed into the nick inside the channel. Also, a ban did not stop
-external messages from a banned person from entering a -n channel.
+	Before ircu2.10.11, a nick-ban (e.g slobodan!*@*) wouldn't take effect if the
+	user changed into the nick inside the channel. Also, a ban did not stop
+	external messages from a banned person from entering a -n channel.
 
 n:
-
-Most channels should set +n to have total control on who's talking in the
+:	Most channels should set +n to have total control on who's talking in the
 channel, ircu prior to 2.10.11 let outsiders slip through +m and +b
 
 p and s:
-
-See [3.5.3](ccosmos.html#_Ref439951848) for the difference between these two
+:	See [3.5.3](#sec3-5-3) for the difference between these two
 
 
 
 m:
+:	"only ops and voiced people can talk". Before ircu2.10.11, +m didn't stop
+	messages from outside, now +m equals +mn
 
-"only ops and voiced people can talk". Before ircu2.10.11, +m didn't stop
-messages from outside, now +m equals +mn
 
+	As with +b, +m censors your optional /part and /quit comments in the channel.
+	(See [3.7](#sec3-7)) (ircu specific) and beeing in a +m
+	channel without a voice, "censors" your quitmessage from every other channel
+	your on too.
 
-As with +b, +m censors your optional /part and /quit comments in the channel.
-(See [3.7](ccosmos.html#_Ref472443412)) (ircu specific) and beeing in a +m
-channel without a voice, "censors" your quitmessage from every other channel
-your on too.
-
-If that sounds confusing remember you'r quitting the net not just the channel,
-so sending two quitmessages about you to a person that shared two channels
-with you (say one +m and one not) would be like saying: "He left the net, and
-then he left the net _again_ without beeing there." It wouldn't make sense.
+	If that sounds confusing remember you'r quitting the net not just the channel,
+	so sending two quitmessages about you to a person that shared two channels
+	with you (say one +m and one not) would be like saying: "He left the net, and
+	then he left the net _again_ without beeing there." It wouldn't make sense.
 
 
 
 v and o:
-
-You can have voice and op at the same time, but then mIRC and extended /who
+:	You can have voice and op at the same time, but then mIRC and extended /who
 prior to ircu2.10.11 will only display the op @, not the voice +.
 
 
 
 k:
-
-If you are not a channeloperator, the key will from ircu2.10.10.pl15 be
+:	If you are not a channeloperator, the key will from ircu2.10.10.pl15 be
 displayed as * when you try to retrieve it from inside the channel.
 
 r
+:	+r on a user, though you can't see that it's set, signifies that the user has
+	logged in with his/her account name and password on whatever service the
+	network supports. For instance Undernet's channelservice "X".
 
-+r on a user, though you can't see that it's set, signifies that the user has
-logged in with his/her account name and password on whatever service the
-network supports. For instance Undernet's channelservice "X".
+	+r on a _channel_ means it's restricted to users having usermode +r, that is,
+	beeing registered at the channelservice.
 
-+r on a _channel_ means it's restricted to users having usermode +r, that is,
-beeing registered at the channelservice.
-
-The +r usermode together with a hidden character string persist as long as
-you'r connected to the IRC server, so that the channel service can recognize
-you even if your server splits off and rejoins the net. No need to login to X
-all over again.
+	The +r usermode together with a hidden character string persist as long as
+	you'r connected to the IRC server, so that the channel service can recognize
+	you even if your server splits off and rejoins the net. No need to login to X
+	all over again.
 
 
 The account name were for a short while visible in /whois, but this were
@@ -1739,6 +1551,7 @@ if there's no +r enabled servicebot around. (X were not +r enabled by August
 
 
 
+{:#sec3-5-2}
 ###  3.5.2 /Topic and retrieving channelmodes
 
 These commands retrieve the same info as you get when you doubleclick in the
@@ -1767,21 +1580,22 @@ channelrider's op, he won't see the key.
 
 The maximum length of a topic on Undernet is 160 characters, the maximum for
 your net can be found by the variable TOPICLEN in chapter
-[7](ccosmos.html#_Ref506668014). For the issue of topics and netsplits, see
-[6.5](ccosmos.html#_Ref452375685)
+[7](#sec7). For the issue of topics and netsplits, see
+[6.5](#sec6-5)
 
 
-Tip: If you just want to know if a channel exists, please do a /mode #chan,
+**Tip:** If you just want to know if a channel exists, please do a /mode #chan,
 instead of quick join/part visits.
 
 
-Note: As of ircu2.10.11, topics beeing set without beeing changed is no longer
+**Note:** As of ircu2.10.11, topics beeing set without beeing changed is no longer
 displayed to the client. It should make the topicsetting of X on Undernet less
 annoying. It is still done behind the scenes, as topics are not automatically
 refreshed when the net reconnects after a netsplit.
 
 
 
+{:#sec3-5-3}
 ###  3.5.3 Difference between +p and +s
 
 A channel can have +p (private) or +s (secret) mode set. The difference isn't
@@ -1791,7 +1605,7 @@ obvious:
 "Secret" means Top Secret. Its existance is secret (not present in any
 listing), and you beeing in it is secret. (It dosn't show up in a whois on you
 and you can't take a /names #chan on it) As an extra secrery, a wildcard whois
-won't return you. (see [2.7.4](ccosmos.html#_Ref489034439))
+won't return you. (see [2.7.4](#sec2-7-4))
 
 
 "Private" means privacy for you. The channel shows up in the channellisting,
@@ -1807,12 +1621,13 @@ The bug has been fixed from that version.
 
 
 
-##  **_3.6 /invite will find a way _**
+{:#sec3-6}
+##  3.6 /invite will find a way
 
-syntax: /invite nick #channel
+syntax: `/invite nick #channel`
 
 Invites a person to your channel. It is nessecary to invite the person if the
-channel is set "invite only" ([3.5](ccosmos.html#_Ref472444591)).
+channel is set "invite only" ([3.5](#sec3-5)).
 
 You need to be an op in the chan to do it.
 
@@ -1832,7 +1647,8 @@ to
 Up until ircu2.10.11, you could invite people into non-existing #channels. The
 bug has been fixed
 
-##  **_3.7 "Shutting their mouth." Powerfull chanops-feature _**
+{:#sec3-7}
+##  3.7 "Shutting their mouth." Powerfull chanops-feature
 
 (Partly ircu specific.)
 
@@ -1850,7 +1666,7 @@ ping. Even the optional /part and /quit comments are censored.
 
 
 2: He/she is unable to change nick as long as beeing in your channel. This
-hinder nickchange-flooding. (also see [2.1](ccosmos.html#_Ref489375763))
+hinder nickchange-flooding. (also see [2.1](#sec2-1))
 
 
 This is usefull for a number of things, and could improve protection-routines
@@ -1868,33 +1684,35 @@ ignored by everyone, leaves the channel himself. :-) In some way, it's better
 than to give them the attention of a kick.
 
 
-NB: Any ban is overridden by a +v (see [3.6](ccosmos.html#_Ref452378426)) and
+NB: Any ban is overridden by a +v (see [3.6](#sec3-6)) and
 the /quit comment is censored for all channels
-([3.5.1](ccosmos.html#_Ref504735579))
+([3.5.1](#sec3-5-1))
 
 A ban will not stop a person from sending external messages to the channel,
 use a +n mode for that.
 
-Atleast up to ircu2.10.10.pl14, if you set a ban on a nick (bannednick*!*@*)
+Atleast up to ircu2.10.10.pl14, if you set a ban on a nick (bannednick\*!\*@\*)
 then if somebody entered and changed their nick into bannednick, they would
 slip past the ban. If bannednick were an op however, the ban would kick in
 immediately if he were deopped. I suppose this is a bug.
 
 
 
-##  **_3.8 kick_**
+{:#sec3-8}
+##  3.8 kick
 
 Removes a person from your channel. (need to be op in chan to do it) You can
 put a reason along if you like
 
 Syntax: `/kick #channel person [reason]` The maximun lenght of the reason is
 160 characters on Undernet. See KICKLEN in chapter
-[7](ccosmos.html#_Ref506668672) for the lenght at your net
+[7](#sec7) for the lenght at your net
 
 
 
 
-##  **_3.9 names. Listing the inhabitants_**
+{:#sec3-9}
+##  3.9 names. Listing the inhabitants
 
 Displays a list of nicks in a given channel.
 
@@ -1906,13 +1724,13 @@ Examples:
 `/names #soap.opera,#talkshow`.
 
 Displays everyone in #soap.opera and #talkshow, and all _visible_ nicks
-([2.7.4](ccosmos.html#_Ref472441541)) if you'r not in the channels.
+([2.7.4](#sec2-7-4)) if you'r not in the channels.
 
 
 In ircu, it is processed as two /names queries, and will show a person twice
 if in both channels.
 
-`/who #soap.opera,#talkshow` ([2.14](ccosmos.html#_Ref472441899)) however,
+`/who #soap.opera,#talkshow` ([2.14](#sec2-14)) however,
 lists the person only once.
 
 The list of names will be sorted according to when they joined the channel,
@@ -1924,7 +1742,7 @@ Notes:
 Wildcards dosn't work. Sending the query to a remote server, (/names #chan
 server) is prohibited on Undernet, but is mentioned in RFC1459, so others
 might allow it. (Practical use related to "local channels"
-([3.2](ccosmos.html#_Ref472441475)) )
+([3.2](#sec3-2)) )
 
 "/names 0" floods you off trying to list every channel on the net. prior to
 ircu2.10.11, typing /names were enough to do this.
@@ -1932,7 +1750,8 @@ ircu2.10.11, typing /names were enough to do this.
 
 
 
-##  **_3.10 Cnotice/Cprivmsg. A "too many targets" exception _**
+{:#sec3-10}
+##  3.10 Cnotice/Cprivmsg. A "too many targets" exception
 
 New in ircu2.10.02, +v ability added in 2.10.05
 
@@ -1962,17 +1781,18 @@ information it sends out, not pushing a hundred lines of text at once.
 
 Note: Regardless of your status in a channel you can always /msg +k services
 without worrying about running out of targets
-([2.5.1](ccosmos.html#_Ref517520488))
+([2.5.1](#sec2-5-1))
 
-Also see /wallchops ([3.11](ccosmos.html#_Ref439946390)) and the logon
-procedure ([7](ccosmos.html#_Ref489295251))
+Also see /wallchops ([3.11](#sec3-11)) and the logon
+procedure ([7](#sec7))
 
 
 
-##  **_3.11 Wallchops _**
+{:#sec3-11}
+##  3.11 Wallchops
 
 From version 2.10 of ircu, this early attempt at an ad-hoc solution to a
-special case of the problem mentioned in [3.10](ccosmos.html#_Ref489203836)
+special case of the problem mentioned in [3.10](#sec3-10)
 were added.
 
 This sends a mass message to every channeloperator in a channel. It is
@@ -1993,25 +1813,26 @@ Thanks to Daniel Corkill for pointing out this to me.
 
 
 
-#  **4 The net**
+{:#sec4}
+#  4 The net
 
-##  **_4.1 Network structure and overview_**
+{:#sec4-1}
+##  4.1 Network structure and overview
 
+{:#sec4-1-1}
 ###  4.1.1 lusers
 
 /lusers lists basic global and local info.
 
 Example:
 
-`There are 9450 users and 8163 invisible on 44 servers`
-
-`37 operator(s) online`
-
-`2 unknown connection(s)`
-
-`10025 channels formed`
-
-`I have 692 clients and 2 servers`
+```
+There are 9450 users and 8163 invisible on 44 servers
+37 operator(s) online
+2 unknown connection(s)
+10025 channels formed
+I have 692 clients and 2 servers
+```
 
 
 The first line should be read as 9450 visible and 8163 invisible, making a
@@ -2037,7 +1858,7 @@ Examples:
 
 `[...] I have 0 clients and 0 servers`
 
-Meaning 355+237 users on the 1 *.no.eu.undernet.org server currently online.
+Meaning 355+237 users on the 1 \*.no.eu.undernet.org server currently online.
 Ofcourse none of those users is then on the sandiego server, hence "I have 0
 clients".
 
@@ -2048,6 +1869,7 @@ european users.
 
 
 
+{:#sec4-1-2}
 ###  4.1.2 map
 
 An ircu-only command that gives a nice view of how the servers is connected to
@@ -2060,40 +1882,30 @@ Example:
 
 Part of the net as seen from Oslo-R:
 
-`P:Oslo-R.NO.EU.Undernet.org (0s) [2050 clients]`
-
-`|-Y:Oslo1.NO.EU.Undernet.org (5s) [875 clients]`
-
-``-F:Gothenburg.Se.Eu.Undernet.org (0s) [4 clients]`
-
-` |-Q:Amsterdam-R.NL.EU.Undernet.org (57962s) [1 clients]`
-
-` |-7:Graz.AT.EU.Undernet.org (1s) [2535 clients]`
-
-` |-D:Caen.FR.EU.Undernet.org (3s) [921 clients]`
-
-` `-O:Flanders.BE.EU.Undernet.org (0s) [1710 clients]`
-
-` `-AN:Brussels.Be.Eu.Undernet.org (4s) [40 clients]`
+```
+P:Oslo-R.NO.EU.Undernet.org (0s) [2050 clients]
+|-Y:Oslo1.NO.EU.Undernet.org (5s) [875 clients]
+`-F:Gothenburg.Se.Eu.Undernet.org (0s) [4 clients]
+ |-Q:Amsterdam-R.NL.EU.Undernet.org (57962s) [1 clients]
+ |-7:Graz.AT.EU.Undernet.org (1s) [2535 clients]
+ |-D:Caen.FR.EU.Undernet.org (3s) [921 clients]
+ `-O:Flanders.BE.EU.Undernet.org (0s) [1710 clients]
+  `-AN:Brussels.Be.Eu.Undernet.org (4s) [40 clients]
+```
 
 
 Same part of the net as seen from Caen:
 
-`D:Caen.Fr.Eu.UnderNet.org (0s) [924 clients]`
-
-``-F:Gothenburg.Se.Eu.Undernet.org (0s) [4 clients]`
-
-` |-Q:Amsterdam-R.NL.EU.Undernet.org (57959s) [1 clients]`
-
-` |-7:Graz.AT.EU.Undernet.org (12s) [2764 clients]`
-
-` |-O:Flanders.BE.EU.Undernet.org (0s) [1704 clients]`
-
-` | `-AN:Brussels.Be.Eu.Undernet.org (1s) [39 clients]`
-
-` `-P:Oslo-R.NO.EU.Undernet.org (0s) [2051 clients]`
-
-` `-Y:Oslo1.NO.EU.Undernet.org (0s) [873 clients]`
+```
+D:Caen.Fr.Eu.UnderNet.org (0s) [924 clients]
+`-F:Gothenburg.Se.Eu.Undernet.org (0s) [4 clients]
+ |-Q:Amsterdam-R.NL.EU.Undernet.org (57959s) [1 clients]
+ |-7:Graz.AT.EU.Undernet.org (12s) [2764 clients]
+ |-O:Flanders.BE.EU.Undernet.org (0s) [1704 clients]
+ | `-AN:Brussels.Be.Eu.Undernet.org (1s) [39 clients]
+ `-P:Oslo-R.NO.EU.Undernet.org (0s) [2051 clients]
+ `-Y:Oslo1.NO.EU.Undernet.org (0s) [873 clients]
+```
 
 
 Oslo1 is connected to Oslo-R, lulea is connected to Oslo-R and Amsterdam.
@@ -2119,11 +1931,12 @@ discussion of the disadvantages of the tree or star topology, see
 
 
 
+{:#sec4-1-3}
 ###  4.1.3 links
 
 LINKS displays the same information as map, but in another format, and with
 extra sauce.. uhm extra data! LINKS is a common IRC-command. The server mask
-option can sort out hosts like *.eu.undernet.org (all european hosts) Blocked
+option can sort out hosts like \*.eu.undernet.org (all european hosts) Blocked
 on Undernet
 
 Syntax:
@@ -2138,40 +1951,27 @@ Example:
 
 An output of /LINKS in mIRC might look like this:
 
-`SanDiego.CA.US.Undernet.org (0) P10 CONNECTnet UUnet/MCI server`
-
-` Dallas-R.Tx.US.Undernet.org (1) P10 Dallas Undernet Hub`
-
-` Dallas.Tx.US.Undernet.org (2) P10 [127.0.0.1] Dallas Metroplex IRC Client
-Server`
-
-` Los-Angeles-R.CA.US.Undernet.Org (2) P10 [198.245.27.2] Internet Chat
-Systems IRC Server`
-
-` los-angeles.ca.us.undernet.org (3) P10 [198.245.24.80] Decade Communications
-IRC Server`
-
-` Uworld.undernet.org (3) P9 [198.245.24.240] Cordinator`
-
-` auckland.nz.undernet.org (3) P10 [202.14.100.6] Internet Company of New
-Zealand`
-
-` protocol.undernet.org (3) P10 [198.245.24.190] [protocol.undernet.org]
-Software `
-
-` Chicago-R.IL.US.Undernet.org (2) P10 [206.54.224.160] Nap Net Chicago IRC
-Hub`
-
-` ann-arbor.mi.us.undernet.org (3) P10 [irc.cic.net] "Use the source, luke"`
-
+```
+SanDiego.CA.US.Undernet.org (0) P10 CONNECTnet UUnet/MCI server
+ Dallas-R.Tx.US.Undernet.org (1) P10 Dallas Undernet Hub
+ Dallas.Tx.US.Undernet.org (2) P10 [127.0.0.1] Dallas Metroplex IRC Client Server
+ Los-Angeles-R.CA.US.Undernet.Org (2) P10 [198.245.27.2] Internet Chat Systems IRC Server
+ los-angeles.ca.us.undernet.org (3) P10 [198.245.24.80] Decade Communications IRC Server
+ Uworld.undernet.org (3) P9 [198.245.24.240] Cordinator
+ auckland.nz.undernet.org (3) P10 [202.14.100.6] Internet Company of New Zealand
+ protocol.undernet.org (3) P10 [198.245.24.190] [protocol.undernet.org] Software 
+ Chicago-R.IL.US.Undernet.org (2) P10 [206.54.224.160] Nap Net Chicago IRC Hub
+ ann-arbor.mi.us.undernet.org (3) P10 [irc.cic.net] "Use the source, luke"
+```
 
 The number in parenthesis is the hopcount, P10 is the current server-server
 protocol and Sandiego was the server that replied to LINKS. The tree-structure
 is depicted by preceding spaces, probably making links output easier to handle
-for a script than maps' output. ([4.1.2](ccosmos.html#_Ref452377474))
+for a script than maps' output. ([4.1.2](#sec4-1-2))
 
 
 
+{:#sec4-1-4}
 ###  4.1.4 list, with extensions
 
 Syntax: /LIST gives you a list of the channels on the net and let your client
@@ -2184,21 +1984,27 @@ is brought up with "/raw list help" and I quote:
 
 `Usage: /QUOTE LIST parameters`
 
-`Where parameters is a space or comma seperated list of one or more of:`
+Where parameters is a space or comma seperated list of one or more of:
 
-` <max_users ; Show all channels with less than max_users.`
+\<max_users 
+:	Show all channels with less than max_users.
 
-` >min_users ; Show all channels with more than min_users.`
+\>min_users
+:	Show all channels with more than min_users.
 
-` C<max_minutes ; Channels that exist less than max_minutes.`
+C\<max_minutes
+:	Channels that exist less than max_minutes.
 
-` C>min_minutes ; Channels that exist more than min_minutes.`
+C>min_minutes
+:	Channels that exist more than min_minutes.
 
-` T<max_minutes ; Channels with a topic last set less than max_minutes ago.`
+T\<max_minutes
+:	Channels with a topic last set less than max_minutes ago.
 
-` T>min_minutes ; Channels with a topic last set more than min_minutes ago.`
+T>min_minutes
+:	Channels with a topic last set more than min_minutes ago.
 
-`Example: LIST <3,>1,C<10,T>0 ; 2 users, younger than 10 min., topic set.`
+Example: `LIST <3,>1,C<10,T>0`  2 users, younger than 10 min., topic set.
 
 
 Example:
@@ -2215,6 +2021,7 @@ progress. "/raw /list" while listing will have the same effect.
 
 
 
+{:#sec4-1-5}
 ###  4.1.5 trace
 
 
@@ -2223,20 +2030,15 @@ progress. "/raw /list" while listing will have the same effect.
 
 
 Example: Beeing on the Oslo-server, typing "`/trace Concord`":
-
-`Link u2.10.00.bans3 Concord lulea-r.se.eu.undernet.org`
-
-`Link u2.10.00.bans3 Concord Amsterdam.NL.EU.undernet.org`
-
-`Link u2.10.00 Concord Regensburg.DE.EU.undernet.org`
-
-`Link u2.10.00 Concord Baltimore-R.MD.US.Undernet.Org`
-
-`Link u2.10.00 Concord Chicago-R.IL.US.Undernet.org`
-
-`Link u2.10.00 Concord ann-arbor.mi.us.undernet.org`
-
-`User 5 Concord[quail-2.slip.uinb.edu] 18`
+```
+Link u2.10.00.bans3 Concord lulea-r.se.eu.undernet.org
+Link u2.10.00.bans3 Concord Amsterdam.NL.EU.undernet.org
+Link u2.10.00 Concord Regensburg.DE.EU.undernet.org
+Link u2.10.00 Concord Baltimore-R.MD.US.Undernet.Org
+Link u2.10.00 Concord Chicago-R.IL.US.Undernet.org
+Link u2.10.00 Concord ann-arbor.mi.us.undernet.org
+User 5 Concord[quail-2.slip.uinb.edu] 18
+```
 
 
 What it shows is that a message from me to Concord has to go through 6 server-
@@ -2254,10 +2056,10 @@ to hunt down _where_ the lag in a connection between you and your friend is.
 Say if the Regensburg line is shown, and it takes a long time before the
 Baltimore line is printed, it means the connection between Regensburg and
 Baltimore is lagged. Then you consult /map
-([4.1.2](ccosmos.html#_Ref452377474)) to find a server away from the
+([4.1.2](#sec4-1-2)) to find a server away from the
 Regensburg-Baltimore link. If this dosn't turn up the lag, it could be sitting
 between him and his server, in case the difference between a "/whois nick
-nick" ([2.6](ccosmos.html#_Ref487296254)) and a ping would give you his lag.
+nick" ([2.6](#sec2-6)) and a ping would give you his lag.
 
 
 
@@ -2273,32 +2075,25 @@ Possibly displayed on more than one line.
 Where:
 
 class
-
-Class the server is in
+:	Class the server is in
 
 nS
-
-Number of servers reached via this link
+:	Number of servers reached via this link
 
 nC
-
-Number of clients reached via this link
+:	Number of clients reached via this link
 
 name
-
-Name of the server linked
+:	Name of the server linked
 
 ConnBy
-
-Who established this link
+:	Who established this link
 
 last
-
-Seconds since we got something from this link
+:	Seconds since we got something from this link
 
 age
-
-Seconds this link has been alive
+:	Seconds this link has been alive
 
 
 Example:
@@ -2310,7 +2105,7 @@ Beeing on sandiego, the start of the /trace reply look like this:
 
 
 The connection is in connection class 10 (See Y-lines
-[5.1.5](ccosmos.html#_Ref464744457)) 41 servers are reachable via this link,
+[5.1.5](#sec5-1-5)) 41 servers are reachable via this link,
 resulting in 20227 reachable clients.
 
 The link is to Dallas and was established by Sandiego itself. It's 1 second
@@ -2335,8 +2130,10 @@ watching the censored edition.
 
 
 
-##  **_4.2 Specific server_**
+{:#sec4-2}
+##  4.2 Specific server
 
+{:#sec4-2-1}
 ###  4.2.1 motd
 
 Brings up your servers' "Message Of The Day". (The text you get each time you
@@ -2351,10 +2148,11 @@ done to preserve bandwidth.
 
 It's easy to show different MOTD to different people according to their
 address. For instance one in the native language. In ircu2.10 you may also do
-this according to their connection class ([5.1.5](ccosmos.html#_Ref517204341))
+this according to their connection class ([5.1.5](#sec5-1-5))
 
 
 
+{:#sec4-2-2}
 ###  4.2.2 time
 
 Shows the time, according to the servers' clock, and hours away from GMT
@@ -2365,10 +2163,11 @@ Example: `Thursday July 27 2000 -- 17:57 -06:00`
 
 This server is located 6 hours behind GMT. If you debug, you'll find that the
 server also sends a line with a number in the unixtime format. as mentioned in
-stats-g ([5.1.2](ccosmos.html#_Ref489383828)) This isn't displayed in mIRC. If
+stats-g ([5.1.2](#sec5-1-2)) This isn't displayed in mIRC. If
 your machines' timezone setting is correct, your script could use that line to
 calibrate your systemclock.
 
+{:#sec4-2-3}
 ###  4.2.3 admin
 
 Returns administrative info.
@@ -2381,27 +2180,27 @@ It could be used with wildcards, but returns only first matching server.
 
 
 Example:
-
-`Administrative info about London.UK.eu.Undernet.org`
-
-`Aladdin Internet's IRC server`
-
-`Undernet IRC Server`
-
-`sam@salabim.co.uk`
+```
+Administrative info about London.UK.eu.Undernet.org
+Aladdin Internet's IRC server
+Undernet IRC Server
+sam@salabim.co.uk
+```
 
 
 
+{:#sec4-2-4}
 ###  4.2.4 help
 
 Syntax: `/raw help`
 
 This sends "HELP" to the server, giving a list of commands it will understand.
 
-See [4.1.4](ccosmos.html#_Ref439933182)_ _for `/raw list help`
+See [4.1.4](#sec4-1-4) for `/raw list help`
 
 
 
+{:#sec4-2-5}
 ###  4.2.5 info
 
 Version and copyright info, along with credits to those who have contributed
@@ -2412,6 +2211,7 @@ to the coding of the IRC-software.
 
 
 
+{:#sec4-2-6}
 ###  4.2.6 version
 
 Returns the version of the serversoftware running. Use `/version servername`
@@ -2426,11 +2226,12 @@ Example:
 `u2.10.10.09. SanDiego.CA.US.Undernet.org B9eEFfIKlMOopStUW`
 
 This one is running ircu version 2.10.10.09 The letters at the end is its
-server-options. ([4.2.7](ccosmos.html#_Ref454722216))
+server-options. ([4.2.7](#sec4-2-7))
 
 
 
 
+{:#sec4-2-7}
 ###  4.2.7 Decoding serveroptions in "version"
 
 Serveroptions are those letters at the end of a version-reply. They indicate
@@ -2441,7 +2242,7 @@ mean, isn't it? :-)
 **Terms used**
 An IRC-operator can be set to two levels, with the modes FLAG_OPER or
 FLAG_LOCOP set. You can spot an OPER by the uppercase O in the /stats o
-([5.1.4](ccosmos.html#_Ref439931641)) reply, and a LOCOP by the lowercase. A
+([5.1.4](#sec5-1-4)) reply, and a LOCOP by the lowercase. A
 LOCOP dosn't get his mode propagated to other servers and so is not seen by
 the rest of the net as an operator and therefore cannot act on clients
 connected to other servers, e.g killing.
@@ -2455,127 +2256,98 @@ operator" in this guide means an OPER on a server other than yours.
 
 **Valid Serveroptions in ircu2.10.11**
 
+The meaning of the letters:
 A
-
-Assertion checks enabled
+:	Assertion checks enabled
 
 B or b
-
-The size of the bufferpool.
+:	The size of the bufferpool.
 
 C
-
-CMDLINE_CONFIG is defined
+:	CMDLINE_CONFIG is defined
 
 D
-
-DEBUGMODE is defined
+:	DEBUGMODE is defined
 
 e
-
-LOCOPS can use /REHASH
+:	LOCOPS can use /REHASH
 
 E
-
-Opers can use /REHASH
+:	Opers can use /REHASH
 
 f
-
-Operators can set modes on local channels
+:	Operators can set modes on local channels
 
 F
-
-Operators bypass the no. of channels limit
+:	Operators bypass the no. of channels limit
 
 H
-
-HUB is defined
+:	HUB is defined
 
 i
-
-Show operators invisible users local to the server
+:	Show operators invisible users local to the server
 
 I
-
-Show OPERS all invisible users.
+:	Show OPERS all invisible users.
 
 k
-
-Opers can use /KILL on local clients.
+:	Opers can use /KILL on local clients.
 
 K
-
-Opers can use /KILL on any client
+:	Opers can use /KILL on any client
 
 l
-
-Operators can walk through modes on local channels
+:	Operators can walk through modes on local channels
 
 M
-
-IDLE_FROM_MSG is defined
+:	IDLE_FROM_MSG is defined
 
 O
-
-server has defined USEONE
+:	server has defined USEONE
 
 p
-
-Oper passwords are crypted
+:	Oper passwords are crypted
 
 P
-
-Link paswords are crypted
+:	Link paswords are crypted
 
 Q
-
-/stats M works
+:	/stats M works
 
 q
-
-Server does memory allocation/dealloation checks
+:	Server does memory allocation/dealloation checks
 
 R
-
-RELIABLE_CLOCK is defined
+:	RELIABLE_CLOCK is defined
 
 s
-
-LOCOPS can use /RESTART
+:	LOCOPS can use /RESTART
 
 S
-
-Opers can use /RESTART
+:	Opers can use /RESTART
 
 t
-
-OPER_REMOTE is defined
+:	OPER_REMOTE is defined
 
 U
-
-Server uses poll()
+:	Server uses poll()
 
 v
-
-VIRTUAL_HOST is defined
+:	VIRTUAL_HOST is defined
 
 W
-
-BADCHAN is enabled
+:	BADCHAN is enabled
 
 x
-
-local BADCHAN is enabled
+:	local BADCHAN is enabled
 
 Y
-
-Server uses syslog()
-
+:	Server uses syslog()
 
 
 
 
-    The meaning of the letters
+
 
 When followed by [OUTDATED], it means ircu has thrown the setting overboard.
 It is kept here as a reference for other networks.
@@ -2595,11 +2367,12 @@ After that, it divides the number so that only the two first digits are shown.
 For nets with older ircu, here's how it was done prior to ircu2.10.7:
 
 ---------[OUTDATED]-------------------------
+
 MAXSENDQLENGTH **M**[0-9>][0-9]
 
 Specifying 0.1Mb up to 9.9Mb of MAXSENDQLENGTH, shown as ">" when larger than
 9.9Mb Default value of the "max senq. lenght" in Y: lines
-([5.1.5](ccosmos.html#_Ref439931974)) and used for deciding RAM-allocation.
+([5.1.5](#sec5-1-5)) and used for deciding RAM-allocation.
 
 
 INT_BUFFERPOOL **B**[0-9>]
@@ -2624,7 +2397,7 @@ BUFFERPOOL
 It is only a multiplier for the RAM allocation, it dosn't tell us that there's
 exactly 8 queues, but it tells the max of one single queue.
 
-See "/stats l" ([5.3.2](ccosmos.html#_Ref439932400)) for a queue
+See "/stats l" ([5.3.2](#sec5-3-2)) for a queue
 
 
 For the sourcecode sniffers: INT_BUFFERPOOL is gone, BUFFERPOOL is independent
@@ -2674,7 +2447,7 @@ never be done remotely). E and e could be set both at the same time)
 OPER_MODE_LCHAN **f** (y)
 
 Allow operators to set modes on local channels
-([3.2](ccosmos.html#_Ref472441475))
+([3.2](#sec3-2))
 
 
 OPER_NO_CHAN_LIMIT **F **(y)
@@ -2733,16 +2506,16 @@ OPER_WALK_THROUGH_LMODES **l** (n)
 
 Note: in previous versions, l meant "server checks for clones", with a number
 following, indicating how many connections from the same IP were allowed. see
-chapter [7](ccosmos.html#_Ref489303435) and the I-lines
-([5.1.3](ccosmos.html#_Ref489303487))
+chapter [7](#sec7) and the I-lines
+([5.1.3](#sec5-1-3))
 
 
 
 Least_idle **L** [OUTDATED] (but not removed from /version code)
 
 Looks for the least idle person logged in on the server. Used for SUMMON, that
-can contact people on the same machine as the server. Syntax is `/SUMMON
-<user> [<server>]` but i assume it's operator-only and long gone from any net.
+can contact people on the same machine as the server. Syntax is 
+`/SUMMON <user> [<server>]` but i assume it's operator-only and long gone from any net.
 
 
 m4_preproc **m **[OUTDATED]
@@ -2761,7 +2534,7 @@ isn't a privmsg.
 
 Standard: Set.
 
-Also see "Getting seconds idle" ([2.6](ccosmos.html#_Ref439932711))
+Also see "Getting seconds idle" ([2.6](#sec2-6))
 
 
 
@@ -2771,7 +2544,7 @@ Also see "Getting seconds idle" ([2.6](ccosmos.html#_Ref439932711))
 
 USEONE **O** [OUTDATED]
 
-The syntax in the I-lines ([5.1.3](ccosmos.html#_Ref454722994)) were changed
+The syntax in the I-lines ([5.1.3](#sec5-1-3)) were changed
 in ircu2.10.05, removing the use of the token "ONE".
 
 With USEONE defined, the server admin can keep using "ONE" in the
@@ -2813,7 +2586,7 @@ DEBUGMALLOC **q**
 MEMLEAKSTATS **Q**
 
 when both DEBUGMALLOC and MEMLEAKSTATS is set, we'll get "**Q**" and /stats M
-([5.3.7](ccosmos.html#_Ref489303750)) will be working.
+([5.3.7](#sec5-3-7)) will be working.
 
 
 RELIABLE_CLOCK **R**
@@ -2914,7 +2687,8 @@ Means the net has only 2.8 or higher server versions.
 
 
 
-#  **5 STATS. Query for retrieving various data and statistics **
+{:#sec5}
+#  5 STATS. Query for retrieving various data and statistics
 
 A command that gives you access to large amounts of information is STATS. How
 is the load on the ports divided? who is banned and why? how many is away? and
@@ -2950,9 +2724,11 @@ them here to avoid confusion.
 
 
 
-##  **_5.1 Who's allowed in and how. _**
+{:#sec5-1}
+##  5.1 Who's allowed in and how.
 
 ###  5.1.1 k K-line
+{:#sec5-1-1}
 
 Returns a list of banned usernames and hostnames. (Kill-lines) Helps you
 determine why someone can't get in.
@@ -2978,7 +2754,7 @@ Examples:
 
 `K *.ppp.some.mr Go_away ~tagger 0 -1`
 
-anyone matching "user@*" is banned. (guaranteed fake ID) anyone matching
+anyone matching "user@\*" is banned. (guaranteed fake ID) anyone matching
 ~tagger@ppp.some.mr is also banned.
 
 
@@ -2990,13 +2766,13 @@ its contents, say "Please use a us-server".
 
 `K * K-lined because of clones ~victor`
 
-anyone matching ~victor@* is k-lined, just displaying the text "K-lined
+anyone matching ~victor@\* is k-lined, just displaying the text "K-lined
 because of clones"
 
 
 `K $R*sub7* you are infected with a trojan * 0 -1`
 
-Will k-line anyone with infotext (see [2.14](ccosmos.html#_Ref517179308))
+Will k-line anyone with infotext (see [2.14](#sec2-14))
 mathing *sub7*
 
 
@@ -3004,9 +2780,9 @@ If you happen to find a lowercase "k"-line, it works as other K-lines, except
 it contains an IP-address that will K-line the user even if his IP happen to
 resolve to a DNS address. This is part of the protection against "virtual
 host" misuse, as described in "userhost/userip"
-([2.9](ccosmos.html#_Ref439947168))
+([2.9](#sec2-9))
 
-`k 192.168.* !klines/martians * 0 -1`
+`k 192.168.\* !klines/martians \* 0 -1`
 
 
 
@@ -3039,6 +2815,7 @@ peak-hours shift across the globe.
 
 
 
+{:#sec5-1-2}
 ###  5.1.2 g G-line
 
 shows G-lines.
@@ -3064,7 +2841,7 @@ it into readable format.
 When the date/time specified by number is reached, the G-Line is lifted. A
 G-line usually lasts for a few hours or a week, but could easily be set to
 last forever. (Well, over 30 years atleast.) Also see
-([6.5](ccosmos.html#_Ref452375685))
+([6.5](#sec6-5))
 
 
 Note that the number used will not be the same as the number used for
@@ -3090,14 +2867,14 @@ know how to make aliases.
 
 
 
+{:#sec5-1-3}
 ###  5.1.3 i I-line
 
 A list of the hosts that is allowed to connect to the server as a client.
 
 
 
-`I:<IP mask or garbage text to force resolving (e.g NOMASK)
->:<digit>:<hostmask>:<port>:<class>`
+`I:<IP mask or garbage text to force resolving (e.g NOMASK)>:<digit>:<hostmask>:<port>:<class>`
 
 
 Example:
@@ -3122,10 +2899,10 @@ closer server. (European clients will experience this a lot on us-servers and
 vice versa.)
 
 
-Take notice of the 2. field from left <digit>. In versions earlier than
+Take notice of the 2. field from left \<digit\>. In versions earlier than
 ircu2.10.05, "ONE" here meant that only one connection were allowed in from
-the same IP-address, when sorted under this I-line. From 10.05 they can put a
-* to mean unspecified, or a digit, 1 to 9, to limit the number of clients
+the same IP-address, when sorted under this I-line. From 10.05 they can put a *
+to mean unspecified, or a digit, 1 to 9, to limit the number of clients
 connecting. In the example above, shoeshop.com are allowed to have 5
 connections from the same IP-address, where the connections are counted
 _globally_. (Its total number connections to the IRC-network) The old "ONE"
@@ -3133,7 +2910,7 @@ only looked for clients connected to this very server.
 
 To ease it for lazy server-admins, ;-) one can compile ircu to still accept
 "ONE" in the I-lines. If so is done, a "O" shows up in the /version reply.
-([4.2.7](ccosmos.html#_Ref454724066))
+([4.2.7](#sec4-2-7))
 
 At the same time, the <digit> field is the field to put in the password for
 operator connections. That won't be displayed ofcourse :-)
@@ -3145,7 +2922,7 @@ use, it probably restricts the connection to use only the specified port.
 
 Example:
 
-Your favourite server has got the following line and you are under the *.de
+Your favourite server has got the following line and you are under the \*.de
 domain: "I *@*.de 2 *@*.de 0 20"
 
 If you already had two connections to Undernet, possibly on other servers,
@@ -3156,8 +2933,8 @@ might still let you in.
 Q: What if I match more than one I-line?
 
 A: If the administrator has put the lines in the right order, you should be
-matched to the I-line with the most specific mask. ("*.yourprovider.com" is
-more specific than "*.com")
+matched to the I-line with the most specific mask. ("\*.yourprovider.com" is
+more specific than "\*.com")
 
 
 Q: Don't I and K lines "collide" sometimes?
@@ -3171,26 +2948,27 @@ This depends on the admin setting up the lines correctly
 
 Example:
 
-A European server might K-line the whole *.edu domain, but put
-*.someuniversity.edu in I-line. Someuniversity will then get in, so the
+A European server might K-line the whole \*.edu domain, but put
+\*.someuniversity.edu in I-line. Someuniversity will then get in, so the
 "someuniversity." inclusion is overriding the .edu exclusion.
 
-A *!*someperson@someuniversity.edu K-line will in turn override the
+A `*!*someperson@someuniversity.edu` K-line will in turn override the
 universities' general I-line.
 
-Also the common "*!~user!*@*" K-line will override the common *!*@* I-line,
+Also the common `*!~user!*@*` K-line will override the common `*!*@*` I-line,
 that allows anyone in general in.
 
 If a server has the same mask in both an I and a K line, the K override the I.
 
 
 I-lines can be fetched remotely. Same syntax as for k-lines
-([5.1.1](ccosmos.html#_Ref489370639))
+([5.1.1](#sec5-1-1))
 
 
 
 
 
+{:#sec5-1-4}
 ###  5.1.4 o O-line
 
 This one returns a list of hosts from which normal clients may become
@@ -3216,14 +2994,15 @@ their own server. Your local "local ops" (locops for short) is shown in the
 "/who 0 o" command, along with the global operators.
 
 The ops listed in the example are put in connectionclass 10.
-([5.1.5](ccosmos.html#_Ref504701260)) the * is for the hidden password, 0 is
+([5.1.5](#sec5-1-5)) the * is for the hidden password, 0 is
 just empty.
 
 
-see [4.2.7](ccosmos.html#_Ref439947974) for more about the Op-status.
+see [4.2.7](#sec4-2-7) for more about the Op-status.
 
 
 
+{:#sec5-1-5}
 ###  5.1.5 y Y-line
 
 y shows Y (Class) lines from server's configuration file
@@ -3272,7 +3051,7 @@ call the possible clients in a class "seats". We might guess that class 70 and
 0, both with few seats, special ping-frequency and high sendq size, is
 dedicated to server-server connections.
 
-In O-lines ([5.1.4](ccosmos.html#_Ref439948118)) we read that for this server,
+In O-lines ([5.1.4](#sec5-1-4)) we read that for this server,
 class 10 is where the operators are placed.
 
 
@@ -3328,8 +3107,10 @@ Napoleon belongs to class 70, beeing idle 30 secs.
 
 
 
-##  **_5.2 Server-server connections _**
+{:#sec5-2}
+##  5.2 Server-server connections
 
+{:#sec5-2-1}
 ###  5.2.1 c
 
 Returns a list of servers which the server may connect to or allow connections
@@ -3361,7 +3142,7 @@ These are merged into one today. The IP of the server is also masked, along
 with the password ofcourse, for security reasons.
 
 The two last numbers are unixport and class to connect to. You'll find the
-same port in /stats y ([5.1.5](ccosmos.html#_Ref489122526))
+same port in /stats y ([5.1.5](#sec5-1-5))
 
 if the port is ommitted (0 as here) the server will not try to connect to that
 server.
@@ -3376,6 +3157,7 @@ the tree-structure.
 
 
 
+{:#sec5-2-2}
 ###  5.2.2 U (uppercase)
 
 showing U:lines. Listing of servers allowed to act as "services". Uworld is
@@ -3401,8 +3183,10 @@ exploitations by users taking the nicks.
 
 
 
-##  **_5.3 Statistics-related commands _**
+{:#sec5-3}
+##  5.3 Statistics-related commands
 
+{:#sec5-3-1}
 ###  5.3.1 m (lowercase)
 
 Gives you a list of commands supported by the server, number of times they've
@@ -3443,9 +3227,10 @@ if a servers' users tend to talk to each other mostly, or is chatting around
 server.
 
 
-You may also use /quote help ([4.2.4](ccosmos.html#_Ref517229244)) to list
+You may also use /quote help ([4.2.4](#sec4-2-4)) to list
 available commands
 
+{:#sec5-3-2}
 ###  5.3.2 l
 
 Shows a table with server-server connections and some people in the act of
@@ -3481,7 +3266,7 @@ server:
 `[...]`
 
 The 2. line would be the sum for all ports. You can get much of the same info
-from /stats p ([5.3.3](ccosmos.html#_Ref488610812))
+from /stats p ([5.3.3](#sec5-3-3))
 
 On even older ircu, port 6667 wasn't shown, but you could easily find its
 values when you subtracted the other ports from the sum.
@@ -3508,6 +3293,7 @@ moment.
 
 
 
+{:#sec5-3-3}
 ###  5.3.3 p
 
 Show you the ports this server accepts connections on, and how many is on
@@ -3579,6 +3365,7 @@ first if no mask.
 
 
 
+{:#sec5-3-4}
 ###  5.3.4 t (lowercase)
 
 Various statistics about the server.
@@ -3603,6 +3390,7 @@ Example:
 
 
 
+{:#sec5-3-5}
 ###  5.3.5 z
 
 shows memory usage and count data structures. What it means to us: More
@@ -3671,7 +3459,7 @@ The example above says 1042 people is marked as away, but note that this is
 slightly misleading, as away-messages isn't exchanged during a rejoin after a
 netsplit. (Not up to and counting ver 2.10.10 atleast). So sometimes, to find
 a persons away-message, you need to direct the whois-query to his server,
-[2.6](ccosmos.html#_Ref439949445).
+[2.6](#sec2-6).
 
 
 User channels and Channel members:
@@ -3734,6 +3522,7 @@ other is on none. You get "on average there is 1 person on each channel" and
 
 
 
+{:#sec5-3-6}
 ###  5.3.6 w
 
 Access statistics from main served domain.
@@ -3755,10 +3544,12 @@ about their own users.
 
 
 
+{:#sec5-3-7}
 ###  5.3.7 M (uppercase)
 
 Various memory-leak statistics.
 
+{:#sec5-3-8}
 ###  5.3.8 r and x
 
 Two queries available when the server is in DEBUGMODE. r shows resource usage
@@ -3768,6 +3559,7 @@ Not to be confused with R-lines which ircu does not support.
 
 
 
+{:#sec5-3-4}
 ###  5.3.9 u (lowercase)
 
 Telling you how long the server has been up (since last reboot)
@@ -3785,9 +3577,11 @@ Highest connection count: 1087 (1085 clients)
 
 
 
-#  **6 Discussions **
+{:#sec6}
+#  6 Discussions
 
-##  **_6.1 A look under the hood _**
+{:#sec6-1}
+##  6.1 A look under the hood 
 
 You might want to see what is transmitted between you and the server to better
 understand what's going on. mIRC has the command /debug on|off that saves a
@@ -3802,7 +3596,8 @@ Dalnet and Efnet and give you good examples on ways to use them in scripts.
 
 
 
-##  **_6.2 Privacy and anonymity on IRC_**
+{:#sec6-2}
+##  6.2 Privacy and anonymity on IRC
 
 As a thumbrule you shouldn't trust irc or internet for that matter when it
 comes to your privacy and anonymity.
@@ -3830,10 +3625,7 @@ provider may be shown in a /whois, and a simple finger at your provider may
 reveal your identity. If you'r chased by lawyers, secret service or ECHELON
 itself, expect to be tracked down in more sofisticated ways.
 
-[http://www.user-
-com.undernet.org/newsletter/archives/2000/newsletter03-00.html -
-bouncers](http://www.user-
-com.undernet.org/newsletter/archives/2000/newsletter03-00.html#bouncers)
+<http://www.user-com.undernet.org/newsletter/archives/2000/newsletter03-00.html#bouncers>
 features an article on "bouncers", relay-servers that you can route your IRC
 chat through, making it appear on IRC like you originate from that server and
 not your machine. Much like anonymous mail forwarding. On the other hand,
@@ -3848,11 +3640,11 @@ seen. 1)
 
 Apart from that, you should assume that the operators can join any channel
 regardless of restrictions, find you regardless of +i mode
-([2.5.1](ccosmos.html#_Ref457281761)), see the secret channels you are on and
+([2.5.1](#sec2-5-1)), see the secret channels you are on and
 who is in there with you. 2)
 
 If you have a special operator in mind, the version-reply
-([4.2.7](ccosmos.html#_Ref457282133)) should give you sufficient information
+([4.2.7](#sec4-2-7)) should give you sufficient information
 about his powers.
 
 
@@ -3868,7 +3660,8 @@ easy, and it isn't harder with ircu than any other serversoftware.
 
 
 
-##  **_6.3 What's a ping? Meet CTCP and DCC_**
+{:#sec6-3}
+##  6.3 What's a ping? Meet CTCP and DCC
 
 A ping files under what we call CTCP (Client To Client Protocol) commands.
 
@@ -3877,7 +3670,7 @@ sent back is a NOTICE. A PRIVMSG is a message to a nick or a channel, so /ping
 #channel is a valid way to ping everyone in that channel.
 
 The time and IP is determined with a LONG-number, (see
-G-lines([5.1.2](ccosmos.html#_Ref439950654))), and the PRIVMSG/NOTICE line
+G-lines([5.1.2](#sec5-1-2))), and the PRIVMSG/NOTICE line
 also contain some special characters. The /me command is also a CTCP command.
 (Called ACTION)
 
@@ -3888,8 +3681,8 @@ $longip(IP-address)`
 The DCC (Direct Client Connection) is initiated via CTCP but has its own life
 after that.
 
-For more information, have a look at [http://www.doco-
-com.undernet.org/](http://www.doco-com.undernet.org/), they have both the DCC
+For more information, have a look at
+<http://www.doco-com.undernet.org/>, they have both the DCC
 and CTCP RFC with good explanations. (Believe me, how CTCP work isn't hard to
 grasp at all) Type `/ctcp nick clientinfo` to see what commands the nick will
 respond to.
@@ -3917,11 +3710,12 @@ Note:
 Typing "/raw ping garbage" does a serverping. That's the ping that makes those
 "PING? PONG!" lines in the status-window, checking to see if you'r online.
 It's not related to the CTCP ping. The serverping before ircu2.10.11 had a
-"remote" capability, see [1.4](ccosmos.html#_Ref17405996).
+"remote" capability, see [1.4](#sec1-4).
 
 
 
-##  **_6.4 What's lag and bandwidth?_**
+{:#sec6-4}
+##  6.4 What's lag and bandwidth?
 
 Bandwidth is about how much data the servers manage to squeeze in on their
 lines. If there's much data passing through, its going slow. The result is
@@ -3931,31 +3725,33 @@ DCC chat. The text is then passed directly between you, not through the irc-
 network. Also, you won't be affected by a netsplit in DCC-chats
 
 For channels, you may want to use close servers.
-([4.1.2](ccosmos.html#_Ref452377474)) The source of the lag can be traced down
-using /trace ([4.1.5](ccosmos.html#_Ref489375494)) and a remote whois
-([2.6](ccosmos.html#_Ref489375538))
+([4.1.2](#sec4-1-2)) The source of the lag can be traced down
+using /trace ([4.1.5](#sec4-1-5)) and a remote whois
+([2.6](#sec2-6))
 
-##  **_6.5 Desyncs after a netburst_**
+{:#sec6-5}
+##  6.5 Desyncs after a netburst
 
 A netburst is the "reconnection" of the network after it has had a split.
 
 During the netburst, most information in the network like who's on which
 channel is synchronized. A timestamp as the one in the g-lines
-([5.1.2](ccosmos.html#_Ref517685197)) is used to decide between conflicting
+([5.1.2](#sec5-1-2)) is used to decide between conflicting
 information. If for instance, two people have the same nick, the one who got
 it first keep it, the other one is kicked off the net. This is exploited by
 services like X on Undernet by setting the timestamp to 0 (1. january 1970)
 thus overriding all other settings withouth violating any IRC protocol.
 
-As of P10 ([4.1.3](ccosmos.html#_Ref452376808)) the away, silence, topic and
+As of P10 ([4.1.3](#sec4-1-3)) the away, silence, topic and
 invite information is _not_ synchronized, to save bandwidth. Silence
-([2.12](ccosmos.html#_Ref452374264)) has its own synch-system and common sense
-tell people to do the invite ([3.6](ccosmos.html#_Ref452375215)) over again.
+([2.12](#sec2-12)) has its own synch-system and common sense
+tell people to do the invite ([3.6](#sec3-6)) over again.
 The average channelservicebot will synchronize the topic as well. To get hold
 of the away-message after a split without joining the persons server, you'd
-have to use a remote /whois ([2.4](ccosmos.html#_Ref517179229))
+have to use a remote /whois ([2.4](#sec2-4))
 
-##  **_6.6 Obscure commands_**
+{:#sec6-6}
+##  6.6 Obscure commands
 
 I believe that most commands in this guide can be usefull or interesting to
 someone out there. The commands below however, is absolutely uninteresting.
@@ -3968,7 +3764,8 @@ But ofcourse, you can pretend for your friends it's something much more
 interesting. Use your imagination and mail your ideas to me, I'll add the best
 to the guide in the next edition.
 
-##  **_6.7 What's Uworld, X and Cservice?_**
+{:#sec6-7}
+##  6.7 What's Uworld, X and Cservice?
 
 uworld is a service running on undernet. Acting as a server, it can set modes
 for a channel and by that helping opers fix channels more easily. It also
@@ -3979,7 +3776,8 @@ channelbots you've probably encountered if you frequent Undernet.
 
 
 
-##  **_6.8 Summary of Undernet anti-flood measures._**
+{:#sec6-8}
+##  6.8 Summary of Undernet anti-flood measures.
 
 A network will want to minimize the number of ways people can harass others on
 it. A common loophole were to take advantage of net-splits to gain op in
@@ -4008,7 +3806,8 @@ also has floodstoppers built in.
 
 
 
-##  **_6.9 Characters on IRC_**
+{:#sec6-9}
+##  6.9 Characters on IRC
 
 For chatting in channels, anything that can be translated to ASCII gets
 through. (ASCII is a standard way to express characters) Note however, that
@@ -4045,12 +3844,13 @@ american letters are treated on IRC may vary between nets.
 A weird side-effect happens when trying to ban people with these characters in
 the name.
 
-Trying to ban the nick "ac\dc", *|*!*@* will work where *\*!*@* fails.
-*ac\dc*!*@* works just fine too.
+Trying to ban the nick "ac\dc", \*|\*!\*@\* will work where \*\\\*!\*@\* fails.
+\*ac\dc\*!\*@\* works just fine too.
 
 
 
-#  **7 The logon procedure **
+{:#sec7}
+#  7 The logon procedure
 
 Connecting and beeing on IRC is nothing but a telnet session. The telnet
 address being the servername and the portnumber for example 6667. Here's what
@@ -4062,15 +3862,15 @@ You connect to the address, with the right portnumber, using a telnet client.
 
 On undernet this may scroll up:
 
-NOTICE AUTH :*** Looking up your hostname
+NOTICE AUTH :\*\*\* Looking up your hostname
 
-NOTICE AUTH :*** Found your hostname, cached
+NOTICE AUTH :\*\*\* Found your hostname, cached
 
-NOTICE AUTH :*** Checking Ident
+NOTICE AUTH :\*\*\* Checking Ident
 
 
 If mIRC, and not your ISP handles IDENTD requests, it might be necessary to
-have mIRC running at the same time. (see [2.4](ccosmos.html#_Ref517179229) for
+have mIRC running at the same time. (see [2.4](#sec2-4) for
 IDENTD) or the server, if it is more forgiving will still let you in, only
 putting a ~ before your username in the /whois reply.
 
@@ -4105,7 +3905,7 @@ various information scrolls up. (Some ircu specific here)
 Irc operators or administrators would here issue their password for special
 access. There are talks about using the password to log into the
 channelservice (X on Undernet) and set yourself +x
-([2.5.1](ccosmos.html#_Ref17379234)) before you fully enter the net, so that
+([2.5.1](#sec2-5-1)) before you fully enter the net, so that
 your address is not visible to anyone during even a brief moment of the logon,
 but this is somewhat in the future. (2003 or later).
 
@@ -4159,12 +3959,12 @@ purely an effect of merging after a netsplit.
 
 
 CHANTYPES indicate the three types of channels, +modeless
-([3.3](ccosmos.html#_Ref17026026)), #ordinary and &local
-([3.2](ccosmos.html#_Ref472441475)). This only tells the client that these
+([3.3](#sec3-3)), #ordinary and &local
+([3.2](#sec3-2)). This only tells the client that these
 three characters are in use as channel prefixes, they do not convey the
 difference between these channels. PREFIX should be read as "o-mode in a
 channel (channel operator) is shown by a @ beside the nick, v-mode (voice) by
-a +." ([3.5.1](ccosmos.html#_Ref504735579)). mIRC assume that these prefixes
+a +." ([3.5.1](#sec3-5-1)). mIRC assume that these prefixes
 are sorted according to the power they possess.
 
 Chanmode is on the form CHANMODE=A,B,C,D where:
@@ -4184,10 +3984,10 @@ unknown/unlisted modes.
 
 CASEMAPPING refers, far as I know, to the what character map should be used on
 this network. rfc1459 refers to the "standard" for irc.
-([6.9](ccosmos.html#_Ref504696823))
+([6.9](#sec6-9))
 
 
-Later on follows the output of /lusers ([4.1.1](ccosmos.html#_Ref17026092))
+Later on follows the output of /lusers ([4.1.1](#sec4-1-1))
 followed by the server bragging about its personal record on connections,
 before we move on to the MOTD and after its words of wisdom we're almost done:
 
@@ -4204,7 +4004,7 @@ ca = Connect Attempts, You have tried once, after 2 sequential connects you
 get throttled.
 
 ft = Free Targets. This is how many different people you may contact at once,
-also see [3.10](ccosmos.html#_Ref517621695)
+also see [3.10](#sec3-10)
 
 tr = Targets Restored. Your targets are kept for 2 minutes or until someone
 else from your IP logs on. This stops you from "refilling" your free targets
@@ -4213,7 +4013,7 @@ by reconnection.
 
 The example tells you that there's one connected client from your IP number on
 the net, and this is your first connect-attempt in a while. You have 10 free
-targets and no targets restored. (also see [3.10](ccosmos.html#_Ref489218820))
+targets and no targets restored. (also see [3.10](#sec3-10))
 
 People joining a channel on invite will receive an extra target
 
@@ -4252,79 +4052,65 @@ the commands, so you will have to turn on local echo in your telnetclient.
 
 
 
-#  **8 Other resources **
+{:#sec8}
+#  8 Other resources
+
+
+{:#sec8-1}
+##  8.1 Undernet Channels
 
 
 
-##  **_8.1 Undernet Channels _**
-
-
-
-#class
-
-Holding classes to teach about IRC. (how to defend against flood, basics of
+\#class
+:	Holding classes to teach about IRC. (how to defend against flood, basics of
 IRC, e.t.c) Several teachers are available for questions during the class.
 When there's no class, there's a bot there with various helpfull textfiles.
 
-#opschool
+\#opschool
+:	School for operators using X.
 
-School for operators using X.
+\#cservice
+:	Helping you with X and other cservice-related subjects.
 
-#cservice
-
-Helping you with X and other cservice-related subjects.
-
-#ICMP
-
-Teaching you how to avoid flood and other Denial Of Service (DOS) attacks like
+\#ICMP
+:	Teaching you how to avoid flood and other Denial Of Service (DOS) attacks like
 nukes or ICMP attacks.
 
-#ZT
+\#ZT
+:	"Zero Tolerance." Helpchan for those suffering from channel-takeovers.
 
-"Zero Tolerance." Helpchan for those suffering from channel-takeovers.
-
-#backorifice, #dmsetup
-
-Good channels for help with irc viruses
+\#backorifice, #dmsetup
+:	Good channels for help with irc viruses
 
 
 
 
 
-#help, #irc_info, #irchelp,
-
-#irc-help, #helpdesk, #userhelp, #userguide
-
-Various english-speaking helpchannels, mostly on the subject of IRC itself,
+\#help, #irc_info, #irchelp,
+\#irc-help, #helpdesk, #userhelp, #userguide
+:	Various english-speaking helpchannels, mostly on the subject of IRC itself,
 but #help may help or redirect you on most issues.
 
-#hjelp
+\#hjelp
+:	Help in norwegian
 
-Help in norwegian
+\#aide, #ircaide
+:	Help in french
 
-#aide, #ircaide
+\#ircayuda
+:	Help in spanish
 
-Help in french
+\#irc_ajutor, #rohelp
+:	Help in romana (from Romania?)
 
-#ircayuda
+\#hjelp
+:	Help in norwegian
 
-Help in spanish
+\#destek
+:	Help in turkish
 
-#irc_ajutor, #rohelp
-
-Help in romana (from Romania?)
-
-#hjelp
-
-Help in norwegian
-
-#destek
-
-Help in turkish
-
-#mircscripts, #mirc-scripts, #scripters, #scripts
-
-Making your own scripts in mIRC
+\#mircscripts, #mirc-scripts, #scripters, #scripts
+:	Making your own scripts in mIRC
 
 
 
@@ -4332,27 +4118,28 @@ Making your own scripts in mIRC
 
 
 
-##  **_8.2 Web resources_**
+{:#sec8-2}
+##  8.2 Web resources
 
 
 **General information**
-[http://www.undernet.org/](http://www.undernet.org/) is the startingpoint for
-getting to the Undernet resources, among them [http://www.user-
-com.undernet.org/](http://www.user-com.undernet.org/) Its "documents project"
+<http://www.undernet.org/> is the startingpoint for
+getting to the Undernet resources, among them 
+`http://www.user-com.undernet.org/` Its "documents project"
 has all kinds of documentation. The CTCP and DCC RFC, the old IRC RFC
 (RFC1459) an IRC FAQ (old) and guides for the operator and channelservice
 commands, which I havn't covered. Also Beginner-help, newsletters, e.t.c
-Definitely worth a visit. If you want to dig deep in ircu, visit [http://www
-.coder-com.undernet.org/](http://www.coder-com.undernet.org/), the home of the
+Definitely worth a visit. If you want to dig deep in ircu, visit
+<http://www.coder-com.undernet.org/>, the home of the
 ircu serversoftware.
 
 
-[http://www.user-com.undernet.org/documents/quitmsg.html](http://www.user-
-com.undernet.org/documents/quitmsg.html) A short and good FAQ about the
+`http://www.user-com.undernet.org/documents/quitmsg.html`
+A short and good FAQ about the
 meaning of all kinds of quitmessages.
 
 
-[http://www.irchelp.org/](http://www.irchelp.org/) Another source for FAQs,
+<http://www.irchelp.org/> Another source for FAQs,
 help, e.t.c Its advantage is presenting the IRC as a whole,
 
 As it cover the 4 main nets in the texts, (Dalnet, Undernet, Efnet and Ircnet)
@@ -4378,39 +4165,39 @@ Links to some major nets may be found at
 
 **Setting up servers**
 
-[http://www.ircdhelp.org/](http://www.ircdhelp.org/) Impressive site for those
+`http://www.ircdhelp.org/` Impressive site for those
 interested in setting up and running irc servers
 
-[http://serverwatch.internet.com/ircservers.html](http://serverwatch.internet.
-com/ircservers.html) Reviews of irc serversoftware.
+`http://serverwatch.internet.com/ircservers.html`
+Reviews of irc serversoftware.
 
 Imagine setting up your very own little net :-)
 
 
 One server able to run on windows is
-[http://www.wircds.com/](http://www.wircds.com/). The site also contain a
+`http://www.wircds.com/`. The site also contain a
 couple of helpfull things for the budding serveradmin like a configuration-
 file generator and a list of DNS services.
 
 
-[http://www.raptorircd.org/](http://www.raptorircd.org/) is an open-source
+`http://www.raptorircd.org/` is an open-source
 ircd based on ircu. After reading this guide, you may find their
 userdocumentation familiar. ;-)
 
 
 Regarding encrypted traffic on IRC, UnrealIRCD at
-[http://unreal.tspre.org/](http://unreal.tspre.org/)is one server which has
+`http://unreal.tspre.org/` is one server which has
 implemented encrypted communication. Epic at
 [http://epicssl.sourceforge.net/](http://epicssl.sourceforge.net/) is said to
 be the first client to support server-side SSL connections.
 
 
 One server that runs on IPv6 networks is IACD at
-[http://trash.net/~reeler/iacd/](http://trash.net/~reeler/iacd/)
+`http://trash.net/~reeler/iacd/`
 
 
 Internet chatsystems at
-[http://www.chatsystems.com/](http://www.chatsystems.com/) has implemented a
+`http://www.chatsystems.com/` has implemented a
 server that only accepts connections through a web-interface.
 
 
@@ -4420,18 +4207,17 @@ IPv6 networks and could be a workaround for restrictive firewalls.
 
 
 Another web-based client can be found at
-[http://www.undernet.org/webchat.php](http://www.undernet.org/webchat.php)
-
+<https://chat.undernet.org/>
 
 
 
 **Scripting and client issues**
 
-[http://mirc.stealth.net/download/](http://mirc.stealth.net/download/) is a
+`http://mirc.stealth.net/download/` is a
 great resource for those interested in taking advantage of numbers in the
 numeric replies. They'r listed and explained, and there's instructions about
 how to make the numbers do lots of usefull things in your scripts.
-([6.1](ccosmos.html#_Ref506732240)) A must for advanced scripters
+([6.1](#sec6-1)) A must for advanced scripters
 
 
 [ICS and IRC FAQ](../security/ics.htm) A discussion on how to deal with DCC
