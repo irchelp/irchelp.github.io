@@ -6,17 +6,17 @@ redirect_from:
   - /irchelp/security/trojanfix.html
 ---
 
-** This page is out of date and no longer being maintained. It will continue to be available for historical reference only. For more up to date information, see the links from our main page on [Trojan horse attacks](trojan.html).**
+**This page is out of date and no longer being maintained. It will continue to be available for historical reference only. For more up to date information, see the links from our main page on [Trojan horse attacks](trojan.html).**
 
 # Specific Fixes for Trojan Horse Attacks
 
 Part of the [Trojan horse attacks help
-page](http://www.irchelp.org/irchelp/security/trojan.html)
+page](trojan.html)
 
 updated Jun 24, 2000
 
-Be sure to read the warnings in the main [Trojan horse attacks help
-page](http://www.irchelp.org/irchelp/security/trojan.html) first!!! If you
+Be sure to read the warnings in the main 
+[Trojan horse attacks help page](trojan.html) first!!! If you
 just jump right to a specific fix without understand how you got in this mess
 in the first place, you're likely to suffer the same fate again or worse.
 **You assume full responsibility for trying these fixes.**
@@ -34,7 +34,7 @@ trojans pop up all the time. You can often find more information at the
 
   * Have you suddenly been finding yourself K-lined (banned) on servers with cryptic messages talking about "drones" or "clonebots"? You may have this trojan.
 
-**[links.vbs](linksvbs.txt)**
+**[links.vbs](linksvbs.html)**
 
   * Links.vbs is a VBScript program running under Windows Scripting Host. It sends itself as an attached file to everybody in your MS Outlook address book. It also adds scripts to mIRC or pirch to send itself to users as they join your channels.
 
@@ -78,7 +78,7 @@ trojans pop up all the time. You can often find more information at the
   * creates filename.ini
   * creates line "filename -inauto" in c:\autoexec.bat
   * creates c:\ni.cfg, bakupwrks.ini
-  * creates 2 folders in mIRC download directory: _dm2yif and suck_it
+  * creates 2 folders in mIRC download directory: `_dm2yif` and `suck_it`
 
 **[dmsetup.exe (4th variant)](fix4.html)**
 
@@ -112,4 +112,4 @@ trojans pop up all the time. You can often find more information at the
 
   * Another annoying trojan, here's the fix.
 
-**[[Return to main Trojan help page](trojan.html)]
+**[[Return to main Trojan help page](trojan.html)]**

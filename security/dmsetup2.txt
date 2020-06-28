@@ -1,0 +1,53 @@
+The dmsetup2.exe Trojan horse attack
+
+7/16/98
+
+We'll cut to the chase and tell you how to fix it, if you're pretty sure
+you have this bug. See the main help page for more info about trojan
+horse attacks in general and other trojans in particular:
+
+	http://www.irchelp.org/irchelp/security/trojan.html
+	
+Find out the name of the file that is sending, there are many names to
+dmsetup2 and the file size is usually around 81084 bytes
+
+Once you have the filename, do the following:
+
+Step 1. Type /remote off
+Step 2. Type /unload -rs filename.INI (make sure you drop the .exe and use .ini)
+Step 3. Type /remove filename.ini (see above)
+Step 4. Type //say $findfile(c:\,filename,0)
+Step 5. Type //remove $findfile(c:\,filename,1)
+Repeat Step 5 for as many copies of the virus as there are...
+For example if step 4 returned a result of "7" then you will need to do
+step 5 7 times. 
+Step 6. //say $findfile(c:\,filename,0)
+If result is 0 then go to step 7, else repeat step 5 again until result 
+for step 6 is 0
+Step 7. //say $lines(c:\autoexec.bat)
+Step 8. //say $read -ln c:\autoexec.bat
+Where n is the number returned by Step 7
+If Step 8 returns "Filename -inauto"
+then do //write -dn c:\autoexec.bat
+else get the person to open there autoexec.bat file (/run notepad 
+c:\autoexec.bat) and find the line with there filename -inauto and 
+remove the line completely. then save and exit notepad
+Step 9. type /remove c:\ni.cfg
+Step 10. type /remove mIRC.ini
+Step 11. type /remove bakupwrks.ini
+Step 12. Close mIRC and REBOOT your computer
+Step 13. Come back to mIRC and type //say $exists(c:\ni.cfg)
+Step 14. If this returns $False then you are cleared, type /remote on
+and /sreq ask. Do not download files you are unsure of especially .exe 
+and .ini files
+otherwise the file hasn't been removed, seek assistance from someone in
+a recognised help channel.
+
+If you have two folders left over in the mirc download dir called
+ÿdm2yif and suckÿit Type
+
+//run command /c deltree c:\ $+ [ $chr(255) $+ dm2yif ] and /c deltree c:\ $+ [ suck $+ $chr(255) $+ it ]
+
+that should delete them.
+
+If the title bar says "your mirc is buggy" you can change this by typing //titlebar [new title]
