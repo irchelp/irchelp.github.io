@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,6 +20,7 @@ May 1993
 * * *
 
 # 1. Introduction
+{:#c1}
 
 The IRC (Internet Relay Chat) protocol has been designed over a number of
 years for use with text based conferencing. This document describes the
@@ -29,6 +37,7 @@ central point for clients (or other servers) to connect to, performing the
 required message delivery/multiplexing and other functions.
 
 ## 1.1 Servers
+{:#c1_1}
 
 The server forms the backbone of IRC, providing a point to which clients may
 connect to to talk to each other, and a point for other servers to connect to,
@@ -62,6 +71,7 @@ node for the rest of the net it sees.
     
 
 ## 1.2 Clients
+{:#c1_2}
 
 A client is anything connecting to a server that is not another server. Each
 client is distinguished from other clients by a unique nickname having a
@@ -72,6 +82,7 @@ of the host that the client is running on, the username of the client on that
 host, and the server to which the client is connected.
 
 ### 1.2.1 Operators
+{:#c1_2_1}
 
 To allow a reasonable amount of order to be kept within the IRC network, a
 special class of clients (operators) is allowed to perform general maintenance
@@ -91,6 +102,7 @@ delicate since its abuse is both destructive and annoying. For further details
 on this type of action, see section [4.6.1](chapter4.html#c4_6_1) (KILL).
 
 ## 1.3 Channels
+{:#c1_3}
 
 A channel is a named group of one or more clients which will all receive
 messages addressed to that channel. The channel is created implicitly when the
@@ -134,6 +146,7 @@ will agree about which clients are in the channel and what modes the channel
 has.
 
 ### 1.3.1 Channel Operators
+{:#c1_3_1}
 
 The channel operator (also referred to as a "chop" or "chanop") on a given
 channel is considered to 'own' that channel. In recognition of this status,
@@ -166,7 +179,5 @@ WHOIS commands).
 * * *
 
 [<](rfc.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter2.html)

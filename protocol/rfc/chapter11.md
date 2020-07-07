@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,6 +20,7 @@ May 1993
 * * *
 
 # 11. Security Considerations
+{:#c11}
 
 Security issues are discussed in sections [4.1](chapter4.html#c4_1),
 [4.1.1](chapter4.html#c4_1_1), [4.1.3](chapter4.html#c4_1_3),
@@ -21,7 +29,5 @@ Security issues are discussed in sections [4.1](chapter4.html#c4_1),
 * * *
 
 [<](chapter10.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter12.html)

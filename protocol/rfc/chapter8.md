@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,6 +20,7 @@ May 1993
 * * *
 
 # 8. Current implementations
+{:#c8}
 
 The only current implementation of this protocol is the IRC server, version
 2.8. Earlier versions may implement some or all of the commands described by
@@ -28,6 +36,7 @@ those who wish to implement a server but some parts also apply directly to
 clients as well.
 
 ## 8.1 Network protocol: TCP - why it is best used here.
+{:#c8_1}
 
 IRC has been implemented on top of TCP since TCP supplies a reliable network
 protocol which is well suited to this scale of conferencing. The use of
@@ -35,6 +44,7 @@ multicast IP is an alternative, but it is not widely available or supported at
 the present time.
 
 ### 8.1.1 Support of Unix sockets
+{:#c8_1_1}
 
 Given that Unix domain sockets allow listen/connect operations, the current
 implementation can be configured to listen and accept both client and server
@@ -46,6 +56,7 @@ the server is required to supplant the actual hostname in place of the
 pathname unless the actual socket name is being asked for.
 
 ## 8.2 Command Parsing
+{:#c8_2}
 
 To provide useful 'non-buffered' network IO for clients and servers, each
 connection is given its own private 'input buffer' in which the results of the
@@ -56,6 +67,7 @@ When dealing with multiple messages from one client in the buffer, care should
 be taken in case one happens to cause the client to be 'removed'.
 
 ## 8.3 Message delivery
+{:#c8_3}
 
 It is common to find network links saturated or hosts to which you are sending
 data unable to send data. Although Unix typically handles this through the TCP
@@ -72,6 +84,7 @@ the queued data is sent. This reduces the number of write() system calls and
 helps TCP make bigger packets.
 
 ## 8.4 Connection 'Liveness'
+{:#c8_4}
 
 To detect when a connection has died or become unresponsive, the server must
 ping each of its connections that it doesn't get a response from in a given
@@ -83,6 +96,7 @@ the maximum allowed, because it is better to close a slow connection than have
 a server process block.
 
 ## 8.5 Establishing a server to client connection
+{:#c8_5}
 
 Upon connecting to an IRC server, a client is sent the MOTD (if present) as
 well as the current user/server count (as per the LUSER command). The server
@@ -96,6 +110,7 @@ could discover (from DNS/authentication servers). The server must send this
 information out with NICK first followed by USER.
 
 ## 8.6 Establishing a server-server connection.
+{:#c8_6}
 
 The process of establishing of a server-to-server connection is fraught with
 danger since there are many possible areas where problems can occur - the
@@ -111,6 +126,7 @@ that the server responding is authenticated properly before accepting the
 connection to be that server.
 
 ### 8.6.1 Server exchange of state information when connecting
+{:#c8_6_1}
 
 The order of state information being exchanged between servers is essential.
 The required order is as follows:
@@ -134,12 +150,14 @@ already reconnected in another location, the place where the collision occurs
 indicating where the net needs to split.
 
 ## 8.7 Terminating server-client connections
+{:#c8_7}
 
 When a client connection closes, a QUIT message is generated on behalf of the
 client by the server to which the client connected. No other message is to be
 generated or used.
 
 ## 8.8 Terminating server-server connections
+{:#c8_8}
 
 If a server-server connection is closed, either via a remotely generated SQUIT
 or 'natural' causes, the rest of the connected IRC network must have its
@@ -148,6 +166,7 @@ then sends a list of SQUITs (one for each server behind that connection) and a
 list of QUITs (again, one for each client behind that connection).
 
 ## 8.9 Tracking nickname changes
+{:#c8_9}
 
 All IRC servers are required to keep a history of recent nickname changes.
 This is required to allow the server to have a chance of keeping in touch of
@@ -172,6 +191,7 @@ for every client it knows about if they all decided to change. This size is
 limited by other factors (such as memory, etc).
 
 ## 8.10 Flood control of clients
+{:#c8_10}
 
 With a large network of interconnected IRC servers, it is quite easy for any
 single client attached to the network to supply a continuous stream of
@@ -189,6 +209,7 @@ which in essence means that the client may send 1 message every 2 seconds
 without being adversely affected.
 
 ## 8.11 Non-blocking lookups
+{:#c8_11}
 
 In a real-time environment, it is essential that a server process do as little
 waiting as possible so that all the clients are serviced fairly. Obviously
@@ -198,6 +219,7 @@ operations that may cause the server to block (such as disk reads). Where
 possible, such activity should be performed with a short timeout.
 
 ### 8.11.1 Hostname (DNS) lookups
+{:#c8_11_1}
 
 Using the standard resolver libraries from Berkeley and others has meant large
 delays in some cases where replies have timed out. To avoid this, a separate
@@ -205,6 +227,7 @@ set of DNS routines were written which were setup for non-blocking IO
 operations and then polled from within the main server IO loop.
 
 ### 8.11.2 Username (Ident) lookups
+{:#c8_11_2}
 
 Although there are numerous ident libraries for use and inclusion into other
 programs, these caused problems since they operated in a synchronous manner
@@ -213,6 +236,7 @@ routines which would cooperate with the rest of the server and work using non-
 blocking IO.
 
 ## 8.12 Configuration File
+{:#c8_12}
 
 To provide a flexible way of setting up and running the server, it is
 recommended that a configuration file be used which contains instructions to
@@ -238,6 +262,7 @@ a connection with another server. Other items which may be of use are:
   * hours during which clients may connect.
 
 ### 8.12.1 Allowing clients to connect
+{:#c8_12_1}
 
 A server should use some sort of 'access control list' (either in the
 configuration file or elsewhere) that is read at startup and used to decide
@@ -247,6 +272,7 @@ Both 'deny' and 'allow' should be implemented to provide the required
 flexibility for host access control.
 
 ### 8.12.2 Operators
+{:#c8_12_2}
 
 The granting of operator privileges to a disruptive person can have dire
 consequences for the well-being of the IRC net in general due to the powers
@@ -257,6 +283,7 @@ preferable to hard coding them in and should be stored in a crypted format (ie
 using crypt(3) from Unix) to prevent easy theft.
 
 ### 8.12.3 Allowing servers to connect
+{:#c8_12_3}
 
 The interconnection of server is not a trivial matter: a bad connection can
 have a large impact on the usefulness of IRC. Thus, each server should have a
@@ -267,12 +294,14 @@ configuration file should also store the password and other characteristics of
 that link.
 
 ### 8.12.4 Administrivia
+{:#c8_12_4}
 
 To provide accurate and valid replies to the ADMIN command (see section
 [4.3.7](chapter4.html#c4_3_7)), the server should find the relevant details in
 the configuration.
 
 ## 8.13 Channel membership
+{:#c8_13}
 
 The current server allows any registered local user to join upto 10 different
 channels. There is no limit imposed on non-local users so that the server
@@ -281,7 +310,5 @@ remains (reasonably) consistant with all others on a channel membership basis
 * * *
 
 [<](chapter7.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter9.html)

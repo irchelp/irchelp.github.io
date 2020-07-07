@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,8 +20,10 @@ May 1993
 * * *
 
 # 2. The IRC Specification
+{:#c2}
 
 ## 2.1 Overview
+{:#c2_1}
 
 The protocol as described herein is for use both with server to server and
 client to server connections. There are, however, more restrictions on client
@@ -22,6 +31,7 @@ connections (which are considered to be untrustworthy) than on server
 connections.
 
 ## 2.2 Character codes
+{:#c2_2}
 
 No specific character set is specified. The protocol is based on a a set of
 codes which are composed of eight (8) bits, making up an octet. Each message
@@ -31,11 +41,12 @@ used for control codes which act as message delimiters.
 Regardless of being an 8-bit protocol, the delimiters and keywords are such
 that protocol is mostly usable from USASCII terminal and a telnet connection.
 
-Because of IRC's scandanavian origin, the characters {}| are considered to be
-the lower case equivalents of the characters []\, respectively. This is a
+Because of IRC's scandanavian origin, the characters `{}|` are considered to be
+the lower case equivalents of the characters `[]\`, respectively. This is a
 critical issue when determining the equivalence of two nicknames.
 
 ## 2.3 Messages
+{:#c2_3}
 
 Servers and clients send eachother messages which may or may not generate a
 reply. If the message contains a valid command, as described in later
@@ -71,17 +82,19 @@ is no provision for continuation message lines. See section 7 for more details
 about current implementations.
 
 ### 2.3.1 Message format in 'pseudo' BNF
+{:#c2_3_1}
 
 The protocol messages must be extracted from the contiguous stream of octets.
 The current solution is to designate two characters, CR and LF, as message
 separators. Empty messages are silently ignored, which permits use of the
 sequence CR-LF between messages without extra problems.
 
-The extracted message is parsed into the components <prefix>, <command> and
-list of parameters matched either by <middle> or <trailing> components.
+The extracted message is parsed into the components `<prefix>`, `<command>` and
+list of parameters matched either by `<middle>` or `<trailing>` components.
 
 The BNF representation for this is:
 
+```
 <message> ::=
 
     [':' <prefix> <SPACE> ] <command> <params> <crlf>
@@ -106,21 +119,23 @@ The BNF representation for this is:
 <crlf> ::=
 
     CR LF
+```
 
 NOTES:
 
-  1. <SPACE> is consists only of SPACE character(s) (0x20). Specially notice that TABULATION, and all other control characters are considered NON-WHITE-SPACE.
-  2. After extracting the parameter list, all parameters are equal, whether matched by <middle> or <trailing>. <Trailing> is just a syntactic trick to allow SPACE within parameter.
+  1. `<SPACE>` is consists only of SPACE character(s) (0x20). Specially notice that TABULATION, and all other control characters are considered NON-WHITE-SPACE.
+  2. After extracting the parameter list, all parameters are equal, whether matched by `<middle>` or `<trailing>`. `<Trailing>` is just a syntactic trick to allow SPACE within parameter.
   3. The fact that CR and LF cannot appear in parameter strings is just artifact of the message framing. This might change later.
   4. The NUL character is not special in message framing, and basically could end up inside a parameter, but as it would cause extra complexities in normal C string handling. Therefore NUL is not allowed within messages.
   5. The last parameter may be an empty string.
-  6. Use of the extended prefix (['!' <user> ] ['@' <host> ]) must not be used in server to server communications and is only intended for server to client messages in order to provide clients with more useful information about who a message is from without the need for additional queries.
+  6. Use of the extended prefix (`['!' <user> ] ['@' <host> ]`) must not be used in server to server communications and is only intended for server to client messages in order to provide clients with more useful information about who a message is from without the need for additional queries.
 
 Most protocol messages specify additional semantics and syntax for the
 extracted parameter strings dictated by their position in the list. For
 example, many server commands will assume that the first parameter after the
 command is the list of targets, which can be described with:
 
+```
 <target> ::=
 
     <to> [ "," <target> ]
@@ -163,8 +178,10 @@ Other parameter syntaxes are:
 <nonwhite> ::=
 
     <any 8bit code except SPACE (0x20), NUL (0x0), CR (0xd), and LF (0xa)>
+```
 
 ## 2.4 Numeric replies
+{:#c2_4}
 
 Most of the messages sent to the server generate a reply of some sort. The
 most common reply is the numeric reply, used for both errors and normal
@@ -179,7 +196,5 @@ rather than a string of letters. A list of different replies is supplied in
 * * *
 
 [<](chapter1.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter3.html)

@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 Network Working Group
 
 Request for Comments: 1459
@@ -13,12 +20,14 @@ May 1993
 HTML layout by Tatu J. Lund Apr 1997
 
 # 9. Current problems
+{:#c9}
 
 There are a number of recognized problems with this protocol, all of which
 hope to be solved sometime in the near future during its rewrite. Currently,
 work is underway to find working solutions to these problems.
 
 ## 9.1 Scalability
+{:#c9_1}
 
 It is widely recognized that this protocol does not scale sufficiently well
 when used in a large arena. The main problem comes from the requirement that
@@ -28,6 +37,7 @@ the number of servers low so that the path length between any two points is
 kept minimal and the spanning tree as strongly branched as possible.
 
 ## 9.2 Labels
+{:#c9_2}
 
 The current IRC protocol has 3 types of labels: the nickname, the channel name
 and the server name. Each of the three types has its own domain and no
@@ -38,6 +48,7 @@ channels and nicks that don't collide being desirable as well as a solution
 allowing a cyclic tree.
 
 ### 9.2.1 Nicknames
+{:#c9_2_1}
 
 The idea of the nickname on IRC is very convenient for users to use when
 talking to each other outside of a channel, but there is only a finite
@@ -47,6 +58,7 @@ protocol, either one will not succeed or both will removed by use of KILL
 ([4.6.1](chapter4.html#c4_6_1)).
 
 ### 9.2.2 Channels
+{:#c9_2_2}
 
 The current channel layout requires that all servers know about all channels,
 their inhabitants and properties. Besides not scaling well, the issue of
@@ -55,12 +67,14 @@ event (both people who create the new channel are considered to be members of
 it) rather than an exclusive one such as used to solve nickname collisions.
 
 ### 9.2.3 Servers
+{:#c9_2_3}
 
 Although the number of servers is usually small relative to the number of
 users and channels, they two currently required to be known globally, either
 each one separately or hidden behind a mask.
 
 ### 9.3 Algorithms
+{:#c9_3}
 
 In some places within the server code, it has not been possible to avoid N^2
 algorithms such as checking the channel list of a set of clients.
@@ -79,7 +93,5 @@ channel-related commands being disrupted.
 * * *
 
 [<](chapter8.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter10.html)

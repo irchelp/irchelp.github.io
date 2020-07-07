@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,6 +20,7 @@ May 1993
 * * *
 
 # 5. Optionals
+{:#c5}
 
 This section describes OPTIONAL messages. They are not required in a working
 server implementation of the protocol described herein. In the absence of the
@@ -22,14 +30,15 @@ on (elementary parsing required) The allocated numerics for this are listed
 with the messages below.
 
 ## 5.1 Away
+{:#c5_1}
 
 Command:
 
-AWAY
+`AWAY`
 
 Parameters:
 
-[message]
+`[message]`
 
 With the AWAY message, clients can set an automatic reply string for any
 PRIVMSG commands directed at them (not to a channel they are on). The
@@ -58,14 +67,15 @@ Examples:
     
 
 ## 5.2 Rehash message
+{:#c5_2}
 
 Command:
 
-REHASH
+`REHASH`
 
 Parameters:
 
-None
+`None`
 
 The rehash message can be used by the operator to force the server to re-read
 and process its configuration file.
@@ -86,14 +96,15 @@ Examples:
     
 
 ## 5.3 Restart message
+{:#c5_3}
 
 Command:
 
-RESTART
+`RESTART`
 
 Parameters:
 
-None
+`None`
 
 The restart message can only be used by an operator to force a server restart
 itself. This message is optional since it may be viewed as a risk to allow
@@ -115,21 +126,22 @@ Examples:
     
 
 ## 5.4 Summon message
+{:#c5_4}
 
 Command:
 
-SUMMON
+`SUMMON`
 
 Parameters:
 
-<user> [<server>]
+`<user> [<server>]`
 
 The SUMMON command can be used to give users who are on a host running an IRC
 server a message asking them to please join IRC. This message is only sent if
 the target server (a) has SUMMON enabled, (b) the user is logged in and (c)
 the server process can write to the user's tty (or similar).
 
-If no <server> parameter is given it tries to summon <user> from the server
+If no `<server>` parameter is given it tries to summon `<user>` from the server
 the client is connected to is assumed as the target.
 
 If summon is not enabled in a server, it must return the ERR_SUMMONDISABLED
@@ -159,14 +171,15 @@ Examples:
     
 
 ## 5.5 Users
+{:#c5_5}
 
 Command:
 
-USERS
+`USERS`
 
 Parameters:
 
-[<server>]
+`[<server>]`
 
 The USERS command returns a list of users logged into the server in a similar
 format to who(1), rusers(1) and finger(1). Some people may disable this
@@ -205,10 +218,11 @@ Examples:
     
 
 ## 5.6 Operwall message
+{:#c5_6}
 
 Command:
 
-WALLOPS
+`WALLOPS`
 
 Parameters:
 
@@ -235,14 +249,15 @@ Examples:
     
 
 ## 5.7 Userhost message
+{:#c5_7}
 
 Command:
 
-USERHOST
+`USERHOST`
 
 Parameters:
 
-<nickname>{<space><nickname>}
+`<nickname>{<space><nickname>}`
 
 The USERHOST command takes a list of up to 5 nicknames, each separated by a
 space character and returns a list of information about each nickname that it
@@ -264,14 +279,15 @@ Examples:
     
 
 ## 5.8 Ison message
+{:#c5_8}
 
 Command:
 
-ISON
+`ISON`
 
 Parameters:
 
-<nickname>{<space><nickname>}
+`<nickname>{<space><nickname>}`
 
 The ISON command was implemented to provide a quick and efficient means to get
 a response about whether a given nickname was currently on IRC. ISON only
@@ -303,7 +319,5 @@ Examples:
 * * *
 
 [<](chapter4.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter6.html)

@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,6 +20,7 @@ May 1993
 * * *
 
 # 12. Authors' Addresses
+{:#c12}
 
 Jarkko Oikarinen
 
@@ -37,7 +45,5 @@ Email: [avalon@coombs.anu.edu.au](mailto:avalon@coombs.anu.edu.au)
 * * *
 
 [<](chapter11.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](rfc.html)
