@@ -1,9 +1,16 @@
+---
+title: Reporting Nukes or Denial of Service Attacks
+author: Jolo
+datecreated: 22 January 1998
+status: historical
+layout: default
+---
 # Reporting Nukes or Denial of Service Attacks
 
 By Jolo - Jan 22, 1998
 
 The original, most up to date version of this page is at
-<[http://www.irchelp.org/irchelp/nuke/report.html](/nuke/report.html)>
+[http://www.irchelp.org/irchelp/nuke/report.html](/nuke/report.html)
 
 ## How can I put a stop to nuking?
 
@@ -49,7 +56,7 @@ them!
 This is the best way to go, since the attack is an outright, illegal ([Title
 18, United States Code](http://www.law.cornell.edu/uscode/18/1030.html)) abuse
 of both the nuker's and your own Internet Service Provider (ISP). Check out
-our [IRC logging guide](/irchelp/misc/irclog.html) to see how to log the
+our [IRC logging guide](/security/irclog.html) to see how to log the
 abuse, then send the logs to `abuse@whatever.com` or `root@whatever.com`. Some
 ISPs are very responsive to abuse and if they can prove he is guilty, they
 then fine him or shut down his account. Also send a copy to your own ISP and
