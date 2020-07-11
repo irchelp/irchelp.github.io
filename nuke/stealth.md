@@ -1,9 +1,18 @@
+---
+title: Anti-Nuke Protection for Win95/WintNT 
+author: 'EFnet#mIRC'
+dateupdated: 25 June 1998
+status: historical
+layout: default
+---
 **Ed. note: This is an official mirror copy of the original page by EFnet #mIRC which was formerly hosted at http://mirc.stealth.net/nuke/ but no longer exists for some unknown reason. For more information on these attacks, see the EFnet #IRChelp [nuke help page](index.html).**
 
+{::comment}
 ![](npatch.jpg)
 
   
 ![b00m](nuke.gif)For Win95 and WinNT users![b00m](nuke.gif)
+{:/comment}
 
 **Last Updated _Jun 25th 1998_**
 
@@ -85,16 +94,16 @@ incorporated into the release of Win98.  **
   
 
 **Step 1**:
-Update Winsock [wsockupd.exe](wsockupd.exe) ,_**Reboot**_
+Update Winsock `wsockupd.exe` ,_**Reboot**_
 
 **Step 2**:
-Update to DUN 1.2 [msdun12.exe](msdun12.exe) ,_**Reboot**_
+Update to DUN 1.2 `msdun12.exe` ,_**Reboot**_
 
 **Step 3**:
-Winsock 2.2 Upgrade [W95ws2setup.exe](W95ws2setup.exe) ,_**Reboot**_
+Winsock 2.2 Upgrade `W95ws2setup.exe` ,_**Reboot**_
 
 **Step 4**:
-**_Land_** Patch for Winsock 2 [vtcpup20.exe](vtcpup20.exe) ,_**Reboot**_
+**_Land_** Patch for Winsock 2 `vtcpup20.exe` ,_**Reboot**_
   
   
 **WinNT 4.0 Fix:(fixes _Winnuke, jolt, ssping, teardop(variants) & Land_)**  
@@ -105,7 +114,7 @@ Install Sp3 [nt4sp3_i.exe](ftp://ftp.microsoft.com/bussys/winnt/winnt-
 public/fixes/usa/nt40/ussp3/i386/nt4sp3_i.exe)
 
 **Step 2**:
-Install [Tearfixi.exe](tearfixi.exe) ,**_Reboot_**
+Install `tearfixi.exe` ,**_Reboot_**
 
   
   
