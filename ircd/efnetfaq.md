@@ -39,83 +39,84 @@ else, or for another FAQ, as long as due credit is given.
 * * *
 
 
-QUESTION INDEX:
+#### QUESTION INDEX:
+{:#idx}
 
 
-1. What are servers I can run bots on?
+[1. What are servers I can run bots on?](#q1)
 
-2. Why can't I register a channel or nickname?
+[2. Why can't I register a channel or nickname?](#q2)
 
-3. Can an IRC Operator help me with a taken over channel or opless channel?
-**and/or** What is CHANFIX?
+[3. Can an IRC Operator help me with a taken over channel or opless channel?
+**and/or** What is CHANFIX?](#q3)
 
-4. My channel is opless and there are a few idle people in there, can an
-operator get rid of them for us?
+[4. My channel is opless and there are a few idle people in there, can an
+operator get rid of them for us?](#q4)
 
-5. How do I find an active operator?
+[5. How do I find an active operator?](#q5)
 
-6. How do I see a list of all the operators on the server I'm on?
+[6. How do I see a list of all the operators on the server I'm on?](#q6)
 
-7. I was killed and I want to know why, but when I ask no one gives me an
-answer or tells me to go away.
+[7. I was killed and I want to know why, but when I ask no one gives me an
+answer or tells me to go away.](#q7)
 
-8. what are all the /stats commands I can use?
+[8. what are all the /stats commands I can use?](#q8)
 
-9. What are all the user modes and what do they do?
+[9. What are all the user modes and what do they do?](#q9)
 
-10. Will operators kill spammers and flooders?
+[10. Will operators kill spammers and flooders?](#q10)
 
-11. Will operators kill or kline for my nick?
+[11. Will operators kill or kline for my nick?](#q11)
 
-12. I was talking to someone and they changed their nick. Can an operator tell
-me what their new nick is?
+[12. I was talking to someone and they changed their nick. Can an operator tell
+me what their new nick is?](#q12)
 
-13. Will operators kill or kline because someone is "nuking" me?
+[13. Will operators kill or kline because someone is "nuking" me?](#q13)
 
-14. Is there a way I can see operwalls without being an operator?
+[14. Is there a way I can see operwalls without being an operator?](#q14)
 
-15. How do I become an IRC Operator?
+[15. How do I become an IRC Operator?](#q15)
 
-16. How do I link my own efnet server?
+[16. How do I link my own efnet server?](#q16)
 
-17. New server guidelines clarification.
+[17. New server guidelines clarification.](#q17)
 
-18. Where can I get the actual IRC server itself?
+[18. Where can I get the actual IRC server itself?](#q18)
 
-19. Where can I get Hybserv?
+[19. Where can I get Hybserv?](#q19)
 
-20. If I decide to send in a server application, where will the discussion and
-voting of it take place?
+[20. If I decide to send in a server application, where will the discussion and
+voting of it take place?](#q20)
 
-21. Are there any other mailing lists like the Routing one?
+[21. Are there any other mailing lists like the Routing one?](#q21)
 
-22. What is a TCM, and what is a TCM Oper?
+[22. What is a TCM, and what is a TCM Oper?](#q22)
 
-23. Where can I get TCM Dianora and help/information about it?
+[23. Where can I get TCM Dianora and help/information about it?](#q23)
 
-24. Where can I get OOMon and help/information about it?
+[24. Where can I get OOMon and help/information about it?](#q24)
 
-25. What are the new features in Hybrid6?
+[25. What are the new features in Hybrid6?](#q25)
 
-26. Someone has banned be from a channel, is there anything an oper can do?
+[26. Someone has banned be from a channel, is there anything an oper can do?](#q26)
 
-27. I need help setting up my irc server, will someone help me?
+[27. I need help setting up my irc server, will someone help me?](#q27)
 
-28. I'm looking for a small irc network to chat and maybe link a server to.
-Where can I find one?
+[28. I'm looking for a small irc network to chat and maybe link a server to.
+Where can I find one?](#q28)
 
-29. What is timestamp and what does it do?
+[29. What is timestamp and what does it do?](#q29)
 
-30. When I do /list I get disconnected. What can I do to see a list of
-channels?
+[30. When I do /list I get disconnected. What can I do to see a list of
+channels?](#q30)
 
-31. What is a wallop/operwall and a locop message?
+[31. What is a wallop/operwall and a locop message?](#q31)
 
-32. Someone is bothering/spamming/flooding/etc. me, and there are no active
-opers on the server they are on. What do I do?
+[32. Someone is bothering/spamming/flooding/etc. me, and there are no active
+opers on the server they are on. What do I do?](#q32)
 
-33. I would like to find out more about efnet and how it's run. Where can I
-find this information?
+[33. I would like to find out more about efnet and how it's run. Where can I
+find this information?](#q33)
 
 
 
@@ -126,16 +127,18 @@ QUESTIONS AND ANSWERS:
 
 
 Question 1:
+{:#q1}
 
 Q: What are servers I can run bots on?
 
 A: Most servers allow non-abusive bots. To check which servers allow (non-
 abusive) bots, do /motd [server name here] and look for their bot policies.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 2:
+{:#q2}
 
 Q: Why can't I register a channel or nickname?
 
@@ -145,10 +148,11 @@ has gone on for many years, but there are no services on efnet, and there
 probably never will be services. If you would like an irc server with
 services, dalnet offers both chanserv and nickserv.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 3:
+{:#q3}
 
 Q: Can an IRC Operator help me with a taken over channel or opless channel?
 
@@ -169,7 +173,7 @@ you in this instance.
 
 
 If you believe you need assistance with CHANFIX, please see the [CHANFIX
-guide](chanfix.html) which contains more information on how CHANFIX works and
+guide](/ircd/chanfix/) which contains more information on how CHANFIX works and
 how to seek help with it.
 
 
@@ -183,19 +187,18 @@ op. Who CHANFIX op's is dependent upon who has been op'd previously.
 
 For more information on services.int and CHANFIX, please see the following:
 
-[CHANFIX guide at
-http://www.irchelp.org/ircd/chanfix.html](chanfix.html)
+[CHANFIX guide at](/ircd/chanfix/)
 
 [ http://www.demolished.org/qurve/efnet/jupes-
 faq.txt](http://www.demolished.org/qurve/efnet/jupes-faq.txt)
 
-[https://voting.blackened.com/pastvotes/index.shtml](https://voting.blackened.
-com/pastvotes/index.shtml)
+<https://voting.blackened.com/pastvotes/index.shtml>
 
-Question Index
+[Question Index](#idx)
 
 
 Question 4:
+{:#q4}
 
 Q: My channel is opless - what do I do?
 
@@ -204,20 +207,22 @@ channel and op the correct ops based on the recorded scores (see question #3).
 If for some reason, CHANFIX does not join an opless channel, please do /stats
 p [your server here] and /msg an active operator for assistance.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 5:
+{:#q5}
 
 Q: How do I find an active operator?
 
 A: use "/stats p [irc server]". The number by the operators name tells you how
 long, in seconds, they have been idle.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 6:
+{:#q6}
 
 Q: How do I see a list of all the operators on the server I'm on?
 
@@ -229,6 +234,7 @@ Index
 
 
 Question 7:
+{:#q7}
 
 Q: I was killed and I want to know why, but when I ask no one gives me an
 answer or tells me to go away.
@@ -240,10 +246,11 @@ actions to users however. EFNet is a private network, run by private servers
 and not a democracy. If however you feel an operator was out of line, feel
 free to do "/admin [irc server]" and contact their Administrators.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 8:
+{:#q8}
 
 Q: What are all the /stats commands I can use?
 
@@ -284,10 +291,11 @@ Information Commands (TRACE, STATS, LINKS, and HTM), or the documentation
 included in ircd-hybrid. For more information on what some of these modes do
 see section: VII. IRCD and Associated Files on the same page.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 9:
+{:#q9}
 
 Q: What are all the user modes and what do they do?
 
@@ -317,29 +325,32 @@ A: Below are the usermodes for ircd-hybrid at the time of this FAQ.
         * Oper-Only usermodes
 
 
-Question Index
+[Question Index](#idx)
 
 
 Question 10:
+{:#q10}
 
 Q: Will operators kill spammers and flooders?
 
 A: Usually. If you /whois the spammer/flooder, /stats p [the server they are
 on], and /msg an active oper, they will usually handle them.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 11:
+{:#q11}
 
 Q: Will operators kill or kline for my nick?
 
 A: No. It is a general belief that nicks are not owned on efnet.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 12:
+{:#q12}
 
 Q: I was talking to someone and they changed their nick. Can an operator tell
 me what their new nick is?
@@ -347,29 +358,32 @@ me what their new nick is?
 A: No. Not only would this be an invasion of privacy, but it is outside the
 realm of IRC Operators duties.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 13:
+{:#q13}
 
 Q: Will operators kill or kline because someone is "nuking" or "DoS'ing" me?
 
 A: Usually Not. All logs are fakable, and it is in IRC Operators and
 Administrators best interests to stay out of user-to-user disagreements.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 14:
+{:#q14}
 
 Q: Is there a way I can see operwalls without being an operator?
 
 A: No. Only IRC Operators can see them.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 15:
+{:#q15}
 
 Q: How do I become an IRC Operator?
 
@@ -380,10 +394,11 @@ and never given based on who is asking for it. See [http://www.irchelp.org/irc
 help/ircd/ircopguide.html](http://www.irchelp.org/ircd/ircopguide.html
 ) section VI for more details.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 16:
+{:#q16}
 
 Q: How do I link my own efnet server?
 
@@ -394,10 +409,11 @@ linked. Never the less, if you feel you are ready, the new server guidelines
 and server application are at [ftp://ftp.blackened.com/pub/irc/new-server-
 guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines).
 
-Question Index
+[Question Index](#idx)
 
 
 Question 17:
+{:#q17}
 
 Q: In the new server guidelines, it says "it is in the applicant's best
 interest to do some homework on what applications have been approved in the
@@ -406,35 +422,37 @@ denied." What does this mean, and where can I find this information?
 
 A: This means you need to go through some of the applications that have been
 submitted and see what works and what doesn't. You can view past applications
-at [http://www.the-project.org/efnet/votes/closed.votes/](http://www.the-
-project.org/efnet/votes/closed.votes/), and the discussion about them at
+at 
+<http://www.the-project.org/efnet/votes/closed.votes/>, and the discussion about them at
 [http://www.the-project.org/routing/](http://www.the-project.org/routing/).
 
-Question Index
+[Question Index](#idx)
 
 
 Question 18:
+{:#q18}
 
 Q: Where can I get the actual IRC server itself?
 
-A: Hybrid is archived at [ftp://ftp.blackened.com/pub/irc/hybrid/](ftp://ftp.b
-lackened.com/pub/irc/hybrid/), and IRCD Comstud is archived at
+A: Hybrid is archived at 
+<ftp://ftp.blackened.com/pub/irc/hybrid/>, and IRCD Comstud is archived at
 [http://www.codestud.com/ircd/](http://www.codestud.com/ircd/).
 
-Question Index
+[Question Index](#idx)
 
 
 Question 19:
+{:#q19}
 
 Q: Where can I get Hybserv?
 
-A: [http://www.srce.hr/~kreator/projects/tarballs/](http://www.srce.hr/~kreato
-r/projects/tarballs/).
+A: <http://www.srce.hr/~kreator/projects/tarballs/>.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 20:
+{:#q20}
 
 Q: If I decide to send in a server application, where will the discussion and
 voting of it take place?
@@ -443,23 +461,24 @@ A: The Routing List. It is archived at [http://www.the-
 project.org/routing/current/](http://www.the-project.org/routing/current/).
 Most of efnets routing/connection "issues" are discussed there.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 21:
+{:#q21}
 
 Q: Are there any other mailing lists like the Routing one?
 
 A: Yes. There is the IRC3 mailing list that is archived at [http://www.the-
 project.org/ircd/](http://www.the-project.org/ircd/), and (the old) Operlist
-which is at [http://www.the-
-project.org/operlist/current/threads.html](http://www.the-
-project.org/operlist/current/threads.html).
+which is at 
+<http://www.the-project.org/operlist/current/threads.html>.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 22:
+{:#q22}
 
 Q: What is a TCM, and what is a TCM Oper?
 
@@ -468,39 +487,42 @@ checks for clones, flooders, and other abusive clients. A TCM Oper is someone
 with oper access to this bot. A TCM Oper has the same power as a local oper,
 with the exception that they cannot /squit or /connect their server.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 23:
+{:#q23}
 
 Q: Where can I get TCM-hybrid and help/information about it?
 
 A: [http://www.ircd-hybrid.org/tcm/](http://www.ircd-hybrid.org/tcm/).
 
-Question Index
+[Question Index](#idx)
 
 
 Question 24:
+{:#q24}
 
 Q: Where can I get OOMon and help/information about it?
 
 A: [http://toast.blackened.com/oomon/](http://toast.blackened.com/oomon/).
 
-Question Index
+[Question Index](#idx)
 
 
 Question 25:
+{:#q25}
 
 Q: What are the new features in Hybrid-6?
 
-A: A list of all the new features and changes in Hybrid-6 are available at [ht
-tp://www.irchelp.org/ircd/hybrid6.html](http://www.irchelp.org/irchelp
-/ircd/hybrid6.html), or in the ircd-hybrid documentation.
+A: A list of all the new features and changes in Hybrid-6 are available at 
+[hybrid6](/ircd/hybrid/hybrid6.html), or in the ircd-hybrid documentation.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 26:
+{:#q26}
 
 Q: Someone has banned be from a channel, is there anything an oper can do?
 
@@ -508,10 +530,11 @@ A: No. EFnet IRC Operators do not have any kind of "special" control over
 other peoples channels. This is something you will have to work out with the
 the channel ops of that channel.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 27:
+{:#q27}
 
 Q: I need help setting up my irc server, will someone help me?
 
@@ -519,45 +542,49 @@ A: If you need help setting up, your irc server, try reading the help files
 first, and if you still need help after that, try asking on the ircd-hybrid
 mailing list.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 28:
+{:#q28}
 
 Q: I'm looking for a small irc network to chat and maybe link a server to.
 Where can I find one?
 
-A: There is a list of IRC networks by size at [http://www.irchelp.org/irchelp/
-networks/](http://www.irchelp.org/irchelp/networks/).
+A: There is a list of IRC networks by size at 
+[networks](/networks/).
 
-Question Index
+[Question Index](#idx)
 
 
 Question 29:
+{:#q29}
 
 Q: What is timestamp and what does it do?
 
 A: Timestamp is a protocol which disallows netsplit ops and channel desynchs.
 EFnet has implemented TS5, which makes it impossible for any user (Oper or
 "normal user") to "hack" ops in a channel via a server split. For more
-information on TS5, see [https://voting.blackened.com/docs/ts5.txt](https://vo
-ting.blackened.com/docs/ts5.txt).
+information on TS5, see 
+<https://voting.blackened.com/docs/ts5.txt>.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 30:
+{:#q30}
 
 Q: When I do /list I get disconnected. What can I do to see a list of
 channels?
 
-A: Use the efnet channel list at [http://www.efnet.org/index.php?p=channels](h
-ttp://www.efnet.org/index.php?p=channels).
+A: Use the efnet channel list at 
+<http://www.efnet.org/index.php?p=channels>.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 31:
+{:#q31}
 
 Q: What is a wallop/operwall and a locop message?
 
@@ -566,10 +593,11 @@ sent to all other opers on the entire network. Only operators can see these
 messages. A locop is the same thing, but it only sends the message to the
 opers on the same server you are currently connected to.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 32:
+{:#q32}
 
 Q: Someone is bothering/spamming/flooding/etc. me, and there are no active
 opers on the server they are on. What do I do?
@@ -579,10 +607,11 @@ A: Opers generally will not kill or kline someone if they are merely
 active operators on the server to take care of them. The best thing you can do
 is /ignore them until either an oper becomes active or they /quit.
 
-Question Index
+[Question Index](#idx)
 
 
 Question 33:
+{:#q33}
 
 Q: I would like to find out more about efnet and how it's run. Where can I
 find this information?
@@ -594,29 +623,23 @@ course/reference guide, of how things work on efnet.
 
 [http://www.efnet.org/](http://www.efnet.org/) - Official EFNet Website
 
-[http://www.the-project.org/efnet/opermyth.html](http://www.the-
-project.org/efnet/opermyth.html) - List of what efnet opers do and don't do
+<http://www.the-project.org/efnet/opermyth.html> - List of what efnet opers do and don't do
 (IRC Bible)
 
-[http://www.the-project.org/routing/current/](http://www.the-
-project.org/routing/current/) - US Routing archive
+<http://www.the-project.org/routing/current/> - US Routing archive
 
-[http://www.the-project.org/ircd/current/](http://www.the-
-project.org/ircd/current/) - IRC3 Mailing list
+<http://www.the-project.org/ircd/current/> - IRC3 Mailing list
 
-[http://www.irchelp.org/ircd/efnetfaq.html](http://www.irchelp.org/irc
-help/ircd/efnetfaq.html) - EFnet FAQ (This Document)
+[efnetfaq](efnetfaq.html) - EFnet FAQ (This Document)
 
-[http://www.irchelp.org/ircd/ircopguide.html](http://www.irchelp.org/i
-rchelp/ircd/ircopguide.html) - A basic but very informative guide for irc
+[ircopguide](/ircd/ircopguide.html) - A basic but very informative guide for irc
 operators
 
 [ftp://ftp.blackened.com/pub/irc/new-server-
 guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) - New
 server guidelines and server application
 
-[http://www.efnet.org/ircdb/servers.php](http://www.efnet.org/ircdb/servers.ph
-p) EFNet servers and stats
+<http://www.efnet.org/ircdb/servers.php> EFNet servers and stats
 
 [http://www.ircd-hybrid.org/tcm/](http://www.ircd-hybrid.org/tcm/) - tcm-
 dianora help and information
@@ -626,4 +649,4 @@ OOMon help and information
 
 [http://www.efnet.org](http://www.efnet.org/) - Misc. EFNet information
 
-Question Index
+[Question Index](#idx)
