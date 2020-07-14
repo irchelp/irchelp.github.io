@@ -16,8 +16,8 @@ license: irchelp
   * [IRC International](/misc/foreign.html)     **More Advanced**
 
   * [IRC Primer](/irchelp/ircprimer.html)
-  * [FAQ from alt.irc](/irchelp/faq.html)
-  * [IFAQ](/irchelp/ifaq.html)
+  * [FAQ from alt.irc](/faq/)
+  * [IFAQ](/faq/ifaq.html)
   * [IRC Command Cosmos](/misc/ccosmos.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
   * [RFC (technical specs) for IRC](/irchelp/rfc/) and [DCC/CTCP](/irchelp/rfc/ctcpspec.html)
@@ -30,11 +30,15 @@ license: irchelp
 
   * [Network/Server Lists](/irchelp/networks/)
   * [Server Request FAQ](/ircd/server-request.html)
+{% comment %}
   * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext)
+{% endcomment %}
   * [Server Software](/ircd/)
+{% comment %}
   * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
+{% endcomment %}
 
-  * [Changes in Hybrid 6](hybrid6.html)
+  * [Changes in Hybrid 6](/ircd/hybrid/hybrid6.html)
   * [Server Numeric Headers](/ircd/numerics.html)
   * [Server Desyncs](/ircd/desync.html)
   * [Time Stamp](/ircd/ircserv.html)
@@ -52,11 +56,11 @@ license: irchelp
   * [mIRC](/irchelp/mirc/)     **UNIX**
 
   * [ircII, BitchX, EPIC](/irchelp/ircii/)
-  * [ircII command help](/irchelp/ircii/commands/)
-  * [scripting](/irchelp/script/)     **Macintosh**
+  * [ircII command help](/clients/unix/ircii/commands/)
+  * [scripting](/script/)     **Macintosh**
 
   * [Ircle, Snak, ShadowIRC](/irchelp/mac/)
-  * [Ircle Setup Guide](/irchelp/mac/ircle_setup.html)
+  * [Ircle Setup Guide](/clients/mac/ircle_setup.html)
 
 * * *
 
@@ -66,7 +70,7 @@ license: irchelp
 
   * [EFnet](/irchelp/chanlist/)     **Networks / Servers**
 
-  * [overview of networks](/irchelp/networks/servers/)
+  * [overview of networks](/networks/servers/)
   * [Big Four](/networks/nets/big4.html):
 [EFnet](/networks/servers/efnet.html), Undernet,
 [IRCnet](/networks/servers/ircnet.html), DALnet
@@ -82,7 +86,7 @@ license: irchelp
   * [Denial of Service attacks (nukes)](/irchelp/nuke/)
   * [Trojan Horse attacks (IRC viruses)](/security/trojan.html)
   * [IRC Hints for Takeovers](/misc/hints.html)
-  * [reporting abuse](/irchelp/misc/irclog.html)
+  * [reporting abuse](/security/irclog.html)
   * [backdoors](/security/irc-backdoor.txt)
 
 ## Still confused?
