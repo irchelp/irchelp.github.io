@@ -14,6 +14,7 @@ by Jolo, prysm, and RuyDuck of EFnet #IRChelp
 updated Aug 18, 2008
 
 ## Table of Contents
+{:#idx}
 
   * 1. Introduction
   * 2. Creating a channel
@@ -44,15 +45,17 @@ largest IRC networks:
 [Netsplit.de](http://irc.netsplit.de/networks/top100.php) or
 [SearchIRC](http://searchirc.com/largest-irc-networks).)
 
+{% comment %}
 (If interested, check out this [short little rant](changuide-rant.html) on why
 you should _not_ try to run your own channel. Don't say we didn't warn you!)
+{% endcomment %}
 
 That said, running a successful channel can be a really rewarding experience,
 and for serious users, it's the fastest way to learn about IRC. So if you have
 a group of trusted friends and want to learn how to run a channel together,
 read on to learn how!
 
-[Return to top]
+[Return to top](#idx)
 
 * * *
 
@@ -103,7 +106,7 @@ the effort.
 
 First and foremost, you should know all the mode commands already. If you need
 a refresher, they are already explained with examples in [IRC Tutorial,
-section 3.2 on channel maintenance](/irchelp/irctutorial.html#chanmode), which
+section 3.2 on channel maintenance](/faq/irctutorial.html#channel-modes), which
 covers how to set a topic, how to change modes which affect the basic behavior
 of your channel including who can speak, who can join, who must go, etc. For
 your own good, do not proceed until you have read through and understand all
@@ -114,7 +117,7 @@ some more specific tips.
 
 **s: Secret**      If your channel is just for friends to chat and you are not interested in attracting strangers and newcomers, then the easiest way to keep your channel safe is to keep it secret. If people don't know about it, they can't attack it or take it over. Outsiders can still guess your channel name or stumble upon it accidentally. For example, making #greece secret isn't going to stop every Greek person from trying `/join #greece` anyway. 
 
-**i: Invite-only**      The most secure way to keep outsiders away is to make the channel invite-only, but be aware that can also keep your friends out unless they know a nickname of somebody inside to ask for an invitation. On most networks, most users are +i (invisible, not to be confused with the +i channel mode) and don't show up when you do a `/names #channelname` from outside. On some networks running [Hybrid ircd](/ircd/hybrid6.html) you can try asking for a general invitation with `/knock #channelname`. You can also try looking at the ban list for the nick of an op to /msg, but often those are just bots who won't respond. 
+**i: Invite-only**      The most secure way to keep outsiders away is to make the channel invite-only, but be aware that can also keep your friends out unless they know a nickname of somebody inside to ask for an invitation. On most networks, most users are +i (invisible, not to be confused with the +i channel mode) and don't show up when you do a `/names #channelname` from outside. On some networks running [Hybrid ircd](/ircd/hybrid/hybrid6.html) you can try asking for a general invitation with `/knock #channelname`. You can also try looking at the ban list for the nick of an op to /msg, but often those are just bots who won't respond. 
 
 **k: Keyword-protected**      Alternatively, set a keyword or password, that way anybody who knows the keyword already can `/join #channelname keyword` without having to ask for an invitation. If necessary you can always change the keyword, anybody currently on the channel will see the new keyword, and you can notify others privately. 
 
@@ -134,7 +137,7 @@ modes. If you are defending against an attack, it may be necessary to use
 these multiple modes to act as quickly as possible. Naturally, any of these
 mode commands can be used for both offense and defense, so be careful.
 
-[Return to top]
+[Return to top](#idx)
 
 * * *
 
@@ -187,7 +190,7 @@ server to force a user leave the channel. However, he may rejoin it if the
 channel modes allow it. A ban keeps the user from joining a channel, or from
 re-joining a channel if he's been kicked out. If you haven't yet, please
 review [channel maintenance section of the IRC
-Tutorial](/irchelp/irctutorial.html#chanmode) which covers basic kick and ban
+Tutorial](/faq/irctutorial.html#channel-modes) which covers basic kick and ban
 syntax with examples.
 
 For newbies, the power to kick is one of the most alluring aspects of being an
@@ -206,7 +209,7 @@ or unless you set a ban...
 
 The basic idea is to set the most specific pattern or "ban mask" which keeps
 the person out without affecting innocent people. As the [channel maintenance
-section of the IRC Tutorial](/irchelp/irctutorial.html#chanmode) explains, the
+section of the IRC Tutorial](/faq/irctutorial.html#channel-modes) explains, the
 ban mask consists of 3 parts, combined in the form of
 nickname!username@hostname. If the ban is too specific, the person can evade
 the ban just by changing 1 or more of those 3 parts of his information. If the
@@ -264,35 +267,36 @@ patterns in the nick, user, or hostname that are the same for many of them.
 This is often the case with drones. Example:
 
     
-    
+```    
     *** lamer1 (|xxx|-4@ACBAD0BA.ipt.aol.com) joined #mychat
     *** yousuck (|xxx|-274@node-c-0db1.a2000.nl) joined #mychat
     *** iwin (|xxx|-824@106.9.252.12.snet.net) joined #mychat
     *** hahaha (|xxx|-86@host217-44-101-246.btcentralplus.com) joined #mychat
-    
+```    
 
 In the above case, 4 drones from 4 different ISPs joined, but you notice they
 all have similar usernames, so instead of wasting 4 ban slots, you can try
-*!|xxx|*@* instead.
+`*!|xxx|*@*` instead.
 
 Here's another example below, where the username is always 4 characters, with
-no identd and different hostnames/ISPs. For this situation, try *!~????@*
+no identd and different hostnames/ISPs. For this situation, try `*!~????@*`
 where the 4 question marks mean exactly 4 characters.
 
     
-    
+```    
     *** lamer1 (~ahah@ACBAD0BA.ipt.aol.com) joined #mychat
     *** yousuck (~jfdj@node-c-0db1.a2000.nl) joined #mychat
     *** iwin (~d8jj@106.9.252.12.snet.net) joined #mychat
     *** hahaha (~fdas@host217-44-101-246.btcentralplus.com) joined #mychat
+```    
     
 
-When in doubt, you can temporarily set very general bans such as *!~*@* to
-block all without identd, or *!*@*.no for everybody from Norway, and refine
+When in doubt, you can temporarily set very general bans such as `*!~*@*` to
+block all without identd, or `*!*@*.no` for everybody from Norway, and refine
 them later. This may temporarily block some of your friends from joining too,
 but the most important thing is to keep your channel safe. On some
 servers/networks, you might be able to use ban exceptions, see our [Hybrid IRC
-Server Guide](/ircd/hybrid6.html) or consult your local help channel.
+Server Guide](/ircd/hybrid/hybrid6.html) or consult your local help channel.
 
 If you're the victim of a [denial of service attack](/irchelp/nuke/), then
 that technically has nothing to do with IRC - the packets used to flood you
@@ -304,7 +308,7 @@ determined, coordinated attack. Your best defense is once again rule #1 - try
 to stay out of trouble, and if trouble comes anyway, just hope that you have
 more bandwidth or patience than the attacker.
 
-[Return to top]
+[Return to top](#idx)
 
 * * *
 
@@ -323,7 +327,7 @@ involve technical expertise; all of them require commonsense.
 
   1. **Op only people you know and trust.** When you op somebody, you are potentially handing over control of the channel to them. Don't just op people because they are friends, or even if they give you "free" bots. Remember you are only as strong as your weakest link. All it takes is one inexperienced op being careless once, and your channel could be gone forever. Educate your ops on the dangers of IRC so they don't download trojan horse viruses or load scripts or type commands given to them by others. 
   2. **Get enough ops to cover your channel 24/7.** We recommend at least 10 real live humans, spread out over as many different servers and time zones as possible, so that you don't lose all ops from a single server split, connection ping timeout, denial of service attack, power outage, etc. The idea is to pass ops back and forth as people come and go. All security concerns aside, what's the point of having a _chat_ channel with no people? 
-  3. **Never use auto ops.** That's when you give ops by some bot or script based solely on somebody's nick!user@host mask. Careless opping is the #1 most common reason that channels get taken over. A lot of new ops will give ops by nickname alone, which is trivially easy to fake. Even careful selection of a user@host mask is not enough, somebody will inevitably match a real op's user@host coincidentally or intentionally, leading to an instant takeover. Instead, always require the user to request ops with a password _and_ also check the user@host. For example, mIRC users can do this with something simple like this [op script](/irchelp/mirc/chan_op.mrc). Make sure this rule is followed _every single time by every single op_! Your channel is only as strong as its weakest link, and it takes only 1 mistake to ruin your channel forever. 
+  3. **Never use auto ops.** That's when you give ops by some bot or script based solely on somebody's nick!user@host mask. Careless opping is the #1 most common reason that channels get taken over. A lot of new ops will give ops by nickname alone, which is trivially easy to fake. Even careful selection of a user@host mask is not enough, somebody will inevitably match a real op's user@host coincidentally or intentionally, leading to an instant takeover. Instead, always require the user to request ops with a password _and_ also check the user@host. For example, mIRC users can do this with something simple like this `chan_op.mrc`. Make sure this rule is followed _every single time by every single op_! Your channel is only as strong as its weakest link, and it takes only 1 mistake to ruin your channel forever. 
   4. **Do not rely on bots alone to keep ops.** Other than careless opping, this is the 2nd most common way that channels get taken. Bots are a very advanced subject, and even experienced IRC users often misconfigure their bots, leading to a takeover. More on this later. 
   5. **Set up a way for ops to communicate off the channel.** If there is a takeover, you won't be able to use /onotice or equivalent. Agree upon an emergency channel name that the bad guys won't be able to guess, and if things go wrong, go there to chat instead, make sure it's +sk. Set up a contact list with the email, IM, or phone numbers of all channel regulars. The email list will also give you a safe place to vote on proposed new ops, discuss channel policies, etc. 
   6. **Log everything.** Disk space is cheap, there is no excuse to not log everything going on for at least the last few weeks. Every op should log, that way in case you get knocked off early on in an attack, another op might survive long enough to log what happened. Make sure the log has timestamps and shows the full user@host of everybody who joins, so you know who did what and when. 
