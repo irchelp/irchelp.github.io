@@ -1,4 +1,13 @@
+---
+title: 'Robin: ircII channel protection script'
+author: David Hansen aka turtle
+dateupdated: 1 July 1999
+status: historical
+layout: default
+---
+{% comment %}
 [Very kewl animated logo](robin_anim2.gif) (513 kB)
+{% endcomment %}
 
 #  Robin: ircII channel protection script
 
@@ -35,27 +44,28 @@ blah, blah,blah, etc...).
 
 ## Installation:
 
-  1. If you haven't already, download the latest version: [robin.v1.0.1.tar](robin.v1.0.1.tar). 
-  2. After downloading robin.v1.0.1.tar, unpack it in the parent directory of your account.  
-If you don't know how to do this then do the following:
+1. If you haven't already, download the latest version: `robin.v1.0.1.tarr`. 
+2. After downloading robin.v1.0.1.tar, unpack it in the parent directory of your account.  
+   If you don't know how to do this then do the following:
+```
+   mv robin.v1.0.1.tar ~  
+   # (if it warns you they are identical, then you are already where you need to
+   # be, skip the next step)
 
-    * `mv robin.v1.0.1.tar ~`  
-(if it warns you they are identical, then you are already where you need to
-be, skip the next step)
-
-    * `cd ~`  
-
-    * `tar -xf robin.v1.0.1.tar`
-  3. If you wish to have Robin load auto-magically whenever you start ircII (for UNIX), you should do the following:  
-
-    * `echo "load ~/scripts/robin.load.mod" >> ~/.ircrc` or just put what's in quotes into .ircrc using your favorite editor. 
+   cd ~  
+   tar -xf robin.v1.0.1.tar
+```
+3. If you wish to have Robin load auto-magically whenever you start ircII (for UNIX), you should do the following:  
+```
+   echo "load ~/scripts/robin.load.mod" >> ~/.ircrc #or just put what's in quotes into .ircrc using your favorite editor. 
+```
 
 That is it. Robin is now unpacked into its own directory and, if you choose
 to, will auto-load when you next start ircII. Quick warning, step #2 will
 create a directory called scripts in your parent user directory. If you
 currently have a directory by this name you should rename the existing one in
 order to save you some editing of the various modules that make up the script.
-Robin expects to be in the path of ~/scripts/* , if you change this you must
+Robin expects to be in the path of `~/scripts/*` , if you change this you must
 edit the path in any modules that reference to it. For a couple of reasons it
 is best to rely on using an actual path rather than the current working
 directory.
@@ -66,36 +76,22 @@ Robin has help menus for all of its commands. The main (general) help menu can
 be brought up via /robin and individual command help can be brought up in the
 format of /{command} help [without the {}'s of course].
 
-> *** Value of HOLD_MODE set to ON
-
+> ** Value of HOLD_MODE set to ON
 Normal ircII help can be obtained via /help or //help. If you
-
 receive an error message by doing this then you should contact
-
 your system administrator and ask for the help files to be
-
 installed or visit www.irchelp.org and read them there.
-
 This is the channel protection script written by turtle
-
 (dhansen@spaceghost.salug.org) and it is temporarily named
-
 Robin v1.0
 
 >
-
 > /banHelp More detailed help on banning a person.
-
 >
-
 > /kickHelp More detailed help on kicking a person.
-
 >
-
 > /opHelp More detailed help on loading and listing
-
 >
-
 > approved channel operator addresses
 
 The help menus for each individual command are contained within the very
@@ -106,7 +102,7 @@ having to hack the hell out of some massive file and end up breaking it.
 Therefore you can expect to see commands listed in the main help file that you
 do not have modules for. As a new module (or new commands for updates to
 existing modules) is released a new main.help will accompany it so that the
-new command<s> will be included.
+`new command<s>` will be included.
 
 If you choose to not use one or more of the modules available just edit the
 loading entry for it out of ~/scripts/robin.load.mod and, if you want to, edit
@@ -125,6 +121,6 @@ and replace the word channel with the actual channels name. The beginning of
 these files contain a lot of instructions on just what editing needs to be
 done.
 
-[Return to general ircII script page.](/irchelp/script/)
+[Return to general ircII script page.](/script/)
 
 ##### Copyright (C) 1997,1998,1999 David Hansen with a lot of inspiration.
