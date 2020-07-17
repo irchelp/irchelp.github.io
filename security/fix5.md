@@ -21,7 +21,7 @@ fix. If that is the case, you are left with no other choice but to do a clean
 re-installation of your system, as we described on our main
 [Trojan](trojan.html) page.
 
-**After reading the directions above, download: [dm5clean2b.bat](dm5clean2b.bat)**
+**After reading the directions above, download: `dm5clean2b.bat`**
 
 Thanks again to #NoHack on DALnet for providing this fix.
 
