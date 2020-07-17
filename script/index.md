@@ -1,3 +1,8 @@
+---
+title: Scripts for ircII
+status: historical
+layout: default
+---
 # Scripts for ircII
 
 * * *
@@ -28,7 +33,7 @@ I therefore present some scripts below which are all designed to enhance your
 IRC enjoyment by providing convenient shortcuts, fun features, and protective
 powers, while avoiding annoyances which will get you in trouble, and all have
 been verified to be free of backdoors. _These scripts are not endorsed by the
-#IRChelp ops, nor will we provide help for their installation and use._ You're
+\#IRChelp ops, nor will we provide help for their installation and use._ You're
 on your own - learn and explore the help files and comments that come with
 each script!
 
@@ -59,12 +64,12 @@ Jolopak so that you can use both at the same time.
 
 ## Script Packages
 
-For those who want really complete script packs, [SuperPak](superpak.scr.gz)
+For those who want really complete script packs, `superpak.scr.gz`
 is the mother of JoloPak and contains a ton of obscure but interesting
 features, plus a lot of stuff which is either harmlessly redundant or just
 useless. (That's why I was motivated to clean it up to make the JoloPak.)
 Another excellent script package recommended very highly is
-[PurePak](ppak207.tar.gz).
+`ppak207.tar.gz`.
 
 ## Miscellaneous Script Modules
 
