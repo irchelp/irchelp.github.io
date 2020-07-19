@@ -1,5 +1,5 @@
 ---
-title: CHANFIX: EFnet Channel Fixing
+title: 'CHANFIX: EFnet Channel Fixing'
 author: Jolo, tiggergrm
 dateupdated: 16 November 2003
 layout: default
