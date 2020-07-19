@@ -1,11 +1,21 @@
+---
+title: CHANFIX: EFnet Channel Fixing
+author: Jolo, tiggergrm
+dateupdated: 16 November 2003
+layout: default
+---
 # CHANFIX: EFnet Channel Fixing
 
-**Translations: [![](fr.gif) Français](chanfix-fr.html) - [![](il.gif) Hebrew](chanfix-il.html) - [![](no.gif) Norsk](chanfix-no.html) **
+**Translations: [![fr-flag](/media/flags/fr-flag.gif) Français](chanfix-fr.html)**
+{% comment %}
+ -[![il-flag](/media/flags/il-flag.gif) Hebrew](chanfix-il.html) - 
+[![no-flag](/media/flags/no-flag.gif) Norsk](chanfix-no.html)
+{% endcomment %}
 
 by Jolo, tiggergrm and many others, updated Nov 16, 2003
 
-Original version at [http://www.irchelp.org/ircd/chanfix/](http://www.
-irchelp.org/ircd/chanfix/)
+Original version at 
+<http://www.irchelp.org/ircd/chanfix/>
 
 ## What is CHANFIX? _READ THIS PLEASE!_
 
@@ -144,7 +154,7 @@ new channel.
 
 If you had an actual takeover by an outsider, then you need to figure out how
 they got ops (accidental op, "hacked" bot/shell, [denial of service
-attack](../nuke/) that knocked everybody else offline, etc.). Then make sure
+attack](/nuke/) that knocked everybody else offline, etc.). Then make sure
 it doesn't happen again. We do not issue fixes until you have demonstrated
 that you won't get taken over again right away. You should have as many as
 possible of your qualifying regular ops online and awake, either sitting in
