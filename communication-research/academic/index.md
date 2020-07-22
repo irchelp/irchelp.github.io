@@ -1,5 +1,6 @@
 ---
 title: Academic Resources
+status: historical
 layout: default
 ---
 
@@ -7,14 +8,13 @@ layout: default
 
 # **Academic Resources**
 
-
-
-[ [IRC articles][1] ] [ [CMC articles and books][2] ] [ [ Relevant
-journals][3] ] [ [Resources on websites][4] ]
-
-
+[ [IRC articles][1] ] 
+[ [CMC articles and books][2] ] 
+[ [Relevant journals][3] ] 
+[ [Resources on websites][4] ]
 
 ### **_IRC Articles_**
+{:#irc}
 
 [ Apologies for the mixed referencing ]
 
@@ -44,7 +44,7 @@ Relay Chat Openings][17]."_ Journal of Computer-Mediated Communication, 6_(3).
   * **Rodino, M. 1997.** "[Breaking out of Binaries: Reconceptualizing Gender and its Relationship to Language in Computer-Mediated Communication][18]." _Journal of Computer-Mediated Communication, 3_(3). <http://www.ascusc.org/jcmc/vol3/issue3/rodino.html>
   * **Vincent, C. 1992.** "[Collegiality in Cyberspace: Case Studies in Computer Mediated Communication.][19]" Masters Diss. U of Tasmania, 1992.
   * **Werry, C. 1996.** "Linguistic and Interactional Features of Internet Relay Chat." _Computer-Mediated Communication: Linguistic: Social and Cross-Cultural Perspectives_. Ed. Susan C. Herring. Pragmatics and Beyond New Series 39. Amsterdam: John Benjamins, 1996. 47-64.
-  * **Wong, M. W. 1995.** "[To Be In Touch][20]."_ FutureCulture_ Mailing List post. 25 June 1993. _IRC Interaction Research Resources_. </irchelp/communication-research/academic/academic-wong-mw-1993.html>.
+  * **Wong, M. W. 1995.** "[To Be In Touch][20]."_ FutureCulture_ Mailing List post. 25 June 1993. _IRC Interaction Research Resources_. </communication-research/academic/academic-wong-mw-1993.html>.
 
 * * *
 
@@ -53,6 +53,7 @@ Relay Chat Openings][17]."_ Journal of Computer-Mediated Communication, 6_(3).
 * * *
 
 ### **_CMC Articles and Books_**
+{:#cmc}
 
   * **Baron, Naomi, S. 1984.** "Computer Mediated Communication as a Force in Language Change." Visible Language 18 (1984): 118-41.
   * **Baym, Nancy K. 1997.** "Identity, Body, and Community in On-Line Life." Journal of Communication 47.4 (1997): 142-48.
@@ -101,7 +102,8 @@ Relay Chat Openings][17]."_ Journal of Computer-Mediated Communication, 6_(3).
 
 * * *
 
-### **_Relevant Journals _**
+### **_Relevant Journals_**
+{:#journals}
 
 Online journals
 
@@ -130,12 +132,13 @@ Paper journals
 
 * * *
 
-**_R e s o u r c e s  o n  W e b s i t e s
-_**[ See also: [Other IRC Resources][46] ]
+### R e s o u r c e s  o n  W e b s i t e s
+{:#websites}
+[ See also: [Other IRC Resources][46] ]
 
   * [IRChelp.org][47] stores the [IRC Operators Guide][48] and IRC's technical specifications in the form of [Return For Comment][49] documents. The most important of these is the original [RFC1459][50]
-Oikarinen, Jarkko, and Darren Reed. 1993. "RFC1459."
-<http://www.irchelp.org/irchelp/rfc/rfc.html> IRChelp.org Internet Relay Chat
+Oikarinen, Jarkko, and Darren Reed. 1993. [RFC1459][50].
+ IRChelp.org Internet Relay Chat
 (IRC). Help Archive. Internet Relay Chat Protocol May 1993. [Your date of
 access].
 
@@ -159,7 +162,7 @@ access].
    [3]: #journals
    [4]: #websites
    [5]: http://www.ascusc.org/jcmc/vol1/issue2/bechar.html
-   [6]: /irchelp/communication-research/academic/byrne-e-cyberfusion-1993/thesis1.html
+   [6]: /communication-research/academic/byrne-e-cyberfusion-1993/thesis1.html
    [7]: http://www.december.com/john/papers/pscrc93.txt
    [8]: http://www.ascusc.org/jcmc/vol2/issue4/danet.html
    [9]: http://www2.crosswinds.net/~wdoell/work/ircpaper.htm
@@ -169,11 +172,11 @@ access].
    [13]: http://www.ascusc.org/jcmc/vol4/issue4/herring.html
    [14]: http://www.media-culture.org.au/0008/edit.html
    [15]: http://www.ascusc.org/jcmc/vol4/issue4/paolillo.html
-   [16]: /irchelp/communication-research/academic/academic-reid-e-electropolis-1991.html
+   [16]: /communication-research/academic/academic-reid-e-electropolis-1991.html
    [17]: http://www.ascusc.org/jcmc/vol6/issue3/
    [18]: http://www.ascusc.org/jcmc/vol3/issue3/rodino.html
-   [19]: /irchelp/communication-research/academic/academic-vincent-c-collegiality-1993.doc
-   [20]: /irchelp/communication-research/academic/academic-wong-mw-1993.html
+   [19]: /communication-research/academic/academic-vincent-c-collegiality-1993.doc
+   [20]: /communication-research/academic/academic-wong-mw-1993.html
    [21]: #top
    [22]: http://www.usc.edu/dept/annenberg/vol1/issue2/baym.html
    [23]: http://firstmonday.org/issues/issue4_11/bays/index.html
@@ -201,9 +204,9 @@ access].
    [45]: http://www.icahdq.org/publications/joc.html
    [46]: ../other/
    [47]: http://irchelp.org/
-   [48]: http://www.irchelp.org/ircd/ircopguide.html
-   [49]: http://www.irchelp.org/irchelp/rfc/
-   [50]: http://www.irchelp.org/irchelp/rfc/rfc.html
+   [48]: /ircd/ircopguide.html
+   [49]: /protocol/rfc/
+   [50]: /protocol/rfc/rfc.html
    [51]: http://www.the-project.org/history.html
    [52]: http://www.the-project.org
    [53]: http://www.chatserver.org/history.asp
