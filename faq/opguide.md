@@ -1,11 +1,19 @@
 ---
 title: The Operator's Guide
+author: 'Thoth, SilverOz, MoonWolf, Charles'
+datecreated: May 1995
 status: historical
 layout: default
 license: usedbypermission
 ---
 
-**Editor's note**: This is a classic help file dating back to the 1990s when IRC was very new. We still keep this file here for historic value, and also because the general information is still accurate. If you are interested in other, more up to date help files, see [IRC FAQs and Help Files](/irchelp/faq.html). In particular, we completely rewrote this guide to create [The New IRC Channel Operator's Guide](/irchelp/changuide.html) which covers all the information you need to run a stable, successful channel.
+**Editor's note**: This is a classic help file dating back to the 1990s when
+IRC was very new. We still keep this file here for historic value, and also
+because the general information is still accurate. If you are interested in
+other, more up to date help files, see [IRC FAQs and Help Files](/faq/). In
+particular, we completely rewrote this guide to create [The New IRC Channel
+Operator's Guide](/faq/changuide.html) which covers all the information you
+need to run a stable, successful channel.
 
 If you do read the following for historic reasons, you should be warned that
 this file contains outdated advice which is either outright wrong or can get
@@ -24,18 +32,20 @@ or
 Now I have the @, what do I *do* with it?
 
 _By Thoth and SilverOz, with help from MoonWolf and Charles
-
 version 1.5 - May 1995_
 
-This guide is available in plain text from [ http://www.irchelp.org/irchelp/te
-xt/opguide.txt](http://www.irchelp.org/irchelp/text/opguide.txt)
+This guide is available in plain text from 
+<https://github.com/irchelp/wio/raw/gh-pages/faq/opguide.md>
 
-or as a web page from [ http://www.irchelp.org/irchelp/opguide.html](http://ww
-w.irchelp.org/irchelp/opguide.html).
+or as a web page from 
+<http://www.irchelp.org/faq/opguide.html>.
 
 * * *
 
-**(NOTE: _the commands in this guide work on Unix machines running one of the irc-ii clients. They may not work on other machines or with other clients. However the concepts an operator needs to understand are the same on any platform._)**
+**(NOTE: _the commands in this guide work on Unix machines running one of the
+irc-ii clients. They may not work on other machines or with other clients.
+However the concepts an operator needs to understand are the same on any
+platform._)**
 
 # 1. Servers - How IRC works
 
@@ -73,7 +83,9 @@ When net traffic gets heavy (not just IRC traffic, but all net traffic) then
 the links get overloaded and break. This is called a "netsplit." When someone
 netsplits, it looks like this:
 
+```
 *** Signoff: Thoth (eff.org dewey.cc.utexas.edu)
+```
 
 This indicates that the connection between eff.org and dewey.cc.utexas.edu is
 the one that broke down, and that you are on the eff.org side of the netsplit,
@@ -96,7 +108,9 @@ new bans, or new users.
 When the server rejoins, it updates everyone on what has been going on, which
 is why you will see something like:
 
+```
 *** Mode change "+o Thoth" on channel #bdsm by dewey.cc.utexas.edu
+```
 
 That was the server dewey.cc.utexas.edu "synching" its information with
 everyone else's and telling everyone it had a new op.
@@ -104,17 +118,21 @@ everyone else's and telling everyone it had a new op.
 Sometimes, the server updates don't work, and servers persist in seeing their
 own view of reality. For example, picture this:
 
+```
 *** Mode change "+o Thoth" on channel #bdsm by dewey.cc.utexas.edu
 
 *** Mode change "-o Thoth" on channel #bdsm by SilverOz
+```
 
 A server, in this case dewey, opped Thoth. Then SilverOz immediately deopped
 him. SilverOz most likely deopped him before her server had a chance to tell
 Thoth's server that SilverOz was an op. If Thoth also tried to deop SilverOz,
 from Thoth's perspective, the whole incident looked very different:
 
+```
 *** Mode change "+o SilverOz" on channel #bdsm by eff.org
 *** Mode change "-o SilverOz" on channel #bdsm by Thoth
+```
 
 So, the eff.org side sees SilverOz as opped and Thoth as deopped; the dewey
 side sees the exact reverse. The dewey side will now ignore anything that
@@ -124,16 +142,20 @@ like this:
 
 (Thoth types:)
 
+```
 /mode * +b *!*zjohnsto*@*scu.edu.au
 
 /kick * silveroz Go away
+```
 
 (Thoth sees:)
 
+```
 *** Mode change "+b *!*zjohnsto*@*scu.edu.au" on channel #bdsm by Thoth
 *** Not channel operator (from eff.org)
 *** SilverOz has been kicked off channel #bdsm by Thoth (Go away)
 *** Not channel operator (from eff.org)
+```
 
 SilverOz would not even see the ban or the kick, since her server doesn't
 acknowledge Thoth's ops as legitimate. Thus, people who are connected to one
@@ -142,11 +164,13 @@ even though all those people can see each other and are talking. When that
 happens the server is said to be "desynched."
 
 Note here that **SilverOz WOULD STILL BE ABLE TO SEE EVERYTHING THOTH SAYS ON
-CHANNEL, EVEN THOUGH THOTH THINKS HE KICKED HER OFF. ** Because he kicked her
+CHANNEL, EVEN THOUGH THOTH THINKS HE KICKED HER OFF.** Because he kicked her
 off, whenever she tries to send text to channel, she will get a message that
 says:
 
+```
 *** Can't send to channel (from dewey.cc.utexas.edu)
+```
 
 Since Thoth's server doesn't think she's on the channel, it won't relay what
 she says to Thoth. But, since SilverOz's server thinks she's on the channel,
@@ -174,14 +198,12 @@ only, for more information, see the files listed at the end of this document.
 There are 7 main channel modes. Which ones you set your channel to will depend
 on what you want to do.
 
-You can set modes singly or in clumps:      /mode * +nt is the same as
-/mode * +n
+You can set modes singly or in clumps:      
+`/mode * +nt` is the same as `/mode * +n`
 
-/mode * +t **(NOTE: _you can also set using the channel name, e.g.
-
-_ /mode #channel +nt
-
-_ but typing * is quicker. However, some clients require you to use the full
+`/mode * +t` **(NOTE: _you can also set using the channel name, e.g.
+`/mode #channel +nt`
+_but typing `*` is quicker. However, some clients require you to use the full
 name._)**
 
 ### 2.2.1. +n
@@ -209,9 +231,11 @@ on anyone on that channel, the fact they are on that channel will not be
 revealed. However, it will be obvious that they are on *some* channel. The
 /whois will like like this (provided you are not on the channel yourself):
 
+```
 *** Thoth is ~thoth@disco.intercon.com (Far and Away)
 *** on channels: *private*
 *** on IRC via server dewey.cc.utexas.edu (UT's "I Repeat Class" server)
+```
 
 **NOTE: _A channel cannot be both +p and +s_**
 
@@ -223,8 +247,10 @@ when they do this they will see all the people on it. A /whois of someone on a
 secret channel will look like this (provided you are not on the channel
 yourself):
 
+```
 *** Thoth is ~thoth@disco.intercon.com (Far and Away)
 *** on IRC via server dewey.cc.utexas.edu (UT's "I Repeat Class" server)
+```
 
 **NOTE: _A channel cannot be both +p and +s_**
 
@@ -234,11 +260,11 @@ A channel set +k requires a keyword to enter. On EFnet (the "main" IRC net)
 this keyword can contain unprintable chars. On UnderNet, only printable chars
 count.
 
-<DLTo set the keyword for channel #silveroz to mykey     /mode #silveroz +k
-mykey or      /mode * +k mykey
+To set the keyword for channel #silveroz to mykey     
+`/mode #silveroz +k mykey` or `/mode * +k mykey`
 
-You also need the key to remove the mode... If you know it,      /mode * -k
-mykey if you don't, see below.
+You also need the key to remove the mode... If you know it,      
+`/mode * -k mykey` if you don't, see below.
 
 ### 2.2.7. +m
 
@@ -274,9 +300,10 @@ section 2.6.
 
 Modes are normally set and cleared by the mode command as follows:
 
+    /mode * -n
+	/mode * -nt 
 
-     /mode * -n
-/mode * -nt You can combine mode commands too. Supposing the channel was
+You can combine mode commands too. Supposing the channel was
 currently +i +n +t (usually written as +int)
 
 You can remove the +i by
@@ -289,7 +316,10 @@ But supposing you want it to be -i but +s?
 
 You can clear all modes (including a keyword you don't know...) by typing:
 
-     /eval mode * -$M **NOTE: _eval and $M are both commands specific to the ircII IRC client. If you are not using ircII, the above command may not work for you._**
+     /eval mode * -$M 
+
+**NOTE: _eval and $M are both commands specific to the ircII IRC client. If you
+are not using ircII, the above command may not work for you._**
 
 ## 2.4. Opping and de-opping
 
@@ -316,7 +346,9 @@ To kick someone off the channel, you use the /kick command:
 
 You can add a comment the person will see when they are ejected:
 
-     /kick * SilverOz Good bye and good riddance! You can only kick one person at a time.
+     /kick * SilverOz Good bye and good riddance! 
+
+You can only kick one person at a time.
 
 This is one of those commands it is nice to have an alias for -- see the
 section on scripts for how to write an alias. Also note that it's often
@@ -336,16 +368,18 @@ right of the @ is the host.
 You can use wildcards in bans, special characters that stand in for a
 character or group of chars.
 
-     ? means "any single char"
-* means "any group of chars. So "S?lverOz" will match "SilverOz" and "SolverOz" and "SklverOz" but not "SiilverOz."
+? means "any single char" * means "any group of chars. So "S?lverOz" will match
+"SilverOz" and "SolverOz" and "SklverOz" but not "SiilverOz."
 
-"*Oz" will match "SilverOz" and "AgOz" and "SilverOOz" but not "Silver" or
+"\*Oz" will match "SilverOz" and "AgOz" and "SilverOOz" but not "Silver" or
 "SilverOzz."
 
-"*.hacker.com" will match "bozo.hacker.com" and "luser.hacker.com" but not
+"\*.hacker.com" will match "bozo.hacker.com" and "luser.hacker.com" but not
 "hacker.com" itself.
 
-**Note _that some users can change their account name as easily as the rest of us change our nicks. This means you will have to ban their entire host, or possibly their entire domain, to keep them off the channel._**
+**Note _that some users can change their account name as easily as the rest of
+us change our nicks. This means you will have to ban their entire host, or
+possibly their entire domain, to keep them off the channel._**
 
 ### 2.6.1. Types of bans and when to use them
 
@@ -357,7 +391,10 @@ single ? wild cards in them) which seem to be completely useless.
 
 The correct format for a nick ban is:
 
-     /mode * +b nick!*@*  This bans anyone with the nick "nick." E.g. /mode * +b SilverOz!*@* will ban anyone with the nick SilverOz from the channel. Of course if they change their nick, then they can slide right past the ban.
+`/mode * +b nick!*@*`  This bans anyone with the nick "nick." E.g. 
+`/mode * +b SilverOz!*@*`
+will ban anyone with the nick SilverOz from the channel. Of course if they
+change their nick, then they can slide right past the ban.
 
 This ban is pretty useless against people, but can be used to get rid of bots,
 who usually don't change their nicks. (Some bots do, though. Incidentally, on
@@ -370,7 +407,13 @@ back on channel. In that case, ban them, then unban about 5 mins later.
 
 The correct format for a user@host ban is as follows:
 
-     /mode * *!*user*@*host.suffix  This is your standard everyday ban. It bans all nicks (*! means "all nicks") from their username (*user* means their username, plus the * at the beginning takes care of the ~ mark you sometimes see, and the * at the end insures that the username you provide "fits" into the space -- no more than nine characters will fit), from all machines in their domain.
+     /mode * *!*user*@*host.suffix  
+
+This is your standard everyday ban. It bans all nicks (`*!` means "all nicks")
+from their username (*user* means their username, plus the * at the beginning
+takes care of the ~ mark you sometimes see, and the * at the end insures that
+the username you provide "fits" into the space -- no more than nine characters
+will fit), from all machines in their domain.
 
 E.g., to ban SilverOz who is zjohnsto@scu.edu.au you would type:
 
@@ -378,19 +421,27 @@ E.g., to ban SilverOz who is zjohnsto@scu.edu.au you would type:
 
 To ban Luser who is lame@mm.elcheepo.edu you would type:
 
-     /mode * +b *!*lame*@*elcheepo.edu  **Note _that for the non-US address (.au means Australia) you leave 3 parts of the host name, for the US one, you only leave 2._**
+     /mode * +b *!*lame*@*elcheepo.edu  
+
+**Note _that for the non-US address (.au means Australia) you leave 3 parts of
+the host name, for the US one, you only leave 2._**
 
 Most scripts would write the ban as:
 
-     /mode * +b *!*lame*@*.elcheepo.edu  which works OK unless you get someone with a 2 part hostname, e.g., luser has another account, joe@hacker.com, with access to joe@phreak.hacker.com and joe@hacker.com.
+`/mode * +b *!*lame*@*.elcheepo.edu`  which works OK unless you get someone
+with a 2 part hostname, e.g., luser has another account, joe@hacker.com, with
+access to joe@phreak.hacker.com and joe@hacker.com.
 
-/mode *!*joe*@*.hacker.com will ban the first account, but not the second.
+`/mode *!*joe*@*.hacker.com` will ban the first account, but not the second.
 
 #### 2.6.1.3. Site ban
 
 The format for an effective site ban is as follows:
 
-     /mode * +b *!*@*host.suffix This bans everyone from a particular domain or machine, no matter who they are, or what their nick.
+     /mode * +b *!*@*host.suffix 
+
+This bans everyone from a particular domain or machine, no matter who they are,
+or what their nick.
 
 For example, if you wanted to ban SilverOz and everyone from SCU, you would
 type:
@@ -428,7 +479,12 @@ class C network, I could do a site ban on her with:
 A class B network is larger, up to 65535 hosts, and the last two components of
 the address can differ. For a class B you would use
 
-     /mode #bdsm +b *!*zjohnsto@203.2.* Class A is 16777215 hosts and all three of the final compoentents can change. There are only 255 class A networks - all owned by large corporations. Many networks, especially the larger ones, are subnetted, which means that even if the hacker is on a large network, the piece they are on can probably be banned simply by wildcarding the last part of the address.
+`/mode #bdsm +b *!*zjohnsto@203.2.*` 
+Class A is 16777215 hosts and all three of the final compoentents can change.
+There are only 255 class A networks - all owned by large corporations. Many
+networks, especially the larger ones, are subnetted, which means that even if
+the hacker is on a large network, the piece they are on can probably be banned
+simply by wildcarding the last part of the address.
 
 Ok - cut to the chase.
 
@@ -438,7 +494,7 @@ Networks from 192-223 are Class C.
 
 Treat everything else as Class A.
 
-You can ban by /mode * +b *!*zjohnsto*@203.2.20* but that will ban people from
+You can ban by `/mode * +b *!*zjohnsto*@203.2.20*` but that will ban people from
 203.2.202.4 for example, quite likely a completely different domain. The
 moral: include the ending period when banning by IP address.
 
@@ -453,15 +509,16 @@ Because if you don't, the user could deop you or kick you first.
 This task can be made simpler and more efficient by combining modes. For
 example, to remove Thoth from the channel, you could do the following:
 
+```
 < Commands entered by SilverOz: >
 
 /mode * -o+b thoth *!*thoth*@*intercon.com
-
 /kick * thoth Get out you wanker
 
 
 *** Mode change "-o+b thoth *!*thoth*@*intercon.com" on channel #bdsm by SilverOz
 *** Thoth has been kicked off channel #bdsm by SilverOz (Get out you wanker)
+```
 
 The mode change command effectively de-opped Thoth first and then
 instantaneously banned him.
@@ -470,7 +527,11 @@ instantaneously banned him.
 
 To check what bans are on the channel, type
 
-     /mode * b **(NOTE: _This works regardless of whether you are on or off channel, but of course if you are off channel you have to use the channel name, /mode #channel b._)**
+     /mode * b 
+
+**(NOTE: _This works regardless of whether you are on or off channel, but of
+course if you are off channel you have to use the channel name, /mode #channel
+b._)**
 
 To clear old bans you have to remove them *exactly* as they were written - a
 terminal with cut and paste is invaluable for this. If you make a mistake, the
@@ -481,10 +542,8 @@ To clear a ban:
 
      /mode * -b
 
-e.g.
-
-     to clear the ban *!*zjohnsto*@*scu.edu.au
-/mode * -b *!*zjohnsto*@*scu.edu.au
+e.g.  to clear the ban \*!\*zjohnsto\*@\*scu.edu.au
+`/mode * -b *!*zjohnsto*@*scu.edu.au`
 
 ### 2.6.3. Why a ban may not work
 
@@ -540,11 +599,17 @@ or annoyed them. People just seeing if they can.
 
 Your options? Basically, you can try one of three options:
 
-
-
   1. Appease them.
   2. Ignore them.
-  3. Defend the channel.  The problem with appeasing channel hackers if that this often leads them to believe that hacking or threatening to hack your channel is a good way to intimidate or manipulate you. Experience shows that appeasing a channel hacker frequently results in continued harassment and continued hacking. Basically, if you want to try appeasement, you should make sure the hacker does not go away with the idea that his or her hacking was worth it. On the other hand, this may defeat the idea of appeasement.
+  3. Defend the channel.  
+
+The problem with appeasing channel hackers if that this often leads them to
+believe that hacking or threatening to hack your channel is a good way to
+intimidate or manipulate you. Experience shows that appeasing a channel hacker
+frequently results in continued harassment and continued hacking. Basically, if
+you want to try appeasement, you should make sure the hacker does not go away
+with the idea that his or her hacking was worth it. On the other hand, this may
+defeat the idea of appeasement.
 
 Ignoring the hackers is a valid option, particularly in the case of small
 channels. If you don't need the hassle of trying to take back a channel -- and
@@ -569,15 +634,24 @@ programming ability, good bots, and a hell of a lot of time.
 
 Some general rules:
 
-  * There are no absolute rules. Every rule allows for a commonsense exception. Use your judgement -- but on the other hand, be very careful. Think about what you are doing.
-
+  * There are no absolute rules. Every rule allows for a commonsense exception.
+  Use your judgement -- but on the other hand, be very careful. Think about
+  what you are doing.
   * Take your time and do things right -- but take your time with haste. :)
+  * Don't op someone unless you are sure they are who you think they are. Never
+  op someone solely based on their user@host.
+  * Always de-op people who come in from splits with ops. You can always re-op
+  them later.
+  * If you think the channel is under real heavy attack, then make it +i. 
 
-  * Don't op someone unless you are sure they are who you think they are. Never op someone solely based on their user@host.
-
-  * Always de-op people who come in from splits with ops. You can always re-op them later.
-
-  * If you think the channel is under real heavy attack, then make it +i. Make sure all ops are mode +i themselves (/umode +i) and then get them to change nicks. Also, ban all accounts or hosts that you think are dangerous. This will prevent everyone except people who slide in from a split from figuring out who the ops are on channel (unless there's a spy on channel). Why all the effort to prevent people from finding out the nicks of the ops? To prevent nick collidions (see section 3.2). Of course, making the channel +i means that no one can join the channel unless they know the alternate nicks of the ops, so it will disrupt normal life quite a lot.
+Make sure all ops are mode +i themselves (/umode +i) and then get them to
+change nicks. Also, ban all accounts or hosts that you think are dangerous.
+This will prevent everyone except people who slide in from a split from
+figuring out who the ops are on channel (unless there's a spy on channel). Why
+all the effort to prevent people from finding out the nicks of the ops? To
+prevent nick collidions (see section 3.2). Of course, making the channel +i
+means that no one can join the channel unless they know the alternate nicks of
+the ops, so it will disrupt normal life quite a lot.
 
 ## 3.1. Op/friend impersonation
 
@@ -621,25 +695,44 @@ side of the split, telling the hacker who the ops are.
 
 What to do about it:
 
-  1. Spread ops around to all reliable people. Make the hacker spend time creating more bots.
+  1. Spread ops around to all reliable people. Make the hacker spend time
+	 creating more bots.
 
   2. Make yourself +i. Don't make it easy for the hacker to display the ops' nicknames.
 
-  3. Always, always, deop server ops. They can be redone; the hacker becoming the only op on channel is not so easily undone.
+  3. Always, always, deop server ops. They can be redone; the hacker becoming
+	 the only op on channel is not so easily undone.
 
   4. Change your nickname often.
 
   5. Kick off all suspicious accounts. Make the channel +i if necessary.
 
-  6. Put a client on the split server, if possible, or at least on the same side of the split as the split server. Have that client join the channel on that side and keep you informed about what is going on there. It's better if it's an account the hacker won't know is yours.
+  6. Put a client on the split server, if possible, or at least on the same
+	 side of the split as the split server. Have that client join the channel
+	 on that side and keep you informed about what is going on there. It's
+	 better if it's an account the hacker won't know is yours.
 
-  7. Create bots to nick collide the hacker. Bring a ton of bots on the channel and op them all.
+  7. Create bots to nick collide the hacker. Bring a ton of bots on the channel
+	 and op them all.
 
-  8. Bear in mind: **IF YOU KICK THE HACKER WITH THE MISTAKEN IDEA THAT HE WILL THEN NOT SEE WHAT YOU SAY OR THE NICKS YOU GIVE YOUR BOTS AND YOURSELF, THINK AGAIN! **Not only will this not have that effect, but you will not even be able to tell when he splits off again, at least not easily. The only time that your nick matters is when there is a split, so change your nick and your bots' nicks AFTER the hacker splits off again.
+  8. Bear in mind: 
+     **IF YOU KICK THE HACKER WITH THE MISTAKEN IDEA THAT HE WILL
+	 THEN NOT SEE WHAT YOU SAY OR THE NICKS YOU GIVE YOUR BOTS AND YOURSELF,
+	 THINK AGAIN!** Not only will this not have that effect, but you will not
+	 even be able to tell when he splits off again, at least not easily. The
+	 only time that your nick matters is when there is a split, so change your
+	 nick and your bots' nicks AFTER the hacker splits off again.
 
-  9. Be creative and think. A good hacker already knows you will do these things. Try to think like the hacker thinks. How would YOU go about taking over a channel?
+  9. Be creative and think. A good hacker already knows you will do these
+	 things. Try to think like the hacker thinks. How would YOU go about taking
+	 over a channel?
 
-  10. Be persistent. If you hang in there long enough, eventually you will get the channel back. In the meantime, postcards, letters, e-mail and phone calls to the hacker's service provider, the hacker's servers and any other method you can think of to make the hacker's life difficult are reasonable tools to use. You didn't ask for the aggravation, and you are not bound by the hacker's "rules of the game."
+  10. Be persistent. If you hang in there long enough, eventually you will get
+	  the channel back. In the meantime, postcards, letters, e-mail and phone
+	  calls to the hacker's service provider, the hacker's servers and any
+	  other method you can think of to make the hacker's life difficult are
+	  reasonable tools to use. You didn't ask for the aggravation, and you are
+	  not bound by the hacker's "rules of the game."
 
 ## 3.3. split server
 
@@ -670,7 +763,7 @@ discretion... maybe /msg them see what is going on._]
 
 What it is:
 
-[See the section on servers]
+[See the section on servers](#1-servers---how-irc-works)
 
 This basically boils down to you having ops on one half of IRC, and the
 hackers having ops on the other half (or nobody having ops on the other half).
@@ -684,16 +777,22 @@ perceive you as being the only person on the channel (everyone else was kicked
 off, as far as your server is concerned). The side on which you were not opped
 will see:
 
+```
 *** Thoth has left channel #bdsm
 *** Thoth (~thoth@disco.intercon.com) has joined channel #bdsm
 *** Mode change "+o Thoth" on channel #bdsm by dewey.cc.utexas.edu
+```
+
 Can this go wrong? You bet it can. If someone -- anyone, from any connected
 server -- joins the channel between the time you leave and the time you come
 back, THEY -- not you -- get opped from your server. Worse, YOU don't get
 opped. When you join, you see:
 
+```
 *** Thoth (~thoth@disco.intercon.com) has joined channel #bdsm
 *** Users on #bdsm: Thoth @SomeDude
+```
+
 This is a sure sign you timed it wrong. If the other person is the hacker, you
 are in deep trouble, if they are a normal user you can try and persuade them
 to leave.
@@ -711,9 +810,15 @@ I personally don't like a lot of them because
 
   * they are big and take memory
   * they are over-filled with features, most of which you won't use
-  * people who use them seldom understand them, and get caught by surprise when the script kicks in. (Auto-kickers for things like flooding are prime examples).
-  * Many versions floating around are hacked, and unless you can read IRC script and are willing to plough through it all you can't be certain you haven't got a hacked one.
-  * Some of them are full of useless things like screwbans and splatterkicks. Or else they have lots of attack features which do nothing but desynch the net.
+  * people who use them seldom understand them, and get caught by surprise when
+  the script kicks in. (Auto-kickers for things like flooding are prime
+  examples).
+  * Many versions floating around are hacked, and unless you can read IRC
+  script and are willing to plough through it all you can't be certain you
+  haven't got a hacked one.
+  * Some of them are full of useless things like screwbans and splatterkicks.
+  Or else they have lots of attack features which do nothing but desynch the
+  net.
 
 Most users only need some of the standard scripts that come with irc-ii and
 some custom code for decent bans, msgs to all ops, etc.
@@ -721,7 +826,7 @@ some custom code for decent bans, msgs to all ops, etc.
 Whoever installed irc-ii should have also installed the script directory, and
 you can load the standard scripts by typing
 
-     /load scriptname  If it doesn't work, chat to them.
+`/load scriptname`  If it doesn't work, chat to them.
 
 ## 4.1. standard scripts
 
@@ -738,7 +843,12 @@ it puts the nicks of peopel who /msg you, or who you /msg into a list, and you
 can recall the nicks by pressing tab. so if you got a msg from SillverOz, you
 can press tab, and
 
-     /msg SilverOz will appear on your command line, ready for you to type your msg. Saves those embarassing moment when you forget the / and your msg is broadcast to the channel, and saves the annoyance of typing, or mistyping, someone's nick. However, it doesn't save those embarassing moments when you tab up the wrong person and hurriedly type and send your message without watching who it's really going to.
+`/msg SilverOz` will appear on your command line, ready for you to type your
+msg. Saves those embarassing moment when you forget the / and your msg is
+broadcast to the channel, and saves the annoyance of typing, or mistyping,
+someone's nick. However, it doesn't save those embarassing moments when you tab
+up the wrong person and hurriedly type and send your message without watching
+who it's really going to.
 
 *Susan* What do you think of Asshole for ops?
 
@@ -763,7 +873,9 @@ announcements, coming events, ftp sites etc. For one thing, it means the
 output is less likely to get lost in the scroll because it looks different. An
 example notice is:
 
-/alias rules notice * RULES: Don't shout, don't talk about politics and don't
+	/alias rules notice * 
+
+RULES: Don't shout, don't talk about politics and don't
 annoy the ops!
 
 This will send a notice to everyone on the channel when you type /rules.
@@ -771,9 +883,9 @@ This will send a notice to everyone on the channel when you type /rules.
 if you want it to appear as normal IRC speech: /alias rules say RULES: Don't
 shout, don't talk about politics and don't annoy the ops!
 
-You can also use alias to kick someone:      /alias k kick * $0 which allows
-you to type /k Luser Get off my channel instead of having to type /kick *
-Luser Get off my channel
+You can also use alias to kick someone:  `/alias k kick * $0` which allows
+you to type `/k Luser Get off my channel` instead of having to type 
+`/kick * Luser Get off my channel`
 
 ## 4.3 Script Paks
 
@@ -784,16 +896,18 @@ from that person;s FTP site.
 I have tried both DaveMan's ToolBox and DeadelviS's DeTurbo and they both seem
 to be quite good.
 
-You can get DeTurbo from DeadelvisS's FTp site:     [ ftp://ftp.eyecandy.com/p
-ub/irc/DeadelviS/](ftp://ftp.eyecandy.com/pub/irc/DeadelviS/) _(DeadelviS has
+You can get DeTurbo from DeadelvisS's FTp site:
+<ftp://ftp.eyecandy.com/pub/irc/DeadelviS/>
+_(DeadelviS has
 a few script packs you might want to check, zer0 has also been recommended)_
 
-You can also get ToolBox from there or from DaveMan's own site at      [
-imageek.york.cuny.edu:/pub/daveman](file://imageek.york.cuny.edu/pub/daveman)
-**NOTE! _ IT is very important you only get a script from a reputable source
+You can also get ToolBox from there or from DaveMan's own site at
+<file://imageek.york.cuny.edu/pub/daveman>
+
+**NOTE! _IT is very important you only get a script from a reputable source
 and you get it from a known site, such as the author's own ftp site. A
 "backdoor" is very very easy to write, and a 2 line alias hidden in a 200k
-file can be used to access your account. _**
+file can be used to access your account._**
 
 # 5. Other Useful Files
 
@@ -802,14 +916,16 @@ file can be used to access your account. _**
 The FAQs (Frequently Asked Questions) for both EFnet and UnderNet are
 regularly posted to alt.irc. They can also be found on various ftp sites.
 
-     [ ftp://rtfm.mit.edu/usenet/alt.irc/](ftp://rtfm.mit.edu/usenet/alt.irc/)
+[ftp://rtfm.mit.edu/usenet/alt.irc/](ftp://rtfm.mit.edu/usenet/alt.irc/)
 
 ## 5.2. IRC Primer
 
 This primer is an absolute gem, giving novice (and some experienced) users a
 good grounding in IRC.  Available from:
 
-    [ http://www.irchelp.org/irchelp/ircprimer.html](http://www.irchelp.org/irchelp/ircprimer.html)     [ file://nic.funet.fi/pub/unix/irc/docs/IRCprimer1.1.txt](ftp://nic.funet.fi/pub/unix/irc/docs/IRCprimer1.1.txt)     [ ftp://cs-pub.bu.edu/irc/support/IRCprimer1.1.txt](ftp://cs-pub.bu.edu/irc/support/IRCprimer1.1.txt)
+[ircprimer](/faq/ircprimer.html)     
+[file://nic.funet.fi/pub/unix/irc/docs/IRCprimer1.1.txt](ftp://nic.funet.fi/pub/unix/irc/docs/IRCprimer1.1.txt)
+[ftp://cs-pub.bu.edu/irc/support/IRCprimer1.1.txt](ftp://cs-pub.bu.edu/irc/support/IRCprimer1.1.txt)
 
 * * *
 last modified Jan 20, 1997
