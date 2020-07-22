@@ -1,41 +1,23 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML lang="en">
-<HEAD>
-<title>IRC Communication Research Resources - Other Resources</title>
-
-</HEAD>
-
-<BODY BGCOLOR="#FFFFE8" TEXT="#7A0818">
-
-<MAP NAME="nav_map">
-<AREA SHAPE=RECT HREF="/irchelp/" COORDS="1,1,70,38" ALT="">
-<AREA SHAPE=RECT HREF="/irchelp/search_engine.cgi" COORDS="72,1,141,38" ALT="">
-<AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38" ALT="">
-<AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38" ALT="">
-</MAP>
-
+---
+title: IRC Communication Research Resources - Other Resources
+author: random-irchelper
+status: historical
+layout: default
+---
+{::nomarkdown}
 
 <center>
   <table width="600" border="0" cellspacing="0" cellpadding="0">
     <tr> 
-      <td height="17" align="center"><a name="top"></a>&nbsp;</td>
-    </tr>
-    <tr> 
       <td height="17" align="center"> 
-        <h4><b>IRC Communication Research Resources</b></h4>
+        <h4><b><a href="/communication-research/">IRC Communication Research Resources </a></b></h4>
         <h1><b>Other Resources</b></h1>
       </td>
-    </tr>
-    <tr> 
-      <td align="center">&nbsp;</td>
     </tr>
     <tr align="center"> 
       <td><font size="-1">[ <a href="#irc-web">IRC websites</a> ] [ <a href="#irc-news">IRC 
         newsgroups</a> ] [ <a href="#cmc-web">CMC and Cyber-culture websites</a> 
         ]</font> </td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
     </tr>
     <tr> 
       <td> <font size="-1"><b><a name="irc-web"></a>IRC websites:</b></font>
@@ -124,24 +106,4 @@
   </table>
 
 </center>
-
-<HR>
-<CENTER>
-<!-- navigation bar -->
-<IMG SRC="/irchelp/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
-	ALT="-navigational bar-">
-<BR><SMALL>
-[ <A HREF="/irchelp/">go back</A>
-| <a href="/irchelp/search_engine.cgi">search</A>
-| <A HREF="/irchelp/help.html">help</A>
-| <A HREF="/irchelp/mail.cgi">send email</A> ]
-</SMALL>
-<P>
-</CENTER>
-
-<CENTER><SMALL>
-<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
-</SMALL></CENTER>
-
-</BODY>
-</HTML>
+{:/nomarkdown}
