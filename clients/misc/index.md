@@ -116,9 +116,9 @@ IRC Channels
 Several unix clients also function as IRC proxies, and are documented on their
 respective pages:
 
-* [irssi](/irchelp/clients/unix/irssi/)
+* [irssi](/clients/unix/irssi/)
 * [weechat](/clients/unix/weechat.html)
-* [quassel](/irchelp/clients/unix/quassel.html)
+* [quassel](https://quassel-irc.org/) (ext. link)
 
 
 ## Others
@@ -141,4 +141,4 @@ Functionality of such solutions will be limited by both the gateway and the inst
 
 ## irc-to-xmpp and irc-to-other gateways
 
-* [bitlbee](irchelp/clients/misc/bitlbee.html) - multi-protocol gateway from IRC to XMPP (including Facebook Chat/Google Talk), AIM/ICQ, Yahoo, and others.
+* [bitlbee](/clients/misc/bitlbee.html) - multi-protocol gateway from IRC to XMPP (including Facebook Chat/Google Talk), AIM/ICQ, Yahoo, and others.
