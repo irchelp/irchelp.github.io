@@ -1,19 +1,9 @@
-<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="en">
-<head>
-<title>IRC Networks - The Big Four</title>
-   <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-   <meta name="generator" content="Bluefish 0.6">
-</head>
-
-<body bgcolor="#ffffe8" text="#7a0818">
-
-<map name="nav_map">
-<area shape=rect href="/irchelp/" coords="1,1,70,38" alt="">
-<area shape=rect href="/irchelp/search_engine.cgi" coords="72,1,141,38" alt="">
-<area shape=rect href="/irchelp/help.html" coords="143,1,212,38" alt="">
-<area shape=rect href="/irchelp/mail.cgi" coords="214,1,283,38" alt="">
-</map>
+---
+title: IRC Networks - The Big Four
+dateupdated: 9 December 2001
+status: historical
+layout: default
+---
 
 <h3 align="center">The major IRC networks</h3>
 <hr>
@@ -27,10 +17,10 @@ Servers: ~40<br>
 Locations: Canada, Finland, France, Germany, Israel, Netherlands, Norway, Poland, Sweden, UK, USA<br>
 Max users: &gt;78,000<br>
 Max channels: &gt;29,000<br>
-Services: None except <a href="../../ircd/chanfix.html">pseudo-chanserv</a><br>
+Services: None except <a href="/ircd/chanfix">pseudo-chanserv</a><br>
 <p>Formerly the prime IRC network and for a long time synonymous with IRC, EFnet is now sustained by its administration more than its users. EFnet stands for Eris-Free net, due to a historical event involving a server with a machine name of
 'eris'. Following the July '96 seperation of what is now IRCnet, the userbase is
-primarily North American. <a href="../../connectprob.html">Connecting to EFnet</a> can be a problem, as the servers' access
+primarily North American. <a href="/networks/connectprob.html">Connecting to EFnet</a> can be a problem, as the servers' access
 policies have become a lot stricter due to abuse problems that continue to threaten the network's existence. Note that EFnet and IRCnet both do not support any services such as channel or nickname registration.
 <br> <a href="../servers/efnet.html">Server list</a>
 
@@ -98,20 +88,3 @@ Networks: <A HREF="big4.html">major</A> | <a href="medium.html">medium</a> | <a 
 
 <HR>
 <CENTER>
-<!-- navigation bar -->
-<IMG SRC="/irchelp/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map" ALT="-navigational bar-">
-<BR><SMALL>
-[ <A HREF="/irchelp/">go back</A>
-| <a href="/irchelp/search_engine.cgi">search</A>
-| <A HREF="/irchelp/help.html">help</A>
-| <A HREF="/irchelp/mail.cgi">send email</A> ]
-</SMALL>
-<P>
-</CENTER>
-
-<CENTER><SMALL>
-<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
-</SMALL></CENTER>
-
-</BODY>
-</HTML>
