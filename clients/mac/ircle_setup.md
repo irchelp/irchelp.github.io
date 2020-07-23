@@ -2,14 +2,14 @@
 title: ircle setup guide
 author: Joseph Lo (jolo)
 layout: default
+status: historical
 redirect_from:
   - /irchelp/clients/mac/ircle.html
 ---
 #  ![spin](/media/screenshots/ircle_spin.gif) Ircle Setup Guide ![spin](/media/screenshots/ircle_spin.gif)
 
-original version by [Jolo](http://deckard.mc.duke.edu/%7Ejyl/) at [http://www.
-irchelp.org/irchelp/mac/ircle_setup.html](http://www.irchelp.org/irchelp/mac/i
-rcle_setup.html)
+original version by [Jolo](http://deckard.mc.duke.edu/%7Ejyl/) at 
+<http://www.irchelp.org/irchelp/mac/ircle_setup.html>
 
 last updated 11/24/97
 
@@ -27,7 +27,7 @@ over a modem connection._
 [Ircle](http://www.ircle.com/) is the gold standard among [Mac IRC
 clients](/irchelp/networks/) because it is by far the smallest, least laggy,
 most updated, and most stable. If you think Ircle looked ugly or was buggy,
-you probably haven't seen a [modern version](ircle_2net.gif). Ircle is easy to
+you probably haven't seen a [modern version](/media/screenshots/ircle_2net.gif). Ircle is easy to
 use, plus it supports the full set of standard IRC commands and some very cool
 non-standard features too. Ircle is $15
 [shareware](http://www.ircle.com/register.html) and well worth it! The
@@ -38,8 +38,8 @@ guide](http://www.ircle.com/reference/pref.html) that is a little shorter.
 ## Step 0. Setting up your Mac for the Internet
 
 Make sure your Mac has the appropriate software (either MacTCP or [OpenTranspo
-rt](ftp://ftptoo.support.apple.com/pub/apple_sw_updates/US/Macintosh
-/Networking-Communications/Open_Transport/)) and has a connection directly to
+rt](ftp://ftptoo.support.apple.com/pub/apple_sw_updates/US/Macintosh/Networking-Communications/Open_Transport/)) 
+and has a connection directly to
 the Ethernet or indirectly via a modem and dial-up account from an [Internet
 service provider (ISP)](http://www.thelist.com). If you can use Netscape or MS
 Internet Explorer with your Mac, for example, you're ready. Download the
@@ -83,8 +83,8 @@ attacks.
 
 This opens up the **Server list** window, where you can select a different
 server or port number. For example, scroll to the top to see a list of servers
-for [EFnet](http://www.efnet.org/) North America, the biggest [IRC
-network](/irchelp/networks/). In the figure below I selected _irc.cris.com_.
+for [EFnet](http://www.efnet.org/) North America, the biggest 
+[IRC network](/irchelp/networks/). In the figure below I selected _irc.cris.com_.
 Now click **Select** to accept that change.
 
 ![serv](/media/screenshots/ircle_serv.gif)
@@ -94,7 +94,7 @@ Now click **Select** to accept that change.
 This skill is important, because IRC servers come and go constantly. Many of
 the servers in Ircle's default list are in fact defunct. For an up to date
 list, check out our IRC networks and servers page at
-[http://www.irchelp.org/irchelp/networks/](/irchelp/networks/). Say you want
+[http://www.irchelp.org/networks/](/networks/). Say you want
 to meet a friend on a special server that is not shown in the list, just click
 **Add**. If you want to edit an existing entry such as to keep the server name
 but change the port number from the default 6667 to speed up connecting, just
@@ -141,10 +141,14 @@ _What are those **Console** messages?_ The _identd_ is a way to confirm your
 identity (the username and your machine's IP address). After the connection is
 made, the server tells you how many people are connected to this network, how
 many channels there are, etc., plus a _message of the day_ which contains
-important policies and announcements. If you have any problems connecting,
+important policies and announcements. 
+
+{::comment}
+If you have any problems connecting,
 copy down the exact error messages and email us using the web form at
 [http://www.irchelp.org/irchelp/mail.cgi](/irchelp/mail.cgi) (be sure to
 select the Mac helper).
+{:/comment}
 
 ## Step 7. Chatting
 
@@ -169,7 +173,7 @@ channel are listed in the **Userlist** window. The red nicks are operators or
 "ops" who run the channel. The channel modes (green and purple switches in the
 Userlist window) are _+tn_. Since I am an op on this channel, all the buttons
 for _kick_, _ban_, etc. are activated. For more information on all this stuff,
-see the [introductory guide](/irchelp/new2irc.html) mentioned above.
+see the [introductory guide](/faq/new2irc.html) mentioned above.
 
 ## Step 8. Advanced customization
 
