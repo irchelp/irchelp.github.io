@@ -11,5 +11,7 @@ redirect_from:
 
 * [Android](android/)
 * [iOS](ios/)
+{% comment %}
 * [Blackberry](blackberry/)
 * [J2ME](j2me/)
+{% endcomment %}
