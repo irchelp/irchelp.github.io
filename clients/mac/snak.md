@@ -1,6 +1,7 @@
 ---
 title: Snak
 layout: default
+status: historical
 author: Joseph Lo
 license: irchelp
 redirect_from:
@@ -41,4 +42,4 @@ Guardian feature permits adult control, for what that's worth
 MP3 list feature facilitates downloads.
 Excellent built-in help menu, balloon help, and bundled help manual (Ircle has
         none). $29 shareware (covering updates over 2 years) is a great value
-and an example of how [shareware](../misc/shareware.html) really can work.
+and an example of how [shareware](/misc/shareware.html) really can work.
