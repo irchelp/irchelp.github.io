@@ -1,5 +1,12 @@
+---
+title: A guide to setting up a basic Hybrid 7 irc server
+author: NoizyToyz
+dateupdated: 8 April 2001
+status: historical
+layout: default
+---
 Ed. note: Hybrid 7 is the latest version of IRC server software likely to be
-adopted by most of [EFnet](../networks/nets/big4.html) and many other
+adopted by most of [EFnet](/networks/nets/big4.html) and many other
 networks. This guide is part of our [ircd help
 section](http://www.irchelp.org/ircd/), and is intended for the
 relative novice. Before you attempt to set up your own ircd, you should be
@@ -7,7 +14,7 @@ reasonably expert at both the IRC protocol and UNIX. For example, have you set
 up IRC clients on UNIX before (not one of those auto-install deals, but rather
 downloading, uncompressing, configuring, compiling, and installing it the old
 fashioned way)? That would be a minimal test of your experience. I would also
-suggest you first look over the [Server Request FAQ](server-request.html) to
+suggest you first look over the [Server Request FAQ](/ircd/server-request.html) to
 make sure you really want to do this. -Jolo
 
 # A guide to setting up a basic Hybrid 7 irc server
@@ -48,7 +55,8 @@ cable is probably ideal. For public applications, such as linking to the
 popular networks, you will most likely have to have a minimum of a t3
 connection to be accepted.
 
-*The author has successfully compiled Hybrid 7 beta on FreeBSD, Linux Mandrake 7.2, various versions of Solaris, and versions of Redhat. 
+*The author has successfully compiled Hybrid 7 beta on FreeBSD, Linux Mandrake
+7.2, various versions of Solaris, and versions of Redhat.*
 
 *The default directory is /usr/local/ircd/* 
 
@@ -87,7 +95,7 @@ The source package comes in a gzip'ed tar file (.tar.gz). Copy the file to a
 directory you wish to install the Hybrid 7 source under. To unpack it use the
 following command: tar -zxf filename If your system's tar program does not
 support the -z flag gunzip (or gzip -d) it first and then 'tar -xf filename',
-or, tar -xvf </path/filename>.
+or, `tar -xvf </path/filename>`.
 
 ## 6. Editing the ircd source to meet your needs
 
@@ -97,12 +105,13 @@ you _ABSOLUTELY_ _POSITIVELY_ know what you are doing, don't mess with them!
 
 The files we will cover in this section:
 
-  * /<path to source>/include/config.h - Compile time configuration 
-  * /<path to source>/messages/custom.po - Server messages file 
+  * `/<path to source>/include/config.h` - Compile time configuration 
+  * `/<path to source>/messages/custom.po` - Server messages file 
 
-### A. /<path to source>/include/config.h customization walkthrough
+### A. `/<path to source>/include/config.h` customization walkthrough
 
-*Above every section in config.h is a farily detailed description on what that particular statement will do if #define'd or #undef'd* 
+*Above every section in config.h is a farily detailed description on what that
+particular statement will do if #define'd or #undef'd* 
 
 The first thing to do: Edit directory and file locations to suit your needs,
 if you dont know anything about it, or want it to install to its default
@@ -171,24 +180,30 @@ the ircd package.
 
 To enable encryption:
 
+```
 #define CRYPT_OPER_PASSWORD
 
-#define CRYPT_LINK_PASSWORD * i think that both servers participating server
+#define CRYPT_LINK_PASSWORD * 
+```
+
+i think that both servers participating server
 need matching CRYPT_LINK_PASSWORD lines. If the server your goint to link to
 has it #undef'd, #undef it, and vice-versa.
 
 To disable encryption:
 
+```
 #undef CRYPT_OPER_PASSWORD
 
 #undef CRYPT_LINK_PASSWORD
+```
 
 To change the number of channels that a user is allowed to be on at a time is
 determined by #define MAXCHANNELSPERUSER x (where x is, put a number from, ill
 say 1 to 30 - the default, and recomended value is 15) [The smaller your
 bandwith, the lower the number should be i guess]
 
-### B. /<path to source>/messages/custom.po
+### B. `/<path to source>/messages/custom.po`
 
 Edit this file if you want the server to display your own messages.
 
@@ -197,9 +212,11 @@ Edit this file if you want the server to display your own messages.
 Well, now that you've conquered at least the basic configuration of config.h
 and custom.po (optionally), you're ready to configure and compile the server.
 
-To configure: cd to /<path to source>
+To configure: `cd` to `/<path to source>`
 
+```
 ./configure --prefix="/path/to/install/to"
+```
 
 (if you want to compile to the default directory, just do ./configure)
 
@@ -213,14 +230,12 @@ failed, do whats described above about unsuccessful ./configure
 
 ## 8. Editing your ircd.conf file
 
-Now, you will want to cd to /<install path>/etc/ and then edit example.conf.
+Now, you will want to `cd` to `/<install path>/etc/` and then edit example.conf.
 
 For a quick config, follow this guide:
 
 Edit the serverinfo block to roughly look like the below:
 
-    
-    
     (serverinfo replaces the old M: line)
     serverinfo {
     	name="<server name>";
@@ -244,30 +259,22 @@ Edit the serverinfo block to roughly look like the below:
 
 Now to edit the Admin block:
 
-    
-    
     admin {
     	name="<primary server administrator's name>";
     	email="<email@address>";
     	description="<server admin description>";
     };
-    
 
 Leave everything be until you get to the listen block.
 
-    
-    
     listen {
     	# accepts hostnames as well as ips
     	# ip="192.168.0.1";
     	port=<listen for connection requests from this port (commonly 6667)>;
     };
-    
 
 Dont bother modifying anything from the listen block to the operator block:
 
-    
-    
     operator {
     	# The nick of the oper
     	name="<the nickname of the desired oper>";
@@ -309,8 +316,6 @@ Dont bother modifying anything from the listen block to the operator block:
 A simple part now, comment out all the connect blocks. starting at connect {
 and ending at };
 
-    
-    
     #connect {
     #	name = "";
     #	# Hostnames and IP's are both accepted
@@ -348,31 +353,23 @@ and ending at };
 Dislike someone? Customize the kill block, create some kill blocks, or leave
 it alone:
 
-    
-    
     # Replacement for K: lines, bans based on user@host
     kill {
     	user="bad@*.hacked.edu";
     	reason="Obviously hacked account";
     };
-    
 
 Add a dline or 2, or, dont:
 
-    
-    
     # Replacement for D: lines, deny IP's and IP blocks.  CIDR notation is
     # recommended
     deny {
     	ip=10.0.1.0/24;
     	reason="Reconnecting vhosted bots";
     };
-    
 
 Prevent a nickname from being used, add some, or leave them be:
 
-    
-    
     # Replacement for Q: lines, preventing nicks from being used
     quarantine {
     	name="NickServ";
@@ -382,8 +379,6 @@ Prevent a nickname from being used, add some, or leave them be:
 
 Even more blocking, again, touch, or don't:
 
-    
-    
     # Replacement for X: lines, denying users based on their "realname"
     # field, useful for blocking known trojan drones, troublesome clients,
     # and floodnets.  Note that we don't CURRENTLY have a silent deny (2 in 
@@ -399,12 +394,9 @@ Even more blocking, again, touch, or don't:
     	reason="Trojan drone";
     	action=reject;
     };
-    
 
 Options you may want to edit in the general block:
 
-    
-    
     general {
     	# Send a notice to all opers on the server when someone tries
     	# to OPER and uses the wrong password
@@ -596,18 +588,17 @@ Options you may want to edit in the general block:
             # allow non-opers to use CJOIN?
     	vchans_oper_only = NO;
     };
-    
 
-Now save the file as /<install path>/etc/ircd.conf Congratulations.. Your done
+Now save the file as `/<install path>/etc/ircd.conf` Congratulations.. Your done
 editing the configuration file!
 
 ## 9. Testing your server
 
 After you have completed all the steps described in sections 6 and 7 you will
-want to cd to /<install path>/bin/ and type ./ircd to get your server going.
+want to `cd` to `/<install path>/bin/` and type `./ircd` to get your server going.
 Now open your irc client of choice and connect to your ip, hostname, domain
-name, whatever... if all connects smoothly, type /oper <nickname set in
-operator block name="";> <password set in operator block password="";>
+name, whatever... if all connects smoothly, type 
+`/oper <nickname set in operator block name="";> <password set in operator block password="";>`
 
 If you gain ircoppage, consider your ircd a working one. Last step to testing
 your server, invite some friends, if they can join and make channels and chat,
@@ -620,10 +611,8 @@ have a list, and may not remember them all.. You may want to check
 [www.irchelp.org](http://www.irchelp.org/) for a complete list)
 
 Ed. note: In particular, you should check out the [IRC Operator
-Guide](ircopguide.html).
+Guide](/ircd/ircopguide.html).
 
-    
-    
     die (server name) = Shuts down the server [Operators]
     cjoin (channel name) = "Clones" a channel (creates a v-chan) [Everyone]
     rehash (parameter) = Rehashes the specified file. using /rehash by itself 
@@ -648,7 +637,6 @@ Guide](ircopguide.html).
     		z - more server stats
     restart (server name) = resets _ALL_ connections to the server. [Operators]
     squit (server) :(reason) = disconnects (server) from the network. [Operators]
-    
 
 ## 11. Automation
 
@@ -658,15 +646,10 @@ running and starts it if it isn't.
 
 The crontab:
 
-    
-    
     0,5,10,15,20,25,30,35,40,45,50 * * * *    perl /<path to below script>/<script>.pl
-    
 
 The script:
 
-    
-    
     #!/usr/bin/perl <- edit if necessary to reflect your perl location
     
     #This is a simple script to check the status of ircd, and start it if 
