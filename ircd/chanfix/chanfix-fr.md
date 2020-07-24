@@ -2,8 +2,8 @@
 
 par Jolo, tiggergrm et beaucoup d'autres
 
-Version originale [à http://www.irchelp.org/ircd/chanfix/](http://www.
-irchelp.org/ircd/chanfix/)
+Version originale à 
+<http://www.irchelp.org/ircd/chanfix/>
 
 mars mis à jour 28, 2003
 
@@ -23,8 +23,8 @@ déterminer qui obtient des ops automatiquement ; nous ne pouvons pas
 arbitrairement donner ou emporter des ops à quiconque. CHANFIX est un dernier
 recours ; il n'existe pas pour votre convenance ou ne remplace pas le bon
 commonsense et la gestion de canal appropriée. Vous si course immobile votre
-canal correctement, comme exiger la vérification __d'username@hostname_ _et
-_de mot de passe avant d'accorder des ops. Personnes opping manuellement, même
+canal correctement, comme exiger la vérification _d'username@hostname_ _et_
+de mot de passe avant d'accorder des ops. Personnes opping manuellement, même
 ceux que vous pensez que vous savez, êtes une recette pour le désastre.
 
 Ce guide présentera CHANFIX et vous indiquera comment obtenir l'aide de lui.
