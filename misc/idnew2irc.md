@@ -13,18 +13,9 @@ IRC](http://www.arjuna.net/irc/)
 
 versi 1.1.3, 4 Maret 1998
 
-Dokumen asli: <[http://www.irchelp.org/irchelp/new2irc.html](http://www.irchel
-p.org/irchelp/new2irc.html)>
+Dokumen asli: <http://www.irchelp.org/irchelp/new2irc.html>
 
-Other versions: [Español](/irchelp/misc/esnew2irc.html) |
-[Français](/irchelp/misc/frnew2irc.html) |
-[Deutsch](/irchelp/misc/denew2irc.html) |
-[Greek](/irchelp/misc/grnew2irc.html) |
-[Indonesia](/misc/idnew2irc.html) |
-[Italiano](/misc/itnew2irc.html) |
-[Nederlands](/irchelp/misc/nlnew2irc.html) |
-[Portugues](/misc/ptnew2irc.html) |
-[Turkce](/misc/trnew2irc.html)
+{% include new2irc_translations.md %}
 
 ## Daftar Isi
 
@@ -47,7 +38,7 @@ langsung dengan orang-orang di seluruh dunia. Terdiri dari bermacam-macam
 "network" (jaringan atau "nets") IRC server, mesin-mesin untuk menghubungkan
 pemakai dengan IRC. Nets yang terbesar adalah [EFnet](http://www.efnet.org)
 (IRC net yang pertama, yang kadang-kadang memiliki lebih dari 32000 pengguna
-IRC dalam satu saat), [Undernet](http://www.undernet.org"),
+IRC dalam satu saat), [Undernet](http://www.undernet.org),
 [IRCnet](http://www.funet.fi/~irc/), [DALnet](http://www.dal.net),
 [NewNet](http://www.newnet.net).
 
@@ -662,9 +653,3 @@ homepage.
 
 Copyright (C)1998 ajr <ajr@arjuna.net>, dkk.
 
-* * *
-
-![navbar](/irchelp/Pix/ihnavbar.gif)
-
-##### [Copyright (C) 1997,1998](/irchelp/credit.html) Joseph Lo and many
-others.
