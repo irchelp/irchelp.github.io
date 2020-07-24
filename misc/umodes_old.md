@@ -1,3 +1,8 @@
+---
+title: User modes for the major networks
+status: historical
+layout: default
+---
 ### User modes for the major networks
 
 It's been a long time since there was a single type of server used by all
@@ -34,8 +39,8 @@ Major network user modes v0.1, 19 Sep 98
 
 By Alex Charalabidis (Apatrix)
 
-Original version at [http://apatrix.asu.net/irc/docs/umodes.html](http://apatr
-ix.asu.net/irc/docs/umodes.html)
+Original version at 
+<http://apatrix.asu.net/irc/docs/umodes.html>
 
 * * *
 
