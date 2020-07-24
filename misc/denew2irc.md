@@ -13,18 +13,7 @@ minor updates by Jolo 12/18/97
 
 The original version of this page is at <http://www.irchelp.org/faq/new2irc.html>
 
-Translations: 
-[Deutsch](denew2irc.html) |
-[Indonesia](idnew2irc.html) |
-[Italiano](itnew2irc.html) |
-[Portugues](ptnew2irc.html) |
-[Turkce](trnew2irc.html)
-{% comment %}
-[Español](esnew2irc.html) |
-[Français](frnew2irc.html) |
-[Greek](grnew2irc.html) |
-[Nederlands](nlnew2irc.html) |
-{% endcomment %}
+{% include new2irc_translations.md %}
 
 ## Inhalt
 
@@ -60,16 +49,13 @@ Der Server dient dabei als Relais, um Informationen an andere und von anderen
 Servern des gleichen Netzes weiterzugeben. Empfehlenswert als ClientProgramm
 sind folgende:
 
-* [UNIX/Linux Clients](http://www.irchelp.org/irchelp/clients/unix/)
-  * [irssi](/irchelp/clients/unix/irssi/) - Client für das Terminal
-  * [HexChat](/irchelp/clients/cross/hexchat/) - graphischer Client
-* [Windows Clients](http://www.irchelp.org/irchelp/clients/windows/)
-  * [mIRC](/irchelp/clients/windows/mirc/)
-* [Macintosh clients](http://www.irchelp.org/irchelp/clients/mac/)
-
-{% comment %}
-  * [xchat](/irchelp/clients/unix/xchat.html) - X11 (graphical) client
-{% endcomment %}
+* [UNIX/Linux Clients](/clients/unix/)
+  * [irssi](/clients/unix/irssi/) - Client für das Terminal
+  * [HexChat](/clients/cross/hexchat.html) - graphischer Client
+  * [xchat](/clients/unix/xchat/) - X11 (graphical) client
+* [Windows Clients](/clients/windows/)
+  * [mIRC](/clients/windows/mirc/)
+* [Macintosh clients](/clients/mac/)
 
 Bitte lies die Dokumentation zu dem jeweiligen Client genau!
 
@@ -344,7 +330,7 @@ wird dcc chat mit Hilfe von /dcc chat nickname gestartet, und mit /msg
 die Verbindung mit /dcc close nickname.
 
 ## 8. Ausführlichere Hilfe
-{:hilfe}
+{:#hilfe}
 
 Für weiter Informationen zu allen genannten Punkten, sowie zu vielen weiteren
 Kommandos (Liste der Channels, Ignorieren von Usern, Übertragen von Files) lese
