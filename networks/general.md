@@ -14,19 +14,31 @@ _Selected networks with several hundred to several thousand users_
 
 updated Mar 15, 2003
 
-This page is part of the [IRChelp.org Networks Site](http://www.irchelp.org/irchelp/networks/), please do not mirror or distribute.
+This page is part of the [IRChelp.org Networks Site](/networks/), please do not mirror or distribute.
 
-We've set up separate pages to highlight some of the [most popular](popular.html) nets (with over 10,000 people), or those serving a special [local region](local.html) or [subject area](subject.html). That still leaves hundreds of general networks. If you really want a full list, check out the [netsplit.de](http://irc.netsplit.de/networks/) 3rd party statistics site [ext. link]. We highlight just a few of these small to medium networks below. They are not necessarily the best or biggest nets. We just want to give you some suggestions if you're new to IRC and looking for a general chat network. If you're fed up with the chaos of the [popular nets](popular.html), many of these nets have full services and can be a reasonable place for you to either start or move your channel. Networks are listed alphabetically.
+We've set up separate pages to highlight some of the [most popular](popular.html) 
+nets (with over 10,000 people), or those serving a
+special [local region](/networks/nets/local.html) or 
+[subject area](/networks/nets/subject.html). That still leaves hundreds of general
+networks. If you really want a full list, check out the
+[netsplit.de](/networks/) 3rd party statistics site [ext. link]. We highlight
+just a few of these small to medium networks below. They are not necessarily
+the best or biggest nets. We just want to give you some suggestions if you're
+new to IRC and looking for a general chat network. If you're fed up with the
+chaos of the [popular nets](popular.html), many of these nets have full
+services and can be a reasonable place for you to either start or move your
+channel. Networks are listed alphabetically.
 
 **Network** **Data**
 
---------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 
 [AUSTnet](http://www.austnet.org/)
 
-Servers mainly around the pacific. Unlike most large networks, this is one of the few that isn't US-based, but predominantly australasian. North American all-nighters might find some signs of friendly life here.
+Servers mainly around the pacific. Unlike most large networks, this is one of
+the few that isn't US-based, but predominantly australasian. North American
+all-nighters might find some signs of friendly life here.
 
 Locations: Australia, Canada, Singapore, UK, USA
 
@@ -40,7 +52,6 @@ Administrative channel: #asd
 
 [Server list](http://www.austnet.org/servers/index.html)
 
---------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 
@@ -55,10 +66,6 @@ Started: March 1996
 Administrative channel: #nuthouse
 
 [Server list](http://www.chatnet.org/Servers.html).
-
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 
@@ -78,8 +85,6 @@ Administrative channel: #idleland
 
 --------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------
-
 [RelicNet](http://www.relic.net/)
 
 Locations: Australia, Belgium, Canada, UK, USA
@@ -91,10 +96,6 @@ Started: October 1997
 Administrative channel: #relicnet
 
 [Server list](http://www.relic.net/servers.htm)
-
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 
