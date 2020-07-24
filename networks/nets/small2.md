@@ -1,373 +1,328 @@
-<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="en">
-<head>
-<title>IRC Networks - Smaller Networks, part 2</title>
-</HEAD>
+---
+title: The smaller IRC networks - less than 1,000 maximum users
+layout: default
+---
+#### The smaller IRC networks - less than 1,000 maximum users
 
-<BODY BGCOLOR="#FFFFE8" TEXT="#7A0818">
+Networks that didn't fit on the first page, are newer, less popular etc.
 
-<MAP NAME="nav_map">
-<AREA SHAPE=RECT HREF="/irchelp/" COORDS="1,1,70,38" alt="">
-<AREA SHAPE=RECT HREF="/irchelp/search_engine.cgi" COORDS="72,1,141,38"
-alt="">
-<AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38" alt="">
-<AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38" alt="">
-</MAP>
+-----
 
-<h4 align="center">The smaller IRC networks - less than 1,000 maximum users</h4>
-<p>Networks that didn't fit on the first page, are newer, less popular
-etc.
-<hr>
-<p><a href="../servers/">Index of server lists</a>
+[Index of server lists](../servers/)
 
-<p><a href="http://fdfnet.fdf.net/">FDFnet</a><br>
+[FDFnet](http://fdfnet.fdf.net/)  
 One of the more established small networks. In their own words: FDFnet
 is a fast, reliable and well-managed network that provides Nick,
 Channel, Memo and Help services and does not interfere with the user's
-right to converse freely.<br>
-Servers: 6<br>
-Locations: USA, Canada<br>
-Default port: 6667<br>
-Max users: ~100<br>
-Services: Channel (ChanServ), Nick (NickServ), Memo(MemoServ), Help (HelpServ)<br>
-Started: December 1996<br>
-Operator channel: #Admin<br>
-<a href="http://fdfnet.fdf.net/servers.html">Server list</a>
+right to converse freely.  
+Servers: 6  
+Locations: USA, Canada  
+Default port: 6667  
+Max users: \~100  
+Services: Channel (ChanServ), Nick (NickServ), Memo(MemoServ), Help
+(HelpServ)  
+Started: December 1996  
+Operator channel: \#Admin  
+[Server list](http://fdfnet.fdf.net/servers.html)
 
-<p><a href="http://www.nightstar.net/">NightStar</a><br>
-Servers: 5<br>
-Locations: UK, USA<br>
-Default port: 6667<br>
-Max users: 100+<br>
-Services: Nick (NickServ), Channel, (ChanServ), Memo (MemoServ)<br>
-Started: March 1997<br>
-Alternative access: <a href="http://198.60.240.27/~thanatos/java/normal.html">Java</a><br>
-Operator channel: #nightstar<br>
-<a href="http://www.nightstar.net/srvlst.html">Server list</a>
+[NightStar](http://www.nightstar.net/)  
+Servers: 5  
+Locations: UK, USA  
+Default port: 6667  
+Max users: 100+  
+Services: Nick (NickServ), Channel, (ChanServ), Memo (MemoServ)  
+Started: March 1997  
+Alternative access:
+[Java](http://198.60.240.27/~thanatos/java/normal.html)  
+Operator channel: \#nightstar  
+[Server list](http://www.nightstar.net/srvlst.html)
 
-<p><a href="http://www.asianet.org/">Asianet</a><br>
-A network &quot;to guide Asia into the 21st century&quot; with an
-international character to it. Confucius meets Silicon Valley?<br>
-Servers: 11<br>
-Locations: Australia, Indonesia, Netherlands, US<br>
-Deafult port: 6667<br>
-Max users: &lt;100<br>
-Services: Channel (X)<br>
-Started: August 1997<br>
-Operator channel: #asianet<br>
-<a href="http://www.asianet.org/irclinks.html">Server list</a>
+[Asianet](http://www.asianet.org/)  
+A network "to guide Asia into the 21st century" with an international
+character to it. Confucius meets Silicon Valley?  
+Servers: 11  
+Locations: Australia, Indonesia, Netherlands, US  
+Deafult port: 6667  
+Max users: \<100  
+Services: Channel (X)  
+Started: August 1997  
+Operator channel: \#asianet  
+[Server list](http://www.asianet.org/irclinks.html)
 
-<p><a href="http://alterweb.tamu.edu/">AlterNet</a><br>
+[AlterNet](http://alterweb.tamu.edu/)  
 One of the oldest alternative networks to mainstream IRC, this network
 remains almost untouched by the sands of time. IRC veterans might
-appreciate it.<br> 
-Servers: 8<br> 
-Locations: Belgium, Finland, USA<br>
-Default port: 4110<br>
-Max users: Unknown, presumed to be &lt;200.<br>
-Services: None<br>
-Started: 1995<br>
-<a href="../servers/alternet.txt">Server list</a>.
+appreciate it.  
+Servers: 8  
+Locations: Belgium, Finland, USA  
+Default port: 4110  
+Max users: Unknown, presumed to be \<200.  
+Services: None  
+Started: 1995  
+[Server list](../servers/alternet.txt).
 
-<p><a href="http://www.earthint.net/">EarthInt Chat Network</a><br>
-Servers: 6<br>
-Locations: USA<br>
-Default port: 6667<br>
-Max users: est. ~150<br>
-Services: Channel (E)<br>
-Alternative access: <a href="telnet://asgnet.ml.org/">Telnet,
-login: eicn</a><br>
-<a href="http://www.earthint.net/servers.html">Server list</a>
+[EarthInt Chat Network](http://www.earthint.net/)  
+Servers: 6  
+Locations: USA  
+Default port: 6667  
+Max users: est. \~150  
+Services: Channel (E)  
+Alternative access: [Telnet, login: eicn](telnet://asgnet.ml.org/)  
+[Server list](http://www.earthint.net/servers.html)
 
-<p><a href="http://www.zuh.net/">zuh.net</a><br>
-A group of servers that split off from XWorld on account of a disagreement
-regarding user/operator relations. They hope to do it better.<br>
-Servers: 7<br>
-Locations: Netherlands, USA<br>
-Default port: 6667<br>
-Max users: ~150<br>
-Services: Channel (Z), Java client access<br>
-Alternative access: <a href="http://www.zuh.net/javairc/home.html">Java</a><br>
-Started: April 1998<br>
-Game channels: #trivia (with BlueMoon.net's famous trivia bot)<br>
-Operator channel: #Zuh<br>
-Restrictive policies: No kiddie porn, no warez.<br>
-<a href="http://www.zuh.net/servers/home.html">Server list</a>
+[zuh.net](http://www.zuh.net/)  
+A group of servers that split off from XWorld on account of a
+disagreement regarding user/operator relations. They hope to do it
+better.  
+Servers: 7  
+Locations: Netherlands, USA  
+Default port: 6667  
+Max users: \~150  
+Services: Channel (Z), Java client access  
+Alternative access: [Java](http://www.zuh.net/javairc/home.html)  
+Started: April 1998  
+Game channels: \#trivia (with BlueMoon.net's famous trivia bot)  
+Operator channel: \#Zuh  
+Restrictive policies: No kiddie porn, no warez.  
+[Server list](http://www.zuh.net/servers/home.html)
 
-<p><a href="http://www.millenia.org/">Millenia</a><br>
+[Millenia](http://www.millenia.org/)  
 In their own words: Millenia IRC Network is dedicated to providing a fun
-and <i>safe</i> chatting environment for it's users.<br>
-Servers: 7<br>
-Locations: UK, USA<br>
-Default port: 6667<br>
-Max users: 50+<br>
+and *safe* chatting environment for it's users.  
+Servers: 7  
+Locations: UK, USA  
+Default port: 6667  
+Max users: 50+  
 Services: Nick (NickServ), Channel (ChanServ), Memo/Channel News
-(MemoServ)<br>
-Alternative access: <a
-href="http://orion.millenia.org/JAVirc/irc.html">Java</a><br>
-Started: August 1998<br>
-Game channel: #trivia<br>
-Operator channel: #millenia<br>
-<a href="http://www.millenia.org/servers.html">Server list</a>
+(MemoServ)  
+Alternative access: [Java](http://orion.millenia.org/JAVirc/irc.html)  
+Started: August 1998  
+Game channel: \#trivia  
+Operator channel: \#millenia  
+[Server list](http://www.millenia.org/servers.html)
 
+*EdNet*  
+In their own words: A small network dedicted to nothing at all. Must
+give them points for honesty.  
+Servers: 6  
+Locations: USA  
+Default port: 6667  
+Max users: \<100  
+Services: none  
+Started: June 1996  
+Operator channel: \#couzin-ed  
+[Server list](http://www.underworld.net/dtb/servers.txt)
 
-<p><em>EdNet</em><br>
-In their own words: A small network dedicted to nothing at all. 
-Must give them points for honesty.<br>
-Servers: 6<br>
-Locations: USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: none<br>
-Started: June 1996<br>
-Operator channel: #couzin-ed<br>
-<a href="http://www.underworld.net/dtb/servers.txt">Server list</a>
+[AlternativeNet](http://www.altnet.org/)  
+Servers: 9  
+Locations: Germany, Netherlands, Sweden, USA  
+Default ports: 6667, 1024  
+Max users: \>130  
+Services: Channel (ChanServ), Nick (NickServ), Memo (MemoServ), Help
+(HelpServ)  
+Alternative access: [Java](http://www.altnet.org/Chat/chat1.html)  
+Started: March 1998  
+Operator channel: \#services  
+Restrictive policies: No kiddie porn  
+[Server list](http://www.altnet.org/html/servers.html)
 
-<!-- updated 011209 -->
-<p><a href="http://www.altnet.org/">AlternativeNet</a><br>
-Servers: 9<br>
-Locations: Germany, Netherlands, Sweden, USA<br>
-Default ports: 6667, 1024<br>
-Max users: &gt;130<br>
-Services: Channel (ChanServ), Nick (NickServ), Memo (MemoServ),
-Help (HelpServ)<br>
-Alternative access: <a href="http://www.altnet.org/Chat/chat1.html">Java</a><br>
-Started: March 1998<br>
-Operator channel: #services<br>
-Restrictive policies: No kiddie porn<br>
-<a href="http://www.altnet.org/html/servers.html">Server
-list</a>
+[LittleNet](http://www.littlenet.org/)  
+In their own words: A Net with a different attitude.  
+Servers: 3  
+Locations: USA  
+Default port: 6667  
+Max users: \<100  
+Services: Nick (NickServ), Channel (ChanServ), Memo (NoteServ)  
+Started: February 1998  
+Operator channels: \#BigHouse, \#tinyhelp  
+Restrictive policies: No sex channels or warez  
+[Server list](http://www.littlenet.org/)
 
-<p><a href="http://www.littlenet.org/">LittleNet</a><br>
-In their own words: A Net with a different attitude.<br>
-Servers: 3<br>
-Locations: USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: Nick (NickServ), Channel (ChanServ), Memo (NoteServ)<br>
-Started: February 1998<br>
-Operator channels: #BigHouse, #tinyhelp<br>
-Restrictive policies: No sex channels or warez<br>
-<a href="http://www.littlenet.org/">Server list</a>
+[duh-net](http://www.duh-net.org/)  
+In their own words: Clean family network.  
+Servers: 3  
+Locations: USA  
+Default port: 6667  
+Max users: \<100  
+Services: Channel (shemp), Memo (joe)  
+Started: January 1998  
+Operator channel: \#helpdesk  
+Restrictive policies: No sex, no warez.  
+[Server list](http://www.murlin.com/~dshaffer/servers.htm)
 
-<p><a href="http://www.duh-net.org/">duh-net</a><br>
-In their own words: Clean family network.<br>
-Servers: 3<br>
-Locations: USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: Channel (shemp), Memo (joe)<br>
-Started: January 1998<br>
-Operator channel: #helpdesk<br>
-Restrictive policies: No sex, no warez.<br>
-<a href="http://www.murlin.com/~dshaffer/servers.htm">Server list</a>
+[WorldIRC](http://www.frenzy.com/~bhauber/worldirc/)  
+Servers: 5  
+Locations: UK, USA  
+Default port: 6667  
+Max users: \<100  
+Services: Channel (CWorld)  
+Started: January 1997  
+Operator channel: \#WorldIRC  
+[Server list](http://www.frenzy.com/~bhauber/worldirc/servers.html)
 
-<p><a href="http://www.frenzy.com/~bhauber/worldirc/">WorldIRC</a><br>
-Servers: 5<br>
-Locations: UK, USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: Channel (CWorld)<br>
-Started: January 1997<br>
-Operator channel: #WorldIRC<br>
-<a href="http://www.frenzy.com/~bhauber/worldirc/servers.html">Server
-list</a>
+[Tri-Net](http://www.tri-net.org/)  
+Servers: 11  
+Locations: Denmark, Germany, Netherlands, UK, USA  
+Default port: 6667  
+Max users: \>100  
+Services: Channel (Y,Z)  
+Operator channel: \#thedump  
+[Server list](http://www.tri-net.org/servers/servers.html)
 
-<p><a href="http://www.tri-net.org/">Tri-Net</a><br>
-Servers: 11<br>
-Locations: Denmark, Germany, Netherlands, UK, USA<br>
-Default port: 6667<br>
-Max users: &gt;100<br>
-Services: Channel (Y,Z)<br>
-Operator channel: #thedump<br>
-<a href="http://www.tri-net.org/servers/servers.html">Server list</a>
+[DifferentNET](http://www.different.net/)  
+Servers: 6  
+Locations: UK, USA  
+Default port: 6667  
+Max users: \>200  
+Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)  
+Alternative access: [Java](http://www.different.net/html/java_irc.htm)  
+Started: March 1998  
+Game channels: \#Acromania, \#Trivia, \#Musictrivia, \#Chaos  
+Operator channel: \#DifferentHELP  
+[Server list](http://www.different.net/html/servers.html)
 
-<p><a href="http://www.different.net/">DifferentNET</a><br>
-Servers: 6<br>
-Locations: UK, USA<br>
-Default port: 6667<br>
-Max users: &gt;200<br>
-Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)<br>
-Alternative access: <a
-href="http://www.different.net/html/java_irc.htm">Java</a><br>
-Started: March 1998<br>
-Game channels: #Acromania, #Trivia, #Musictrivia, #Chaos<br>
-Operator channel: #DifferentHELP<br>
-<a href="http://www.different.net/html/servers.html">Server list</a>
-
-<p><a href="http://www.icenet.org/">IceNet</a><br>
+[IceNet](http://www.icenet.org/)  
 They're back. IceNet, mark 2, is the successor to the original IceNet,
-dissolved about six months earlier.<br>
-Servers: 6<br>
-Locations: Australia, Canada, UK, USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
+dissolved about six months earlier.  
+Servers: 6  
+Locations: Australia, Canada, UK, USA  
+Default port: 6667  
+Max users: \<100  
 Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help
-(HelpServ, ircIIhelp)<br>
-Started: January 1998<br>
-Operator channel: #icenet<br>
-Restrictive policies: No warez, no porn<br>
-<a href="http://www.icenet.org/icenet/servers.htm">Server list</a>
+(HelpServ, ircIIhelp)  
+Started: January 1998  
+Operator channel: \#icenet  
+Restrictive policies: No warez, no porn  
+[Server list](http://www.icenet.org/icenet/servers.htm)
 
-<!-- users & servers #s updated Jolo 6/02 -->
-<p><a href="http://www.shadowfire.org/">Shadowfire</a><br>
-Quake players, among other things...<br>
-Servers: 4<br>
-Locations: Belgium, Brazil, Germany, South Africa, USA<br>
-Default port: 6667<br>
-Max users: ~750<br>
-Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help 
-(HelpServ)<br>
-Alternative access: <a 
-href="http://www.quake2.co.za/irc/chat.html">Java</a><br>
-Started: March 1998<br>
-Operator channel: #united<br>
-Restrictive policies: no child porn<br>
-<a href="http://www.shadowfire.org/servers.htm">Server list</a>
+[Shadowfire](http://www.shadowfire.org/)  
+Quake players, among other things...  
+Servers: 4  
+Locations: Belgium, Brazil, Germany, South Africa, USA  
+Default port: 6667  
+Max users: \~750  
+Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help
+(HelpServ)  
+Alternative access: [Java](http://www.quake2.co.za/irc/chat.html)  
+Started: March 1998  
+Operator channel: \#united  
+Restrictive policies: no child porn  
+[Server list](http://www.shadowfire.org/servers.htm)
 
-<p><a href="http://www.axisnet.org/">AxisNet</a><br>
+[AxisNet](http://www.axisnet.org/)  
 In their own words: A friendlier stable network, providing easier to use
-services and and a more stable chat environment.<br>
-Servers: 8<br>
-Locations: Malta, Sweden, UK, USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Alternative access: <a
-href="http://www.axisnet.org/javachat.html">Java</a><br>
-Services: Channel (X)<br>
-Started: January 1998<br>
-Operator channel: #axisnet<br>
-Restrictive policies: No registration for porn or warez channels<br>
-<a href="http://www.axisnet.org/servers.html">Server list</a>
+services and and a more stable chat environment.  
+Servers: 8  
+Locations: Malta, Sweden, UK, USA  
+Default port: 6667  
+Max users: \<100  
+Alternative access: [Java](http://www.axisnet.org/javachat.html)  
+Services: Channel (X)  
+Started: January 1998  
+Operator channel: \#axisnet  
+Restrictive policies: No registration for porn or warez channels  
+[Server list](http://www.axisnet.org/servers.html)
 
-<p><a href="http://www.wolfnet-irc.org/">Wolfnet-IRC</a><br>
-Servers: 5<br>
-Locations: Australia, USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Alternative access: <a
-href="http://www.wolfnet-irc.org/javachat.html">Java</a><br>
+[Wolfnet-IRC](http://www.wolfnet-irc.org/)  
+Servers: 5  
+Locations: Australia, USA  
+Default port: 6667  
+Max users: \<100  
+Alternative access: [Java](http://www.wolfnet-irc.org/javachat.html)  
 Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help
-(HelpServ)<br>
-Started: November 1997<br>
-Game channels: #trivia<br>
-Operator channel: #wolfnet<br>
-Restrictive policies: No child porn<br>
-<a href="http://www.wolfnet-irc.org/servers.html">Server list</a>
+(HelpServ)  
+Started: November 1997  
+Game channels: \#trivia  
+Operator channel: \#wolfnet  
+Restrictive policies: No child porn  
+[Server list](http://www.wolfnet-irc.org/servers.html)
 
-<p><a href="http://www.chatpr.org/">ChatPR</a><br>
+[ChatPR](http://www.chatpr.org/)  
 A new network intending to serve Puerto Ricans throughout North America.
-Its stability remains to be seen.<br>
-Servers: 4<br>
-Locations: Mexico, Puerto Rico, USA<br>
-Default port: 6667<br>
-Max users: &gt;100<br>
-Services: Channel (ChanServ), Nick (NickServ)<br>
-Alternative access: <a href="http://www.chatpr.org/javachat/">Java</a><br>
-Started: November 1997<br>
-Operator channel: #chatpr<br>
-<a href="http://www.chatpr.org/english/servers.html">Server list</a>
+Its stability remains to be seen.  
+Servers: 4  
+Locations: Mexico, Puerto Rico, USA  
+Default port: 6667  
+Max users: \>100  
+Services: Channel (ChanServ), Nick (NickServ)  
+Alternative access: [Java](http://www.chatpr.org/javachat/)  
+Started: November 1997  
+Operator channel: \#chatpr  
+[Server list](http://www.chatpr.org/english/servers.html)
 
-<p><a href="http://www.afterburn.net/">Afterburn.Net</a><br>
-A new "family/business" network which seems to give pretty good value for
-money (if such a thing can be said about IRC).<br>
-Servers: 4<br>
-Locations: Canada, USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: check in #services<br>
-Alternative access: <a href="http://www.afterburn.net/">Java</a> - wide
-selection of channels<br>
-Operator channel: #services or #cyberchat<br>
-Restrictive policies: No warez, sex, porn or hacking channels<br>
-<a href="http://www.afterburn.net/irc.html">Server list</a>
+[Afterburn.Net](http://www.afterburn.net/)  
+A new "family/business" network which seems to give pretty good value
+for money (if such a thing can be said about IRC).  
+Servers: 4  
+Locations: Canada, USA  
+Default port: 6667  
+Max users: \<100  
+Services: check in \#services  
+Alternative access: [Java](http://www.afterburn.net/) - wide selection
+of channels  
+Operator channel: \#services or \#cyberchat  
+Restrictive policies: No warez, sex, porn or hacking channels  
+[Server list](http://www.afterburn.net/irc.html)
 
-<p><a href="http://www.netlink-irc.org/">NetLink-IRC</a><br>
-Another US-based family-oriented chat network. Welcome to the club.<br>
-Servers: 3<br>
-Locations: USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: check in #cservice<br>
-Alternative access: <a
-href="http://www.netlink-irc.org/chat.html">Java</a><br>
-Started: July 1998<br>
-Operator channel: #netlink-irc<br>
-Restrictive policies: No sex, warez, porn channels<br>
-<a href="http://www.netlink-irc.org/serverlist.html">Server list</a>
+[NetLink-IRC](http://www.netlink-irc.org/)  
+Another US-based family-oriented chat network. Welcome to the club.  
+Servers: 3  
+Locations: USA  
+Default port: 6667  
+Max users: \<100  
+Services: check in \#cservice  
+Alternative access: [Java](http://www.netlink-irc.org/chat.html)  
+Started: July 1998  
+Operator channel: \#netlink-irc  
+Restrictive policies: No sex, warez, porn channels  
+[Server list](http://www.netlink-irc.org/serverlist.html)
 
-<p><a href="http://www.acestar.org/">AceStar</a><br>
-Had been running for about a year before getting organized and coming out
-as a "production" network. That long trial period should help them perform
-well.<br>
-Servers: 5<br>
-Locations: Australia, USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)<br>
-Started: July 1998<br>
-Alternative access: <a href="http://www.acestar.org/livechat/">Java</a><br>
-Operator channel: #AceStar<br>
-Restrictive policies: No illegal pornographic material<br>
-<a href="http://www.acestar.org/servers/">Server list</a>
+[AceStar](http://www.acestar.org/)  
+Had been running for about a year before getting organized and coming
+out as a "production" network. That long trial period should help them
+perform well.  
+Servers: 5  
+Locations: Australia, USA  
+Default port: 6667  
+Max users: \<100  
+Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)  
+Started: July 1998  
+Alternative access: [Java](http://www.acestar.org/livechat/)  
+Operator channel: \#AceStar  
+Restrictive policies: No illegal pornographic material  
+[Server list](http://www.acestar.org/servers/)
 
-<p><a href="http://www.phishy.net/">PhishyNet</a><br>
-&quot;The Phriendly network&quot;. It's easy to explain - someone's 'F'
-key must be broken. Actually, they are quite, umm, phriendly.<br>
-Servers: 6<br>
-Locations: Canada, Ireland, UK, USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
-Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)<br>
-Alternative access: <a href="http://www.phishy.net/irc/chat.htm">Java</a><br>
-Started: June 1998<br>
-Game channels: #Storm, #MUD, #Trivia<br>
-Operator channel: #muesli (go figure)<br>
+[PhishyNet](http://www.phishy.net/)  
+"The Phriendly network". It's easy to explain - someone's 'F' key must
+be broken. Actually, they are quite, umm, phriendly.  
+Servers: 6  
+Locations: Canada, Ireland, UK, USA  
+Default port: 6667  
+Max users: \<100  
+Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)  
+Alternative access: [Java](http://www.phishy.net/irc/chat.htm)  
+Started: June 1998  
+Game channels: \#Storm, \#MUD, \#Trivia  
+Operator channel: \#muesli (go figure)  
 Restrictive policies: No illegal activities, child porn or hate
-channels.<br>
-<a href="http://www.phishy.net/irc/servers.htm">Server list</a>
+channels.  
+[Server list](http://www.phishy.net/irc/servers.htm)
 
-<p><a href="http://www.jellybelly.net/">JellyBelly Net</a><br>
-Servers: 2<br>
-Locations: USA<br>
-Default port: 6667<br>
-Max users: &lt;100<br>
+[JellyBelly Net](http://www.jellybelly.net/)  
+Servers: 2  
+Locations: USA  
+Default port: 6667  
+Max users: \<100  
 Services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), help
-(HelpServ)<br>
-Alternative access: <a
-href="http://jellybelly.tasam.com/chat/index.html">Java</a><br>
-Started: March 1998<br>
-Game channels: #trivia, #jumble<br>
-Operator channel: #jellybelly<br>
-Restrictive policies: No porn, sex or warez channels<br>
-<a href="http://www.jellybelly.net/server.html">Server list</a>
+(HelpServ)  
+Alternative access:
+[Java](http://jellybelly.tasam.com/chat/index.html)  
+Started: March 1998  
+Game channels: \#trivia, \#jumble  
+Operator channel: \#jellybelly  
+Restrictive policies: No porn, sex or warez channels  
+[Server list](http://www.jellybelly.net/server.html)
 
-<!-- kow.com removed 3/6/02 by Jolo, per request of new owner of domain -->
+\[ [main page](../) | [servers](../servers/) | [networks](../nets/) |
+[adding you](../addreq.html) \]
 
-<P ALIGN=CENTER>
-[ <A HREF="../">main page</A> |
-<A HREF="../servers/">servers</A> |
-<A HREF="../nets/">networks</A> |
-<A HREF="../addreq.html">adding you</A> ] 
-</P>
-
-<HR>
-<CENTER>
-<!-- navigation bar -->
-<IMG SRC="/irchelp/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
-	ALT="-navigational bar-">
-<BR><SMALL>
-[ <A HREF="/irchelp/">go back</A>
-| <a href="/irchelp/search_engine.cgi">search</A>
-| <A HREF="/irchelp/help.html">help</A>
-| <A HREF="/irchelp/mail.cgi">send email</A> ]
-</SMALL>
-<P>
-</CENTER>
-
-<CENTER><SMALL>
-<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
-</SMALL></CENTER>
-
-</BODY>
-</HTML>
