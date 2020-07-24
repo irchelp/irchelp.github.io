@@ -12,18 +12,10 @@ version 1.1.4, updated 3/20/98
 
 translation by Alessio Roberti Vittory
 
-La versione originale di questa pagina si trova a: <[http://www.irchelp.org/ir
-chelp/new2irc.html](http://www.irchelp.org/irchelp/new2irc.html)>
+La versione originale di questa pagina si trova a: 
+<http://www.irchelp.org/irchelp/new2irc.html>
 
-Altre versioni: [Español](/irchelp/misc/esnew2irc.html) |
-[Français](/irchelp/misc/frnew2irc.html) |
-[Deutsch](/irchelp/misc/denew2irc.html) |
-[Greek](/irchelp/misc/grnew2irc.html) |
-[Indonesia](/misc/idnew2irc.html) |
-[Italiano](/misc/itnew2irc.html) |
-[Nederlands](/irchelp/misc/nlnew2irc.html) |
-[Portugues](/misc/ptnew2irc.html) |
-[Turkce](/misc/trnew2irc.html)
+{% include new2irc_translations.md %}
 
 ## Contenuti
 
@@ -109,7 +101,7 @@ i canali. Questo puo' causare dei conflitti, se tieni in modo particolare ad
 essere l'unico proprietario del tuo nick, potresti preferire dei network che
 utilizzano dei "servizi" (services) come ad esempio
 [Undernet](http://www.undernet.org/), [DALnet](http://www.dal.net/), o altri
-[network minori](/irchelp/networks/nets/).
+[network minori](/networks/nets/).
 
 >
 
@@ -406,7 +398,7 @@ possono determinare quale nick stai attualmente utilizzando.
 > Se qualcun altro cerca di bloccare il tuo sistema o di disconnetterti,
 consulta la pagina [Denial of Service or "Nuke" Attacks](/irchelp/nuke/). Puoi
 anche realizzare dei file di log registrando l'accaduto e realizzare un [log
-and report abuse](/irchelp/misc/irclog.html) quando questo viola le regole del
+and report abuse](/security/irclog.html) quando questo viola le regole del
 server, che puoi consultare digitando /motd.
 
 >
@@ -480,13 +472,13 @@ per la sessione di chat DCC.
 > Per altre informazioni circa gli argomenti trattati qui, cosi' come per
 informazioni inerenti gli altri comandi, visita il sito web
 <[http://www.irchelp.org](http://www.irchelp.org)>. Potrai trovare diversi
-[help files](faq.html), come ad esempio:
+[help files](/faq/), come ad esempio:
 
 >
 
 >   * [IRC Primer](/irchelp/ircprimer.html)
 
->   * [FAQ (Frequently Asked Questions)](/irchelp/altircfaq.html) per il
+>   * [FAQ (Frequently Asked Questions)](/faq/altircfaq.html) per il
 newsgroup [alt.irc](news:alt.irc)
 
 >   * [IRC tutorial](/irchelp/irctutorial.html)
@@ -498,7 +490,7 @@ agli specifici client IRC, inclusi:
 
 >
 
->   * [ircII client](/irchelp/ircii/) e [ircII scripts](/irchelp/script/).
+>   * [ircII client](/irchelp/ircii/) e [ircII scripts](/script/).
 
 >   * [Mac clients](/irchelp/mac/)
 
