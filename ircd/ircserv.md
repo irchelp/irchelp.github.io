@@ -1,3 +1,10 @@
+---
+title: ircserv
+author: Jolo
+dateupdated: February 2000
+status: historical
+layout: default
+---
 Ed. note: This document is fairly out of date, but still provided to explain
 these early attempts at timestamping and other services. The details may have
 changed, but the ideas are the same. -Jolo 2/2000
@@ -5,9 +12,6 @@ changed, but the ideas are the same. -Jolo 2/2000
 # ircserv
 
 * * *
-    
-    
-    
     
     The available patches for 2.8*mu servers are:
     
@@ -1913,8 +1917,6 @@ changed, but the ideas are the same. -Jolo 2/2000
 
 * * *
 
-![-navigational bar-](/irchelp/Pix/ihnavbar.gif)
 
-##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
-others.
+##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many others.
 
