@@ -15,16 +15,7 @@ By David Caraballo (DC-itsme) and Joseph Lo (Jolo)
 
 The original version of this page is at <http://www.irchelp.org/faqs/new2irc.html>
 
-Translations: 
-[Español](/misc/esnew2irc.html) |
-[Français](/misc/frnew2irc.html) |
-[Deutsch](/misc/denew2irc.html) |
-[Greek](/misc/grnew2irc.html) |
-[Indonesia](/misc/idnew2irc.html) |
-[Italiano](/misc/itnew2irc.html) |
-[Nederlands](/misc/nlnew2irc.html) |
-[Portugues](/misc/ptnew2irc.html) |
-[Turkce](/misc/trnew2irc.html)
+{% include new2irc_translations.md %}
 
 ## Contents
 {: .no_toc}
