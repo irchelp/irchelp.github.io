@@ -2,19 +2,10 @@
 
 By David Caraballo (DC-itsme) and Joseph Lo (Jolo)
 
-version 1.1.4, updated 3/20/98  The original version of this page is at <[http
-://www.irchelp.org/irchelp/new2irc.html](http://www.irchelp.org/irchelp/new2ir
-c.html)>
+version 1.1.4, updated 3/20/98  The original version of this page is at 
+<http://www.irchelp.org/faq/new2irc.html>
 
-Other versions: [Español](/irchelp/misc/esnew2irc.html) |
-[Français](/irchelp/misc/frnew2irc.html) |
-[Deutsch](/irchelp/misc/denew2irc.html) |
-[Greek](/irchelp/misc/grnew2irc.html) |
-[Indonesia](/misc/idnew2irc.html) |
-[Italiano](/misc/itnew2irc.html) |
-[Nederlands](/irchelp/misc/nlnew2irc.html) |
-[Portugues](/misc/ptnew2irc.html) |
-[Turkce](/misc/trnew2irc.html)
+{% include new2irc_translations.md %}
 
 Turkce translation by Asu and Ceren Pala
 
@@ -355,7 +346,6 @@ Turkce translation by Asu and Ceren Pala
     
     
 
-![navbar](/irchelp/Pix/ihnavbar.gif)
 
 ##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
 others.
