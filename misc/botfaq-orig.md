@@ -1,11 +1,16 @@
+---
+title: IRC Bot FAQ old
+author: Black Nemesis, TheRose
+datecreated: 1990
+status: historical
+layout: default
+---
 # Frequently Asked Questions about
 
 Internet Relay Chat roBOTs
 
-** Written mostly by Nemesis][ (Black Nemesis)  
-(with a little help from TheRose)
-
-**
+**Written mostly by Nemesis][ (Black Nemesis)  
+(with a little help from TheRose)**
 
 This is the original version of the classic FAQ dating back to the early
 1990s, and is kept here for historical reasons only. For up to date
@@ -19,7 +24,7 @@ A BOT is akin to a roBOT, hence the name. A bot is quite simply a computer
 program that hooks into IRC and does things automatically. Most bot programs
 are written in the C language that run as a background task and hook into IRC
 via Telnet connections. Others are written in the ircII
-[script](/irchelp/script/) language and require some form of client to run and
+[script](/script/) language and require some form of client to run and
 connect into IRC.
 
 ## (2) What uses are there for bots?
@@ -97,7 +102,13 @@ Notice: The new client codes will not allow certain flags to be used for the
 bot to connect. Do not be surprised if you get your bot all set up and cannot
 connect it to IRC.
 
-** It is HIGHLY advisable one knows the language the bot is written in because of the possibility of backdoors. Such backdoors could possibly allow someone to enter the account itself and take it over without the owner even knowing it occurred until one day he finds his password is changed and can't get into his account. "Don't load ANYTHING until you know what it does." ALWAYS look before you load. This applies not only to bot programs, but to script files as well. Just a friendly warning; otherwise you may regret it later down the road. **
+**It is HIGHLY advisable one knows the language the bot is written in because
+of the possibility of backdoors. Such backdoors could possibly allow someone to
+enter the account itself and take it over without the owner even knowing it
+occurred until one day he finds his password is changed and can't get into his
+account. "Don't load ANYTHING until you know what it does." ALWAYS look before
+you load. This applies not only to bot programs, but to script files as well.
+Just a friendly warning; otherwise you may regret it later down the road.**
 
 Not as simple as you thought 'eh?
 
