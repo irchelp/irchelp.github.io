@@ -1,9 +1,0 @@
-!	 $eterna: where,v 1.1 2002/03/24 13:07:57 mrg Exp $
-!
-! Copyright (c) 2002  Matthew Green.
-!
-! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
-! information.
-!
-Usage: WINDOW WERE
-  Displays what channels are attached to this window.

@@ -1,9 +1,0 @@
-!	 $eterna: brick,v 1.2 2001/08/12 15:42:29 mrg Exp $
-!
-! Copyright (c) 1999  Matthew Green.
-!
-! All rights reserved.  See the HELP IRCII COPYRIGHT file for more
-! information.
-!
-Usage: BRICK [<channel> <nick>]
-  Send a brick to the user <nick> on <channel>.
