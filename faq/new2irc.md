@@ -338,7 +338,7 @@ the WWW at [http://www.irchelp.org/irchelp/chanlist/](/irchelp/chanlist/).
 leave the channel or use the /ignore command. For more details,
 [mIRC](/irchelp/mirc/) users see our 
 [flood protection](/clients/windows/mirc/flood.html) page, [ircII](/irchelp/ircii/) users
-type [/help ignore](/clients/unix/ircii/commands/orig/ignore). It is a good idea to set
+type [/help ignore](/clients/unix/ircii/commands/irciihelp/ignore.html). It is a good idea to set
 your user mode to +i (invisible) to avoid unsolicited messages and harrassment
 -- if you are "invisible" generally only users on a channel with you can
 determine what nick you are using.
