@@ -3688,7 +3688,7 @@ grasp at all) Type `/ctcp nick clientinfo` to see what commands the nick will
 respond to.
 
 Beeing on a LAN or using a firewall, you may have run into problems with DCC.
-This [ICS and IRC FAQ](../security/ics.htm) discuss the problem and possible
+This [ICS and IRC FAQ](../security/ics.html) discuss the problem and possible
 solutions.
 
 
@@ -4220,5 +4220,5 @@ how to make the numbers do lots of usefull things in your scripts.
 ([6.1](#sec6-1)) A must for advanced scripters
 
 
-[ICS and IRC FAQ](../security/ics.htm) A discussion on how to deal with DCC
+[ICS and IRC FAQ](../security/ics.html) A discussion on how to deal with DCC
 through LANs and firewalls

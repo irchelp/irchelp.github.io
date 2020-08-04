@@ -238,7 +238,7 @@ For mIRC or Windows:
 
 * [Proxies and Firewalls](http://www.mirc.co.uk/help/proxies.html), by the makers of mIRC, provides Windows help with proxies.
 * [DCC Help](http://www.mirc.org/dcc.shtml) - a list of URLs from DALnet #mIRC helpers, includes many of the ones listed below and then some, such as specific fixes for certain router brands or software firewalls.
-* [mIRC and ICS](ics.htm), a log of an IRC chat where users discuss how to do NAT and proxy and allow DCC/CTCP protocols to continue to function in mIRC.
+* [mIRC and ICS](ics.html), a log of an IRC chat where users discuss how to do NAT and proxy and allow DCC/CTCP protocols to continue to function in mIRC.
 * [Using mIRC with...](http://www.borg.com/%7Echuck/using.htm) ICS, Firewalls, and Wingate. Detailed configuration advice, but assumes you know more than the beginner.
 * [Microsoft ICS Related FAQ](http://www.homenethelp.com/web/faq/sharing-ics.asp) - from HomeNetHelp.com, includes help on installation, using protocols like IRC, ICQ, etc.
 * [mIRC message boards - connection issues forum](http://trout.snt.utwente.nl:82/postlist.pl?Cat=&Board=connectionissues): when all else fails, the mIRC forums are a great place for the patient reader to dig up specific information for that weird router brand, or just to ask your question.
