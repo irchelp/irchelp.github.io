@@ -281,5 +281,5 @@ only to bot programs, but to script files as well.**
 
 Not as simple as you thought 'eh? Good Luck, and Happy IRC'ing.
 
-Another classic help page on this subject is the [bot FAQ](bot_faq.htm)
+Another classic help page on this subject is the [bot FAQ](bot_faq.html)
 archived from ircworks.com.
