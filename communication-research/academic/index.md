@@ -175,7 +175,7 @@ access].
    [16]: /communication-research/academic/academic-reid-e-electropolis-1991.html
    [17]: http://www.ascusc.org/jcmc/vol6/issue3/
    [18]: http://www.ascusc.org/jcmc/vol3/issue3/rodino.html
-   [19]: /communication-research/academic/academic-vincent-c-collegiality-1993.doc
+   [19]: /communication-research/academic/academic-vincent-c-collegiality-1993.html
    [20]: /communication-research/academic/academic-wong-mw-1993.html
    [21]: #top
    [22]: http://www.usc.edu/dept/annenberg/vol1/issue2/baym.html
