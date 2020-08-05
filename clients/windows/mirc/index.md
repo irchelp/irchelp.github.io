@@ -93,7 +93,7 @@ shared all his great tips to help you find your script bugs!
   * [CID (Connection ID) Tutorial](http://mirc.codedreamers.com/Tutorials/CID.htm) - the CID is a unique number given to a connection, allows you to use scripts to get/send information from/to a specific connection, or to loop though connections.
 {% endcomment %}
 
-*  **[Choosing a mIRC script](bestscript.htm)**
+*  **[Choosing a mIRC script](bestscript.html)**
 Many new users rush out to try scripts blindly. This is both risky and
 unnecessary, because mIRC has many advanced features built in already, and
 adding scripts written by strangers can add new features, but they can also
@@ -101,7 +101,7 @@ slow down or cripple mIRC, or worse yet, cause you to "hacked" just like if
 you opened email attachments blindly. That is why all helpers will tell you to
 just learn to use mIRC's built-in features first, and to gradually learn how
 to script yourself. For those who still want to know how to get the "best"
-script, check out this [guide to picking scripts](bestscript.htm).
+script, check out this [guide to picking scripts](bestscript.html).
 
 *  **[Security](/irchelp/security/)**     Check
 out these guides pertaining to IRC security:
