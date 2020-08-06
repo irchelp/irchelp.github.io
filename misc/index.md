@@ -1,3 +1,9 @@
+---
+title: Miscellaneous IRC Help Fles
+author: random-irchelper
+status: historical
+layout: default
+---
 <style type="text/css">
 <!--
 ul { 
