@@ -2,8 +2,7 @@
 title: Flood Protection and Ignoring People
 author: Ruth Mullen (hershey)
 layout: default
-redirect_from:
-  - /irchelp/clients/windows/mirc/flood.html
+status: historical
 reviewed: Raccoon Aug 21, 2016
 ---
 

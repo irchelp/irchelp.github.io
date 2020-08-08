@@ -2,8 +2,7 @@
 title: Script Selection
 author: irchelp.org staff // ircworks.com
 layout: default
-redirect_from:
-  - /irchelp/clients/windows/mirc/bestscript.html
+status: historical
 reviewed: Raccoon Aug 21, 2016
 ---
 

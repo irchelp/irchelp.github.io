@@ -1,8 +1,7 @@
 ---
 title: How to configure mIRC to connect through winGate
 layout: default
-redirect_from:
-  - /irchelp/clients/windows/mirc/wingate.html
+status: historical
 delete-me: Raccoon Aug 21, 2016
 ---
 
