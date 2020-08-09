@@ -1,3 +1,8 @@
+---
+title: "Client Evaluation - Basic Commands"
+status: historical
+layout: default
+---
 # Client Evaluation - Basic Commands
 
 A common convention of IRC clients has been that lines prefixed with / are treated as commands, and a subset of commands exists that are supported by virtually all IRC clients.
@@ -26,7 +31,7 @@ Leaves a channel.
 
 Syntax: `/msg <target> <message>`
 
-Sends a message to <target>, which may be a nickname, #channelname, or a special target such as @#channelname
+Sends a message to \<target\>, which may be a nickname, #channelname, or a special target such as @#channelname
 
 The message MUST be sent using PRIVMSG, except that if the client implements a scripting facility the client SHOULD send NOTICE instead if called in response to a PRIVMSG event.
 
@@ -34,7 +39,7 @@ The message MUST be sent using PRIVMSG, except that if the client implements a s
 
 Syntax: `/notice <target> <message>`
 
-Sends a notice to <target>, which may be a nickname, #channelname, or a special target such as @#channelname
+Sends a notice to \<target\>, which may be a nickname, #channelname, or a special target such as @#channelname
 
 The message MUST be sent using NOTICE, except that if the client implements a scripting facility the client SHOULD not send any message if called in response to a received NOTICE.
 
@@ -46,7 +51,7 @@ Attempts to change nickname.
 
 ### /quit
 
-Syntax: /quit [reason]
+Syntax: `/quit [reason]`
 
 Disconnects from the IRC server. May close the client as well.
 
