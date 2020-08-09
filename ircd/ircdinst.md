@@ -1,8 +1,9 @@
+---
+title: ircd install
+status: historical
+layout: default
+---
 # ircdinst
-
-* * *
-    
-    
     
     /************************************************************************
      *   IRC - Internet Relay Chat, doc/INSTALL
@@ -965,12 +966,4 @@
        The above commands read: "Give IRCD access to GROUP tty (which is /dev)
        and then when ANYONE runs the IRCD allow SETUID and SETGID priviliges
        so that they can use the /SUMMON command.
-    
-
-* * *
-
-
-
-##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
-others.
-
+ 
