@@ -1,3 +1,10 @@
+---
+title: "CHANFIX : Réparation De la Manche D'EFnet"
+author: random-irchelper
+datecreated: 28 March 2003
+status: historical
+layout: default
+---
 # CHANFIX : Réparation De la Manche D'EFnet
 
 par Jolo, tiggergrm et beaucoup d'autres
@@ -48,8 +55,7 @@ la courtoisie et le respect.
   * [](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23score)[](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23manual)[5. Comment CHANFIX garde-t-il des points ?](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23score)
   * [](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23more)[](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23score)[6. Plus D'Information](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23more)
 
-## 1. Comment est-ce que je m'inscris à CHANFIX ou le déclenche pour
-travailler ?
+## 1. Comment est-ce que je m'inscris à CHANFIX ou le déclenche pour travailler ?
 
 Vous n'enregistrez pas votre canal avec CHANFIX. Vous le besoin juste de
 s'assurer qu'il rencontre certaine qualification conditionne. CHANFIX alors
@@ -71,7 +77,7 @@ donner des ops, vous ne qualifiez pas. Lu dessus pour découvrir pourquoi.
 
 ### 2A. Conditions pour CHANFIX au reop un canal opless :
 
-******Vous devez rencontrer TOUTES ces conditions**, aucunes exceptions. 
+**Vous devez rencontrer TOUTES ces conditions**, aucunes exceptions. 
 
   1. Le canal doit avoir existé pour au moins une demi-heure. Bien que ce soit le minimum technique, veuillez être réaliste. N'importe quel canal moins que quelques jours est probablement trop nouveau pour fixer, parce que vous n'avez pas établi un ensemble stable d'ops réguliers. Créez un nouveau canal, ou la causerie juste sur un canal existant puisque vous ne pourriez pas être prêt à courir encore vos propres. 
   2. Le canal doit avoir eu au moins 4 personnes dans lui. Encore c'est un minimum technique, mais à moins que vous ayez vraiment un bon nombre de gens, il est souvent plus rapide de fixer le canal par le cycle de lui (tout le monde /part, puis recréent le canal à partir de zéro). 
@@ -136,8 +142,7 @@ url?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fnetworks%2Fnoserv.ht
 ml) et [les mythes d'Opers](http://babelfish.altavista.com/babelfish/urltrurl?
 lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Fircd%2Fopermyth.html).
 
-## 3. Nous avons toujours des ops est-ce que mais elles tout est tourne au
-ralenti, peut vous op j'à la place ?
+## 3. Nous avons toujours des ops est-ce que mais elles tout est tourne au ralenti, peut vous op j'à la place ?
 
 Aussi longtemps qu'au moins un op régulier (on tenant de hauts points) est
 opped dans le canal, là n'est que rien CHANFIX peut faire. Vous devez le
