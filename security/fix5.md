@@ -1,3 +1,8 @@
+---
+title: fix5
+status: historical
+layout: default
+---
 This covers the 5th variant of dmsetup.exe, the mIRC Trojan Horse attack. For
 more information, including a list of symptoms for these attacks, please see
 the main Trojan help page: [http://www.irchelp.org/irchelp/security/trojan.htm
@@ -8,7 +13,7 @@ folders. While we usually discourage people from downloading a "magic bullet"
 executable fix for trojans, since downloading stuff blindly is how you got in
 this mess in the first place, it really makes the most sense to do so in this
 particular case. At least this particular solution, offered courtesy of
-#NoHack on DALnet, is a ".bat" or batch file, which is an executable text
+ #NoHack on DALnet, is a ".bat" or batch file, which is an executable text
 file. You can and should examine it with Notepad to verify that there aren't
 any other nasties hiding inside.
 
