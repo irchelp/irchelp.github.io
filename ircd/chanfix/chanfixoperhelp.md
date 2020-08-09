@@ -1,3 +1,9 @@
+---
+title: Guidelines for opers helping with CHANFIX
+author: tiggergrm
+status: historical
+layout: default
+---
 # Guidelines for opers helping with CHANFIX
 
 This document is a guidline for general procedure on how to deal with various
@@ -9,9 +15,7 @@ through experience of helping on #chanfix using trial and error.
 
 -tiggergrm 
 
-## **1. Opless Channels
-
-**
+## 1. Opless Channels
 
 **a.** remind the user to read the website especially the part on opless channels.
 
@@ -31,9 +35,7 @@ through experience of helping on #chanfix using trial and error.
 
   
 
-## **2. Take Overs.
-
-**
+## 2. Take Overs.
 
 **a.** Check the score with chanfix. For a score that is too small just tell the user to their channel is to new. The channel should at least be 24 hours old. (we need to come to a definite accepted time limit or score on this. I have had suggestions of over 300. comments please )
 
@@ -60,8 +62,6 @@ through experience of helping on #chanfix using trial and error.
 **k.** In case there are no scored ops available it is pointless to run a fix until the ops are live and explain this to the user.
 
   
-  
-
 Well this is the method that I use and I welcome any ideas or suggestions to
 better this guideline. I also need some opinions if we should have a list of
 admins availabe or just operwall
