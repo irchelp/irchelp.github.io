@@ -1,3 +1,10 @@
+---
+title: EFNet International Services - Chanfix Module FAQ
+author: William Rockwood
+dateupdated: 14 July 2001
+status: historical
+layout: default
+---
 # EFNet International Services - Chanfix Module FAQ
 
 **q)** Will chanfix work on my +i/+k/+l channel? What if `*!*services@services.int` is banned on my channel?   
@@ -65,6 +72,4 @@ References: [Chanfix Protoservice
 Proposal](https://voting.blackened.com/pastvotes/0014.shtml)
 
 Last updated: Sat Jul 14 23:45:45 CDT 2001
-
-_
 
