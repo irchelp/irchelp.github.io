@@ -13,6 +13,8 @@ redirect_from:
  * Binary plugin interface for modules written in C
  * Scripting API hooks for a variety of languages including Lua, Perl, Python, Ruby, Scheme, and Tcl
 
+![weechat](/media/screenshots/weechat.png)
+
 ## License
  * GPLv3
 
