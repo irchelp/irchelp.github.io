@@ -1,3 +1,8 @@
+---
+title: The IRC Prelude
+author: Asu and Ceren Pala
+layout: default
+---
 # The IRC Prelude
 
 By David Caraballo (DC-itsme) and Joseph Lo (Jolo)
@@ -347,6 +352,5 @@ Turkce translation by Asu and Ceren Pala
     
 
 
-##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many
-others.
+##### [Copyright (C) 1996,1997](/irchelp/credit.html) Joseph Lo and many others.
 
