@@ -1,20 +1,12 @@
-<!-- X-URL: http://www.irchelp.org/irchelp/networks/nets/subject.html -->
-<BASE HREF="http://www.irchelp.org/irchelp/networks/nets/subject.html">
+---
+title: Special interest networks
+author: random-irchelper
+dateupdated: 26 January 2003
+status: historical
+layout: default
+---
 
-<!doctype html public "-//W3C//DTD HTML 3.2//EN">
-<html lang="en">
-<head>
-<title>Special interest networks</title>
-</HEAD>
-
-<BODY BGCOLOR="#FFFFE8" TEXT="#7A0818">
-
-<MAP NAME="nav_map">
-<AREA SHAPE=RECT HREF="/irchelp/" COORDS="1,1,70,38">
-<AREA SHAPE=RECT HREF="/irchelp/search_engine.cgi" COORDS="72,1,141,38">
-<AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38">
-<AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38">
-</MAP>
+{::nomarkdown}
 
 <h3 align="center">Subject and special interest networks</h3>
 <hr>
@@ -29,7 +21,7 @@ and Education</a> | <a href="#games">Games</a> ]<br>[ <a href="#arts">Arts
 and Literature</a> | <a href="#misc">Miscellaneous subjects</a> ]
 <hr>
 
-<p><h4><a name="comp">Computers</a></h4>
+<p id="comp"><h4>Computers</h4></p>
 <!--
 LinuxNet entry DELETED BY JOLO 5/11/2000 - their own web site says "LinuxNET people frown upon web pages that advertise the network", this is just not a net for lusers.
 -->
@@ -208,7 +200,8 @@ Services: none<br>
 Started: November 1997<br>
 Operator channel: #pot (of course)<br>
 Restrictive policies: No government officials!<br>
-No server list; use irc.stonernet.org
+No server list; use irc.stonernet.org<br>
+<br>
 
 <P ALIGN=CENTER>
 [ <A HREF="../">main page</A> |
@@ -217,23 +210,4 @@ No server list; use irc.stonernet.org
 <A HREF="../addreq.html">adding you</A> ] 
 </P>
 
-<HR>
-<CENTER>
-<!-- navigation bar -->
-<IMG SRC="/irchelp/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
-	ALT="-navigational bar-">
-<BR><SMALL>
-[ <A HREF="/irchelp/">go back</A>
-| <a href="/irchelp/search_engine.cgi">search</A>
-| <A HREF="/irchelp/help.html">help</A>
-| <A HREF="/irchelp/mail.cgi">send email</A> ]
-</SMALL>
-<P>
-</CENTER>
-
-<CENTER><SMALL>
-<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
-</SMALL></CENTER>
-
-</BODY>
-</HTML>
+{:/nomarkdown}
