@@ -1,3 +1,8 @@
+---
+title: fix4
+status: historical
+layout: default
+---
 This covers the 4th variants of dmsetup.exe, the mIRC Trojan Horse attacks.
 For more information, including a list of symptoms for these attacks, please
 see the main Trojan help page: [http://www.irchelp.org/irchelp/security/trojan
