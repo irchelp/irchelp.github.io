@@ -135,7 +135,7 @@ run an IRC server or relay on your web server.
 
 Freeware, good documentation, support available through discussion groups.
 
-**"Webmaster's Backpack" Java Client**  [ [home page](http://www.conferenceroom.com/products/productshome.shtml) \| [demo](webchat_confrm.html) \| [screen cap](/media/screenshots/webchat_confrm.gif) ]
+**"Webmaster's Backpack" Java Client**  [ [home page](http://www.conferenceroom.com/products/productshome.shtml) \| [screen cap](/media/screenshots/webchat_confrm.gif) ]
 
 Conference Room by Webmaster Inc. is commercial Windows IRC server software,
 but their "Webmaster's Backpack" java client is free. It is very full-featured
