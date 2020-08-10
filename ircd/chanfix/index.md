@@ -9,9 +9,7 @@ layout: default
 **Translations:** 
 [![fr-flag](/media/flags/fr-flag.gif) Français](chanfix-fr.html)
 [![no-flag](/media/flags/no-flag.gif) Norsk](chanfix-no.html)
-{% comment %}
- [![il-flag](/media/flags/il-flag.gif) Hebrew](chanfix-il.html)
-{% endcomment %}
+[![il-flag](/media/flags/il-flag.gif) Hebrew](chanfix-il.html)
 
 by Jolo, tiggergrm and many others, updated Nov 16, 2003
 
