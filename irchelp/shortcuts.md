@@ -19,11 +19,12 @@ automatically be redirected to that long URL in the 2nd column,
 shortuctactual full URLdescription
 
 |-----------|------------------------------------------------------------------------------------|------------------------------------|
-|           |url                                                                                 |comment                                |
+|           |url                                                                                 |comment                             |
 |-----------|------------------------------------------------------------------------------------|------------------------------------|
 |bot        |[http://www.irchelp.org/misc/botfaq](/misc/botfaq.html)                             |Bot FAQ                             |
 |bots       |[http://www.irchelp.org/misc/botfaq.html](/misc/botfaq.html)                        |same as above                       |
 |chanfix    |[http://www.irchelp.org/ircd/chanfix.html](/ircd/chanfix/)                          |CHANFIX FAQ                         |
+|chanfix-no |[http://www.irchelp.org/ircd/chanfix-no.html](/ircd/chanfix/chanfix-no.html)        |CHANFIX FAQ - Norsk translation.    |
 |chanlist   |[http://www.irchelp.org/chanlist/](/chanlist/)                                      |Channel searching and listing       |
 |connect    |[http://www.irchelp.org/networks/connectprob.html](/networks/connectprob.html)      |EFnet connection troubleshooting    |
 |dalnet     |[http://www.irchelp.org/networks/dalnet.html](/networks/dalnet/)                    |DALnet connection guide             |
@@ -52,6 +53,3 @@ shortuctactual full URLdescription
 |warez      |[http://www.irchelp.org/security/warez.html](/security/warez.html)                  |same as 'download'                  |
 |-----------|------------------------------------------------------------------------------------|------------------------------------|
 
-{% comment %}
-|chanfix-no |[http://www.irchelp.org/ircd/chanfix-no.html](../ircd/chanfix-no.html)              |CHANFIX FAQ - Norsk translation.    |
-{% endcomment %}

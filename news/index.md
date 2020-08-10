@@ -87,11 +87,8 @@ will be kept for historical reasons.
 [FAQ](/ircd/chanfix/) which was extensively revised by tiggergrm
 and myself after much feedback from opers and lusers alike. The intent
 is to make it as complete, concise, and clear as possible. 
-{% comment %}
-In addition
-thanks to falxx we once again have a [Norweigian
-translation](/ircd/chanfix/chanfix-no.html).
-{% endcomment %}
+In addition thanks to falxx we once again have a 
+[Norweigian translation](/ircd/chanfix/chanfix-no.html).
 
 **No Services FAQ Update.** We updated [Why EFnet/IRCnet has no
 registration services?](../networks/noserv.html) in response to the mass
@@ -159,9 +156,8 @@ something good about Apple or something bad about UNIX. :-)
 **IRCd help update.** Also a few weeks ago, we made some minor updates
 to various [IRCd](../ircd/) help offerings: 
 [CHANFIX help page](/ircd/chanfix/) 
-{%- comment -%}
-(now also available in a [Norweigian translation](/ircd/chanfix-no.html) thanks to falxx@EFnet),
-{%- endcomment -%}
+(now also available in a 
+[Norweigian translation](/ircd/chanfix/chanfix-no.html) thanks to falxx@EFnet),
 the classic [Myths of Opers](../ircd/opermyth.html), and our
 [TS0](../ircd/ts0.html) page addressing EFnet zero timestamp problems (believe
 		it or not, some channels still have TS 0).
