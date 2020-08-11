@@ -13,7 +13,7 @@ By David Caraballo (DC-itsme) and Joseph Lo (Jolo)
 
 
 
-The original version of this page is at <http://www.irchelp.org/faqs/new2irc.html>
+The original version of this page is at <http://www.irchelp.org/faq/new2irc.html>
 
 {% include new2irc_translations.md %}
 
@@ -481,6 +481,6 @@ helpers on EFnet for their many helpful suggestions.
 
 Now that you've read this beginner's guide, get on IRC and enjoy! Or if you
 are interested in learning more, check out the many documents on the [#IRChelp
-home page](http://www.irchelp.org/).
+home page](/).
 
 * * *
