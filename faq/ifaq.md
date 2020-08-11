@@ -176,7 +176,7 @@ You know, you really shouldn't be doing that. It's not nice and besides...aw hec
 
 #### 23) What are some good web sites for IRC information?
 
-[efnet's #irchelp archives ](http://www.irchelp.org/)
+[efnet's #irchelp archives ](/)
 [pjg's IRC archive ](http://urth.acsu.buffalo.edu/irc/WWW/ircdocs.html)
 
 [The DALnet site](http://www.dal.net/)
