@@ -11,7 +11,7 @@ redirect_from:
 {: .no_toc}
 
 Original web version with over 100 links at 
-<http://www.irchelp.org/irchelp/irctutorial.html>
+<http://www.irchelp.org/faq/irctutorial.html>
 
 ## Table of Contents
 {: .no_toc}
@@ -772,8 +772,8 @@ what IRCops do, see the [IRC Operator Guide](/ircd/ircopguide.html)
 which is like a training manual for IRCops, or Monkster's short [Oper
 Myths](/ircd/opermyth.html) which definitively lists what IRCops
 can/can't/will/won't do. If after reading those you still think you need to
-contact an IRCop to report IRC abuse, see our [IRC logging
-guide](http://www.irchelp.org) for directions.
+contact an IRCop to report IRC abuse, see our 
+[IRC logging guide](/security/irclog.html) for directions.
 
 **A special word on nukes:** denial of service attacks, commonly known as "[nukes](/irchelp/nuke/)", are not part of IRC at all. As such, IRCops have no authority in trying to stop them. See our guide on [logging and reporting nukes](/nuke/report.html).
 
@@ -782,8 +782,8 @@ unless you specify another server's hostname as the optional argument.
 
 **/LINKS**
 
-The LINKS command shows all the servers currently connected to form the [IRC
-network](http://www.irchelp.org/irchelp/networks/) you are using. If a server
+The LINKS command shows all the servers currently connected to form the 
+[IRC network](/networks/) you are using. If a server
 mask is specifed, LINKS shows any servers that match the given server mask,
 which may contain wildcards.
 
@@ -842,7 +842,7 @@ both publicly and privately, including how to exchange files, and (3) went
 beyond the basics to explore channel maintenance and interacting with servers.
 That should be all you need for now to enjoy IRC. If you are interested in
 learning more, check out the many other [help files](/faq/). The
-[IRChelp.org web site](http://www.irchelp.org/) also has many other [helpful
+[IRChelp.org web site](/) also has many other [helpful
 features](/irchelp/help.html) 
 {% comment %}
 including [direct help by IRC](/irchelp/talktous.html)
