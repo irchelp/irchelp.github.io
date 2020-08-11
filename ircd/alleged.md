@@ -162,7 +162,7 @@ servers.
 
 ##  Other links
 
-1) [General IRC Help](http://www.irchelp.org), great place for all around irc
+1) [General IRC Help](/), great place for all around irc
 info.
 
 2) [Info on hybrid irc](http://info.hybrid.net)
