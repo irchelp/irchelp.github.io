@@ -191,8 +191,8 @@ be better off on DALnet or some small network with Services.
 #### 14. Q: What's a good EFnet/Undernet/DALnet/IRCnet server?
 {:#q14}
 A: A server is only as good as
-your connection to it. Which basically means you should check their [server
-lists](http://www.irchelp.org/irchelp/networks/servers/) and pick the one
+your connection to it. Which basically means you should check their 
+[server lists](/networks/servers/) and pick the one
 closest to you. However,
 
   * EFnet: Most North American servers have excellent connectivity and those which accept foreign clients will be good for them too. Users in western and northern Europe should prefer their local servers.
