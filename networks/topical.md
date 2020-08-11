@@ -11,7 +11,7 @@ redirect_from:
 
 _Selected networks serving a special subject matter or interest_
 
-This page is part of the [IRChelp.org Networks Site](http://www.irchelp.org/irchelp/networks/), please do not mirror or distribute.
+This page is part of the <http://www.irchelp.org/irchelp/networks/>, please do not mirror or distribute.
 
 You can often find [channels](../chanlist/) devoted to every conceivable subject on the [popular nets](popular.html), but with that comes the hassles of those large nets too. Some groups have set up specialized chat servers or networks dedicated to a special subject of interest. Here are some of them, loosely grouped by subject. Note that some subjects may not be appropriate for all people. Many are web-based chats (not strictly IRC) or standalone servers.
 

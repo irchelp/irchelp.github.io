@@ -10,7 +10,7 @@ The Official #US-Opers EFNet Frequently Asked Questions - By Disciple
   
 The Official and most recent copy can be obtained from:
 
-<http://www.irchelp.org/irchelp/ircd/usfaq.html>
+<http://www.irchelp.org/ircd/usfaq.html>
 
 All other copies may be old and/or obsolete.
 
@@ -20,7 +20,7 @@ Last Updated: Sat Aug 28 16:02:25 EDT 1999
 * * *
   
 Many of the answers to these questions were obtained from
-[http://www.irchelp.org/](http://www.irchelp.org) and 
+[http://www.irchelp.org/](/) and 
 <http://www.the-project.org/efnet/opermyth.html>. 
 Most of these questions are answered
 elsewhere, but not all in one place, hence this text. These are the questions
@@ -477,7 +477,7 @@ compelled to ask in #us-opers, that you read this faq first and if it's not
 covered in here, that you ask once and if no one answers try elsewhere. If
 your question is about something non-irc related, like software, or hardware
 try #help. If you have an irc related question that no one answers in #us-
-opers, try #irchelp or [http://www.irchelp.org/](http://www.irchelp.org/).
+opers, try #irchelp or [http://www.irchelp.org/](/).
 
 [Question Index](#idx)
 

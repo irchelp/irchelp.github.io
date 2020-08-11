@@ -13,7 +13,7 @@ version 1.1.4, updated 3/20/98
 translation by Alessio Roberti Vittory
 
 La versione originale di questa pagina si trova a: 
-<http://www.irchelp.org/irchelp/new2irc.html>
+<http://www.irchelp.org/misc/itnew2irc.html>
 
 {% include new2irc_translations.md %}
 
@@ -29,7 +29,6 @@ La versione originale di questa pagina si trova a:
   8. Aiuto piu' dettagliato
   9. Un ultimo avvertimento
 
-* * *
 
 ## 1. Cosa e' IRC, e come funziona?
 
@@ -51,12 +50,12 @@ sullo stesso net. I client consigliati sono:
 
 >
 
->   * UNIX/shell: [ircII](http://www.irchelp.org/irchelp/ircii/)
+>   * UNIX/shell: [ircII](/clients/unix/ircii/)
 
->   * Windows: [mIRC](http://www.irchelp.org/irchelp/mirc/) o
+>   * Windows: [mIRC](/clients/windows/mirc/) o
 [PIRCH](http://www.bcpl.lib.md.us/~frappa/pirch.html)
 
->   * [Macintosh](http://www.irchelp.org/irchelp/mac/):
+>   * [Macintosh](/clients/mac/):
 [Ircle](http://www.xs4all.nl/~ircle)
 
 >
@@ -78,9 +77,8 @@ ci potrebbero essere delle serie conseguenze.
 
 >
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 ## 2. Alcuni dettagli
 
@@ -124,11 +122,11 @@ cercare un altro posto ove tu sia benvenuto.
 admins) e da [IRC operators](/ircd/ircopguide.html), o "IRC ops". Gli
 IRC ops gestiscono i propri server e, su EFnet ed altri networks, non sono
 coinvolti in dispute personali, takeover dei canali, fornire privilegi
-operatore perduti, etc. _Non _sono "IRC cops." (poliziotti IRC)
+operatore perduti, etc. _Non_ sono "IRC cops." (poliziotti IRC)
 
 >
 
-> [ Contenuti]
+> [ Contenuti](#top)
 
 * * *
 
@@ -259,7 +257,7 @@ net splits, ecc.
 > /quit good night!
 
 > Chiudi IRC completamente, con il messaggio di uscita (part) in maniera che
-gli altri vedano "*** Signoff: yournick (good night!)".
+gli altri vedano "\*\*\* Signoff: yournick (good night!)".
 
 >
 
@@ -269,9 +267,8 @@ in maniera differente oppure non funzionare affatto.
 
 >
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 ## 4. Dove andare
 
@@ -295,9 +292,8 @@ automaticamente eletto come op.
 
 >
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 ## 5. Alcune faccette e il gergo
 
@@ -343,13 +339,10 @@ faccette.
 
 >
 
-> &nbsp_place_holder;
 
->
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 ## 6. Qualche consiglio
 
@@ -378,7 +371,7 @@ semplicemente quel canale, ce ne sono altri migliaia. .
 >     Se vieni disconnesso mentre utilizzi il comando /list command, prova a
 cambiare server, altrimenti, liste recenti dei canali sono disponibili sul WWW
 all'indirizzo
-<[http://www.irchelp.org/irchelp/chanlist/](/irchelp/chanlist/)>.
+[chanlist](/chanlist/).
 
 > **Imbarazzo e attacchi personali **
 
@@ -403,9 +396,8 @@ server, che puoi consultare digitando /motd.
 
 >
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 ## 7. Problemi con i server IRC, e scegliere un server
 
@@ -439,7 +431,6 @@ moderazione, non piu' di due volte consecutive, o potresti essere scambiato
 per un "link looking" (cioe' una persona che causa intenzionalmente
 rallentamenti utilizzando inutilmente dei comandi).
 
-> &nbsp_place_holder;
 
 > **Ping? Pong!**
 
@@ -463,15 +454,14 @@ per la sessione di chat DCC.
 
 >
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 ## 8. Aiuto piu' dettagliato
 
 > Per altre informazioni circa gli argomenti trattati qui, cosi' come per
 informazioni inerenti gli altri comandi, visita il sito web
-<[http://www.irchelp.org](http://www.irchelp.org)>. Potrai trovare diversi
+<[http://www.irchelp.org](/)>. Potrai trovare diversi
 [help files](/faq/), come ad esempio:
 
 >
@@ -511,13 +501,12 @@ _Help_.
 
 >
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 ## 9. Un ultimo avvertimento
 
-> **Gli script ****IRC **sono dei set di comandi che il tuo client _puo'
+> **Gli script** **IRC** sono dei set di comandi che il tuo client _puo'
 eseguire_. Ci sono in circolazione dei buoni script che pero' sono stati
 modificati in maniera che una volta caricati, possono seriamente compromettere
 la sicurezza del tuo sistema (qualcuno potrebbe impadronirsi del tuo account,
@@ -540,13 +529,12 @@ del settaggio di questa opzione.
 
 >
 
-> [ Contenuti ]
+> [ Contenuti ](#top)
 
-* * *
 
 Special thanks to FreeSoft, prysm, hershey, turtle, Ariell, and other #irchelp
 helpers on EFnet for their many helpful suggestions.
 
 Adesso che hai letto questa guida per principianti, vai su IRC e divertiti!
 Oppure se sei interessato a imparare dell'altro, dai un'occhiata ai documenti
-presenti sulla [#IRChelp home page](http://www.irchelp.org/).
+presenti sulla [#IRChelp home page](/).

@@ -8,7 +8,15 @@ redirect_from:
 
 # NetBus Backdoor Attack
 
-**Webmaster's Note:** The following is an advisory issued by [Internet Security Systems, Inc.](http://www.iss.net/xforce/), a commercial company which makes security software. I took the liberty of deleting 2 URLs for downloading the attacks themselves, to minimize our role in facilitating new attacks. I also replaced the 2 broken links providing fix information for NetBus with an alternative, trustworthy source. For a more detailed, illustrated guide to the Back Orifice backdoor mentioned in this article, please also see our own guide at [http://www.irchelp.org/irchelp/security/bo.html](http://www.irchelp.org/irchelp/security/bo.html) -Jolo
+**Webmaster's Note:** The following is an advisory issued by [Internet Security
+Systems, Inc.](http://www.iss.net/xforce/), a commercial company which makes
+security software. I took the liberty of deleting 2 URLs for downloading the
+attacks themselves, to minimize our role in facilitating new attacks. I also
+replaced the 2 broken links providing fix information for NetBus with an
+alternative, trustworthy source. For a more detailed, illustrated guide to the
+Back Orifice backdoor mentioned in this article, please also see our own guide
+at [Back Orifice backdoor](/security/bo.html)
+-Jolo
 
 
 

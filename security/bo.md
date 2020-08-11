@@ -13,8 +13,7 @@ by Anthony Stirk aka Upuaut
 Contributions from Chris Benson, Joseph Lo and Rich Lafferty.
 
 
-The original version of this page is at <[http://www.irchelp.org/irchelp/secur
-ity/bo.html](http://www.irchelp.org/irchelp/security/bo.html)>
+The original version of this page is at <http://www.irchelp.org/security/bo.html>
 
 ## Table of Contents
 {: .no_toc}

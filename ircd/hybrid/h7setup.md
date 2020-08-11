@@ -7,8 +7,8 @@ layout: default
 ---
 Ed. note: Hybrid 7 is the latest version of IRC server software likely to be
 adopted by most of [EFnet](/networks/nets/big4.html) and many other
-networks. This guide is part of our [ircd help
-section](http://www.irchelp.org/ircd/), and is intended for the
+networks. This guide is part of our 
+[ircd help section](/ircd/), and is intended for the
 relative novice. Before you attempt to set up your own ircd, you should be
 reasonably expert at both the IRC protocol and UNIX. For example, have you set
 up IRC clients on UNIX before (not one of those auto-install deals, but rather
@@ -608,7 +608,7 @@ and list channels, etc., your server is a-ok.
 
 Essential Commands: (This may not have every command in the world, as i do not
 have a list, and may not remember them all.. You may want to check
-[www.irchelp.org](http://www.irchelp.org/) for a complete list)
+[www.irchelp.org](/) for a complete list)
 
 Ed. note: In particular, you should check out the [IRC Operator
 Guide](/ircd/ircopguide.html).

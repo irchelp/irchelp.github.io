@@ -12,7 +12,7 @@ The EFNet Frequently Asked Questions - By Disciple
 
 The Official and most recent copy can be obtained from:
 
-[http://www.irchelp.org/ircd/efnetfaq.html](http://www.irchelp.org/irchelp/ircd/efnetfaq.html)
+<http://www.irchelp.org/ircd/efnetfaq.html>
 
 All other copies may be old and/or obsolete.
 
@@ -24,7 +24,7 @@ Last Updated: May 30, 2002
 
 
 Many of the answers to these questions were obtained from
-[http://www.irchelp.org/](http://www.irchelp.org) and
+[http://www.irchelp.org/](/) and
 [http://www.the-project.org/efnet/opermyth.html](http://www.the-project.org/efnet/opermyth.html).
 Most of these questions are answered
 elsewhere, but not all in one place, hence this text. These are the questions
@@ -285,8 +285,9 @@ A: The modes are (use /stats [letter]):
           y   Y-lines
           z	  More server statistics
 
-For more information see [http://www.irchelp.org/ircd/ircopguide.html]
-(http://www.irchelp.org/ircd/ircopguide.html) section: VIII. Server
+For more information see 
+[ircopguide](/ircd/ircopguide.html) 
+section: VIII. Server
 Information Commands (TRACE, STATS, LINKS, and HTM), or the documentation
 included in ircd-hybrid. For more information on what some of these modes do
 see section: VII. IRCD and Associated Files on the same page.
@@ -390,9 +391,8 @@ Q: How do I become an IRC Operator?
 A: In short, you don't. Becoming an IRC Operator requires not only a strong
 working knowledge of IRC and this IRC network, but also a working relationship
 with server admins and other opers. Opers are selected when there is a need,
-and never given based on who is asking for it. See [http://www.irchelp.org/irc
-help/ircd/ircopguide.html](http://www.irchelp.org/ircd/ircopguide.html
-) section VI for more details.
+and never given based on who is asking for it. See 
+[ircopguide](/ircd/ircopguide.html) section VI for more details.
 
 [Question Index](#idx)
 

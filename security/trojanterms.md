@@ -10,8 +10,8 @@ redirect_from:
 
 by Joseph Lo aka Jolo
 
-Part of the [Trojan horse attacks help
-page](http://www.irchelp.org/irchelp/security/trojan.html)
+Part of the
+<http://www.irchelp.org/irchelp/security/trojan.html>
 
 updated May 6, 2000
 

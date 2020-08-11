@@ -17,7 +17,7 @@ by Stephanie Daugherty -- with contributions from Jolo,
 RuyDuck, Vamps, and others
 
 This page is part of IRChelp.org's security section at 
-[http://www.irchelp.org/irchelp/security/](http://www.irchelp.org/irchelp/security/)
+<http://www.irchelp.org/irchelp/security/>
 
 updated Mar 16, 2005
 

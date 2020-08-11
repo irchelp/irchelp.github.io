@@ -463,5 +463,5 @@ outros ajudantes do \#irchelp na EFnet pelas suas boas sugestões.
 
 Agora que já leu o guia de principiante, está pronto a divertir-se no
 IRC\! Ou se estiver interessado em aprender mais, veja os muitos
-documentos na [Homepage do \#IRChelp](http://www.irchelp.org/).
+documentos na [Homepage do \#IRChelp](/).
 

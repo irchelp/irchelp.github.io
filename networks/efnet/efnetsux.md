@@ -29,7 +29,7 @@ next Big Attack.
 
 **Is EFnet dying? Short version: No...** At least not in the way the rumors claim. In recent days, rumors have been running rampant. Some people are even talking about a specific shutdown date or time ("hub servers will all /squit in 15 minutes!!!"). People keep asking about it _ad nauseum_, so I'm going to try to answer as best as I can.
 
-**First of all, I'm no EFnet spokesmodel.** Nobody is. I'm an IRC operator (just 1 of hundreds), a volunteer helper on #irchelp and #mirc, and the webmaster of this help site, [IRChelp.org](http://www.irchelp.org/). I just wanted to separate facts from rumors based on my experience.
+**First of all, I'm no EFnet spokesmodel.** Nobody is. I'm an IRC operator (just 1 of hundreds), a volunteer helper on #irchelp and #mirc, and the webmaster of this help site, [IRChelp.org](/). I just wanted to separate facts from rumors based on my experience.
 
 **Why is EFnet sucking so badly?** It started with so-called "packet/script kiddies" disconnecting other users with [denial of service (DoS) attacks](/irchelp/nuke/) to take over a channel or nickname, a practice which was ignored by most IRC admins since EFnet has no notion of channel/nick ownership. The DoS attacks quickly escalated to IRC servers themselves, either to take channels or in retaliation against admins who tried to interfere in such takeovers. That's why servers keep splitting or dying. In part to deter these attackers, the admins of the all servers severely curtailed who they allow to connect. That's why suddenly we are all having so many [connection problems](/networks/connectprob.html). (No, it's not just you, we all have trouble these days.) As more people converge on a dwindling number of servers, this becomes a vicious cycle.
 

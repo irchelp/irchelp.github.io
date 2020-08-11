@@ -173,11 +173,11 @@ new channel.
 
 If you had an actual takeover by an outsider, then you need to figure out how
 they got ops (accidental op, "hacked" bot/shell, [denial of service
-attack](http://www.irchelp.org/irchelp/nuke/) that knocked everybody else
+attack](/nuke/) that knocked everybody else
 offline, etc.). Then make sure it doesn't happen again. We do not issue fixes
 until you have demonstrated that you won't get taken over again right away.
 You should have as many as possible of your
-[qualifying](http://www.irchelp.org/ircd/chanfix.html#qualify) regular
+[qualifying](#2a-conditions-pour-chanfix-au-reop-un-canal-opless-) regular
 ops online and awake, either sitting in the channel or ready to rejoin at a
 moment's notice. Be ready to act to secure the channel right after the fix is
 issued.
@@ -188,17 +188,20 @@ that might keep people out (+b bans, +i invite-only, +k keyword-required, +l
 limit). This is when you must rejoin quickly. Then CHANFIX rejoins later and
 restores ops to the regular ops as it would in an opless channel.
 
-**To reverse a takeover, if you meet all [qualifying conditions](http://www.irchelp.org/ircd/chanfix.html#qualify) for opless channels, go to EFnet #CHANFIX and tell us the name of your channel, what went wrong, what you've done to prevent a recurrence, then wait quietly for help.** We will get to you as soon as we can. 
+**To reverse a takeover, if you meet all 
+[qualifying conditions](#2a-conditions-pour-chanfix-au-reop-un-canal-opless-)
 
-If you don't qualify, see the [relevant
-section](http://www.irchelp.org/ircd/chanfix.html#sol) above. Good
+for opless channels, go to EFnet #CHANFIX and tell us the name of your channel, what went wrong, what you've done to prevent a recurrence, then wait quietly for help.** We will get to you as soon as we can. 
+
+If you don't qualify, see the 
+[relevant section](#2b-pourquoi-pas-reop-de-chanfix-mon-canal-opless-) above. Good
 luck, you'll need it.
 
 ## 5. How does CHANFIX keep scores?
 
 CHANFIX keeps track on who has ops on a channel by using a score database. To
-hold a score, your channel must meet all [qualifying
-conditions](http://www.irchelp.org/ircd/chanfix.html#qualify) above.
+hold a score, your channel must meet all 
+[qualifying conditions](#2a-conditions-pour-chanfix-au-reop-un-canal-opless-) above.
 These conditions include having a minimum number regular of ops with identd
 and a static hostname/IP over a minimum period of time. If you qualify, you do
 not need to register or log in, and it doesn't matter if you change nicknames.
@@ -224,5 +227,5 @@ link].
 
 **Original documentation**: see the "[What CHANFIX really is and isn't](http://www.qurve.com/efnet/chanfix/)" [ext. link] guide which contains an example describing how CHANFIX really works, including details on the scoring system, and the older [original FAQ](http://services.efnet.broken.com/chanfix/chanfix-faq.html) [ext. link] which does not cover more recent developments such as the manual fix feature. 
 
-**History**: CHANFIX (originally named JUPES) was voted upon and passed by a majority of EFnet admins in April 2001, and began operation in early July 2001. You can see the [vote proposal](https://voting.blackened.com/pastvotes/0014.shtml) [ext. link] (if your browser cannot handle https:// pages, see our [local mirror](http://www.irchelp.org/ircd/vote0014.html)). This proposal also contains a somewhat technical comparison to other competing channel-fixing ideas.  
+**History**: CHANFIX (originally named JUPES) was voted upon and passed by a majority of EFnet admins in April 2001, and began operation in early July 2001. You can see the [vote proposal](https://voting.blackened.com/pastvotes/0014.shtml) [ext. link] (if your browser cannot handle https:// pages, see our [local mirror](/ircd/vote0014.html)). This proposal also contains a somewhat technical comparison to other competing channel-fixing ideas.  
 

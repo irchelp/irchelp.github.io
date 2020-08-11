@@ -127,7 +127,7 @@ completed EACH of the steps outlined above.
 
   
 **_If your looking for more technical information_** on the nukes/exploits listed   
-above please check out [www.irchelp.org](http://www.irchelp.org/irchelp/nuke/)
+above please check out [www.irchelp.org](/nuke/)
 a site run by **EfNet _#IRCHelp_**.
 
 I have found it a great source of information on IRC as well as the nukes

@@ -9,7 +9,7 @@ redirect_from:
 
 # IRC Security
 
-original version at [http://www.irchelp.org/irchelp/security/](http://www.irchelp.org/irchelp/security/)
+original version at <http://www.irchelp.org/irchelp/security/>
 
 This page covers information for the safe and responsible use of [Internet
 Relay Chat (IRC)](/irchelp/new2irc.html) and other "chat rooms". Maybe you

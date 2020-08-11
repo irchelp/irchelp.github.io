@@ -12,7 +12,7 @@ _Selected networks serving a specific geographic area or language_
 
 updated Mar 15, 2003
 
-This page is part of the [IRChelp.org Networks Site](http://www.irchelp.org/irchelp/networks/), please do not mirror or distribute.
+This page is part of the <http://www.irchelp.org/irchelp/networks/>, please do not mirror or distribute.
 
 These are networks devoted to a specific geographic area or language. Often they provide the best way for you to meet or chat with people from those areas. You may also be interested in our list of [international IRC resources](../misc/foreign.html). In addition, certain general networks also have channels devoted to specific areas or languages, use the [channel list search page](../chanlist/) to find them.
 

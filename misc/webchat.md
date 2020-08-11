@@ -12,8 +12,8 @@ redirect_from:
 by Joseph Lo, Ph.D. aka Jolo, last updated Feb 18, 2007
 
 original version at 
-[http://www.irchelp.org/irchelp/misc/webchat.html
-](http://www.irchelp.org/irchelp/misc/webchat.html)
+<http://www.irchelp.org/misc/webchat.html>
+
 
 This page is intended for people who want to provide a chat service on their
 web page, such that visitors to that web page can chat. If that describes you,

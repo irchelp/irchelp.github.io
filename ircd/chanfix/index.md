@@ -35,15 +35,15 @@ recipe for disaster.
 
 **Please look for your particular problem in the list below and read the answer. _After_ you read the answer, we can explain more on #CHANFIX.**
 
-  * 1. How do I register with CHANFIX or trigger it to work?
-  * 2. My Channel is opless, how do I get ops back?
-    * 2A. Conditions for CHANFIX to reop an opless channel
-    * 2B. Why won't CHANFIX reop my opless channel?
-    * 2C. Why Can't you just op me?
-  * 3. We still have ops but they are all idle, can you op me instead?
-  * 4. My channel was taken over, please help?
-  * 5. How does CHANFIX keep scores?
-  * 6. More Information
+  * 1\. How do I register with CHANFIX or trigger it to work?
+  * 2\. My Channel is opless, how do I get ops back?
+    * 2A\. Conditions for CHANFIX to reop an opless channel
+    * 2B\. Why won't CHANFIX reop my opless channel?
+    * 2C\. Why Can't you just op me?
+  * 3\. We still have ops but they are all idle, can you op me instead?
+  * 4\. My channel was taken over, please help?
+  * 5\. How does CHANFIX keep scores?
+  * 6\. More Information
 
 ## 1. How do I register with CHANFIX or trigger it to work?
 

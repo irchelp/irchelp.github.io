@@ -8,9 +8,8 @@ redirect_from:
 
 # srvcp Trojan Horse
 
-This page is part of the Trojan Horse Attacks Help Page at [http://www.irchelp
-.org/irchelp/security/trojan.html](http://www.irchelp.org/irchelp/security/tro
-jan.html) and pertains to the "srvcp.exe" trojan.
+This page is part of the Trojan Horse Attacks Help Page at 
+[trojan](/security/trojan.html) and pertains to the "srvcp.exe" trojan.
 
 Have you suddenly been finding yourself K-lined (banned) on servers? Since the
 middle of May, thousands of K-lines have been put in with these or similar

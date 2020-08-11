@@ -46,7 +46,7 @@ scattered as they are in releasenotes, newsletters or plainly undocumented.
 
 
 If you are new to IRC, I suggest you go for the other guides first,
-([http://www.irchelp.org/](http://www.irchelp.org/) or
+([http://www.irchelp.org/](/) or
 [http://www.undernet.org/](http://www.undernet.org/)) but if you're fairly
 familiar with IRC and want to fetch some interesting and often usefull
 commands, ([2.6](#sec2-5) and
@@ -295,7 +295,7 @@ ircu on my computer. Until then I must refer to
 
 The latest edition is always available at `http://www.student.uib.no/~st01369/
 ccosmos/` A mirror is available
-at <http://www.irchelp.org/irchelp/misc/ccosmos.html>.
+at [ccosmos](/misc/ccosmos.html).
 The last URL is probably the most permanent.
 
 If you wish to be notified of new editions, please visit
@@ -4139,7 +4139,7 @@ A short and good FAQ about the
 meaning of all kinds of quitmessages.
 
 
-<http://www.irchelp.org/> Another source for FAQs,
+[http://www.irchelp.org/](/faq/) Another source for FAQs,
 help, e.t.c Its advantage is presenting the IRC as a whole,
 
 As it cover the 4 main nets in the texts, (Dalnet, Undernet, Efnet and Ircnet)

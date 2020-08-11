@@ -19,8 +19,7 @@ This site highlights just some of the over 800 independent IRC networks out ther
 --------------------------------------------------------------------------------
 
 New to IRC? Confused about clients, servers, and networks? 
-**[See this short introduction to IRC
-](http://www.irchelp.org/irchelp/new2irc.html)**.
+**[See this short introduction to IRC ](/faq/new2irc.html)**.
 
 If you already know the name of the network and you're just looking for servers
 within that network, see our comprehensive list of servers such as for

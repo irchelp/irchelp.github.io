@@ -48,4 +48,4 @@ popup list. Constructive criticism and feedback are always welcome.
 
 [Joseph Lo, Ph.D.](http://deckard.duhs.duke.edu/~jyl/)
 
-webmaster, [http://www.irchelp.org/](http://www.irchelp.org/)
+webmaster, [http://www.irchelp.org/](/)

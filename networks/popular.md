@@ -14,7 +14,7 @@ _Selected Networks with 10,000+ Users_
 
 updated Nov 7, 2003
 
-This page is part of the [IRChelp.org Networks Site](http://www.irchelp.org/irchelp/networks/), please do not mirror or distribute.
+This page is part of the <http://www.irchelp.org/irchelp/networks/>, please do not mirror or distribute.
 
 We highlight here some popular networks with average user counts of 10,000 to 170,000 and up. These nets tend to have the largest, busiest channels. For example, some channels have over 2000 people, so just one channel like that has more people than 97% of the 800+ networks out there!
 
