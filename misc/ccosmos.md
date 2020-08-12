@@ -1,5 +1,5 @@
 ---
-tttie: IRC Command Cosmos
+title: IRC Command Cosmos
 layout: default
 redirect_from:
   - /irchelp/misc/ccosmos.html

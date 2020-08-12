@@ -1,5 +1,5 @@
 ---
-thtie: Is EFNet Dying?
+title: Is EFNet Dying?
 author: Joseph Lo (jolo)
 layout: default
 datecreated: 1 September 2000
