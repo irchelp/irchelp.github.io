@@ -7,6 +7,8 @@ redirect_from:
   - /irchelp/networks/topical.html
 ---
 
+updated {{ site.data.netlist.lastchange }}
+
 # Special Subject Networks
 
 _Selected networks serving a special subject matter or interest_

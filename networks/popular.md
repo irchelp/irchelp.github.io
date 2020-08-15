@@ -11,7 +11,7 @@ redirect_from:
 _Selected Networks with 10,000+ Users_
 
 
-updated Nov 7, 2003
+updated {{ site.data.netlist.lastchange }}
 
 This page is part of the <http://www.irchelp.org/irchelp/networks/>, please do not mirror or distribute.
 

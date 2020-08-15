@@ -5,6 +5,11 @@ computer:
 game:
 - ColdFront
 - QuakeNet
+general:
+- AUSTnet
+- ChatNet
+- NewNet
+- RelicNet
 kidedu:
 - CyberEd
 - Kidlink IRC
@@ -16,6 +21,7 @@ misc:
 - I.I.G.S. IRC
 - StonerNET
 mytest:
+- WebNet
 - emptyserv
 - localtest
 popular:

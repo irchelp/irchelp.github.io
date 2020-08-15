@@ -1,5 +1,6 @@
 # vim:set ts=2 sw=2 et: 
-emptyserv:
+lastchange: August 2020
+emptynet:
   image:
   homepage:
   webchat:
@@ -375,5 +376,118 @@ Kidsworld:
   webstatistic:
   category:
     - kidedu
+  status: down
+AUSTnet:
+  image:
+  homepage: "http://www.austnet.org/"
+  webchat: "https://webchat.austnet.org/chat.php"
+  slocation: Australia, Canada, Singapore, UK, USA
+  services: Channel (ChanOP), Nick (NickOP), Note (NoteOP), Help (HelpOP)
+  support_channels:
+  information: >
+    Servers mainly around the pacific. Unlike most large networks, this is one
+    of the few that isn't US-based, but predominantly australasian. North
+    American all-nighters might find some signs of friendly life here.
+    Started at early 1996
+  servers:
+    - incognito.or.us.austnet.org
+    - onacloud.vic.au.austnet.org
+    - ego.jp.austnet.org
+    - vegas.qld.au.austnet.org
+  webserverlist:
+  webstatistic:
+  category:
+    - general
+  status: active
+  check:
+    server: vegas.qld.au.austnet.org
+ChatNet:
+  comment:
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20180209052717/http://www.chatnet.org/servers.html"
+    - "*.gr maybe a split of chatnet"
+  image:
+  homepage: "http://www.chatnet.org/"
+  webchat:
+  slocation: Canada, Norway, Portugal, South Africa, Turkey, UK, USA
+  services: Channel (K9)
+  support_channels: #nuthouse
+  information: >
+    Started at March 1996
+  servers:
+    - irc.chatnet.gr
+  webserverlist: "http://www.chatnet.org/Servers.html"
+  webstatistic:
+  category:
+    - general
+  status: active
+  check:
+    server: irc.chatnet.gr
+NewNet:
+  comment:
+    - "2020-08-15 hp down"
+  image:
+  homepage: "http://www.newnet.net/"
+  webchat:
+  slocation: Canada, France, Germany, New Zealand, UK, USA
+  services: Channel (ChanServ), Nick (NickServ)
+  support_channels: #idleland
+  information: >
+    Originally formed by the irc.eskimo.com server after being forced off
+    EFnet, this network soon became a prime example of how a small network
+    grows to a respectable size and maintains stability for a number of years.
+    Started at April 1996
+  servers:
+    - irc.bluntchat.netserverserver
+    - irc.newnet.net
+    - irc.ircsoulz.org
+    - irc.dopechat.net
+  webserverlist: "http://www.newnet.net/serverlist.php"
+  webstatistic:
+  category:
+    - general
+  status: active
+  check:
+    server: irc.newnet.net
+RelicNet:
+  image:
+  homepage: "http://www.relic.net/"
+  webchat:
+  slocation: Australia, Belgium, Canada, UK, USA
+  services: Channel (ChanS), Nick (NickS), Memo (MemoS), others.
+  support_channels: #relicnet
+  information: >
+    Started at October 1997
+  servers:
+    - irc.relic.net
+  webserverlist:
+  webstatistic:
+  category:
+    - general
+  status: active
+  check:
+    server: irc.relic.net
+WebNet:
+  comment:
+    - "default port 7000"
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20070316061538/http://www.webchat.org/"
+  image:
+  homepage: "http://www.webchat.org/"
+  webchat:
+  slocation: Canada, Hong Kong, Thailand, USA
+  services: Channel (ChanServ), Nick (NickServ), Memo (MemoServ)
+  support_channels: #spiderslair
+  information: >
+    A network formerly run entirely on Windows servers, which was a great
+    novelty back then, this network has developed into a very decent
+    alternative to the major ones. Showcase for the (commercial) Conference
+    Room ircd.
+  servers:
+    -  irc.webchat.org
+  webserverlist: "http://www.webchat.org/servers.html"
+  webstatistic:
+  category:
+    - mytest
   status: down
 
