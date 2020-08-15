@@ -1,0 +1,176 @@
+# vim:set ts=2 sw=2 et: 
+emptyserv:
+  image:
+  homepage:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    nix
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+localtest:
+  homepage: 'http://localhost:4000/networks/popular.html'
+  slocation: da heim
+  services: atheme
+  support_channels: '#test'
+  information: >
+    my test server
+    and hier noch ein wenig text
+  servers:
+    - localhost
+  category:
+    - mytest
+  status: active
+  check:
+    server: 'localhost:5000'
+Undernet:
+  homepage: 'http://www.undernet.org/'
+  webchat: 'https://chat.undernet.org/'
+  slocation: Europe, US, Canada
+  services: '[Yes](http://www.undernet.org/services.php), The Undernet Channel Service Committee ([CSC](http://cservice.undernet.org/))'
+  support_channels: '#cservice'
+  information: >
+    Stable and highly organized network which pioneered features now
+    commonplace on other networks. Channel service requires certain conditions
+    before registering a channel. Policy and application form available from
+    their web site. Support for its services is extensive.
+  webserverlist: 'https://www.undernet.org/servers.php'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.undernet.org
+QuakeNet:
+  homepage: 'http://www.quakenet.org/'
+  webchat: 'https://webchat.quakenet.org/'
+  slocation: Europe, US
+  services: '[Yes](http://www.quakenet.org/request/), L (LightWeight Service), Q (The Other Service)'
+  support_channels: '#feds'
+  information: >
+    They call it the best multiplayer game ever. Maybe they're right, maybe
+    not. Anyway, here's a network full of (mainly European) addicts. It has
+    grown from a subject-specific network into the largest IRC network in the
+    world!
+  webserverlist: 'https://www.quakenet.org/servers'
+  webstatistic: 'https://www.quakenet.org/statistics#tab-users-day'
+  category:
+    - popular
+  status: active
+  check:
+    server: hostsailor.ro.quakenet.org 
+PTNet:
+  comment: 'porugal only'
+  homepage: 'http://www.ptnet.org/'
+  image: '/media/flags/pt-flag.png'
+  slocation: Portugal
+  services: N/A
+  support_channels: N/A
+  information: >
+    The largest local network for Portugal.
+  servers:
+    - irc.ptnet.org
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.ptnet.org
+Freenode:
+  homepage: 'https://freenode.net/'
+  webchat: 'https://webchat.freenode.net/'
+  slocation: China, Costa Rica, Europe
+  services: Yes, ChanServ, NickServ
+  support_channels: Many many support channels.
+  information: >
+    an interactive environment for coordination and support of peer-directed
+    projects, including... free software and open source. Our aim is to help
+    improve the communicative and collaborative skills of our participants and
+    to maintain a friendly, efficient environment for project coordination and
+    technical support.
+  servers:
+    - chat.freenode.net
+  category:
+    - popular
+  status: active
+  check:
+    server: chat.freenode.net
+'Enter The Game':
+  comment: '2020-08-14 homepage down'
+  homepage: 'http://www.enterthegame.com/'
+  slocation: US, Europe, Austrailia
+  services: '[Yes](http://help.enterthegame.com/commands.htm#commands), ChanServ'
+  support_channels:
+  information: >
+    Founded in early 1999... to offer Video Gaming Enthusiasts a better place
+    to gather and chat, setup matches, and meet new and friendly people
+    on-line." Originally dominated by American users.
+  servers:
+    - irc.enterthegame.com
+  webserverlist: 'http://help.enterthegame.com/server-list.htm#server-list'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.enterthegame.com
+Aniverse:
+  comment: '2020-08-14 homepage down, no usercount by the ircd'
+  homepage: 'http://www.aniverse.com/'
+  slocation: N/A
+  services: N/A
+  support_channels: N/A
+  information: >
+    "Aniverse Networks is attempting to become the largest Anime web portal in
+    existance. We run many high traffic anime websites and offer pure content to
+    those who desire."
+  servers:
+    - irc.aniverse.com
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.aniverse.com
+IRCNet:
+  homepage: 'http://www.ircnet.com/'
+  webchat: 'https://webchat.ircnet.net/'
+  slocation: Mainly Europe and the East
+  services: None
+  support_channels: '#ircnet, #IRChelp'
+  information: >
+    Created in 1996 division of EFnet, IRCnet has continued to grow independently.
+    Lays claim to historical privilege of being the original IRC network by virtue
+    of still containing the core of early IRC, including the Finnish site where IRC
+    was first used. Administration and operation are also more traditional than on
+    other networks. Many of the most popular channels are “national” channels,
+    devoted to the social gathering of people from Europe and Japan.
+  webserverlist: 'http://irc.tu-ilmenau.de/all_servers/'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.atw-inter.net
+EFNet:
+  homepage: 'http://www.efnet.org/'
+  slocation: Europe, US, Near East
+  services: 'None, except for a pseudo-chanserv ([CHANFIX](/ircd/chanfix/))'
+  support_channels: '#IRCHelp [General IRC], #help [General], #dmsetup [Virus/Trojan], #chanfix [takeover]'
+  information: >
+    Formerly the prime IRC network and for a long time synonymous with IRC. EFnet
+    stands for Eris-Free net, due to a historical event involving a server with a
+    machine name of ‘eris’. In 1996, many servers and users split off to form what
+    is now IRCnet, since then both networks have grown and prospered independently.
+    Both still do not support services such as channel or nickname registration,
+    resulting in the most freedom as well as chaos for the users.
+  webserverlist: 'http://www.efnet.org/?module=servers'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.efnet.fr
+
+
