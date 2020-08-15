@@ -62,6 +62,7 @@ QuakeNet:
   webstatistic: 'https://www.quakenet.org/statistics#tab-users-day'
   category:
     - popular
+    - game
   status: active
   check:
     server: hostsailor.ro.quakenet.org 
@@ -97,6 +98,7 @@ Freenode:
     - chat.freenode.net
   category:
     - popular
+    - computer
   status: active
   check:
     server: chat.freenode.net
@@ -172,5 +174,206 @@ EFNet:
   status: active
   check:
     server: irc.efnet.fr
-
+AmigaNet:
+  image:
+  comment: "2020-08-15 https://web.archive.org/web/20190418123826/http://www.amiganet.org/"
+  homepage: "http://www.amiganet.org/"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Formally "Anet", they are Amiga-friendly but not limited to just that.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - computer
+  status: down
+ColdFront:
+  comment: 
+    - "2020-08-15 hp down"
+    - "https://web.archive.org/web/20200305173103/http://www.coldfront.net/"
+  image:
+  homepage: "http://www.coldfront.net"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Is a small network dedicated to fostering communities of online gamers.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - game
+  status: down
+SciFi:
+  comment: "2020-08-15 server ?"
+  image:
+    homepage: "http://www.scifi.com/chat/"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    The SciFi TV channel caters to science fiction and fantasy, this chat server hosts chats with stars from the shows.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - scifi
+  status: down
+EqNET:
+  comment: 
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20170912041432/https://www.equestrianpages.com/category/chat/"
+  image:
+  homepage: "http://www.equestrianpages.com"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    All things equestrian (about horses, that is). Regular and special events. Main channel is #equestrian.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - misc
+  status: down
+'I.I.G.S. IRC':
+  comment:
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20060819153931/http://www.iigs.org/irc/index.htm"
+  image:
+  homepage: "http://www.iigs.org/irc/index.htm" 
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Genealogists worldwide unite!
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - misc
+  status: down
+BDSMnet:
+  comment:
+    - "2020-08-15 irc?"
+  image:
+  homepage: "http://www.bondage.com/irc/servers.asp"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Network for adults who are interested in discussions and play in all forms of sexuality. (No, it's not a porn trading post.)
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - misc
+  status: down
+StonerNET:
+  comment:
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20180902150525/http://stonernet.org/"
+  image:
+  homepage: "http://stonernet.org/"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    "Our goal is to unite the stoners around the world in order to bring an end to the prohibition of cannabis."
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - misc
+  status: down
+'Kidlink IRC':
+  comment:
+    - "2020-08-15 server ?"
+    - "http://www.kidlink.net/"
+  image:
+  homepage: "http://www.kidlink.org/IRC/"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    For kids up to age 15 and educators with 'classrooms' in various languages. Requires registration prior to using, chat is monitored.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - kidedu
+  status: down
+ScoutLink:
+  image:
+  homepage: "http://www.scoutlink.org/"
+  webchat: "https://webchat.scoutlink.net/"
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Scouts in various parts of the world have set up an IRC network for
+    meetings in various languages. There is also a link from within this
+    network to scouting channels all over IRC.
+  servers:
+    - webchat-ircd.scoutlink.net
+  webserverlist:
+  webstatistic:
+  category:
+    - kidedu
+  status: active
+CyberEd:
+  comment:
+    - "2020-08-15 server ?"
+  image:
+  homepage: "http://www.cybered.net/"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Dedicated to the use of IRC for educational purposes, hosting educational
+    events and discussions as well as classrooms on internet-related topics.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - kidedu
+  status: down
+Kidsworld:
+  comment:
+    - "2020-08-15 server ?"
+  image:
+  homepage: "http://www.kidsworld.org/"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Friendly network dedicated to providing a secure environment for kids without being too restrictive.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - kidedu
+  status: down
 

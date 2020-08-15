@@ -1,4 +1,20 @@
 ---
+computer:
+- AmigaNet
+- Freenode
+game:
+- ColdFront
+- QuakeNet
+kidedu:
+- CyberEd
+- Kidlink IRC
+- Kidsworld
+- ScoutLink
+misc:
+- BDSMnet
+- EqNET
+- I.I.G.S. IRC
+- StonerNET
 mytest:
 - emptyserv
 - localtest
@@ -11,3 +27,5 @@ popular:
 - PTNet
 - QuakeNet
 - Undernet
+scifi:
+- SciFi
