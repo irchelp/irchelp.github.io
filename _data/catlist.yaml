@@ -10,6 +10,7 @@ general:
 - ChatNet
 - NewNet
 - RelicNet
+- WebNet
 kidedu:
 - CyberEd
 - Kidlink IRC
@@ -21,8 +22,7 @@ misc:
 - I.I.G.S. IRC
 - StonerNET
 mytest:
-- WebNet
-- emptyserv
+- emptynet
 - localtest
 popular:
 - Aniverse
@@ -33,5 +33,31 @@ popular:
 - PTNet
 - QuakeNet
 - Undernet
+regional:
+- BlafaselNet
+- BrasIRC
+- BrasNET
+- CajNet
+- FunChat
+- GRnet
+- IRC-Hispano
+- IRCity
+- Indonet
+- LagNet
+- Oz.Org
+- PTNet
+- PTlink
+- Red Latina
+- RedeBrasil
+- RusNet
+- SurNet
+- ThaiNet
+- UniBG
+- ZAIRC
+- ZAnet.net
+- colcom
+- cybernet
+- irctr
+- skyinet
 scifi:
 - SciFi

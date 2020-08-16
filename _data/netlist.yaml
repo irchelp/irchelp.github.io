@@ -72,14 +72,15 @@ PTNet:
   homepage: 'http://www.ptnet.org/'
   image: '/media/flags/pt-flag.png'
   slocation: Portugal
-  services: N/A
-  support_channels: N/A
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (HelpServ, ircIIhelp)
+  support_channels: #portugal
   information: >
     The largest local network for Portugal.
   servers:
     - irc.ptnet.org
   category:
     - popular
+    - regional
   status: active
   check:
     server: irc.ptnet.org
@@ -488,6 +489,455 @@ WebNet:
   webserverlist: "http://www.webchat.org/servers.html"
   webstatistic:
   category:
-    - mytest
+    - general
+  status: down
+SurNet:
+  comment:
+    - "2020-08-16 server ?"
+    - "https://web.archive.org/web/20070429184305/http://www.sur.net/"
+  image: /media/flags/ar-flag.png
+  homepage: "http://www.sur.net/"
+  webchat:
+  slocation: Argentina
+  services: Channel (X), Nick (Nickserv)
+  support_channels:
+  information: >
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+'Oz.Org':
+  image: /media/flags/au-flag.png
+  homepage: "http://www.oz.org/"
+  webchat:
+  slocation: Australia
+  services: Channel (Z)
+  support_channels:
+  information: >
+    The first really large local network. It's made up of servers that used to be the Australian part of the Undernet.
+  servers:
+    - irc.ozorg.net
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.ozorg.net
+BrasNET:
+  comment:
+    - "2020-08-16 server ?"
+  image: /media/flags/br-flag.png
+  homepage: "http://www.brasnet.org/"
+  webchat:
+  slocation: Brazil
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (Helpserv, ircIIhelp)
+  support_channels: #brasil
+  information: >
+    Currently the largest local Brazilian network, this network has emerged the clear favourite among Brazilian users,
+  servers:
+    - irc.brasnet.org
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+BrasIRC:
+  image: /media/flags/br-flag.png
+  homepage: "http://www.BrasIRC.com.br"
+  webchat: "http://chat.BrasIRC.com.br"
+  slocation: Brazil
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (HelpServ)
+  support_channels: #brasil
+  information: >
+    Another large Brazilian network. Note that this is not the only network
+    calling itself BrasIRC, but is by far the largest of them.
+  servers:
+    - irc2.brasirc.com.br
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc2.brasirc.com.br
+RedeBrasil:
+  comment:
+    - "2020-08-16 server ?"
+  image: /media/flags/br-flag.png
+  homepage: "http://www.redebrasilirc.org/"
+  webchat:
+  slocation: Brazil
+  services: Nick (NickServ), Channel (ChanServ)
+  support_channels: #brasil
+  information: >
+    A smaller Brazilian network with the name of RedeBrasil.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+UniBG:
+  image: /media/flags/bg-flag.png
+  homepage: "http://www.unibg.org/"
+  webchat:
+  slocation: Bulgaria
+  services: Nick (NS), Channel (CS), Memo (MS), Stats (SS), Help (HS)
+  support_channels: #bulgaria
+  information: >
+    Started 1996, now a major network.
+  servers:
+    - irc.unibg.org
+    - irc.rosal.bg
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.unibg.org
+BlafaselNet:
+  image: /media/flags/de-flag.png
+  homepage: "http://www.blafasel.de/"
+  webchat:
+  slocation: Germany 
+  services:
+  support_channels: #blafasel
+  information: >
+    A small network evolved from a single channel named #blafasel. Of course
+    you have to be German to understand the humour behind it. Populated mainly by
+    IRC veterans.
+  servers:
+    - irc.blafasel.de
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.blafasel.de
+GRnet:
+  image: /media/flags/gr-flag.png
+  homepage: "http://www.irc.gr/"
+  webchat:
+  slocation: Canada, Greece, UK
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (HelpServ)
+  support_channels: #hellas, #gr-orpers
+  information: >
+    Started 1996. Some foreign servers serving expatriates too.
+  servers:
+    - srv.irc.gr
+  webserverlist: "https://grnet.wordpress.com/about/grnet-servers/"
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: srv.irc.gr
+Indonet:
+  comment: "2020-08-16 server ?"
+  image: /media/flags/id-flag.png
+  homepage: "http://irc.indo.net.id/"
+  webchat:
+  slocation: Indonesia
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)
+  support_channels:
+  information: >
+    Poorly maintained but fairly popular.
+  servers:
+    - irc.indo.net.id
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+IRCity:
+  comment:
+    - "2020-08-16 server ?"
+  image: /media/flags/it-flag.png
+  homepage: "http://www.ircity.org/"
+  webchat:
+  slocation: Italy
+  services:
+  support_channels: #italia
+  information: >
+    IRCity, fornerly known as FASTnet, is the first lasting attempt to form an
+    all-Italian network. Started 1997.
+  servers:
+    - irc.ircity.org
+    - hub.ru.irccity.net
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+'Red Latina':
+  comment:
+    - "2020-08-16 server ?"
+  image: /media/flags/mx-flag.png
+  homepage: "http://www.red-latina.org/"
+  webchat:
+  slocation: Mexico, USA
+  services: Channel (X), Nick (Ns), Memo (Ms)
+  support_channels:
+  information: >
+    Started 1997.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+cybernet:
+  comment:
+    - "2020-08-16 no dns"
+  image: /media/flags/pk-flag.png
+  homepage:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A very small single server from Cyber Internet Services
+  servers:
+    - irc.cyber.net.pk
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+colcom:
+  comment:
+    - "2020-08-16 no dns"
+  image: /media/flags/pk-flag.png
+  homepage:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A very small single server run by CompuNet Online.
+  servers:
+    - irc.col.com.pk
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+skyinet:
+  image: /media/flags/ph-flag.png
+  homepage:
+  webchat:
+  slocation: Philippines
+  services:
+  support_channels:
+  information: >
+    A very small single server run by a large local ISP, Sky Internet
+  servers:
+    - irc.skyinet.net
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+PTlink:
+  comment:
+    - "2020-08-16 server ?"
+  image: /media/flags/pt-flag.png
+  homepage: "http://www.ptlink.net/"
+  webchat:
+  slocation: Portugal
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (HelpServ, ircIIhelp)
+  support_channels: #portugal
+  information: >
+    Small network, better known for the public release of its server and Services code.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+RusNet:
+  image: /media/flags/ru-flag.png
+  homepage: "http://www.rus-net.org/"
+  webchat:
+  slocation: Russia, Ukraine, Latvia, USA
+  services:
+  support_channels:
+  information: >
+    RusNet serves the Russian-speaking community with servers spread throughout the former Soviet Union and a few more outside it.
+  servers:
+    - irc.lucky.net
+    - irc.anarxi.st
+    - irc.tsua.net
+    - irc.mv.ru
+    - irc.seb.org.ua
+    - irc.odessa.ua
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.tsua.net
+ZAIRC:
+  image: /media/flags/za-flag.png
+  homepage: "https://zairc.net/"
+  webchat:
+  slocation: South Africa, UK
+  services: Nick (NickServ), Memo (MemoServ)
+  support_channels: #zairc
+  information: >
+    Originally known as Differnet, ZAnet is probably the oldest existing local
+    network. A split in October 2000 resulted in the formation of ZAnet.net
+    to ZAnet.org
+    Started at late 1993
+  servers:
+    - irc.zairc.net
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.zairc.net
+'ZAnet.net':
+  comment:
+    - "2020-08-16 server ?"
+    - "https://web.archive.org/web/20061101144027/http://www.zanet.net/servers/"
+  image: /media/flags/za-flag.png
+  homepage: "http://www.zanet.net/"
+  webchat:
+  slocation: South Africa
+  services: Nick (NickServ), Memo (MemoServ)
+  support_channels:
+  information: >
+    A group of servers that split from the original ZAnet over administrative issues.
+    Started at Oct 2000
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+LagNet:
+  comment:
+    - "2020-08-16 server ?"
+    - "https://web.archive.org/web/20070413104642/http://www.lagnet.org.za/"
+  image: /media/flags/za-flag.png
+  homepage: "http://www.lagnet.org.za/"
+  webchat: '[Java](http://java.lagnet.org.za/)'
+  slocation: South Africa
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (HelpServ)
+  support_channels: #LagNet
+  information: >
+    Started at January 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+'IRC-Hispano':
+  image: /media/flags/es-flag.png
+  homepage: "http://www.irc-hispano.org/"
+  webchat: "https://chathispano.com/webchat/"
+  slocation: Spain
+  services: Channel (Chan), Nick (Nick) Memo (Memo) Channel registration (CReg)
+  support_channels:
+  information: >
+    After a turbulent early history and changing a number of names, this local
+    network has emerged as a truly major regional network. Also one of the
+    largest nets in the world.
+    Started at late 1995
+  servers:
+    - irc.chathispano.com
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.chathispano.com
+FunChat:
+  comment:
+    - "2020-08-16 server ?"
+  image: /media/flags/ch-flag.png
+  homepage: "http://www.ircchat.ch/"
+  webchat: "[Java](http://bboxbbs.funchat.net:8000/)"
+  slocation: Switzerland
+  services: Nick (NickServ), Channel (ChanServ), Help (HelpServ)
+  support_channels:
+  information: >
+    German-language Swiss network.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+ThaiNet:
+  image: /media/flags/th-flag.png
+  homepage: "http://www.irc.in.th/"
+  webchat:
+  slocation: Thailand, USA
+  services: Channel (ChanServ), Nick (NickServ) Memo (MemoServ), Help (HelpServ)
+  support_channels: #services
+  information:
+  servers:
+    - irc.in.thirc.in.th
+    - chat.irc.in.th
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.in.th
+irctr:
+  comment:
+    - "2020-08-16 server ?"
+    - "https://web.archive.org/web/20100201035402/http://www.irctr.gen.tr/"
+  image: /media/flags/tr-flag.png
+  homepage: "http://www.irctr.gen.tr/"
+  webchat:
+  slocation: Turkey, USA
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ)
+  support_channels: #zurna
+  information:
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: down
+CajNet:
+  comment:
+    - "2020-08-16 server ?"
+    - "https://web.archive.org/web/20061229045818/http://www.cajnet.com/webtv/"
+  image: /media/flags/us-flag.png
+  homepage: "http://www.cajnet.com/"
+  webchat:
+  slocation: USA (Louisiana)
+  services: Nick (NickServ), Channel (ChanServ)
+  support_channels:
+  information:
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
   status: down
 
