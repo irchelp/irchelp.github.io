@@ -1,11 +1,20 @@
+---
+title: 'CHANFIX: EFnet Channel Fixing'
+author: Jolo, tiggergrm
+dateupdated: 16 November 2003
+layout: default
+---
 # CHANFIX: EFnet Channel Fixing
 
-**Translations: [![](fr.gif) Français](chanfix-fr.html) - [![](il.gif) Hebrew](chanfix-il.html) - [![](no.gif) Norsk](chanfix-no.html) **
+**Translations:** 
+[![fr-flag](/media/flags/fr-flag.gif) Français](chanfix-fr.html)
+[![no-flag](/media/flags/no-flag.gif) Norsk](chanfix-no.html)
+[![il-flag](/media/flags/il-flag.gif) Hebrew](chanfix-il.html)
 
 by Jolo, tiggergrm and many others, updated Nov 16, 2003
 
-Original version at [http://www.irchelp.org/ircd/chanfix/](http://www.
-irchelp.org/ircd/chanfix/)
+Original version at 
+<http://www.irchelp.org/ircd/chanfix/>
 
 ## What is CHANFIX? _READ THIS PLEASE!_
 
@@ -26,15 +35,15 @@ recipe for disaster.
 
 **Please look for your particular problem in the list below and read the answer. _After_ you read the answer, we can explain more on #CHANFIX.**
 
-  * 1. How do I register with CHANFIX or trigger it to work?
-  * 2. My Channel is opless, how do I get ops back?
-    * 2A. Conditions for CHANFIX to reop an opless channel
-    * 2B. Why won't CHANFIX reop my opless channel?
-    * 2C. Why Can't you just op me?
-  * 3. We still have ops but they are all idle, can you op me instead?
-  * 4. My channel was taken over, please help?
-  * 5. How does CHANFIX keep scores?
-  * 6. More Information
+  * 1\. How do I register with CHANFIX or trigger it to work?
+  * 2\. My Channel is opless, how do I get ops back?
+    * 2A\. Conditions for CHANFIX to reop an opless channel
+    * 2B\. Why won't CHANFIX reop my opless channel?
+    * 2C\. Why Can't you just op me?
+  * 3\. We still have ops but they are all idle, can you op me instead?
+  * 4\. My channel was taken over, please help?
+  * 5\. How does CHANFIX keep scores?
+  * 6\. More Information
 
 ## 1. How do I register with CHANFIX or trigger it to work?
 
@@ -61,7 +70,7 @@ find out why.
   1. The channel must have existed for at least half an hour. Although that is the technical minimum, please be realistic. Any channel less than a few days old is probably too new to fix, because you have not established a stable set of regular ops. Either create a new channel, or just chat on an existing channel since you might not be ready yet to run your own. 
   2. The channel has to have had at least 4 people in it. Again this is a technical minimum, but unless you really have a lot of people, it is often quicker to fix the channel by cycling it (everybody /part, then recreate the channel from scratch). 
   3. You have at least 1 and preferably 5 or more qualifying former ops in the channel right now. Qualifications are listed below. 
-  4. Those former ops had [identd](http://www.irchelp.org/networks/connectprob.html#identd) working, so that `/whois nickname` did **not** show a **`~`** (tilde) before their username. For example, if your nickname is JoeBob and you type "/whois JoeBob" without the quotes, and you see "`JoeBob is ~blah@whatever.com`" then your identd is broken, and CHANFIX will not recognize you no matter how long you were an op. 
+  4. Those former ops had [identd](/networks/connectprob.html#43-no-identd) working, so that `/whois nickname` did **not** show a **`~`** (tilde) before their username. For example, if your nickname is JoeBob and you type "/whois JoeBob" without the quotes, and you see "`JoeBob is ~blah@whatever.com`" then your identd is broken, and CHANFIX will not recognize you no matter how long you were an op. 
   5. The former ops were ops regularly during the past 2 weeks. "Regular" doesn't have to be 24/7, but it means they are usually an op - not just a few hours every few days. Anything before 2 weeks ago is irrelevant because CHANFIX only keeps records that long. It does not matter who created the channel or who is supposed to "own" it. 
   6. Their hostname or IP is "static", meaning it has not changed over the last 2 weeks. (The hostname or IP is the address following the @ in your /whois, in the JoeBob example above, the hostname is "whatever.com".) Hostnames containing certain keywords like "ppp" or "dialup" are always treated as dynamic. Certain domains are always dynamic, including bb.online.no and AOL.com. 
   7. The nickname does not matter, but the username must not have changed. In the example for JoeBob above, the "blah" before the @ symbol is the username. CHANFIX uses username@hostname to track scores. 
@@ -100,9 +109,9 @@ an EFnet channel takes at least 10 people (not bots) who qualify according to
 the previous section. If you don't have that, what's the point of having a
 channel anyway? Visitors aren't going to come to some small, poorly organized
 channel when there are thousands of [bigger
-channels](http://www.irchelp.org/irchelp/chanlist/) already. If you insist on
+channels](/chanlist/) already. If you insist on
 running a channel anyway, consider moving your new/small channel to a
-[network](http://www.irchelp.org/irchelp/networks/) with registration
+[network](/networks/) with registration
 services.
 
 ### 2C. Why Can't you just op me?
@@ -111,8 +120,8 @@ On EFnet, **nobody can just op you** on any channel, not even IRC operators
 ("opers") or admins. There is no secret command. EFnet is not like other
 networks such as DALnet where they have services that give opers these powers.
 For more information, see [Why EFnet has no registration
-services](http://www.irchelp.org/irchelp/networks/noserv.html) and [The Myths
-of Opers](http://www.irchelp.org/ircd/opermyth.html).
+services](/networks/noserv.html) and [The Myths
+of Opers](/ircd/opermyth.html).
 
 ## 3. We still have ops but they are all idle, can you op me instead?
 
@@ -144,7 +153,7 @@ new channel.
 
 If you had an actual takeover by an outsider, then you need to figure out how
 they got ops (accidental op, "hacked" bot/shell, [denial of service
-attack](../nuke/) that knocked everybody else offline, etc.). Then make sure
+attack](/nuke/) that knocked everybody else offline, etc.). Then make sure
 it doesn't happen again. We do not issue fixes until you have demonstrated
 that you won't get taken over again right away. You should have as many as
 possible of your qualifying regular ops online and awake, either sitting in

@@ -1,3 +1,9 @@
+---
+title: 'Why Do People Register, Does Crippling Work, Does Anybody Really Know?'
+author: Colin Messitt
+status: historical
+layout: default
+---
 # Why Do People Register, Does Crippling Work, Does Anybody Really Know?
 **_Colin Messitt_**
 

@@ -4,9 +4,20 @@ layout: default
 ---
 
 # ircII command help
+##  [irchelp](./irciihelp/index.md)
+* [basics](./irciihelp/basics.md)/[intro](./irciihelp/intro.md)
+* [etiquette](./irciihelp/etiquette.md)
+* [copyright](./irciihelp/ircii/copyright.md)
+* basic commands:
+  - [LIST](./irciihelp/list.md)
+  - [NAMES](./irciihelp/names.md)
+  - [JOIN](./irciihelp/join.md)
+  - [MSG](./irciihelp/msg.md)
+  - [QUIT](./irciihelp/quit.md)
+  - [HELP](./irciihelp/help.md)
+  - [WHO](./irciihelp/who.md)
+  - [WHOIS](./irciihelp/whois.md)
 
-We're working on converting ircII's helpfiles to HTML again.
-
-In the meantime, Kai Seidler has posted a HTML version of the helpfiles at
-<http://irc.fu-berlin.de/irc/help/> based on ircII 2.9-roof which should
-still largely be accurate in more modern version of ircII.
+## external
+Kai Seidler has posted a HTML version of the helpfiles at
+<http://irc.fu-berlin.de/irc/help/> 

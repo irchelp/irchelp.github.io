@@ -17,8 +17,8 @@ computer to be hijacked and used in criminal attacks on others.
 by [Joseph Lo](http://bishop.mc.duke.edu/%7Ejyl) aka Jolo, with much help from
 countless others
 
-This page is part of IRChelp.org's security section at [http://www.irchelp.org
-/irchelp/security/](http://www.irchelp.org/irchelp/security/)
+This page is part of IRChelp.org's security section at
+<http://www.irchelp.org/security/>
 
 updated Feb 5, 2006
 

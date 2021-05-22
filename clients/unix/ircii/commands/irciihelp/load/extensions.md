@@ -1,0 +1,21 @@
+---
+title: 'ircii help: extensions'
+author: Michael Sandrof, Troy Rollo, Matthew R. Green
+datecreated: 3 August 2020
+layout: default
+license: ircii
+summary: >
+  ircii version: 20190117
+  create with help2md.pl
+---
+```
+Usage: LOAD extensions
+  This one is usually loaded automatically anyway by the 'global' script.
+  It simply defines 'umode', 'dmsg', and 'dquery' thus taking the 
+  burden off the client itself to deal with them.
+```
+
+[index](index.html)
+[up](..)
+
+<small> ircii 20190117 </small>

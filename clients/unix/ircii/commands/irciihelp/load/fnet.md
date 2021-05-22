@@ -1,0 +1,43 @@
+---
+title: 'ircii help: fnet'
+author: Michael Sandrof, Troy Rollo, Matthew R. Green
+datecreated: 3 August 2020
+layout: default
+license: ircii
+summary: >
+  ircii version: 20190117
+  create with help2md.pl
+---
+```
+Usage: LOAD fnet
+  IRC ForumNet Compatibility System
+
+Additionnal commands available:
+  Group commands
+    group	name	Change to group +name
+    status    [s|p|h|u] Change group status
+    boot	nick	Expel nick from group
+    invite	nick	Invite nick to the group
+    pass	nick	Make nick a group moderator
+    nm		nick	Remove moderation from nick
+    w			List groups and users
+    topic	topic	Change the topic of the group
+
+  Message commands
+    m		nick	Send a message to nick
+    beep	nick	Send a beep to nick
+    hclear		Clear /m history
+
+  General commands
+    commands		Show this command list
+    display 	n	Redisplay the last n messages
+    nick	newnick	Change your nickname to newnick
+    motd		Read the current message of the day
+    q			Quit IRC
+    fset	var	Set or display an IRC variable.
+```
+
+[index](index.html)
+[up](..)
+
+<small> ircii 20190117 </small>

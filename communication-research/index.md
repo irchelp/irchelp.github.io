@@ -1,20 +1,19 @@
 ---
 title: IRC Communications Resarch Resources
 author: E. Sean Rintel
+dateupdated: 19 October 2000
+status: historical
 layout: default
 ---
 
-&nbsp_place_holder;
-
 # **IRC Communication Research Resources**
 
-By
+By E. Sean Rintel
 
 Last updated 19 October 2000
 
-&nbsp_place_holder;
 
-[Previously _Internet Relay Chat Communication Articles Storage_ and_ The
+[Previously _Internet Relay Chat Communication Articles Storage_ and _The
 Communication on IRC Texts Index_]
 
 This is an archive and bibliography of resources about interaction on Internet
@@ -26,4 +25,3 @@ linguistic research into **how we use IRC to interact**.
   * **The [humour resources](humour/)** are user-written primary sources about the lighter side of IRC.
   * **The [other IRC resources](other/)** include information about how to get started using IRC, to find information to technical questions, and to find other sites with IRC documents.
 
-* * *

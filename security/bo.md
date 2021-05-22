@@ -6,42 +6,21 @@ redirect_from:
   - /irchelp/security/bo.html
 ---
 # Back Orifice
+{: .no_toc}
 
 by Anthony Stirk aka Upuaut
 
 Contributions from Chris Benson, Joseph Lo and Rich Lafferty.
 
 
-The original version of this page is at <[http://www.irchelp.org/irchelp/secur
-ity/bo.html](http://www.irchelp.org/irchelp/security/bo.html)>
+The original version of this page is at <http://www.irchelp.org/security/bo.html>
 
 ## Table of Contents
+{: .no_toc}
+{:#idx}
 
-> ## 1. What is Back Orifice
-
-> > 1.1 Is Back Orifice a virus?
-
-1.2 Is Back Orifice a trojan horse?
-
-1.3 Are any other IRC clients vulnerable?
-
-> ## 2. What if I have Back Orifice?
-
-> > 2.1 How do I know if I have Back Orifice?
-
-2.2 How do I get rid of Back Orifice?
-
-2.3 How can I prevent getting Back Orifice?
-
-2.4 How can I prevent this from happening in the future?
-
-> ## 3. Miscellaneous Questions.
-
-> > 3.1 What will Back Orifice do to my computer?
-
-3.2 Will it hurt other files on my hard drive?
-
-* * *
+* auto-gen TOC:
+{:toc}
 
 ## 1. What is Back Orifice?
 
@@ -80,7 +59,7 @@ Windows 95/98.
 
 * * *
 
-[Return to top]
+[Return to top](#idx)
 
 ## 2. What if I have Back Orifice?
 
@@ -110,8 +89,8 @@ use one of these methods to remove Back Orifice.
 
 This fix program (BODetect) was written by Chris Benson who works for
 Symantec. It is $20 [shareware](/misc/shareware.html) with 30 day free
-trial and no nagging or crippling. Download it [Chris's own site](http://www.s
-piritone.com/~cbenson/current_projects/backorifice/backorifice.htm) or
+trial and no nagging or crippling. Download it 
+[Chris's own site](http://www.spiritone.com/~cbenson/current_projects/backorifice/backorifice.htm) or
 [www.download.com](http://www.download.com/) or
 [www.hotfiles.com](http://www.hotfiles.com/).
 
@@ -132,31 +111,30 @@ should also work for Windows 98 machines but has not been tested on this
 platform.
 
 > _IRCHELP.ORG accepts no responsibility should this procedure go wrong and
-mess your machine up. _**_MAKE A BACKUP !_**
+mess your machine up. **MAKE A BACKUP!**_
 
-&nbsp_place_holder;
 
 > 1. Press the START button.
 
-2. Select _R_UN , type REGEDIT
+2. Select `RUN` , type REGEDIT
 
-3. Using the **+ **to expand the branches, locate the following key :
+3. Using the `+` to expand the branches, locate the following key :
 
 
-**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunServices**
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunServices`
 
-> ![](scrsht1.gif)
+> ![regedit](/media/screenshots/scrsht1.gif)
 
 > 4. On the right hand side, double click on the (default) 'key' . It will
 bring a box up showing the key and it's current value ( Value data
-)&nbsp_place_holder; ,which is ' .exe'. Highlight this and press delete (not
-backspace make sure the key is empty), then click _O_K.
+) ,which is ' .exe'. Highlight this and press delete (not
+backspace make sure the key is empty), then click `OK`.
 
 5. Close REGEDIT and reboot you machine .
 
 6. Press START
 
-7. _R_UN , type COMMAND
+7. `RUN` , type COMMAND
 
 8. At the DOS prompt type :
 
@@ -179,9 +157,8 @@ the **DCC** menu, choose **Options...** and then the **Send** tab.
 > The general answer to this question is, "don't accept files from untrusted
 sources"
 
-* * *
 
-[Return to top]
+[Return to top](#idx)
 
 ## 3. Miscellaneous Questions
 

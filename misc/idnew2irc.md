@@ -13,18 +13,9 @@ IRC](http://www.arjuna.net/irc/)
 
 versi 1.1.3, 4 Maret 1998
 
-Dokumen asli: <[http://www.irchelp.org/irchelp/new2irc.html](http://www.irchel
-p.org/irchelp/new2irc.html)>
+Dokumen asli: <http://www.irchelp.org/misc/idnew2irc.html>
 
-Other versions: [Español](/irchelp/misc/esnew2irc.html) |
-[Français](/irchelp/misc/frnew2irc.html) |
-[Deutsch](/irchelp/misc/denew2irc.html) |
-[Greek](/irchelp/misc/grnew2irc.html) |
-[Indonesia](/misc/idnew2irc.html) |
-[Italiano](/misc/itnew2irc.html) |
-[Nederlands](/irchelp/misc/nlnew2irc.html) |
-[Portugues](/misc/ptnew2irc.html) |
-[Turkce](/misc/trnew2irc.html)
+{% include new2irc_translations.md %}
 
 ## Daftar Isi
 
@@ -47,7 +38,7 @@ langsung dengan orang-orang di seluruh dunia. Terdiri dari bermacam-macam
 "network" (jaringan atau "nets") IRC server, mesin-mesin untuk menghubungkan
 pemakai dengan IRC. Nets yang terbesar adalah [EFnet](http://www.efnet.org)
 (IRC net yang pertama, yang kadang-kadang memiliki lebih dari 32000 pengguna
-IRC dalam satu saat), [Undernet](http://www.undernet.org"),
+IRC dalam satu saat), [Undernet](http://www.undernet.org),
 [IRCnet](http://www.funet.fi/~irc/), [DALnet](http://www.dal.net),
 [NewNet](http://www.newnet.net).
 
@@ -62,9 +53,9 @@ Client-client yang direkomendasikan:
 
 >
 
->   1. UNIX/Shell: [ircII](http://www.irchelp.org/irchelp/ircii/)
+>   1. UNIX/Shell: [ircII](/clients/unix/ircii/)
 
->   2. Windows: [mIRC](http://www.irchelp.org/irchelp/mirc/) or
+>   2. Windows: [mIRC](/clients/windows/mirc/) or
 [PIRCH](http://www.bcpl.lib.md.us/~frappa/pirch.html)
 
 >   3. Macintosh: [Ircle](http://www.xs4all.nl/~ircle)
@@ -89,7 +80,7 @@ terjadi walaupun Anda tidak bertemu secara langsung).
 
 >
 
-> [ Daftar Isi ]
+> [ Daftar Isi ](#top)
 
 * * *
 
@@ -113,7 +104,7 @@ Hal ini dapat menimbulkan konflik, jadi jika Anda benar-benar ingin "memiliki"
 suatu nama, Anda bisa menggunakan network yang menyediakan "service" untuk
 hal-hal seperti itu, misalnya [Undernet](http://www.undernet.org),
 [DALnet](http://www.dal.net/), atau [network-network
-kecil](http://www.irchelp.org/irchelp/networks/nets/) yang lain.
+kecil](/networks/nets/) yang lain.
 
 >
 
@@ -131,16 +122,15 @@ Anda diterima dengan hangat.
 
 >
 
-> [IRC server](http://www.irchelp.org/ircd/) dikelola oleh IRC admin
+> [IRC server](/ircd/) dikelola oleh IRC admin
 dan IRC operator (atau "IRCops"). IRCops tidak turut campur dalam urusan
 pribadi orang-orang, perang antar channel, memberi status op, dan lain-lain.
 Mereka bukanlah "IRC cops".
 
 >
 
-> [ Daftar Isi ]
+> [ Daftar Isi ](#top)
 
-* * *
 
 ## 3. Berbicara dan memasukkan perintah
 
@@ -153,146 +143,101 @@ besar saat Anda mengetikkan perintah-perintah tersebut. Semua perintah-
 perintah dasar dalam irc berlaku untuk semua client-client.
 
 >
-
 > Beberapa contoh diberikan di bawah ini. Di sini, kita anggap bahwa nick Anda
-adalah "unyil", dan Anda berada di channel "#bawel".
-
+> adalah "unyil", dan Anda berada di channel "#bawel".
 >
-
 > Kawan Anda, "usro", berada di channel "#bawel" dengan Anda, dan kawan Anda
-yang lain, "ucrit", sedang berada dalam IRC tetapi tidak dalam channel yang
-sama dengan Anda. Anda dapat menggunakan contoh-contoh di bawah ini dengan
-mengganti nick dan/atau nama channel dengan nama-nama yang sebenarnya.
-
+> yang lain, "ucrit", sedang berada dalam IRC tetapi tidak dalam channel yang
+> sama dengan Anda. Anda dapat menggunakan contoh-contoh di bawah ini dengan
+> mengganti nick dan/atau nama channel dengan nama-nama yang sebenarnya.
 >
-
 > Apa yang Anda ketik Apa yang terjadi
-
 >
-
-> /join #bawel
-
+> `/join #bawel`
 > Anda bergabung dengan channel bawel
-
 >
-
-> /who #bawel
-
+> `/who #bawel`
 > Memberikan informasi pemain di channel bawel
 
-@ = channel op, * = IRC op
+`@` = channel op, `*` = IRC op
 
 >
-
 > halo semua
-
 > Semua pemain di #bawel akan melihat:
 
-_<unyil> halo semua_
+```
+<unyil> halo semua
+```
 
 (Anda tidak perlu mengetikkan nick Anda)
 
 >
-
-> /me anak baik
-
+> `/me anak baik`
 > Semua pemain di #bawel akan melihat:
 
-_* unyil anak baik_
+```
+* unyil anak baik
+```
 
 >
-
-> /leave #bawel
-
+> `/leave #bawel`
 > Anda meninggalkan channel bawel
-
+>
+> `/whois ucrit`
+> Anda akan mendapatkan informasi tentang ucrit, atau nick apa saja yang Anda ketikkan
 >
 
-> /whois ucrit
-
-> Anda akan mendapatkan informasi tentang ucrit, atau nick apa saja yang Anda
-ketikkan
-
->
-
-> /whois unyil
-
+> `/whois unyil`
 > Informasi mengenai diri Anda (catatan: Anda menggunakan nick unyil)
-
 >
-
-> /nick NickBaru
-
+> `/nick NickBaru`
 > Mengganti nick Anda menjadi "NickBaru"
-
 >
-
-> /msg ucrit halo bos
-
+> `/msg ucrit halo bos`
 > Hanya ucrit yang bisa melihat kalimat Anda (Anda tidak perlu berada di dalam
-channel yang sama dalam hal ini).
+> channel yang sama dalam hal ini).
 
 ucrit akan melihat: _*unyil* halo bos_
 
 >
-
-> /ping #bawel
-
+> `/ping #bawel`
 > Memberikan informasi tentang "delay" (hambatan bolak balik) antara Anda
-dengan semua pemain yang ada di #bawel
-
+> dengan semua pemain yang ada di #bawel
 >
-
-> /ping ucrit
-
+> `/ping ucrit`
 > Memberikan informasi tentang "delay" (hambatan bolak balik) antara Anda
-dengan ucrit (seorang saja)
-
+> dengan ucrit (seorang saja)
 >
-
-> /dcc chat usro
-
+> `/dcc chat usro`
 > Mengirimkan usro permintaan "dcc chat". usro harus mengetikkan _/dcc chat
-unyil_ untuk menerima dcc chat tersebut (catatan: Anda menggunakan nick
-unyil). DCC Chat lebih cepat, bebas hambatan ("lag") dan bersifat lebih
-pribadi jika dibandingkan dengan /msg
-
+> unyil_ untuk menerima dcc chat tersebut (catatan: Anda menggunakan nick
+> unyil). DCC Chat lebih cepat, bebas hambatan ("lag") dan bersifat lebih
+> pribadi jika dibandingkan dengan /msg
 >
-
-> /msg =usro main air yuk
-
+> `/msg =usro main air yuk`
 > Sekalinya hubungan DCC Chat telah terjalin, Anda bisa menggunakan perintah
-_/msg =nick_ untuk berbincang-bincang (perhatikan tanda sama dengan [=]
-sebelum nick). DCC tidak melalui server, jadi tidak akan terpengaruh oleh
-hambatan-hambatan (lag) dari server, net split, dan lain-lain
+> _/msg =nick_ untuk berbincang-bincang (perhatikan tanda sama dengan [=]
+> sebelum nick). DCC tidak melalui server, jadi tidak akan terpengaruh oleh
+> hambatan-hambatan (lag) dari server, net split, dan lain-lain
 
 usro akan melihat: _=unyil= main air yuk_
 
 >
-
-> /help
-
+> `/help`
 > Perintah ini biasanya dapat ditemukan hampir di setiap client. Cobalah.
-
 >
-
-> /quit selamat malam!
-
+> `/quit selamat malam!`
 > Anda akan "quit" IRC, dengan meninggalkan pesan. Para pemain yang lain akan
-melihat: _*** Signoff: unyil (selamat malam!)_ (catatan: Anda menggunakan nick
-unyil)
-
+> melihat: `*** Signoff: unyil (selamat malam!)` (catatan: Anda menggunakan
+> nick unyil)
 >
-
 > **CATATAN:** Bila Anda tidak sedang berada di dalam suatu channel, kalimat
-yang dimulai dengan garis miring (/) tidak akan ber-efek apa-apa, dan beberapa
-perintah akan memberikan hasil yang lain atau tidak berfungsi sama sekali.
-
+> yang dimulai dengan garis miring (/) tidak akan ber-efek apa-apa, dan
+> beberapa perintah akan memberikan hasil yang lain atau tidak berfungsi sama
+> sekali.
 >
+> [ Daftar Isi ](#top)
 
-> [ Daftar Isi ]
-
-* * *
 
 ## 4. Harus ke mana?
 
@@ -324,136 +269,79 @@ channel-op.
 
 >
 
-> [ Daftar Isi ]
+> [ Daftar Isi ](#top)
 
-* * *
 
 ## 5. Smileys dan singkatan
 
-> :-) adalah muka orang yang sedang tersenyum ("smiley"), miringkan kepala
-Anda ke kiri untuk dapat melihatnya. Sama halnya dengan, :-( adalah orang yang
-sedang sedih, ;-) adalah orang yang sedang mengedipkan mata, :~~( adalah orang
-yang sedang menangis, :-P adalah orang yang sedang menjulurkan lidahnya, :-P~~
-adalah orang yang sedang "ngiler", dan (-: adalah untuk orang kidal yang
-sedang tersenyum, dan lain-lain. Ada beribu-ribu macam smiley serperti itu.
-
+> `:-)` adalah muka orang yang sedang tersenyum ("smiley"), miringkan kepala Anda
+> ke kiri untuk dapat melihatnya. Sama halnya dengan, `:-(` adalah orang yang
+> sedang sedih, `;-)` adalah orang yang sedang mengedipkan mata, `:~~(` adalah
+> orang yang sedang menangis, :-P adalah orang yang sedang menjulurkan
+> lidahnya, `:-P~~` adalah orang yang sedang "ngiler", dan `(-:` adalah untuk orang
+> kidal yang sedang tersenyum, dan lain-lain. Ada beribu-ribu macam smiley
+> serperti itu.
 >
-
 > Berikut ini adalah singkatan-singkatan yang umum dipakai dalam IRC:
-
 >
-
 > Singkatan Singkatan dalam bahasa Inggris Arti dalam bahasa Indonesia
 
->
 
-> brb
+brb
+: be right back
+: segera kembali
 
-> be right back
+bbl
+: be back later
+: nanti akan kembali
 
-> segera kembali
+np
+: no problem
+: tidak apa-apa
 
->
+lol
+: laughing out loud
+: tertawa terbahak-bahak
 
-> bbl
+re
+: hi again (re hi)
+: Halo lagi!
 
-> be back later
+wtf
+: what the f\*\*\*
+: APA??
 
-> nanti akan kembali
+rotfl
+: rolling on the floor laughing
+: tertawa terguling-guling
 
->
+bbiaf
+: be back in a flash
+: kembali sebentar lagi
 
-> np
+ttfn
+: ta ta for now
+: dadaagghh!!
 
-> no problem
+imho
+: in my humble opinion
+: menurut pendapat saya
 
-> tidak apa-apa
+j/k
+: just kidding
+: hanya bercanda
 
->
+wb
+: welcome back
+: selamat datang
 
-> lol
+rtfm
+: read the f\*\*\*ing manual
+: BACA PETUNJUK!!!
 
-> laughing out loud
 
-> tertawa terbahak-bahak
+[ Daftar Isi ](#top)
 
->
-
-> re
-
-> hi again (re hi)
-
-> Halo lagi!
-
->
-
-> wtf
-
-> what the f***
-
-> APA??
-
->
-
-> rotfl
-
-> rolling on the floor laughing
-
-> tertawa terguling-guling
-
->
-
-> bbiaf
-
-> be back in a flash
-
-> kembali sebentar lagi
-
->
-
-> ttfn
-
-> ta ta for now
-
-> dadaagghh!!
-
->
-
-> imho
-
-> in my humble opinion
-
-> menurut pendapat saya
-
->
-
-> j/k
-
-> just kidding
-
-> hanya bercanda
-
->
-
-> wb
-
-> welcome back
-
-> selamat datang
-
->
-
-> rtfm
-
-> read the f***ing manual
-
-> BACA PETUNJUK!!!
-
->
-
-> [ Daftar Isi ]
-
-* * *
 
 ## 6. Anjuran dalam ber-IRC
 
@@ -478,17 +366,17 @@ tinggalkan channel itu dan join channel lain.
 
 > **Diputuskan hubungan dengan /list?**     Bila server Anda memutuskan
 hubungan ketika Anda menggunakan perintah /list, cobalah untuk menggunakan
-server lain. Daftar dari channel-channel yang ada dapat Anda temukan di: [http
-://www.irchelp.org/irchelp/chanlist](http://www.irchelp.org/irchelp/chanlist/)
+server lain. Daftar dari channel-channel yang ada dapat Anda temukan di: 
+[chanlist](/chanlist/)
 .
 
 >
 
 > **Gangguan dan Serangan**     Bila seseorang mulai mengganggu Anda,
 tinggalkan channel itu atau gunakan perintah _/ignore_. Untuk detail-nya, para
-pengguna [mIRC](http://www.irchelp.org/irchelp/mirc/) dapat melihat dokumen
-tentang ["flood protection"](http://www.irchelp.org/irchelp/mirc/flood.html),
-para pengguna [ircII](http://www.irchelp.org/irchelp/ircii/) dapat mengetikkan
+pengguna [mIRC](/clients/windows/mirc/) dapat melihat dokumen
+tentang ["flood protection"](/clients/windows/mirc/flood.html),
+para pengguna [ircII](/clients/unix/ircii/) dapat mengetikkan
 perintah _/help ignore_. Satu hal yang baik yang dapat diingat adalah untuk
 menjadikan "user mode" Anda menjadi +i (invisible) untuk menghindari gangguan-
 gangguan -- jika Anda "invisible", hanya pemain-pemain yang ada di dalam
@@ -499,17 +387,16 @@ pakai saat itu.
 
 > Bila ada orang yang ingin dengan sengaja memutuskan hubungan server Anda,
 bacalah dokumen yang ada di "[Denial of Service or "Nuke"
-Attacks](http://www.irchelp.org/irchelp/nuke/)". Anda dapat juga menyimpan
+Attacks](/nuke/)". Anda dapat juga menyimpan
 percakapan-percakapan Anda (menyimpan
-[log](http://www.irchelp.org/irchelp/misc/irclog.html) dan melaporkan
+[log](/security/irclog.html) dan melaporkan
 serangan-serangan bila itu melanggar aturan main, yang dapat dilihat dengan
 mengetikkan _/motd_.
 
 >
 
-> [ Daftar Isi ]
+> [ Daftar Isi ](#top)
 
-* * *
 
 ## 7. Masalah-masalah server
 
@@ -561,25 +448,24 @@ keperluan itu.
 
 >
 
-> [ Daftar Isi ]
+> [ Daftar Isi ](#top)
 
-* * *
 
 ## 8. Informasi lebih lanjut
 
 > Untuk informasi lebih lanjut, Anda dapat mengunjungi
-[#irchelp](http://www.irchelp.org) homepage. Di sana Anda dapat menemukan
+[#irchelp](/) homepage. Di sana Anda dapat menemukan
 file-file seperti:
 
 >
 
->   * [IRC Primer](http://www.irchelp.org/irchelp/ircprimer.html) (edisi
+>   * [IRC Primer](/faq/ircprimer.html) (edisi
 bahasa Inggris)
 
->   * [Kumpulan dokumen](http://www.irchelp.org/irchelp/faq.html) (edisi
+>   * [Kumpulan dokumen](/faq/) (edisi
 bahasa Inggris)
 
->   * [IRC Tutorial](http://www.irchelp.org/irchelp/irctutorial.html) (edisi
+>   * [IRC Tutorial](/faq/irctutorial.html) (edisi
 bahasa Inggris)
 
 >
@@ -589,12 +475,12 @@ mendalam untuk client-client, termasuk:
 
 >
 
->   * [ircII client](http://www.irchelp.org/irchelp/ircii/) dan [ircII
-script](http://www.irchelp.org/irchelp/script/) (edisi bahasa Inggris)
+>   * [ircII client](/clients/unix/ircii/) dan 
+      [ircII script](/script/) (edisi bahasa Inggris)
 
->   * [Mac client](http://www.irchelp.org/irchelp/mac/) (edisi bahasa Inggris)
+>   * [Mac client](/clients/mac/) (edisi bahasa Inggris)
 
->   * [mIRC client](http://www.irchelp.org/irchelp/mirc/) untuk Windows (edisi
+>   * [mIRC client](/clients/windows/mirc/) untuk Windows (edisi
 bahasa Inggris)
 
 >
@@ -619,9 +505,8 @@ ada.
 
 >
 
-> [ Daftar Isi ]
+> [ Daftar Isi ](#top)
 
-* * *
 
 ## 9. Peringatan
 
@@ -647,24 +532,17 @@ masalah yang cukup parah karena hal itu.
 
 >
 
-> [ Daftar Isi ]
+> [ Daftar Isi ](#top)
 
-* * *
 
 Ucapan terimakasih kepada FreeSoft, prysm, hershey, turtle, Ariell, dan para
 pemain dari #irchelp yang lain untuk usul-usulnya yang sangat membantu.
 
 Kini setelah Anda membaca dokumen untuk pemula ini, selamat ber-IRC! Atau jika
 Anda ingin belajar lebih lanjut lagi, Anda dapat membaca dokumen-dokumen yang
-ada di [#IRChelp homepage](http://www.irchelp.org). Edisi bahasa Indonesia
+ada di [#IRChelp homepage](/). Edisi bahasa Indonesia
 dapat ditemukan di [PDI](http://www.arjuna.net/irc/) (Pertolongan Dengan IRC)
 homepage.
 
 Copyright (C)1998 ajr <ajr@arjuna.net>, dkk.
 
-* * *
-
-![navbar](/irchelp/Pix/ihnavbar.gif)
-
-##### [Copyright (C) 1997,1998](/irchelp/credit.html) Joseph Lo and many
-others.

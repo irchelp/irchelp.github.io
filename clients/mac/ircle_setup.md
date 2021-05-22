@@ -2,15 +2,14 @@
 title: ircle setup guide
 author: Joseph Lo (jolo)
 layout: default
+status: historical
 redirect_from:
   - /irchelp/clients/mac/ircle.html
 ---
-#  ![*](/irchelp/Pix/ircle_spin.gif) Ircle Setup Guide
-![*](/irchelp/Pix/ircle_spin.gif)
+#  ![spin](/media/screenshots/ircle_spin.gif) Ircle Setup Guide ![spin](/media/screenshots/ircle_spin.gif)
 
-original version by [Jolo](http://deckard.mc.duke.edu/%7Ejyl/) at [http://www.
-irchelp.org/irchelp/mac/ircle_setup.html](http://www.irchelp.org/irchelp/mac/i
-rcle_setup.html)
+original version by [Jolo](http://deckard.mc.duke.edu/%7Ejyl/) at 
+<http://www.irchelp.org/irchelp/mac/ircle_setup.html>
 
 last updated 11/24/97
 
@@ -28,7 +27,7 @@ over a modem connection._
 [Ircle](http://www.ircle.com/) is the gold standard among [Mac IRC
 clients](/irchelp/networks/) because it is by far the smallest, least laggy,
 most updated, and most stable. If you think Ircle looked ugly or was buggy,
-you probably haven't seen a [modern version](ircle_2net.gif). Ircle is easy to
+you probably haven't seen a [modern version](/media/screenshots/ircle_2net.gif). Ircle is easy to
 use, plus it supports the full set of standard IRC commands and some very cool
 non-standard features too. Ircle is $15
 [shareware](http://www.ircle.com/register.html) and well worth it! The
@@ -39,8 +38,8 @@ guide](http://www.ircle.com/reference/pref.html) that is a little shorter.
 ## Step 0. Setting up your Mac for the Internet
 
 Make sure your Mac has the appropriate software (either MacTCP or [OpenTranspo
-rt](ftp://ftptoo.support.apple.com/pub/apple_sw_updates/US/Macintosh
-/Networking-Communications/Open_Transport/)) and has a connection directly to
+rt](ftp://ftptoo.support.apple.com/pub/apple_sw_updates/US/Macintosh/Networking-Communications/Open_Transport/)) 
+and has a connection directly to
 the Ethernet or indirectly via a modem and dial-up account from an [Internet
 service provider (ISP)](http://www.thelist.com). If you can use Netscape or MS
 Internet Explorer with your Mac, for example, you're ready. Download the
@@ -56,7 +55,7 @@ then see the following array of windows. To get connected, highlight the first
 line from the **Connection** window if it isn't already and click **Edit** (as
 shown by the red arrow).
 
-![](ircle_init.gif)
+![init](/media/screenshots/ircle_init.gif)
 
 ## Step 2. Setting up your personal information
 
@@ -72,7 +71,7 @@ such as to explore some of the other networks or to meet a friend on a
 specific server, click on the **Select** button (as shown by the red arrow)
 and go to the next step.
 
-![](ircle_conn.gif)
+![conn](/media/screenshots/ircle_conn.gif)
 
 _Note:_ you can check _Auto connect to server_ if you want Ircle to
 automatically make this connection when it is launched. You can check
@@ -84,18 +83,18 @@ attacks.
 
 This opens up the **Server list** window, where you can select a different
 server or port number. For example, scroll to the top to see a list of servers
-for [EFnet](http://www.efnet.org/) North America, the biggest [IRC
-network](/irchelp/networks/). In the figure below I selected _irc.cris.com_.
+for [EFnet](http://www.efnet.org/) North America, the biggest 
+[IRC network](/irchelp/networks/). In the figure below I selected _irc.cris.com_.
 Now click **Select** to accept that change.
 
-![](ircle_serv.gif)
+![serv](/media/screenshots/ircle_serv.gif)
 
 ## Step 4. Adding a new server to the list
 
 This skill is important, because IRC servers come and go constantly. Many of
 the servers in Ircle's default list are in fact defunct. For an up to date
 list, check out our IRC networks and servers page at
-[http://www.irchelp.org/irchelp/networks/](/irchelp/networks/). Say you want
+[http://www.irchelp.org/networks/](/networks/). Say you want
 to meet a friend on a special server that is not shown in the list, just click
 **Add**. If you want to edit an existing entry such as to keep the server name
 but change the port number from the default 6667 to speed up connecting, just
@@ -106,7 +105,7 @@ _irc.mo.net_ and _6666_ as shown below. If you know the network name like
 Finally click **OK**. This returns you to the **Server list** window where you
 can click **Select** to use your new or edited server.
 
-![](ircle_servadd.gif)
+![servadd](/media/screenshots/ircle_servadd.gif)
 
 ## Step 5. Miscellaneous personal information
 
@@ -116,7 +115,7 @@ on the tab on top labelled **Misc./CTCP** and fill in the blanks with anything
 you like. These replies are given when others query you with the _/ctcp
 yournick finger_ or _/ctcp yournick userinfo_ commands.
 
-![](ircle_misc.gif)
+![misc](/media/screenshots/ircle_misc.gif)
 
 _Note:_ the _Autoexec_ tab (between the _Identity_ and _Misc./CTCP_ tabs) will
 let you enter startup IRC commands that you routinely type when you first
@@ -136,16 +135,20 @@ some information. When the connection has been made, the status picture in the
 arrows. Before you go further, select **Save preferences** under the **File**
 menu so you won't have to redo these steps in the future.
 
-![](ircle_mo.gif)
+![mo](/media/screenshots/ircle_mo.gif)
 
 _What are those **Console** messages?_ The _identd_ is a way to confirm your
 identity (the username and your machine's IP address). After the connection is
 made, the server tells you how many people are connected to this network, how
 many channels there are, etc., plus a _message of the day_ which contains
-important policies and announcements. If you have any problems connecting,
+important policies and announcements. 
+
+{::comment}
+If you have any problems connecting,
 copy down the exact error messages and email us using the web form at
 [http://www.irchelp.org/irchelp/mail.cgi](/irchelp/mail.cgi) (be sure to
 select the Mac helper).
+{:/comment}
 
 ## Step 7. Chatting
 
@@ -161,7 +164,7 @@ on top _(#irchelp: irc.mo.net)_ while the channel topic is shown on the bottom
 _(Topic: Ask your IRC question etc.)_. To chat, I just type into the bottom
 **Inputline** window.
 
-![](ircle_irchelp.gif)
+![irchelp](/media/screenshots/ircle_irchelp.gif)
 
 _What are all these windows?_ The chatting is in the big window - purple for
 my speech, black for everybody else's speech, red for private messages, blue
@@ -170,7 +173,7 @@ channel are listed in the **Userlist** window. The red nicks are operators or
 "ops" who run the channel. The channel modes (green and purple switches in the
 Userlist window) are _+tn_. Since I am an op on this channel, all the buttons
 for _kick_, _ban_, etc. are activated. For more information on all this stuff,
-see the [introductory guide](/irchelp/new2irc.html) mentioned above.
+see the [introductory guide](/faq/new2irc.html) mentioned above.
 
 ## Step 8. Advanced customization
 
@@ -179,7 +182,7 @@ to have arbitrary colors, sounds, and fonts. Here I've changed the colors and
 established simultaneous connections to 2 channels on different networks
 (EFnet's #irchelp and Undernet's #macintosh).
 
-![](ircle_2net.gif)
+![2net](/media/screenshots/ircle_2net.gif)
 
 ## Step 9. Quitting.
 

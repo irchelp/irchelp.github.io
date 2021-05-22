@@ -1,41 +1,27 @@
 ---
 title: The IRC Prelude
 author: David Caraballo (DC-itsme) and Joseph Lo (Jolo)
+dateupdated: 02 July 2020
 layout: default
 license: irchelp
 redirect_from: /irchelp/new2irc.html
 ---
 # The IRC Prelude
+{: .no_toc}
 
 By David Caraballo (DC-itsme) and Joseph Lo (Jolo)
 
 
 
-The original version of this page is at <[http://www.irchelp.org/faqs/new2irc.html](http://www.irchelp.org/faqs/new2irc.html)>
+The original version of this page is at <http://www.irchelp.org/faq/new2irc.html>
 
-Translations: [Español](/irchelp/misc/esnew2irc.html) |
-[Français](/irchelp/misc/frnew2irc.html) |
-[Deutsch](/irchelp/misc/denew2irc.html) |
-[Greek](/irchelp/misc/grnew2irc.html) |
-[Indonesia](/misc/idnew2irc.html) |
-[Italiano](/misc/itnew2irc.html) |
-[Nederlands](/irchelp/misc/nlnew2irc.html) |
-[Portugues](/misc/ptnew2irc.html) |
-[Turkce](/misc/trnew2irc.html)
+{% include new2irc_translations.md %}
 
 ## Contents
+{: .no_toc}
 
-  1. What is IRC, and how does it work?
-  2. Some details
-  3. Talking, and entering commands
-  4. Where to go
-  5. Some smileys and jargon
-  6. Some advice
-  7. IRC server problems, and choosing a server
-  8. More detailed help
-  9. A word of warning
-
-* * *
+* auto-gen TOC:
+{:toc}
 
 ## 1. What is IRC, and how does it work?
 
@@ -44,7 +30,7 @@ people from all over the world. It consists of various separate
 [networks](/irchelp/networks/) (or "nets") of IRC servers, machines that allow
 users to connect to IRC. The largest nets are [EFnet](http://www.efnet.org/)
 (the original IRC net, often having more than 32,000 people at once),
-[Undernet](http://www.undernet.org/), [IRCnet](http://www.funet.fi/~irc/),
+[Undernet](http://www.undernet.org/), [IRCnet](http://ircnet.org/),
 [DALnet](http://www.dal.net/), and [NewNet](http://www.newnet.net/).
 
 
@@ -55,12 +41,12 @@ relays information to and from other servers on the same net. Recommended
 clients:
 
 
-* [UNIX/Linux Clients](http://www.irchelp.org/irchelp/clients/unix/)
+* [UNIX/Linux Clients](/clients/unix/)
   * [irssi](/irchelp/clients/unix/irssi/) - terminal-mode client
   * [xchat](/irchelp/clients/unix/xchat.html) - X11 (graphical) client
-* [Windows Clients](http://www.irchelp.org/irchelp/clients/windows/)
+* [Windows Clients](/clients/windows/)
   * [mIRC](/irchelp/clients/windows/mirc/)
-* [Macintosh clients](http://www.irchelp.org/irchelp/clients/mac/)
+* [Macintosh clients](/clients/mac/)
 
 
  Be sure to read the documentation for your client!
@@ -247,7 +233,7 @@ servers, so it are unaffected by server lag, net splits, etc.
  /quit good night!
 
  You quit IRC completely, with the parting comment so that others see "***
-Signoff: yournick (good night!)".
+Signoff: yournick (good night!)***".
 
 
 
@@ -350,9 +336,9 @@ the WWW at [http://www.irchelp.org/irchelp/chanlist/](/irchelp/chanlist/).
 
  **Harrassment and attacks**     If someone starts harassing or flooding you,
 leave the channel or use the /ignore command. For more details,
-[mIRC](/irchelp/mirc/) users see our [flood
-protection](/irchelp/mirc/flood.html) page, [ircII](/irchelp/ircii/) users
-type [/help ignore](/irchelp/ircii/commands/IGNORE). It is a good idea to set
+[mIRC](/irchelp/mirc/) users see our 
+[flood protection](/clients/windows/mirc/flood.html) page, [ircII](/irchelp/ircii/) users
+type [/help ignore](/clients/unix/ircii/commands/irciihelp/ignore.html). It is a good idea to set
 your user mode to +i (invisible) to avoid unsolicited messages and harrassment
 -- if you are "invisible" generally only users on a channel with you can
 determine what nick you are using.
@@ -360,7 +346,7 @@ determine what nick you are using.
 
  If somebody else is crashing or disconnecting you, see our [Denial of
 Service or "Nuke" Attacks](/irchelp/nuke/) page. You can also [log and report
-abuse](/irchelp/misc/irclog.html) when it violates server rules, which you can
+abuse](/security/irclog.html) when it violates server rules, which you can
 read by typing /motd.
 
 
@@ -381,7 +367,7 @@ These splits are often relatively short, though common some days.
 
  **Lag**     A more frequent problem is "lag", where there is a noticeable
 delay between the time you type something in and someone else reads it.
-[Choosing a server](/irchelp/networks/servermap.html) near you is one way to
+[Choosing a server](/irchelp/networks/) near you is one way to
 try to lessen lag. Lag can be measured by using the /ping command (see the
 commands section above). Once you find a better server, the command for
 changing servers is /server server.name.here.
@@ -420,14 +406,14 @@ with whom you wish to chat. A window opens for that dcc chat session.
 ## 8. More detailed help
 
  For further information about these issues, as well as about other commands,
-visit the web site <[http://www.irchelp.org](http://www.irchelp.org). There
-you can find many [help files](faq.html), such as:
+visit the web site <http://www.irchelp.org>. There
+you can find many [help files](/faq/), such as:
 
 
 
    * [IRC Primer](/irchelp/ircprimer.html)
 
-   * [FAQ (Frequently Asked Questions)](/irchelp/altircfaq.html) for
+   * [FAQ (Frequently Asked Questions)](/faq/altircfaq.html) for
 [alt.irc](news:alt.irc) newsgroup
 
    * [IRC tutorial](/irchelp/irctutorial.html)
@@ -439,7 +425,7 @@ IRC clients, including:
 
 
 
-   * [ircII client](/irchelp/ircii/) and [ircII scripts](/irchelp/script/).
+   * [ircII client](/irchelp/ircii/)
 
    * [Mac clients](/irchelp/mac/)
 
@@ -447,10 +433,12 @@ IRC clients, including:
 
 
 
+{::comment}
  Looking for other clients? The most comprehensive source of clients is at
 the [Undernet FTP archive](ftp://ftp.undernet.org/pub/irc/clients/) or
 [Undernet WWW archive](http://clients.undernet.org/). The clients are
 organized into groups like Windows, Macintosh, DOS, Amiga, Java, etc.
+{:/comment}
 
 
 
@@ -493,6 +481,6 @@ helpers on EFnet for their many helpful suggestions.
 
 Now that you've read this beginner's guide, get on IRC and enjoy! Or if you
 are interested in learning more, check out the many documents on the [#IRChelp
-home page](http://www.irchelp.org/).
+home page](/).
 
 * * *

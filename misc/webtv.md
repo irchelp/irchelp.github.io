@@ -18,8 +18,8 @@ all of these set-top boxes useless, and this guide obsolete. It's retained only 
 Most of this document updated Jun 24, 2000, minor note on 3rd pty clients Jun
 22, 2003
 
-The original version of this page is at <[http://www.irchelp.org/irchelp/misc/
-webtv.html](http://www.irchelp.org/irchelp/misc/webtv.html)>
+The original version of this page is at
+<http://www.irchelp.org/irchelp/misc/webtv.html>
 
 [WebTV](http://www.webtv.net/) opened the world of the Internet to many people
 through an inexpensive computer that uses your existing TV. While WebTV is
@@ -67,7 +67,7 @@ see #IRChelp's [channel listing page](../chanlist/). Channels are dynamic
 because anyone can create a new channel, and a channel disappears when the
 last person on it leaves.
 
-[ Contents ]
+[ Contents ](#contents)
 
 ##  2. Networks And Servers
 
@@ -109,7 +109,7 @@ text field at the bottom of the chat screen. Then choose Send (or hit the
 Return key on your keyboard). See the next section for specific commands you
 can also type.
 
-[ Contents ]
+[ Contents ](#contents)
 
 ##  3. Commands for WebTV Chat
 
@@ -123,7 +123,7 @@ screen.
 
 **Hello everybody!**     Once you join a channel, you can speak to everybody on the channel by typing any line without a leading slash character. Everybody else will see "your_nick> Hello everybody!"
 
-**/me is a pink bunny.**     Everybody in the channel sees "* your_nick is a pink bunny." This is called an action.
+**/me is a pink bunny.**     Everybody in the channel sees `* your_nick is a pink bunny.` This is called an action.
 
 **/whois jack**     You get some information about that jack, such as "jack is jk1@some.host.name." If jack is also a WebTV user, the answer will not include the hostname, just whether or not he is on-line at the moment.
 
@@ -133,7 +133,7 @@ screen.
 
 **/topic Dalmatians are spotted.**     Sets the channel topic to "Dalmatians are spotted." - but note that not all channels allow anybody to change the topic.
 
-[ Contents ]
+[ Contents ](#contents)
 
 ##  4. Limitations of WebTV
 
@@ -191,16 +191,16 @@ you have. IRC is still primarily for "chatting", and you can still do that as
 a WebTV user. Of course, one day when you get a real personal computer you'll
 be amazed at what else you can do with IRC and many other things.
 
-[ Contents ]
+[ Contents ](#contents)
 
 ##  5. Finding More Help
 
 Here are some ways to get more help.
 
-**World Wide Web**     Definitely check out WebTV's own [help site](http://help.webtv.net/), which includes a FAQ (frequently asked questions list) just for [chat](http://help.webtv.net/features/community/chat.html). In additioin, we have many [general help guides](../faq.html). (Just remember the limitations of WebTV when you're reading those guides.) We particularly recommend the short general introduction to IRC called [The IRC Prelude](../new2irc.html). There are also lists of [networks](../networks/) and [channels](../chanlist/) there.
+**World Wide Web**     Definitely check out WebTV's own [help site](http://help.webtv.net/), which includes a FAQ (frequently asked questions list) just for [chat](http://help.webtv.net/features/community/chat.html). In additioin, we have many [general help guides](/faq/). (Just remember the limitations of WebTV when you're reading those guides.) We particularly recommend the short general introduction to IRC called [The IRC Prelude](/faq/new2irc.html). There are also lists of [networks](../networks/) and [channels](../chanlist/) there.
 
 **Email**      Another way to get your _WebTV-specific_ IRC questions answered is to email [wecare@webtv.net](mailto:wecare@webtv.net).
 
 **IRC**     The most popular help channels for WebTV are on [TalkCity](http://www.talkcity.com/). The channels include #New2WebTV, #WebTVhelp, and #WebTVtech.
 
-[ Contents ]
+[ Contents ](#contents)

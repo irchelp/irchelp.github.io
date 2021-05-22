@@ -41,7 +41,7 @@ Very rarely can a shareware author make much money, because not only is the fee 
 but also many people choose to not pay. So
 typically shareware is limited to simple little programs like games, utilities,
 etc. There are exceptions, though. For example, some of the best and
-most complicated [Internet Relay Chat](http://www.irchelp.org/) (IRC) client
+most complicated [Internet Relay Chat](/clients/) (IRC) client
 programs such as [mIRC for Windows](/irchelp/mirc/) are all shareware.
 
 ## So why pay the shareware fee?

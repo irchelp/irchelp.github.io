@@ -8,8 +8,8 @@ redirect_from:
 
 # How to NOT hide extensions in Windows
 
-Part of the [Trojan horse attacks help
-page](http://www.irchelp.org/irchelp/security/trojan.html)
+Part of the 
+[Trojan horse attacks help page](/security/trojan.html)
 
 updated Sep 12, 2009
 

@@ -1,3 +1,9 @@
+---
+title: 'JoloPak: ircII convenience script'
+author: Joseph Lo
+status: historical
+layout: default
+---
 # JoloPak: ircII convenience script
 
 by Joseph Lo
@@ -22,7 +28,7 @@ accounts. It has been reported to work with several variants of ircII such as
 EPIC or BitchX, on UNIX as well as Windows, but your mileage may vary. JoloPak
 will **not** work with [mIRC](/irchelp/mirc/).
 
-As I explained in the general [ircII script](/irchelp/script/) page, I'm not
+As I explained in the general [ircII script](/script/) page, I'm not
 really a script writer myself, but as a #IRChelp op and the webmaster of this
 site, I come across a lot of good information and decided to collect the best
 stuff together into one script. The Jolopak script combines the best parts of
@@ -41,7 +47,7 @@ _Note:_ You only need to do this once. If you're upgrading from an older copy
 of Jolopak, just keep your existing .ircrc with all its customizations.
 
   2. If you are upgrading from an older version, first rename the old one, e.g. `mv jolopak.scr jolopak.old` (just in case you change your mind and want to stick to the old version). 
-  3. Download the main JoloPak file [jolopak.scr.gz](jolopak.scr.gz). (**Lynx users: Do not open that link**, instead highlight it and download it with 'd'.) Save it to your home directory and don't change its name. 
+  3. Download the main JoloPak file `jolopak.scr.gz`. (**Lynx users: Do not open that link**, instead highlight it and download it with 'd'.) Save it to your home directory and don't change its name. 
   4. Uncompress the file: `gzip -d jolopak.scr.gz` which will produce a file **`jolopak.scr`** - again don't rename that. 
   5. If you installed ircII yourself such that it doesn't reside in the default /usr/local/lib/irc/ directory, change the `LOAD_PATH` and `HELP_PATH` variables accordingly in your new .ircrc file. These allow you to load standard scripts that come with ircII and to use ircII's built-in help files, respectively. 
 
@@ -309,4 +315,4 @@ delete the leading # symbol.
     
     
 
-[Return to general ircII script page.](/irchelp/script/)
+[Return to general ircII script page.](/script/)

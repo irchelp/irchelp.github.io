@@ -15,11 +15,11 @@ redirect_from:
 
 According to <https://www.quakenet.org/help/general/what-are-the-official-channels>, QuakeNet has three official support channels.
 
-- # help is the official channel for questions related to IRC and QuakeNet.
+- \#help is the official channel for questions related to IRC and QuakeNet.
 
-- # feds is a restricted channel. Users may be invited here from #help if they raise issues [requiring the assistance of IRC operators](https://www.quakenet.org/help/opers).
+- \#feds is a restricted channel. Users may be invited here from #help if they raise issues [requiring the assistance of IRC operators](https://www.quakenet.org/help/opers).
 
-- # help-script provides scripting assistance for mIRC.
+- \#help-script provides scripting assistance for mIRC.
 
 # Services
 

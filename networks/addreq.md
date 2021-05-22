@@ -11,8 +11,7 @@ redirect_from:
 
 Since the IRChelp.org network list has a high profile, many people ask us how to get their new network added here. Please read through this carefully. If you rush and skip around, you'll just be wasting your time and ours, and we will ignore your request.
 
-There are over 600 IRC networks out there, and as of early 2004, over 120 of them average over 1000 users already. That's a lot of choices! _Are you quite sure you're contributing something new and unique?_ If you just want to play and learn about [ircd](../ircd/), by all means knock yourself out, but you should have realistic expectations of [running your own server](../ircd
-/server-request.html).
+There are over 600 IRC networks out there, and as of early 2004, over 120 of them average over 1000 users already. That's a lot of choices! _Are you quite sure you're contributing something new and unique?_ If you just want to play and learn about [ircd](/ircd/), by all means knock yourself out, but you should have realistic expectations of [running your own server](/ircd/server-request.html).
 
 If you're still interested in being listed here, submit an issue on Github and provide a pull request adding an information page for your network. Let me be honest - the vast majority of submissions will be rejected because they do not meet our requirements. There is just no point in having a comprehensive list of hundreds of nets, no user has the patience to read through all that, plus there are already comprehensive, opt-in network lists such as [netsplit.de](http://irc.netsplit.de/networks/) and [SearchIRC](http://www.searchirc.com) (ext. links).
 

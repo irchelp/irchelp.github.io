@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,6 +20,7 @@ May 1993
 * * *
 
 # 7. Client and server authentication
+{:#c7}
 
 Clients and servers are both subject to the same level of authentication. For
 both, an IP number to hostname lookup (and reverse check on this) is performed
@@ -34,7 +42,5 @@ as using an ident server.
 * * *
 
 [<](chapter6.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter8.html)

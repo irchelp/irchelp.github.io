@@ -1,39 +1,11 @@
-[![Click Here](http://ads.web.aol.com/image/93102604/aol)](http://ads.web.aol.
-com/link/93102604/aol)
-
-&nbsp_place_holder;
-
-![CNN.com](http://images.clickability.com/partners/3000/mainLogo.gif)
-
-[![](http://images.clickability.com/logos/cc0000/printthis-
-logo.gif)](javascript:void(printArticle());)
-
-Powered by
-
-&nbsp_place_holder;[![](http://images.clickability.com/partners/1/smallclicklo
-go.gif)](javascript:
-window.open('http://www.clickability.com/327.html','','toolbar=no, width=475,
-height=600, resizable=1, scrollbars=0'); void('');)
-
-&nbsp_place_holder;
-
-[![Click Here to Print](http://images.clickability.com/pti/btn-print-
-page.gif)](javascript:void(printArticle());)
-
-![](http://images.clickability.com/pti/spacer.gif)
-
-&nbsp_place_holder;[SAVE THIS](javascript:void(open('http://cnn.technology.sav
-ethis.clickability.com/st/saveThis?partnerID=2016&urlID=11952350&origin=11','c
-lick','height=450,width=510,title=no,location=no,scrollbars=yes,menubars=no,to
-olbars=no,resizable=yes'));) | [EMAIL THIS](javascript:void(open('http://cnn.t
-echnology.emailthis.clickability.com/et/emailThis?clickMap=createPT&partnerID=
-2016&urlID=11952350','click','height=450,width=510,title=no,location=no,scroll
-bars=yes,menubars=no,toolbars=no,resizable=yes'));) |
-[Close](javascript:self.close();)&nbsp_place_holder;
-
-![](http://images.clickability.com/pti/spacer.gif)
-
-&nbsp_place_holder;
+---
+title: 'CNN.com - 12-year-old settles music swap lawsuit - Feb. 18, 2004'
+author: cnn
+datecreated: 18 February 2004
+status: historical
+layout: default
+license: cnn
+---
 
 # 12-year-old settles music swap lawsuit
 
@@ -93,41 +65,6 @@ service providers that they were being targeted for lawsuits. The industry is
 also pursuing subpoenas at universities around the country seeking to identify
 music file traders.
 
-&nbsp_place_holder;
+* * *
 
-![](http://images.clickability.com/pti/spacer.gif)
-
-&nbsp_place_holder;
-
-&nbsp_place_holder;
-
-Find this article at:
-
-http://www.irchelp.org/irchelp/security/cnn-12yogirl.html
-
-&nbsp_place_holder;
-
-[![Click Here to Print](http://images.clickability.com/pti/btn-print-
-page.gif)](javascript:void(printArticle());)
-
-![](http://images.clickability.com/pti/spacer.gif)
-
-&nbsp_place_holder;[SAVE THIS](javascript:void(open('http://cnn.technology.sav
-ethis.clickability.com/st/saveThis?partnerID=2016&urlID=11952350&origin=11','c
-lick','height=450,width=510,title=no,location=no,scrollbars=yes,menubars=no,to
-olbars=no,resizable=yes'));) | [EMAIL THIS](javascript:void(open('http://cnn.t
-echnology.emailthis.clickability.com/et/emailThis?clickMap=createPT&partnerID=
-2016&urlID=11952350','click','height=450,width=510,title=no,location=no,scroll
-bars=yes,menubars=no,toolbars=no,resizable=yes'));) |
-[Close](javascript:self.close();)&nbsp_place_holder;
-
-&nbsp_place_holder;Check the box to include the list of links referenced in
-the article.
-
-&nbsp_place_holder;
-
-&nbsp_place_holder;
-
-[![Click Here](http://ads.web.aol.com/image/93102604/aol)](http://ads.web.aol.
-com/link/93102604/aol)
-
+cnn 2004

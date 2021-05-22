@@ -15,7 +15,10 @@ from TheRose
 
 revised June 2003 by DiverGuy@EFnet with a little help from Jolo@EFnet
 
-** Hint: This is an advanced subject. If you are looking for a quick bot, without being willing to take the time to learn, then you might as well stop reading now. Bots are NOT an item for the novice and require lots of patience and effort to properly set up and maintain. **
+**Hint: This is an advanced subject. If you are looking for a quick bot,
+without being willing to take the time to learn, then you might as well stop
+reading now. Bots are NOT an item for the novice and require lots of patience
+and effort to properly set up and maintain.**
 
 ## Table of Contents
 
@@ -86,7 +89,7 @@ as likely to crash or get disconnected. Those problems you see (ping timeouts,
 connection reset by peer, etc.) are due to instability of Windows itself or
 your home-based internet connection. So instead of running a Windows bot, you
 might as well just leave your mIRC idling 24/7, and perhaps configure it with
-simple scripts such as this [op giving script](/irchelp/mirc/chan_op.mrc). You
+simple scripts such as this `chan_op.mrc`. You
 might think some weak protection is better than none at all, but not if it
 lulls you into a false sense of security.
 
@@ -107,7 +110,7 @@ Some [networks](../networks/) have now established SERVICES for channel and
 nick registration, which elimiate the need for a bot to hold open a channel.
 Other networks have implemented channel synch, which prevents people from
 'hacking' ops on a channel during a netsplit. One network, EFnet, has
-installed a pseudo-service called [CHANFIX](../ircd/chanfix.html) which keeps
+installed a pseudo-service called [CHANFIX](/ircd/chanfix/) which keeps
 track of ownership without requiring channel registration.
 
 Due to the active effort of the IRC administrators, the original need for bots
@@ -175,7 +178,7 @@ maybe one day when you have at least 10 real live people, not bots, who have
 24/7 connections and some IRC experience, you can all band together and start
 your own new channel. If you really want to learn how to run a stable,
 successful channel, please study the very detailed [The New IRC Channel
-Operator's Guide](/irchelp/changuide.html).
+Operator's Guide](/faq/changuide.html).
 
 ## (5) How do I get my own bot?
 
@@ -264,16 +267,19 @@ bots are "locking" different channel modes. When bots disagree on channel
 settings, it results in a bot-war and a flood of mode changes which makes the
 channel unstable and unusuable for chatting. It also gives bots a bad name.
 
-** CAUTION: NEVER download a bot or bot-code from an UNKNOWN source. The possibility of backdoors planted into unknown bots is HIGH. We also STRONGLY RECOMMEND that you are familiar with the language in which your bot is written.
+**CAUTION: NEVER download a bot or bot-code from an UNKNOWN source. The
+possibility of backdoors planted into unknown bots is HIGH. We also STRONGLY
+RECOMMEND that you are familiar with the language in which your bot is
+written.**
 
-A [backdoor/trojan](../security/trojan.html) could allow someone to enter your
+**A [backdoor/trojan](../security/trojan.html) could allow someone to enter your
 bot or your account and take it over without your even knowing it occurred.
 You will suddenly find that your password has been changed and can't get into
 your own account or your own channel. "Don't download or install ANYTHING
 until you know what it does." ALWAYS look before you load. This applies not
-only to bot programs, but to script files as well. **
+only to bot programs, but to script files as well.**
 
 Not as simple as you thought 'eh? Good Luck, and Happy IRC'ing.
 
-Another classic help page on this subject is the [bot FAQ](bot_faq.htm)
+Another classic help page on this subject is the [bot FAQ](bot_faq.html)
 archived from ircworks.com.

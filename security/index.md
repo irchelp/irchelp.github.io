@@ -1,6 +1,7 @@
 ---
 title: IRC Security
 author: irchelp.org staff
+dateupdated: 14 July 2020
 layout: default
 redirect_from:
   - /irchelp/security/
@@ -8,7 +9,7 @@ redirect_from:
 
 # IRC Security
 
-original version at [http://www.irchelp.org/irchelp/security/](http://www.irchelp.org/irchelp/security/)
+original version at <http://www.irchelp.org/irchelp/security/>
 
 This page covers information for the safe and responsible use of [Internet
 Relay Chat (IRC)](/irchelp/new2irc.html) and other "chat rooms". Maybe you
@@ -16,7 +17,7 @@ were referred here because you suspect your security has been compromised, or
 maybe you just want to make sure you are safe. The following major topics are
 covered here:
 
-**[mIRC Exploit News](../mirc/exploit.html)**
+**[mIRC Exploit News](/clients/windows/mirc/exploit.html)**
 
 This page covers some late breaking news of mIRC exploits, especially those
 which have not been patched yet by official fixes from the author.
@@ -34,22 +35,30 @@ the damage.
 
 **[Firewall FAQ](fwfaq.html)**     Technical discussion of problems involved with using IRC from behind a proxy, firewall, or NAT gateway. Includes links for specific fixes for identd and DCC problems.
 
+{% comment %}
 **[Home Computer Security](http://www.cert.org/homeusers/HomeComputerSecurity/)** [ext. link]     General guide to securing your home computer - written in plain English by CERT which is an authoritative center of Internet security expertise. Covers the proper use of anti-virus and firewall programs, how to keep your system patched, and other important issues.
+{% endcomment %}
 
 **[Home Network Security](http://www.cert.org/tech_tips/home_networks.html)** [ext. link]     From same source as above but more detailed and technical.
 
+{% comment %}
 **[General IRC Security](http://www.efnet.nl/security.php)** [ext. link]     This page describes why security is important on IRC, and provides general suggestions for how to secure your home computer/network.
+{% endcomment %}
 
 **Parent's Guides** [all ext. links]     Some sites with good information for parents to ensure their kids are chatting safetly and properly.
 
   * [GetNetWise](http://www.getnetwise.org/): this public service is your one stop for helpful guides, blocking/filtering tools, how to report trouble, safe sites for kids, etc.
+{% comment %}
   * [FBI Library - Parent's Guide to Internet Safety](http://www.fbi.gov/stats-services/publications/parent-guide): this short pamphlet from the FBI covers the safety issues with general suggestions.
   * [America Links Up](http://www.americalinksup.org/): another broad coalition providing overall information, not as thorough as GetNetWise but uniquely offers teach-in events and discussion boards.
+{% endcomment %}
   * [Safe Kids](http://www.safekids.com/): yet another overall help site, a little harder to navigate but has well written articles.
 
 **[Backdoors in IRC](irc-backdoor.txt)**     Backdoors in IRC clients/scripts/bots allow others to gain unauthorized access to your computer to do harm to yourself or others. This guide illustrates the dangers of blindly using other people's scripts etc.
 
+{% comment %}
 **[CIAC-2318 IRC On Your Dime?](http://ciac.llnl.gov/ciac/documents/CIAC-2318_IRC_On_Your_Dime.pdf)** [ext. link to PDF file]     Intended for system administrators who want to learn about IRC abused by crackers. Non-technical and assumes no IRC knowledge, but _not_ useful or interesting to general IRC users.
+{% endcomment %}
 
 **[Logging and Reporting IRC Abuse](irclog.html)**     How to record abuse on IRC and then submit it to an IRC operator, including advice regarding takeovers, flooding, nuking, profanity, etc.
 

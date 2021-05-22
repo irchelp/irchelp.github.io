@@ -8,27 +8,18 @@ redirect_from:
 ---
 
 # An IRC Tutorial
+{: .no_toc}
 
-Original web version with over 100 links at [http://www.irchelp.org/irchelp/ir
-ctutorial.html](http://www.irchelp.org/irchelp/irctutorial.html)
+Original web version with over 100 links at 
+<http://www.irchelp.org/faq/irctutorial.html>
 
 ## Table of Contents
+{: .no_toc}
+{:#contents}
 
-1. Introduction and Basics
-    1. Introduction to IRC
-    2. Quick Start
-    3. Basic IRC Commands
+* auto-gen TOC:
+{:toc}
 
-2. Chatting on IRC
-    1. Public Conversations
-    2. Private Conversations
-    3. File Transfer
-
-3. Beyond the Basics
-    1. Channel Operators
-    2. Channel Maintenance
-    3. Server Commands
-    4. Conclusion
 
 Credits:     6/26/1991 - originally written by [Ronald van Loon
 (rvl)](http://www.xs4all.nl/~rvloon/).     1/07/1997 - update & HTML
@@ -38,6 +29,7 @@ translation by [Joseph Lo (Jolo)](http://deckard.mc.duke.edu/~jyl/).
 * * *
 
 # 1. Introduction and Basic Commands
+{:#s1}
 
 ## 1.1. Introduction to IRC
 
@@ -51,14 +43,14 @@ is totally free!
 
 ### Some Other Help Files
 
-There are many [help files](/irchelp/faq.html) designed to introduce you to
+There are many [help files](/faq/) designed to introduce you to
 the exciting and sometimes bewildering world of IRC. This tutorial that you
 are reading now is intended to walk you through the important commands one by
 one so that you can learn by doing. If you are brand new to IRC, you may wish
 to first read the very short [IRC Prelude](/irchelp/new2irc.html) (or its many
-[translations](/irchelp/misc/)) to get yourself oriented. Then later you may
+[translations](/misc/)) to get yourself oriented. Then later you may
 check out one of the standard references, such as the alt.irc newsgroup's
-[frequently asked questions](/irchelp/altircfaq.html) (FAQ) list, or the long
+[frequently asked questions](/faq/altircfaq.html) (FAQ) list, or the long
 but extremely thorough [IRC Primer](/irchelp/ircprimer.html) which is
 organized like a textbook.
 
@@ -100,7 +92,7 @@ where you can get technical IRC help, or #new2irc where new users are welcome
 to join and chat. Usually, the name of the channel shows what it's for, but
 not always.
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 ## 1.2. Quick Start
 
@@ -124,7 +116,7 @@ next section, we will show you how to make a proper connection to a server,
 then how to list available channels and join them, as well as how to find your
 friends and like-minded people.
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 ## 1.3. Basic IRC Commands
 
@@ -299,7 +291,9 @@ Leave a message explaining that you are not currently paying attention to IRC.
 If your friend does /whois YourNick now, they will get the 3 lines as
 described in the /whois section above, plus a final line saying:
 
+```
 *** YourNick is away: getting coffee, be back in 5 mins
+```
 
 /AWAY without any additional argument will remove the away message.
 
@@ -317,11 +311,12 @@ Exits IRC (also leaves any channels you may be on).
     *** Signoff: YourNick (hasta la vista, baby!)
 
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 * * *
 
 # 2. Chatting on IRC
+{:#s2}
 
 The point of IRC is to chat, and as mentioned before, you may join in public
 discussions on channels or talk privately to one person at a time. We will
@@ -382,7 +377,7 @@ etc.).
 Leaves the specified channel, or if no channel is specified, leaves the
 current channel.
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 ## 2.2. Private Conversations
 
@@ -426,7 +421,7 @@ as private messages to that nickname, except for "/irchelp/" commands. Use
 
 Here's an example of a private conversation between you as "YourNick" and your
 friend "buddy", as seen from your point of view. Statements from your IRC
-client program start with "***", outgoing messages from you to buddy start
+client program start with `***`, outgoing messages from you to buddy start
 with "-> *buddy*", and incoming messages to you from buddy start with
 "*buddy*".
 
@@ -521,7 +516,7 @@ available) or manually close the connection:
 
 `*** DCC chat:<any> to buddy closed `
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 ## 2.3. File Transfer
 
@@ -569,11 +564,12 @@ too.
 
 `*** DCC SEND:foo.jpg to buddy completed 1.234 kb/sec`
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 * * *
 
 # 3. Beyond the Basics
+{:#s3}
 
 Most novices can enjoy IRC quite well with the basic IRC skills described in
 part 1 and the ability to chat publicly and privately discussed in part 2.
@@ -609,7 +605,7 @@ sorts of bots (which are explicitly banned by most servers) and protective
 scripts, but it's really just a matter of time before somebody with the right
 combination of lameness and knowledge comes along and takes over the channel.
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 ## 3.2 Channel Maintenance
 
@@ -715,7 +711,7 @@ And to remove the keyword:
 
 `/MODE #demo -k trustno1`
 
-**Channel bans (b [nick!user@host])**      I've saved this for last becuase it's the most complicated. After a kick, the offender can still rejoin the channel immediately unless you first set a ban to keep them out (remember to ban then kick, not the other way around). You need to specify a ban "mask" that matches the offender's nickname, username, and hostname (if you are not crystal clear on the distinction between those three, revisit the /WHOIS command in part 1 now or else what follows will only confuse you more). You also need to use wildcards like the "*" character to replace any part the offender can easily change.
+**Channel bans (b [nick!user@host])**      I've saved this for last becuase it's the most complicated. After a kick, the offender can still rejoin the channel immediately unless you first set a ban to keep them out (remember to ban then kick, not the other way around). You need to specify a ban "mask" that matches the offender's nickname, username, and hostname (if you are not crystal clear on the distinction between those three, revisit the /WHOIS command in part 1 now or else what follows will only confuse you more). You also need to use wildcards like the `*` character to replace any part the offender can easily change.
 
 For example, if you want to ban buddy, and his /WHOIS says:
 
@@ -762,7 +758,7 @@ as the key:
 
 `/MODE #demo -i+tnk trustno1`
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 ## 3.3. Server Commands
 
@@ -776,8 +772,8 @@ what IRCops do, see the [IRC Operator Guide](/ircd/ircopguide.html)
 which is like a training manual for IRCops, or Monkster's short [Oper
 Myths](/ircd/opermyth.html) which definitively lists what IRCops
 can/can't/will/won't do. If after reading those you still think you need to
-contact an IRCop to report IRC abuse, see our [IRC logging
-guide](http://www.irchelp.org) for directions.
+contact an IRCop to report IRC abuse, see our 
+[IRC logging guide](/security/irclog.html) for directions.
 
 **A special word on nukes:** denial of service attacks, commonly known as "[nukes](/irchelp/nuke/)", are not part of IRC at all. As such, IRCops have no authority in trying to stop them. See our guide on [logging and reporting nukes](/nuke/report.html).
 
@@ -786,8 +782,8 @@ unless you specify another server's hostname as the optional argument.
 
 **/LINKS**
 
-The LINKS command shows all the servers currently connected to form the [IRC
-network](http://www.irchelp.org/irchelp/networks/) you are using. If a server
+The LINKS command shows all the servers currently connected to form the 
+[IRC network](/networks/) you are using. If a server
 mask is specifed, LINKS shows any servers that match the given server mask,
 which may contain wildcards.
 
@@ -837,7 +833,7 @@ server.
     *** -  connection to this server being blocked.
 
 
-##### [ contents | 1 | 2 | 3 | bottom ]
+[contents](#contents) | [1](#s1) | [2](#s2) | [3](#s3) | [bottom](#bottom)
 
 ## 3.3 Conclusion
 
@@ -845,10 +841,13 @@ In the previous sections, you have learned (1) IRC basics, (2) how to chat
 both publicly and privately, including how to exchange files, and (3) went
 beyond the basics to explore channel maintenance and interacting with servers.
 That should be all you need for now to enjoy IRC. If you are interested in
-learning more, check out the many other [help files](/irchelp/faq.html). The
-[IRChelp.org web site](http://www.irchelp.org/) also has many other [helpful
-features](/irchelp/help.html) including [direct help by
-IRC](/irchelp/talktous.html), client-specific help files, scripts, lists of
+learning more, check out the many other [help files](/faq/). The
+[IRChelp.org web site](/) also has many other [helpful
+features](/irchelp/help.html) 
+{% comment %}
+including [direct help by IRC](/irchelp/talktous.html)
+{% endcomment %}
+, client-specific help files, scripts, lists of
 [networks and servers](/irchelp/networks/), etc. Good luck!
+{:#bottom}
 
-* * *

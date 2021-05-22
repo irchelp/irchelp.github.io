@@ -18,12 +18,15 @@ This site highlights just some of the over 800 independent IRC networks out ther
 
 --------------------------------------------------------------------------------
 
-**[The IRC Prelude](http://www.irchelp.org/irchelp/new2irc.html)**
+New to IRC? Confused about clients, servers, and networks? 
+**[See this short introduction to IRC ](/faq/new2irc.html)**.
 
-```
-New to IRC? Confused about clients, servers, and networks? See this short introduction to IRC.
-If you already know the name of the network and you're just looking for servers within that network, see our comprehensive list of servers such as for [EFnet](/networks/efnet/servers.html), [Undernet](http://servers.undernet.org/), [IRCnet](servers/ircnet.html), [DALnet](networks/dalnet/), and several dozen [others](servers/index.html). If you're having trouble connecting esp. to EFnet, see our [IRC Connection Problems Guide](/networks/connectprob.html).
-```
+If you already know the name of the network and you're just looking for servers
+within that network, see our comprehensive list of servers such as for
+[EFnet](/networks/efnet/servers.html),
+[Undernet](https://www.undernet.org/servers.php), [IRCnet](servers/ircnet.html),
+[DALnet](/networks/dalnet/), and several dozen
+[others](servers/index.html).
 
 **IRC Networks**
 
@@ -36,7 +39,7 @@ Browsing for a new network to explore? Want to compare the policies or character
 
 **Connection Problems?**
 
-Having trouble connecting to a specific network? The [IRC Connection Problems Guide](networks/connectprob.html) covers the most common problems, with emphasis on EFnet. If you're just looking for the network's home page or server list, the following multi-network sites might help too.
+Having trouble connecting to a specific network? The [IRC Connection Problems Guide](/networks/connectprob.html) covers the most common problems, with emphasis on EFnet. If you're just looking for the network's home page or server list, the following multi-network sites might help too.
 
 **Multi-network IRC server/channel lists**
 
@@ -44,17 +47,17 @@ There are several sites which provide huge lists of servers or channels that you
 
 **Server Maps**
 
-- IRCnet server maps for [Europe](http://www.ludd.luth.se/irc/map.html) and [N. America](http://www.ludd.luth.se/irc/usmap.html)
+- [IRCnet server map](http://irc.tu-ilmenau.de/all_servers/?focus=0)
 
 **[Add your network](addreq.html)**
 
-[Application instructions for opers/admins to add their network to these lists.](/networksaddreq.html) Updates for existing entries are also welcome.
+[Application instructions for opers/admins to add their network to these lists.](/networks/addreq.html) Updates for existing entries are also welcome.
 
 **Miscellaneous**
 
 Some other networks-related pages:
 
-- [EFnet Spamtrap FAQ](networks/efnet/spamtrap.html) - A guide to EFNet's "spamtrap" spam-control system for end users.
+- [EFnet Spamtrap FAQ](/networks/efnet/spamtrap.html) - A guide to EFNet's "spamtrap" spam-control system for end users.
 - [Why don't you support registration for channel/nicks?](/networks/noserv.html) - a detailed explanation of why we're not all DALnet.
 - [Is EFnet dying?](/networks/efnet/efnetsux.html) - a little rant about the rumored demise of EFnet
 

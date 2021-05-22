@@ -1,21 +1,12 @@
-<!-- X-URL: http://www.irchelp.org/irchelp/networks/nets/small.html -->
-<BASE HREF="http://www.irchelp.org/irchelp/networks/nets/small.html">
+---
+title: 'IRC Networks - Smaller Networks'
+author: random-irchelper
+dateupdated: 3 March 2002
+status: historical
+layout: default
+---
 
-<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="en">
-<head>
-<title>IRC Networks - Smaller Networks</title>
-</HEAD>
-
-<BODY BGCOLOR="#FFFFE8" TEXT="#7A0818">
-
-<MAP NAME="nav_map">
-<AREA SHAPE=RECT HREF="/irchelp/" COORDS="1,1,70,38" alt="">
-<AREA SHAPE=RECT HREF="/irchelp/search_engine.cgi" COORDS="72,1,141,38"
-alt="">
-<AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38" alt="">
-<AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38" alt="">
-</MAP>
+{::nomarkdown}
 
 <h4 align="center">The smaller IRC networks - less than 1,000 maximum users</h4>
 <p>For convenience and speed, the (many) small networks are listed on two
@@ -299,7 +290,7 @@ Operator channel: #camelot<br>
 Restrictive policies: Nothing illegal (warez etc.)<br>
 <a href="http://www.mystical.net/servers/serverlist.html">Server list</a>
 
-<p><a href="small2.html">More small networks</a>
+<p><a href="small2.html">More small networks</a></p>
 
 <P ALIGN=CENTER>
 [ <A HREF="../">main page</A> |
@@ -307,24 +298,4 @@ Restrictive policies: Nothing illegal (warez etc.)<br>
 <A HREF="../nets/">networks</A> |
 <A HREF="../addreq.html">adding you</A> ] 
 </P>
-
-<HR>
-<CENTER>
-<!-- navigation bar -->
-<IMG SRC="/irchelp/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
-	ALT="-navigational bar-">
-<BR><SMALL>
-[ <A HREF="/irchelp/">go back</A>
-| <a href="/irchelp/search_engine.cgi">search</A>
-| <A HREF="/irchelp/help.html">help</A>
-| <A HREF="/irchelp/mail.cgi">send email</A> ]
-</SMALL>
-<P>
-</CENTER>
-
-<CENTER><SMALL>
-<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
-</SMALL></CENTER>
-
-</BODY>
-</HTML>
+{:/nomarkdown}

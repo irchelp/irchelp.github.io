@@ -1,3 +1,10 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -13,12 +20,13 @@ May 1993
 * * *
 
 # 4. Message details
+{:#c4}
 
 On the following pages are descriptions of each message recognized by the IRC
 server and client. All commands described in this section must be implemented
 by any server for this protocol.
 
-Where the reply ERR_NOSUCHSERVER is listed, it means that the <server>
+Where the reply ERR_NOSUCHSERVER is listed, it means that the `<server>`
 parameter could not be found. The server must not send any other replies after
 this for that command.
 
@@ -44,6 +52,7 @@ where it is essential to include the name of the original sender of the
 message so remote servers may send back a reply along the correct path.
 
 ## 4.1 Connection Registration
+{:#c4_1}
 
 The commands described here are used to register a connection with an IRC
 server as either a user or a server as well as correctly disconnect.
@@ -59,14 +68,15 @@ connections. The recommended order for a client to register is as follows:
   3. User message
 
 ### 4.1.1 Password message
+{:#c4_1_1}
 
 Command:
 
-PASS
+`PASS`
 
 Parameters:
 
-<password>
+`<password>`
 
 The PASS command is used to set a 'connection password'. The password can and
 must be set before any attempt to register the connection is made. Currently
@@ -89,17 +99,18 @@ Example:
     
 
 ### 4.1.2 Nick message
+{:#c4_1_2}
 
 Command:
 
-NICK
+`NICK`
 
 Parameters:
 
-<nickname> [ <hopcount> ]
+`<nickname> [ <hopcount> ]`
 
 NICK message is used to give user a nickname or change the previous one. The
-<hopcount> parameter is only used by servers to indicate how far away a nick
+`<hopcount>` parameter is only used by servers to indicate how far away a nick
 is from its home server. A local connection has a hopcount of 0. If supplied
 by a client, it must be ignored.
 
@@ -134,14 +145,15 @@ Example:
     
 
 ### 4.1.3 User message
+{:#c4_1_3}
 
 Command:
 
-USER
+`USER`
 
 Parameters:
 
-<username> <hostname> <servername> <realname>
+`<username> <hostname> <servername> <realname>`
 
 The USER message is used at the beginning of connection to specify the
 username, hostname, servername and realname of s new user. It is also used in
@@ -187,19 +199,20 @@ Examples:
     
 
 ### 4.1.4 Server message
+{:#c4_1_4}
 
 Command:
 
-SERVER
+`SERVER`
 
 Parameters:
 
-<servername> <hopcount> <info>
+`<servername> <hopcount> <info>`
 
 The server message is used to tell a server that the other end of a new
 connection is a server. This message is also used to pass server data over
 whole net. When a new server is connected to net, information about it be
-broadcast to the whole network. <hopcount> is used to give all servers some
+broadcast to the whole network. `<hopcount>` is used to give all servers some
 internal information on how far away all servers are. With a full server list,
 it would be possible to construct a map of the entire server tree, but
 hostmasks prevent this from being done.
@@ -240,17 +253,18 @@ Example:
     
 
 ### 4.1.5 Oper
+{:#c4_1_5}
 
 Command:
 
-OPER
+`OPER`
 
 Parameters:
 
-<user> <password>
+`<user> <password>`
 
 OPER message is used by a normal user to obtain operator privileges. The
-combination of <user> and <password> are required to gain Operator privileges.
+combination of `<user>` and `<password>` are required to gain Operator privileges.
 
 If the client sending the OPER command supplies the correct password for the
 given user, the server then informs the rest of the network of the new
@@ -278,14 +292,15 @@ Example:
     
 
 ### 4.1.6 Quit
+{:#c4_1_6}
 
 Command:
 
-QUIT
+`QUIT`
 
 Parameters:
 
-[<Quit message>]
+`[<Quit message>]`
 
 A client session is ended with a quit message. The server must close the
 connection to a client which sends a QUIT message. If a "Quit Message" is
@@ -313,14 +328,15 @@ Examples:
     
 
 ### 4.1.7 Server quit message
+{:#c4_1_7}
 
 Command:
 
-SQUIT
+`SQUIT`
 
 Parameters:
 
-<server> <comment>
+`<server> <comment>`
 
 The SQUIT message is needed to tell about quitting or dead servers. If a
 server wishes to break the connection to another server it must send a SQUIT
@@ -333,9 +349,9 @@ a remote server connection. In this case, the SQUIT must be parsed by each
 server inbetween the operator and the remote server, updating the view of the
 network held by each server as explained below.
 
-The <comment> should be supplied by all operators who execute a SQUIT for a
+The `<comment>` should be supplied by all operators who execute a SQUIT for a
 remote server (that is not connected to the server they are currently on) so
-that other operators are aware for the reason of this action. The <comment> is
+that other operators are aware for the reason of this action. The `<comment>` is
 also filled in by servers which may place an error or similar message here.
 
 Both of the servers which are on either side of the connection being closed
@@ -374,24 +390,26 @@ Example:
     
 
 ## 4.2 Channel operations
+{:#c4_2}
 
 This group of messages is concerned with manipulating channels, their
 properties (channel modes), and their contents (typically clients). In
 implementing these, a number of race conditions are inevitable when clients at
 opposing ends of a network send commands which will ultimately clash. It is
 also required that servers keep a nickname history to ensure that wherever a
-<nick> parameter is given, the server check its history in case it has
+`<nick>` parameter is given, the server check its history in case it has
 recently been changed.
 
 ### 4.2.1 Join message
+{:#c4_2_1}
 
 Command:
 
-JOIN
+`JOIN`
 
 Parameters:
 
-<channel>{,<channel>} [<key>{,<key>}]
+`<channel>{,<channel>} [<key>{,<key>}]`
 
 The JOIN command is used by client to start listening a specific channel.
 Whether or not a client is allowed to join a channel is checked only by the
@@ -457,14 +475,15 @@ Examples:
     
 
 ### 4.2.2 Part message
+{:#c4_2_2}
 
 Command:
 
-PART
+`PART`
 
 Parameters:
 
-<channel>{,<channel>}
+`<channel>{,<channel>}`
 
 The PART message causes the client sending the message to be removed from the
 list of active users for all given channels listed in the parameter string.
@@ -488,10 +507,11 @@ Examples:
     
 
 ### 4.2.3 Mode message
+{:#c4_2_3}
 
 Command:
 
-MODE
+`MODE`
 
 The MODE command is a dual-purpose command in IRC. It allows both usernames
 and channels to have their mode changed. The rationale for this choice is that
@@ -502,13 +522,14 @@ When parsing MODE messages, it is recommended that the entire message be
 parsed first and then the changes which resulted then passed on.
 
 #### 4.2.3.1 Channel modes
+{:#c4_2_3_1}
 
 Parameters:
 
-<channel> {[+|-]|o|p|s|i|t|n|b|v} [<limit>] [<user>] [<ban mask>]
+`<channel> {[+|-]|o|p|s|i|t|n|b|v} [<limit>] [<user>] [<ban mask>]`
 
 The MODE command is provided so that channel operators may change the
-characteristics of `their' channel. It is also required that servers be able
+characteristics of 'their' channel. It is also required that servers be able
 to change channel modes so that channel operators may be created.
 
 The various modes available for channels are as follows:
@@ -551,10 +572,11 @@ When using the 'o' and 'b' options, a restriction on a total of three per mode
 command has been imposed. That is, any combination of 'o' and
 
 #### 4.2.3.2 User modes
+{:#c4_2_3_2}
 
 Parameters:
 
-<nickname> {[+|-]|i|w|s|o}
+`<nickname> {[+|-]|i|w|s|o}`
 
 The user MODEs are typically changes which affect either how the client is
 seen by others or what 'extra' messages the client is sent. A user MODE
@@ -580,7 +602,7 @@ Additional modes may be available later on.
 
 If a user attempts to make themselves an operator using the "+o" flag, the
 attempt should be ignored. There is no restriction, however, on anyone
-`deopping' themselves (using "-o").
+'deopping' themselves (using "-o").
 
 Numeric Replies:
 
@@ -655,17 +677,18 @@ Examples:
     
 
 ### 4.2.4 Topic message
+{:#c4_2_4}
 
 Command:
 
-TOPIC
+`TOPIC`
 
 Parameters:
 
-<channel> [<topic>]
+`<channel> [<topic>]`
 
 The TOPIC message is used to change or view the topic of a channel. The topic
-for channel <channel> is returned if there is no <topic> given. If the <topic>
+for channel `<channel>` is returned if there is no `<topic>` given. If the `<topic>`
 parameter is present, the topic for that channel will be changed, if the
 channel modes permit this action.
 
@@ -694,25 +717,26 @@ Examples:
     
 
 ### 4.2.5 Names message
+{:#c4_2_5}
 
 Command:
 
-NAMES
+`NAMES`
 
 Parameters:
 
-[<channel>{,<channel>}]
+`[<channel>{,<channel>}]`
 
 By using the NAMES command, a user can list all nicknames that are visible to
 them on any channel that they can see. Channel names which they can see are
 those which aren't private (+p) or secret (+s) or those which they are
-actually on. The <channel> parameter specifies which channel(s) to return
+actually on. The `<channel>` parameter specifies which channel(s) to return
 information about if valid. There is no error reply for bad channel names.
 
-If no <channel> parameter is given, a list of all channels and their occupants
+If no `<channel>` parameter is given, a list of all channels and their occupants
 is returned. At the end of this list, a list of users who are visible but
 either not on any channel or not on a visible channel are listed as being on
-`channel' "*".
+'channel' "\*".
 
 Numerics:
 
@@ -732,14 +756,15 @@ Examples:
     
 
 ### 4.2.6 List message
+{:#c4_2_6}
 
 Command:
 
-LIST
+`LIST`
 
 Parameters:
 
-[<channel>{,<channel>} [<server>]]
+`[<channel>{,<channel>} [<server>]]`
 
 The list message is used to list channels and their topics. If the <channel>
 parameter is used, only the status of that channel is displayed. Private
@@ -768,18 +793,19 @@ Examples:
     
 
 ### 4.2.7 Invite message
+{:#c4_2_7}
 
 Command:
 
-INVITE
+`INVITE`
 
 Parameters:
 
-<nickname> <channel>
+`<nickname> <channel>`
 
 The INVITE message is used to invite users to a channel. The parameter
-<nickname> is the nickname of the person to be invited to the target channel
-<channel>. There is no requirement that the channel the target user is being
+`<nickname>` is the nickname of the person to be invited to the target channel
+`<channel>`. There is no requirement that the channel the target user is being
 invited to must exist or be a valid channel. To invite a user to a channel
 which is invite only (MODE +i), the client sending the invite must be
 recognised as being a channel operator on the given channel.
@@ -812,14 +838,15 @@ Examples:
     
 
 ### 4.2.8 Kick command
+{:#c4_2_8}
 
 Command:
 
-KICK
+`KICK`
 
 Parameters:
 
-<channel> <user> [<comment>]
+`<channel> <user> [<comment>]`
 
 The KICK command can be used to forcibly remove a user from a channel. It
 'kicks them out' of the channel (forced PART).
@@ -859,9 +886,10 @@ NOTE:
 
 It is possible to extend the KICK command parameters to the following:
 
-<channel>{,<channel>} <user>{,<user>} [<comment>]
+`<channel>{,<channel>} <user>{,<user>} [<comment>]`
 
 ## 4.3 Server queries and commands
+{:#c4_3}
 
 The server query group of commands has been designed to return information
 about any server which is connected to the network. All servers connected must
@@ -869,22 +897,23 @@ respond to these queries and respond correctly. Any invalid response (or lack
 thereof) must be considered a sign of a broken server and it must be
 disconnected/disabled as soon as possible until the situation is remedied.
 
-In these queries, where a parameter appears as "<server>", it will usually
+In these queries, where a parameter appears as "`<server>`", it will usually
 mean it can be a nickname or a server or a wildcard name of some sort. For
 each parameter, however, only one query and set of replies is to be generated.
 
 ### 4.3.1 Version message
+{:#c4_3_1}
 
 Command:
 
-VERSION
+`VERSION`
 
 Parameters:
 
-[<server>]
+`[<server>]`
 
 The VERSION message is used to query the version of the server program. An
-optional parameter <server> is used to query the version of the server program
+optional parameter `<server>` is used to query the version of the server program
 which a client is not directly connected to.
 
 Numeric Replies:
@@ -905,23 +934,24 @@ Examples:
     
 
 ### 4.3.2 Stats message
+{:#c4_3_2}
 
 Command:
 
-STATS
+`STATS`
 
 Parameters:
 
-[<query> [<server>]]
+`[<query> [<server>]]`
 
-The stats message is used to query statistics of certain server. If <server>
+The stats message is used to query statistics of certain server. If `<server>`
 parameter is omitted, only the end of stats reply is sent back. The
 implementation of this command is highly dependent on the server which
 replies, although the server must be able to supply information as described
 by the queries below (or similar).
 
 A query may be given by any single letter which is only checked by the
-destination server (if given as the <server> parameter) and is otherwise
+destination server (if given as the `<server>` parameter) and is otherwise
 passed on by intermediate servers, ignored and unaltered. The following
 queries are those found in the current IRC implementation and provide a large
 portion of the setup information for that server. Although these may not be
@@ -932,32 +962,32 @@ formats currently used and the purpose of the query.
 The currently supported queries are:
 
 c
+:  returns a list of servers which the server may connect to or allow connections from;
 
-     - returns a list of servers which the server may connect to or allow connections from;
 h
+:  returns a list of servers which are either forced to be treated as leaves or allowed to act as hubs;
 
-     - returns a list of servers which are either forced to be treated as leaves or allowed to act as hubs;
 i
+:  returns a list of hosts which the server allows a client to connect from;
 
-     - returns a list of hosts which the server allows a client to connect from;
 k
+:  returns a list of banned username/hostname combinations for that server;
 
-     - returns a list of banned username/hostname combinations for that server;
 l
+:  returns a list of the server's connections, showing how long each connection has been established and the traffic over that connection in bytes and messages for each direction;
 
-     - returns a list of the server's connections, showing how long each connection has been established and the traffic over that connection in bytes and messages for each direction;
 m
+:  returns a list of commands supported by the server and the usage count for each if the usage count is non zero;
 
-     - returns a list of commands supported by the server and the usage count for each if the usage count is non zero;
 o
+:  returns a list of hosts from which normal clients may become operators;
 
-     - returns a list of hosts from which normal clients may become operators;
 y
+:  show Y (Class) lines from server's configuration file;
 
-     - show Y (Class) lines from server's configuration file;
 u
+:  returns a string showing how long the server has been up.
 
-     - returns a string showing how long the server has been up.
 
 Numeric Replies:
 
@@ -999,20 +1029,21 @@ Examples:
     
 
 ### 4.3.3 Links message
+{:#c4_3_3}
 
 Command:
 
-LINKS
+`LINKS`
 
 Parameters:
 
-[[<remote server>] <server mask>]
+`[[<remote server>] <server mask>]`
 
 With LINKS, a user can list all servers which are known by the server
 answering the query. The returned list of servers must match the mask, or if
 no mask is given, the full list is returned.
 
-If <remote server> is given in addition to <server mask>, the LINKS command is
+If `<remote server>` is given in addition to `<server mask>`, the LINKS command is
 forwarded to the first server found that matches that name (if any), and that
 server is then required to answer the query.
 
@@ -1037,14 +1068,15 @@ Examples:
     
 
 ### 4.3.4 Time message
+{:#c4_3_4}
 
 Command:
 
-TIME
+`TIME`
 
 Parameters:
 
-[<server>]
+`[<server>]`
 
 The time message is used to query local time from the specified server. If the
 server parameter is not given, the server handling the command must reply to
@@ -1068,19 +1100,20 @@ Examples:
     
 
 ### 4.3.5 Connect message
+{:#c4_3_5}
 
 Command:
 
-CONNECT
+`CONNECT`
 
 Parameters:
 
-<target server> [<port> [<remote server>]]
+`<target server> [<port> [<remote server>]]`
 
 The CONNECT command can be used to force a server to try to establish a new
 connection to another server immediately. CONNECT is a privileged command and
 is to be available only to IRC Operators. If a remote server is given then the
-CONNECT attempt is made by that server to <target server> and <port>.
+CONNECT attempt is made by that server to `<target server>` and `<port>`.
 
 Numeric Replies:
 
@@ -1104,28 +1137,29 @@ Examples:
     
 
 ### 4.3.6 Trace message
+{:#c4_3_6}
 
 Command:
 
-TRACE
+`TRACE`
 
 Parameters:
 
-[<server>]
+`[<server>]`
 
 TRACE command is used to find the route to specific server. Each server that
 processes this message must tell the sender about it by sending a reply
 indicating it is a pass-through link, forming a chain of replies similar to
 that gained from using "traceroute". After sending this reply back, it must
 then send the TRACE message to the next server until given server is reached.
-If the <server> parameter is omitted, it is recommended that TRACE command
+If the `<server>` parameter is omitted, it is recommended that TRACE command
 send a message to the sender telling which servers the current server has
 direct connection to.
 
-If the destination given by "<server>" is an actual server, then the
+If the destination given by "`<server>`" is an actual server, then the
 destination server is required to report all servers and users which are
 connected to it, although only operators are permitted to see users present.
-If the destination given by <server> is a nickname, they only a reply for that
+If the destination given by `<server>` is a nickname, they only a reply for that
 nickname is given.
 
 Numeric Replies:
@@ -1168,17 +1202,18 @@ Examples:
     
 
 ### 4.3.7 Admin command
+{:#c4_3_7}
 
 Command:
 
-ADMIN
+`ADMIN`
 
 Parameters:
 
-[<server>]
+`[<server>]`
 
 The admin message is used to find the name of the administrator of the given
-server, or current server if <server> parameter is omitted. Each server must
+server, or current server if `<server>` parameter is omitted. Each server must
 have the ability to forward ADMIN messages to other servers.
 
 Numeric Replies:
@@ -1205,14 +1240,15 @@ Examples:
     
 
 ### 4.3.8 Info command
+{:#c4_3_8}
 
 Command:
 
-INFO
+`INFO`
 
 Parameters:
 
-[<server>]
+`[<server>]`
 
 The INFO command is required to return information which describes the server:
 its version, when it was compiled, the patchlevel, when it was started, and
@@ -1241,6 +1277,7 @@ Examples:
     
 
 ## 4.4 Sending messages
+{:#c4_4}
 
 The main purpose of the IRC protocol is to provide a base for clients to
 communicate with each other. PRIVMSG and NOTICE are the only messages
@@ -1249,26 +1286,27 @@ another - the rest just make it possible and try to ensure it happens in a
 reliable and structured manner.
 
 ### 4.4.1 Private messages
+{:#c4_4_1}
 
 Command:
 
-PRIVMSG
+`PRIVMSG`
 
 Parameters:
 
-<receiver>{,<receiver>} <text to be sent>
+`<receiver>{,<receiver>} <text to be sent>`
 
-PRIVMSG is used to send private messages between users. <receiver> is the
-nickname of the receiver of the message. <receiver> can also be a list of
+PRIVMSG is used to send private messages between users. `<receiver>` is the
+nickname of the receiver of the message. `<receiver>` can also be a list of
 names or channels separated with commas.
 
-The <receiver> parameter may also me a host mask (#mask) or server mask
+The `<receiver>` parameter may also me a host mask (#mask) or server mask
 ($mask). In both cases the server will only send the PRIVMSG to those who have
 a server or host matching the mask. The mask must have at least 1 (one) "." in
 it and no wildcards following the last ".". This requirement exists to prevent
-people sending messages to "#*" or "$*", which would broadcast to all users;
+people sending messages to "#\*" or "$\*", which would broadcast to all users;
 from experience, this is abused more than used responsibly and properly.
-Wildcards are the '*' and '?' characters. This extension to the PRIVMSG
+Wildcards are the '\*' and '?' characters. This extension to the PRIVMSG
 command is only available to Operators.
 
 Numeric Replies:
@@ -1313,14 +1351,15 @@ Examples:
     
 
 ### 4.4.2 Notice
+{:#c4_4_2}
 
 Command:
 
-NOTICE
+`NOTICE`
 
 Parameters:
 
-<nickname> <text>
+`<nickname> <text>`
 
 The NOTICE message is used similarly to PRIVMSG. The difference between NOTICE
 and PRIVMSG is that automatic replies must never be sent in response to a
@@ -1334,6 +1373,7 @@ always seen to be replying lest they end up in a loop with another automaton.
 See PRIVMSG for more details on replies and examples.
 
 ## 4.5 User based queries
+{:#c4_5}
 
 User queries are a group of commands which are primarily concerned with
 finding details on a particular user or group users. When using wildcards with
@@ -1342,24 +1382,25 @@ users who are 'visible' to you. The visibility of a user is determined as a
 combination of the user's mode and the common set of channels you are both on.
 
 ### 4.5.1 Who query
+{:#c4_5_1}
 
 Command:
 
-WHO
+`WHO`
 
 Parameters:
 
-[<name> [<o>]]
+`[<name> [<o>]]`
 
 The WHO message is used by a client to generate a query which returns a list
-of information which 'matches' the <name> parameter given by the client. In
-the absence of the <name> parameter, all visible (users who aren't invisible
+of information which 'matches' the `<name>` parameter given by the client. In
+the absence of the `<name>` parameter, all visible (users who aren't invisible
 (user mode +i) and who don't have a common channel with the requesting client)
-are listed. The same result can be achieved by using a <name> of "0" or any
+are listed. The same result can be achieved by using a `<name>` of "0" or any
 wildcard which will end up matching every entry possible.
 
-The <name> passed to WHO is matched against users' host, server, real name and
-nickname if the channel <name> cannot be found.
+The `<name>` passed to WHO is matched against users' host, server, real name and
+nickname if the channel `<name>` cannot be found.
 
 If the "o" parameter is passed only operators are returned according to the
 name mask supplied.
@@ -1384,19 +1425,20 @@ Examples:
     
 
 ### 4.5.2 Whois query
+{:#c4_5_2}
 
 Command:
 
-WHOIS
+`WHOIS`
 
 Parameters:
 
-[<server>] <nickmask>[,<nickmask>[,...]]
+`[<server>] <nickmask>[,<nickmask>[,...]]`
 
 This message is used to query information about particular user. The server
 will answer this message with several numeric messages indicating different
 statuses of each user which matches the nickmask (if you are entitled to see
-them). If no wildcard is present in the <nickmask>, any information about that
+them). If no wildcard is present in the `<nickmask>`, any information about that
 nick which you are allowed to see is presented. A comma (',') separated list
 of nicknames may be given.
 
@@ -1441,23 +1483,24 @@ Examples:
     
 
 ### 4.5.3 Whowas
+{:#c4_5_3}
 
 Command:
 
-WHOWAS
+`WHOWAS`
 
 Parameters:
 
-<nickname> [<count> [<server>]]
+`<nickname> [<count> [<server>]]`
 
 Whowas asks for information about a nickname which no longer exists. This may
 either be due to a nickname change or the user leaving IRC. In response to
 this query, the server searches through its nickname history, looking for any
 nicks which are lexically the same (no wild card matching here). The history
 is searched backward, returning the most recent entry first. If there are
-multiple entries, up to <count> replies will be returned (or all of them if no
-<count> parameter is given). If a non-positive number is passed as being
-<count>, then a full search is done.
+multiple entries, up to `<count>` replies will be returned (or all of them if no
+`<count>` parameter is given). If a non-positive number is passed as being
+`<count>`, then a full search is done.
 
 Numeric Replies:
 
@@ -1488,19 +1531,21 @@ Examples:
     
 
 ## 4.6 Miscellaneous messages
+{:#c4_6}
 
 Messages in this category do not fit into any of the above categories but are
 nonetheless still a part of and required by the protocol.
 
 ### 4.6.1 Kill message
+{:#c4_6_1}
 
 Command:
 
-KILL
+`KILL`
 
 Parameters:
 
-<nickname> <comment>
+`<nickname> <comment>`
 
 The KILL message is used to cause a client-server connection to be closed by
 the server which has the actual connection. KILL is used by servers when they
@@ -1550,25 +1595,26 @@ message. In an ideal world not even operators would need to do this and it
 would be left to servers to deal with.
 
 ### 4.6.2 Ping message
+{:#c4_6_2}
 
 Command:
 
-PING
+`PING`
 
 Parameters:
 
-<server1> [<server2>]
+`<server1> [<server2>]`
 
 The PING message is used to test the presence of an active client at the other
 end of the connection. A PING message is sent at regular intervals if no other
 activity detected coming from a connection. If a connection fails to respond
 to a PING command within a set amount of time, that connection is closed.
 
-Any client which receives a PING message must respond to <server1> (server
+Any client which receives a PING message must respond to `<server1>` (server
 which sent the PING message out) as quickly as possible with an appropriate
 PONG message to indicate it is still there and alive. Servers should not
 respond to PING commands but rely on PINGs from the other end of the
-connection to indicate the connection is alive. If the <server2> parameter is
+connection to indicate the connection is alive. If the `<server2>` parameter is
 specified, the PING message gets forwarded there.
 
 Numeric Replies:
@@ -1589,17 +1635,18 @@ Examples:
     
 
 ### 4.6.3 Pong message
+{:#c4_6_3}
 
 Command:
 
-PONG
+`PONG`
 
 Parameters:
 
-<daemon> [<daemon2>]
+`<daemon> [<daemon2>]`
 
-PONG message is a reply to ping message. If parameter <daemon2> is given this
-message must be forwarded to given daemon. The <daemon> parameter is the name
+PONG message is a reply to ping message. If parameter `<daemon2>` is given this
+message must be forwarded to given daemon. The `<daemon>` parameter is the name
 of the daemon who has responded to PING message and generated this message.
 
 Numeric Replies:
@@ -1617,14 +1664,15 @@ Examples:
     
 
 ### 4.6.4 Error
+{:#c4_6_4}
 
 Command:
 
-ERROR
+`ERROR`
 
 Parameters:
 
-<error message>
+`<error message>`
 
 The ERROR command is for use by servers when reporting a serious or fatal
 error to its operators. It may also be sent from one server to another but
@@ -1660,7 +1708,5 @@ Examples:
 * * *
 
 [<](chapter3.html)
-
-[^](rfc.html)
-
+[T](rfc.html)
 [>](chapter5.html)

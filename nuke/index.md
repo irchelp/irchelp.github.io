@@ -11,18 +11,19 @@ redirect_from:
 
 By Joseph Lo Ph.D. aka Jolo with help from stephanie, wmono, mendel, Dancr, GreyFoxx, wcoast, and many others.
 
-This page is part of IRChelp.org's security section at [http://www.irchelp.org /irchelp/security/](http://www.irchelp.org/irchelp/security/)
+This page is part of IRChelp.org's security section at 
+<http://www.irchelp.org/nuke/>
 
 partly revised Mar 12, 2005
 
 ## Introduction
 
-The purpose of this page is to provide information and defenses against Denial of Service (DoS) attacks, which cause networked computers to disconnect from the network or just outright crash. For example, a teenager using very simple DoS tools managed to cripple the web sites of large companies like Yahoo and Amazon during a series of attacks in February 2000 (see this [CNN article](htt
-p://www.cnn.com/2000/TECH/computing/02/09/cyber.attacks.01/index.html)). These attacks are sometimes also called "nukes", "hacking", or "cyber-attacks", but we will use the technically correct term of DoS attacks.
+The purpose of this page is to provide information and defenses against Denial of Service (DoS) attacks, which cause networked computers to disconnect from the network or just outright crash. For example, a teenager using very simple DoS tools managed to cripple the web sites of large companies like Yahoo and Amazon during a series of attacks in February 2000 (see this 
+[CNN article](http://www.cnn.com/2000/TECH/computing/02/09/cyber.attacks.01/index.html)). These attacks are sometimes also called "nukes", "hacking", or "cyber-attacks", but we will use the technically correct term of DoS attacks.
 
 DoS attacks are very common but they are not a joking matter. In the US, they can be a serious federal crime under the [National Information Infrastructure Protection Act of 1996](http://www.usdoj.gov/criminal/cybercrime/compcrime.html) with penalties that include years of imprisonment, and many countries have similar laws. For example, Jeffrey Lee Parson, the 19 year old who wrote a variant of the Blaster worm and used it to attack 48,000 computers, was sentenced to 18 months in prison in January 2005, and may additionally have to pay a substantial fine. At the very least, offenders can lose their Internet Service Provider (ISP) accounts, get suspended or fired if school/work resources are involved, etc.
 
-Often the victims are people on [Internet Relay Chat](http://www.irchelp.org/) (IRC), but DoS attacks do not involve IRC servers in any way, so [IRC operators (IRC ops)](/ircd/opermyth.html) cannot stop or punish the offenders. If you are attacked, try not to take it personally and do _not_ retaliate, or else you will be breaking the law yourself and probably just inviting a much more determined new attack. Instead, read this page to learn more about these attacks, make sure your computer is patched against known weaknesses, and if necessary consider getting some protective "firewall" software. Denial of service should not be confused with [other attacks](../security/trojanterms.html) like viruses, Trojan Horses, and cracking or "hacking".
+Often the victims are people on [Internet Relay Chat](/) (IRC), but DoS attacks do not involve IRC servers in any way, so [IRC operators (IRC ops)](/ircd/opermyth.html) cannot stop or punish the offenders. If you are attacked, try not to take it personally and do _not_ retaliate, or else you will be breaking the law yourself and probably just inviting a much more determined new attack. Instead, read this page to learn more about these attacks, make sure your computer is patched against known weaknesses, and if necessary consider getting some protective "firewall" software. Denial of service should not be confused with [other attacks](../security/trojanterms.html) like viruses, Trojan Horses, and cracking or "hacking".
 
 There are two types of DoS attacks, both of which are described in the next major section:
 
@@ -47,7 +48,7 @@ Just because you got disconnected with some unusual error message such as the ub
 
 **So what can my ISP to do to help?** Your ISP can set up a firewall which stops the flood before it ever gets to you. If the attacks are serious enough, your ISP may even involve law enforcement to help catch the attackers. Unfortunately, many ISPs are understaffed or inexperienced at handling the huge number of both false and legitimate complaints filed, so customers get ignored and nothing is done. If that is the case, you essentially need to steer clear of the attacker and wait for them to get bored (a surprisingly effective technique) or change ISPs.
 
-**What about setting up my own firewall?** This is one of the most frequently misunderstood issues in network security. Having your own personal firewall is useless against an external flood. At best, it may let you record the source of the attacks. If the attacker is dumb enough to be using his own account to attack you, then you may be able to get his account shut down. In most cases, however, the attacks come from tens or hundreds of computers which have been hijacked through viruses, so the best you can do is share those logs with your ISP and hope they can block the attacks for you. That is why we do **not** recommend average users go and download personal software firewalls blindly! The subject of firewalls is covered in our [firewall FAQ](../security/fwfaq.html) which includes a detailed discussion on [personal software firewalls](../security/fwfaq.html#17).
+**What about setting up my own firewall?** This is one of the most frequently misunderstood issues in network security. Having your own personal firewall is useless against an external flood. At best, it may let you record the source of the attacks. If the attacker is dumb enough to be using his own account to attack you, then you may be able to get his account shut down. In most cases, however, the attacks come from tens or hundreds of computers which have been hijacked through viruses, so the best you can do is share those logs with your ISP and hope they can block the attacks for you. That is why we do **not** recommend average users go and download personal software firewalls blindly! The subject of firewalls is covered in our [firewall FAQ](../security/fwfaq.html) which includes a detailed discussion on [personal software firewalls](../security/fwfaq.html#q17).
 
 --------------------------------------------------------------------------------
 

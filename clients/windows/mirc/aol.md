@@ -24,7 +24,7 @@ We will try to keep a list of servers you can use below, but these change all
 the time. You therefore need to be resourceful and learn how to find servers
 on your own. Here are some ideas.
 
-  * Ignore the official mIRC server list, and instead find a more complete and recent [list of servers](/irchelp/networks/servers/) and just keep trying different servers for the network.
+  * Ignore the official mIRC server list, and instead find a more complete and recent [list of servers](/networks/servers/) and just keep trying different servers for the network.
   * If you do manage to connect to the network using one server, you can get the complete list of current servers by using the `/links` command.
   * If you do connect, another useful trick is to see what other AOL'ers are using. Use `/who *.aol.com` to get a list of some other AOL'ers, then do `/whois nickname` for some of those nicknames to see what servers they are using, and make a note of the information.
 

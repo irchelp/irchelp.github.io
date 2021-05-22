@@ -1,6 +1,7 @@
 ---
 title: ircII
 author: RuyDuck, Apatrix, dracus, Jolo, and many other UNIXsaurii
+dateupdated: 9 May 2004
 layout: default
 redirect_from:
   - /ircii/
@@ -31,7 +32,7 @@ ircd, and not by other clients, however clients are still urged to upgrade!
 The UNIX operating system was the original home to the Internet Relay Chat,
 when some code developers wanted a way to chat in an easy-to-use, real-time
 forum and discuss their developments. Back in the early days of IRC, the
-[ircII](http://www.eterna.com.au/ircii/) (pronounced irc-two[*]) program was the premiere client. Designed to
+[ircII](http://www.eterna.com.au/ircii/) (pronounced irc-two[\*]) program was the premiere client. Designed to
 run in a text-mode environment, IrcII is not pretty -- it has no sounds,
 graphics, menus, pop-ups, etc. (see a [screen capture](/media/ircii.gif)). It is,
 however, fast, stable, lightweight, portable, and easily backgrounded using
@@ -39,10 +40,10 @@ virtual terminals such as Unix "screen".
 ircII was the first to implement Client to Client Protocol (CTCP) and Direct Client
 to Client (DCC).
 
-![*](/images/2016/07/ircii.gif)
+![ircii](/media/ircii.gif)
 
 UNIX has evolved over the years into many variant OS's such as Linux, BSD,
-Solaris, etc., sometimes collectively known as "*nix", "Unix-like" or simply
+Solaris, etc., sometimes collectively known as "\*nix", "Unix-like" or simply
 "Unix". Because of this increasing popularity, more, newer IRC clients have
 been developed for Unix systems. Perhaps the most common are **BitchX** and
 **EPIC**, both variants of the ircII client with greater functionality built
@@ -50,8 +51,8 @@ into them at some stage in their development.
 
 Even more recently, with the increased use of Unix on home PCs, IRC users are
 turning to graphical user interface (GUI) clients to meet their needs. As with
-[mIRC](http://www.irchelp.org/irchelp/clients/windows/mirc/) for Windows or the various
-[Macintosh](http://www.irchelp.org/irchelp/clients/mac/) clients, text-based clients
+[mIRC](/clients/windows/mirc/) for Windows or the various
+[Macintosh](/clients/mac/) clients, text-based clients
 can be used in in GUI "terminal emulators" that make them available in the
 graphical environment. Additionally, pure graphical clients have been
 developed to offer some of the look, feel, and functionality of Windows and
@@ -66,12 +67,11 @@ distributor of UNIX OS systems in the world.
 
 At one time, the IrcII client set the standard against which all other clients
 were developed and measured. While this may still hold true to some extent
-today, the Windows client [mIRC](http://www.irchelp.org/irchelp/clients/windows/mirc/) has
+today, the Windows client [mIRC](/clients/windows/mirc/) has
 largely taken over that position.
 
 * * *
 
-* * *
 
 ## Getting ircII
 
@@ -103,13 +103,17 @@ provides, you can download and compile the source code.
 
 Compiling and installing software from source is not
 difficult, but does require a solid understanding of
-the *nix shell environment. We highly recommend that users stick to packaged versions if possible, as they are much easier to install and maintain than software compiled from source.
+the \*nix shell environment. We highly recommend that users stick to packaged
+versions if possible, as they are much easier to install and maintain than
+software compiled from source.
 
-Mixing distribution-packaged software and software built from source on the same system is likely to lead to conflicts.
-At the very least, Be sure to install into /usr/local rather than into /usr
+Mixing distribution-packaged software and software built from source on the
+same system is likely to lead to conflicts.  At the very least, Be sure to
+install into /usr/local rather than into /usr
 when installing from source, so as not to conflict
 with files installed by package managers. Due to
-systemwide configuration files or scripts for ircII installed by some distribution, you may encounter other conflicts or oddities if a prepackaged
+systemwide configuration files or scripts for ircII installed by some
+distribution, you may encounter other conflicts or oddities if a prepackaged
 version is installed alongside a source-built version,
 even when the source-built version is installed in the
 correct location. This can persist even if the distribution
@@ -118,15 +122,16 @@ left behind.
 You may wish to use [GNU Stow](https://www.gnu.org/software/stow/) to
 manage packages compiled from source - GNU Stow "packages"
 source installed packages into subdirectories and manages
-symlinks, making it easy to "install", "update", and "uninstall" such packages without risking leaving traces
-behind.
+symlinks, making it easy to "install", "update", and "uninstall" such packages
+without risking leaving traces behind.
 
 [ircii-current](http://www.eterna.com.au/ircii/)
 
 ## Version History
 2.8.2 was for a long time the most popular version, and
-was widely deployed in the 90s.  After the 2.8 series, ircII went through many, many versions from 2.9roof through 4.4Z,
-all of which were extremely buggy, either simply annoying or seriously
+was widely deployed in the 90s.  After the 2.8 series, ircII went through many,
+many versions from 2.9roof through 4.4Z, all of which were extremely buggy,
+either simply annoying or seriously
 compromised. After ircII 4.4 reached the Z release, the ircII team switched to
 naming their releases according to date. As of this writing, the most recent
 ircII release in source form is ircii-20020310.tar.bz2 (the .bz2 extension
@@ -136,7 +141,8 @@ original 2.8 release. Because ircii-current is a rolling release at this
 point, it's best if you go to the home page by following the link, and
 download it from there.
 
-**The older versions are no longer recommended due to a security vulnerability discovered in 2003, and fixed in version 20030314.**
+**The older versions are no longer recommended due to a security vulnerability
+discovered in 2003, and fixed in version 20030314.**
 
 The version history from 4.4 onwards is detailed in [ircII's news page](http://www.eterna.com.au/ircii/news.html)
 
@@ -153,39 +159,63 @@ easier and more efficient. It retains extremely close
 compatability to version 2.8.2, from which it was forked
 
 
-**[BitchX](http://www.bitchx.org/)** [ext. link]     The most popular ircII-based client (forked at ircii-2.8 originally, it's now based on the current EPIC release of ircII), currently at version 1.0c18 (2001). This client is packed with all sorts of desirable as well as useless features which make it complicated to the level of being unnecessarily bloated. This doesn't mean it's a bad client. It's stable, functional and its bugs aren't too irritating (although some can earn you K:lines if you're not careful). Documentation on BitchX-specific features is sparse (though much improved over older versions). Even slight configuration errors can become the cause of embarrassing events. We recommend it only as a heavy duty client, strictly for experienced ircII users who are prepared to figure out a lot of things by yourself and risk such mistakes. It is strongly recommended that you have the help files for ircII and EPIC available when using BitchX, as the functions BitchX shares with these clients are poorly documented (if documented at all) in BitchX's own documentation. Note that BitchX's channel protection settings are turned on by default, with inappropriate triggering thresholds which will probably result in your client turning on fellow channel operators in channels you hold ops in. Most of these protection features are generally counterproductive, and may compromise a channel in a crisis situation. It's strongly recommended that you look through the little bit of documentation that BitchX has, and turn these features off. While you are at it, make sure you turn the public away notices off too, they get a bit annoying, and many channels kick for them.
+**[BitchX](http://www.bitchx.org/)** [ext. link]     The most popular
+ircII-based client (forked at ircii-2.8 originally, it's now based on the
+current EPIC release of ircII), currently at version 1.0c18 (2001). This client
+is packed with all sorts of desirable as well as useless features which make it
+complicated to the level of being unnecessarily bloated. This doesn't mean it's
+a bad client. It's stable, functional and its bugs aren't too irritating
+(although some can earn you K:lines if you're not careful). Documentation on
+BitchX-specific features is sparse (though much improved over older versions).
+Even slight configuration errors can become the cause of embarrassing events.
+We recommend it only as a heavy duty client, strictly for experienced ircII
+users who are prepared to figure out a lot of things by yourself and risk such
+mistakes. It is strongly recommended that you have the help files for ircII and
+EPIC available when using BitchX, as the functions BitchX shares with these
+clients are poorly documented (if documented at all) in BitchX's own
+documentation. Note that BitchX's channel protection settings are turned on by
+default, with inappropriate triggering thresholds which will probably result in
+your client turning on fellow channel operators in channels you hold ops in.
+Most of these protection features are generally counterproductive, and may
+compromise a channel in a crisis situation. It's strongly recommended that you
+look through the little bit of documentation that BitchX has, and turn these
+features off. While you are at it, make sure you turn the public away notices
+off too, they get a bit annoying, and many channels kick for them.
 
 ### Suggested Alternatives
 
-[irssi](/irchelp/clients/unix/irssi/)
+[irssi](/clients/unix/irssi/)
 
-irssi has largely taken the place of ircII as the gold-standard for console IRC clients, due to a simple
-but extensible user interface, and defaults that just
+irssi has largely taken the place of ircII as the gold-standard for console IRC
+clients, due to a simple but extensible user interface, and defaults that just
 work out of the box for most users without needing
 any customization.
 
-Users migrating from ircII should note that irssi's default configuration utilizes hidden windows,
-making it much easier to keep track of multiple channels.
-It also utilizes an embedded Perl interpreter for its scripting, eliminating the need to learn a
-new language. This is a positive for new users, but,
+Users migrating from ircII should note that irssi's default configuration
+utilizes hidden windows, making it much easier to keep track of multiple
+channels.
+It also utilizes an embedded Perl interpreter for its scripting, eliminating
+the need to learn a new language. This is a positive for new users, but,
 might be a downside if you are heavily invested in ircII
 customizations.
 
 ### Other UNIX/Linux Clients
 
-Our main [UNIX/Linux Clients](/irchelp/clients/unix/) page
+Our main [UNIX/Linux Clients](/clients/unix/) page
 lists a large number of clients, including both console
 and GUI Clients.
 
 
 ## Help and related files
 
-[Help for ircII commands](/irchelp/clients/unix/ircii/commands/)     WWW help files for all 500 commands
-and settings! All of these should be available in all ircII-based clients
+[Help for ircII commands](/clients/unix/ircii/commands/)     WWW help files for
+all 500 commands and settings! All of these should be available in all
+ircII-based clients
 (ircII, BitchX, EPIC).
 
-[irciiman.txt](/irchelp/clients/unix/ircii/irciiman.txt) (formerly called irciiman.wri)     The same help
-information as above in one text file that you can download and keep as a
+[irciiman.txt](/clients/unix/ircii/irciiman.txt) (formerly called
+irciiman.wri)     The same help information as above in one text file that you
+can download and keep as a
 reference. This way you don't have to keep typing /help in ircII or stumble
 all over the WWW help links. All ircII-based clients should implement these
 features. EPIC and BitchX have numerous additional commands, functions and
@@ -221,15 +251,16 @@ in real life.
 
 We recognize that the average user is probably not interested in learning how
 to script or just wants some examples to get started. In that case, please see
-our [ircII scripts page](/irchelp/script/) for some ircII script packages
+our [ircII scripts page](/script/) for some ircII script packages
 which may increase your IRC enjoyment and convenience.
 
 If you do want to **learn how to script**, there aren't really "how to"
 guides, but you don't really need any. If you have some basic programming
 experience, it's just a matter of getting some good references, such as
-[irciiman.txt](irciiman.wri) (aka irciiman.wri) and [server numerics header
-](server-numerics.txt), then learning by example from existing scripts such as
-those in our [ircII scripts page](/irchelp/script/).
+irciiman.txt `irciiman.wri` (aka irciiman.wri) and 
+[server numerics header](/clients/unix/ircii/server-numerics.txt), then learning by
+example from existing scripts such as those in our 
+[ircII scripts page](/script/).
 
 Note on the pronunciation of ircII:
 
@@ -239,4 +270,3 @@ Some of us like to call it "eye-are-see-two". However, the other main variant,
 not going to argue the point to death. What's pretty certain is that it is
 "two" and not "ee".
 
-* * *

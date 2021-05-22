@@ -1,33 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML lang="en">
-<HEAD>
-<title>IRC Communication Research Resources - Academic Resources - To Be In Touch</title>
-
-</HEAD>
-
-<BODY BGCOLOR="#FFFFE8" TEXT="#7A0818">
-
-<MAP NAME="nav_map">
-<AREA SHAPE=RECT HREF="/irchelp/" COORDS="1,1,70,38" ALT="">
-<AREA SHAPE=RECT HREF="/irchelp/search_engine.cgi" COORDS="72,1,141,38" ALT="">
-<AREA SHAPE=RECT HREF="/irchelp/help.html" COORDS="143,1,212,38" ALT="">
-<AREA SHAPE=RECT HREF="/irchelp/mail.cgi" COORDS="214,1,283,38" ALT="">
-</MAP>
-
+---
+title: "IRC Communication Research Resources - Academic Resources - To Be In Touch"
+author: Freeside
+datecreated: 25 June 1993
+status: historical
+layout: default
+---
+{::nomarkdown}
 <center>
   <table width="600" border="0" cellspacing="0" cellpadding="0">
     <tr> 
-      <td height="17" align="center"><a name="top"></a>&nbsp;</td>
-    </tr>
-    <tr> 
       <td height="17" align="center"> 
-        <h4><b><a href="/irchelp/communication-research/">IRC Communication Research 
+        <h4><b><a href="..">IRC Communication Research 
           Resources</a></b></h4>
-        <h4><b><a href="/irchelp/communication-research/academic/">Academic Resources</a></b></h4>
+        <h4><b><a href=".">Academic Resources</a></b></h4>
       </td>
-    </tr>
-    <tr> 
-      <td align="center">&nbsp;</td>
     </tr>
     <tr> 
       <td> 
@@ -56,7 +42,7 @@
           we need<br>
           | a whole new vocabulary to define "frienships" (or more, or less) on 
           the<br>
-          | infiNET.</p>
+          | infiNET.<p/>
         <p>Two thoughts come to mind. </p>
         <p>Many of us have made built great friendships on the net. And I must 
           admit that there <i>is</i> a certain "spell" associated with a net-relationship 
@@ -145,37 +131,19 @@
           only skeptical of the strength of virtual friendships. </p>
         <p>freeside </p>
         <p> 
-        <hr size="1" noshade>
+        <!-- <hr size="1" noshade> -->
         <p></p>
+{% comment %}
         <p>Go to <a href="http://seas.upenn.edu/~mengwong/meng.html">Meng's Home 
           Page.</a></p>
+{% endcomment %}
         <p><b>Disclaimer: This document in no way represents the University of 
           Pennsylvania. All opinions and errors are mine alone. </b></p>
         <address>mengwong@seas.upenn.edu</address>
       </td>
     </tr>
   </table>
-
-
 </center>
+<br>
 
-<HR>
-<CENTER>
-<!-- navigation bar -->
-<IMG SRC="/irchelp/Pix/ihnavbar.gif" WIDTH=285 HEIGHT=40 BORDER=0 USEMAP="#nav_map"
-	ALT="-navigational bar-">
-<BR><SMALL>
-[ <A HREF="/irchelp/">go back</A>
-| <a href="/irchelp/search_engine.cgi">search</A>
-| <A HREF="/irchelp/help.html">help</A>
-| <A HREF="/irchelp/mail.cgi">send email</A> ]
-</SMALL>
-<P>
-</CENTER>
-
-<CENTER><SMALL>
-<A HREF="/irchelp/credit.html">all pages &copy; IRCHELP.ORG or original authors</A><BR>
-</SMALL></CENTER>
-
-</BODY>
-</HTML>
+{:/nomarkdown}

@@ -1,0 +1,58 @@
+---
+title: 'ircii help: quote'
+author: Michael Sandrof, Troy Rollo, Matthew R. Green
+datecreated: 3 August 2020
+layout: default
+license: ircii
+summary: >
+  ircii version: 20190117
+  create with help2md.pl
+---
+```
+ALIAS MODIFIER:
+  This is a special quoting modifier.  Use of this modifier tells
+  IRCII that you wish certain characters in the converted text to be
+  quoted using the \ character.  The form of this modifier is:
+    $^c<sequence>
+  where c is the character to be quoted, and <sequence> is one of the
+  special sequences.  For example, you may wish to do the following:
+    alias foo eval echo $^$*
+  and you do
+    foo This is a $Test
+  Since $ expressions are parsed first, the $^$* is the first thing
+  parsed.  The ^$ part tells IRCII to quote all $ in the resultant
+  string.  So, the $^$* is expanded just like $* and becomes:
+    This is a $Test
+  and the ^$ causes it to quote all $, which becomes:
+    This is a \$Test
+  This is then replaced in the original alias for parsing, so /foo
+  becomes:
+    eval echo This is a \$test
+  When eval goes through the line and reparses it the $ is protected 
+  by the new \, and thus the final output will be "This is a $Test".
+  If $ was not quoted, eval would try to expand any $'s into the
+  contents of the associated variable.  Eg. one$two  would try to 
+  expand the variable $two
+  The ^ modifier must be first after the initial $.  You may specify
+  more than one character to be quoted simply be adding more ^c to the
+  expression:
+    $^$^\B
+  will quote all occurences of $ and \ in the body of the last message
+  you received.
+
+  Remember, you can use both forms of modifiers, but they must be in
+  the correct order.  All ^ modifiers must be first, followed by any
+  [] modifier.  For example:
+    $^.[-10]S
+  This will right justify your server name and quote any . in the
+  server name with \.
+
+```
+See Also:
+  [ALIAS WIDTH](../alias/width.html)
+  [EVAL](../eval.html)
+
+[index](index.html)
+[up](..)
+
+<small> ircii 20190117 </small>

@@ -1,50 +1,63 @@
 ---
 title: help page for irchelp archive
+author: Jolo
 layout: default
 ---
 # Help page for #IRChelp archive
 
+{% comment %}
 **Need help using our help site? You can find help 3 different ways:**
+{% endcomment %}
+**Need help using our help site?**
 
-  1. Check out one of the main directories or selected help files at the [top level](/irchelp/) of this site (see site map below),
+  1. Check out one of the main directories or selected help files at the 
+     [top level](/irchelp/) of this site (see site map below),
+{% comment %}
   2. [Search our 800+ help files for specific keywords](/irchelp/search_engine.cgi),
   3. [Ask your question directly by email](/irchelp/mail.cgi).
+{% endcomment %}
 
 ## Site Map
 
 ### General Information
 
-    **Novice**
+**Novice**
 
-  * [IRC Prelude](/irchelp/new2irc.html)
-  * [IRC Tutorial](/irchelp/irctutorial.html)
+  * [IRC Prelude](/faq/new2irc.html)
+  * [IRC Tutorial](/faq/irctutorial.html)
   * [WebTV and IRC](/misc/webtv.html)
-  * [IRC International](/misc/foreign.html)     **More Advanced**
+  * [IRC International](/misc/foreign.html)     
 
-  * [IRC Primer](/irchelp/ircprimer.html)
-  * [FAQ from alt.irc](/irchelp/faq.html)
-  * [IFAQ](/irchelp/ifaq.html)
+**More Advanced**
+
+  * [IRC Primer](/faq/ircprimer.html)
+  * [FAQ from alt.irc](/faq/)
+  * [IFAQ](/faq/ifaq.html)
   * [IRC Command Cosmos](/misc/ccosmos.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
-  * [RFC (technical specs) for IRC](/irchelp/rfc/) and [DCC/CTCP](/irchelp/rfc/ctcpspec.html)
+  * [RFC (technical specs) for IRC](/protocol/rfc/) and [DCC/CTCP](/protocol/ctcpspec.html)
 
 * * *
 
 ### IRCd (server management)
 
-    **Server Setup**
+**Server Setup**
 
-  * [Network/Server Lists](/irchelp/networks/)
+  * [Network/Server Lists](/networks/)
   * [Server Request FAQ](/ircd/server-request.html)
   * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext)
   * [Server Software](/ircd/)
-  * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
+  * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      
 
-  * [Changes in Hybrid 6](hybrid6.html)
+**Server Use**
+
+  * [Changes in Hybrid 6](/ircd/hybrid/hybrid6.html)
   * [Server Numeric Headers](/ircd/numerics.html)
   * [Server Desyncs](/ircd/desync.html)
   * [Time Stamp](/ircd/ircserv.html)
-  * [User Modes](/misc/umodes.html)     **IRC operators (IRCops)**
+  * [User Modes](/misc/umodes.html)     
+
+**IRC operators (IRCops)**
 
   * [Server Request FAQ](/ircd/server-request.html)
   * [Myth of Opers](/ircd/opermyth.html)
@@ -53,29 +66,35 @@ layout: default
 
 ### IRC Clients
 
-    **Windows**
+**Windows**
 
-  * [mIRC](/irchelp/mirc/)     **UNIX**
+  * [mIRC](/clients/windows/mirc/)     
 
-  * [ircII, BitchX, EPIC](/irchelp/ircii/)
-  * [ircII command help](/irchelp/ircii/commands/)
-  * [scripting](/irchelp/script/)     **Macintosh**
+**UNIX**
 
-  * [Ircle, Snak, ShadowIRC](/irchelp/mac/)
-  * [Ircle Setup Guide](/irchelp/mac/ircle_setup.html)
+  * [ircII, BitchX, EPIC](/clients/unix/ircii/)
+  * [ircII command help](/clients/unix/ircii/commands/)
+  * [scripting](/script/)
+
+**Macintosh**
+
+  * [Ircle, Snak, ShadowIRC](/clients/mac/)
+  * [Ircle Setup Guide](/clients/mac/ircle_setup.html)
 
 * * *
 
 ### Lists (Channels, Nets, Servers)
 
-    **Channels (chat rooms)**
+**Channels (chat rooms)**
 
-  * [EFnet](/irchelp/chanlist/)     **Networks / Servers**
+  * [EFnet](/chanlist/)     
 
-  * [overview of networks](/irchelp/networks/servers/)
+**Networks / Servers**
+
+  * [overview of networks](/networks/servers/)
   * [Big Four](/networks/nets/big4.html):
-[EFnet](/networks/servers/efnet.html), Undernet,
-[IRCnet](/networks/servers/ircnet.html), DALnet
+  [EFnet](/networks/servers/efnet.html), Undernet,
+  [IRCnet](/networks/servers/ircnet.html), DALnet
 
   * [Medium](/networks/nets/medium.html) and [Small](/networks/nets/small.html) Nets
   * [Subject](/networks/nets/subject.html) and [Local](/networks/nets/local.html) Nets
@@ -84,14 +103,15 @@ layout: default
 
 ### Security
 
-    **Attacks and Defenses**
+**Attacks and Defenses**
 
-  * [Denial of Service attacks (nukes)](/irchelp/nuke/)
+  * [Denial of Service attacks (nukes)](/nuke/)
   * [Trojan Horse attacks (IRC viruses)](/security/trojan.html)
   * [IRC Hints for Takeovers](/misc/hints.html)
-  * [reporting abuse](/irchelp/misc/irclog.html)
+  * [reporting abuse](/security/irclog.html)
   * [backdoors](/security/irc-backdoor.txt)
 
+{% comment %}
 ## What's the picture bar at the bottom of the page?
 
 You will find this "navigational bar" at the bottom of all our pages, it lets
@@ -108,15 +128,22 @@ help page
 
 [![mail](/irchelp/Pix/ihmail.gif)](/irchelp/mail.cgi) [Email](mail.cgi)
 questions or feedback
+{% endcomment %}
 
 ## Still confused?
 
 For live help from our many volunteer experts, visit us on #IRChelp on EFnet
 and IRCnet - somebody is always happy to answer your IRC questions 24 hours a
-day, 7 days a week. If you prefer, [email us](/irchelp/mail.cgi)!
+day, 7 days a week. 
+{% comment %}
+If you prefer, [email us](/irchelp/mail.cgi)!
+{% endcomment %}
 
-Now click [here](/irchelp/) or on the first button in the navigational bar
-below to go back to the top of the #IRChelp home page, or if you came from
+Now click [here](/irchelp/) 
+{::comment}
+or on the first button in the navigational bar below to go back to the top of the #IRChelp home page, 
+{:/comment}
+or if you came from
 somewhere else, select **BACK** on your browser to return there.
 
 --Jolo

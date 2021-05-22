@@ -1,9 +1,16 @@
+---
+title: "CHANFIX : Réparation De la Manche D'EFnet"
+author: random-irchelper
+datecreated: 28 March 2003
+status: historical
+layout: default
+---
 # CHANFIX : Réparation De la Manche D'EFnet
 
 par Jolo, tiggergrm et beaucoup d'autres
 
-Version originale [à http://www.irchelp.org/ircd/chanfix/](http://www.
-irchelp.org/ircd/chanfix/)
+Version originale à 
+<http://www.irchelp.org/ircd/chanfix/>
 
 mars mis à jour 28, 2003
 
@@ -23,8 +30,8 @@ déterminer qui obtient des ops automatiquement ; nous ne pouvons pas
 arbitrairement donner ou emporter des ops à quiconque. CHANFIX est un dernier
 recours ; il n'existe pas pour votre convenance ou ne remplace pas le bon
 commonsense et la gestion de canal appropriée. Vous si course immobile votre
-canal correctement, comme exiger la vérification __d'username@hostname_ _et
-_de mot de passe avant d'accorder des ops. Personnes opping manuellement, même
+canal correctement, comme exiger la vérification _d'username@hostname_ _et_
+de mot de passe avant d'accorder des ops. Personnes opping manuellement, même
 ceux que vous pensez que vous savez, êtes une recette pour le désastre.
 
 Ce guide présentera CHANFIX et vous indiquera comment obtenir l'aide de lui.
@@ -48,8 +55,7 @@ la courtoisie et le respect.
   * [](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23score)[](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23manual)[5. Comment CHANFIX garde-t-il des points ?](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23score)
   * [](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23more)[](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23score)[6. Plus D'Information](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fircd%2Fchanfix.html%23more)
 
-## 1. Comment est-ce que je m'inscris à CHANFIX ou le déclenche pour
-travailler ?
+## 1. Comment est-ce que je m'inscris à CHANFIX ou le déclenche pour travailler ?
 
 Vous n'enregistrez pas votre canal avec CHANFIX. Vous le besoin juste de
 s'assurer qu'il rencontre certaine qualification conditionne. CHANFIX alors
@@ -71,7 +77,7 @@ donner des ops, vous ne qualifiez pas. Lu dessus pour découvrir pourquoi.
 
 ### 2A. Conditions pour CHANFIX au reop un canal opless :
 
-******Vous devez rencontrer TOUTES ces conditions**, aucunes exceptions. 
+**Vous devez rencontrer TOUTES ces conditions**, aucunes exceptions. 
 
   1. Le canal doit avoir existé pour au moins une demi-heure. Bien que ce soit le minimum technique, veuillez être réaliste. N'importe quel canal moins que quelques jours est probablement trop nouveau pour fixer, parce que vous n'avez pas établi un ensemble stable d'ops réguliers. Créez un nouveau canal, ou la causerie juste sur un canal existant puisque vous ne pourriez pas être prêt à courir encore vos propres. 
   2. Le canal doit avoir eu au moins 4 personnes dans lui. Encore c'est un minimum technique, mais à moins que vous ayez vraiment un bon nombre de gens, il est souvent plus rapide de fixer le canal par le cycle de lui (tout le monde /part, puis recréent le canal à partir de zéro). 
@@ -136,8 +142,7 @@ url?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fnetworks%2Fnoserv.ht
 ml) et [les mythes d'Opers](http://babelfish.altavista.com/babelfish/urltrurl?
 lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Fircd%2Fopermyth.html).
 
-## 3. Nous avons toujours des ops est-ce que mais elles tout est tourne au
-ralenti, peut vous op j'à la place ?
+## 3. Nous avons toujours des ops est-ce que mais elles tout est tourne au ralenti, peut vous op j'à la place ?
 
 Aussi longtemps qu'au moins un op régulier (on tenant de hauts points) est
 opped dans le canal, là n'est que rien CHANFIX peut faire. Vous devez le
@@ -168,11 +173,11 @@ new channel.
 
 If you had an actual takeover by an outsider, then you need to figure out how
 they got ops (accidental op, "hacked" bot/shell, [denial of service
-attack](http://www.irchelp.org/irchelp/nuke/) that knocked everybody else
+attack](/nuke/) that knocked everybody else
 offline, etc.). Then make sure it doesn't happen again. We do not issue fixes
 until you have demonstrated that you won't get taken over again right away.
 You should have as many as possible of your
-[qualifying](http://www.irchelp.org/ircd/chanfix.html#qualify) regular
+[qualifying](#2a-conditions-pour-chanfix-au-reop-un-canal-opless-) regular
 ops online and awake, either sitting in the channel or ready to rejoin at a
 moment's notice. Be ready to act to secure the channel right after the fix is
 issued.
@@ -183,17 +188,20 @@ that might keep people out (+b bans, +i invite-only, +k keyword-required, +l
 limit). This is when you must rejoin quickly. Then CHANFIX rejoins later and
 restores ops to the regular ops as it would in an opless channel.
 
-**To reverse a takeover, if you meet all [qualifying conditions](http://www.irchelp.org/ircd/chanfix.html#qualify) for opless channels, go to EFnet #CHANFIX and tell us the name of your channel, what went wrong, what you've done to prevent a recurrence, then wait quietly for help.** We will get to you as soon as we can. 
+**To reverse a takeover, if you meet all 
+[qualifying conditions](#2a-conditions-pour-chanfix-au-reop-un-canal-opless-)
 
-If you don't qualify, see the [relevant
-section](http://www.irchelp.org/ircd/chanfix.html#sol) above. Good
+for opless channels, go to EFnet #CHANFIX and tell us the name of your channel, what went wrong, what you've done to prevent a recurrence, then wait quietly for help.** We will get to you as soon as we can. 
+
+If you don't qualify, see the 
+[relevant section](#2b-pourquoi-pas-reop-de-chanfix-mon-canal-opless-) above. Good
 luck, you'll need it.
 
 ## 5. How does CHANFIX keep scores?
 
 CHANFIX keeps track on who has ops on a channel by using a score database. To
-hold a score, your channel must meet all [qualifying
-conditions](http://www.irchelp.org/ircd/chanfix.html#qualify) above.
+hold a score, your channel must meet all 
+[qualifying conditions](#2a-conditions-pour-chanfix-au-reop-un-canal-opless-) above.
 These conditions include having a minimum number regular of ops with identd
 and a static hostname/IP over a minimum period of time. If you qualify, you do
 not need to register or log in, and it doesn't matter if you change nicknames.
@@ -219,5 +227,5 @@ link].
 
 **Original documentation**: see the "[What CHANFIX really is and isn't](http://www.qurve.com/efnet/chanfix/)" [ext. link] guide which contains an example describing how CHANFIX really works, including details on the scoring system, and the older [original FAQ](http://services.efnet.broken.com/chanfix/chanfix-faq.html) [ext. link] which does not cover more recent developments such as the manual fix feature. 
 
-**History**: CHANFIX (originally named JUPES) was voted upon and passed by a majority of EFnet admins in April 2001, and began operation in early July 2001. You can see the [vote proposal](https://voting.blackened.com/pastvotes/0014.shtml) [ext. link] (if your browser cannot handle https:// pages, see our [local mirror](http://www.irchelp.org/ircd/vote0014.html)). This proposal also contains a somewhat technical comparison to other competing channel-fixing ideas.  
+**History**: CHANFIX (originally named JUPES) was voted upon and passed by a majority of EFnet admins in April 2001, and began operation in early July 2001. You can see the [vote proposal](https://voting.blackened.com/pastvotes/0014.shtml) [ext. link] (if your browser cannot handle https:// pages, see our [local mirror](/ircd/vote0014.html)). This proposal also contains a somewhat technical comparison to other competing channel-fixing ideas.  
 

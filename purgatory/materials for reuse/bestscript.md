@@ -2,8 +2,7 @@
 title: Script Selection
 author: irchelp.org staff // ircworks.com
 layout: default
-redirect_from:
-  - /irchelp/clients/windows/mirc/bestscript.html
+status: historical
 reviewed: Raccoon Aug 21, 2016
 ---
 
@@ -100,7 +99,7 @@ Script features to be very very careful of .. 
 > an associated file that ends with the extension **.exe** or .**bat** 
 > \[Ed. note - many other extensions are also dangerous, for more
 > information read all about [trojan horse
-> viruses.](../security/trojan.html) -Jolo\]
+> viruses.](/security/trojan.html) -Jolo\]
 >
 > 2\. Scripts that force you to join a particular channel or message a
 > specific user

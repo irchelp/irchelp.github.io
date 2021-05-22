@@ -1,3 +1,10 @@
+---
+title: Major Changes In Hybrid 6 IRC Server Software
+author: Dracus
+dateupdated: 14 November 2002
+status: historical
+layout: default
+---
 # Major Changes In Hybrid 6 IRC Server Software
 
 by Josh Rollyson aka Dracus
@@ -49,8 +56,9 @@ You can test to see if you are on a Hybrid 6 server in several ways.
 **This cripples commands for sending messages to many people at once such as /onotice, /ame, and /amsg which are built into mIRC and many other clients, as well as most popular scripts which provide equivalent features such as /wall.**
 
 Most commands that used to use multiple targets now only allow one target. In
-other words you can no longer do `/msg user1,user2,user3 come to
-#lamechannel!`. This has **serious** potential to affect users. At present
+other words you can no longer do 
+`/msg user1,user2,user3 come to #lamechannel!`. 
+This has **serious** potential to affect users. At present
 this is known to affect the following raw IRC commands: NAMES, WHOWAS, NOTICE,
 and PRIVMSG (MSG). Note that CTCPs use PRIVMSG and NOTICE.
 
@@ -72,7 +80,7 @@ any other regular notice).
 
 `/notice @#channelname hello world`
 
-mIRC users can just use this [aliases](/irchelp/mirc/wall6.txt) file to
+mIRC users can just use this [aliases](/clients/windows/mirc/wall6.txt) file to
 replace their /ame and /onotice commands (you **MUST** use right mouse to
 directly save the file - do not open it with left mouse or the control codes
 will be lost). This will work on both the old and new ircd software.
@@ -84,7 +92,7 @@ voiced, and both ops and voiced users can use it.
 
 Depending on the client, you might not see your own outgoing messages, so
 don't flood people when you don't see it :) Finally, if you are using local
-channels like &channelname;, just replace the # with & in the above commands.
+channels like &channelname, just replace the # with & in the above commands.
 
 ## Invite through bans/limits
 
@@ -96,7 +104,7 @@ through a ban. You can still invite through a limit.
 ## Ban Exemptions (+e)
 
 The latest hybrid ircD servers now support ban exceptions. This would allow
-the ops to ban a *!*@*host, but still allow specific users from that host,
+the ops to ban a `*!*@*host`, but still allow specific users from that host,
 whom the ops want to continue to allow in the channel. They would be
 recognized only by those servers running that version of the hybrid ircD
 server software. Currently, not all EFnet servers run hybrid and it is likely
@@ -104,15 +112,15 @@ to stay that way indefinitely, so this exception mode may not always work
 reliably. Only channel operators are permitted to see the exemption list, and
 exemptions take up room in the ban list.
 
-  * USAGE: `/mode #channel +e nick!user@host` &nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;to add an exemption (hostmasks work the same as for bans) 
-  * USAGE: `/mode #channel -e nick!user@host` &nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;to remove an exemption 
-  * USAGE: `/mode #channel e` &nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;to list the exemptions in place on your channel, on that server. 
+  * USAGE: `/mode #channel +e nick!user@host` to add an exemption (hostmasks work the same as for bans) 
+  * USAGE: `/mode #channel -e nick!user@host` to remove an exemption 
+  * USAGE: `/mode #channel e` to list the exemptions in place on your channel, on that server. 
 
 ## Knock! Knock! (/knock)
 
 As of hybrid 6, there is now a facility for gaining entry to an invite only
-(+i) or keyword-protected (+k) channel. You can request an invite with /knock
-#channelname , subject to the following conditions.
+(+i) or keyword-protected (+k) channel. You can request an invite with 
+`/knock #channelname` , subject to the following conditions.
 
   * The channel must be invite only (+i) or keyword protected (+k) 
   * The channel must not be +s (secret) 
@@ -154,7 +162,7 @@ but don't expect it on EFnet anytime soon. Do however expect to see it on
 smaller networks running Hybrid. A services package called HybServ is
 available for Hybrid based networks wishing to run services. Note that as of
 2001 EFnet does support pseudo-chanserv through something called
-[CHANFIX](chanfix.html).
+[CHANFIX](/ircd/chanfix/).
 
 ## Nick/Channel Jupes
 
@@ -176,8 +184,9 @@ disabled nick or channel.
 
 This is an extended form of channel bans. These work on wildcarded strings,
 not hostmask. They will match anything in the users /whois , including
-servername, nickname, username, hostname, and realname. Example: /mode
-#channelname +d *John*Doe* . Prevents users with "John" and "Doe" anywhere in
+servername, nickname, username, hostname, and realname. 
+Example: `/mode #channelname +d *John*Doe*`. 
+Prevents users with "John" and "Doe" anywhere in
 a whois field from joining #channelname. This is useful against certain types
 of clone attacks, as well as useful for denying access to a channel via a
 certian IRC server. Use this with care. Also not that it will not work

@@ -1,0 +1,63 @@
+---
+computer:
+- AmigaNet
+- Freenode
+game:
+- ColdFront
+- QuakeNet
+general:
+- AUSTnet
+- ChatNet
+- NewNet
+- RelicNet
+- WebNet
+kidedu:
+- CyberEd
+- Kidlink IRC
+- Kidsworld
+- ScoutLink
+misc:
+- BDSMnet
+- EqNET
+- I.I.G.S. IRC
+- StonerNET
+mytest:
+- emptynet
+- localtest
+popular:
+- Aniverse
+- EFNet
+- Enter The Game
+- Freenode
+- IRCNet
+- PTNet
+- QuakeNet
+- Undernet
+regional:
+- BlafaselNet
+- BrasIRC
+- BrasNET
+- CajNet
+- FunChat
+- GRnet
+- IRC-Hispano
+- IRCity
+- Indonet
+- LagNet
+- Oz.Org
+- PTNet
+- PTlink
+- Red Latina
+- RedeBrasil
+- RusNet
+- SurNet
+- ThaiNet
+- UniBG
+- ZAIRC
+- ZAnet.net
+- colcom
+- cybernet
+- irctr
+- skyinet
+scifi:
+- SciFi

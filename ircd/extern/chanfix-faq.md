@@ -1,10 +1,18 @@
+---
+title: EFNet International Services - Chanfix Module FAQ
+author: William Rockwood
+dateupdated: 14 July 2001
+status: historical
+layout: default
+---
 # EFNet International Services - Chanfix Module FAQ
 
 **q)** Will chanfix work on my +i/+k/+l channel? What if `*!*services@services.int` is banned on my channel?   
 **a)** Yes. It will, in fact, leave all modes intact, so if the channel is `+snk foo`, it will remain that way after chanfix has left. Chanfix can join through any bans, modes, etc, so it will be unaffected by any bans. 
 
 **q)** What are the exact requirements for me to be considered a valid client when chanfix samples my channel?   
-**a)** You must run identd (you can't have a ~ at the beginning of your username,) your host must be non-dynamic/dialup and your host must have working forward and reverse DNS (IP addresses can not be known by chanfix to be static or dynamic, so it must ignore them.) If you are confused by any of this, please visit [irchelp.org](http://www.irchelp.org/). 
+**a)** You must run identd (you can't have a ~ at the beginning of your username,) your host must be non-dynamic/dialup and your host must have working forward and reverse DNS (IP addresses can not be known by chanfix to be static or dynamic, so it must ignore them.) If you are confused by any of this, please visit 
+[irchelp.org](/). 
 
 **q)** We don't believe in identd, it's silly and can be easily faked. We simply will not install this on our (system, shell server, etc..) -or- I'm behind a firewall and my firewall administrator won't open up port 113.   
 **a)** Chanfix will only consider a client valid if it is idented and is on a non-dynamic/dialup hostname. There are many reasons for this, but the main reason is, we felt this was the best we could do to assure that people do not masquerade as you from your shell service which does not provide identd or your adsl/cable connection which could be easily "spoofed" or "masqueraded" as. We understand your feelings; identd is indeed rather meaningless, but the benefits from requiring it outweigh logic. Firewalled users will need to find another way onto IRC if they wish to be counted in a channel. We realize that this is difficult in many cases, but hopefully you'll still be okay. :) 
@@ -65,6 +73,4 @@ References: [Chanfix Protoservice
 Proposal](https://voting.blackened.com/pastvotes/0014.shtml)
 
 Last updated: Sat Jul 14 23:45:45 CDT 2001
-
-_
 

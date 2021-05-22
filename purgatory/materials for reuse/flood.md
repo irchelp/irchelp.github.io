@@ -2,8 +2,7 @@
 title: Flood Protection and Ignoring People
 author: Ruth Mullen (hershey)
 layout: default
-redirect_from:
-  - /irchelp/clients/windows/mirc/flood.html
+status: historical
 reviewed: Raccoon Aug 21, 2016
 ---
 
@@ -26,7 +25,7 @@ HTML translation by Joseph Lo aka Jolo
 When you're using [mIRC](/irchelp/mirc/) there are several ways to get rid of
 people harassing or flooding you. We will give detailed help in this file, but
 first of all you should make sure you use the latest mIRC. Please
-[upgrade](/irchelp/mirc/index.html#download) if you're using an older version.
+[upgrade](/clients/windows/mirc/index.html) if you're using an older version.
 Most of the info in this file will NOT help you on versions older than v4.7.
 _And you do not need any scripts or bots for flood protection. Everything you
 need is built right into mIRC._

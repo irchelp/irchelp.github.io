@@ -1,3 +1,11 @@
+---
+title: RFC1459
+author: 'J. Oikarinen, D. Reed'
+datecreated: May 1993
+layout: default
+license: rfc
+---
+
 HTML layout by Tatu J. Lund Apr 1997
 
 Network Working Group
@@ -14,7 +22,7 @@ May 1993
 
 # Internet Relay Chat Protocol
 
-**Editor's Note**: This is the original RFC for IRC. [Tatu J. Lund](http://www.tuug.utu.fi/~f/) translated the official text file [RFC 1459](../text/rfc1459.txt) into this web version, which is mirrored with his permission. There are also [other RFC documents](index.html) including specifications for CTCP, DCC, and the "new" IRC RFCs.
+**Editor's Note**: This is the original RFC for IRC. [Tatu J. Lund](http://www.tuug.utu.fi/~f/) translated the official text file [RFC 1459](rfc1459.txt) into this web version, which is mirrored with his permission. There are also [other RFC documents](index.html) including specifications for CTCP, DCC, and the "new" IRC RFCs.
 
 ## Status of This Memo
 
@@ -258,7 +266,4 @@ socket program capable of connecting to the server.
 * * *
 
 [<](index.html)
-
-^
-
 [>](chapter1.html)

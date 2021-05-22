@@ -1,7 +1,10 @@
 ---
-thtie: Is EFNet Dying?
+title: Is EFNet Dying?
 author: Joseph Lo (jolo)
 layout: default
+datecreated: 1 September 2000
+dateupdated: 6 June 2004
+status: historical
 license: irchelp
 redirect_from:
  - /irchelp/networks/efnet/efnetsux.html
@@ -26,7 +29,7 @@ next Big Attack.
 
 **Is EFnet dying? Short version: No...** At least not in the way the rumors claim. In recent days, rumors have been running rampant. Some people are even talking about a specific shutdown date or time ("hub servers will all /squit in 15 minutes!!!"). People keep asking about it _ad nauseum_, so I'm going to try to answer as best as I can.
 
-**First of all, I'm no EFnet spokesmodel.** Nobody is. I'm an IRC operator (just 1 of hundreds), a volunteer helper on #irchelp and #mirc, and the webmaster of this help site, [IRChelp.org](http://www.irchelp.org/). I just wanted to separate facts from rumors based on my experience.
+**First of all, I'm no EFnet spokesmodel.** Nobody is. I'm an IRC operator (just 1 of hundreds), a volunteer helper on #irchelp and #mirc, and the webmaster of this help site, [IRChelp.org](/). I just wanted to separate facts from rumors based on my experience.
 
 **Why is EFnet sucking so badly?** It started with so-called "packet/script kiddies" disconnecting other users with [denial of service (DoS) attacks](/irchelp/nuke/) to take over a channel or nickname, a practice which was ignored by most IRC admins since EFnet has no notion of channel/nick ownership. The DoS attacks quickly escalated to IRC servers themselves, either to take channels or in retaliation against admins who tried to interfere in such takeovers. That's why servers keep splitting or dying. In part to deter these attackers, the admins of the all servers severely curtailed who they allow to connect. That's why suddenly we are all having so many [connection problems](/networks/connectprob.html). (No, it's not just you, we all have trouble these days.) As more people converge on a dwindling number of servers, this becomes a vicious cycle.
 
@@ -41,7 +44,7 @@ next Big Attack.
   * The news section at [EFnet's semi-official web site](http://www.efnet.org) covers the latest server woes. It's terse but factual.
   * Channels like #netsplit keep track of which servers are absent and for how long - you can judge for yourself based on the times as to whether it's a temporary or permanent split. Don't be a clamoring nuisance - just sit back and wait, they tend to repeat the list of split servers pretty often.
   * Finally, if there is any reliable news worth relating, we'll be sure to include it on our own [networks page](index.html).
-  * For now, you can use our [EFnet server list](servers/efnet.html) to help you get connected. If you're having a lot of trouble, especially due to problems like lack of identd or reverse DNS, we also have a [connection troubleshooting guide](/networks/connectprob.html).
+  * For now, you can use our [EFnet server list](/networks/servers/efnet.html) to help you get connected. If you're having a lot of trouble, especially due to problems like lack of identd or reverse DNS, we also have a [connection troubleshooting guide](/networks/connectprob.html).
 
 **Argh, you've just confused me more!** The truth is, people have been saying EFnet is going to die for years, and many years from now they'll probably still be saying that. My advice - don't worry about what you cannot change or control. _Que sera, sera._
 
@@ -50,6 +53,6 @@ next Big Attack.
   * [EFnet's semi-official web site](http://www.efnet.info)
   * [IRChelp.org networks page](index.html)  
 
-  * [EFnet server list](servers/efnet.html)
-  * [connection troubleshooting guide](connectprob.html)
-  * [CHANFIX: EFnet op-less channel fixing](../ircd/chanfix.html)
+  * [EFnet server list](/networks/servers/efnet.html)
+  * [connection troubleshooting guide](/networks/connectprob.html)
+  * [CHANFIX: EFnet op-less channel fixing](/ircd/chanfix/)

@@ -6,6 +6,10 @@ license: usedbypermission
 redirect_from:
   - /irchelp/security/notcool.html
 ---
+{% comment %}
+most of the external links are broken
+29 June 2020 bw1
+{% endcomment %}
 
 Ed. note: This is a fast, ad-free, official mirror copy of the author's
 [original version](http://dan_pressnell.tripod.com/notcool.htm). The links in
@@ -90,29 +94,18 @@ type "fuck you" to somebody. It doesn't make sense, but there it is.
 For all the egos these people have, they are amazingly incompetent. Look at
 this usenet post:
 
-
-`Subject:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_
-holder;&nbsp_place_holder; Stupid Question !&nbsp_place_holder;
-
-From:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; Ming Pong Liu <[min6@zetnet.co.uk](mailto:min6@zetnet.co.uk)>
-
-Date:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; 1997/01/05&nbsp_place_holder;
-
-Newsgroups: alt.irc&nbsp_place_holder;
-
+```
+Subject: Stupid Question !
+From: Ming Pong Liu <min6@zetnet.co.uk>
+Date: 1997/01/05
+Newsgroups: alt.irc
 
 Can any1 talk me how to go to #hacker Channal of irc ! Please ! Thanx Very
-Much 4 Ur Help !&nbsp_place_holder;`
+Much 4 Ur Help !`
 
-` Ming
+Ming
+```
 
-`
-
-&nbsp_place_holder;
 
 Hmmmm... a hacker in search of friends? And he doesn't even know how to join a
 channel on IRC?
@@ -129,64 +122,47 @@ Suppose you wanted to be a hacker on IRC. What would you do? It's simple! Just
 post a Usenet article asking people to tell you how to do it! As this person
 did:
 
-&nbsp_place_holder;
 
-`Subject:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_
-holder;&nbsp_place_holder; HACKING IRC&nbsp_place_holder;
+```
+Subject: HACKING IRC
+From: image@mailhost.net
+Date: 1996/09/09
+Newsgroups: alt.irc
 
-From:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; [image@mailhost.net](mailto:image@mailhost.net)&nbsp_place_holder;
-
-Date:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; 1996/09/09&nbsp_place_holder;
-
-Newsgroups:&nbsp_place_holder;&nbsp_place_holder; alt.irc&nbsp_place_holder; `
-
-` Hi can tell me ( if any ) how to hack irc?&nbsp_place_holder; like being
+Hi can tell me ( if any ) how to hack irc? like being
 anonymous 100%, reading other private message, using the same nick.. etcetc..
-&nbsp_place_holder;Thanks for any help &nbsp_place_holder;p.s. : please visit
-#noriko , [http://www.cybercity.hko.net/hongkong/image/noriko](http://www.cybe
-rcity.hko.net/hongkong/image/noriko) &nbsp_place_holder; `
+Thanks for any help p.s. : please visit
+#noriko , <http://www.cybercity.hko.net/hongkong/image/noriko>
 
-`iMAGE `
+iMAGE
+```
 
 "iMAGE" certainly has dedication to his craft, doesn't he? I bet he will go
 far and become a world famous hacker.
 
 Now let's take a look at a guy who likes to do "nice things" on IRC.
 
-`Subject:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_
-holder;&nbsp_place_holder; IRC - Anyone have KEWL addons to IRC ?
+```
+Subject: IRC - Anyone have KEWL addons to IRC ?
+From: "AegisGuy" <milesjames@earthlink.net>
+Date: 1997/01/05
+Newsgroups: alt.hackers.malicious
 
-From:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; "AegisGuy" <milesjames@earthlink.net>
+Dear Fellow Hacker,
 
-Date:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; 1997/01/05
-
-Newsgroups:&nbsp_place_holder;&nbsp_place_holder; alt.hackers.malicious`
-
-`Dear Fellow Hacker,
-
-
-&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&n
-bsp_place_holder;&nbsp_place_holder;&nbsp_place_holder; I need some addons to
+ I need some addons to
 IRC that will let me MASS-kick, MASS-ban, flood and do all that nice stuff!!!
 I just got Acid!IRC, but it aint that kewl, cause I want a whole lot of kewl
 options... Do you have any idea where I can obtain a file like this on the
-web?? If so, gimme an e-mail, please... `
+web?? If so, gimme an e-mail, please...
 
-` Thanks
-
+Thanks
 
 Thug4Life
 
 
 milesjames@earthlink.net`
+```
 
 "Thug4Life" just can't do his "nice stuff" yet, because he doesn't have any
 "kewl" options. You just gotta love the guy! How do you do "kewl" things?
@@ -195,48 +171,33 @@ Download a file.... that's genius!
 By now, some might be wondering what the "real" hackers think of hacking IRC.
 Here's an example:
 
-`Subject:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_
-holder;&nbsp_place_holder; Re: hacking mirc advice needed`
+```
+Subject: Re: hacking mirc advice needed
+From: "Some one!" <cisco-kid@geocities.com>
+Date: 1997/01/14
+Message-Id: <32DC574D.7B19@geocities.com>
+Newsgroups: alt.2600,alt.games,alt.2600.cardz,alt.crackckers
+bigrich@aloha.net wrote:
 
-`From:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hol
-der;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holde
-r; "Some one!" <cisco-kid@geocities.com>`
+>
+> i want to learn how to hack ops on mirc help me please befor i kill
+> myselfe email me
+> -------------------==== Posted via Deja News ====-----------------------
+>
+ http://www.dejanews.com/ Search, Read,
+Post to Usenet
 
-`Date:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hol
-der;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holde
-r; 1997/01/14`
+Oh well,
 
-`Message-Id:&nbsp_place_holder;&nbsp_place_holder;
-<32DC574D.7B19@geocities.com>`
+ Kill your self then.. Because you CAN
+NOT hack irc... What people call hacking IRC is flooding, and gain ops by
+having a damned op op you,then deoping every one else.. I'am sorry, but
+people that "HACK" irc are fucking lamers, and are completly stupid..
 
-`Newsgroups:&nbsp_place_holder;&nbsp_place_holder;
-alt.2600,alt.games,alt.2600.cardz,alt.crackckers`
+-Cisco Kid head of -NiK-
 
-`bigrich@aloha.net wrote:`
-
-`>&nbsp_place_holder;`
-
-`> i want to learn how to hack ops on mirc help me please befor i kill`
-
-`> myselfe email me`
-
-`> -------------------==== Posted via Deja News ====-----------------------`
-
-`>&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
-&nbsp_place_holder;&nbsp_place_holder; http://www.dejanews.com/&nbsp_place_hol
-der;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder; Search, Read,
-Post to Usenet`
-
-`Oh well,&nbsp_place_holder;`
-
-`&nbsp_place_holder;&nbsp_place_holder; Kill your self then.. Because you CAN
-NOT hack irc... What people` `call hacking IRC is flooding, and gain ops by
-having a damned op op` `you,then deoping every one else.. I'am sorry, but
-people that "HACK" irc` `are fucking lamers, and are completly stupid..`
-
-`-Cisco Kid head of -NiK-`
-
-`http://www.geocities.com/CapeCanaveral/6678/`
+http://www.geocities.com/CapeCanaveral/6678/
+```
 
 Yes, you'll see this again and again in the Usenet newsgroups. Some wanna-be
 comes in, thinking he's c00L or "elite", and makes a fool of himself. Real
@@ -244,117 +205,77 @@ hackers tell him that he's a lamer. Here is one that goes into more detail on
 why today's cool jerks are not what they think they are. It was in response to
 a question as to the difference between a "hacker" and a "cracker."
 
-`From: "Lord Phoenix" <lord.phoenix@iname.com>`
+```
+From: "Lord Phoenix" <lord.phoenix@iname.com>
+Newsgroups: alt.2600.hackerz
+Subject: Re: completely simple!!!!!
+Date: 22 Mar 1997 00:09:06 GMT
+Organization: CyberGate, Inc.
 
-`Newsgroups: alt.2600.hackerz`
+Cracker
 
-`Subject: Re: completely simple!!!!!`
+The definition of a cracker is one who attempts to break into a system via
+cracking/guessing user passwords. Most of the crackers are young teenage
+punks who are very malicious and seek to get their kicks from destroying or
+alternating data on a system. The media often times mistakes the cracker
+for the hacker. Also note that a cracker's level of education/intelligence
+on the system and its inner workings etc. is very low.
 
-`Date: 22 Mar 1997 00:09:06 GMT`
+Hacker
 
-`Organization: CyberGate, Inc.`
+The hacker on the other hand is an individual who yearns for knowledge. The
+hackers are very knowledgeable individuals. They often times know several
+programming languages, work extensively with the inwards and outwards of
+UNIX, have a firm understanding of all the TCP/IP implementations and
+protocols. They keep abreast on all the security related issues involving
+computers. Breaking into a system for a hacker is a thrill, it is a
+challenge that they take on. The hacker takes much delight in exploring the
+system from the outside/inside searching vigorously for misconfigurations,
+bugs, and holes in the operating system that would allow them to break into
+a machine. Once in the system the challenge has been completed and they
+have succeeded in breaking in. It is against hacker ethics to alter any
+data aside from the logs that are needed to clean their tracks. They have
+no need or desire to destroy data as the malicious crackers. They are there
+to explore the system and learn more. The hacker has a constant yearning
 
-`Cracker&nbsp_place_holder;`
+and thirst for knowledge that increases in intensity as their journey
+progresses.
 
-`The definition of a cracker is one who attempts to break into a system via`
-`cracking/guessing user passwords. Most of the crackers are young teenage`
-`punks who are very malicious and seek to get their kicks from destroying or`
-`alternating data on a system. The media often times mistakes the cracker`
-`for the hacker. Also note that a cracker's level of education/intelligence`
-`on the system and its inner workings etc. is very low.`
+ Lord Phoenix
 
-`Hacker&nbsp_place_holder;`
-
-`The hacker on the other hand is an individual who yearns for knowledge. The`
-`hackers are very knowledgeable individuals. They often times know several`
-`programming languages, work extensively with the inwards and outwards of`
-`UNIX, have a firm understanding of all the TCP/IP implementations and`
-`protocols. They keep abreast on all the security related issues involving`
-`computers. Breaking into a system for a hacker is a thrill, it is a`
-`challenge that they take on. The hacker takes much delight in exploring the`
-`system from the outside/inside searching vigorously for misconfigurations,`
-`bugs, and holes in the operating system that would allow them to break into`
-`a machine. Once in the system the challenge has been completed and they`
-`have succeeded in breaking in. It is against hacker ethics to alter any`
-`data aside from the logs that are needed to clean their tracks. They have`
-`no need or desire to destroy data as the malicious crackers. They are there`
-`to explore the system and learn more. The hacker has a constant yearning`
-
-`and thirst for knowledge that increases in intensity as their journey`
-`progresses.`
-
-`&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&
-nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nb
-sp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp
-_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_p
-lace_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_pla
-ce_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place
-_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_h
-older;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hol
-der;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holde
-r;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
-&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&n
-bsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbs
-p_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_
-place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_pl
-ace_holder; Lord Phoenix`
-
-`&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&
-nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nb
-sp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp
-_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_p
-lace_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_pla
-ce_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place
-_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_h
-older;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hol
-der;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holde
-r;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
-&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&n
-bsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbs
-p_place_holder; Lord.Phoenix@iname.com`
+ Lord.Phoenix@iname.com
+```
 
 Here's one that really takes the cake. This guy innocently asks for advice,
 and ends up revealing more about himself than he realizes:
 
-`
-
-Subject:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_h
-older;&nbsp_place_holder; floods on mirc&nbsp_place_holder;
-
-From:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; [bigrich@aloha.net](mailto:bigrich@aloha.net)&nbsp_place_holder;
-
-Date:&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_hold
-er;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder
-; 1997/01/13&nbsp_place_holder;
-
-Newsgroups:&nbsp_place_holder;&nbsp_place_holder;
-alt.2600.cardz,alt.crackckers,alt.cracks&nbsp_place_holder;
+```
+Subject: floods on mirc
+From: bigrich@aloha.net
+Date: 1997/01/13
+Newsgroups: alt.2600.cardz,alt.crackckers,alt.cracks
 
 how do i flood some one on mirc also what is a flood how dose it
-werk&nbsp_place_holder; email me&nbsp_place_holder;
-
-`
+werk email me
+```
 
 So, he would like to flood someone. KewL. But first he would like to know what
 flooding is! Compare the following:
 
-`From: "Marcel Carrier" <carrier@megalink.net>`
+```
+From: "Marcel Carrier" <carrier@megalink.net>
+Newsgroups: alt.2600.hackerz
+Subject: I need to know how to send computer virouses
+Date: 10 Mar 1997 21:03:29 GMT
 
-`Newsgroups: alt.2600.hackerz`
+Hello my name is Marcel and I need to know how to send computer viruses
+through E-mail and chat lines. Would some one please tell
+me how?
 
-`Subject: I need to know how to send computer virouses`
+E-mail- carrier@megalink.net
 
-`Date: 10 Mar 1997 21:03:29 GMT`
-
-`Hello my name is Marcel and I need to know how to send computer viruses`
-`through E-mail and chat lines.&nbsp_place_holder; Would some one please tell
-me how?&nbsp_place_holder;`
-
-`E-mail- [carrier@megalink.net](mailto:carrier@megalink.net)`
-
-`Thanks I would apprechiate your info.`
+Thanks I would apprechiate your info.
+```
 
 Gee. I would tell him, but I'm a lamer, not an elite c00L d00d.
 
@@ -414,7 +335,7 @@ Why did all of this happen? They didn't like one of the channels I was in. So
 they decided to teach me a lesson. They even got some friends to try to send
 me some trojan files that would damage the data and programs on my computer.
 Oh, and they said it was _my_ fault that I kept getting invited to their
-channel and kicked out. You see, I had auto-invite on, so that means _I _was
+channel and kicked out. You see, I had auto-invite on, so that means _I_ was
 to blame for what they did. That they purposely invited and kicked me
 repeatedly is meaningless in determining who was at fault for what _they_ were
 doing. This is like blaming the victim of a mugging because he dared to leave
@@ -461,30 +382,30 @@ with incredibly large egos. They like to think they have a better life than
 everybody else, when in fact they have a pitiful life, if any life at all.
 
 Many hackers (the true, traditional kind of hacker) have written to me and
-expressed their agreement.&nbsp_place_holder; I appreciate that
-feedback.&nbsp_place_holder; But the new, punk type of "screw people for the
+expressed their agreement. I appreciate that
+feedback. But the new, punk type of "screw people for the
 hell of it" hackers don't have much good to say about my
-views.&nbsp_place_holder; Some of them have told me that they are really
+views. Some of them have told me that they are really
 "creators," and the world should be grateful for their
-existence.&nbsp_place_holder; Sadly, these people somehow don't see the
+existence. Sadly, these people somehow don't see the
 difference between creating something and destroying something for the heck of
-it.&nbsp_place_holder; Creating something takes work, imagination, and
-skill.&nbsp_place_holder; Destroying something just takes a
-hammer.&nbsp_place_holder; I think this is self-evident to
-anybody.&nbsp_place_holder; Therefore, I completely reject the new hackers'
+it. Creating something takes work, imagination, and
+skill. Destroying something just takes a
+hammer. I think this is self-evident to
+anybody. Therefore, I completely reject the new hackers'
 notion that they are God's gift to mankind because they try their best to make
-the world miserable.&nbsp_place_holder; I have no use for them, and based on
+the world miserable. I have no use for them, and based on
 the feedback I'm getting, many decent people are fed up with their antics.
 
 From what I've seen of the hacker punks, they have no skills at all--whether
-it be social, literary, or technical.&nbsp_place_holder; Let's assume, for the
+it be social, literary, or technical. Let's assume, for the
 moment, however, that destroying does take the great skill that the
-illiterate, uneducated punks claim it takes.&nbsp_place_holder; Why, then, do
-they want to destroy, rather than build and create?&nbsp_place_holder; Why do
+illiterate, uneducated punks claim it takes. Why, then, do
+they want to destroy, rather than build and create? Why do
 they brag about a skill that is used only to terrorize people and make life
-harder for everybody else.&nbsp_place_holder; If that is a skill at all, what
+harder for everybody else. If that is a skill at all, what
 use is that skill? Why would the world appreciate a skill that is demonstrated
-only with anitsocial behavior?&nbsp_place_holder; I wish the "hackers" would
+only with anitsocial behavior? I wish the "hackers" would
 answer that question.
 
 * * *
@@ -524,12 +445,15 @@ or the jerk kind--that invades a person's privacy or tresspasses on a person's
 property when that person is not using his computer to do anything wrong. If
 you get caught trying to snoop into forbidden places, you know the rules of
 the game, and you should take what's coming to you when you get caught.
-Recently, a [hacker who screwed around with AOL was convicted](http://www.zdne
-t.com/zdnn/content/pcwo/0108/pcwo0016.html).&nbsp_place_holder; And what
+Recently, a [hacker who screwed around with AOL was 
+convicted](http://www.zdnet.com/zdnn/content/pcwo/0108/pcwo0016.html).
+ And what
 happens when you monkey around with the president's email address? Wouldn't
 that be KewL? Yeah. A KewL way to get the secret service on your ass. See the
-article from [Time Magazine](http://pathfinder.com/@@ItUBxgYAVZ51NnDS/time/mag
-azine/domestic/1996/960318/technology.html) . And take a look at the resources
+article from 
+[Time Magazine
+](http://pathfinder.com/@@ItUBxgYAVZ51NnDS/time/magazine/domestic/1996/960318/technology.html).
+And take a look at the resources
 being put onto catching whoever [hacked the NCAA
 site](http://www.infowar.com/hacker/hackx.html-ssi) .
 
@@ -542,9 +466,7 @@ somebody in their quest to cause havoc on innocent internet users.
 
 ### Am I making a big deal out of nothing?
 
-[
-
-The Nymserver](http://www.nymserver.com/) used to be a free service that was
+[The Nymserver](http://www.nymserver.com/) used to be a free service that was
 open to anybody in the world--now it's not free, because had to be severely
 curtailed because of abuse. Or see how [another
 service](http://www.netcreations.com/fakemail/index.html) had to shut down
@@ -561,12 +483,13 @@ decide for yourself whether the malicious jerks who cause such problems are
 
 When I started this part of my my website, I didn't know that the feedback
 would be so quick. You can see [some of the feedback
-here.](hfeed.htm)&nbsp_place_holder; It's a real eye-opener, and says much
+here.](https://web.archive.org/web/20060316085152/http://dan_pressnell.tripod.com/hfeed.htm)
+It's a real eye-opener, and says much
 about the type of people these are.
 
 * * *
 
-**Update July 17, 1999 -** What is it with the people who send me email telling me that I'm totally wrong, that hackers are doing the world a lot of good, that they don't screw with people, and then threaten me if I don't take down my webpage? &nbsp_place_holder; This is _good for the world?_&nbsp_place_holder; It sounds like losers and would-be-dictators to me.
+**Update July 17, 1999 -** What is it with the people who send me email telling me that I'm totally wrong, that hackers are doing the world a lot of good, that they don't screw with people, and then threaten me if I don't take down my webpage?  This is _good for the world?_ It sounds like losers and would-be-dictators to me.
 
 * * *
 
@@ -590,22 +513,24 @@ like you and anybody else can do. That's all.
   * [Teen hackers tracked down via stolen credit card numbers](http://www.usatoday.com:80/life/cyber/tech/ctb104.htm)
   * [Hacker Trackers](http://www.af.mil/news/airman/0496/hacker.htm) (A cop's view of hackers)
 
-The following articles are from the New York Times.&nbsp_place_holder; If you
+The following articles are from the New York Times. If you
 haven't registered with the NY Times, you will have to do so (it's free) to
 view the articles.
 
-  * &nbsp_place_holder;[Computer Savvy, With an Attitude: Young Working-Class Hackers Accused of High-Tech Crime](http://www.nytimes.com/library/cyber/hackstock/920723with-an-attitude.html)
-  * &nbsp_place_holder;[Field of Wired Dreams: If You Build It, They Will Camp](http://www.nytimes.com/library/cyber/hackstock/080997hack.html)
-  * &nbsp_place_holder;[Reprogramming a Convicted Hacker: To His On-Line Friends, Phiber Optik Is a Virtual Hero](http://www.nytimes.com/library/cyber/hackstock/950114reprogramming-a-convicted.html)
+  * [Computer Savvy, With an Attitude: Young Working-Class Hackers Accused of High-Tech Crime](http://www.nytimes.com/library/cyber/hackstock/920723with-an-attitude.html)
+  * [Field of Wired Dreams: If You Build It, They Will Camp](http://www.nytimes.com/library/cyber/hackstock/080997hack.html)
+  * [Reprogramming a Convicted Hacker: To His On-Line Friends, Phiber Optik Is a Virtual Hero](http://www.nytimes.com/library/cyber/hackstock/950114reprogramming-a-convicted.html)
 
 * * *
 
 You can subscribe to an email discussion list that I have created, by sending
-a blank email message to&nbsp_place_holder; [punk-hackers-
+a blank email message to [punk-hackers-
 subscribe@egroups.com](mailto:punk-hackers-subscribe@egroups.com).
 
 New - If you still want to be one of the sooper doods like you see in the
-movie, here are [step-by-step instructions](howtohack.htm) on how to become
+movie, here are [step-by-step instructions
+](https://web.archive.org/web/20060316085225/http://dan_pressnell.tripod.com/howtohack.htmhowtohack.htm)
+on how to become
 so.
 
 * * *

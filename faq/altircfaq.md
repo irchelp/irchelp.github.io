@@ -1,12 +1,13 @@
 ---
 title: alt.irc faq
 author: alt.irc
+status: historical
 summary: The FAQ from the Usenet group alt.irc
 layout: default
 ---
 
 
-**Editor's note**: This is a classic help file dating back to the 1990s when IRC was very new. We still keep this file here for historic value, and also because the general information is still accurate. If you are interested in other, more up to date help files, see [IRC FAQs and Help Files](/irchelp/faq.html). 
+**Editor's note**: This is a classic help file dating back to the 1990s when IRC was very new. We still keep this file here for historic value, and also because the general information is still accurate. If you are interested in other, more up to date help files, see [IRC FAQs and Help Files](/faq/). 
 
 Back then there was only 1 network (EFnet), now there are hundreds, each with
 different people and channels. Nearly everybody used a shell IRC client such
@@ -56,156 +57,94 @@ You can anonymous ftp to any of the following sites (use the one closest to
 you): **If you don't know what anonymous ftp is, ask your local systems people
 to show you**
 
+### UNIX client
+ *  [cs-ftp.bu.edu /irc/clients](ftp://cs-ftp.bu.edu/irc/clients)
     
+ *  [ftp.acsu.buffalo.edu /pub/irc](ftp://ftp.acsu.buffalo.edu/pub/irc)
     
+ *  [ftp.funet.fi /pub/unix/irc](ftp://ftp.funet.fi/pub/unix/irc)
     
+ *  [coombs.anu.edu.au /pub/irc](ftp://coombs.anu.edu.au/pub/irc)
     
+ *  [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/clients](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients)
     
-    ### UNIX client
     
+### EMACS elisp
+
+ *  [cs-ftp.bu.edu /irc/clients/elisp](ftp://cs-ftp.bu.edu/irc/clients/elisp)
     
+ *  [ftp.funet.fi /pub/unix/irc/Emacs](ftp://ftp.funet.fi/pub/unix/irc/Emacs)
     
-    [cs-ftp.bu.edu /irc/clients](ftp://cs-ftp.bu.edu/irc/clients)
+ *  [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/clients](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients)
     
-    [ftp.acsu.buffalo.edu /pub/irc](ftp://ftp.acsu.buffalo.edu/pub/irc)
+ *  [cs.hut.fi /pub/irchat](ftp://cs.hut.fi/pub/irchat)
     
-    [ftp.funet.fi /pub/unix/irc](ftp://ftp.funet.fi/pub/unix/irc)
+### X11 client
     
-    [coombs.anu.edu.au /pub/irc](ftp://coombs.anu.edu.au/pub/irc)
+ *  [catless.ncl.ac.uk /pub](ftp://catless.ncl.ac.uk/pub)
     
-    [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/clients](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients)
+ *  [ftp.aud.alcatel.com /tcl/code](ftp://ftp.aud.alcatel.com/tcl/code)
     
     
+### NeXTStep client
     
+ *  [http://www-personal.engin.umich.edu/~premise/foundation/encircle/](http://www-personal.engin.umich.edu/~premise/foundation/encircle/)
     
+### VMS client
     
-    ### EMACS elisp
+ *  [cs-ftp.bu.edu /irc/clients/vms](ftp://cs-ftp.bu.edu/irc/clients/vms)
     
+ *  [coombs.anu.edu.au /pub/irc/vms](ftp://coombs.anu.edu.au/pub/irc/vms)
     
+ *  [ftp.funet.fi /pub/unix/irc/vms](ftp://ftp.funet.fi/pub/unix/irc/vms)
     
-    [cs-ftp.bu.edu /irc/clients/elisp](ftp://cs-ftp.bu.edu/irc/clients/elisp)
+ *  [ftp.informatik.tu-muenchen.de /pub/net/irc](ftp://ftp.informatik.tu-muenchen.de/pub/net/irc)
     
-    [ftp.funet.fi /pub/unix/irc/Emacs](ftp://ftp.funet.fi/pub/unix/irc/Emacs)
     
-    [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/clients](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients)
     
-    [cs.hut.fi /pub/irchat](ftp://cs.hut.fi/pub/irchat)
+### REXX client for VM
     
+ *  [cs-ftp.bu.edu /irc/clients/rxirc](ftp://cs-ftp.bu.edu/irc/clients/rxirc)
     
+ *  [ftp.informatik.uni-oldenburg.de /pub/irc/rxirc](ftp://ftp.informatik.uni-oldenburg.de/pub/irc/rxirc)
     
+ *  [ftp.informatik.tu-muenchen.de /pub/net/irc/VM](ftp://ftp.informatik.tu-muenchen.de/pub/net/irc/VM)
     
+ *  [coombs.anu.edu.au /pub/irc/rxirc](ftp://coombs.anu.edu.au/pub/irc/rxirc)
     
-    ### X11 client
+ *  [ftp.funet.fi /pub/unix/irc/rxirc](ftp://ftp.funet.fi/pub/unix/irc/rxirc)
     
+### MSDOS
     
+ *  [cs-ftp.bu.edu /irc/clients/pc/msdos](ftp://cs-ftp.bu.edu/irc/clients/pc/msdos)
     
-    [catless.ncl.ac.uk /pub](ftp://catless.ncl.ac.uk/pub)
+ *  [ftp.funet.fi /pub/unix/irc/msdos](ftp://ftp.funet.fi/pub/unix/irc/msdos)
     
-    [ftp.aud.alcatel.com /tcl/code](ftp://ftp.aud.alcatel.com/tcl/code)
+### Microsoft Windows
     
+ *  [cs-ftp.bu.edu /irc/clients/pc/windows](ftp://cs-ftp.bu.edu/irc/clients/pc/windows)
     
+ *  [ftp.demon.co.uk /pub/ibmpc/win3/winsock/apps/wsirc (for WSIRC)](ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/wsirc)
     
+ *  [ftp.demon.co.uk /pub/ibmpc/win3/winsock/apps/mirc (for MIRC)](ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/mirc)
     
     
-    ### NeXTStep client
+### OS/2
     
+ *  [cs-ftp.bu.edu /irc/clients/pc/os2](ftp://cs-ftp.bu.edu/irc/clients/pc/os2)
     
+ *  [hobbes.nmsu.edu /os2/2_x/network](ftp://hobbes.nmsu.edu/os2/2_x/network)
     
-    [http://www-personal.engin.umich.edu/~premise/foundation/encircle/](http://www-personal.engin.umich.edu/~premise/foundation/encircle/)
     
+### Macintosh
     
+ *  [cs-ftp.bu.edu /irc/clients/macintosh](ftp://cs-ftp.bu.edu/irc/clients/macintosh)
     
+ *  [mirrors.aol.com /info-mac/comm (info-mac mirror)](ftp://mirrors.aol.com/pub/info-mac/comm/tcp)
     
+ *  [ftp.funet.fi /pub/unix/irc/mac](ftp://ftp.funet.fi/pub/unix/irc/mac)
     
-    ### VMS client
-    
-    
-    
-    [cs-ftp.bu.edu /irc/clients/vms](ftp://cs-ftp.bu.edu/irc/clients/vms)
-    
-    [coombs.anu.edu.au /pub/irc/vms](ftp://coombs.anu.edu.au/pub/irc/vms)
-    
-    [ftp.funet.fi /pub/unix/irc/vms](ftp://ftp.funet.fi/pub/unix/irc/vms)
-    
-    [ftp.informatik.tu-muenchen.de /pub/net/irc](ftp://ftp.informatik.tu-muenchen.de/pub/net/irc)
-    
-    
-    
-    
-    
-    ### REXX client for VM
-    
-    
-    
-    [cs-ftp.bu.edu /irc/clients/rxirc](ftp://cs-ftp.bu.edu/irc/clients/rxirc)
-    
-    [ftp.informatik.uni-oldenburg.de /pub/irc/rxirc](ftp://ftp.informatik.uni-oldenburg.de/pub/irc/rxirc)
-    
-    [ftp.informatik.tu-muenchen.de /pub/net/irc/VM](ftp://ftp.informatik.tu-muenchen.de/pub/net/irc/VM)
-    
-    [coombs.anu.edu.au /pub/irc/rxirc](ftp://coombs.anu.edu.au/pub/irc/rxirc)
-    
-    [ftp.funet.fi /pub/unix/irc/rxirc](ftp://ftp.funet.fi/pub/unix/irc/rxirc)
-    
-    
-    
-    
-    
-    ### MSDOS
-    
-    
-    
-    [cs-ftp.bu.edu /irc/clients/pc/msdos](ftp://cs-ftp.bu.edu/irc/clients/pc/msdos)
-    
-    [ftp.funet.fi /pub/unix/irc/msdos](ftp://ftp.funet.fi/pub/unix/irc/msdos)
-    
-    
-    
-    
-    
-    ### Microsoft Windows
-    
-    
-    
-    [cs-ftp.bu.edu /irc/clients/pc/windows](ftp://cs-ftp.bu.edu/irc/clients/pc/windows)
-    
-    [ftp.demon.co.uk
-    
-    /pub/ibmpc/win3/winsock/apps/wsirc (for WSIRC)](ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/wsirc)
-    
-    [ftp.demon.co.uk
-    
-    /pub/ibmpc/win3/winsock/apps/mirc (for MIRC)](ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/mirc)
-    
-    
-    
-    
-    
-    ### OS/2
-    
-    
-    
-    [cs-ftp.bu.edu /irc/clients/pc/os2](ftp://cs-ftp.bu.edu/irc/clients/pc/os2)
-    
-    [hobbes.nmsu.edu /os2/2_x/network](ftp://hobbes.nmsu.edu/os2/2_x/network)
-    
-    
-    
-    
-    
-    ### Macintosh
-    
-    
-    
-    [cs-ftp.bu.edu /irc/clients/macintosh](ftp://cs-ftp.bu.edu/irc/clients/macintosh)
-    
-    [mirrors.aol.com
-    
-    /info-mac/comm (info-mac mirror)/A>
-    
-    [ftp.funet.fi /pub/unix/irc/mac](ftp://ftp.funet.fi/pub/unix/irc/mac)
-    
-    [ftp.ira.uka.de /pub/systems/mac](ftp://ftp.ira.uka.de/pub/systems/mac)
+ *  [ftp.ira.uka.de /pub/systems/mac](ftp://ftp.ira.uka.de/pub/systems/mac)
     
     
 
@@ -240,7 +179,7 @@ commonly in the 6660-6670 range), but *not* all. When in doubt, use 6667.
 
 ## What's the username and password to connect to irc?
 
-###  I'm prompted for login: and I don't know what to type! Sometimes when I
+I'm prompted for login: and I don't know what to type! Sometimes when I
 try to connect to IRC it just says "connection closed by foreign host. What
 gives?
 
@@ -256,13 +195,10 @@ irc, just as in the paragraph above. Again, you HAVE to use a client!
 ##  OK, I've got a client and I'm connected to a server? Now what?
 
 It's probably best to take a look around and see what you want to do first.
-All irc commands start with a "/irchelp/", and most are one word. Typing /help
+All irc commands start with a "/", and most are one word. Typing /help
 will get you help information. /names will get you a list of names, etc. The
 output is typically something like this-> (Note there are more channels than
 this, this is just sample output).
-
-    
-    
     
     Pub: #hack      zorgo eiji Patrick fup htoaster 
     
@@ -271,8 +207,6 @@ this, this is just sample output).
     Pub: #nicole    MountainD 
     
     Pub: #hottub    omar liron beer Deadog moh pfloyd Dode joek
-    
-    
 
 (Note there are LOTS more channels than this, this is just sample output --
 one way to stop /names from being too large is doing /names -min 20 which will
@@ -289,15 +223,13 @@ see Private channels except those who are on that particular private channel.
 
 ##  Now I've picked out a nice channel. How do I join that channel?
 
-###  And what do I type once I get there? And when I'm done, how do I leave a
+And what do I type once I get there? And when I'm done, how do I leave a
 channel?
 
 To join a channel, type /join #channelname. That's it! Once you get to the
 channel, you will see people talking. It will probably look like this:
-
-    
-    
-    
+ 
+ 
     <Avalon> AUUG is on at the same time as LISA this year and is cheaper.
     
     <Barron> backhaul those DS3s to Virginia ;)
@@ -358,7 +290,7 @@ banned from using that server (see segment below on K: lines).
 
 ##  What are good channels to try while using irc?
 
-#hottub and #riskybus are almost always teeming with people. #hottub is meant
+\#hottub and #riskybus are almost always teeming with people. #hottub is meant
 to simulate a hot tub, and #riskybus is a non-stop #game. Just join to find
 out!
 
@@ -375,15 +307,15 @@ don't talk much on that channel anyways!
 Some of the most popular foreign language channels include #42 (which is a
 Finnish channel), #warung (which is a Malaysian channel. The word "warung"
 means "coffeehouse" or "small restaurant"), #polska (a Polish channel),
-#nippon (a Japanese channel, note that "funny" characters are often seen here
+\#nippon (a Japanese channel, note that "funny" characters are often seen here
 -- this is Kanji. You will need a Kanji-compatible terminal program and Kanji-
 compatible irc client to converse in Kanji), #espanol (a Spanish channel),
-#russian (a Russian channel). These are just examples -- a large percentage of
+\#russian (a Russian channel). These are just examples -- a large percentage of
 languages in the world is spoken on irc *somewhere*. If your language/country
 isn't listed above, ask on #irchelp to see if there is a channel for it.
 
-##  Someone is using my nickname, can anyone do anything about it? Someone is
-using my channel, can anyone do anything about it?
+## Someone is using my nickname, can anyone do anything about it? 
+## Someone is using my channel, can anyone do anything about it?
 
 Even while NickServ registered nicknames, there are not enough nicknames to
 have nickname ownership. If someone takes your nickname while you are not on
@@ -421,8 +353,7 @@ NickServ has been down since the Spring of 1994.
 
 It is not likely that NickServ will be back. Remember, nicknames aren't owned.
 
-##  What does "*** Ghosts are not allowed on IRC." mean? What does "*** You
-are not welcome on this server." mean?
+##  What does **"Ghosts are not allowed on IRC." mean? What does"** You are not welcome on this server." mean?
 
 On IRC, you cannot be banned from every single server. Server-banning exists
 only on a per-server basis (being banned on one server does not mean you are
@@ -433,8 +364,7 @@ you are banned from using that server. The banning is in one of three forms:
   * Your machine is banned. Chances are it wasn't you who committed the wrongdoing. Try using another machine on campus and seeing if you can use that particular irc server then. 
   * Your whole site is banned (where "site" == "school", "company", "country"). This almost certainly wasn't your fault. And chances are you won't be able to get the server-ban lifted. Try using another server.  The most general answer is "use another server", but if it bothers you, try writing to the irc administrator of that site --> /admin server.name.here -- plead your case. It might even get somewhere! 
 
-##  What does "You have new email." mean? What does it mean when I see "[Mail:
-5]" in my status bar?
+##  What does "You have new email." mean? What does it mean when I see "[Mail:5]" in my status bar?
 
 IRC does not have its own mail. However, if your client tells you that you
 have new email, it simply means that you have received mail in your account.
@@ -448,16 +378,13 @@ The "[Mail: 5]" in your status bar tells you how many email messages you have
 in your mailbox. Again, to access them, leave irc and read them using your
 normal mail reader.
 
-##  I've just tried typing /list but it scrolls by so fast! How can I slow it
-down to something more my pace?
+##  I've just tried typing /list but it scrolls by so fast! How can I slow it down to something more my pace?
 
 The standard ircII client (for UNIX) has an option called "hold mode". To
 activate it, type: /set hold_mode on -- then you will be able to hit return
 after each screen's worth of data.
 
-##  I've done a /whois on myself and other people, but I notice that my real
-name shows up in parentheses -- I don't like this! It doesn't show up in other
-people's parentheses. How can I change it?
+##  I've done a /whois on myself and other people, but I notice that my real name shows up in parentheses -- I don't like this! It doesn't show up in other people's parentheses. How can I change it?
 
 In UNIX, there are two way of changing your IRCNAME and it depends on which
 shell you are using. If you are using csh or tcsh (the more popular UNIX
@@ -478,7 +405,7 @@ you would like to appear"
 
 ##  What is a netsplit?
 
-### What does it mean when I see: ***Signoff NickName (*.bu.edu eff.org)? Why
+What does it mean when I see: `***Signoff NickName (*.bu.edu eff.org)`? Why
 does NickName keep signing off?
 
 Netsplits are (unfortunately) a routine part of IRC life. What the above
@@ -503,19 +430,18 @@ hardware problem).
 
 GIF archives of irc people are available:
 
+* [ftp.funet.fi:/pub/pics/gif/pics/people/misc/irc -- NORDUnet Only!](ftp://ftp.funet.fi/pub/pics/gif/pics/people/misc/irc)
     
-    
-    
-         [ftp.funet.fi:/pub/pics/gif/pics/people/misc/irc -- NORDUnet Only!](ftp://ftp.funet.fi/pub/pics/gif/pics/people/misc/irc)
-    
-         [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/RP](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/RP)
-    
+* [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/RP](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/RP)
     
 
 ##  Where can I learn more?
 
 The best, basic, irc user's manual is the IRC Primer, available in [web page
-form](/irchelp/ircprimer.html), [plain text](/irchelp/text/ircprimer.txt),
+form](/faq/ircprimer.html), 
+{::comment}
+[plain text](/irchelp/text/ircprimer.txt),
+{:/comment}
 [PostScript](http://www.kei.com/irc/IRCprimer1.1.ps), and
 [LaTeX](http://www.kei.com/irc/IRCprimer1.1.tex). You can also join various
 IRC related mailing lists.
@@ -533,8 +459,8 @@ of the ircd, currently in planning. Mail _ircd-three-request@kei.com_ with
 Subject: subscribe
 
 Those looking for more technical information can get the IRC RFC as a [web
-page](/irchelp/rfc1459.html) or [text file by FTP](ftp://cs-
-ftp.bu.edu/irc/support/rfc1459.txt).
+page](/protocol/rfc/rfc1459.txt) or 
+[text file by FTP](ftp://cs-ftp.bu.edu/irc/support/rfc1459.txt).
 
 ##  Where can I get an updated copy of this FAQ?
 
@@ -551,4 +477,3 @@ You can also look at this FAQ on the web, at:
 email [hrose@kei.com](http://www.kei.com/homepages/hrose/) or ask for help (in
 #irchelp) on irc.
 
-* * *

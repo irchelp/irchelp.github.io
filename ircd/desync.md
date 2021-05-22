@@ -1,3 +1,10 @@
+---
+title: desync
+author: Richard Hecker
+datecreated: 8 April 1998
+status: historical
+layout: default
+---
 Ed. note: The following are 2 email messages from Richard Hecker, an EFnet
 oper and experienced IRC helper, on the subject of server desynchronizations
 or "desyncs." It gets fairly technical but it's really the only way to
@@ -15,11 +22,8 @@ Richard Hecker
 On Wed, 1 Apr 1998, The Rose wrote:
 
 > I'm wondering what the trick/tricks are for resynching a
-
 > channel? I've never had any luck with attempting it. I've
-
 > tried the -o +o stuff, have had chanops try that also, no
-
 > workee.
 
 Resyncing a channel is relatively simple if you understand desyncs. A desync
@@ -40,7 +44,7 @@ Finding the location of the desync will often be helpful. One easy trick is to
 go into the channel, get ops, and set the topic. If your ops are desynced, you
 will receive error messages about not being opped from the servers that don't
 see you as having ops. That doesn't always work. If that doesn't work, I
-usually paste the /names list to the channel, and ask if anyone sees anything
+usually paste the `/names` list to the channel, and ask if anyone sees anything
 different from where they are. Usually, finding one server that you have
 access to that is on the other side of the desync will be enough to allow you
 to fix it.
@@ -49,14 +53,15 @@ to fix it.
 
 Here's a good alias to have handy:
 
-alias usr names $C $*
+`alias usr names $C $*`
 
 I use this all the time instead of /NAMES. typing /USR is equivalent to doing
-"/names *" ....But there's an added bonus to this command, and you need this
-/ON command to appreciate it:
+`/names *` ....But there's an added bonus to this command, and you need this
+`/ON` command to appreciate it:
 
-on ^353 "*" if ([$0] == [$S]) {echo Users on $2: $3-} {echo Users on $2: $3-
-\(from $0\)}
+```
+on ^353 "*" if ([$0] == [$S]) {echo Users on $2: $3-} {echo Users on $2: $3-\(from $0\)}
+```
 
 (It should all be on one line, BTW)
 
@@ -65,17 +70,17 @@ you the list of people on the channel. The /ON command I've included allows
 you to easily differentiate between /NAMES responses from your server, and
 responses from other servers. Here's how it looks when I use this command:
 
-/usr
+`/usr`
 
 Users on #irchelp: @Trillian @turtle @wmono @Jolo @ApatrixEM @Davin
 +@DemiShade @MHz @Garfr
 
-/usr *hut.fi
+`/usr *hut.fi`
 
 Users on #irchelp: @Trillian @MHz @Garfr @turtle @wmono @Jolo @ApatrixEM
 +@Davin @DemiShade (from efnet.cs.hut.fi)
 
-/usr larz
+`/usr larz`
 
 Users on #irchelp: @Trillian @turtle @wmono @Jolo @ApatrixEM @Davin
 +@DemiShade @MHz @Garfr (from irc.blackened.com)
@@ -117,13 +122,9 @@ Richard Hecker
 On Wed, 8 Apr 1998, The Rose wrote:
 
 > Exiting the channel left it empty, therefore non-existant. When I
-
 > went back into it it was STILL desyched. I kid you not. I was the
-
 > only one on it, too. I got onto various servers and kept going in
-
 > and out, no matter what server I was on I'd be the only one in
-
 > the channel and it was desyched. I must have played around for 20
 
 Some of the stranger desyncs can do some odd stuff, but whenever theres a
@@ -135,7 +136,7 @@ right. When people opped other people, some users would see it, and some
 wouldnt. I checked almost every server that users in the channel were on, and
 every server I checked seemed to agree on who had ops, and yet, when ops would
 op people, only about half of the servers saw it. I was rather stumped at
-this, and I finally decided to get a /TRACE between two servers where this
+this, and I finally decided to get a `/TRACE` between two servers where this
 rift seemed to exist, and check every server between them.
 
 As it turns out, there was a single hub server along the path that was

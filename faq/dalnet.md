@@ -5,6 +5,8 @@ datechanged: 1 December 2012
 status: historical
 summary: A server list and news for Dalnet
 layout: default
+redirect_from:
+  - /networks/servers/dalnet.html
 ---
 
 *Editor's note: This document came about during a period of severe denial of service attacks directed against the DALNet IRC Network, during which EFNet #irchelp was flooded with questions from users that couldn't connect to DALNet.*
@@ -28,13 +30,13 @@ So what's a DALnet chatter supposed to do? Read on...
 
 ## How Do I Connect to DALnet?
 
-**If you do NOT need to be on DALnet**, you can chat on [another network](../) in the meantime. In fact we created the [DALnet refugee guide](../dalrefugee.html) just for people who decided to move to other nets like EFnet, IRCnet, and Undernet. 
+**If you do NOT need to be on DALnet**, you can chat on [another network](../) in the meantime. In fact we created the [DALnet refugee guide](/historic/dalrefugee.html) just for people who decided to move to other nets like EFnet, IRCnet, and Undernet. 
 
 **If you need to be on DALnet**, you can sometimes still connect to one of its surviving servers using the instructions below. 
 
 ### Tips for connecting to DALnet.
 
-  1. Use specific server hostnames like "example.dal.net" (I made that up) instead of the the "round robin" aliases like "irc.dal.net". The latter is supposed to redirect you to a random available server, but lately it is often disabled due to the attacks, so that mIRC users get the error "Unable to connect (Can't assign requested address)". See the next section for DALnet server lists. (If you're curious about this error, here's a slightly technical [explanation](255.txt).) 
+  1. Use specific server hostnames like "example.dal.net" (I made that up) instead of the the "round robin" aliases like "irc.dal.net". The latter is supposed to redirect you to a random available server, but lately it is often disabled due to the attacks, so that mIRC users get the error "Unable to connect (Can't assign requested address)". See the next section for DALnet server lists. (If you're curious about this error, here's a slightly technical [explanation](/networks/servers/255.txt).) 
   2. For any specific server, instead of using the default ports 6667 and 7000, try other ports such as 6660-6666, 6668, 6669, etc. which are often faster or more stable. In mIRC, just type:  
 `/server example.dal.net:6661`
 
@@ -42,7 +44,7 @@ So what's a DALnet chatter supposed to do? Read on...
 window where you would normally type text. Once you connect to the server,
 read the `/motd` which often shows all the available port numbers.
 
-  3. Be patient. The attacks have been going on for months, nobody knows how much longer they will last. Just try to keep chatting and have fun. If that's just not possible on DALnet, then consider switching to a [different network](../), perhaps a smaller one that also supports services like nick/channel registration. For more info, see the [DALnet Refugee Guide](../dalrefugee.html). 
+  3. Be patient. The attacks have been going on for months, nobody knows how much longer they will last. Just try to keep chatting and have fun. If that's just not possible on DALnet, then consider switching to a [different network](/networks/), perhaps a smaller one that also supports services like nick/channel registration. For more info, see the [DALnet Refugee Guide](/historic/dalrefugee.html). 
 
 ## DALnet Server Lists
 
@@ -61,7 +63,7 @@ lists below.
 ## More Information
 
   * If you just want somewhere to hang out and commisserate, EFnet and Undernet both have #dalnethelp channels. They're as likely as anybody else to have the latest news. For information on how to connect there, see our [networks page](../). 
-  * If you're considering moving from DALnet, see the [DALnet Refugee Guide](../dalrefugee.html). 
+  * If you're considering moving from DALnet, see the [DALnet Refugee Guide](/historic/dalrefugee.html). 
   * Among many other sites, [IRCnews.com](http://www.ircnews.com/) and [mIRC.net](http://www.mirc.net/) have both been covering the day to day events relating to DALnet. 
-  * See our own page for general information on [denial of service attacks](../../nuke/). 
-  * These kinds of attacks are common on all the large nets, not just DALnet. For some historical perspective, see this page regarding attacks which crippled [EFnet](../efnetsux.html) in mid 2001, and this [wired.com news story](http://www.wired.com/news/culture/0,1284,41167,00.html) [ext. link] for the attacks aimed at DALnet and Undernet in early 2001. 
+  * See our own page for general information on [denial of service attacks](/nuke/). 
+  * These kinds of attacks are common on all the large nets, not just DALnet. For some historical perspective, see this page regarding attacks which crippled [EFnet](/networks/efnet/efnetsux.html) in mid 2001, and this [wired.com news story](http://www.wired.com/news/culture/0,1284,41167,00.html) [ext. link] for the attacks aimed at DALnet and Undernet in early 2001. 

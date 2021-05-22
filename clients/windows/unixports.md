@@ -19,7 +19,7 @@ Unless you are feeling adventurous, nostalgic, or really are more comfortable wi
 
 ### irssi
 
-A version of irssi 0.8.15 marked as being "for testing" is available from the [irssi homepage](www.irssi.org). This is considered by the irssi team to be prerelease software.
+A version of irssi is available from the [irssi homepage](https://irssi.org/download/).
 
 ### pidgin
 

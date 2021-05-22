@@ -1,43 +1,31 @@
 ---
 title: A Short IRC Primer
 layout: default
+datecreated: 1 June  1992
+dateupdated: 7 January 2020
+redirect_from: /irchelp/ircprimer.html
 ---
-
-_ [ Note: At 93 K in size, this "short" help file is anything but short, and
-may take over a minute to load if you have a slow modem. Don't access anything
-in the table of contents until the whole thing is loaded. --Jolo ] _
-
 * * *
 
 # A Short IRC Primer
 
 Written by:
 
-~~~~~~~~~~
-
-Nicolas Pioch, (Nap on IRC)
-
-< Nicolas.Pioch@grasp.insa-lyon.fr >
+    Nicolas Pioch, (Nap on IRC)
+    < Nicolas.Pioch@grasp.insa-lyon.fr >
 
 Text conversion by:
 
-~~~~~~~~~~~~~~~~~~~
-
-Owe Rasmussen, (Sorg on IRC)
-
-< d1rasmus@dtek.chalmers.se >
+    Owe Rasmussen, (Sorg on IRC)
+    < d1rasmus@dtek.chalmers.se >
 
 HTML conversion & update by:
 
-~~~~~~~~~~~~~~~~~~~~~~~
+    Michelle A. Hoyle, (Eingang on IRC)
+    < hoyle@ifi.unizh.ch >
+    Joseph Lo, (Jolo on IRC)
 
-Michelle A. Hoyle, (Eingang on IRC)
-
-< hoyle@ifi.unizh.ch >
-
-Joseph Lo, (Jolo on IRC)
-
-Edition 1.2, January 1, 1997
+**Edition 1.2, January 1, 1997**
 
 * * *
 
@@ -69,14 +57,14 @@ a single channel to hear these reports.
 
 # Table of Contents
 
-  1. Getting started
+ 1. [Getting started](#started)
     1. Clients and Servers
     2. How to Behave on IRC
     3. Privacy on IRC 
     4. First Steps
     5. Screen and Keyboard activity
 
-  2. Let's go!
+ 2. [Let's go!](#go)
     1. General Commands
     2. Private Conversations and Communication
     3. Channels and Public Conversations
@@ -88,7 +76,7 @@ a single channel to hear these reports.
     9. Sample .ircrc
     10. Writing Automatons
 
-  3. [Frequently Asked Questions](FAQ)
+ 3. [Frequently Asked Questions](#faq)
     1. How do I set up an IRC client?
     2. Which server do I connect to?
     3. What are good channels to try while using IRC?
@@ -101,7 +89,7 @@ a single channel to hear these reports.
     10. About KILL usage.
     11. Where can I find more?
 
-  4. Administrativia 
+ 4. [Administrativia](#Administrativia)
     1. Revision history 
     2. Release sites for the IRCprimer 
     3. Copyright (C) 1993 Nicolas PIOCH
@@ -129,11 +117,12 @@ a single channel to hear these reports.
 * Table 18:Highlighting ircII output 
 * Table 19:Nordic countries character translations 
 * Table 20:IRC related mailing lists 
-* Table 21:IRCprimer release sites  [ table of contents | navigation bar ]
+* Table 21:IRCprimer release sites
 
 * * *
 
 # 1. Getting Started
+{: #started}
 
 ### 1.1 Clients and Servers
 
@@ -171,7 +160,6 @@ client which will be spoken of here is the most widespread: ircII, (originally
 designed by Michael Sandrof). Other clients are similar, and often accept
 ircII commands.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -215,7 +203,6 @@ Other prohibited actions include:
 
   * Any behavior reducing the functionality of IRC.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -241,7 +228,6 @@ How to establish direct communications between clients will be explained
 later, (see DCC CHAT in section 2.5). This should be used when you wouldn't
 want anybody else on IRC to intercept your private messages.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -287,7 +273,6 @@ This is an example. Your screen may show more aliases, and less commands than
 shown here, or less aliases and more commands - in other words "your mileage
 may vary."
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -335,13 +320,13 @@ matching history entry in the input line for re-editing. You can specify a
 history entry either by its number in the history list, or by a match with a
 given wildcard expression. For instance, "/!10" will put entry 10 in the
 history list into the input line. "/!/MSG" will search the history for a line
-beginning with a /MSG, (a "*" is implied at the end).
+beginning with a /MSG, (a "\*" is implied at the end).
 
-**/!** [<history number>|<history match>]  
+**/!** \[\<history number>|\<history match>]  
 
 > Recalls previous commands for re-editing.
 
-**/HISTORY** [<number>]  
+**/HISTORY** \[\<number>]  
 
 > Displays the command history on the screen. You can specify the number of
 history entries you wish to view as well.
@@ -349,13 +334,12 @@ history entries you wish to view as well.
 Almost everything happens in the upper bulk of the screen. This includes both
 messages from other users, as well as the output of the control commands.
 Normal messages from other users appear with the originating nickname in
-<angle brackets>. Private messages arrive with the originating nickname in
-*asterisks*. Messages you send to everyone appear with a preceding "> "
-whereas messages you send privately to another user appear with "->
+\<angle brackets>. Private messages arrive with the originating nickname in
+*asterisks*. Messages you send to everyone appear with a preceding "\> "
+whereas messages you send privately to another user appear with "-\>
 *nickname*". Other output (invitations from other users to join channels, and
 so forth), appears interspersed with other activity on the screen.
 
-    
     
                         Table 3:  Simple screen activity
                         --------------------------------
@@ -367,11 +351,10 @@ so forth), appears interspersed with other activity on the screen.
       -> *some1else* hi!   /msg some1else hi!  You        some1else (only)
       *some1else* wassup?                      some1else  You (only)
     
-    
 
 Last ircII outputs can be recalled with:
 
-**/LASTLOG** [<number of entries>|<text> [<from entry>]]  
+**/LASTLOG** \[\<number of entries>|\<text> [\<from entry>]]  
 
 > Displays the contents of the lastlog. This is a list of the most recent
 messages that have appeared on the screen, useful if you inadvertantly miss
@@ -397,11 +380,11 @@ it.
 
 > Clears the screen.
 
-[ table of contents | navigation bar ]
 
 * * *
 
 # 2. Let's Go!
+{: #go}
 
 ### 2.1 General Commands
 
@@ -419,7 +402,7 @@ it.
         AWAY      leaves a message saying you're not paying attention
     
 
-**/NICK** [<nickname>]  
+**/NICK** [\<nickname>]  
 
 > Changes your nickname to whatever you like.
 
@@ -437,7 +420,7 @@ change it to something else.
             *** Nap is now known as Nappy
     
 
-**/QUIT** [<reason>]  
+**/QUIT** [\<reason>]  
 
 > Exits your IRC session. You can also use BYE, SIGNOFF and EXIT. If a reason
 is supplied, it is displayed to other people on your channels.
@@ -447,7 +430,7 @@ is supplied, it is displayed to other people on your channels.
             /QUIT Lunch Time!
     
 
-**/HELP** [<command>]  
+**/HELP** [\<command>]  
 
 > Shows help on the given command. Note: This is not installed for all
 clients, which can be kind of annoying.
@@ -462,7 +445,7 @@ clients, which can be kind of annoying.
             [boring stuff deleted]
     
 
-**/WHOIS** [<nickname>]  
+**/WHOIS** [\<nickname>]  
 
 > Shows information about someone.
 
@@ -485,7 +468,7 @@ Sometimes WHOIS won't help you much, because the person you want to know more
 about just left IRC or changed nick. However, you can use WHOWAS to get this
 information for a while:
 
-**/WHOWAS** [<server>] [<nickname>]  
+**/WHOWAS** \[\<server>] \[\<nickname>]  
 
 > Shows information about who used the given nickname last, even if no one is
 currently using it.
@@ -500,11 +483,11 @@ currently using it.
     
 
 Very often, an unsuccessful call to WHOIS will lead you to try WHOWAS. That's
-why ircII allows you to "/SET AUTO_WHOWAS ON"; that way, a "*** <nickname>: No
-such nickname" message will auto-magically generate a "/WHOWAS <nickname>".
+why ircII allows you to "/SET AUTO_WHOWAS ON"; that way, a "\*\*\* \<nickname>: No
+such nickname" message will auto-magically generate a "/WHOWAS \<nickname>".
 Try typing "/HELP SET AUTO_WHOWAS" for more information on this topic.
 
-**/AWAY** [<away message>]  
+**/AWAY** \[\<away message>]  
 
 > Leave a message explaining that you are not currently paying attention to
 IRC. Whenever someone sends you a MSG or does a WHOIS on you, they
@@ -520,7 +503,6 @@ marks you as no longer being away.
             *** You are no longer marked as being away
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -542,7 +524,7 @@ marks you as no longer being away.
 You can use the MSG command, (usually "M" is an alias for it), to send someone
 a message that only that person can read.
 
-**/MSG** <nickname>|<channel> <text>  
+**/MSG** \<nickname>|\<channel> \<text>  
 
 > Send a private message to specified nickname.
 
@@ -571,12 +553,12 @@ message is sent to the last person who sent you a MSG. If the nickname is "."
 (a period), the message is sent to the last person to whom you sent a message.
 
 You can have a private conversation by only using /MSG. However, typing "/MSG
-<nick> <text>" or "/MSG . <text>" gets cumbersome. That's where the /QUERY
+\<nick> \<text>" or "/MSG . \<text>" gets cumbersome. That's where the /QUERY
 command comes in handy.
 
-**/QUERY** [<nickname>|<channel>]  
+**/QUERY** \[\<nickname>|\<channel>]  
 
-> Starts a private conversation with <nickname>.
+> Starts a private conversation with \<nickname>.
 
 All text you type that would normally be sent to your channel now goes to the
 supplied nickname in the form of MSGs. To cancel a private conversation, use
@@ -599,9 +581,9 @@ NOTICEs are surrounded by '-' when printed, and no automated responses, (such
 as generated by IGNORE or an automaton), will be sent in reply. Services,
 (robots), on IRC often use this form of interaction.
 
-**/NOTICE** <nickname>|<channel> <text>  
+**/NOTICE** \<nickname>|\<channel> \<text>  
 
-> Sends a private message to the specified <nickname>.
+> Sends a private message to the specified \<nickname>.
 
     
     
@@ -616,7 +598,7 @@ as generated by IGNORE or an automaton), will be sent in reply. Services,
 As you begin to make new friends over IRC, you'll want to mark certain
 nicknames such that you will be warned when they signon or off.
 
-**/NOTIFY** [[-]<nickname>]  
+**/NOTIFY** \[\[-]\<nickname>]  
 
 > Adds or removes  to the list of people you'll be warned when they enter or
 quit IRC (in ircII versions prior to 2.2, too many people in the NOTIFY list
@@ -638,7 +620,7 @@ or if someone is harassing you. The proper response to such a behavior is to
 IGNORE that person. IGNORE is a very powerful command, and can be used in many
 ways. However the basic usage of this tool is the following.
 
-**/IGNORE** [<nickname>|<user@host> [[-]<message type>]]  
+**/IGNORE** \[\<nickname>|\<user@host> \[\[-]\<message type>]]  
 
 > Suppresses output from the given people from your screen. IGNORE can be set
 by nickname or by specifying a userid@hostname format. Wildcards may be used
@@ -659,7 +641,6 @@ of ignoring of that type of message.
             *** *@cheshire.oxy.edu removed from ignorance list
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -701,7 +682,7 @@ Every channel has certain characteristics, called channel modes. These will
 also be explained below. Remember the NAMES and LIST commands; they will show
 you the names of the existing channels.
 
-**/LIST** [[<flags>] <channel mask>]  
+**/LIST** \[\[\<flags>] \<channel mask>]  
 
 > Lists all current "channels", number of users, and topic. The displayed list
 may be quite long, so you can limit it using flags. "/LIST -MIN n" for
@@ -723,7 +704,7 @@ instance removes channels with less than 'n' users of the output.
             *** #francais  6        on apprend le japonais (japanese welcome)
     
 
-**/NAMES** [[<flags>] <channel mask>]  
+**/NAMES** \[\[\<flags>] \<channel mask>]  
 
 > Shows the nicknames of all users on each "channel", (these may be very long.
 Remember to filter them with "-MIN n" or "-MAX n").
@@ -743,7 +724,7 @@ Remember to filter them with "-MIN n" or "-MAX n").
 
 To join in the conversation on a certain channel you may use the JOIN command.
 
-**/JOIN** [<channel>]  
+**/JOIN** \[\<channel>]  
 
 > Sets your current channel to the supplied channel.
 
@@ -767,9 +748,9 @@ NOVICE".
 Once in a channel, you may wish to get a detailed list of the people IRCing
 inside. That's where the WHO command comes in handy:
 
-**/WHO**[<channel>|<wildcard expression>]  
+**/WHO**\[\<channel>|\<wildcard expression>]  
 
-> Gives a listing of users. "/WHO *" for the list of users in your current
+> Gives a listing of users. "/WHO \*" for the list of users in your current
 channel.
 
     
@@ -801,13 +782,13 @@ channel.
 The first field is the current channel, then nickname, status, real name (in
 internet user@host form), and a small witty comment you can set yourself with
 the environment variable IRCNAME, (this will be detailed in section 2.8).
-Status indicates if a user is "H"ere or "G"one, (see AWAY), if IRCop ("*"),
+Status indicates if a user is "H"ere or "G"one, (see AWAY), if IRCop ("\*"),
 and/or a channel operator ("@").
 
 It is also possible, when you are already on a channel, to ask someone to join
 your channel. The command is called INVITE.
 
-**/INVITE** <nickname> [<channel>]  
+**/INVITE** \<nickname> \[\<channel>]  
 
 > Invites another user to a channel. If no channel is specified, your current
 channel is used.
@@ -819,11 +800,11 @@ channel is used.
     
 
 If you receive an INVITE message, you can type "/JOIN -INVITE" to join the
-channel to which you were last invited, or simply "/JOIN <channel>".
+channel to which you were last invited, or simply "/JOIN \<channel>".
 
 To leave a channel, just issue a LEAVE command, (PART has the same effects):
 
-**/LEAVE** <channel>  
+**/LEAVE** \<channel>  
 
 > Leave a channel.
 
@@ -838,7 +819,7 @@ there's also the possibility to KICK someone out of it, for example if this
 person is behaving like a jerk, annoying people or flooding the channel with
 unwanted information:
 
-**/KICK** [<channel>] <nickname>  
+**/KICK** \[\<channel>] \<nickname>  
 
 > Kicks named user off a given channel. Only 'channel operators' are
 privileged to use this command.
@@ -852,7 +833,7 @@ privileged to use this command.
 Channels have topics, that indicate the current topic of conversation. You can
 change this topic on a channel with the TOPIC command.
 
-**/TOPIC** [[<channel>] <topic for channel>]  
+**/TOPIC** \[\[\<channel>] \<topic for channel>]  
 
 > Changes the topic for the channel.
 
@@ -868,7 +849,7 @@ are feeling or just anything concerning you to the current channel or query.
 It is absolutely good style not to forget the period at the end of the
 sentence!
 
-**/ME** <action description>  
+**/ME** \<action description>  
 
 > Tells the current channel or query about what you are doing. You can also
 use your own nickname as command, i.e. you can type the line with a leading
@@ -885,9 +866,9 @@ slash.
 
 The same goal can be achieved towards a specific nickname using:
 
-**/DESCRIBE** <nickname>|<channel> <action description>  
+**/DESCRIBE** \<nickname>|\<channel> \<action description>  
 
-> Sends anything concerning you to the <nickname> or <channel> you pass as
+> Sends anything concerning you to the \<nickname> or \<channel> you pass as
 first argument.
 
 (Note: The look of the result depends on each client version, and might not be
@@ -898,7 +879,6 @@ perform specific actions, but not understood by all clients, (more about CTCP
 in section 2.5). If you get an error message, your description may not have
 arrived properly.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -926,7 +906,7 @@ can notice users on a public channel and join such a conversation.
 
 Private means that, although anyone can see members of such a channel, you
 can't tell what channel they are on unless you are already on that channel
-with them. They just appear as "Prv: *" in LIST or NAMES. Since the number of
+with them. They just appear as "Prv: \*" in LIST or NAMES. Since the number of
 potential channels is in the billions, this is quite some security - all you
 give away is the acknowledgement that you're IRCing.
 
@@ -940,7 +920,7 @@ be found except by brute-force checking through all channels, a hopeless
 proposition in the face of the huge number of possible channel names. Security
 through obscurity finally means something.
 
-**/MODE** <channel>|<nickname> [[+|-]<modechars> [<parameters>]]  
+**/MODE** \<channel>|\<nickname> \[\[+|-]\<modechars> \[\<parameters>]]  
 
 > Allows channel operators to change channel mode, or any user to change their
 personal mode, (don't use this co mmand too often, it floods the net with
@@ -966,7 +946,7 @@ typing "/HELP MODE" to get further information. Channels can be moderated
 anonymous, invite-only, topic-limited, with a list of banned users.
 
 The MODE command also allows you to modify your personal parameters, your
-"user mode". You can check your usermode with the command "/MODE <YourNick>"
+"user mode". You can check your usermode with the command "/MODE \<YourNick>"
 or sometimes "/UMODE". Note that user mode +i may be the default on some
 servers, in order to protect privacy of users. This should not be seen as a
 problem, since any user can change his/her personal mode whatever defaults a
@@ -1002,13 +982,12 @@ server may set.
             w               receive wallops (abused and deprecated)
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
 ### 2.5 Client to Client Protocol
 
-**/CTCP** [<argument>]  
+**/CTCP** \[\<argument>]  
 
 > Allows you to perform certain client specific actions on the network.
 
@@ -1063,7 +1042,7 @@ ircII provides you a way to establish Direct Client Connections ("DCC") to
 perform functions like sending and receiving files.
 
 If NickA wants to send a file to NickB, then NickA should type: "/DCC SEND
-NickB filename". On NickB's screen will appear: "*** DCC SEND (filename)
+NickB filename". On NickB's screen will appear: "\*\*\* DCC SEND (filename)
 request received from NickA". If he, (NickB), wants to get the file, he just
 needs to type: "/DCC GET NickA filename"
 
@@ -1078,23 +1057,23 @@ needs to type: "/DCC GET NickA filename"
 
 Here's a quick overview of the subject:
 
-**/DCC** <function> [<arguments>] 
+**/DCC** \<function> \[\<arguments>] 
 
 > Handles direct connections to remote clients. The behaviour of DCC is
 determined by the specified .
 
-**/DCC SEND** <nickname> <filename>  
+**/DCC SEND** \<nickname> \<filename>  
 
 > Initiates a file transfer by direct client connection.
 
-**/DCC GET** <nickname> <filename>  
+**/DCC GET** \<nickname> \<filename>  
 
 > Accepts a file transfer by direct client connection. The sender must first
 have offered the file with DCC SEND.
 
-**/DCC CLOSE** <type> <nickname> [<arguments>]  
+**/DCC CLOSE** \<type> \<nickname> \[\<arguments>]  
 
-> Ends an unwanted DCC connection or offer. The , <nickname> and <arguments>
+> Ends an unwanted DCC connection or offer. The , \<nickname> and \<arguments>
 must be the same as those shown by "/DCC LIST". If the arguments are not
 supplied, the oldest connection of the specified type is closed.
 
@@ -1121,7 +1100,6 @@ the IRC network.
 with DCC CHAT. Once established, messages are sent over with "/MSG =Nickname
 ...".
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1158,7 +1136,7 @@ at times.
          VERSION  shows client and server version number
     
 
-**/ADMIN** [<server>]  
+**/ADMIN** \[\<server>]  
 
 > Displays the administrative details about the given server. If no server is
 supplied, the server you are connected to is used.
@@ -1172,10 +1150,10 @@ supplied, the server you are connected to is used.
             ### <pioch@poly.polytechnique.fr>
     
 
-**/LINKS** [[<server>] <wildcard expression>]  
+**/LINKS** \[\[\<server>] \<wildcard expression>]  
 
 > Shows a list of servers currently connected to the IRC network. If <wildcard
-expression> is given, /LINKS asks the given <server> for a list of servers
+expression> is given, /LINKS asks the given \<server> for a list of servers
 matching the given expression, (this list can get very long!).
 
     
@@ -1190,7 +1168,7 @@ matching the given expression, (this list can get very long!).
             *** poly.polytechnique.fr 0 Ecole Polytechnique, Paris, FRANCE
     
 
-**/SERVER** [<server>|<server number> [<port number>]]  
+**/SERVER** \[\<server>|\<server number> \[\<port number>]]  
 
 > Switches your primary server to the supplied <server> at the specified <port
 number>. If no port number is given, the default port number is used (normally
@@ -1210,7 +1188,7 @@ the information that you have left your previous server. So don't be surprised
 if you are told your nickname is already in use... Just wait a moment and set
 it with /NICK again.
 
-**/MOTD** [<server>]  
+**/MOTD** \[\<server>]  
 
 > Gives the Message-Of-The-Day for the named server. If no server is given,
 your server is used.
@@ -1237,7 +1215,7 @@ your server is used.
             * End of /MOTD command
     
 
-**/USERS** [<server>]  
+**/USERS** \[\<server>]  
 
 > Shows the users logged into the machine where the server is running, (it's
 up to the server administrator to implement this feature or not. It may not
@@ -1253,8 +1231,8 @@ work on some machines).
             *** pioch   ttyq1       rotule.polytechn
     
 
-**/DATE** [<server>]  
-**/TIME** [<server>]  
+**/DATE** \[\<server>]  
+**/TIME** \[\<server>]  
 
 > Shows the current time of day and date. If a server is specified, the time
 of day and date are reported from that server. DATE and TIME are identical.
@@ -1268,7 +1246,7 @@ of day and date are reported from that server. DATE and TIME are identical.
 **/LUSERS**  
 
 > Gives a brief listing of the number of servers, operators and users matching
-the given <wildcard expression>, as seen from the specified <server>.
+the given \<wildcard expression>, as seen from the specified \<server>.
 
     
     
@@ -1280,9 +1258,9 @@ the given <wildcard expression>, as seen from the specified <server>.
             *** 22 maximum connections, 19 clients
     
 
-**/TRACE** [<server>]  
+**/TRACE** \[\<server>]  
 
-> Shows the server connections of the given <server>.
+> Shows the server connections of the given \<server>.
 
     
     
@@ -1299,7 +1277,7 @@ the given <wildcard expression>, as seen from the specified <server>.
             *** Class 1 Entries linked: 1
     
 
-**/STATS** c|i|k|l|m|u|y [<server>]  
+**/STATS** c\|i\|k\|l\|m\|u\|y \[\<server>]  
 
 > Shows some irc server usage statistics.
 
@@ -1309,7 +1287,7 @@ the given <wildcard expression>, as seen from the specified <server>.
             *** Server Up 12 days, 12:28:44
     
 
-**/INFO** [<server>]  
+**/INFO** \[\<server>]  
 
 > Shows information about the IRC creators, debuggers, slaves and a lot of
 other people who no longer have much to do with IRC.
@@ -1325,7 +1303,6 @@ other people who no longer have much to do with IRC.
             *** Server poly.polytechnique.fr: ircd 2.7.2g.Nap+6(privacy).
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1385,7 +1362,6 @@ other people who no longer have much to do with IRC.
            WHOWAS       displays information about someone who just left
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1499,7 +1475,6 @@ Advanced commands may come in handy if you need them. Feel free to browse in
 ircII online help to find out more about them. A few of them are probably
 worth learning.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1603,7 +1578,6 @@ found in the "script" directory, and loaded with "/load ircprimer"
     # -------------------------------------------------------------------
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1697,11 +1671,12 @@ See? Remember the golden rule:
 
 > A smart bot won't act unless explicitly asked by someone to.
 
-** [ table of contents | navigation bar ]
+**
 
 * * *
 
 # 3. FREQUENTLY ASKED QUESTIONS
+{: #faq}
 
 ### 3.1 How do I set up an IRC client?
 
@@ -1813,7 +1788,6 @@ telnet client:
 Please only use telnet when you have no other way of reaching IRC, as this
 resource is quite limited.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1848,7 +1822,6 @@ say "I have a question" because then everyone will ignore you until you say it
 a few times, and then they'll jump down your throat and rip your lungs out. No
 one knows if he can answer your question until you ask it.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1865,7 +1838,6 @@ in #EU-Opers. So if you join an Operator channel and don't hear much talking,
 don't worry; it's not because you joined. Operators don't talk much on such
 channels anyways!
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1892,7 +1864,6 @@ SELF_INSERT" and it may work.
                                ^B   Bold
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1903,7 +1874,6 @@ problem with typing a certain command with the ircII client that gives anyone
 immediate control of your client, (and thus can alter your account environment
 also). Look in the ircII on-line help each time you can.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1931,7 +1901,6 @@ In addition to that, Japanese IRC'ers use a special ANSI escape control
 sequences to transmit their Kanji alphabet. This may also look funny if you
 get some of it. Here's a sample: [$B$?$K$7[$B;$m$K# (nice, uh?)
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1951,12 +1920,11 @@ NickServ operators are on-line, send:
             /MSG NickServ@Service.de OPERWHO
     
 
-Nicknames with a "*" next to them are online at the time.
+Nicknames with a "\*" next to them are online at the time.
 
 Note: As of this writing, NickServ is down and it is uncertain when or if it
 will return.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -1970,7 +1938,6 @@ If it's a matter of personal harassment, then you should set a proper IGNOREon
 that person, (preferably on his userid@hostname). Remember you can use
 wildcard expressions for IGNORE.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -2019,7 +1986,6 @@ Getting an Operator to kill the ghost is almost never necessary, just sign on
 as another nickname and wait for the "Ping timeout" or "Bad link" message,
 then you can change your nick back.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -2037,7 +2003,7 @@ caution, if at all.
 
 If you op someone on a channel, you take the consequences. If someone joins
 #Whatever, you op them, then they kick everyone and lock the channel with some
-"Mode change +ib *!*@*", then suffer it: it's your fault, don't go whining to
+"Mode change +ib \*!\*@\*", then suffer it: it's your fault, don't go whining to
 an IRC-op to fix it. If a channel is locked, you should start a new one.
 
 Effective methods to deal with obnoxious people are IGNORE, KICK and various
@@ -2048,7 +2014,6 @@ gain illegal channel-operator status for instance, yell! Mail a log to his
 server IRC-Administrator, (see ADMIN), join #Twilight_Zone or #EU-Opers for
 European-related problems, and explain what happened.
 
-[ table of contents | navigation bar ]
 
 * * *
 
@@ -2089,11 +2054,11 @@ mailing-lists for ircII vmsirc and irchat clients.
        irchat-request@cc.tut.fi       irchat mailing list
     
 
-[ table of contents | navigation bar ]
 
 * * *
 
 # 4. ADMINISTRATIVIA
+{: #Administrativia}
 
 ### 4.1 Revision history
 
@@ -2109,8 +2074,6 @@ The primer is available in 3 formats:
   * IRCprimer.ps.Z: Postscript version 
   * IRCprimer.txt: Plain text version 
   * IRCprimer.tex.Z: Source code. 
-
-* * *
 
 ### 4.2 Release sites for the IRCprimer
 
@@ -2169,7 +2132,6 @@ this manual; if not, write to the:
                             Cambridge, MA 02139, USA.
     
 
-[ table of contents | navigation bar ]
 
 * * *
 

@@ -1,11 +1,10 @@
-![The New York
-Times](http://graphics7.nytimes.com/images/misc/logoprinter.gif)[ ![](http://1
-27.0.0.1/.gifmes.com/ads/fox/fox_pf.gif)](http://www.nytimes.com/adx/bin/adx_c
-lick.html?type=goto&page=www.nytimes.com/printer-friendly&pos=Position1&camp
-=foxsearch50a-
-nyt5&ad=fox_pf.html&goto=http%3A%2F%2Fwww%2Efoxsearchlight%2Ecom)
-
-* * *
+---
+title: "The Internet's Wilder Side"
+author: New York Times Company
+datecreated: 6 May 2004
+status: historical
+layout: default
+---
 
 ##### May 6, 2004
 
@@ -13,12 +12,11 @@ nyt5&ad=fox_pf.html&goto=http%3A%2F%2Fwww%2Efoxsearchlight%2Ecom)
 
 **By SETH SCHIESEL**  
 
-![I](http://graphics7.nytimes.com/images/dropcap/i.gif)T was just another
+T was just another
 Wednesday on the sprawling Internet chat-room network known as I.R.C. In a
 room called Prime-Tyme-Movies, users offered free pirated downloads of "The
 Passion of the Christ'' and "Kill Bill Vol. 2.'' In the DDO-Matrix channel,
-illegal copies of [Microsoft's](/redirect/marketwatch/redirect.ctx?MW=http://c
-ustom.marketwatch.com/custom/nyt-com/html-companyprofile.asp&symb=MSFT)
+illegal copies of Microsoft's
 Windows software and "Prince of Persia: The Sands of Time,'' an Xbox game,
 were ripe for downloading. In other chat rooms yesterday, whole albums of free
 MP3's were hawked with blaring capital letters. And in a far less obtrusive
@@ -200,11 +198,11 @@ regulate the shady dealings online were doomed to failure.
 "It's been like this for years. You can't really stop it.''
 
   
-[Copyright 2004](/ref/membercenter/help/copyright.html)&nbsp_place_holder;[The
-New York Times Company](http://www.nytco.com/) |
-[Home](http://www.nytimes.com/) | [Privacy
-Policy](http://www.nytimes.com/ref/membercenter/help/privacy.html) |
+Copyright 2004 
+[The New York Times Company](http://www.nytco.com/) |
+[Home](http://www.nytimes.com/) | 
+[Privacy Policy](http://www.nytimes.com/ref/membercenter/help/privacy.html) |
 [Search](http://query.nytimes.com/search/advanced/) |
 [Corrections](http://www.nytimes.com/corrections.html) |
-[Help](http://www.nytimes.com/membercenter/sitehelp.html) | Back to Top
+[Help](http://www.nytimes.com/membercenter/sitehelp.html)
 
