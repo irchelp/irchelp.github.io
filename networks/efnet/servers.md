@@ -26,6 +26,9 @@ The following is a list of all client servers seen connected as of 23 May 2021
 * irc.homelien.no
 * irc.du.se
 * irc.choopa.net
+* efnet.deic.eu
+* irc.efnet.nl
+* irc.swepipe.se
 * <http://chat.efnet.org> (webchat server)
 
 Another, semi-official server list can be found at <http://www.efnet.org/?module=servers>, which may be more or less current than this listing.
