@@ -14,11 +14,6 @@ This is a draft checklist for reviewing an IRC client. This isn't
 meant to be a complete list of what a client must/should have,
 but rather an abbreviated checklist of things I personally look
 for when evaluating a new client/version.
-by Jolo
-
-version 0.3.4s
-updated 2/3/99 -dracus
-updated 1/25/03 -dracus
 
 
 # Overview
@@ -45,7 +40,7 @@ Possible ratings:
 * Outstanding - The client goes above and beyond what is required for a high level of usability and capability.
 * Acceptable - The client is fully capable of all functions expected of this role in the expected way.
 * Deficient - The client is capable of all required functions for this role, but may require workarounds or be difficult to use.
-* Unacceptable - The client prevents access to necessary functionality for this role.
+* Unacceptable - The client prevents access to necessary functionality for this role, or has unexpected behavior which makes the client unsuitable for this role.
 
 ## Communicating
 
@@ -105,9 +100,9 @@ Any of these things earn a spot on the broken list.
  * Imability to authenticate to, or interact with services on one or more established IRC networks.
  * Inability to send/recieve messages to/from channels
  * Inability to send/recieve messages/notices to/from other users.
- * Serious protocol errors or omissions which cause the client to disconnect or time out regularly from IRC servers (such as not supporting PING/POMG)
+ * Serious protocol errors or omissions which cause the client to disconnect or time out regularly from IRC servers (such as not supporting PING/PONG)
  * Unresolved remote security issues (client can be made to crash or execute arbitrary code by another user or a rogue server)
- * Any text that is automatically sent to a cnannel or query window must be able to be disabled by the user.
+ * Clients must not ship with any automations enabled by default which would either create a nuisance or cause unexpected/unintended use of channel or server operator functions (autoresponders on channels, autokick, autoop). These functions may be available, but they must be off until explicitly configured by the user.
 
 Clients that fall into the "Broken" category as judged by the above will be listed as such, and our
 coverage, if any, will be limited to a recommendaion against their use and
@@ -196,6 +191,7 @@ SECURITY
 		server
 	* Must deal with unsupported or malformed CTCP requests gracefully
 	* Must be designed to avoid buffer overflows from remote clients.
+	* SASL or TLS client certificate support on compatible servers.
 	++ Should select DCC ports randomly
 	++ Should warn on potentially malicious DCC requests (DCC to loopback
 	chargen port anyone?)
