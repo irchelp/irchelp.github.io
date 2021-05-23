@@ -179,18 +179,35 @@ EFNet:
   services: 'None, except for a pseudo-chanserv ([CHANFIX](/ircd/chanfix/))'
   support_channels: '#IRCHelp [General IRC], #help [General], #dmsetup [Virus/Trojan], #chanfix [takeover]'
   information: >
-    Formerly the prime IRC network and for a long time synonymous with IRC. EFnet
+    Formerly the prime IRC network and for a long time synonymous with IRC. 
+    [EFnet](/networks/efnet/)
     stands for Eris-Free net, due to a historical event involving a server with a
     machine name of ‘eris’. In 1996, many servers and users split off to form what
     is now IRCnet, since then both networks have grown and prospered independently.
     Both still do not support services such as channel or nickname registration,
     resulting in the most freedom as well as chaos for the users.
   webserverlist: 'http://www.efnet.org/?module=servers'
+  webchat: http://chat.efnet.org/
+  servers:
+    - irc.efnet.org
+    - irc.ipv6.efnet.org
+    - irc.mzima.net
+    - irc.servercentral.net
+    - irc.umich.edu
+    - irc.colosolutions.net
+    - irc.Prison.NET
+    - irc.underworld.no
+    - efnet.port80.se
+    - irc.nordunet.se
+    - irc.inet.tele.dk
+    - irc.homelien.no
+    - irc.du.se
+    - irc.choopa.net
   category:
     - popular
   status: active
   check:
-    server: irc.efnet.fr
+    server: irc.efnet.org
 AmigaNet:
   image:
   comment: "2020-08-15 https://web.archive.org/web/20190418123826/http://www.amiganet.org/"
