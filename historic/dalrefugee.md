@@ -1,14 +1,3 @@
----
-title: Dalnet Refugee Guide
-author: 'prysm, Jolo'
-dateupdated: 27 November 2004
-status: historical
-license: irchelp
-layout: default
-redirecT_from:
-  - /irchelp/networks/dalrefugee.html
----
-
 _Editor's note: This document was written in 2004, while EFNet was experiencing an influx of "refugees" from DALNet, which was undergoing prolonged DDoS attacks at the time._
 
 # DALnet Refugee Guide
