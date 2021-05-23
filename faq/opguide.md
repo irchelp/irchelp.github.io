@@ -35,7 +35,7 @@ _By Thoth and SilverOz, with help from MoonWolf and Charles
 version 1.5 - May 1995_
 
 This guide is available in plain text from 
-<https://github.com/irchelp/wio/raw/gh-pages/faq/opguide.md>
+<https://github.com/irchelp/irchelp.github.io/raw/gh-pages/faq/opguide.md>
 
 or as a web page from 
 <http://www.irchelp.org/faq/opguide.html>.

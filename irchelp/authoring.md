@@ -23,7 +23,7 @@ As of 2012, all content on the site is maintained as Markdown files with a short
 
    The files are kept in a [Git](http://git-scm.org) repository on [GitHub](https://www.github.com), and automatically generated using [Jekyll](https://jekyllrb.com/).
 
-Our public git repository is located at <https://github.com/irchelp/wio>
+Our public git repository is located at <https://github.com/irchelp/irchelp.github.io>
 
 The Git repository is very important to this process - it's the part that will allow multiple editors access to update the site, without risk of stepping on each other's toes, and which will allow us to easily roll back unwanted changes.
 
