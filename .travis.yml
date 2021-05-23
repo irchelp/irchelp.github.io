@@ -13,8 +13,7 @@ script: /bin/sh ./_scripts/build-jekyll.sh
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-  - gh-pages
-  - /pages-(.*)/ # test every branch which starts with "pages-"
+  - master
 
 env:
   global:
