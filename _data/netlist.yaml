@@ -31,6 +31,21 @@ localtest:
   status: active
   check:
     server: 'localhost:5000'
+Libera.Chat:
+  homepage: 'https://libera.chat/'
+  slocation: Europe, UK
+  services: 'nickserv, chanserv, alis, memoserv, tls, ipv6'
+  support_channels: '#libera'
+  information: >
+    Providing a community platform for free and open-source software and peer directed projects.
+  category:
+    - popular
+  status: active
+  servers:
+    - irc.libera.chat
+    - irc.libera.chat:6697
+  check:
+    server: irc.libera.chat
 Undernet:
   homepage: 'http://www.undernet.org/'
   webchat: 'https://chat.undernet.org/'
