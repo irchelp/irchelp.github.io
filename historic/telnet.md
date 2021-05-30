@@ -6,6 +6,8 @@ status: historical
 layout: default
 redirect_from:
   - /irchelp/misc/telnet.html
+summary: |
+  Old guide from 1995 for accessing EFNet through public shell providers.
 ---
 **Ed. note: This is a "classic" guide dating to the mid-90s, it is preserved here only for historical reasons. Most of the advice in here is hopelessly out of date now. If you want to play with IRCing through telnet, then just get really comfortable with the [RFC](../rfc/) because you are essentially trying to do the tedious job that your client usually does for you. -Jolo**
 

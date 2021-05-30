@@ -4,6 +4,8 @@ status: historical
 layout: default
 redirect_from:
   - /irchelp/historic/wsirc.html
+summary: |
+  Ancient 16bit IRC client dating back to the Windows 3.1 days.
 ---
 
 *Editor's note: The WSIRC mentioned here was an early 1990s IRC client for Windows 3.1 systems, one of the first to be offered for Windows. This client is long obsolete, but the information on it is retained for historical interest.*

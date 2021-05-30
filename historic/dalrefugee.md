@@ -7,6 +7,10 @@ license: irchelp
 layout: default
 redirecT_from:
   - /irchelp/networks/dalrefugee.html
+summary: |
+  This document was written in 2004,
+  while EFNet was experiencing an influx of "refugees" from DALNet,
+  which was undergoing prolonged DDoS attacks at the time.
 ---
 
 _Editor's note: This document was written in 2004, while EFNet was experiencing an influx of "refugees" from DALNet, which was undergoing prolonged DDoS attacks at the time._
