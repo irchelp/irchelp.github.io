@@ -2,15 +2,14 @@
 title: Historical Archives
 author: irchelp.org staff
 layout: default
+summary: |
+  This is where we're stashing older documents which are no longer of any use
+  beyond historical curiosity.
 ---
 
 # The Archives
 
-This is where we're stashing older documents which are no longer of any use
-beyond historical curiosity.
+{{ page.summary }}
 
-## Defunct and Abandoned IRC Clients
-* [wsirc](/historic/wsirc.html) - Ancient 16bit IRC client dating back to the Windows 3.1 days.
+{% include index_content.md %}
 
-## Other documents
-* [IRC by telnet](/historic/telnet.html) - Old guide from 1995 for accessing EFNet through public shell providers.
