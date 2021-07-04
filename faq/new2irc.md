@@ -316,14 +316,14 @@ others.
 
 **Registration**   On many networks. services exist for the registration of
 nicknames and/or channels. These services vary greatly between networks, but are
-useually mentioned in the server's message of the day (MOTD) which is shown when
+usually mentioned in the server's message of the day (MOTD) which is shown when
 you first connect. You can show the MOTD again at any time by typing /motd in most clients.
 
-THe network's home page will also detail any services offered on that network.
+The network's home page will also detail any services offered on that network.
 
 Nickname registration allows you to "own" a nickname, and prevent others from
 using it on that network. Consequently, if you try to use a nickname that someone else already
-has reserved on such a network, you will recieve a warning message from the network,
+has reserved on such a network, you will receive a warning message from the network,
 and after a few seconds, your nickname will be changed or your will be disconnected.
 In the event that this happens, simply change your nickname until you find one that's
 not taken. Consult the MOTD or network homepage for details if you want to register your nickname.
@@ -334,12 +334,12 @@ command, try switching servers, or else recent channel lists are available on
 the WWW at [http://www.irchelp.org/irchelp/chanlist/](/irchelp/chanlist/).
 
 
- **Harrassment and attacks**     If someone starts harassing or flooding you,
+ **Harassment and attacks**     If someone starts harassing or flooding you,
 leave the channel or use the /ignore command. For more details,
 [mIRC](/irchelp/mirc/) users see our 
 [flood protection](/clients/windows/mirc/flood.html) page, [ircII](/irchelp/ircii/) users
 type [/help ignore](/clients/unix/ircii/commands/irciihelp/ignore.html). It is a good idea to set
-your user mode to +i (invisible) to avoid unsolicited messages and harrassment
+your user mode to +i (invisible) to avoid unsolicited messages and harassment
 -- if you are "invisible" generally only users on a channel with you can
 determine what nick you are using.
 
