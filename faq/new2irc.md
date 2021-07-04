@@ -314,7 +314,7 @@ and may kick or ban for no good reason. If this happens, or if someone on a
 channel is bothering you, simply leave the channel -- there are thousands of
 others.
 
-**Registration**   On many networks. services exist for the registration of
+**Registration**   On many networks, services exist for the registration of
 nicknames and/or channels. These services vary greatly between networks, but are
 usually mentioned in the server's message of the day (MOTD) which is shown when
 you first connect. You can show the MOTD again at any time by typing /motd in most clients.
