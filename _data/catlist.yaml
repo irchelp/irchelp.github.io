@@ -1,6 +1,5 @@
 ---
 computer:
-- AmigaNet
 - Freenode
 game:
 - ColdFront
@@ -25,14 +24,14 @@ mytest:
 - emptynet
 - localtest
 popular:
-- Aniverse
+- DALnet
 - EFNet
-- Enter The Game
+- GeekShed
+- IRCnet
 - Libera.Chat
-- Freenode
-- IRCNet
-- PTNet
+- OFTC
 - QuakeNet
+- Rizon
 - Undernet
 regional:
 - BlafaselNet

@@ -1,5 +1,5 @@
 # vim:set ts=2 sw=2 et: 
-lastchange: August 2020
+lastchange: August 2021
 emptynet:
   image:
   homepage:
@@ -16,6 +16,9 @@ emptynet:
   category:
     - mytest
   status: down
+  check:
+    server: 
+
 localtest:
   homepage: 'http://localhost:4000/networks/popular.html'
   slocation: da heim
@@ -46,7 +49,57 @@ Libera.Chat:
     - irc.libera.chat:6697
   check:
     server: irc.libera.chat
+IRCnet:
+  image:
+  homepage: 'https://www.ircnet.com/'
+  webchat: 'http://webchat.ircnet.net/'
+  slocation:
+  services: '/SQUERY ALIS'
+  support_channels: '#help'
+  information: >
+    IRCnet is one of the oldest and largest IRC networks with more than 25.000 users using it daily.
+  servers:
+    - open.ircnet.net
+    - ssl.ircnet.ovh
+    - ssl.cloak.ircnet.ovh
+  webserverlist: 'http://www.ircnet.info/servers'
+  webstatistic: 'https://netsplit.de/networks/statistics.php?net=IRCnet'
+  category:
+    - popular
+  status: active
+  check:
+    server: open.ircnet.net
+OFTC:
+  image: '/media/icons/oftc-25.png'
+  homepage: 'https://www.oftc.net/'
+  webchat: 'https://webchat.oftc.net/'
+  slocation:
+  services: NickServ, ChanServ
+  support_channels: '#oftc'
+  information: >
+    The Open and Free Technology Community aims to provide stable and effective
+    collaboration services to members of the community in any part of the
+    world, while closely listening to their needs and desires.
+
+    OFTC was founded at the end of 2001 by a group of experienced members of
+    the Open Source and Free Software communities aiming to provide these
+    communities with better communication, development, and support
+    infrastructure.
+
+    OFTC is a member project of Software in the Public Interest, a non-profit
+    organization which was founded to help organizations develop and distribute
+    open hardware and software.
+  servers:
+    - irc.oftc.net
+  webserverlist:
+  webstatistic: 'https://netsplit.de/networks/statistics.php?net=OFTC'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.oftc.net
 Undernet:
+  image: '/media/icons/undernet-25.png'
   homepage: 'http://www.undernet.org/'
   webchat: 'https://chat.undernet.org/'
   slocation: Europe, US, Canada
@@ -63,7 +116,69 @@ Undernet:
   status: active
   check:
     server: irc.undernet.org
+EFNet:
+  image: '/media/icons/efnet-25.png'
+  homepage: 'http://www.efnet.org/'
+  webchat: 'http://chat.efnet.org:9090/'
+  slocation: 'US, EU'
+  services: chanfix
+  support_channels:
+  information: >
+    EFnet is the modern-day descendant of the original IRC network.
+  servers:
+    - irc.choopa.net 
+    - efnet.deic.eu
+  webserverlist: 'http://www.efnet.org/?module=servers'
+  webstatistic: 'https://netsplit.de/networks/statistics.php?net=EFnet'
+  category:
+    - popular
+  status: active
+  check:
+    server: efnet.deic.eu 
+Rizon:
+  image:
+  homepage: 'https://rizon.net/'
+  webchat: 'https://rizon.net/chat'
+  slocation: 'US, EU, AS'
+  services:
+  support_channels: '#help'
+  information: >
+    Rizon is an IRC (internet relay chat) network that has been around for 18 years and counting.
+
+    It is an entirely free service that allows you to setup a channel to chat
+    with your friend about any old topic, or to coordinate with your group.
+  servers:
+    - irc.rizon.ca
+    - irc.rizon.no 
+    - rizon.c.datapacket.com
+  webserverlist: 'https://wiki.rizon.net/index.php?title=Servers'
+  webstatistic: 'https://netsplit.de/networks/statistics.php?net=Rizon'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.rizon.no 
+GeekShed:
+  image: '/media/icons/geekshed-25.png'
+  homepage: 'http://www.geekshed.net/'
+  webchat: 
+  slocation:
+  services: NickServ, ChanServ
+  support_channels:
+  information: >
+    GeekShed is a free to use and family-friendly Internet Relay Chat network,
+    capable of hosting chat rooms for a variety of purposes.
+  servers:
+    - irc.geekshed.net
+  webserverlist: 'http://www.geekshed.net/servers/'
+  webstatistic: 'https://netsplit.de/networks/statistics.php?net=GeekShed'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.geekshed.net
 QuakeNet:
+  image: '/media/icons/quakenet-25.png'
   homepage: 'http://www.quakenet.org/'
   webchat: 'https://webchat.quakenet.org/'
   slocation: Europe, US
@@ -82,6 +197,29 @@ QuakeNet:
   status: active
   check:
     server: hostsailor.ro.quakenet.org 
+DALnet:
+  image: 
+  homepage: 'https://www.dal.net/'
+  webchat: 'http://www.dal.net:9090/'
+  slocation:
+  services: nickserv, chanserv
+  support_channels: '#help'
+  information: >
+    Started in 1994 as an alternative to the overburdened networks of the time,
+    DALnet has grown into a vibrant community and is widely regarded as the
+    most "friendly" of the major IRC networks. DALnet pioneered nickname and
+    channel registration, giving users the right and ability to govern their
+    online experience, without the fear of channel takeover, impersonation or
+    harassment.
+  servers:
+    - irc.dal.net
+  webserverlist: 'https://www.dal.net/servers/'
+  webstatistic: 'https://netsplit.de/networks/statistics.php?net=DALnet'
+  category:
+    - popular
+  status: active
+  check:
+    server: irc.dal.net
 PTNet:
   comment: 'porugal only'
   homepage: 'http://www.ptnet.org/'
@@ -94,137 +232,130 @@ PTNet:
   servers:
     - irc.ptnet.org
   category:
-    - popular
     - regional
   status: active
   check:
     server: irc.ptnet.org
+#Freenode:
+#  homepage: 'https://freenode.net/'
+#  webchat: 'https://webchat.freenode.net/'
+#  slocation: China, Costa Rica, Europe
+#  services: Yes, ChanServ, NickServ
+#  support_channels: Many many support channels.
+#  information: >
+#    an interactive environment for coordination and support of peer-directed
+#    projects, including... free software and open source. Our aim is to help
+#    improve the communicative and collaborative skills of our participants and
+#    to maintain a friendly, efficient environment for project coordination and
+#    technical support.
+#  servers:
+#    - chat.freenode.net
+#  category:
+#    - popular
+#    - computer
+#  status: down
+#  check:
+#    server: chat.freenode.net
 Freenode:
   homepage: 'https://freenode.net/'
   webchat: 'https://webchat.freenode.net/'
-  slocation: China, Costa Rica, Europe
-  services: Yes, ChanServ, NickServ
-  support_channels: Many many support channels.
+  services: Yes, ChanServ, Nickserv
   information: >
-    an interactive environment for coordination and support of peer-directed
-    projects, including... free software and open source. Our aim is to help
-    improve the communicative and collaborative skills of our participants and
-    to maintain a friendly, efficient environment for project coordination and
-    technical support.
+    We love open innovation. We love creators.
   servers:
     - chat.freenode.net
   category:
-    - popular
     - computer
   status: active
   check:
     server: chat.freenode.net
-'Enter The Game':
-  comment: '2020-08-14 homepage down'
-  homepage: 'http://www.enterthegame.com/'
-  slocation: US, Europe, Austrailia
-  services: '[Yes](http://help.enterthegame.com/commands.htm#commands), ChanServ'
-  support_channels:
-  information: >
-    Founded in early 1999... to offer Video Gaming Enthusiasts a better place
-    to gather and chat, setup matches, and meet new and friendly people
-    on-line." Originally dominated by American users.
-  servers:
-    - irc.enterthegame.com
-  webserverlist: 'http://help.enterthegame.com/server-list.htm#server-list'
-  category:
-    - popular
-  status: active
-  check:
-    server: irc.enterthegame.com
-Aniverse:
-  comment: '2020-08-14 homepage down, no usercount by the ircd'
-  homepage: 'http://www.aniverse.com/'
-  slocation: N/A
-  services: N/A
-  support_channels: N/A
-  information: >
-    "Aniverse Networks is attempting to become the largest Anime web portal in
-    existance. We run many high traffic anime websites and offer pure content to
-    those who desire."
-  servers:
-    - irc.aniverse.com
-  category:
-    - popular
-  status: active
-  check:
-    server: irc.aniverse.com
-IRCNet:
-  homepage: 'http://www.ircnet.com/'
-  webchat: 'https://webchat.ircnet.net/'
-  slocation: Mainly Europe and the East
-  services: None
-  support_channels: '#ircnet, #IRChelp'
-  information: >
-    Created in 1996 division of EFnet, IRCnet has continued to grow independently.
-    Lays claim to historical privilege of being the original IRC network by virtue
-    of still containing the core of early IRC, including the Finnish site where IRC
-    was first used. Administration and operation are also more traditional than on
-    other networks. Many of the most popular channels are “national” channels,
-    devoted to the social gathering of people from Europe and Japan.
-  webserverlist: 'http://irc.tu-ilmenau.de/all_servers/'
-  category:
-    - popular
-  status: active
-  check:
-    server: irc.atw-inter.net
-EFNet:
-  homepage: 'http://www.efnet.org/'
-  slocation: Europe, US, Near East
-  services: 'None, except for a pseudo-chanserv ([CHANFIX](/ircd/chanfix/))'
-  support_channels: '#IRCHelp [General IRC], #help [General], #dmsetup [Virus/Trojan], #chanfix [takeover]'
-  information: >
-    Formerly the prime IRC network and for a long time synonymous with IRC. 
-    [EFnet](/networks/efnet/)
-    stands for Eris-Free net, due to a historical event involving a server with a
-    machine name of ‘eris’. In 1996, many servers and users split off to form what
-    is now IRCnet, since then both networks have grown and prospered independently.
-    Both still do not support services such as channel or nickname registration,
-    resulting in the most freedom as well as chaos for the users.
-  webserverlist: 'http://www.efnet.org/?module=servers'
-  webchat: http://chat.efnet.org/
-  servers:
-    - irc.efnet.org
-    - irc.ipv6.efnet.org
-    - irc.mzima.net
-    - irc.servercentral.net
-    - irc.umich.edu
-    - irc.colosolutions.net
-    - irc.Prison.NET
-    - irc.underworld.no
-    - efnet.port80.se
-    - irc.nordunet.se
-    - irc.inet.tele.dk
-    - irc.homelien.no
-    - irc.du.se
-    - irc.choopa.net
-  category:
-    - popular
-  status: active
-  check:
-    server: irc.efnet.org
-AmigaNet:
+SciFi:
+  comment: "2020-08-15 server ?"
   image:
-  comment: "2020-08-15 https://web.archive.org/web/20190418123826/http://www.amiganet.org/"
-  homepage: "http://www.amiganet.org/"
+    homepage: "http://www.scifi.com/chat/"
   webchat:
   slocation:
   services:
   support_channels:
   information: >
-    Formally "Anet", they are Amiga-friendly but not limited to just that.
+    The SciFi TV channel caters to science fiction and fantasy, this chat server hosts chats with stars from the shows.
   servers:
     - server
   webserverlist:
   webstatistic:
   category:
-    - computer
+    - scifi
   status: down
+EqNET:
+  comment: 
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20170912041432/https://www.equestrianpages.com/category/chat/"
+  image:
+  homepage: "http://www.equestrianpages.com"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    All things equestrian (about horses, that is). Regular and special events. Main channel is #equestrian.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - misc
+  status: down
+'I.I.G.S. IRC':
+  comment:
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20060819153931/http://www.iigs.org/irc/index.htm"
+  image:
+  homepage: "http://www.iigs.org/irc/index.htm" 
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Genealogists worldwide unite!
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - misc
+  status: down
+BDSMnet:
+  comment:
+    - "2020-08-15 irc?"
+  image:
+  homepage: "http://www.bondage.com/irc/servers.asp"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Network for adults who are interested in discussions and play in all forms of sexuality. (No, it's not a porn trading post.)
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - misc
+  status: down
+StonerNET:
+  comment:
+    - "2020-08-15 server ?"
+    - "https://web.archive.org/web/20180902150525/http://stonernet.org/"
+  image:
+  homepage: "http://stonernet.org/"
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    "Our goal is to unite the stoners around the world in order to bring an end to the prohibition of cannabis."
+  servers:
+    - server
 ColdFront:
   comment: 
     - "2020-08-15 hp down"
