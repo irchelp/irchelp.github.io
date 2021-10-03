@@ -19,5 +19,5 @@ If you have a lot of trouble connecting to many servers, you should
 check out this troubleshooting guide. In general, most people should be
 able to find at least several servers that allow them to connect.
 
-\[ [main page](../) | [servers](../servers/) | [networks](../nets/) |
+\[ [main page](../) | [servers](../servers/) | [networks](/networks/) |
 [adding you](../addreq.html) \]

@@ -7,7 +7,7 @@ redirect_from:
   - /irchelp/networks/topical.html
 ---
 
-updated {{ site.data.netlist.lastchange }}
+updated {{ site.data.netlist.property.lastchange }}
 
 # Special Subject Networks
 
@@ -38,3 +38,4 @@ You can often find [channels](../chanlist/) devoted to every conceivable subject
 {% include nets_channels.md category="misc" %}
 
 
+{% include nets_groups.md %}

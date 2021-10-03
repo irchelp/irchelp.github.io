@@ -11,7 +11,7 @@ redirect_from:
 _Selected Networks with 10,000+ Users_
 
 
-updated {{ site.data.netlist.lastchange }}
+updated {{ site.data.netlist.property.lastchange }}
 
 This page is part of the <http://www.irchelp.org/irchelp/networks/>, please do not mirror or distribute.
 
@@ -26,3 +26,4 @@ The following networks are highlighted below:
 
 {% include nets_channels.md category="popular" %}
 
+{% include nets_groups.md %}

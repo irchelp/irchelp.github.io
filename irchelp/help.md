@@ -92,12 +92,14 @@ layout: default
 **Networks / Servers**
 
   * [overview of networks](/networks/servers/)
-  * [Big Four](/networks/nets/big4.html):
-  [EFnet](/networks/servers/efnet.html), Undernet,
-  [IRCnet](/networks/servers/ircnet.html), DALnet
+  * [Popular](/networks/popular.html):
+  * [EFnet](/networks/servers/efnet.html), Undernet,
+  * [IRCnet](/networks/servers/ircnet.html), DALnet
 
-  * [Medium](/networks/nets/medium.html) and [Small](/networks/nets/small.html) Nets
-  * [Subject](/networks/nets/subject.html) and [Local](/networks/nets/local.html) Nets
+  * [Topical](/networks/topical.html) 
+  * [General](/networks/general.html) 
+  * [Regional](/networks/regional.html) Nets
+  * [Small](/networks/small.html) Nets
 
 * * *
 

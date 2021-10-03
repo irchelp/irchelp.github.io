@@ -6,7 +6,7 @@ status: historical
 layout: default
 ---
 Ed. note: Hybrid 7 is the latest version of IRC server software likely to be
-adopted by most of [EFnet](/networks/nets/big4.html) and many other
+adopted by most of [EFnet](/networks/efnet/) and many other
 networks. This guide is part of our 
 [ircd help section](/ircd/), and is intended for the
 relative novice. Before you attempt to set up your own ircd, you should be

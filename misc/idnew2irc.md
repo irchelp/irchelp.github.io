@@ -103,8 +103,8 @@ oleh orang-orang tertentu saja, begitu pula halnya dengan nama-nama channel.
 Hal ini dapat menimbulkan konflik, jadi jika Anda benar-benar ingin "memiliki"
 suatu nama, Anda bisa menggunakan network yang menyediakan "service" untuk
 hal-hal seperti itu, misalnya [Undernet](http://www.undernet.org),
-[DALnet](http://www.dal.net/), atau [network-network
-kecil](/networks/nets/) yang lain.
+[DALnet](http://www.dal.net/), atau 
+[network-network kecil](/networks/) yang lain.
 
 >
 
