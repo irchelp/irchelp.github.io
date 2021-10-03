@@ -13,7 +13,10 @@
 ### {{ img }} [ {{ member }} ]( {{ netw.homepage }} )
 {%- else -%}
 ### {{ img }} {{ member }}
-{%- endif %} 
+{%- endif -%}
+{%- if netw.irchelp -%}
+ [&#x1f4ce;]( {{ netw.irchelp }} )
+{%- endif %}
 {% if netw.webchat -%}
 <b>Webchat:</b> <{{ netw.webchat }}> <br>
 {%- endif -%} 

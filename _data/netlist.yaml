@@ -1,8 +1,16 @@
 # vim:set ts=2 sw=2 et: 
-lastchange: August 2021
+property:
+  lastchange: October 2021
+  groups:
+    - '[small](small.html)'
+    - '[regional](regional.html)'
+    - '[topical](topical.html)'
+    - '[general](general.html)'
+    - '[popular](popular.html)'
 emptynet:
   image:
   homepage:
+  irchelp:
   webchat:
   slocation:
   services:
@@ -51,6 +59,7 @@ Libera.Chat:
     server: irc.libera.chat
 IRCnet:
   image:
+  irchelp: '/networks/ircnet/'
   homepage: 'https://www.ircnet.com/'
   webchat: 'http://webchat.ircnet.net/'
   slocation:
@@ -100,6 +109,7 @@ OFTC:
     server: irc.oftc.net
 Undernet:
   image: '/media/icons/undernet-25.png'
+  irchelp: '/networks/undernet/'
   homepage: 'http://www.undernet.org/'
   webchat: 'https://chat.undernet.org/'
   slocation: Europe, US, Canada
@@ -118,6 +128,7 @@ Undernet:
     server: irc.undernet.org
 EFNet:
   image: '/media/icons/efnet-25.png'
+  irchelp: '/networks/efnet/'
   homepage: 'http://www.efnet.org/'
   webchat: 'http://chat.efnet.org:9090/'
   slocation: 'US, EU'
@@ -179,6 +190,7 @@ GeekShed:
     server: irc.geekshed.net
 QuakeNet:
   image: '/media/icons/quakenet-25.png'
+  irchelp: '/networks/quakenet/'
   homepage: 'http://www.quakenet.org/'
   webchat: 'https://webchat.quakenet.org/'
   slocation: Europe, US
@@ -199,6 +211,7 @@ QuakeNet:
     server: hostsailor.ro.quakenet.org 
 DALnet:
   image: 
+  irchelp: '/networks/dalnet/'
   homepage: 'https://www.dal.net/'
   webchat: 'http://www.dal.net:9090/'
   slocation:
@@ -259,6 +272,7 @@ PTNet:
 Freenode:
   homepage: 'https://freenode.net/'
   webchat: 'https://webchat.freenode.net/'
+  irchelp: '/networks/freenode/'
   services: Yes, ChanServ, Nickserv
   information: >
     We love open innovation. We love creators.
@@ -272,7 +286,7 @@ Freenode:
 SciFi:
   comment: "2020-08-15 server ?"
   image:
-    homepage: "http://www.scifi.com/chat/"
+  homepage: "http://www.scifi.com/chat/"
   webchat:
   slocation:
   services:
@@ -318,7 +332,7 @@ EqNET:
   information: >
     Genealogists worldwide unite!
   servers:
-    - server
+    - irc.iigs.org
   webserverlist:
   webstatistic:
   category:
@@ -335,6 +349,7 @@ BDSMnet:
   support_channels:
   information: >
     Network for adults who are interested in discussions and play in all forms of sexuality. (No, it's not a porn trading post.)
+    Created August 1997
   servers:
     - server
   webserverlist:
@@ -351,11 +366,13 @@ StonerNET:
   webchat:
   slocation:
   services:
-  support_channels:
+  support_channels: '#pot'
   information: >
-    "Our goal is to unite the stoners around the world in order to bring an end to the prohibition of cannabis."
+    Our goal is to unite the stoners around the world in order to bring an end to the prohibition of cannabis.
+    Started November 1997
   servers:
-    - server
+    - irc.stonernet.org
+  status: down
 ColdFront:
   comment: 
     - "2020-08-15 hp down"
@@ -619,7 +636,7 @@ RelicNet:
   webchat:
   slocation: Australia, Belgium, Canada, UK, USA
   services: Channel (ChanS), Nick (NickS), Memo (MemoS), others.
-  support_channels: #relicnet
+  support_channels: '#relicnet'
   information: >
     Started at October 1997
   servers:
@@ -849,6 +866,7 @@ IRCity:
   services: Channel (X), Nick (Ns), Memo (Ms)
   support_channels:
   information: >
+    After several years of looking for its identity, Red Latina appears to finally have stabilised.
     Started 1997.
   servers:
     - server
@@ -1103,4 +1121,1129 @@ CajNet:
   category:
     - regional
   status: down
+
+BeyondIRC:
+  image:
+  homepage: 'https://www.beyondirc.net/'
+  irchelp:
+  webchat:
+  slocation: USA
+  services:
+  support_channels: '#A-BeyondIRC-Welcome, #Services'
+  information: >
+    A small IRC network which as been around since January, 1997.
+  servers:
+    - walle.beyondirc.net
+    - whipcrack.beyondirc.net
+    - irc.beyondirc.net
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.beyondirc.net
+StarLink:
+  image:
+  homepage: 'https://www.starlink.org/'
+  irchelp:
+  webchat: 'https://kiwiirc.com/nextclient/webchat.starlink.org/?nick=web|?#fringe'
+  slocation: US, GB
+  services:
+  support_channels: '#fringe'
+  information: >
+    Started July 1996
+  servers:
+    - irc.starlink.org
+  webserverlist: 'https://www.starlink.org/connect-servers.php'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.starlink.org
+starlink-irc:
+  image:
+  homepage: 'http://www.starlink-irc.org/index.html'
+  irchelp:
+  webchat:
+  slocation: US
+  services:
+  support_channels:
+  information: >
+    Not to be confused with StarLink, which is older and larger.
+
+    Started January 1997
+  servers:
+    - irc.starlink-irc.org
+  webserverlist: 'http://www.starlink-irc.org/index.servers.html'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.starlink-irc.org
+xworld:
+  image:
+  homepage: 'http://www.xworld.org/'
+  irchelp:
+  webchat:
+  slocation: Brazil, Canada, Germany, UK, USA
+  services: Channel (XS), Profile (Proserv), Game (Gameserv)
+  support_channels: '#xworld'
+  information: >
+    An extremely friendly and well-run network. Can't but recommend it.
+    Started September 1996
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: down
+  check:
+    server: 
+MultiNET:
+  image:
+  homepage:
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Very relaxed atmosphere, this product of the
+    LiquiNet/UpperNet merger is an excellent place to escape to with your
+    friends for peaceful meetings under good conditions if you're not
+    willing to bother with formalities like registration and stuff.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: down
+  check:
+    server: 
+SorceryNET:
+  image:
+  homepage: 'http://www.sorcery.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels: '#square'
+  information: >
+    An ambitious project to create a new network which will be "the best
+    network on IRC", running on guidelines similar to DALnet, managed by
+    experienced admins of former DALnet servers. Started at January 1997
+  servers:
+    - irc.sorcery.net
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.sorcery.net
+superchat:
+  image:
+  homepage: 'http://www.superchat.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    This describes itself as a strict family network. Y'know, the sort
+    you'd let your kids onto etc... Quite friendly and well-run. I dare
+    say you could let your kids onto it.
+    Started Early 1996
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Valhall.Net:
+  image:
+  homepage: "http://www.valhall.net/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A tribute to Nordic mythology and Atari computers. A well-run network
+    managed by experts. Their operations now include Linux and QNX.
+    Started May 1997
+  servers:
+    - server
+  webserverlist: "http://www.valhall.net/net.html"
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+WarpedNet:
+  image:
+  homepage: "http://www.warped.net/irc/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Part of what used to be the Innernet now goes by this name as a network
+    promising to let users run their channels themselves and keep the
+    operators where they should be, in the background, running the servers.
+    The #Amiga channel appears to be most prominent.
+    Started October 1996
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+WWFIN:
+  image:
+  homepage: "http://www.afn.org/~wwfin/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Strictly organized network run by freenets all over, this should appeal to
+    everyone seeking a low-noise network and interested in the freenet
+    concept.
+    Started before October 1995
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+FEFnet:
+  image:
+  homepage: "http://www.fef.net/"
+  irchelp:
+  webchat:
+  slocation: UK, US
+  services:
+  support_channels: '#help'
+  information: >
+    Another network promising strict abuse control as one of its pro's. Unlike
+    most others of the kind though, channel subjects are not restricted.
+  servers:
+    - irc.fef.net
+  webserverlist: 'https://www.fef.net/servers.xhtml'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.fef.net
+KnightNet:
+  image:
+  homepage: "http://www.knightnet.net/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    This network offers the use of bots and web space for its larger channels,
+    in addition to the regular services.
+    Started July 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+AfterNET:
+  image:
+  homepage: "http://www.afternet.org/"
+  irchelp:
+  webchat:
+  slocation: United States, Canada, Japan, France, and the United Kingdom
+  services:  AuthServ and X3
+  support_channels: '#afternet'
+  information: >
+    AfterNET is a network of Internet Relay Chat (IRC) servers that was founded
+    in September of 1996 and is dedicated to providing a free, quality chat
+    environment, which gives people all over the world a means to communicate
+    with each other. As a completely volunteer run organization, we strive to
+    be a place where the freedom of speech of all our users is respected. We
+    are in it for the community, not for a profit.
+  servers:
+    - irc.afternet.org
+  webserverlist: 'http://www.afternet.org/help/connecting/servers?redirect=1'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.afternet.org
+FireStar:
+  image:
+  homepage: "http://www.firestar.org/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Started August 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Othernet:
+  image:
+  homepage: "http://www.othernet.org/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Even if it does look like other small nets, its channel service interface
+    is unique and easier to use than most others. This net also features
+    various odd clients written by the admins.
+    Started April 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+StarChat:
+  image:
+  homepage: "http://www.starchat.net/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    One of the fastest-growing new networks with a very friendly
+    administrative team. Watch out for it.
+    Started June 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+SandNet:
+  image:
+  homepage: "http://www.sandnet.net/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Started December 1996
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+XNet:
+  image:
+  homepage: "http://www.xnet.org/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Started August 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+CastleNet:
+  image:
+  homepage: "http://www.castlenet.org/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    In their own words. Fun, fast, clean, family based network.
+    Started May 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+EsperNet:
+  image:
+  homepage: "http://www.esper.net/"
+  irchelp:
+  webchat:
+  slocation: US, EU, Asia
+  services:
+  support_channels: '#help, #dragonweyr, #esper'
+  information: >
+    EsperNet is one of the more organized small networks, best known for the
+    public release of the Services created and used on the network. Originally
+    started by an FF RPG group, their userbase is now much more general.
+    Started July 1996
+  servers:
+    - irc.esper.net
+    - nova.esper.net
+    - anarchy.esper.net
+    - calamity.esper.net
+  webserverlist: 'https://www.esper.net/servers.php'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.esper.net
+GammaNet:
+  image:
+  homepage: "http://www.gamma.net/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A fairly old network which used to come and go due to political
+    (administrative) turbulence, but now seems to be stable.
+    Started January 1996
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+MysticalNet:
+  image:
+  homepage: "http://www.mystical.net/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Started January 1998
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+FDFnet:
+  image:
+  homepage: 'http://fdfnet.fdf.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    One of the more established small networks. In their own words. FDFnet
+    is a fast, reliable and well-managed network that provides Nick,
+    Channel, Memo and Help services and does not interfere with the user's
+    right to converse freely.  
+    Started December 1996  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+NightStar:
+  image:
+  homepage: 'http://www.nightstar.net/'
+  irchelp:
+  webchat:
+  slocation: UK, US
+  services:
+  support_channels: '#Nightstar'
+  information: >
+    Started March 1997  
+  servers:
+    - irc.nightstar.net
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.nightstar.net
+Asianet:
+  image:
+  homepage: 'http://www.asianet.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A network "to guide Asia into the 21st century" with an international
+    character to it. Confucius meets Silicon Valley?  
+    Started August 1997  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+AlterNet:
+  image:
+  homepage: 'http://alterweb.tamu.edu/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    One of the oldest alternative networks to mainstream IRC, this network
+    remains almost untouched by the sands of time. IRC veterans might
+    appreciate it.  
+    Started 1995  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+'EarthInt Chat Network':
+  image:
+  homepage: 'http://www.earthint.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    nix
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+zuh.net:
+  image:
+  homepage: 'http://www.zuh.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A group of servers that split off from XWorld on account of a
+    disagreement regarding user/operator relations. They hope to do it
+    better.  
+    Started April 1998  
+    Shutdown 25. September 2012
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Millenia:
+  image:
+  homepage: 'http://www.millenia.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    In their own words. Millenia IRC Network is dedicated to providing a fun
+    and *safe* chatting environment for it's users.  
+    Started August 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+EdNet:
+  image:
+  homepage:
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    In their own words. A small network dedicted to nothing at all. Must
+    give them points for honesty.  
+    Started June 1996  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+AlternativeNet:
+  image:
+  homepage: 'http://www.altnet.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    nix
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+LittleNet:
+  image:
+  homepage: 'http://www.littlenet.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    In their own words. A Net with a different attitude.  
+    Started February 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+duh-net:
+  image:
+  homepage: 'http://www.duh-net.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    In their own words. Clean family network.  
+    Started January 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+WorldIRC:
+  image:
+  homepage: 'http://www.worldirc.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    nix
+  servers:
+    - irc.WorldIRC.Org
+  webserverlist: 'http://www.worldirc.org/index.php?page=servers'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.WorldIRC.Org
+Tri-Net:
+  image:
+  homepage: 'http://www.tri-net.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    nix
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+DifferentNET:
+  image:
+  homepage: 'http://www.different.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Started March 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+IceNet:
+  image:
+  homepage: 'http://www.icenet.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    They're back. IceNet, mark 2, is the successor to the original IceNet,
+    dissolved about six months earlier.  
+    Started January 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Shadowfire:
+  image:
+  homepage: 'http://www.shadowfire.org/'
+  irchelp:
+  webchat:
+  slocation: ZA, US, EU
+  services: NickServ, ChanServ, AresServ
+  support_channels:
+  information: >
+    Quake players, among other things...  
+    Started March 1998  
+  servers:
+    - irc.shadowfire.org
+    - za.shadowfire.org
+    - us.shadowfire.org
+    - eu.shadowfire.org
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.shadowfire.org
+AxisNet:
+  image:
+  homepage:
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    In their own words. A friendlier stable network, providing easier to use
+    services and and a more stable chat environment.  
+    Started January 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Wolfnet-IRC:
+  image:
+  homepage: 'http://www.wolfnet-irc.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Started November 1997  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+ChatPR:
+  image:
+  homepage:
+  irchelp:
+  webchat: 'http://www.chatpr.org/'
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A new network intending to serve Puerto Ricans throughout North America.
+    Its stability remains to be seen.  
+    Started November 1997  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Afterburn.Net:
+  image:
+  homepage: 'http://www.afterburn.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    A new "family/business" network which seems to give pretty good value
+    for money (if such a thing can be said about IRC).  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+NetLink-IRC:
+  image:
+  homepage: 'http://www.netlink-irc.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Another US-based family-oriented chat network. Welcome to the club.  
+    Started July 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+AceStar:
+  image:
+  homepage: 'http://www.acestar.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Had been running for about a year before getting organized and coming
+    out as a "production" network. That long trial period should help them
+    perform well.  
+    Started July 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+PhishyNet:
+  image:
+  homepage: 'http://www.phishy.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    "The Phriendly network". It's easy to explain - someone's 'F' key must
+    be broken. Actually, they are quite, umm, phriendly.  
+    Started June 1998  
+    Shutdown 2015
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+'JellyBelly Net':
+  image:
+  homepage: 'http://www.jellybelly.net/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Started March 1998  
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+GalaxyNet:
+  image:
+  homepage: 'http://www.galaxynet.org/'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    This network has firmly established itself as one of the more popular
+    networks and serves more countries with local servers than any other,
+    apart from IRCnet. It also has a large Asian userbase.
+    Started April 1996
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Wunder-Nett:
+  comment: 
+    - 2021-09-27 hompage ?
+  image: /media/flags/de-flag.png
+  homepage: "http://www.wunder-nett.org/"
+  irchelp:
+  webchat:
+  slocation: DE
+  services:
+  support_channels: '#Wonderland'
+  information: >
+    Wunder-Nett is a small German network and one of the older local ones. Last
+    time I checked, it looked like its days were numbered due to lack of users
+    and/or interest...
+    Started July 1995
+  servers:
+    - irc.wunder-nett.org
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+    - small
+  status: active
+  check:
+    server: irc.wunder-nett.org
+BSDNet:
+  comment:
+    - '2021-09-27 http://www.bsdnet.org/'
+  image:
+  homepage:
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels: '#nohelp'
+  information: >
+    Yup. It's BSD. Various flavours of BSD operating systems are the main topic on this network, 
+    pretty much in the same style as on LinuxNET. A network for the experts.
+    Rather unfriendly towards outsiders, all they lack is a 'Keep Out' notice
+    in the MOTD. If you don't know what BSD is, this is not for you.<br>
+  servers:
+    - irc.bsdnet.org
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.bsdnet.org
+SomeNet:
+  image:
+  homepage: 'http://www.somenet.org'
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels: '#tuwien'
+  information: >
+    A small chat network.
+  servers:
+    - irc.somenet.org
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.somenet.org
+amigaworld:
+  image:
+  homepage: "https://amigaworld.net/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels: '#Amigaworld'
+  information: >
+    amiga
+  servers:
+    - irc.amigaworld.net
+  webserverlist:
+  webstatistic:
+  category:
+    - computer
+  status: active
+  check:
+    server: irc.amigaworld.net
+AmigaNet:
+  image:
+  homepage: "http://www.amiganet.org/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Amigas. What else could it be about?
+    Started July 1997
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Kidlink IRC:
+  image:
+  homepage: "http://www.kidlink.org/IRC/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Network for kids up to age 15 and educators with 'classrooms' in
+    various languages. Requires registration prior to using it.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
+Stomped.com:
+  image:
+  homepage: "http://www.stomped.com/"
+  irchelp:
+  webchat:
+  slocation:
+  services:
+  support_channels:
+  information: >
+    Server for PC video game fans/organizations. They seem to have a
+    preference for Quake.
+  servers:
+    - server
+  webserverlist:
+  webstatistic:
+  category:
+    - mytest
+  status: down
+  check:
+    server: 
 

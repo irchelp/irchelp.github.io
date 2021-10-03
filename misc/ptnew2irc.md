@@ -100,7 +100,7 @@ A versão original (inglesa) desta página está em
 > si, deveria preferir redes com "serviços" ("*services*") como a
 > [Undernet](http://www.undernet.org/), [DALnet](http://www.dal.net/),
 > ou [redes mais
-> pequenas](/networks/nets/). Na PTnet
+> pequenas](/networks/). Na PTnet
 > existem estes tipos de protecção. Para saber mais sobre eles
 > especificamente para esta rede, visite o site
 > <http://www.pthelp.org>

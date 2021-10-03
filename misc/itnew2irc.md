@@ -99,7 +99,7 @@ i canali. Questo puo' causare dei conflitti, se tieni in modo particolare ad
 essere l'unico proprietario del tuo nick, potresti preferire dei network che
 utilizzano dei "servizi" (services) come ad esempio
 [Undernet](http://www.undernet.org/), [DALnet](http://www.dal.net/), o altri
-[network minori](/networks/nets/).
+[network minori](/networks/).
 
 >
 

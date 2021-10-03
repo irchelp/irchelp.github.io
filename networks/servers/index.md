@@ -39,11 +39,9 @@ network itself. Local lists will be reduced to a minimum. -ac\]
 #### The smaller networks
 
   - [XWorld](http://www.xworld.org/)
-  - [MultiNET](multinet.txt) (Local)
   - [SorceryNet](http://www.sorcery.net/servers/) (Port 9000)
   - [Valhall.Net](http://www.valhall.net/net.html) (Port 7000)
   - [WarpedNet](http://www.warped.net/irc/servinfo.html)
-  - [WWFIN](wwfin.txt) (Local)
   - [StarLink](http://www.starlink.net/servers/)
   - [StarLink-IRC](http://www.starlink-irc.org/index.servers.html)
   - [FEFnet](http://www.fef.net/servers.html)
@@ -66,7 +64,6 @@ network itself. Local lists will be reduced to a minimum. -ac\]
   - [NightStar](http://www.nightstar.net/srvlst.html)
   - [zuh.net](http://www.zuh.net/servers/home.html)
   - [EdNet](http://www.underworld.net/dtb/servers.txt)
-  - [AlterNet](alternet.txt) (Local. Port 4110)
   - [FDFnet](http://fdfnet.fdf.net/servers.html)
   - [Asianet](http://www.asianet.org/irclinks.html)
   - [WorldIRC](http://www.frenzy.com/~bhauber/worldirc/servers.html)
@@ -131,6 +128,6 @@ network itself. Local lists will be reduced to a minimum. -ac\]
   - Quantum's standalone server at irc.qnet.com
   - [ChatCircuit](http://www.chatcircuit.com/) at irc.chatcircuit.com.
 
-\[ [main page](../) | servers | [networks](../nets/) | [adding
+\[ [main page](../) | servers | [networks](/networks/) | [adding
 you](../addreq.html) \]
 

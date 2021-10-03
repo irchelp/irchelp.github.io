@@ -10,7 +10,7 @@ redirect_from:
 
 _Selected networks serving a specific geographic area or language_
 
-updated {{ site.data.netlist.lastchange }}
+updated {{ site.data.netlist.property.lastchange }}
 
 This page is part of the <http://www.irchelp.org/irchelp/networks/>, please do not mirror or distribute.
 
@@ -18,3 +18,4 @@ These are networks devoted to a specific geographic area or language. Often they
 
 {% include nets_channels.md category="regional" %}
 
+{% include nets_groups.md %}
