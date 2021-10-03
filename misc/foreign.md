@@ -16,7 +16,7 @@ primary language. For people who are not comfortable with English or
 simply prefer their native tongue, there is also a place on IRC.
 
 You may also be interested in this list of 
-[local IRC networks](/networks/nets/local.html),
+[local IRC networks](/networks/regional.html),
 each devoted to a specific country.
 
 \[Last update: 10 Mar 2001\]

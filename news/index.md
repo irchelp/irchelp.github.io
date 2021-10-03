@@ -579,10 +579,10 @@ available open source courtesy of Peter Baudis. I've added a link to
 this site from our own [IRCnet server
 list](../networks/servers/ircnet.html) page.
 
-**Networks pages updates.** I just updated our pages for the [Big Four
-networks](../networks/nets/big4.html) and various entries in
-[local](../networks/nets/local.html) and [secondary
-small](../networks/nets/small2.html) networks. We're in the process of a
+**Networks pages updates.** I just updated our pages for the 
+[Popular networks](../networks/popular.html) and various entries in
+[regional](../networks/regional.html) and 
+[small](../networks/small.html) networks. We're in the process of a
 big revamp of that whole networks section to streamline and clean up
 everything, stay tuned.
 

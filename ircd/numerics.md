@@ -30,7 +30,7 @@ network standards. No, really, why are there three different numerics for
 RPL_STATSDLINE and why is 005 used for three different replies?
 
 All information was extracted from the numerics headers of the current ircd
-version (10/2000) of the four [major networks](../networks/nets/big4.html). I
+version (10/2000) of the four [major networks](../networks/popular.html). I
 might have missed something, somewhere but it's about as complete as it could
 be. It does not include numerics added by various server patches (another
 long, sad story) in use with any of these ircds (mainly IRCnet's) and I won't

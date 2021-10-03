@@ -8,8 +8,8 @@ layout: default
 
 revised May 18, 2000
 
-AOL used to support official servers for all of the [Big
-Four](/networks/nets/big4.html) networks, but after years of unabated
+AOL used to support official servers for all of the
+Big Four networks, but after years of unabated
 abuse, these servers are all but gone now. Instead, AOL customers usually have
 to rely on the kindness of non-AOL servers, and these servers seem to change
 all the time, making it very difficult for AOL users.

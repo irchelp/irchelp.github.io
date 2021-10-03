@@ -1,6 +1,7 @@
 ---
 computer:
 - Freenode
+- amigaworld
 game:
 - ColdFront
 - QuakeNet
@@ -12,7 +13,6 @@ general:
 - WebNet
 kidedu:
 - CyberEd
-- Kidlink IRC
 - Kidsworld
 - ScoutLink
 misc:
@@ -21,8 +21,46 @@ misc:
 - I.I.G.S. IRC
 - StonerNET
 mytest:
+- AceStar
+- Afterburn.Net
+- AlterNet
+- AlternativeNet
+- AmigaNet
+- Asianet
+- AxisNet
+- CastleNet
+- ChatPR
+- DifferentNET
+- EarthInt Chat Network
+- EdNet
+- FDFnet
+- FireStar
+- GalaxyNet
+- GammaNet
+- IceNet
+- JellyBelly Net
+- Kidlink IRC
+- KnightNet
+- LittleNet
+- Millenia
+- MysticalNet
+- NetLink-IRC
+- Othernet
+- PhishyNet
+- SandNet
+- StarChat
+- Stomped.com
+- Tri-Net
+- Valhall.Net
+- WWFIN
+- WarpedNet
+- Wolfnet-IRC
+- XNet
+- duh-net
 - emptynet
 - localtest
+- superchat
+- zuh.net
 popular:
 - DALnet
 - EFNet
@@ -53,6 +91,7 @@ regional:
 - SurNet
 - ThaiNet
 - UniBG
+- Wunder-Nett
 - ZAIRC
 - ZAnet.net
 - colcom
@@ -61,3 +100,19 @@ regional:
 - skyinet
 scifi:
 - SciFi
+small:
+- AfterNET
+- BSDNet
+- BeyondIRC
+- EsperNet
+- FEFnet
+- MultiNET
+- NightStar
+- Shadowfire
+- SomeNet
+- SorceryNET
+- StarLink
+- WorldIRC
+- Wunder-Nett
+- starlink-irc
+- xworld
