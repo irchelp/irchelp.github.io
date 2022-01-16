@@ -1,4 +1,5 @@
 Translations: 
+[български](/misc/bgnew2irc.html) |
 [Deutsch](/misc/denew2irc.html) |
 [Español](/misc/esnew2irc.html) |
 [Français](/misc/frnew2irc.html) |
