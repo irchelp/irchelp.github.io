@@ -7,8 +7,6 @@ Translations:
 [עברי](/misc/ilnew2irc.html) |
 [Indonesia](/misc/idnew2irc.html) |
 [Italiano](/misc/itnew2irc.html) |
+[Nederlands](/misc/nlnew2irc.html) |
 [Portugues](/misc/ptnew2irc.html) |
 [Turkce](/misc/trnew2irc.html)
-{% comment %}
-[Nederlands](/misc/nlnew2irc.html) |
-{% endcomment %}
