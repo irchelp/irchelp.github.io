@@ -15,7 +15,7 @@ updated 5/12/02
 
 ## So you want to help on #IRChelp?
 
-We are the helpers of #IRChelp on EFnet/freenode/IRCnet. (There are #IRChelp channels on most large networks, but those others are not directly affiliated with this web site.) We try to conduct ourselves in a professional, courteous manner. Anybody is welcome to help, but you **must** follow these guidelines:
+We are the helpers of #IRChelp on EFnet/Libera.Chat/IRCnet. (There are #IRChelp channels on most large networks, but those others are not directly affiliated with this web site.) We try to conduct ourselves in a professional, courteous manner. Anybody is welcome to help, but you **must** follow these guidelines:
 
 1. Do not idle excessively - that is, staying silent for days and even weeks and not responding when prompted. We reserve the right to kick idle clients at any point based upon our best judgement of their intent and possible risk to our users. This rule enhances channel security and improves our ability to know who needs help. You're welcome to learn by watching, but be sure you stay awake and respond when somebody talks to you. A better way to learn is to study the [#IRChelp FAQs](/faq/irchelpfaq.html) or our many other [help files](/faq/). More information on this rule is at the bottom of this page.
 2. Answer only questions you are absolutely sure about, using clear and concise English. No jokes or pranks please.
@@ -34,7 +34,7 @@ If you are interested in gaining ops on #IRChelp, you should know that we are _v
 
 If you are genuinely interested in helping other people to use and enjoy IRC, you would help with no expectations of reward other than a job well done. If that describes you, welcome aboard!
 
-- EFnet, freenode, and IRCnet #IRChelp ops
+- EFnet, Libera.Chat, and IRCnet #IRChelp ops
 
 - **More information on our anti-idling rule**:
 
