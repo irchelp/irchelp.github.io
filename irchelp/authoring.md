@@ -12,7 +12,7 @@ license: cc-by-sa-4
 
 ## Introduction
 
-This site is run by a group of volunteers primarily consisting of the ops from the #irchelp channels on EFNet and freenode. We welcome contributions to the site, but have a number of guidelines which you should
+This site is run by a group of volunteers primarily consisting of the ops from the #irchelp channels on EFNet and Libera.Chat. We welcome contributions to the site, but have a number of guidelines which you should
 follow so that your content can be easily included into the site.
 
 
