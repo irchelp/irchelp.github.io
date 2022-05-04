@@ -2246,4 +2246,21 @@ Stomped.com:
   status: down
   check:
     server: 
-
+Zeolia:
+  image: /media/flags/fr-flag.png
+  homepage: "https://www.zeolia.net"
+  webchat: "https://www.zeolia.net/kw/"
+  slocation: France
+  services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (HelpServ)
+  support_channels: #zeolia,#aide
+  information: >
+    French speaking generalist network
+  servers:
+    - irc.zeolia.net
+  webserverlist:
+  webstatistic:
+  category:
+    - regional
+  status: active
+  check:
+    server: irc.zeolia.net
