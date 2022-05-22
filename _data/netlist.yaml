@@ -601,7 +601,7 @@ ChatNet:
   webstatistic:
   category:
     - general
-  status: active
+  status: down
   check:
     server: irc.chatnet.gr
 NewNet:
@@ -957,17 +957,17 @@ RusNet:
   servers:
     - irc.lucky.net
     - irc.anarxi.st
-    - irc.tsua.net
     - irc.mv.ru
     - irc.seb.org.ua
     - irc.odessa.ua
+    - irc.tsua.net
   webserverlist:
   webstatistic:
   category:
     - regional
   status: active
   check:
-    server: irc.tsua.net
+    server: irc.lucky.net
 ZAIRC:
   image: /media/flags/za-flag.png
   homepage: "https://zairc.net/"
@@ -986,7 +986,7 @@ ZAIRC:
   webstatistic:
   category:
     - regional
-  status: active
+  status: down
   check:
     server: irc.zairc.net
 'ZAnet.net':
