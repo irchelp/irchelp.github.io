@@ -3,6 +3,7 @@ title: IRC Clients for Windows
 layout: default
 license: CC-BY-SA-4
 author: irchelp.org staff
+dateupdated: 4 June 2022
 redirect_from:
   - /windows/
   - /irchelp/clients/windows/
@@ -26,3 +27,6 @@ Trillian, Miranda, Pidgin, and other "all in one" [instant messaging programs](/
 
 ## Bersirc
 [Bersirc](/clients/windows/bersirc.html) is another choice for Windows users.
+
+## AdiIRC
+[AdiIRC](/clients/windows/adiirc.html)

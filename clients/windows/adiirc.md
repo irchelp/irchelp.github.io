@@ -1,6 +1,7 @@
 ---
 title: AdiIRC Client for Windows
 author: raccoon
+dateupdated: 4 June 2022
 layout: default
 redirect_from:
   - /adiirc
@@ -8,14 +9,6 @@ redirect_from:
   - /clients/adiirc
   - /clients/AdiIRC
 ---
-
-<!--  Notes:
-* Heading anchors work. Wishlist: Automatically name headings as anchor points.
-* Quick Links don't take up as much vertical space as they would as bulleted lists.
-* I need to add a bulleted list of basic (comparative) vitals for each client.
-* !!! Floating md image seems nnot to work. I put in a regular img html tag. :(
-* I chose 256p logo, would like to do all clients.
--->
 
 <!--div style="text-align: right"-->
 <div style="float: right;"> <!-- margin: 0px 15px 15px 0px; -->
@@ -96,10 +89,7 @@ Creating an IRC client without internet was probably not my brightest hour. :P
 [Contact](https://dev.adiirc.com/projects/adiirc/wiki/contact)
 
 **IRC Channels:**
-[#AdiIRC](irc://chat.freenode.net/#adiirc) on freenode (official) |
-[#AdiIRC](irc://irc.nordicirc.com/#adiirc) on NordicIRC |
-[#AdiIRC](irc://irc.rizon.net/#adiirc) on Rizon |
-[#AdiIRC](irc://irc.​electrocode.​net/#adiirc) on ElectroCode | 
+[#AdiIRC](irc://irc.libera.chat/#adiirc) on  Libera.Chat (official) |
 [(more)](https://dev.adiirc.com/projects/adiirc/wiki/IRC_Channels)
 
 
@@ -177,7 +167,7 @@ system information, access media players ("now playing"), and really customize
 the client's look and feel with highly refined theming.
 
 The developer hosts his own [paste bin](https://kr0n.dk/) for use in the
-[#AdiIRC](irc://chat.freenode.net/#adiirc) support channel.
+[#AdiIRC](irc://irc.libera.chat/#adiirc) support channel.
 
 
 ## Themes {#themes}
@@ -189,9 +179,5 @@ layout of all text, dockable panels, icons, menus and anything else.
 
 
 ---
-Last revised on 26 August 2016
-&mdash; [Hey, you can edit this page!
-](/clients/cross/hexchat.html)
+Last revised on 4 June 2022
 
-<!-- Last modified -->
-<!-- [You can edit this page!](github/wio link to file) -->
