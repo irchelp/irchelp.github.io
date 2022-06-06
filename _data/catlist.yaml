@@ -50,7 +50,6 @@ mytest:
 - SandNet
 - StarChat
 - Stomped.com
-- Tri-Net
 - Valhall.Net
 - WWFIN
 - WarpedNet
@@ -113,6 +112,7 @@ small:
 - SomeNet
 - SorceryNET
 - StarLink
+- Tri-Net
 - WorldIRC
 - Wunder-Nett
 - starlink-irc

@@ -16,7 +16,7 @@ thousands of users and just can\'t keep up with everybody typing
 commands like `/list`. Just wait a few minutes and try again, or try
 another server on the same network. You can use `/links` to get a
 current list of servers on any network, or see our web-based [server
-lists](../networks/servers/).
+lists](/networks/efnet/servers.html).
 
 ## \"SendQ Exceeded\" or \"List output too large, truncated\"
 

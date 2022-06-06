@@ -192,7 +192,7 @@ be better off on DALnet or some small network with Services.
 {:#q14}
 A: A server is only as good as
 your connection to it. Which basically means you should check their 
-[server lists](/networks/servers/) and pick the one
+[server lists](/networks/efnet/servers.html) and pick the one
 closest to you. However,
 
   * EFnet: Most North American servers have excellent connectivity and those which accept foreign clients will be good for them too. Users in western and northern Europe should prefer their local servers.

@@ -226,6 +226,9 @@ DALnet:
     harassment.
   servers:
     - irc.dal.net
+    - ix.dal.net
+    - pool.dal.net
+    - underworld.se.eu.dal.net
   webserverlist: 'https://www.dal.net/servers/'
   webstatistic: 'https://netsplit.de/networks/statistics.php?net=DALnet'
   category:
@@ -794,6 +797,7 @@ BlafaselNet:
     IRC veterans.
   servers:
     - irc.blafasel.de
+    - space.blafasel.de
   webserverlist:
   webstatistic:
   category:
@@ -961,6 +965,7 @@ RusNet:
     - irc.seb.org.ua
     - irc.odessa.ua
     - irc.tsua.net
+    - irc.tomsk.net
   webserverlist:
   webstatistic:
   category:
@@ -1176,6 +1181,9 @@ starlink-irc:
     Started January 1997
   servers:
     - irc.starlink-irc.org
+    - PHELPS.KY.US.STARLINK-IRC.ORG
+    - DALLAS.TX.US.StarLink-IRC.Org
+    - STOPOVER.KY.US.StarLink-IRC.Org
   webserverlist: 'http://www.starlink-irc.org/index.servers.html'
   webstatistic:
   category:
@@ -1734,7 +1742,7 @@ Millenia:
     server: 
 EdNet:
   image:
-  homepage:
+  homepage: 'https://www.underworld.net/'
   irchelp:
   webchat:
   slocation:
@@ -1765,7 +1773,7 @@ AlternativeNet:
     nix
   servers:
     - server
-  webserverlist:
+  webserverlist: 'http://www.alternativenet.org/main/servers/servers.htm'
   webstatistic:
   category:
     - mytest
@@ -1840,16 +1848,16 @@ Tri-Net:
   services:
   support_channels:
   information: >
-    nix
+    The All New Chat Community
   servers:
-    - server
+    - Reston.Va.US.Tri-Net.Org 
   webserverlist:
   webstatistic:
   category:
-    - mytest
-  status: down
+    - small
+  status: active
   check:
-    server: 
+    server: Reston.Va.US.Tri-Net.Org 
 DifferentNET:
   image:
   homepage: 'http://www.different.net/'
@@ -1915,7 +1923,7 @@ Shadowfire:
     server: irc.shadowfire.org
 AxisNet:
   image:
-  homepage:
+  homepage: 'http://www.axisnet.org/'
   irchelp:
   webchat:
   slocation:

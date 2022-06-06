@@ -91,10 +91,9 @@ layout: default
 
 **Networks / Servers**
 
-  * [overview of networks](/networks/servers/)
   * [Popular](/networks/popular.html):
-  * [EFnet](/networks/servers/efnet.html), Undernet,
-  * [IRCnet](/networks/servers/ircnet.html), DALnet
+  * [EFnet](/networks/efnet/servers.html), Undernet,
+  * [IRCnet](/networks/ircnet/serverlist.html), DALnet
 
   * [Topical](/networks/topical.html) 
   * [General](/networks/general.html) 
