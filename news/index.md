@@ -27,7 +27,10 @@ webmaster and editor.
 </ul></td>
 <td><strong>Quick Info Links</strong>
 <ul>
-<li>Server lists: <a href="../networks/servers/efnet.html">EFnet</a> | <a href="../networks/servers/ircnet.html">IRCnet</a> | <a href="../networks/servers/dalnet.html">DALnet</a> | <a href="../networks/">others</a></li>
+<li>Server lists: <a href="../networks/efnet/servers.html">EFnet</a> | 
+<a href="../networks/ircnet/serverlist.html">IRCnet</a> | 
+<a href="https://www.dal.net/servers/">DALnet</a> | 
+<a href="../networks/">others</a></li>
 <li>Channel lists: <a href="../chanlist/">EFnet, IRCnet, and multi-networks</a></li>
 <li>FAQs: <a href="/faq/">help guides</a></li>
 </ul></td>
@@ -577,7 +580,7 @@ to ircII /map style, more readable but not sexy) or a GraphViz version
 [script](http://pasky.ji.cz/~pasky/irc/) for generating these maps is
 available open source courtesy of Peter Baudis. I've added a link to
 this site from our own [IRCnet server
-list](../networks/servers/ircnet.html) page.
+list](../networks/ircnet/serverlist.html) page.
 
 **Networks pages updates.** I just updated our pages for the 
 [Popular networks](../networks/popular.html) and various entries in
@@ -745,7 +748,7 @@ belonging to over 300 networks. Assuming a several-fold turnover rate,
 there are probably a few million of us out there\!
 
 **IRCnet breaks 100k lusers.** Speaking of stats,
-[IRCnet](../networks/servers/ircnet.html) recently set a new record by
+[IRCnet](../networks/ircnet/serverlist.html) recently set a new record by
 breaking 100k lusers (see the [netsplit.de IRCnet
 stats](http://netsplit.de/networks/IRCnet/)). The luser count cycles up
 and down between 56k and 101k, which is a lot more variation than most

@@ -21,7 +21,7 @@ Due to the dynamic nature of IRC, servers come and go all the time.
 Server lists like mIRC's [built-in
 list](http://www.mirc.co.uk/servers.ini) are a good sample
 representation of many different networks, but they tend to be horribly
-out of date. Even our own frequently updated [server list](servers/) is
+out of date. Even our own frequently updated [server list](/networks/efnet/servers.html) is
 obsolete as soon as it is taken, so you really should learn how to find
 servers on your own. For a current list of servers and how they are
 linked, use the /links command within your IRC client. You can search

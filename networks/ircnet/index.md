@@ -38,4 +38,4 @@ For some of the reasons listed above, in particular the antique code base, IRCne
 [rfc2811]: http://tools.ietf.org/html/rfc2811
 [rfc2812]: http://tools.ietf.org/html/rfc2812
 [rfc2813]: http://tools.ietf.org/html/rfc2813
-[servers]: ../servers/ircnet.html
+[servers]: /networks/ircnet/serverlist.html

@@ -24,9 +24,8 @@ New to IRC? Confused about clients, servers, and networks?
 If you already know the name of the network and you're just looking for servers
 within that network, see our comprehensive list of servers such as for
 [EFnet](/networks/efnet/servers.html),
-[Undernet](https://www.undernet.org/servers.php), [IRCnet](servers/ircnet.html),
-[DALnet](/networks/dalnet/), and several dozen
-[others](servers/index.html).
+[Undernet](https://www.undernet.org/servers.php), [IRCnet](/networks/ircnet/serverlist.html),
+[DALnet](/networks/dalnet/).
 
 **IRC Networks**
 

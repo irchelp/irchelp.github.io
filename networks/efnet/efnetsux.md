@@ -44,7 +44,7 @@ next Big Attack.
   * The news section at [EFnet's semi-official web site](http://www.efnet.org) covers the latest server woes. It's terse but factual.
   * Channels like #netsplit keep track of which servers are absent and for how long - you can judge for yourself based on the times as to whether it's a temporary or permanent split. Don't be a clamoring nuisance - just sit back and wait, they tend to repeat the list of split servers pretty often.
   * Finally, if there is any reliable news worth relating, we'll be sure to include it on our own [networks page](index.html).
-  * For now, you can use our [EFnet server list](/networks/servers/efnet.html) to help you get connected. If you're having a lot of trouble, especially due to problems like lack of identd or reverse DNS, we also have a [connection troubleshooting guide](/networks/connectprob.html).
+  * For now, you can use our [EFnet server list](servers.html) to help you get connected. If you're having a lot of trouble, especially due to problems like lack of identd or reverse DNS, we also have a [connection troubleshooting guide](/networks/connectprob.html).
 
 **Argh, you've just confused me more!** The truth is, people have been saying EFnet is going to die for years, and many years from now they'll probably still be saying that. My advice - don't worry about what you cannot change or control. _Que sera, sera._
 
@@ -53,6 +53,6 @@ next Big Attack.
   * [EFnet's semi-official web site](http://www.efnet.info)
   * [IRChelp.org networks page](index.html)  
 
-  * [EFnet server list](/networks/servers/efnet.html)
+  * [EFnet server list](servers.html)
   * [connection troubleshooting guide](/networks/connectprob.html)
   * [CHANFIX: EFnet op-less channel fixing](/ircd/chanfix/)

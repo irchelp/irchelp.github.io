@@ -177,10 +177,10 @@ show more or less aliases or commands):
 
 Each server is known by a "hostname" such as irc.ais.net, us.undernet.org,
 irc.dal.net, or irc.webbernet.net, which are sample servers for the networks
-[EFnet](/networks/servers/efnet.html),
+[EFnet](/networks/efnet/servers.html),
 [Undernet](http://servers.undernet.org/),
 [DALnet](http://www.dal.net/servers/), and
-[IRCnet](/networks/servers/ircnet.html), respectfully. Just specify
+[IRCnet](/networks/ircnet/serverlist.html), respectfully. Just specify
 the hostname to connect or switch to that server. For example:
 
 

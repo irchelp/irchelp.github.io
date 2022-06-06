@@ -36,7 +36,7 @@ So what's a DALnet chatter supposed to do? Read on...
 
 ### Tips for connecting to DALnet.
 
-  1. Use specific server hostnames like "example.dal.net" (I made that up) instead of the the "round robin" aliases like "irc.dal.net". The latter is supposed to redirect you to a random available server, but lately it is often disabled due to the attacks, so that mIRC users get the error "Unable to connect (Can't assign requested address)". See the next section for DALnet server lists. (If you're curious about this error, here's a slightly technical [explanation](/networks/servers/255.txt).) 
+  1. Use specific server hostnames like "example.dal.net" (I made that up) instead of the the "round robin" aliases like "irc.dal.net". The latter is supposed to redirect you to a random available server, but lately it is often disabled due to the attacks, so that mIRC users get the error "Unable to connect (Can't assign requested address)". See the next section for DALnet server lists. (If you're curious about this error, here's a slightly technical [explanation](/networks/dalnet/255.txt).) 
   2. For any specific server, instead of using the default ports 6667 and 7000, try other ports such as 6660-6666, 6668, 6669, etc. which are often faster or more stable. In mIRC, just type:  
 `/server example.dal.net:6661`
 

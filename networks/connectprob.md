@@ -23,7 +23,20 @@ Try all of servers listed for a particular network in your program. [mIRC](/clie
 
 ## 2\. Use server lists on the web
 
-Failing the above, try [server lists](servers/index.html) on the web. Some of these are automatically updated and thus guaranteed to be complete and up to date, such as for [EFnet](/networks/efnet) and [IRCnet](servers/ircnet.html). You can't download these lists, but you can try the servers manually one by one until you find ones that work. Some servers also have "random" or "round robin" server names, such as irc.efnet.org or irc.efnet.org for EFnet. (You would of course have to know this special server name already, so it may be good to ask on #help for whatever network you chat on to see if they have such a random server name.) When you try to connect to such a server name, it actually redirects you to one of many servers defined by those who run the network. If at first you don't succed, just try again a few times, since you get a different server every time you try, and chances are one will work sooner or later. Read on for more specific advice.
+Failing the above, try [server lists](/networks/efnet/servers.html) on the web.
+Some of these are automatically updated and thus guaranteed to be complete and
+up to date, such as for [EFnet](/networks/efnet/servers.html) and
+[IRCnet](/networks/ircnet/serverlist.html). You can't download these lists, but
+you can try the servers manually one by one until you find ones that work. Some
+servers also have "random" or "round robin" server names, such as irc.efnet.org
+or irc.efnet.org for EFnet. (You would of course have to know this special
+		server name already, so it may be good to ask on #help for whatever
+		network you chat on to see if they have such a random server name.)
+When you try to connect to such a server name, it actually redirects you to one
+of many servers defined by those who run the network. If at first you don't
+succed, just try again a few times, since you get a different server every time
+you try, and chances are one will work sooner or later. Read on for more
+specific advice.
 
 ## 3\. I got connected, but I only have 1 server to use!
 
