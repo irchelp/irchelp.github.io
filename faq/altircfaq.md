@@ -3,6 +3,7 @@ title: alt.irc faq
 author: alt.irc
 status: historical
 summary: The FAQ from the Usenet group alt.irc
+datechanged: 21 August 2022
 layout: default
 ---
 
@@ -58,93 +59,93 @@ you): **If you don't know what anonymous ftp is, ask your local systems people
 to show you**
 
 ### UNIX client
- *  [cs-ftp.bu.edu /irc/clients](ftp://cs-ftp.bu.edu/irc/clients)
+ *  `ftp://cs-ftp.bu.edu/irc/clients`
     
- *  [ftp.acsu.buffalo.edu /pub/irc](ftp://ftp.acsu.buffalo.edu/pub/irc)
+ *  `ftp://ftp.acsu.buffalo.edu/pub/irc`
     
  *  [ftp.funet.fi /pub/unix/irc](ftp://ftp.funet.fi/pub/unix/irc)
     
- *  [coombs.anu.edu.au /pub/irc](ftp://coombs.anu.edu.au/pub/irc)
+ *  `ftp://coombs.anu.edu.au/pub/irc`
     
- *  [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/clients](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients)
+ *  `ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients`
     
     
 ### EMACS elisp
 
- *  [cs-ftp.bu.edu /irc/clients/elisp](ftp://cs-ftp.bu.edu/irc/clients/elisp)
+ *  `ftp://cs-ftp.bu.edu/irc/clients/elisp`
     
  *  [ftp.funet.fi /pub/unix/irc/Emacs](ftp://ftp.funet.fi/pub/unix/irc/Emacs)
     
- *  [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/clients](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients)
+ *  `ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/clients`
     
- *  [cs.hut.fi /pub/irchat](ftp://cs.hut.fi/pub/irchat)
+ *  `ftp://cs.hut.fi/pub/irchat`
     
 ### X11 client
     
- *  [catless.ncl.ac.uk /pub](ftp://catless.ncl.ac.uk/pub)
+ *  `ftp://catless.ncl.ac.uk/pub`
     
- *  [ftp.aud.alcatel.com /tcl/code](ftp://ftp.aud.alcatel.com/tcl/code)
+ *  `ftp://ftp.aud.alcatel.com/tcl/code`
     
     
 ### NeXTStep client
     
- *  [http://www-personal.engin.umich.edu/~premise/foundation/encircle/](http://www-personal.engin.umich.edu/~premise/foundation/encircle/)
+ *  `http://www-personal.engin.umich.edu/~premise/foundation/encircle/`
     
 ### VMS client
     
- *  [cs-ftp.bu.edu /irc/clients/vms](ftp://cs-ftp.bu.edu/irc/clients/vms)
+ *  `ftp://cs-ftp.bu.edu/irc/clients/vms`
     
- *  [coombs.anu.edu.au /pub/irc/vms](ftp://coombs.anu.edu.au/pub/irc/vms)
+ *  `ftp://coombs.anu.edu.au/pub/irc/vms`
     
  *  [ftp.funet.fi /pub/unix/irc/vms](ftp://ftp.funet.fi/pub/unix/irc/vms)
     
- *  [ftp.informatik.tu-muenchen.de /pub/net/irc](ftp://ftp.informatik.tu-muenchen.de/pub/net/irc)
+ *  `ftp://ftp.informatik.tu-muenchen.de/pub/net/irc`
     
     
     
 ### REXX client for VM
     
- *  [cs-ftp.bu.edu /irc/clients/rxirc](ftp://cs-ftp.bu.edu/irc/clients/rxirc)
+ *  `ftp://cs-ftp.bu.edu/irc/clients/rxirc`
     
- *  [ftp.informatik.uni-oldenburg.de /pub/irc/rxirc](ftp://ftp.informatik.uni-oldenburg.de/pub/irc/rxirc)
+ *  `ftp://ftp.informatik.uni-oldenburg.de/pub/irc/rxirc`
     
- *  [ftp.informatik.tu-muenchen.de /pub/net/irc/VM](ftp://ftp.informatik.tu-muenchen.de/pub/net/irc/VM)
+ *  `ftp://ftp.informatik.tu-muenchen.de/pub/net/irc/VM`
     
- *  [coombs.anu.edu.au /pub/irc/rxirc](ftp://coombs.anu.edu.au/pub/irc/rxirc)
+ *  `ftp://coombs.anu.edu.au/pub/irc/rxirc`
     
  *  [ftp.funet.fi /pub/unix/irc/rxirc](ftp://ftp.funet.fi/pub/unix/irc/rxirc)
     
 ### MSDOS
     
- *  [cs-ftp.bu.edu /irc/clients/pc/msdos](ftp://cs-ftp.bu.edu/irc/clients/pc/msdos)
+ *  `ftp://cs-ftp.bu.edu/irc/clients/pc/msdos`
     
  *  [ftp.funet.fi /pub/unix/irc/msdos](ftp://ftp.funet.fi/pub/unix/irc/msdos)
     
 ### Microsoft Windows
     
- *  [cs-ftp.bu.edu /irc/clients/pc/windows](ftp://cs-ftp.bu.edu/irc/clients/pc/windows)
+ *  `ftp://cs-ftp.bu.edu/irc/clients/pc/windows`
     
- *  [ftp.demon.co.uk /pub/ibmpc/win3/winsock/apps/wsirc (for WSIRC)](ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/wsirc)
+ *  `ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/wsirc`
     
- *  [ftp.demon.co.uk /pub/ibmpc/win3/winsock/apps/mirc (for MIRC)](ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/mirc)
+ *  `ftp://ftp.demon.co.uk/pub/ibmpc/win3/winsock/apps/mirc`
     
     
 ### OS/2
     
- *  [cs-ftp.bu.edu /irc/clients/pc/os2](ftp://cs-ftp.bu.edu/irc/clients/pc/os2)
+ *  `ftp://cs-ftp.bu.edu/irc/clients/pc/os2`
     
- *  [hobbes.nmsu.edu /os2/2_x/network](ftp://hobbes.nmsu.edu/os2/2_x/network)
+ *  `ftp://hobbes.nmsu.edu/os2/2_x/network`
     
     
 ### Macintosh
     
- *  [cs-ftp.bu.edu /irc/clients/macintosh](ftp://cs-ftp.bu.edu/irc/clients/macintosh)
+ *  `ftp://cs-ftp.bu.edu/irc/clients/macintosh`
     
- *  [mirrors.aol.com /info-mac/comm (info-mac mirror)](ftp://mirrors.aol.com/pub/info-mac/comm/tcp)
+ *  `ftp://mirrors.aol.com/pub/info-mac/comm/tcp`
     
  *  [ftp.funet.fi /pub/unix/irc/mac](ftp://ftp.funet.fi/pub/unix/irc/mac)
     
- *  [ftp.ira.uka.de /pub/systems/mac](ftp://ftp.ira.uka.de/pub/systems/mac)
+ *  `ftp://ftp.ira.uka.de/pub/systems/mac`
     
     
 
@@ -430,20 +431,18 @@ hardware problem).
 
 GIF archives of irc people are available:
 
-* [ftp.funet.fi:/pub/pics/gif/pics/people/misc/irc -- NORDUnet Only!](ftp://ftp.funet.fi/pub/pics/gif/pics/people/misc/irc)
+* `ftp://ftp.funet.fi/pub/pics/gif/pics/people/misc/irc`
     
-* [ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/RP](ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/RP)
+* `ftp://ftp.informatik.tu-muenchen.de/pub/comp/networking/irc/RP`
     
 
 ##  Where can I learn more?
 
-The best, basic, irc user's manual is the IRC Primer, available in [web page
-form](/faq/ircprimer.html), 
-{::comment}
-[plain text](/irchelp/text/ircprimer.txt),
-{:/comment}
-[PostScript](http://www.kei.com/irc/IRCprimer1.1.ps), and
-[LaTeX](http://www.kei.com/irc/IRCprimer1.1.tex). You can also join various
+The best, basic, irc user's manual is the IRC Primer, available in 
+[web page form](/faq/ircprimer.html), 
+[plain text](/historic/ircprimer/IRCprimer1.1.txt) ,
+[PostScript](/historic/ircprimer/IRCprimer1.1.ps.Z), and
+[LaTeX](/historic/ircprimer/IRCprimer1.1.tex.Z). You can also join various
 IRC related mailing lists.
 
 * **operlist**
@@ -458,22 +457,23 @@ ircd-three@kei.com, exists to discuss protocol revisions for the 3.0 release
 of the ircd, currently in planning. Mail _ircd-three-request@kei.com_ with
 Subject: subscribe
 
-Those looking for more technical information can get the IRC RFC as a [web
-page](/protocol/rfc/rfc1459.txt) or 
-[text file by FTP](ftp://cs-ftp.bu.edu/irc/support/rfc1459.txt).
+Those looking for more technical information can get the IRC RFC as a 
+[web page](/protocol/rfc/rfc.html  ) or 
+[plain text](/protocol/rfc/rfc1459.txt) or 
+`ftp://cs-ftp.bu.edu/irc/support/rfc1459.txt`.
 
 ##  Where can I get an updated copy of this FAQ?
 
 this FAQ is available from several sources:
 
-* [cs-ftp.bu.edu:/irc/support/alt-irc-faq](ftp://cs-ftp.bu.edu/irc/support/alt-irc-faq)
-* [ftp.kei.com:/pub/irc/alt-irc-faq](ftp://ftp.kei.com/pub/irc/alt-irc-faq)
+* `ftp://cs-ftp.bu.edu/irc/support/alt-irc-faq`
+* `ftp://ftp.kei.com/pub/irc/alt-irc-faq`
 
 You can also look at this FAQ on the web, at:
-[http://www.kei.com/irc.html](http://www.kei.com/irc.html)
+`http://www.kei.com/irc.html`
 
 ##  What do I do if I'm still confused or have additions to this posting?
 
-email [hrose@kei.com](http://www.kei.com/homepages/hrose/) or ask for help (in
-#irchelp) on irc.
+email `hrose@kei.com`
+or ask for help (in #irchelp) on irc.
 
