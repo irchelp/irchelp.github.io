@@ -44,6 +44,8 @@ localtest:
     server: 'localhost:5000'
 Libera.Chat:
   homepage: 'https://libera.chat/'
+  webchat: 'https://web.libera.chat/'
+  uri: 'ircs://irc.libera.chat:6697'
   slocation: Europe, UK
   services: 'nickserv, chanserv, alis, memoserv, tls, ipv6'
   support_channels: '#libera'
