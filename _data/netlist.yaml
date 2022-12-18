@@ -949,30 +949,6 @@ PTlink:
   category:
     - regional
   status: down
-RusNet:
-  image: /media/flags/ru-flag.png
-  homepage: "http://www.rus-net.org/"
-  webchat:
-  slocation: Russia, Ukraine, Latvia, USA
-  services:
-  support_channels:
-  information: >
-    RusNet serves the Russian-speaking community with servers spread throughout the former Soviet Union and a few more outside it.
-  servers:
-    - irc.lucky.net
-    - irc.anarxi.st
-    - irc.mv.ru
-    - irc.seb.org.ua
-    - irc.odessa.ua
-    - irc.tsua.net
-    - irc.tomsk.net
-  webserverlist:
-  webstatistic:
-  category:
-    - regional
-  status: active
-  check:
-    server: irc.lucky.net
 ZAIRC:
   image: /media/flags/za-flag.png
   homepage: "https://zairc.net/"
