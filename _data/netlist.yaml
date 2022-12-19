@@ -953,19 +953,21 @@ RusNet:
   image: /media/flags/ru-flag.png
   homepage: "http://www.rus-net.org/"
   webchat:
-  slocation: Russia, Ukraine, Latvia, USA
+  slocation: Russia, Netherlands, Ukraine
   services:
   support_channels:
   information: >
-    RusNet serves the Russian-speaking community with servers spread throughout the former Soviet Union and a few more outside it.
+    RusNet serves the Russian-speaking community. 
   servers:
-    - irc.lucky.net
     - irc.anarxi.st
-    - irc.mv.ru
-    - irc.seb.org.ua
-    - irc.odessa.ua
-    - irc.tsua.net
     - irc.tomsk.net
+    - irc.meganet.ru
+    - irc.intertax.ru
+    - irc.lucky.net
+    - irc.tambov.ru
+    - irc.tom.ru
+    - irc.run.net
+    - irc.rusnet.org.ru
   webserverlist:
   webstatistic:
   category:
