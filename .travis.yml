@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.4.1
+- 3.0.5
 
 before_script:
  - chmod +x ./_scripts/build-jekyll.sh # or do this locally and commit
