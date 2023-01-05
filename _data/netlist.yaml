@@ -2265,8 +2265,11 @@ Zeolia:
   support_channels: #zeolia,#aide
   information: >
     French speaking generalist network
+    (until 2022 irc.zeolia.net)
   servers:
     - irc.zeolia.chat
+    - bds.zeolia.chat
+    - avalon.zeolia.chat
   webserverlist:
   webstatistic:
   category:
