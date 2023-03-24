@@ -2259,7 +2259,7 @@ Stomped.com:
 Zeolia:
   image: /media/flags/fr-flag.gif
   homepage: 'https://zeolia.chat'
-  webchat: 'https://zeolia.chat/kw/'
+  webchat: 'https://k.zeolia.chat/'
   slocation: France
   services: Nick (NickServ), Channel (ChanServ), Memo (MemoServ), Help (HelpServ)
   support_channels: #zeolia,#aide
@@ -2267,7 +2267,7 @@ Zeolia:
     French speaking generalist network
     (until 2022 irc.zeolia.net)
   servers:
-    - irc.zeolia.chat
+    - irc.zeolia.chat (Hub / Round Robin)
     - bds.zeolia.chat
     - avalon.zeolia.chat
   webserverlist:
