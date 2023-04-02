@@ -11,7 +11,8 @@ submitting them back to us. See COPYING for more information.
 
 Otherwise, please do not create mirrors of the site, thanks.
 
-[![Build Status](https://app.travis-ci.com/irchelp/irchelp.github.io.svg?branch=master)](https://app.travis-ci.com/irchelp/irchelp.github.io)
+[![status](https://github.com/irchelp/irchelp.github.io/workflows/check/badge.svg)](https://github.com/irchelp/irchelp.github.io)
+
 [![#irchelp on efnet](https://img.shields.io/badge/efnet-%23irchelp-pink.svg)](http://chat.efnet.org:9090/?nick=guest1234&channels=%23irchelp)
 [![#irchelp on libera.chat](https://img.shields.io/badge/libera.chat-%23irchelp-pink.svg)](https://web.libera.chat/#irchelp)
 
