@@ -28,7 +28,7 @@ of Google Code.
 * SSL support
 * Theming
 
-# Limks
+# Links
 
 * [Scripts and Themes](http://www.oldschoolirc.com/scripts)
 * [Download](http://www.oldschoolirc.com/download)

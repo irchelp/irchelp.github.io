@@ -7,6 +7,10 @@ redirect_from:
 # Cross-platform IRC clients
 There are a large and growing number of cross-platform clients that run equally well on many different operating systems.
 
+## Halloy
+
+[Halloy](/clients/cross/halloy.html) is an open-source graphical IRC client written in Rust. It aims to provide a simple and fast client for Mac, Windows, and Linux platforms.
+
 ## ChatZilla
 
 [ChatZilla](/clients/cross/chatzilla.html) runs as an addon for
