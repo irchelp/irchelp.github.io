@@ -33,13 +33,16 @@ Everyone's favorite kitchen sink has a built in IRC client, [ERC](/clients/unix/
 
 ## X11 (Graphical)
 
+## Halloy
+
+[Halloy](/clients/cross/halloy.html) is an open-source graphical IRC client written in Rust. It aims to provide a simple and fast client for Mac, Windows, and Linux platforms.
+
 ### XChat and HexChat
 XChat is easily the most popular of the X11 clients - it's lightweight, scriptable in multiple languages, and has sensible defaults. HexChat originally sprung out of the controversy surrounding the decision of XChat's primary developer to charge for Windows builds of the software, the source of which is free software covered under GPL. Originally an unofficial Windows port stemming from the XChat on Windows shareware controversy, HexChat became a fork in its own right, and is now offered on Unix/Linux systems as well as Windows. HexChat has become the more actively developed of the two, with frequent releases and new features.
 
 
 ### Konversation
 Konversation is the default choice out of the two IRC clients shipped with the KDE desktop.
-
 
 ### ChatZilla
 
