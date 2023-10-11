@@ -609,25 +609,23 @@ ChatNet:
     server: irc.chatnet.gr
 NewNet:
   comment:
-    - "2020-08-15 hp down"
   image:
   homepage: "http://www.newnet.net/"
-  webchat:
-  slocation: Canada, France, Germany, New Zealand, UK, USA
+  webchat: "https://web.newnet.net/"
+  slocation: Canada, USA
   services: Channel (ChanServ), Nick (NickServ)
-  support_channels: #idleland
+  support_channels: #helpdesk
   information: >
     Originally formed by the irc.eskimo.com server after being forced off
     EFnet, this network soon became a prime example of how a small network
     grows to a respectable size and maintains stability for a number of years.
     Started at April 1996
   servers:
-    - irc.bluntchat.netserverserver
-    - irc.newnet.net
-    - irc.ircsoulz.org
-    - irc.dopechat.net
-  webserverlist: "http://www.newnet.net/serverlist.php"
-  webstatistic:
+    - club.newnet.net
+    - tildeclub.newnet.net
+    - uswest.newnet.net
+  webserverlist: "https://newnet.net/servers/"
+  webstatistic: "https://newnet.net/stats/"
   category:
     - general
   status: active
