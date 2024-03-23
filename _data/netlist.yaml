@@ -1,6 +1,6 @@
 # vim:set ts=2 sw=2 et: 
 property:
-  lastchange: October 2021
+  lastchange: March 2024
   groups:
     - '[small](small.html)'
     - '[regional](regional.html)'
@@ -2276,3 +2276,28 @@ Zeolia:
   status: active
   check:
     server: irc.zeolia.chat
+IRCNow:
+  image:
+  homepage: 'https://wiki.ircnow.org/index.php'
+  irchelp:
+  webchat:
+  slocation: USA, Luxembourg
+  services: Nickserv
+  support_channels: '#help'
+  information: >
+    IRCNow provides internet services for the free and open source community.
+    IRCNow is a federation of servers that govern themselves,
+    each one with its own team of sysadmins who provide different services. 
+    (Started at 2020)
+  servers:
+    - irc.ircnow.org
+    - irc.planetofnix.com
+    - irc.oddprotocol.org
+  webserverlist: 'https://wiki.ircnow.org/index.php'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.ircnow.org
+
