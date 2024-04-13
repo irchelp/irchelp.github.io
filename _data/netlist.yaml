@@ -814,6 +814,9 @@ GRnet:
     Started 1996. Some foreign servers serving expatriates too.
   servers:
     - srv.irc.gr
+    - iris.irc.gr
+    - otrere.irc.gr
+    - rea.irc.gr
   webserverlist: "https://grnet.wordpress.com/about/grnet-servers/"
   webstatistic:
   category:
@@ -1147,7 +1150,7 @@ BeyondIRC:
     - small
   status: active
   check:
-    server: irc.beyondirc.net
+    server: walle.beyondirc.net
 StarLink:
   image:
   homepage: 'https://www.starlink.org/'
@@ -1627,13 +1630,16 @@ NightStar:
     Started March 1997  
   servers:
     - irc.nightstar.net
+    - Deepthought.Nightstar.Net
+    - Traal.Nightstar.Net
+    - Golgafrincham.Nightstar.Net
   webserverlist:
   webstatistic:
   category:
     - small
   status: active
   check:
-    server: irc.nightstar.net
+    server: Golgafrincham.Nightstar.Net
 Asianet:
   image:
   homepage: 'http://www.asianet.org/'
@@ -1855,7 +1861,7 @@ Tri-Net:
   webstatistic:
   category:
     - small
-  status: active
+  status: down
   check:
     server: Reston.Va.US.Tri-Net.Org 
 DifferentNET:
@@ -2187,6 +2193,7 @@ amigaworld:
     amiga
   servers:
     - irc.amigaworld.net
+    - 91.213.203.192
   webserverlist:
   webstatistic:
   category:
