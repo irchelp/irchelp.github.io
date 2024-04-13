@@ -1,6 +1,6 @@
 # vim:set ts=2 sw=2 et: 
 property:
-  lastchange: March 2024
+  lastchange: April 2024
   groups:
     - '[small](small.html)'
     - '[regional](regional.html)'
@@ -42,6 +42,26 @@ localtest:
   status: active
   check:
     server: 'localhost:5000'
+
+irc-nerds:
+  image:
+  homepage: 'https://irc-nerds.com/wiki/index.php/Main_Page'
+  irchelp:
+  webchat: 'https://webchat.irc-nerds.net'
+  slocation:
+  services: nickserv, chanserv, hostserv
+  support_channels: '#help'
+  information: >
+    created 2020
+  servers:
+    - irc.irc-nerds.net
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.irc-nerds.net
 Libera.Chat:
   homepage: 'https://libera.chat/'
   slocation: Europe, UK
