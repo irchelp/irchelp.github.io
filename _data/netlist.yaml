@@ -1,6 +1,6 @@
 # vim:set ts=2 sw=2 et: 
 property:
-  lastchange: April 2024
+  lastchange: May 2025
   groups:
     - '[small](small.html)'
     - '[regional](regional.html)'
@@ -43,6 +43,29 @@ localtest:
   check:
     server: 'localhost:5000'
 
+tilde.chat:
+  image:
+  homepage: 'https://tilde.chat/'
+  irchelp:
+  webchat: 'https://tilde.chat/gamja/'
+  slocation:
+  services: nickserv, chanserv, hostserv
+  support_channels: '#helpdesk'
+  information: >
+    tilde.chat is the irc network of the tildeverse, an association of social
+    unix servers built as an intentional community for teaching, learning, and
+    sharing.
+    tilde.chat is a place for tilde-folk and friends to gather and communicate.
+    created 2019
+  servers:
+    - 'irc.tilde.chat:6697'
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: 'irc.tilde.chat:6697'
 irc-nerds:
   image:
   homepage: 'https://irc-nerds.com/wiki/index.php/Main_Page'
