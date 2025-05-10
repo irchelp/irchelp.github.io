@@ -12,11 +12,12 @@ EFNet has two round robin's which are accessable via irc.efnet.org (ipv4 & ipv6)
 Further, each server on the network sets it's own policies for access and for acceptable user conduct, so it's likely that not all
 servers will permit access, or even be reachable.
 
-The following is a list of all client servers seen connected as of 06 December 2023
+The following is a list of all client servers seen connected as of 10 May 2025
 
 * irc.mzima.net
-* irc.servercentral.net
+* irc.deft.com
 * irc.colosolutions.net
+* efnet.tngnet.nl
 * irc.Prison.NET
 * irc.underworld.no
 * irc.homelien.no
