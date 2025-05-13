@@ -2350,4 +2350,24 @@ IRCNow:
   status: active
   check:
     server: irc.ircnow.org
-
+DesktopMasters:
+  image:
+  homepage: 'https://desktopmasters.com'
+  irchelp:
+  webchat:
+  slocation: USA
+  services: NickServ, ChanServ
+  support_channels: 
+  information: >
+    Network started in the 90s. That time was peaked. Unfortunately, in the 
+    2000s, the network is going down in popularity. Therefore, this network 
+    is down to one server. You may contact the administrator directly via DM.
+  servers:
+    - chat.desktopmasters.com
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: chat.desktopmasters.com
