@@ -37,6 +37,7 @@ regional:
 small:
 - AfterNET
 - BSDNet
+- DesktopMasters
 - EsperNet
 - FEFnet
 - IRCNow
@@ -51,5 +52,3 @@ small:
 - irc-nerds
 - starlink-irc
 - tilde.chat
-- xworld
-- DesktopMasters

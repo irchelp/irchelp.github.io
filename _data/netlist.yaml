@@ -1,4 +1,6 @@
-# vim:set ts=2 sw=2 et: 
+# vim: set ts=2 sw=2 et:
+%YAML 1.2
+---
 property:
   lastchange: May 2025
   groups:
@@ -17,8 +19,9 @@ emptynet:
   support_channels:
   information: >
     nix
+    nix
   servers:
-    - server
+   - server
   webserverlist:
   webstatistic:
   category:
@@ -163,6 +166,14 @@ Undernet:
     commonplace on other networks. Channel service requires certain conditions
     before registering a channel. Policy and application form available from
     their web site. Support for its services is extensive.
+  servers:
+    - irc.undernet.org
+    - chicago.il.us.undernet.org
+    - bucharest.ro.eu.undernet.org
+    - budapest.hu.eu.undernet.org
+    - dallas.tx.us.undernet.org
+    - losangeles.ca.us.undernet.org
+    - miami.fl.us.undernet.org
   webserverlist: 'https://www.undernet.org/servers.php'
   category:
     - popular
@@ -244,6 +255,15 @@ QuakeNet:
     not. Anyway, here's a network full of (mainly European) addicts. It has
     grown from a subject-specific network into the largest IRC network in the
     world!
+  servers:
+    - adrift.sg.quakenet.org
+    - atw.hu.quakenet.org
+    - cymru.us.quakenet.org
+    - euroserv.fr.quakenet.org
+    - hostsailor.ro.quakenet.org
+    - stockholm.se.quakenet.org
+    - tngnet.nl.quakenet.org
+    - underworld2.no.quakenet.org
   webserverlist: 'https://www.quakenet.org/servers'
   webstatistic: 'https://www.quakenet.org/statistics#tab-users-day'
   category:
@@ -418,6 +438,8 @@ StonerNET:
     Started November 1997
   servers:
     - irc.stonernet.org
+  category:
+    - small
   status: down
 ColdFront:
   comment: 
@@ -438,98 +460,6 @@ ColdFront:
   category:
     - game
   status: down
-SciFi:
-  comment: "2020-08-15 server ?"
-  image:
-    homepage: "http://www.scifi.com/chat/"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    The SciFi TV channel caters to science fiction and fantasy, this chat server hosts chats with stars from the shows.
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - scifi
-  status: down
-EqNET:
-  comment: 
-    - "2020-08-15 server ?"
-    - "https://web.archive.org/web/20170912041432/https://www.equestrianpages.com/category/chat/"
-  image:
-  homepage: "http://www.equestrianpages.com"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    All things equestrian (about horses, that is). Regular and special events. Main channel is #equestrian.
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
-'I.I.G.S. IRC':
-  comment:
-    - "2020-08-15 server ?"
-    - "https://web.archive.org/web/20060819153931/http://www.iigs.org/irc/index.htm"
-  image:
-  homepage: "http://www.iigs.org/irc/index.htm" 
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    Genealogists worldwide unite!
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
-BDSMnet:
-  comment:
-    - "2020-08-15 irc?"
-  image:
-  homepage: "http://www.bondage.com/irc/servers.asp"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    Network for adults who are interested in discussions and play in all forms of sexuality. (No, it's not a porn trading post.)
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
-StonerNET:
-  comment:
-    - "2020-08-15 server ?"
-    - "https://web.archive.org/web/20180902150525/http://stonernet.org/"
-  image:
-  homepage: "http://stonernet.org/"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    "Our goal is to unite the stoners around the world in order to bring an end to the prohibition of cannabis."
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
 'Kidlink IRC':
   comment:
     - "2020-08-15 server ?"
@@ -541,7 +471,8 @@ StonerNET:
   services:
   support_channels:
   information: >
-    For kids up to age 15 and educators with 'classrooms' in various languages. Requires registration prior to using, chat is monitored.
+    For kids up to age 15 and educators with 'classrooms' in various languages.
+    Requires registration prior to using, chat is monitored.
   servers:
     - server
   webserverlist:
@@ -729,7 +660,7 @@ SurNet:
   slocation: Argentina
   services: Channel (X), Nick (Nickserv)
   support_channels:
-  information: >
+  information:
   servers:
     - server
   webserverlist:
@@ -2259,26 +2190,6 @@ AmigaNet:
   information: >
     Amigas. What else could it be about?
     Started July 1997
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - mytest
-  status: down
-  check:
-    server: 
-Kidlink IRC:
-  image:
-  homepage: "http://www.kidlink.org/IRC/"
-  irchelp:
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    Network for kids up to age 15 and educators with 'classrooms' in
-    various languages. Requires registration prior to using it.
   servers:
     - server
   webserverlist:
