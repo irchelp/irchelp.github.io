@@ -562,11 +562,15 @@ ScoutLink:
     network to scouting channels all over IRC.
   servers:
     - webchat-ircd.scoutlink.net
+    - clovehitch.scoutlink.net
+    - birch2.scoutlink.net
   webserverlist:
   webstatistic:
   category:
     - kidedu
   status: active
+  check:
+    server: 'webchat-ircd.scoutlink.net:6697'
 CyberEd:
   comment:
     - "2020-08-15 server ?"
@@ -856,17 +860,16 @@ GRnet:
   information: >
     Started 1996. Some foreign servers serving expatriates too.
   servers:
-    - srv.irc.gr
-    - iris.irc.gr
-    - otrere.irc.gr
     - rea.irc.gr
+    - blue.ircn.gr
+    - eos.ircn.gr
   webserverlist: "https://grnet.wordpress.com/about/grnet-servers/"
   webstatistic:
   category:
     - regional
   status: active
   check:
-    server: srv.irc.gr
+    server: blue.ircn.gr
 Indonet:
   comment: "2020-08-16 server ?"
   image: /media/flags/id-flag.png
@@ -1183,6 +1186,7 @@ BeyondIRC:
   support_channels: '#A-BeyondIRC-Welcome, #Services'
   information: >
     A small IRC network which as been around since January, 1997.
+    Retired 2024
   servers:
     - walle.beyondirc.net
     - whipcrack.beyondirc.net
@@ -1191,7 +1195,7 @@ BeyondIRC:
   webstatistic:
   category:
     - small
-  status: active
+  status: down
   check:
     server: walle.beyondirc.net
 StarLink:
@@ -2243,7 +2247,7 @@ amigaworld:
     - computer
   status: active
   check:
-    server: irc.amigaworld.net
+    server: 91.213.203.192
 AmigaNet:
   image:
   homepage: "http://www.amiganet.org/"
