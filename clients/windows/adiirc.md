@@ -4,8 +4,6 @@ author: raccoon
 dateupdated: 4 June 2022
 layout: default
 redirect_from:
-  - /adiirc
-  - /AdiIRC
   - /clients/adiirc
   - /clients/AdiIRC
 ---

@@ -9,7 +9,7 @@ layout: default
 
 This FAQ is proudly sponsored by the EFnet, DALlnet and Undernet EBOAI. To
 obtain a current copy, point your web browser at [The Official IFAQ
-location](http://www.kei.com//homepages/yesowitc/IFAQ.html)
+location](http://www.kei.com/homepages/yesowitc/IFAQ.html)
 
 ## Questions in the IFAQ:
 {: .no_toc}
@@ -86,7 +86,7 @@ That's a really convoluted sentence, have you considered taking English 101? At 
 
   * Newnet - mail [nanook](mailto:nanook@eskimo.com)
   * DALnet - DALnet server code, stable 256K minimum link to the internet. See also [The dalnet homepage](http://www.dal.net/admin)
-  * Undernet - Proximity to a T3, permission from host sysadmin, reliable opers, stable machine, access to port 6667. For more information see [The undernet ftp site](ftp://ftp.undernet.org//pub/usenet/docs/newlinks/newlinks )
+  * Undernet - Proximity to a T3, permission from host sysadmin, reliable opers, stable machine, access to port 6667. For more information see [The undernet ftp site](ftp://ftp.undernet.org/pub/usenet/docs/newlinks/newlinks )
   * EFnet - T1 link minimum, 300+ existing concurrant IRC userbase, or take a server admin out to dinner. Mail to a server with close ping times (less than 60ms) requesting a link. For additional requirements, see [ Doug McLaren's irc-stats page](http://www.comco.com/dougmc/irc-stats/misc/New-server-guidelines
 )
 

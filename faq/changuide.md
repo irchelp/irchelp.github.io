@@ -415,9 +415,9 @@ help files.
 
 The "Eggdrop" bot is by far the most commonly used for IRC. There are many
 websites that describe how to set it up properly, including
-[Egghelp.com](http://www.egghelp.org/) and many others you can find on [Google
-](http://directory.google.com/Top/Computers/Software/Internet/Clients/Chat/IRC
-/Bots/Eggdrop/) and elsewhere. If you join some channels, like #egghelp or
+[Egghelp.com](http://www.egghelp.org/) and many others you can find on 
+[Google](http://directory.google.com/Top/Computers/Software/Internet/Clients/Chat/IRC/Bots/Eggdrop/) 
+and elsewhere. If you join some channels, like #egghelp or
 #bots or #bothelp on EFnet and other large networks, they will usually have a
 website in their topic or announce it in an autogreet message. Read everything
 you can on those sites. If you do not understand it, keep reading, then go

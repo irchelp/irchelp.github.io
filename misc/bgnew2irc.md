@@ -503,6 +503,7 @@ Attacks](/nuke/)<span lang="BG" style="mso-ansi-language:BG">.</span><span lang=
 [<span lang="BG" style="mso-ansi-language:BG">Съдържание</span>](#contents)
 \]</span>
 
+<span id="server"></span>
 
 ## 7\. <span lang="BG" style="mso-ansi-language:BG">Проблеми с </span><span lang="EN-US" style="mso-ansi-language:EN-US">IRC</span><span lang="BG" style="mso-ansi-language: BG"> сърверите и избиране на </span><span lang="EN-US" style="mso-ansi-language:EN-US">IRC </span><span lang="BG" style="mso-ansi-language:BG">сървер.</span>
 
@@ -609,7 +610,7 @@ BG">чат сесия</span>.
 \]</span>
 
 
-## 8\. <span lang="BG" style="mso-ansi-language:BG">По-подробна помощ</span>
+## 8\. <span id="help" lang="BG" style="mso-ansi-language:BG">По-подробна помощ</span>
 
 <span lang="BG" style="mso-ansi-language:BG">За допълнителна информация
 по тези въпроси, както и по други команди, посетете следната страницата
@@ -648,7 +649,7 @@ EN-US">IRC</span><span lang="BG" style="mso-ansi-language:BG">
 <span lang="BG" style="mso-ansi-language:BG">Най-изчерпателния
 източник за клиентите може да бъде намерен на </span>[FTP
 <span lang="BG" style="mso-ansi-language:BG">архива
-</span><span lang="EN-US" style="mso-ansi-language:EN-US">hacktic</span>](ftp.hacktic.nl:/pub/various/irc/clients/)
+</span><span lang="EN-US" style="mso-ansi-language:EN-US">hacktic</span>](ftp://ftp.hacktic.nl/pub/various/irc/clients/)
 <span lang="BG" style="mso-ansi-language:BG">или на </span>[WWW
 <span lang="BG" style="mso-ansi-language:
 BG">архива на
@@ -669,7 +670,7 @@ BG">архива на
 \]</span>
 
 
-## 9\. \><span lang="BG" style="mso-ansi-language:BG">Няколко предпупредителни думи</span>
+## 9\. \><span id="warning" lang="BG" style="mso-ansi-language:BG">Няколко предпупредителни думи</span>
 
 **IRC <span lang="BG" style="mso-ansi-language:BG">скриптовете
 </span>**<span lang="BG" style="mso-ansi-language:BG">са разширение от

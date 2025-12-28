@@ -123,24 +123,23 @@ imaginez le chaos si vous aviez 50 ou 500 personnes à l'avenir. Le fait simple
 est, courant des prises d'un canal d'EFnet au moins 10 personnes (pas bots)
 qui qualifient selon la section précédente. Si vous n'avez pas cela, queest-ce
 que le point est eu un canal de de toute façon ? Les visiteurs ne vont pas
-venir à un certain petit, mal organisé canal quand il y a des milliers [de
-plus grands canaux](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr
-&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fchanlist%2F) déjà. Si vous
+venir à un certain petit, mal organisé canal quand il y a des milliers 
+[de plus grands canaux](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fchanlist%2F) 
+déjà. Si vous
 insistez pour courir un canal de toute façon, considérez déplacer votre canal
-de new/small [à un réseau](http://babelfish.altavista.com/babelfish/urltrurl?l
-p=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fnetworks%2F) avec des
-services d'enregistrement.
+de new/small 
+[à un réseau](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fnetworks%2F) 
+avec des services d'enregistrement.
 
 ### 2C. Pourquoi ne pouvez-vous pas op juste je ?
 
 Sur EFnet, **personne bidon juste op vous** sur tous canal, opérateurs non
 égaux d'IRC ("opers") ou admins. Il n'y a aucune commande secrète. EFnet n'est
 pas comme d'autres réseaux tels que DALnet où ils ont des services qui donnent
-à des opers ces puissances. Pour plus d'information, voyez [pourquoi EFnet n'a
-aucun service d'enregistrement](http://babelfish.altavista.com/babelfish/urltr
-url?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fnetworks%2Fnoserv.ht
-ml) et [les mythes d'Opers](http://babelfish.altavista.com/babelfish/urltrurl?
-lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Fircd%2Fopermyth.html).
+à des opers ces puissances. Pour plus d'information, voyez 
+[pourquoi EFnet n'a aucun service d'enregistrement](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Firchelp%2Fnetworks%2Fnoserv.html)
+et 
+[les mythes d'Opers](http://babelfish.altavista.com/babelfish/urltrurl?lp=en_fr&url=http%3A%2F%2Fwww.irchelp.org%2Fircd%2Fopermyth.html).
 
 ## 3. Nous avons toujours des ops est-ce que mais elles tout est tourne au ralenti, peut vous op j'à la place ?
 
