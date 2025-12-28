@@ -902,7 +902,7 @@ _(DeadelviS has
 a few script packs you might want to check, zer0 has also been recommended)_
 
 You can also get ToolBox from there or from DaveMan's own site at
-<file://imageek.york.cuny.edu/pub/daveman>
+<ftp://imageek.york.cuny.edu/pub/daveman>
 
 **NOTE! _IT is very important you only get a script from a reputable source
 and you get it from a known site, such as the author's own ftp site. A
@@ -924,8 +924,8 @@ This primer is an absolute gem, giving novice (and some experienced) users a
 good grounding in IRC.  Available from:
 
 [ircprimer](/faq/ircprimer.html)     
-[file://nic.funet.fi/pub/unix/irc/docs/IRCprimer1.1.txt](ftp://nic.funet.fi/pub/unix/irc/docs/IRCprimer1.1.txt)
-[ftp://cs-pub.bu.edu/irc/support/IRCprimer1.1.txt](ftp://cs-pub.bu.edu/irc/support/IRCprimer1.1.txt)
+<ftp://nic.funet.fi/pub/unix/irc/docs/IRCprimer1.1.txt>
+<ftp://cs-pub.bu.edu/irc/support/IRCprimer1.1.txt>
 
 * * *
 last modified Jan 20, 1997

@@ -70,11 +70,11 @@ here are the more common ones:
 ### Lookalikes
 In Windows, executable programs have file extensions like "exe", "vbs", "com", "bat", etc.
  Some actual trojan filenames include: "dmsetup.exe" and "LOVE-LETTER-FOR-YOU.TXT.vbs" (when there are
-multiple extensions, only the last one counts, be sure to [unhide your
-extensions](trojanext.html) so that you see it). More information on risky
-file extensions may be found at this [Microsoft
-document](http://support.microsoft.com/support/kb/articles/q262/6/31.asp?LN
-=EN-US&SD=gn&FR=0).
+multiple extensions, only the last one counts, be sure to 
+[unhide your extensions](trojanext.html) so that you see it). More information on risky
+file extensions may be found at this 
+[Microsoft document](http://support.microsoft.com/support/kb/articles/q262/6/31.asp?LN=EN-US&SD=gn&FR=0)
+.
 
 ### Documents can be programs too!
 

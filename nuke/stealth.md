@@ -110,8 +110,7 @@ Winsock 2.2 Upgrade `W95ws2setup.exe` ,_**Reboot**_
   
 
 **Step 1**:
-Install Sp3 [nt4sp3_i.exe](ftp://ftp.microsoft.com/bussys/winnt/winnt-
-public/fixes/usa/nt40/ussp3/i386/nt4sp3_i.exe)
+Install Sp3 [nt4sp3_i.exe](ftp://ftp.microsoft.com/bussys/winnt/winnt-public/fixes/usa/nt40/ussp3/i386/nt4sp3_i.exe)
 
 **Step 2**:
 Install `tearfixi.exe` ,**_Reboot_**

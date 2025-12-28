@@ -106,9 +106,10 @@ researching on what is close to you and what isn't.
 
 If you want to link to EFnet, start with the **server link application
 information** for [Europe](http://www.efnet.org/?module=docs&doc=18),
-[Canada](http://www.ca-efnet.org/), and the [US (and also South America and
-other parts of the world not otherwise specified)](http://voting.efnet.net/us-
-efnet/).
+[Canada](http://www.ca-efnet.org/), and the 
+[US (and also South America and
+other parts of the world not otherwise specified)](http://voting.efnet.net/us-efnet/)
+.
 
 Read those very carefully. They specifically state what is and isn't
 acceptable for an IRC server. If you ask any questions that are already

@@ -24,7 +24,7 @@ Client To Client Protocol
 This document is a result of ongoing discussions among the IRC client coders
 CTCP Working Group. The mailing list for the group may be subscribed to by
 sending a mail message to
-[listproc%catless@newcastle.ac.uk](maito:listproc%25catless@newcastle.ac.uk).
+[listproc%catless@newcastle.ac.uk](mailto:listproc%25catless@newcastle.ac.uk).
 Comments may be sent to this mailing list, or to the author at 
 `mmclagan(at)invlogic.com`
 or in writing at his address on last page.

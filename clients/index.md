@@ -13,11 +13,13 @@ Unlike web-based chat, IRC uses software on your computer (a "client") to connec
 
 We list IRC clients by operating system:
 
-* [Windows](/irchelp/clients/windows/)
-* [MacOS X](/irchelp/clients/mac/)
-* [Linux/Unix](/irchelp/clients/unix/)
-* [Smartphone](/irchelp/clients/mobile/)
-* [Crossplatform](/irchelp/clients/cross/)
+* [Windows](/clients/windows/)
+* [MacOS X](/clients/mac/)
+* [Linux/Unix](/clients/unix/)
+* [Smartphone](/clients/mobile/)
+* [Crossplatform](/clients/cross/)
 * [Other Operating Systems](/clients/otheros)
 
-For users who want to get started without installing a client, there are a number of [web-based clients and gateways](/clients/webclients.html) that you may be able to use to try IRC in your browser.
+For users who want to get started without installing a client, there are a number of
+[web-based clients and gateways](/clients/webclients.html)
+that you may be able to use to try IRC in your browser.
