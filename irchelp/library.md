@@ -11,16 +11,18 @@ license: irchelp
 
   **Novice**
 
-  * [IRC Prelude](/irchelp/new2irc.html)
-  * [IRC Tutorial](/irchelp/irctutorial.html)
-  * [IRC International](/misc/foreign.html)     **More Advanced**
+  * [IRC Prelude](/faq/new2irc.html)
+  * [IRC Tutorial](/faq/irctutorial.html)
+  * [IRC International](/misc/foreign.html)
 
-  * [IRC Primer](/irchelp/ircprimer.html)
+  **More Advanced**
+
+  * [IRC Primer](/faq/ircprimer.html)
   * [FAQ from alt.irc](/faq/)
   * [IFAQ](/faq/ifaq.html)
   * [IRC Command Cosmos](/misc/ccosmos.html)
   * [IRC Operator Guide](/ircd/ircopguide.html)
-  * [RFC (technical specs) for IRC](/irchelp/rfc/) and [DCC/CTCP](/irchelp/rfc/ctcpspec.html)
+  * [RFC (technical specs) for IRC](/protocol/rfc/) and [DCC/CTCP](/protocol/ctcpspec.html)
 
 * * *
 
@@ -28,21 +30,23 @@ license: irchelp
 
   **Server Setup**
 
-  * [Network/Server Lists](/irchelp/networks/)
+  * [Network/Server Lists](/networks/)
   * [Server Request FAQ](/ircd/server-request.html)
-{% comment %}
-  * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext)
-{% endcomment %}
+  * [EFnet linking guidelines](https://www.efnet.link/) (ext)
   * [Server Software](/ircd/)
 {% comment %}
-  * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
+  * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)
 {% endcomment %}
+
+  **Server Use**
 
   * [Changes in Hybrid 6](/ircd/hybrid/hybrid6.html)
   * [Server Numeric Headers](/ircd/numerics.html)
   * [Server Desyncs](/ircd/desync.html)
   * [Time Stamp](/ircd/ircserv.html)
-  * [User Modes](/misc/umodes.html)     **IRC operators (IRCops)**
+  * [User Modes](/misc/umodes.html)
+
+  **IRC operators (IRCops)**
 
   * [Server Request FAQ](/ircd/server-request.html)
   * [Myth of Opers](/ircd/opermyth.html)
@@ -53,13 +57,17 @@ license: irchelp
 
   **Windows**
 
-  * [mIRC](/irchelp/mirc/)     **UNIX**
+  * [mIRC](/clients/windows/mirc/)
 
-  * [ircII, BitchX, EPIC](/irchelp/ircii/)
+  **UNIX**
+
+  * [ircII, BitchX, EPIC](/clients/unix/ircii/)
   * [ircII command help](/clients/unix/ircii/commands/)
-  * [scripting](/script/)     **Macintosh**
+  * [scripting](/script/)
 
-  * [Ircle, Snak, ShadowIRC](/irchelp/mac/)
+  **Macintosh**
+
+  * [Ircle, Snak, ShadowIRC](/clients/mac/)
   * [Ircle Setup Guide](/clients/mac/ircle_setup.html)
 
 * * *
@@ -68,14 +76,18 @@ license: irchelp
 
   **Channels (chat rooms)**
 
-  * [EFnet](/irchelp/chanlist/)     **Networks / Servers**
+  * [EFnet](/chanlist/)
 
-  * [Popular](/networks/popular.html):
-  * [EFnet](/networks/efnet/servers.html), Undernet,
-  * [IRCnet](/networks/ircnet/serverlist.html), DALnet
+  **Networks / Servers**
 
-  * [Topical](/networks/topical.html) 
-  * [General](/networks/general.html) 
+  * [Popular](/networks/popular.html)
+  * [EFnet](/networks/efnet/servers.html)
+  * [Undernet](https://www.undernet.org/servers.php)
+  * [IRCnet](/networks/ircnet/serverlist.html)
+  * [DALnet](https://www.dal.net/servers/)
+
+  * [Topical](/networks/topical.html)
+  * [General](/networks/general.html)
   * [Regional](/networks/regional.html) Nets
   * [Small](/networks/small.html) Nets
 
@@ -85,7 +97,7 @@ license: irchelp
 
   **Attacks and Defenses**
 
-  * [Denial of Service attacks (nukes)](/irchelp/nuke/)
+  * [Denial of Service attacks (nukes)](/nuke/)
   * [Trojan Horse attacks (IRC viruses)](/security/trojan.html)
   * [IRC Hints for Takeovers](/misc/hints.html)
   * [reporting abuse](/security/irclog.html)
@@ -97,7 +109,7 @@ For live help from our many volunteer experts, visit us on #IRChelp on EFnet
 and IRCnet - somebody is always happy to answer your IRC questions 24 hours a
 day, 7 days a week.
 
-Now click [here](/irchelp/) or on the first button in the navigational bar
+Now click [here](/) or on the first button in the navigational bar
 below to go back to the top of the #IRChelp home page, or if you came from
 somewhere else, select **BACK** on your browser to return there.
 
