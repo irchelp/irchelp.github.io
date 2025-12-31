@@ -1,7 +1,7 @@
 ---
 title: The IRC Prelude
 author: David Caraballo (DC-itsme) and Joseph Lo (Jolo)
-dateupdated: 02 July 2020
+dateupdated: 30 December 2025
 layout: default
 license: irchelp
 redirect_from: /irchelp/new2irc.html
@@ -27,7 +27,7 @@ The original version of this page is at <http://www.irchelp.org/faq/new2irc.html
 
 IRC (Internet Relay Chat) provides a way of communicating in real time with
 people from all over the world. It consists of various separate
-[networks](/irchelp/networks/) (or "nets") of IRC servers, machines that allow
+[networks](/networks/) (or "nets") of IRC servers, machines that allow
 users to connect to IRC. The largest nets are [EFnet](http://www.efnet.org/)
 (the original IRC net, often having more than 32,000 people at once),
 [Undernet](http://www.undernet.org/), [IRCnet](http://ircnet.org/),
@@ -36,16 +36,16 @@ users to connect to IRC. The largest nets are [EFnet](http://www.efnet.org/)
 
 
 Generally, the user (such as you) runs a program (called a "client") to
-connect to a server on one of the [IRC nets](/irchelp/networks/). The server
+connect to a server on one of the [IRC nets](/networks/). The server
 relays information to and from other servers on the same net. Recommended
 clients:
 
 
 * [UNIX/Linux Clients](/clients/unix/)
-  * [irssi](/irchelp/clients/unix/irssi/) - terminal-mode client
-  * [xchat](/irchelp/clients/unix/xchat.html) - X11 (graphical) client
+  * [irssi](/clients/unix/irssi/) - terminal-mode client
+  * [hexchat](/clients/cross/hexchat.html) - X11 (graphical) client
 * [Windows Clients](/clients/windows/)
-  * [mIRC](/irchelp/clients/windows/mirc/)
+  * [mIRC](/clients/windows/mirc/)
 * [Macintosh clients](/clients/mac/)
 
 
@@ -56,7 +56,7 @@ clients:
  Once connected to an IRC server on an IRC network, you will usually join one
 or more "channels" and converse with others there. On
 [EFnet](http://www.efnet.org/), there often are more than 12,000
-[channels](/irchelp/chanlist/), each devoted to a different topic.
+[channels](/chanlist/), each devoted to a different topic.
 Conversations may be public (where everyone in a channel can see what you
 type) or private (messages between only two people, who may or may not be on
 the same channel). IRC is not a "game", and I highly recommend you treat
@@ -84,7 +84,7 @@ common, e.g., "john" is a poor choice. On some nets, nicks do not belong to
 anyone, nor do channels. This can lead to conflict, so, if you feel strongly
 about ownership of such things, you may prefer networks with "services" like
 [Undernet](http://www.undernet.org/), [DALnet](http://www.dal.net/), or other
-[smaller networks](/irchelp/networks/).
+[smaller networks](/networks/).
 
 
 
@@ -100,8 +100,8 @@ where you are more welcome.
 
 
 
- [IRC servers](/ircd/) are run by IRC admins and by [IRC
-operators](/ircd/ircopguide.html), or "IRC ops". IRC ops manage the
+ [IRC servers](/ircd/) are run by IRC admins and by
+[IRC operators](/ircd/ircopguide.html), or "IRC ops". IRC ops manage the
 servers themselves and, on EFnet and many other networks, do not get involved
 in personal disputes, channel takeovers, restoring lost ops, etc. They are
 _not_ "IRC cops."
@@ -113,7 +113,7 @@ _not_ "IRC cops."
 
 Commands and text are typed in the same place. By default, commands begin
 with the character / . If you have a graphical client such as
-[mIRC](/irchelp/mirc/) for Windows, many commands can be executed by clicking
+[mIRC](/clients/windows/mirc/) for Windows, many commands can be executed by clicking
 on icons with the mouse pointer. It is, however, highly recommended that you
 learn to type in the basic IRC commands first. When entering commands, pay
 close attention to spacing and capitalization. The basic commands work on all
@@ -232,8 +232,8 @@ servers, so it are unaffected by server lag, net splits, etc.
 
  /quit good night!
 
- You quit IRC completely, with the parting comment so that others see "***
-Signoff: yournick (good night!)***".
+ You quit IRC completely, with the parting comment so that others see
+**Signoff: yournick (good night!)**.
 
 
 
@@ -252,7 +252,7 @@ a while. For starters, try these channels: #new2irc, #newuser, #newbies, or #cha
 
 
 
- For help with the [mIRC](/irchelp/mirc/) client, try joining
+ For help with the [mIRC](/clients/windows/mirc/) client, try joining
 [#new2mirc](http://www.mirc.co.uk/chat/n2mircef.chat) or
 [#mirchelp](http://www.mirc.co.uk/chat/mircheef.chat). For help with general
 IRC questions, join #irchelp.
@@ -331,22 +331,22 @@ not taken. Consult the MOTD or network homepage for details if you want to regis
 
  **Disconnected by /list?**     If you get disconnected when using the /list
 command, try switching servers, or else recent channel lists are available on
-the WWW at [http://www.irchelp.org/irchelp/chanlist/](/irchelp/chanlist/).
+the WWW at [http://www.irchelp.org/chanlist/](/chanlist/).
 
 
  **Harassment and attacks**     If someone starts harassing or flooding you,
 leave the channel or use the /ignore command. For more details,
-[mIRC](/irchelp/mirc/) users see our 
-[flood protection](/clients/windows/mirc/flood.html) page, [ircII](/irchelp/ircii/) users
+[mIRC](/clients/windows/mirc/) users see our
+[flood protection](/clients/windows/mirc/flood.html) page, [ircII](/clients/unix/ircii/) users
 type [/help ignore](/clients/unix/ircii/commands/irciihelp/ignore.html). It is a good idea to set
 your user mode to +i (invisible) to avoid unsolicited messages and harassment
 -- if you are "invisible" generally only users on a channel with you can
 determine what nick you are using.
 
 
- If somebody else is crashing or disconnecting you, see our [Denial of
-Service or "Nuke" Attacks](/irchelp/nuke/) page. You can also [log and report
-abuse](/security/irclog.html) when it violates server rules, which you can
+ If somebody else is crashing or disconnecting you, see our
+[Denial of Service or "Nuke" Attacks](/nuke/) page. You can also
+[log and report abuse](/security/irclog.html) when it violates server rules, which you can
 read by typing /motd.
 
 
@@ -359,7 +359,7 @@ commands above should suffice for beginners, but things can go wrong in IRC.
 
 
 
- **Net splits**     [Networks](/irchelp/networks/) can become divided (called
+ **Net splits**     [Networks](/networks/) can become divided (called
 a "net split"), thus separating you from users you had been speaking with.
 These splits are often relatively short, though common some days.
 
@@ -367,21 +367,21 @@ These splits are often relatively short, though common some days.
 
  **Lag**     A more frequent problem is "lag", where there is a noticeable
 delay between the time you type something in and someone else reads it.
-[Choosing a server](/irchelp/networks/) near you is one way to
+[Choosing a server](/networks/) near you is one way to
 try to lessen lag. Lag can be measured by using the /ping command (see the
 commands section above). Once you find a better server, the command for
 changing servers is /server server.name.here.
 
 
 
- **[Server Lists](/irchelp/networks/)**     On most clients, typing /links
+ **[Server Lists](/networks/)**     On most clients, typing /links
 gives a list of servers on your current net. Use this command sparingly, no
 more than a couple times in a row, or you may be mistaken for a "link looking"
 troublemaker.
 
 
 
- **Ping? Pong!**     [mIRC](/irchelp/mirc/) users: _Ping? Pong!_ in the
+ **Ping? Pong!**     [mIRC](/clients/windows/mirc/) users: _Ping? Pong!_ in the
 status window just means your server pinged you to make sure you were still
 connected, and your client automatically replied with a pong. Don't worry
 about these.
@@ -393,7 +393,7 @@ establish a one-on-one connection that avoids lag and will not be broken by a
 net split! Check your docs for usage info. In most clients, you can set up a
 DCC chat connection by both typing /dcc chat nick_of_other_person. To talk
 through that connection, type /msg =nick whatever (note the = sign). In
-[mIRC](/irchelp/mirc/), you can also start a DCC chat session by selecting
+[mIRC](/clients/windows/mirc/), you can also start a DCC chat session by selecting
 _DCC_ and then _Chat_ from the menu and then entering the nick of the user
 with whom you wish to chat. A window opens for that dcc chat session.
 
@@ -411,12 +411,12 @@ you can find many [help files](/faq/), such as:
 
 
 
-   * [IRC Primer](/irchelp/ircprimer.html)
+   * [IRC Primer](/faq/ircprimer.html)
 
    * [FAQ (Frequently Asked Questions)](/faq/altircfaq.html) for
 [alt.irc](news:alt.irc) newsgroup
 
-   * [IRC tutorial](/irchelp/irctutorial.html)
+   * [IRC tutorial](/faq/irctutorial.html)
 
 
 
@@ -425,11 +425,11 @@ IRC clients, including:
 
 
 
-   * [ircII client](/irchelp/ircii/)
+   * [ircII client](/clients/unix/ircii/)
 
-   * [Mac clients](/irchelp/mac/)
+   * [Mac clients](/clients/mac/)
 
-   * [mIRC client](/irchelp/mirc/) for Windows
+   * [mIRC client](/clients/windows/mirc/) for Windows
 
 
 
@@ -442,7 +442,7 @@ organized into groups like Windows, Macintosh, DOS, Amiga, Java, etc.
 
 
 
- The [mIRC](/irchelp/mirc/) client also has excellent built-in help files
+ The [mIRC](/clients/windows/mirc/) client also has excellent built-in help files
 written by Tjerk Vonck (mirc@dds.nl). Select _Ircintro.hlp_ from the _Help_
 menu.
 
@@ -480,7 +480,7 @@ Special thanks to FreeSoft, prysm, hershey, turtle, Ariell, and other #irchelp
 helpers on EFnet for their many helpful suggestions.
 
 Now that you've read this beginner's guide, get on IRC and enjoy! Or if you
-are interested in learning more, check out the many documents on the [#IRChelp
-home page](/).
+are interested in learning more, check out the many documents on the
+[#IRChelp home page](/).
 
 * * *
