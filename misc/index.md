@@ -28,13 +28,13 @@ doesn't mean they aren't important\!
   - [IRC International](foreign.html)  
     Non-English IRC resources, including help guides in many languages
     and web sites devoted to specific langages or regions.  
-    Includes: 
+{% include new2irc_translations.md %}
+{% comment %}
     [Deutsch](/misc/denew2irc.html) |
     [Indonesia](/misc/idnew2irc.html) |
     [Italiano](/misc/itnew2irc.html) |
     [Portugues](/misc/ptnew2irc.html) |
     [Turkish](/misc/trnew2irc.html) 
-{% comment %}
 	[Español](/misc/esnew2irc.html) |
     [Français](/misc/frnew2irc.html) |
     [ÅëëçíéêÜ](/misc/grnew2irc.html) |
@@ -54,7 +54,7 @@ tend to be shorter and more focused than the general files above.
     these rules very carefully.
 {%- comment -%}
   - [Log to HTML Translator](irctohtml.csh)  
-    A csh (C shell) script to translate [ircII](/irchelp/ircii/)-type
+    A csh (C shell) script to translate [ircII](/clients/unix/ircii/)-type
     logs into HTML for inclusion on web pages.
 {% endcomment %}
   - [Shareware](shareware.html)  
@@ -71,7 +71,7 @@ tend to be shorter and more focused than the general files above.
     spam, msg, and floods.
   - [UNIX Help Manual](unixhelp.html).  
     A short reference on commands for the [UNIX](http://www.ugu.com)
-    operating system, useful to [ircII](/irchelp/ircii/) users.
+    operating system, useful to [ircII](/clients/unix/ircii/) users.
   - [Web Chatting](webchat.html)  
     How to provide a web chat service so that visitors to your web page
     can join your IRC channels. Brief discussion of how to find web chat

@@ -27,7 +27,7 @@ webmaster and editor.
 </ul></td>
 <td><strong>Quick Info Links</strong>
 <ul>
-<li>Server lists: <a href="../networks/efnet/servers.html">EFnet</a> | 
+<li>Server lists: <a href="/networks/efnet/servers.html">EFnet</a> | 
 <a href="../networks/ircnet/serverlist.html">IRCnet</a> | 
 <a href="https://www.dal.net/servers/">DALnet</a> | 
 <a href="../networks/">others</a></li>
@@ -112,7 +112,7 @@ Nov 01 02
 DALnet has now taken the drastic step of intentionally crippling their
 round robin server aliases such as irc.dal.net. That's why people are
 getting "cannot assign address" errors when trying to connect. We've
-updated our [DALnet server list](../networks/servers/dalnet.html) to
+updated our [DALnet server list](/networks/dalnet/) to
 include a quick explanation of this problem, as well as a manually
 updated server list since DALnet's own [official server
 list](http://www.dal.net/servers/) hasn't been updated since April.
@@ -151,7 +151,7 @@ notes at bottom of Jolopak for more info.
 Sep 12 02
 
 **Mac clients update.** Just made very minor updates to the [Mac client
-page](../mac/) for all 3 major choices, plus you gotta love the cute
+page](/clients/mac/) for all 3 major choices, plus you gotta love the cute
 [Jaguar](http://www.apple.com/macosx/) logo. Did you know that Apple is
 now the world's \#1 vendor of \*nix computers? Not sure if that says
 something good about Apple or something bad about UNIX. :-)
@@ -286,7 +286,7 @@ most information in a clear yet concise manner.
 Mar 19 02
 
 **\*nix clients page update.** We are happy to present a major update of
-our [\*nix (UNIX, Linux, BSD, etc.) IRC client page](../ircii/).
+our [\*nix (UNIX, Linux, BSD, etc.) IRC client page](/clients/unix/ircii/).
 Formerly devoted to just ircII, this page now includes descriptions of
 other \*nix clients such as the text-based BitchX and EPIC as well as
 GUI clients like Xchat and KVIrc.
@@ -461,7 +461,7 @@ if you're running a channel, spread your ops out as much as possible.
 [Snak](http://www.snak.com/Snak.html) was updated to 4.8.2 on Jan 12.
 See [version history](http://www.snak.com/SnakHistory.html) for full
 details of changes. I took the opportunity to make slight updates to all
-entries on our [Mac IRC client](../mac/) page.
+entries on our [Mac IRC client](/clients/mac/) page.
 
 Jan 08 02
 
@@ -820,7 +820,7 @@ to do it. In case you didn't know, like most other IRC clients, mIRC is
 
 **Snak 4.7.2 for Mac released.** Continuing in its 4th year of active
 development, [Snak](http://www.snak.com/) 4.7.2 was just released. See
-the [Mac OS IRC client](../mac/) page for a description of this and
+the [Mac OS IRC client](/clients/mac/) page for a description of this and
 other competing clients.
 
 **Talk City charges for chat.** This is not a surprise, as it is a
