@@ -28,7 +28,9 @@ You have to know of course, which commands are available, in order to know which
 
 The CLI not only affords precision, but also requires it. Commands must be entered exactly, and are sensitive to proper capitalization (almost all commands are lower case).
 
-Most "commands" are actually small programs of their own - for example, if you have the [irssi](/irchelp/clients/unix/irssi.html) client installed, you should be able to run it simply by typing `irssi` at the prompt and pressing enter,
+Most "commands" are actually small programs of their own - for example, if you have the 
+[irssi](/clients/unix/irssi) 
+client installed, you should be able to run it simply by typing `irssi` at the prompt and pressing enter,
 
 ## Useful Commands to Know
 

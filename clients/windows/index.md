@@ -13,7 +13,7 @@ redirect_from:
 
 
 ## mIRC
-Most users on Windows choose to use the popular shareware client, [mIRC](/irchelp/clients/windows/mirc/), which is available for a 30 day trial, and costs $20.00 after the trial period.
+Most users on Windows choose to use the popular shareware client, [mIRC](/clients/windows/mirc/), which is available for a 30 day trial, and costs $20.00 after the trial period.
 
 ## XChat and derivatives
 The popular Unix IRC client [XChat](/irchelp/clients/windows/xchat.html) and a number clients forked from it are also available for Windows.

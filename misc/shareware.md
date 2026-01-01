@@ -42,7 +42,7 @@ but also many people choose to not pay. So
 typically shareware is limited to simple little programs like games, utilities,
 etc. There are exceptions, though. For example, some of the best and
 most complicated [Internet Relay Chat](/clients/) (IRC) client
-programs such as [mIRC for Windows](/irchelp/mirc/) are all shareware.
+programs such as [mIRC for Windows](/clients/windows/mirc/) are all shareware.
 
 ## So why pay the shareware fee?
 
@@ -60,8 +60,8 @@ Some software authors try to nudge you to do the right thing. For example, until
 pay, you get periodic reminders ("nagware"), some features are disabled
 ("crippleware"), the program quits after a while each time you use it
 ("quitware"), or maybe it just stops working after 30 days ("bombware"). Of course we
-all dislike these tactics, but [studies prove that they are
-effective](/misc/why_do_people_register.html)
+all dislike these tactics, but
+[studies prove that they are effective](/misc/why_do_people_register.html)
 in encouraging more people to pay. Oh well, pay on time and
 you won't have to worry about it. There are also some variations on
 nagging such as "careware" which requests that you send money to a charity,
@@ -72,8 +72,8 @@ live, or "beerware"... well you can figure that one out.
 
 These are just some of the many sites where you can find a wide range of
 freeware or shareware. Be very careful about downloading blindly from other sites,
-because what may look like shareware could instead be a [Trojan horse
-attack](/security/trojan.html) which could seriously compromise your
+because what may look like shareware could instead be a 
+[Trojan horse attack](/security/trojan.html) which could seriously compromise your
 security.
 
   * [CNET Download.com](http://download.cnet.com/)

@@ -12,7 +12,7 @@ redirect_from:
 original version at <http://www.irchelp.org/irchelp/security/>
 
 This page covers information for the safe and responsible use of [Internet
-Relay Chat (IRC)](/irchelp/new2irc.html) and other "chat rooms". Maybe you
+Relay Chat (IRC)](/faq/new2irc.html) and other "chat rooms". Maybe you
 were referred here because you suspect your security has been compromised, or
 maybe you just want to make sure you are safe. The following major topics are
 covered here:
@@ -29,7 +29,7 @@ consequences if you download and run them, e.g. takeover of your IRC channels,
 erasing of your hard disk, etc. Learn more about these attacks and how to undo
 the damage.
 
-**[Denial of Service Attacks (Nukes)](/irchelp/nuke/)**     Denial of service attacks or "nukes" make networked computers disconnect or crash. Learn how to defend yourself against these attacks.
+**[Denial of Service Attacks (Nukes)](/nuke/)**     Denial of service attacks or "nukes" make networked computers disconnect or crash. Learn how to defend yourself against these attacks.
 
 **[Downloading Files from IRC](warez.html)**     The biggest threat to IRC security ironically has nothing to do with the protocol or software itself. It is what people do _with_ IRC, e.g. downloading of illegal files. This can lead to legal problems, trojan horse viruses, denial of service attacks, etc. For your own good, learn these hard facts about file trading.
 
@@ -39,7 +39,7 @@ the damage.
 **[Home Computer Security](http://www.cert.org/homeusers/HomeComputerSecurity/)** [ext. link]     General guide to securing your home computer - written in plain English by CERT which is an authoritative center of Internet security expertise. Covers the proper use of anti-virus and firewall programs, how to keep your system patched, and other important issues.
 {% endcomment %}
 
-**[Home Network Security](http://www.cert.org/tech_tips/home_networks.html)** [ext. link]     From same source as above but more detailed and technical.
+**[Home Network Security](https://www.sei.cmu.edu/documents/530/2001_019_001_496696.pdf)** [ext. link]     From same source as above but more detailed and technical.
 
 {% comment %}
 **[General IRC Security](http://www.efnet.nl/security.php)** [ext. link]     This page describes why security is important on IRC, and provides general suggestions for how to secure your home computer/network.

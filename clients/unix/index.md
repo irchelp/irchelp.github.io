@@ -15,10 +15,10 @@ redirect_from:
 The first clients and servers for IRC were written as portable C code, which could be compiled and run on a variety of Unix derivatives, including many of the systems common in academic research at the time. The original IRC client, which was once distributed in the same package with IRCNet's IRCD, is now obsolete, but many other clients have improved upon its design.
 
 ### irssi
-[irssi](/irchelp/clients/unix/irssi.html) has taken ircII's place as the modern gold standard for IRC clients, with a sensible, familiar interface, sane defaults, a modern featureset, and of course, an embedded perl interpeter as its scripting interface.
+[irssi](/clients/unix/irssi/) has taken ircII's place as the modern gold standard for IRC clients, with a sensible, familiar interface, sane defaults, a modern featureset, and of course, an embedded perl interpeter as its scripting interface.
 
 ### ircII and derivatives
-For years, the standard by which all other clients were measured, [ircII](/irchelp/clients/unix/ircii/) and its derivatives remain a solid choice. ircII and its closest descendant,
+For years, the standard by which all other clients were measured, [ircII](/clients/unix/ircii/) and its derivatives remain a solid choice. ircII and its closest descendant,
 [EPIC](/clients/unix/epic.html), are still actively maintained, but maintain faithfulness with the original "blank canvas" of ircII&#8211;they are typically highly customized by each user, either by hand, or via a script pack.
 
 [BitchX](/clients/unix/bitchx.html) and [ScrollZ](/clients/unix/scrollz.html) take a different approach: both having started originally as script packs, they eventually applied their modifications directly to the client itself, creating a derivative of ircII with more bells and whistles than any user could possibly need.

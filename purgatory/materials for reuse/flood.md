@@ -22,7 +22,7 @@ HTML translation by Joseph Lo aka Jolo
 
 * * *
 
-When you're using [mIRC](/irchelp/mirc/) there are several ways to get rid of
+When you're using [mIRC](/clients/windows/mirc/) there are several ways to get rid of
 people harassing or flooding you. We will give detailed help in this file, but
 first of all you should make sure you use the latest mIRC. Please
 [upgrade](/clients/windows/mirc/index.html) if you're using an older version.
