@@ -27,7 +27,7 @@ Hello,
 
 If you just came from DALnet (or any other net with full services) and you're looking for a new place to chat, or if you're trying to find your friends, this file was written for you.
 
-First, if you're just trying to connect back to DALnet, or to figure out what is going on with the attacks over there, please see our [DALnet connection guide](/networks/servers/dalnet.html).
+First, if you're just trying to connect back to DALnet, or to figure out what is going on with the attacks over there, please see our [DALnet connection guide](/networks/dalnet/).
 
 Each IRC network has common commands, like /join, /msg, and /kick, but there are different ways other networks handle other things. First find out if this is the network where you will feel comfortable, then start a channel for your friends, and let them know where to look if you need to move. It's always good to have a backup plan.
 

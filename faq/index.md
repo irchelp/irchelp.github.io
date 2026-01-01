@@ -13,7 +13,7 @@ Over the years, we've accumulated many collections of frequently asked
 questions about IRC:
 
 
-[The IRC Prelude](/irchelp/new2irc.html)
+[The IRC Prelude](/faq/new2irc.html)
 
   This is a **must-read if you are new to Internet Relay Chat** (IRC). This **very short help file** by the #IRChelp operators covers the basics of IRC and will get you going in no time!
 
@@ -33,7 +33,7 @@ questions about IRC:
 
   This is the "bible" of IRC, a **very long but thorough discussion** of everything you ever wanted to know about IRC. The content is similar to the FAQs above, but it is presented more like a book with organized chapters and sections.
 
-[IRC Tutorial](/irchelp/irctutorial.html)
+[IRC Tutorial](/faq/irctutorial.html)
 
   If you prefer to **learn by doing** instead of reading some long user manual, this **medium-length step-by-step tutorial** is for you. It shows you how to master IRC, one command at a time.
 
@@ -50,8 +50,8 @@ questions about IRC:
 ## General Information
 
 
-  * [IRC Prelude](/irchelp/new2irc.html)
-  * [IRC Tutorial](/irchelp/irctutorial.html)
+  * [IRC Prelude](/faq/new2irc.html)
+  * [IRC Tutorial](/faq/irctutorial.html)
 {% comment %}
   * [IRC International](/misc/foreign.html)     **More Advanced**
 {% endcomment %}
@@ -64,10 +64,10 @@ questions about IRC:
 ## IRCd (server management)
 
 
-  * [Network/Server Lists](/irchelp/networks/)
+  * [Network/Server Lists](/networks/)
   * [Server Request FAQ](/ircd/server-request.html)
+  * [EFnet linking guidelines](https://www.efnet.link/) (ext)
 {% comment %}
-  * [EFnet linking guidelines](ftp://ftp.blackened.com/pub/irc/new-server-guidelines) (ext)
   * [IRCD Setup FAQ](http://www.alleged.com/faq/) (ext)      **Server Use**
 {% endcomment %}
 

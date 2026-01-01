@@ -6,8 +6,8 @@ layout: default
 # Channel Lists: Troubleshooting
 
 This guide covers some common problems when trying to do /list. If you
-just want to learn how to find channels, see our [channel list
-page](index.html) instead.
+just want to learn how to find channels, see our 
+[channel list page](index.html) instead.
 
 ## Server load is temporarily too heavy. Please wait a while and try again.
 
@@ -15,8 +15,8 @@ The message is self-explanatory. Some servers are handling tens
 thousands of users and just can\'t keep up with everybody typing
 commands like `/list`. Just wait a few minutes and try again, or try
 another server on the same network. You can use `/links` to get a
-current list of servers on any network, or see our web-based [server
-lists](/networks/efnet/servers.html).
+current list of servers on any network, or see our web-based 
+[server lists](/networks/efnet/servers.html).
 
 ## \"SendQ Exceeded\" or \"List output too large, truncated\"
 
@@ -72,7 +72,7 @@ one-channel list, by typing `/raw list #channelname` such as
 just a single channel\'s information, but it will close the previous,
 hung list.
 
-If you are using a client like [ircII](../ircii/) such as on a shell
+If you are using a client like [ircII](/clients/unix/ircii) such as on a shell
 account, you can try to issue the `/flush` command which flushes the
 server\'s buffer and tells it stop sending further data to you.
 

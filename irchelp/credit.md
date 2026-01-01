@@ -29,7 +29,7 @@ pages littered all over the Internet.
 {% comment %}
   * **All email addresses have been removed below to deter spam email. If you need to contact one of these people, try using the "[Send Email](/irchelp/mail.cgi)" form and pick the closest relevant helper. Sorry for the inconvenience.**
 {% endcomment %}
-  * Stephanie Daugherty and [Joseph Lo](http://railabs.duhs.duke.edu/~jyl/) are the current co-editors and webmasters of <[http://www.irchelp.org/](/irchelp/)>. The website is hosted at [MergeMedia](http://mergemedia.com/) thanks to [Douglas Boldt](http://boldt.us/).
+  * Stephanie Daugherty and [Joseph Lo](http://railabs.duhs.duke.edu/~jyl/) are the current co-editors and webmasters of <[http://www.irchelp.org/](/)>. The website is hosted at [MergeMedia](http://mergemedia.com/) thanks to [Douglas Boldt](http://boldt.us/).
   * The site was originally run by Jim Benson aka FreeSoft. He assembled the largest collection of over 600 help files covering every conceivable topic of IRC. In the mid 1990s, Jim went on to become a [pioneer in the private space industry](http://en.wikipedia.org/wiki/James_Benson) before he passed away in 2008.
   * [David Delmont aka kylania](http://www.radiks.net/kylania/) helped to create or customize many Perl scripts including the email feedback `/irchelp/mail.cgi` and site search `/irchelp/search_engine.cgi`.
   * Many other files were written by other #IRChelp ops and helpers from all over the Internet... there are too many to thank individually. Each page is credited where possible.

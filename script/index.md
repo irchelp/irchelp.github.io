@@ -9,8 +9,8 @@ layout: default
 
 ## Introduction
 
-Only [ircII](/irchelp/ircii/) scripts are maintained here - mIRC users please
-see our [mIRC page](/irchelp/mirc/) for scripts and help.
+Only [ircII](/clients/unix/ircii/) scripts are maintained here - mIRC users please
+see our [mIRC page](/clients/windows/mirc/) for scripts and help.
 
 There are no bots or scripts here that will help you flood, hack, or otherwise
 abuse IRC.

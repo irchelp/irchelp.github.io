@@ -21,7 +21,7 @@ client written in Java, and runs anywhere there's a suitable Java runtime.
 ## jIRCii
 
 [jIRCii](/clients/cross/jircii.html) is a barely graphical standalone Java
-client, with a look and feel inspired by [ircII](/irchelp/clients/unix/ircii/) but taking advantage of
+client, with a look and feel inspired by [ircII](/clients/unix/ircii/) but taking advantage of
 modern GUI functionality.
 
 ## HexChat

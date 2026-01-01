@@ -11,7 +11,7 @@ layout: default
 **Need help using our help site?**
 
   1. Check out one of the main directories or selected help files at the 
-     [top level](/irchelp/) of this site (see site map below),
+     [top level](/) of this site (see site map below),
 {% comment %}
   2. [Search our 800+ help files for specific keywords](/irchelp/search_engine.cgi),
   3. [Ask your question directly by email](/irchelp/mail.cgi).
@@ -140,7 +140,7 @@ day, 7 days a week.
 If you prefer, [email us](/irchelp/mail.cgi)!
 {% endcomment %}
 
-Now click [here](/irchelp/) 
+Now click [here](/) 
 {::comment}
 or on the first button in the navigational bar below to go back to the top of the #IRChelp home page, 
 {:/comment}
