@@ -21,6 +21,7 @@ Halloy is an open-source graphical IRC client written in Rust. It aims to provid
 * Built with Rust
 * Theming
 * IRCv3.2 capabilities
+* License GPL-3.0
 
 # Links
 
