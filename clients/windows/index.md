@@ -11,10 +11,6 @@ redirect_from:
 
 # IRC Clients for Windows
 
-## Halloy
-
-[Halloy](/clients/cross/halloy.html) is an open-source graphical IRC client written in Rust. It aims to provide a simple and fast client for Mac, Windows, and Linux platforms.
-
 
 ## mIRC
 Most users on Windows choose to use the popular shareware client, [mIRC](/irchelp/clients/windows/mirc/), which is available for a 30 day trial, and costs $20.00 after the trial period.

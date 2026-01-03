@@ -17,10 +17,6 @@ redirect_from:
 
 Mac IRC clients are all grown up and have entered the new era of free cloud computing and the Mac App Store. Most apps in this list are free or just a few dollars. This is a radical change from just a few years ago, when the best apps were shareware worth $30 or more. All of these apps are stable and usable, and that reflects not only the multi-year track record of these particular programs, but the overall maturity of IRC itself.
 
-## [Halloy](https://squidowl.org)
-
-Halloy is an open-source graphical IRC client written in Rust. It aims to provide a simple and fast client for Mac, Windows, and Linux platforms.
-
 ## [Colloquy 2.4](http://colloquy.info/)
 
 Open source freeware, available for Mac OS X and iOS. Good for novices and advanced users alike. They've been around since 2004 or so, and have grown from a lightweight client into a stable, full-featured one that supports not just IRC but also SILC and ICB. This is more than most users will need, as you can transfer files, chat on multiple networks, plaster your screen with mIRC colors, and handle scripting via Applescript.
