@@ -1,6 +1,8 @@
-# vim:set ts=2 sw=2 et: 
+# vim: set ts=2 sw=2 et:
+%YAML 1.2
+---
 property:
-  lastchange: October 2021
+  lastchange: May 2025
   groups:
     - '[small](small.html)'
     - '[regional](regional.html)'
@@ -17,8 +19,9 @@ emptynet:
   support_channels:
   information: >
     nix
+    nix
   servers:
-    - server
+   - server
   webserverlist:
   webstatistic:
   category:
@@ -42,6 +45,49 @@ localtest:
   status: active
   check:
     server: 'localhost:5000'
+
+tilde.chat:
+  image:
+  homepage: 'https://tilde.chat/'
+  irchelp:
+  webchat: 'https://tilde.chat/gamja/'
+  slocation:
+  services: nickserv, chanserv, hostserv
+  support_channels: '#helpdesk'
+  information: >
+    tilde.chat is the irc network of the tildeverse, an association of social
+    unix servers built as an intentional community for teaching, learning, and
+    sharing.
+    tilde.chat is a place for tilde-folk and friends to gather and communicate.
+    created 2019
+  servers:
+    - 'irc.tilde.chat:6697'
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: 'irc.tilde.chat:6697'
+irc-nerds:
+  image:
+  homepage: 'https://irc-nerds.com/wiki/index.php/Main_Page'
+  irchelp:
+  webchat: 'https://webchat.irc-nerds.net'
+  slocation:
+  services: nickserv, chanserv, hostserv
+  support_channels: '#help'
+  information: >
+    created 2020
+  servers:
+    - irc.irc-nerds.net
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.irc-nerds.net
 Libera.Chat:
   homepage: 'https://libera.chat/'
   slocation: Europe, UK
@@ -120,6 +166,14 @@ Undernet:
     commonplace on other networks. Channel service requires certain conditions
     before registering a channel. Policy and application form available from
     their web site. Support for its services is extensive.
+  servers:
+    - irc.undernet.org
+    - chicago.il.us.undernet.org
+    - bucharest.ro.eu.undernet.org
+    - budapest.hu.eu.undernet.org
+    - dallas.tx.us.undernet.org
+    - losangeles.ca.us.undernet.org
+    - miami.fl.us.undernet.org
   webserverlist: 'https://www.undernet.org/servers.php'
   category:
     - popular
@@ -201,6 +255,15 @@ QuakeNet:
     not. Anyway, here's a network full of (mainly European) addicts. It has
     grown from a subject-specific network into the largest IRC network in the
     world!
+  servers:
+    - adrift.sg.quakenet.org
+    - atw.hu.quakenet.org
+    - cymru.us.quakenet.org
+    - euroserv.fr.quakenet.org
+    - hostsailor.ro.quakenet.org
+    - stockholm.se.quakenet.org
+    - tngnet.nl.quakenet.org
+    - underworld2.no.quakenet.org
   webserverlist: 'https://www.quakenet.org/servers'
   webstatistic: 'https://www.quakenet.org/statistics#tab-users-day'
   category:
@@ -375,6 +438,8 @@ StonerNET:
     Started November 1997
   servers:
     - irc.stonernet.org
+  category:
+    - small
   status: down
 ColdFront:
   comment: 
@@ -395,98 +460,6 @@ ColdFront:
   category:
     - game
   status: down
-SciFi:
-  comment: "2020-08-15 server ?"
-  image:
-    homepage: "http://www.scifi.com/chat/"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    The SciFi TV channel caters to science fiction and fantasy, this chat server hosts chats with stars from the shows.
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - scifi
-  status: down
-EqNET:
-  comment: 
-    - "2020-08-15 server ?"
-    - "https://web.archive.org/web/20170912041432/https://www.equestrianpages.com/category/chat/"
-  image:
-  homepage: "http://www.equestrianpages.com"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    All things equestrian (about horses, that is). Regular and special events. Main channel is #equestrian.
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
-'I.I.G.S. IRC':
-  comment:
-    - "2020-08-15 server ?"
-    - "https://web.archive.org/web/20060819153931/http://www.iigs.org/irc/index.htm"
-  image:
-  homepage: "http://www.iigs.org/irc/index.htm" 
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    Genealogists worldwide unite!
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
-BDSMnet:
-  comment:
-    - "2020-08-15 irc?"
-  image:
-  homepage: "http://www.bondage.com/irc/servers.asp"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    Network for adults who are interested in discussions and play in all forms of sexuality. (No, it's not a porn trading post.)
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
-StonerNET:
-  comment:
-    - "2020-08-15 server ?"
-    - "https://web.archive.org/web/20180902150525/http://stonernet.org/"
-  image:
-  homepage: "http://stonernet.org/"
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    "Our goal is to unite the stoners around the world in order to bring an end to the prohibition of cannabis."
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - misc
-  status: down
 'Kidlink IRC':
   comment:
     - "2020-08-15 server ?"
@@ -498,7 +471,8 @@ StonerNET:
   services:
   support_channels:
   information: >
-    For kids up to age 15 and educators with 'classrooms' in various languages. Requires registration prior to using, chat is monitored.
+    For kids up to age 15 and educators with 'classrooms' in various languages.
+    Requires registration prior to using, chat is monitored.
   servers:
     - server
   webserverlist:
@@ -519,11 +493,15 @@ ScoutLink:
     network to scouting channels all over IRC.
   servers:
     - webchat-ircd.scoutlink.net
+    - clovehitch.scoutlink.net
+    - birch2.scoutlink.net
   webserverlist:
   webstatistic:
   category:
     - kidedu
   status: active
+  check:
+    server: 'webchat-ircd.scoutlink.net:6697'
 CyberEd:
   comment:
     - "2020-08-15 server ?"
@@ -609,25 +587,23 @@ ChatNet:
     server: irc.chatnet.gr
 NewNet:
   comment:
-    - "2020-08-15 hp down"
   image:
   homepage: "http://www.newnet.net/"
-  webchat:
-  slocation: Canada, France, Germany, New Zealand, UK, USA
+  webchat: "https://web.newnet.net/"
+  slocation: Canada, USA
   services: Channel (ChanServ), Nick (NickServ)
-  support_channels: #idleland
+  support_channels: #helpdesk
   information: >
     Originally formed by the irc.eskimo.com server after being forced off
     EFnet, this network soon became a prime example of how a small network
     grows to a respectable size and maintains stability for a number of years.
     Started at April 1996
   servers:
-    - irc.bluntchat.netserverserver
-    - irc.newnet.net
-    - irc.ircsoulz.org
-    - irc.dopechat.net
-  webserverlist: "http://www.newnet.net/serverlist.php"
-  webstatistic:
+    - club.newnet.net
+    - tildeclub.newnet.net
+    - uswest.newnet.net
+  webserverlist: "https://newnet.net/servers/"
+  webstatistic: "https://newnet.net/stats/"
   category:
     - general
   status: active
@@ -684,7 +660,7 @@ SurNet:
   slocation: Argentina
   services: Channel (X), Nick (Nickserv)
   support_channels:
-  information: >
+  information:
   servers:
     - server
   webserverlist:
@@ -815,14 +791,16 @@ GRnet:
   information: >
     Started 1996. Some foreign servers serving expatriates too.
   servers:
-    - srv.irc.gr
+    - rea.irc.gr
+    - blue.ircn.gr
+    - eos.ircn.gr
   webserverlist: "https://grnet.wordpress.com/about/grnet-servers/"
   webstatistic:
   category:
     - regional
   status: active
   check:
-    server: srv.irc.gr
+    server: blue.ircn.gr
 Indonet:
   comment: "2020-08-16 server ?"
   image: /media/flags/id-flag.png
@@ -1139,6 +1117,7 @@ BeyondIRC:
   support_channels: '#A-BeyondIRC-Welcome, #Services'
   information: >
     A small IRC network which as been around since January, 1997.
+    Retired 2024
   servers:
     - walle.beyondirc.net
     - whipcrack.beyondirc.net
@@ -1147,9 +1126,9 @@ BeyondIRC:
   webstatistic:
   category:
     - small
-  status: active
+  status: down
   check:
-    server: irc.beyondirc.net
+    server: walle.beyondirc.net
 StarLink:
   image:
   homepage: 'https://www.starlink.org/'
@@ -1629,13 +1608,16 @@ NightStar:
     Started March 1997  
   servers:
     - irc.nightstar.net
+    - Deepthought.Nightstar.Net
+    - Traal.Nightstar.Net
+    - Golgafrincham.Nightstar.Net
   webserverlist:
   webstatistic:
   category:
     - small
   status: active
   check:
-    server: irc.nightstar.net
+    server: Golgafrincham.Nightstar.Net
 Asianet:
   image:
   homepage: 'http://www.asianet.org/'
@@ -1857,7 +1839,7 @@ Tri-Net:
   webstatistic:
   category:
     - small
-  status: active
+  status: down
   check:
     server: Reston.Va.US.Tri-Net.Org 
 DifferentNET:
@@ -2189,13 +2171,14 @@ amigaworld:
     amiga
   servers:
     - irc.amigaworld.net
+    - 91.213.203.192
   webserverlist:
   webstatistic:
   category:
     - computer
   status: active
   check:
-    server: irc.amigaworld.net
+    server: 91.213.203.192
 AmigaNet:
   image:
   homepage: "http://www.amiganet.org/"
@@ -2207,26 +2190,6 @@ AmigaNet:
   information: >
     Amigas. What else could it be about?
     Started July 1997
-  servers:
-    - server
-  webserverlist:
-  webstatistic:
-  category:
-    - mytest
-  status: down
-  check:
-    server: 
-Kidlink IRC:
-  image:
-  homepage: "http://www.kidlink.org/IRC/"
-  irchelp:
-  webchat:
-  slocation:
-  services:
-  support_channels:
-  information: >
-    Network for kids up to age 15 and educators with 'classrooms' in
-    various languages. Requires registration prior to using it.
   servers:
     - server
   webserverlist:
@@ -2278,3 +2241,48 @@ Zeolia:
   status: active
   check:
     server: irc.zeolia.chat
+IRCNow:
+  image:
+  homepage: 'https://wiki.ircnow.org/index.php'
+  irchelp:
+  webchat:
+  slocation: USA, Luxembourg
+  services: Nickserv
+  support_channels: '#help'
+  information: >
+    IRCNow provides internet services for the free and open source community.
+    IRCNow is a federation of servers that govern themselves,
+    each one with its own team of sysadmins who provide different services. 
+    (Started at 2020)
+  servers:
+    - irc.ircnow.org
+    - irc.planetofnix.com
+    - irc.oddprotocol.org
+  webserverlist: 'https://wiki.ircnow.org/index.php'
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: irc.ircnow.org
+DesktopMasters:
+  image:
+  homepage: 'https://desktopmasters.com'
+  irchelp:
+  webchat:
+  slocation: USA
+  services: NickServ, ChanServ
+  support_channels: 
+  information: >
+    Network started in the 90s. That time was peaked. Unfortunately, in the 
+    2000s, the network is going down in popularity. Therefore, this network 
+    is down to one server. You may contact the administrator directly via DM.
+  servers:
+    - chat.desktopmasters.com
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
+  check:
+    server: chat.desktopmasters.com
