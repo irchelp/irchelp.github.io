@@ -9,7 +9,9 @@ There are a large and growing number of cross-platform clients that run equally 
 
 ## Halloy
 
-[Halloy](/clients/cross/halloy.html) is an open-source graphical IRC client written in Rust. It aims to provide a simple and fast client for Mac, Windows, and Linux platforms.
+[Halloy](/clients/cross/halloy/) 
+is an open-source graphical IRC client written in Rust. It aims to provide a
+simple and fast client for Mac, Windows, and Linux platforms.
 
 ## HexChat
 The popular XChat fork, [HexChat](./hexchat.html), originated as an unofficial Windows port, and now runs on Linux/Unix systems as well. A OSX port is available through Homebrew.
