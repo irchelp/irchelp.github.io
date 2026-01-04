@@ -952,7 +952,7 @@ RusNet:
     - regional
   status: active
   check:
-    server: irc.lucky.net
+    server: irc.anarxi.st
 ZAIRC:
   image: /media/flags/za-flag.png
   homepage: "https://zairc.net/"
@@ -972,6 +972,27 @@ ZAIRC:
   category:
     - regional
   status: down
+Morphie:
+  homepage: "https://www.morphie.com/"
+  webchat: "https://chat.morphie.net:9000/#/connect"
+  slocation:
+  support_channels: #Help
+  services: vHost /HostServ, /BotServ
+  information: >
+    Morphie is where old-school chatroom energy meets today’s internet magic.
+    We’ve taken the best parts of classic IRC—the quirky usernames,
+    the fast-paced conversations, the thrill of dropping into a room full of strangers—and
+    refreshed it with modern design, solid servers, and a community built for fun.
+    Started at 2025
+  servers:
+    - irc.zairc.net
+    - rising.morphie.net
+    - ashburn.morphie.net
+  webserverlist:
+  webstatistic:
+  category:
+    - small
+  status: active
   check:
     server: irc.zairc.net
 'ZAnet.net':
@@ -1053,6 +1074,8 @@ FunChat:
     - regional
   status: down
 ThaiNet:
+  comment:
+    - 2026-01-04 no response on irc servers, web looks abnormally
   image: /media/flags/th-flag.png
   homepage: "http://www.irc.in.th/"
   webchat:
@@ -1067,7 +1090,7 @@ ThaiNet:
   webstatistic:
   category:
     - regional
-  status: active
+  status: down
   check:
     server: irc.in.th
 irctr:
@@ -2240,7 +2263,7 @@ Zeolia:
     - small
   status: active
   check:
-    server: irc.zeolia.chat
+    server: 'irc.zeolia.chat:6697'
 IRCNow:
   image:
   homepage: 'https://wiki.ircnow.org/index.php'
