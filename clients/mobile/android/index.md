@@ -17,6 +17,10 @@ A variety of Android devices are out there, including smartphones, handhelds, ta
 
 AndroIRC is a popular choice for Android - it works well on most devices, and it's more than enough for keeping up with happenings on a channel or even performing basic channel operator functions. It comes in two versions - an ad-supported free version, and a paid version on the Google Play store which removes the advertising. Other than the ads, the versions are identical.
 
+## AndroidIRCx
+## [AndroidIRCx](https://play.google.com/store/apps/details?id=com.androidircx)
+A powerful IRCv3-compliant IRC client for Android with end-to-end encryption, multi-network support, and modern features.
+
 ## AndChat
 
 ## [Android IRC](https://play.google.com/store/apps/details?id=com.countercultured.irc&hl=en)
