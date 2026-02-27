@@ -30,10 +30,6 @@ Java and Flash both have the potential to connect directly to an IRC server with
 
 ## Hosted Clients
 
-### Mibbit
-
-Mibbit is a large, public web gateway designed to be easily embedded as a widget on other pages, as well as used directly. Mibbit is able to connect to most networks, and when used directly, supports multiple network connections and most features of a desktop client, but because it proxies connections to the IRC servers through it's own service, it's been banned from some servers and networks at various times.
-
 ### KiwiIRC
 [KiwiIRC](https://kiwiirc.com/) is both a open source, self-hosted web IRC client, and operates a public web gateway with support for a number of popular IRC networks. Unlike most web clients, it provides users with a scripting interface, and it's designed for both desktop and mobile use.
 
@@ -50,6 +46,13 @@ they mention BNC as an upcoming service for paid users.
 As this is one of the few "hosted" services offering push notifications
 for mobile users, this is one of the small number of clients for iOS users which can remain
 connected in the background.
+
+### Mibbit
+
+> [!WARNING]
+> DISCONTINUED
+
+Mibbit is a large, public web gateway designed to be easily embedded as a widget on other pages, as well as used directly. Mibbit is able to connect to most networks, and when used directly, supports multiple network connections and most features of a desktop client, but because it proxies connections to the IRC servers through its own service, it's been banned from some servers and networks at various times.
 
 ### Other Public Web Gateways
 
